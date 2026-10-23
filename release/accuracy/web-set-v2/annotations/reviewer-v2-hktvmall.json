@@ -1,0 +1,569 @@
+{
+  "schemaVersion": 1,
+  "imageId": "reviewer-v2-hktvmall",
+  "imageSha256": "850a67f57e9d181906a18ff88d5701a0ead10c20f8babf407683da139d0e91ba",
+  "width": 800,
+  "height": 870,
+  "coordinateSystem": "upright image pixels, top-left",
+  "scope": "full_image",
+  "evaluationRegion": {
+    "xywh": [
+      0,
+      0,
+      800,
+      870
+    ]
+  },
+  "points": [
+    {
+      "id": "end-001",
+      "x": 276,
+      "y": 99,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-002",
+      "x": 336,
+      "y": 73,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-003",
+      "x": 452,
+      "y": 70,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-004",
+      "x": 517,
+      "y": 82,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-005",
+      "x": 579,
+      "y": 105,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-006",
+      "x": 655,
+      "y": 78,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-007",
+      "x": 689,
+      "y": 117,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-008",
+      "x": 380,
+      "y": 167,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-009",
+      "x": 428,
+      "y": 172,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-010",
+      "x": 523,
+      "y": 161,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-011",
+      "x": 630,
+      "y": 155,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-012",
+      "x": 682,
+      "y": 195,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-013",
+      "x": 219,
+      "y": 212,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-014",
+      "x": 289,
+      "y": 226,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-015",
+      "x": 565,
+      "y": 222,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-016",
+      "x": 644,
+      "y": 234,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-017",
+      "x": 244,
+      "y": 282,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-018",
+      "x": 374,
+      "y": 304,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-019",
+      "x": 438,
+      "y": 284,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-020",
+      "x": 507,
+      "y": 248,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-021",
+      "x": 563,
+      "y": 309,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-022",
+      "x": 713,
+      "y": 322,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-023",
+      "x": 210,
+      "y": 362,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-024",
+      "x": 290,
+      "y": 352,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-025",
+      "x": 484,
+      "y": 355,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-026",
+      "x": 609,
+      "y": 364,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-027",
+      "x": 257,
+      "y": 440,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-028",
+      "x": 327,
+      "y": 444,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-029",
+      "x": 428,
+      "y": 418,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-030",
+      "x": 474,
+      "y": 457,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-031",
+      "x": 528,
+      "y": 415,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-032",
+      "x": 625,
+      "y": 442,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-033",
+      "x": 697,
+      "y": 457,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-034",
+      "x": 312,
+      "y": 521,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-035",
+      "x": 398,
+      "y": 485,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-036",
+      "x": 598,
+      "y": 530,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-037",
+      "x": 665,
+      "y": 558,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-038",
+      "x": 529,
+      "y": 584,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-039",
+      "x": 358,
+      "y": 628,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-040",
+      "x": 434,
+      "y": 630,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-041",
+      "x": 733,
+      "y": 624,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-042",
+      "x": 477,
+      "y": 695,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-043",
+      "x": 548,
+      "y": 694,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-044",
+      "x": 665,
+      "y": 675,
+      "matchRadius": 12
+    }
+  ],
+  "ignoreRegions": [
+    {
+      "id": "top-cut-01",
+      "polygon": [
+        [
+          378,
+          0
+        ],
+        [
+          431,
+          0
+        ],
+        [
+          432,
+          31
+        ],
+        [
+          417,
+          49
+        ],
+        [
+          392,
+          42
+        ],
+        [
+          378,
+          25
+        ]
+      ],
+      "reason": "Terminal face clipped by the promotional image top/right frame; excluded from point and exact-count truth."
+    },
+    {
+      "id": "top-cut-02",
+      "polygon": [
+        [
+          455,
+          0
+        ],
+        [
+          517,
+          0
+        ],
+        [
+          510,
+          23
+        ],
+        [
+          478,
+          36
+        ],
+        [
+          458,
+          25
+        ]
+      ],
+      "reason": "Terminal face clipped by the promotional image top/right frame; excluded from point and exact-count truth."
+    },
+    {
+      "id": "top-cut-03",
+      "polygon": [
+        [
+          519,
+          0
+        ],
+        [
+          565,
+          0
+        ],
+        [
+          563,
+          30
+        ],
+        [
+          544,
+          39
+        ],
+        [
+          524,
+          26
+        ]
+      ],
+      "reason": "Terminal face clipped by the promotional image top/right frame; excluded from point and exact-count truth."
+    },
+    {
+      "id": "top-cut-04",
+      "polygon": [
+        [
+          563,
+          0
+        ],
+        [
+          619,
+          0
+        ],
+        [
+          623,
+          37
+        ],
+        [
+          605,
+          61
+        ],
+        [
+          577,
+          54
+        ],
+        [
+          562,
+          29
+        ]
+      ],
+      "reason": "Terminal face clipped by the promotional image top/right frame; excluded from point and exact-count truth."
+    },
+    {
+      "id": "top-cut-05",
+      "polygon": [
+        [
+          646,
+          0
+        ],
+        [
+          694,
+          0
+        ],
+        [
+          683,
+          24
+        ],
+        [
+          660,
+          27
+        ]
+      ],
+      "reason": "Terminal face clipped by the promotional image top/right frame; excluded from point and exact-count truth."
+    },
+    {
+      "id": "right-cut-01",
+      "polygon": [
+        [
+          742,
+          27
+        ],
+        [
+          800,
+          27
+        ],
+        [
+          800,
+          114
+        ],
+        [
+          752,
+          107
+        ],
+        [
+          741,
+          80
+        ]
+      ],
+      "reason": "Terminal face clipped by the promotional image top/right frame; excluded from point and exact-count truth."
+    },
+    {
+      "id": "right-cut-02",
+      "polygon": [
+        [
+          748,
+          105
+        ],
+        [
+          800,
+          105
+        ],
+        [
+          800,
+          195
+        ],
+        [
+          757,
+          184
+        ],
+        [
+          747,
+          151
+        ]
+      ],
+      "reason": "Terminal face clipped by the promotional image top/right frame; excluded from point and exact-count truth."
+    },
+    {
+      "id": "right-cut-03",
+      "polygon": [
+        [
+          734,
+          235
+        ],
+        [
+          800,
+          235
+        ],
+        [
+          800,
+          316
+        ],
+        [
+          741,
+          309
+        ],
+        [
+          729,
+          284
+        ]
+      ],
+      "reason": "Terminal face clipped by the promotional image top/right frame; excluded from point and exact-count truth."
+    },
+    {
+      "id": "right-cut-04",
+      "polygon": [
+        [
+          723,
+          364
+        ],
+        [
+          800,
+          364
+        ],
+        [
+          800,
+          448
+        ],
+        [
+          742,
+          441
+        ],
+        [
+          719,
+          410
+        ]
+      ],
+      "reason": "Terminal face clipped by the promotional image top/right frame; excluded from point and exact-count truth."
+    },
+    {
+      "id": "right-cut-05",
+      "polygon": [
+        [
+          713,
+          493
+        ],
+        [
+          800,
+          493
+        ],
+        [
+          800,
+          575
+        ],
+        [
+          735,
+          569
+        ],
+        [
+          710,
+          542
+        ]
+      ],
+      "reason": "Terminal face clipped by the promotional image top/right frame; excluded from point and exact-count truth."
+    }
+  ],
+  "visibleEndpointCount": 44,
+  "completeCountVerified": false,
+  "sourceUrl": "https://www.hktvmall.com/hktv/zh/main/佳菲百貨/s/B0875001/運動旅行/運動旅行/露營用品/野餐用品/其他野餐用品/Z012-全城熱賣-30CM-燒烤竹籤-拋棄式-露營燒烤-衛生袋裝簽-關東煮串串香-加粗燒烤簽-BBQ專用木簽-生果串签/p/B0875001_S_QT-zhuqian-0430",
+  "imageUrl": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/956c/aa22/57f6/WunOnfgmoZ20241030234800_1200.jpg",
+  "method": "Blind manual visual point placement at every confidently complete blunt-end face. Border-cut faces explicitly ignored; retailer quantities and model predictions not used. Original image is local analysis only.",
+  "review": {
+    "status": "reviewed_frozen",
+    "annotator": "skill_update",
+    "reviewer": "root",
+    "notes": [
+      "44 confidently complete visible faces; not a whole-bundle count.",
+      "Top/right border-cut faces ignored individually.",
+      "Typical center uncertainty about 3-5 original pixels; frozen per-point radius proposed12px, independent reviewer may adjust before inference.",
+      "No app-model predictions have been viewed for this image.",
+      "Root checked raw image and numbered overlay before inference: all 44 labeled complete faces are distinct, no clear unlabeled complete face or duplicate point found.",
+      "Retained the 10 individual uncertainty polygons on top/right cut faces and completeCountVerified=false. No exact-count/MAE claim for this image.",
+      "Kept proposed 12 px point-matching radius before inference; localization precision/recall are protocol-dependent and separate from whole-image count."
+    ],
+    "reviewedAt": "2026-10-23T15:12:40.782230+00:00"
+  }
+}

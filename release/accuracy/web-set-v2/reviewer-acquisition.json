@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Local evaluation only; original photos are not for public redistribution",
+  "images": [
+    {
+      "imageId": "reviewer-v2-grandado",
+      "localPath": "output/web-annotation-v2/images/reviewer-v2-grandado.jpg",
+      "sourceUrl": "https://aus.grandado.com/products/factory-direct-bbq-bamboo-skewers-lamb-skewers-barbecue-dogs-disposable-bamboo-skewers-barbecue-tools-500-pcs?variant=UHJvZHVjdFZhcmlhbnQ6MzU2NjM0MDI5",
+      "imageUrl": "https://images.nexusapp.co/assets/0e/45/93/379415282.jpg",
+      "imageSha256": "96e142cc1be5f5ee507a0e4b924ea318bf38114919815fb0be06c6f5c61ad5ac",
+      "width": 800,
+      "height": 800,
+      "format": "JPEG",
+      "status": "excluded",
+      "originalStorage": "LOCAL_EVALUATION_ONLY",
+      "priorV1Comparison": {
+        "exactDuplicate": false,
+        "phash63Distances": {
+          "root-flat-black": 36,
+          "acquisition-04": 36,
+          "root-thick-ends": 28,
+          "acquisition-05": 30,
+          "acquisition-07": 30
+        }
+      },
+      "reason": "Side view of shafts only; no terminal end faces visible."
+    },
+    {
+      "imageId": "reviewer-v2-relaxdays",
+      "localPath": "output/web-annotation-v2/images/reviewer-v2-relaxdays.jpg",
+      "sourceUrl": "https://relaxdays.dk/produkter/gartenprodukte/grill/grilludstyr/grillspyd-af-bambus-500-pak-10023685-set.html",
+      "imageUrl": "https://cdn.relaxdays.com/media/catalog/product/cache/da78658a64c21a2e667cddbd22099f2e/1/0/10023685_0_7_a877a724c85c9a2b22279287677f45c8.jpg",
+      "imageSha256": "d884dca45812bfc7d84884b1d042ed5882db885a15852199bbe6ca4b6d606a65",
+      "width": 681,
+      "height": 681,
+      "format": "JPEG",
+      "status": "candidate_not_selected",
+      "originalStorage": "LOCAL_EVALUATION_ONLY",
+      "priorV1Comparison": {
+        "exactDuplicate": false,
+        "phash63Distances": {
+          "root-flat-black": 36,
+          "acquisition-04": 40,
+          "root-thick-ends": 32,
+          "acquisition-05": 36,
+          "acquisition-07": 30
+        }
+      },
+      "reason": "Different composition from selected Relaxdays closeup, but same vendor/product family with unverified physical-bundle independence. Conservatively keep local and unselected rather than count it as a fifth independent source group."
+    },
+    {
+      "imageId": "reviewer-v2-hktvmall",
+      "localPath": "output/web-annotation-v2/images/reviewer-v2-hktvmall.jpg",
+      "sourceUrl": "https://www.hktvmall.com/hktv/zh/main/佳菲百貨/s/B0875001/運動旅行/運動旅行/露營用品/野餐用品/其他野餐用品/Z012-全城熱賣-30CM-燒烤竹籤-拋棄式-露營燒烤-衛生袋裝簽-關東煮串串香-加粗燒烤簽-BBQ專用木簽-生果串签/p/B0875001_S_QT-zhuqian-0430",
+      "imageUrl": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/956c/aa22/57f6/WunOnfgmoZ20241030234800_1200.jpg",
+      "imageSha256": "850a67f57e9d181906a18ff88d5701a0ead10c20f8babf407683da139d0e91ba",
+      "width": 800,
+      "height": 870,
+      "format": "JPEG",
+      "status": "reviewed_frozen",
+      "originalStorage": "LOCAL_EVALUATION_ONLY",
+      "priorV1Comparison": {
+        "exactDuplicate": false,
+        "phash63Distances": {
+          "root-flat-black": 34,
+          "acquisition-04": 40,
+          "root-thick-ends": 38,
+          "acquisition-05": 34,
+          "acquisition-07": 32
+        }
+      },
+      "reason": "New distinct large blunt-end closeup; explicit edge ignores required. No package quantity used."
+    }
+  ],
+  "modelPredictionsViewed": false
+}

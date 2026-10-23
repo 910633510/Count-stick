@@ -34,6 +34,8 @@ The confirmed target is restaurant checkout photos of a bundle of skewer ends. D
 
 The user delegated online collection and annotation to the assistant. A first frozen set now contains five independent online endpoint photos and499 labeled visible endpoints, with two calibration scenes and three holdout scenes. See `accuracy/web-set/REPORT.md`. Build2 predicts96/8/77 on holdout truths97/28/70 (MAE9.33, exact0/3). One predeclared confidence sweep did not improve holdout counting, so production parameters remain unchanged. More independent target-scene coverage and scale-robust model work are needed before release; no additional user photo upload is required to begin research. Side-view sticks and pointed tips are not substitutes for the confirmed endpoint domain.
 
+A second frozen search-and-test round added four new scenes and 213 certain visible endpoints, all held out from parameter selection. Build 2 predicts 47 and 53 on the two complete visible counts 49 and 52 (MAE 1.5, exact 0/2). Across all four new scenes, point precision is 90.52% and recall is 98.59%; 20 of 22 false positives are advertising text. The two partial-border scenes are excluded from exact-count metrics. See `accuracy/web-set-v2/REPORT.md`. This iteration changed no weights, inference parameters, or App code; release remains blocked.
+
 ## Required account handoff
 
 Apple's [Apps API](https://developer.apple.com/documentation/appstoreconnectapi/apps) does not create App Store app records. The current public OpenAPI 4.5.1 exposes only GET on `/v1/apps`. This task is using API-only operations.

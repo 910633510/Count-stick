@@ -1,0 +1,529 @@
+{
+  "schemaVersion": 1,
+  "imageId": "root-v2-relax",
+  "imageSha256": "a39d27c16c7058f5b6d6632f729a29e6c077067b27979d39bd31d9268c225b44",
+  "width": 1024,
+  "height": 1024,
+  "coordinateSystem": "upright image pixels, top-left",
+  "scope": "full_image",
+  "evaluationRegion": {
+    "xywh": [
+      0,
+      0,
+      1024,
+      1024
+    ]
+  },
+  "points": [
+    {
+      "id": "end-001",
+      "x": 331,
+      "y": 126,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-002",
+      "x": 504,
+      "y": 188,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-003",
+      "x": 428,
+      "y": 217,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-004",
+      "x": 791,
+      "y": 211,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-005",
+      "x": 87,
+      "y": 246,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-006",
+      "x": 203,
+      "y": 229,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-007",
+      "x": 337,
+      "y": 249,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-008",
+      "x": 294,
+      "y": 283,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-009",
+      "x": 442,
+      "y": 285,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-010",
+      "x": 554,
+      "y": 298,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-011",
+      "x": 655,
+      "y": 256,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-012",
+      "x": 159,
+      "y": 326,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-013",
+      "x": 242,
+      "y": 346,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-014",
+      "x": 138,
+      "y": 397,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-015",
+      "x": 400,
+      "y": 376,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-016",
+      "x": 491,
+      "y": 369,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-017",
+      "x": 599,
+      "y": 362,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-018",
+      "x": 706,
+      "y": 344,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-019",
+      "x": 821,
+      "y": 313,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-020",
+      "x": 958,
+      "y": 363,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-021",
+      "x": 783,
+      "y": 403,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-022",
+      "x": 829,
+      "y": 468,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-023",
+      "x": 944,
+      "y": 449,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-024",
+      "x": 683,
+      "y": 448,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-025",
+      "x": 566,
+      "y": 454,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-026",
+      "x": 460,
+      "y": 470,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-027",
+      "x": 349,
+      "y": 472,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-028",
+      "x": 255,
+      "y": 475,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-029",
+      "x": 385,
+      "y": 520,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-030",
+      "x": 285,
+      "y": 547,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-031",
+      "x": 185,
+      "y": 545,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-032",
+      "x": 110,
+      "y": 523,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-033",
+      "x": 516,
+      "y": 545,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-034",
+      "x": 629,
+      "y": 569,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-035",
+      "x": 711,
+      "y": 524,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-036",
+      "x": 913,
+      "y": 548,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-037",
+      "x": 981,
+      "y": 618,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-038",
+      "x": 826,
+      "y": 599,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-039",
+      "x": 347,
+      "y": 640,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-040",
+      "x": 220,
+      "y": 649,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-041",
+      "x": 126,
+      "y": 650,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-042",
+      "x": 158,
+      "y": 746,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-043",
+      "x": 258,
+      "y": 749,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-044",
+      "x": 337,
+      "y": 710,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-045",
+      "x": 474,
+      "y": 650,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-046",
+      "x": 548,
+      "y": 686,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-047",
+      "x": 447,
+      "y": 722,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-048",
+      "x": 611,
+      "y": 743,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-049",
+      "x": 657,
+      "y": 672,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-050",
+      "x": 741,
+      "y": 650,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-051",
+      "x": 698,
+      "y": 731,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-052",
+      "x": 890,
+      "y": 693,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-053",
+      "x": 841,
+      "y": 779,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-054",
+      "x": 785,
+      "y": 845,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-055",
+      "x": 662,
+      "y": 820,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-056",
+      "x": 578,
+      "y": 849,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-057",
+      "x": 524,
+      "y": 783,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-058",
+      "x": 405,
+      "y": 823,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-059",
+      "x": 308,
+      "y": 834,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-060",
+      "x": 197,
+      "y": 843,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-061",
+      "x": 110,
+      "y": 830,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-062",
+      "x": 71,
+      "y": 936,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-063",
+      "x": 173,
+      "y": 941,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-064",
+      "x": 261,
+      "y": 897,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-065",
+      "x": 369,
+      "y": 907,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-066",
+      "x": 478,
+      "y": 904,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-067",
+      "x": 648,
+      "y": 945,
+      "matchRadius": 30
+    },
+    {
+      "id": "end-068",
+      "x": 750,
+      "y": 928,
+      "matchRadius": 30
+    }
+  ],
+  "ignoreRegions": [
+    {
+      "polygon": [
+        [
+          0,
+          300
+        ],
+        [
+          65,
+          300
+        ],
+        [
+          65,
+          1024
+        ],
+        [
+          0,
+          1024
+        ]
+      ],
+      "reason": "Image-border-cut terminal faces: center or complete extent is not reliably visible."
+    },
+    {
+      "polygon": [
+        [
+          0,
+          970
+        ],
+        [
+          1024,
+          970
+        ],
+        [
+          1024,
+          1024
+        ],
+        [
+          0,
+          1024
+        ]
+      ],
+      "reason": "Bottom-border-cut terminal faces; no complete physical bundle count inferred."
+    },
+    {
+      "polygon": [
+        [
+          0,
+          303
+        ],
+        [
+          40,
+          303
+        ],
+        [
+          83,
+          311
+        ],
+        [
+          108,
+          338
+        ],
+        [
+          111,
+          367
+        ],
+        [
+          93,
+          393
+        ],
+        [
+          62,
+          406
+        ],
+        [
+          19,
+          398
+        ],
+        [
+          0,
+          385
+        ]
+      ],
+      "reason": "Independently reviewed left-border-cut terminal face extends beyond narrow edge stripe; complete face center/extent cannot be verified."
+    }
+  ],
+  "visibleEndpointCount": 68,
+  "completeCountVerified": false,
+  "review": {
+    "status": "reviewed_frozen",
+    "annotator": "root visual manual centers, no model outputs",
+    "reviewer": "skill_update",
+    "notes": [
+      "No CountStick inference or product quantity was consulted.",
+      "All certain clear faces labeled including one occluded upper face; border-cut uncertain faces ignored.",
+      "Uniform 30 px matching radius chosen from visible 60-100 px endpoint sizes before inference; not adapted to model results.",
+      "Independent reviewer checked raw photo and numbered marks: 68 certain visible terminal faces, no missing clear interior face or duplicate point.",
+      "Point end-007 at337,249 is a distinct partly occluded brown terminal face.",
+      "Reviewer identified one left-border uncertainty mask too narrow. Expanded with a per-face polygon before freeze and before inference; no labeled point centers lie in the new polygon.",
+      "Retain completeCountVerified=false; image is excluded from whole-image exact-count/MAE metrics."
+    ],
+    "reviewedAt": "2026-10-23T15:15:14.742820+00:00"
+  }
+}

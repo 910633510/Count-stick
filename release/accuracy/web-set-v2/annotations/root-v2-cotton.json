@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "imageId": "root-v2-cotton",
+  "imageSha256": "1774f6f432598628e9d438ca346eb21dd7442afac3f47001866ac91dea6ae478",
+  "width": 450,
+  "height": 450,
+  "coordinateSystem": "upright image pixels, top-left",
+  "scope": "full_image",
+  "evaluationRegion": {
+    "xywh": [
+      0,
+      0,
+      450,
+      450
+    ]
+  },
+  "points": [
+    {
+      "id": "endpoint-001",
+      "x": 114.75,
+      "y": 172.0,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-002",
+      "x": 142.25,
+      "y": 172.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-003",
+      "x": 65.0,
+      "y": 172.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-004",
+      "x": 82.5,
+      "y": 173.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-005",
+      "x": 99.25,
+      "y": 204.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-006",
+      "x": 157.25,
+      "y": 207.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-007",
+      "x": 182.75,
+      "y": 207.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-008",
+      "x": 69.75,
+      "y": 210.0,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-009",
+      "x": 130.25,
+      "y": 211.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-010",
+      "x": 86.0,
+      "y": 216.0,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-011",
+      "x": 211.0,
+      "y": 224.0,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-012",
+      "x": 110.0,
+      "y": 230.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-013",
+      "x": 46.5,
+      "y": 234.0,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-014",
+      "x": 149.25,
+      "y": 237.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-015",
+      "x": 124.5,
+      "y": 239.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-016",
+      "x": 169.25,
+      "y": 243.0,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-017",
+      "x": 81.0,
+      "y": 246.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-018",
+      "x": 229.75,
+      "y": 255.0,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-019",
+      "x": 103.25,
+      "y": 259.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-020",
+      "x": 128.0,
+      "y": 265.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-021",
+      "x": 148.0,
+      "y": 269.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-022",
+      "x": 169.75,
+      "y": 274.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-023",
+      "x": 202.5,
+      "y": 276.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-024",
+      "x": 67.0,
+      "y": 276.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-025",
+      "x": 87.5,
+      "y": 280.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-026",
+      "x": 111.0,
+      "y": 288.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-027",
+      "x": 134.25,
+      "y": 291.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-028",
+      "x": 240.0,
+      "y": 294.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-029",
+      "x": 163.0,
+      "y": 301.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-030",
+      "x": 99.75,
+      "y": 307.0,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-031",
+      "x": 179.25,
+      "y": 307.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-032",
+      "x": 213.5,
+      "y": 309.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-033",
+      "x": 76.25,
+      "y": 311.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-034",
+      "x": 136.25,
+      "y": 319.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-035",
+      "x": 158.5,
+      "y": 332.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-036",
+      "x": 99.5,
+      "y": 336.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-037",
+      "x": 185.0,
+      "y": 337.0,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-038",
+      "x": 231.75,
+      "y": 338.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-039",
+      "x": 123.5,
+      "y": 341.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-040",
+      "x": 215.5,
+      "y": 344.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-041",
+      "x": 151.0,
+      "y": 353.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-042",
+      "x": 181.0,
+      "y": 354.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-043",
+      "x": 121.5,
+      "y": 364.75,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-044",
+      "x": 202.5,
+      "y": 367.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-045",
+      "x": 147.25,
+      "y": 368.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-046",
+      "x": 236.0,
+      "y": 368.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-047",
+      "x": 172.0,
+      "y": 375.25,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-048",
+      "x": 186.5,
+      "y": 391.5,
+      "matchRadius": 11
+    },
+    {
+      "id": "endpoint-049",
+      "x": 221.0,
+      "y": 399.0,
+      "matchRadius": 11
+    }
+  ],
+  "ignoreRegions": [],
+  "visibleEndpointCount": 49,
+  "completeCountVerified": true,
+  "review": {
+    "status": "reviewed_frozen",
+    "annotator": "app_implementation",
+    "reviewer": "root",
+    "notes": [
+      "Annotator visually placed points from raw 450x450 image and 4x raw crop without source/product quantities or model output.",
+      "Root independently checked original and numbered overlay before any inference: all49 visible terminal faces present, no clear omission or duplicate.",
+      "Small partly occluded cap at147.25,368.25 remains visibly distinct from its neighbors.",
+      "Count is visible terminal faces only, not package or hidden physical quantity."
+    ],
+    "reviewedAt": "2026-10-23T15:07:10.255334+00:00"
+  }
+}
