@@ -1,0 +1,104 @@
+{
+  "createdAtUTC": "2026-10-23T04:27:27.921988+00:00",
+  "locale": "en-US",
+  "appVersion": "1.0",
+  "build": "1",
+  "sourceManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/en-US/manifest.json",
+  "sourceManifestSHA256": "cf110e8f3589e0f3a37a231ab3cb3f473a03aebea743b752b16752b879928662",
+  "background": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/artwork/marketing/background.png",
+  "backgroundSHA256": "f83c7709a425e100842e152773ffb66e2f8916abe76d5fff21a1a87836541003",
+  "sourceEvidence": {
+    "device": "iPad Pro 13-inch (M5)",
+    "os": "iOS 26.5 (23F77)",
+    "appleLanguages": [
+      "en"
+    ],
+    "appleLocale": "en_US",
+    "effectiveLanguage": "English",
+    "configuration": "Release; ENABLE_TESTABILITY=YES for XCTest; DEBUG photo hook absent"
+  },
+  "rendering": "Entire authentic screenshot proportionately scaled; no UI edits or masks.",
+  "dimensionsReference": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/",
+  "visualReview": "PENDING",
+  "screenshots": [
+    {
+      "role": "result",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/en-US/result.png",
+      "sourceSHA256": "729ab3b3c7c2ba1a13fa6017c5d9ef78a66a7fdcdcb7625b27961af617bfd01a",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/en-US/01-result.png",
+      "sha256": "cca09cad0940838d9c0f987eb5f72f8d8ae3c7b56296cccd1ed56947ece67e8c",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "A photo. A clearer count.",
+      "supporting": "Count skewers and review each marker.",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "492759dfc97e963987262ca262b87400bf771db49062a5ed366de24c2364a877",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "A photo.",
+        "A clearer count."
+      ]
+    },
+    {
+      "role": "correction",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/en-US/correction.png",
+      "sourceSHA256": "1d85cdf71d15a3c91ae5b24a6d58c471ae6e1604e728b3d0dbccf0439e30c4bb",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/en-US/02-correction.png",
+      "sha256": "f349676ae597f41cc1551c1150d00fe0889db7a53677b8652faf53910a056a1d",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "Check it. Correct it.",
+      "supporting": "Add, remove, or undo a marker.",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "c7f9f18fd71066b27b81d099d2dc9727f812a9422b58c9b6a5d24c5978f775a1",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "Check it.",
+        "Correct it."
+      ]
+    },
+    {
+      "role": "history",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/en-US/history.png",
+      "sourceSHA256": "f370e72b48cf62a28e1995344e2befa2bb202187306a542708c338a77449e39c",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/en-US/03-history.png",
+      "sha256": "e47d6cdab1f9d99bc8918da979033e4e6419d89cea97332b9f92a99390ead611",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "Keep the count handy.",
+      "supporting": "Save a note. Reopen or share.",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "ed8b29d6792946fea82081b501e49854a773425f9c228bfedcfb6f905ad071b9",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "Keep the count",
+        "handy."
+      ]
+    }
+  ],
+  "releaseCaptureGate": "RELEASE_SOURCE_RECORDED"
+}

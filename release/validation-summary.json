@@ -1,0 +1,48 @@
+{
+  "unit": {
+    "result": "Passed",
+    "passed": 12,
+    "failed": 0,
+    "skipped": 0,
+    "evidence": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/unit-tests-final12.xcresult"
+  },
+  "iphone_workflows": {
+    "result": "Passed",
+    "passed": 3,
+    "failed": 0,
+    "skipped": 0,
+    "evidence": "/private/tmp/count-stick-ui-tests-r3.xcresult"
+  },
+  "ipad_workflows": {
+    "result": "Passed",
+    "passed": 2,
+    "failed": 0,
+    "skipped": 0,
+    "evidence": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/ipad-ui-final.xcresult"
+  },
+  "distribution": {
+    "bundleID": "x.Count-stick",
+    "version": "1.0",
+    "build": "1",
+    "ipaPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/app-store-final/Count stick.ipa",
+    "ipaSHA256": "b15dbcc046c81270d2e8806a3cd794f2aeb8c9fde654eaeaf311ec6c02f6e8f6"
+  },
+  "limitations": [
+    "No physical device or camera acceptance; all UI workflows are iOS simulators.",
+    "Real-photo inference smoke is not an accuracy benchmark.",
+    "SwiftUI logged a non-failing frame-size diagnostic while the note keyboard appeared; exercised UI behavior passed.",
+    "New App Store record, live price, asset upload, app privacy publication and submission are not completed."
+  ],
+  "iphone_release_capture": {
+    "result": "Passed",
+    "passed": 1,
+    "failed": 0,
+    "evidence": "/private/tmp/count-stick-final-release-captures.xcresult"
+  },
+  "ipad_release_capture": {
+    "result": "Passed",
+    "passed": 1,
+    "failed": 0,
+    "evidence": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/ipad-store-capture.xcresult"
+  }
+}

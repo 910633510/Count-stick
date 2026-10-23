@@ -1,0 +1,108 @@
+{
+  "reviewed_date_local": "2026-10-23",
+  "scope": "Independent read-only technical review; runtime smoke artifacts and downloaded real photo fixtures only.",
+  "status": "PASS_SOURCE_REVIEW_AND_LOCAL_BUILD_WITH_RUNTIME_LIMITS",
+  "reviewed_file_sha256": {
+    "Count stick/StickDetector.swift": "5cd529f56e7f356e8ec4727af38c7872f3f5ad0de71e0002229eabafb3c55618",
+    "Count stick/CountWorkspace.swift": "20a5a6fbc912bcb44b7280450cf8b5629ba50f71ab0d02e430428f8a9f03828e",
+    "Count stick/CountHistory.swift": "a827cac7132e74268ff0ba77d4e18f2a1518b004d9c114f4545472845767b400",
+    "Count stick/CountModel.swift": "130279a55f5b8e6776014a7a1a35f59d70733975ddb243e185d05b25c28c89a9",
+    "Count stick/ContentView.swift": "15001ecd23e7571099ae485811516ded601bc6a0cb587244d2c97819caf701cc",
+    "Count stick/en.lproj/Localizable.strings": "f0782b522fd75b2d1d2a106141ee4173927c92430cfb97b4017678533d123d58",
+    "Count stick/zh-Hans.lproj/Localizable.strings": "998d78e1c1eb1adc6e5c1ff1280edd6da12979c1852ba7681063ef94c8d8806e",
+    "Count stick.xcodeproj/project.pbxproj": "feb4c45619382f7d62567d15d5c5385b08c98ed3b6a1bcc1757837b8307a16a8"
+  },
+  "model": {
+    "input": "640x640 color image",
+    "outputs": [
+      "confidence Nx1 Float32",
+      "coordinates Nx4 Float32"
+    ],
+    "class_names": [
+      "label"
+    ],
+    "vision_result_type": "VNRecognizedObjectObservation",
+    "preprocessing": "ImageIO max dimension 2048 with EXIF transformation; upright image sent to Vision scaleFill",
+    "smoke_evidence": "model-runtime-processed-audit.json"
+  },
+  "runtime_smoke": {
+    "platform": "macOS CoreML CPU only",
+    "real_skewer_photo": {
+      "fixture": "fixtures/bamboo-skewers-cc0.jpg",
+      "detections": 167,
+      "ground_truth": null
+    },
+    "real_toothpick_photo": {
+      "fixture": "fixtures/bamboo-toothpicks-cc0.jpg",
+      "detections": 0,
+      "ground_truth": null,
+      "finding": "Visible thin toothpicks were missed; unsuitable as a successful counting example."
+    },
+    "synthetic_white_negative": {
+      "detections": 0,
+      "purpose": "Integration smoke only"
+    }
+  },
+  "fixed_findings": [
+    {
+      "priority": "P2",
+      "issue": "Corrupt history could be overwritten on next save",
+      "resolution": "loadFailed now blocks save and delete before writing any files."
+    },
+    {
+      "priority": "P2",
+      "issue": "Pending PhotosPicker transfer could overwrite later-opened history edits",
+      "resolution": "History opens now return while importing or processing."
+    },
+    {
+      "priority": "P2",
+      "issue": "Deleted restored record could still appear Saved, including after Undo",
+      "resolution": "History record-id removal invalidates current workspace saved snapshot regardless of pending edits."
+    }
+  ],
+  "localization": {
+    "locales": [
+      "en",
+      "zh-Hans"
+    ],
+    "keys_each": 83,
+    "matching_keys": true,
+    "matching_format_placeholders": true,
+    "plutil_valid_files": 4,
+    "visual_layout_validation": "Parent integration pass; not inferred from string validation."
+  },
+  "website_copy_review": {
+    "result": "PASS",
+    "files": [
+      "../Count-stick-website/count-stick-privacy.html",
+      "../Count-stick-website/count-stick-support.html"
+    ],
+    "basis": [
+      "Local CoreML only",
+      "No account, analytics, ads or purchase SDK in app source",
+      "PhotosPicker selected-photo access",
+      "History explicitly saved locally and excluded from backup",
+      "Explicit system share sheet",
+      "Paid-download copy and estimate/manual-review guidance"
+    ]
+  },
+  "release_setting_snapshot": {
+    "bundle_id": "x.Count-stick",
+    "version": "1.0",
+    "build": "1",
+    "team": "5B49H2L7N4",
+    "minimum_ios": "17.0",
+    "device_families": [
+      "iPhone",
+      "iPad"
+    ],
+    "note": "Parent owns signing and live ASC verification; no release state was changed by this reviewer."
+  },
+  "remaining_validation_limits": [
+    "No annotated representative dataset or verified total counts; do not claim counting accuracy.",
+    "Mac/simulator evidence does not establish physical iPhone latency or camera behavior.",
+    "App Store record creation, live pricing, uploads and review submission remain separate gates."
+  ],
+  "test_review": "Core unit 12 PASS; prior-keyboard iPhone UI 3 PASS and iPad UI 2 PASS. Frozen Release capture review pending; see build-review.json.",
+  "build_review": "build-review.json"
+}

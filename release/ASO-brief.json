@@ -1,0 +1,236 @@
+{
+  "status": "RESEARCH_COMPLETE_IMPLEMENTATION_PENDING",
+  "researchedOn": "2026-10-22",
+  "bundleId": "x.Count-stick",
+  "appStoreId": null,
+  "targetMarkets": [
+    "China mainland",
+    "United States"
+  ],
+  "locales": [
+    "zh-Hans",
+    "en-US"
+  ],
+  "positioning": "A focused paid-upfront skewer photo counter: inspect the result, correct individual markers, keep a local record.",
+  "price": {
+    "territory": "CHN",
+    "currency": "CNY",
+    "requestedCustomerPrice": "12.00",
+    "doNotPrintFixedPriceInGlobalDescription": true
+  },
+  "candidateKeywords": [
+    {
+      "intent": "Chinese core counting",
+      "terms": [
+        "拍照数签子",
+        "竹签计数",
+        "签子数量",
+        "拍照点数"
+      ]
+    },
+    {
+      "intent": "Chinese use case",
+      "terms": [
+        "串串清点",
+        "烧烤数签",
+        "火锅结账",
+        "餐饮盘点"
+      ]
+    },
+    {
+      "intent": "Chinese workflow",
+      "terms": [
+        "离线计数",
+        "手动标记"
+      ]
+    },
+    {
+      "intent": "English core counting",
+      "terms": [
+        "skewer counter",
+        "stick count",
+        "photo tally",
+        "bamboo count"
+      ]
+    },
+    {
+      "intent": "English use case",
+      "terms": [
+        "barbecue skewers",
+        "hotpot counting",
+        "restaurant tally"
+      ]
+    },
+    {
+      "intent": "English workflow",
+      "terms": [
+        "offline counter",
+        "manual correction",
+        "count history"
+      ]
+    }
+  ],
+  "keywordEvidence": "Intent hypotheses from product functions and observed App Store positioning; no search-volume, difficulty, ranking or conversion measurements are claimed.",
+  "selectedFields": {
+    "en-US": {
+      "name": "Count Stick: Skewer Counter",
+      "subtitle": "Photo counting, local history",
+      "keywords": "bamboo,wooden,tally,barbecue,hotpot,restaurant,markers,correction,inventory,offline",
+      "validation": {
+        "nameCharacters": 27,
+        "subtitleCharacters": 29,
+        "keywordsUTF8Bytes": 83,
+        "promotionalTextCharacters": 145,
+        "descriptionCharacters": 1083
+      }
+    },
+    "zh-Hans": {
+      "name": "Count Stick 拍照数签子",
+      "subtitle": "竹签清点、手动校对与本地记录",
+      "keywords": "烧烤,串串,火锅,餐饮,点数,离线,相册,标记,统计,分享",
+      "validation": {
+        "nameCharacters": 17,
+        "subtitleCharacters": 14,
+        "keywordsUTF8Bytes": 69,
+        "promotionalTextCharacters": 59,
+        "descriptionCharacters": 358
+      }
+    }
+  },
+  "competitorObservations": [
+    {
+      "sourceId": "competitor-us",
+      "observation": "A direct skewer counter emphasizes many item types, speed/accuracy promises and subscriptions. Count Stick can present a narrower, verifiable workflow and upfront purchase."
+    },
+    {
+      "sourceId": "competitor-cn-1",
+      "observation": "Chinese inventory counters combine broad item coverage, history and export. Focus the first image on skewers rather than implying broad model coverage."
+    },
+    {
+      "sourceId": "competitor-cn-2",
+      "observation": "Manual correction is familiar adjacent-category language. The second screenshot should make the actual add/remove controls easy to see."
+    }
+  ],
+  "screenshotFirstThree": {
+    "en-US": [
+      {
+        "order": 1,
+        "headline": "A photo. A clearer count.",
+        "supporting": "Count skewers and review each marker.",
+        "screen": "Actual counting result with a real photo; keep returned count and markers unmodified."
+      },
+      {
+        "order": 2,
+        "headline": "Check it. Correct it.",
+        "supporting": "Add, remove, or undo a marker.",
+        "screen": "Actual marker-editing state; demonstrate the implemented correction controls."
+      },
+      {
+        "order": 3,
+        "headline": "Keep the count handy.",
+        "supporting": "Save a note. Reopen or share.",
+        "screen": "Actual saved local history or record detail with a non-personal note."
+      }
+    ],
+    "zh-Hans": [
+      {
+        "order": 1,
+        "headline": "拍照数签，逐个看清",
+        "supporting": "数量与标记，一起核对",
+        "screen": "真实中文计数结果与真实照片；保留应用实际返回的数量和标记。"
+      },
+      {
+        "order": 2,
+        "headline": "漏了补，错了改",
+        "supporting": "添加、删除、撤销，随手校对",
+        "screen": "真实中文标记编辑界面，展示实际修正控件。"
+      },
+      {
+        "order": 3,
+        "headline": "数完留一份记录",
+        "supporting": "写备注，回看，也能分享",
+        "screen": "真实中文历史或详情界面，使用不含个人信息的备注。"
+      }
+    ]
+  },
+  "termsToAvoid": [
+    "CountThings",
+    "CountThis",
+    "Count Camera",
+    "点数相机",
+    "competitor app names",
+    "99% accuracy",
+    "1 second",
+    "500 items",
+    "steel pipe detection",
+    "cell counting"
+  ],
+  "localizationNotes": [
+    "Use actual English app UI for en-US assets and actual Simplified Chinese app UI for zh-Hans assets.",
+    "Do not translate UI pixels in marketing images. Capture each locale after final app localization.",
+    "Keep language concise; do not imply a billing system when the app only counts and stores results."
+  ],
+  "optionalFutureExperiments": [
+    "After release, compare photo-result versus manual-correction hero screenshots using App Store product page optimization.",
+    "Consider a restaurant/skewer custom product page only after a baseline listing and enough acquisition evidence exist. No advertising spend or new custom page is part of this draft."
+  ],
+  "sources": [
+    {
+      "id": "apple-product",
+      "title": "Creating your product page",
+      "url": "https://developer.apple.com/app-store/product-page/",
+      "accessed": "2026-10-22",
+      "supports": "Simple distinctive names; benefit-led screenshots; first one to three screenshots can appear in search; no fixed regional price in description."
+    },
+    {
+      "id": "apple-search",
+      "title": "App Store search",
+      "url": "https://developer.apple.com/app-store/search/",
+      "accessed": "2026-10-22",
+      "supports": "Text relevance includes title, subtitle, keywords and primary category; user behavior also contributes."
+    },
+    {
+      "id": "apple-keywords",
+      "title": "Platform version information",
+      "url": "https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/",
+      "accessed": "2026-10-22",
+      "supports": "Keywords up to 100 bytes; no other app/company names; description 4000 characters, promotional text 170 characters."
+    },
+    {
+      "id": "apple-ads",
+      "title": "Keywords best practices",
+      "url": "https://ads.apple.com/app-store/best-practices/keywords",
+      "accessed": "2026-10-22",
+      "supports": "Use relevant general and specific user-intent terms. Advertising advice is not proof of organic ranking or volume."
+    },
+    {
+      "id": "apple-cpp",
+      "title": "Custom product pages",
+      "url": "https://developer.apple.com/app-store/custom-product-pages/",
+      "accessed": "2026-10-22",
+      "supports": "Localized screenshots and promotional text can focus on a particular use case; additional pages are optional."
+    },
+    {
+      "id": "competitor-us",
+      "title": "Count Camera — US App Store",
+      "url": "https://apps.apple.com/us/app/count-camera/id6753931802",
+      "accessed": "2026-10-22",
+      "supports": "Listing focuses on skewers/chopsticks, restaurant use, offline processing and history; free with in-app purchases. Claims are publisher copy, not independent measurements."
+    },
+    {
+      "id": "competitor-cn-1",
+      "title": "点数相机-啥都能数：数钢管、数竹签、数钢筋 — China App Store",
+      "url": "https://apps.apple.com/cn/app/%E7%82%B9%E6%95%B0%E7%9B%B8%E6%9C%BA-%E5%95%A5%E9%83%BD%E8%83%BD%E6%95%B0-%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%95%B0%E7%AB%B9%E7%AD%BE-%E6%95%B0%E9%92%A2%E7%AD%8B/id1568634122",
+      "accessed": "2026-10-22",
+      "supports": "Broad inventory positioning, history/export and subscription model. Candidate differentiation: a focused skewer workflow and upfront purchase."
+    },
+    {
+      "id": "competitor-cn-2",
+      "title": "拍照点数神器-AI拍照计数钢管 — China App Store",
+      "url": "https://apps.apple.com/cn/app/%E6%8B%8D%E7%85%A7%E7%82%B9%E6%95%B0%E7%A5%9E%E5%99%A8-ai%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0%E9%92%A2%E7%AE%A1/id6758122199",
+      "accessed": "2026-10-22",
+      "supports": "Manual add/remove corrections are part of adjacent counting-app positioning; no inference about its accuracy."
+    }
+  ],
+  "completionGate": "ASO is not complete until the final localized fields and authentic screenshots are applied and re-read from the new app’s App Store Connect record."
+}

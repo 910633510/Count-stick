@@ -1,0 +1,104 @@
+{
+  "createdAtUTC": "2026-10-23T04:27:02.856353+00:00",
+  "locale": "en-US",
+  "appVersion": "1.0",
+  "build": "1",
+  "sourceManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/en-US/manifest.json",
+  "sourceManifestSHA256": "f6d15347bafd79382f37bf4a7fb5a18d37c7aa20bcf61e85e43e6d1d5c2333ef",
+  "background": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/artwork/marketing/background.png",
+  "backgroundSHA256": "f83c7709a425e100842e152773ffb66e2f8916abe76d5fff21a1a87836541003",
+  "sourceEvidence": {
+    "device": "iPhone 17 Pro",
+    "os": "iOS 26.5 (23F77)",
+    "appleLanguages": [
+      "en"
+    ],
+    "appleLocale": "en_US",
+    "effectiveLanguage": "English",
+    "configuration": "Release"
+  },
+  "rendering": "Entire authentic screenshot proportionately scaled; no UI edits or masks.",
+  "dimensionsReference": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/",
+  "visualReview": "PENDING",
+  "screenshots": [
+    {
+      "role": "result",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/en-US/result.png",
+      "sourceSHA256": "51dc8509f4067ee9d8f2babd3438e142e0ee50d953906793411b93ba862612eb",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/en-US/01-result.png",
+      "sha256": "7bc22839a07679a02e04c3f8886f1d10e3ffbf2992a32f74f097f6c64f066f9a",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "headline": "A photo. A clearer count.",
+      "supporting": "Count skewers and review each marker.",
+      "screenshotRectangle": [
+        140,
+        520,
+        925,
+        2012
+      ],
+      "proportionalScale": 0.7673531655225019,
+      "scaledScreenshotPixelSHA256": "ebf472ae2bc226b7a1ad39d524e474ffc240efeddc76bd2eb038b9845842a3c0",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "A photo.",
+        "A clearer count."
+      ]
+    },
+    {
+      "role": "correction",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/en-US/correction.png",
+      "sourceSHA256": "ae8aede9d33ea6ad84add5083d417554720a06590facb8616cbd213e35c613a7",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/en-US/02-correction.png",
+      "sha256": "cd0a91458d055abd54e44d94fa0322ba7b5c331fc368759bbdba22bdc29965c0",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "headline": "Check it. Correct it.",
+      "supporting": "Add, remove, or undo a marker.",
+      "screenshotRectangle": [
+        140,
+        520,
+        925,
+        2012
+      ],
+      "proportionalScale": 0.7673531655225019,
+      "scaledScreenshotPixelSHA256": "53288a189fa4379b141c76fbe524e1f2a3ae61436bf7f11d1ae75f08527386e2",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "Check it.",
+        "Correct it."
+      ]
+    },
+    {
+      "role": "history",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/en-US/history.png",
+      "sourceSHA256": "bd9cda4cec8070e4925c114254780a4c14d9770eceecdd09df46994444c10934",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/en-US/03-history.png",
+      "sha256": "4c2869477964cadcc5dcd9a28a7badc9c972f15d0a4a0e296c34d0561b81b1b9",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "headline": "Keep the count handy.",
+      "supporting": "Save a note. Reopen or share.",
+      "screenshotRectangle": [
+        140,
+        520,
+        925,
+        2012
+      ],
+      "proportionalScale": 0.7673531655225019,
+      "scaledScreenshotPixelSHA256": "1bb6519905dba7b8cb7acd577901cd7d605c35d8358c0399a3e4d47b83902e8d",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "Keep the count",
+        "handy."
+      ]
+    }
+  ],
+  "releaseCaptureGate": "RELEASE_SOURCE_RECORDED"
+}

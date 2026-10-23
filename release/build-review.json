@@ -1,0 +1,169 @@
+{
+  "reviewDateLocal": "2026-10-23",
+  "buildGate": "PASS_LOCAL_ARCHIVE_AND_IPA",
+  "storeSubmissionGate": "BLOCK_NO_APP_STORE_APP_ID_OR_SUBMISSION_RECEIPT",
+  "sourceDeltaReview": {
+    "result": "PASS",
+    "changes": [
+      "Regular-width iPad photo canvas increased within 760pt content width.",
+      "Share payload is Identifiable and presented by sheet(item:) so image and presentation state change together.",
+      "Note keyboard has explicit Done dismissal.",
+      "Frozen keyboard toolbar uses one Done item; earlier UI-suite runtime warning remains separately recorded until frozen Release capture is reviewed."
+    ],
+    "findings": []
+  },
+  "iconReview": {
+    "result": "PASS",
+    "pixels": [
+      1024,
+      1024
+    ],
+    "hasAlpha": false,
+    "fullBleedSquare": true,
+    "preRoundedCorners": false,
+    "internalFrameOrBorder": false
+  },
+  "ipa": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/app-store-final/Count stick.ipa",
+  "ipaSha256": "b15dbcc046c81270d2e8806a3cd794f2aeb8c9fde654eaeaf311ec6c02f6e8f6",
+  "ipaBytes": 9222308,
+  "archive": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/CountStick-1.0-1-store.xcarchive",
+  "archiveCreationUTC": "2026-10-23 04:19:15",
+  "extractedReviewPath": "/var/folders/2b/wyssdc713_l0nz6k_m559_xc0000gn/T/count-stick-final-ipa-review-gmwy4zgs/Payload/Count stick.app",
+  "sourceFreezeContentViewSHA256": "15001ecd23e7571099ae485811516ded601bc6a0cb587244d2c97819caf701cc",
+  "info": {
+    "CFBundleIdentifier": "x.Count-stick",
+    "CFBundleShortVersionString": "1.0",
+    "CFBundleVersion": "1",
+    "CFBundleDisplayName": "Count Stick",
+    "MinimumOSVersion": "17.0",
+    "UIDeviceFamily": [
+      1,
+      2
+    ],
+    "ITSAppUsesNonExemptEncryption": false,
+    "CFBundleIcons": {
+      "CFBundlePrimaryIcon": {
+        "CFBundleIconFiles": [
+          "AppIcon60x60"
+        ],
+        "CFBundleIconName": "AppIcon"
+      }
+    },
+    "CFBundleIcons~ipad": {
+      "CFBundlePrimaryIcon": {
+        "CFBundleIconFiles": [
+          "AppIcon60x60",
+          "AppIcon76x76"
+        ],
+        "CFBundleIconName": "AppIcon"
+      }
+    },
+    "NSCameraUsageDescription": "Take a photo of your sticks or skewers to count them on this device.",
+    "NSPhotoLibraryUsageDescription": null
+  },
+  "archiveIdentity": {
+    "CFBundleIdentifier": "x.Count-stick",
+    "CFBundleShortVersionString": "1.0",
+    "CFBundleVersion": "1"
+  },
+  "codesignVerifyExit": 0,
+  "codesignVerifyMessage": "",
+  "codesignIdentityLines": [
+    "Identifier=x.Count-stick",
+    "Authority=Apple Distribution: XM LLC (US) (5B49H2L7N4)",
+    "Authority=Apple Worldwide Developer Relations Certification Authority",
+    "Authority=Apple Root CA",
+    "TeamIdentifier=5B49H2L7N4"
+  ],
+  "entitlements": {
+    "application-identifier": "5B49H2L7N4.x.Count-stick",
+    "com.apple.developer.team-identifier": "5B49H2L7N4",
+    "get-task-allow": false,
+    "beta-reports-active": true
+  },
+  "profile": {
+    "teamIdentifier": [
+      "5B49H2L7N4"
+    ],
+    "applicationIdentifier": "5B49H2L7N4.x.Count-stick",
+    "getTaskAllow": false,
+    "betaReportsActive": true,
+    "hasProvisionedDevices": false,
+    "expiration": "2027-10-19 03:20:37"
+  },
+  "machoUUID": "EC8C2403-5B62-3801-B490-F72E8869E86E",
+  "archiveMachoUUID": "EC8C2403-5B62-3801-B490-F72E8869E86E",
+  "archiveAndIPAUUIDMatch": true,
+  "debugQAHookAbsent": true,
+  "compiledModelPresent": true,
+  "localizations": {
+    "en": {
+      "InfoPlist.strings": {
+        "entries": 2,
+        "matchesFrozenSource": true
+      },
+      "Localizable.strings": {
+        "entries": 83,
+        "matchesFrozenSource": true
+      }
+    },
+    "zh-Hans": {
+      "InfoPlist.strings": {
+        "entries": 2,
+        "matchesFrozenSource": true
+      },
+      "Localizable.strings": {
+        "entries": 83,
+        "matchesFrozenSource": true
+      }
+    }
+  },
+  "privacyManifest": {
+    "NSPrivacyTracking": false,
+    "NSPrivacyTrackingDomains": [],
+    "NSPrivacyCollectedDataTypes": [],
+    "NSPrivacyAccessedAPITypes": []
+  },
+  "testResults": [
+    {
+      "scope": "core unit",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/unit-tests-final12.xcresult",
+      "result": "Passed",
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0,
+      "device": "iPad Pro 13-inch (M5)",
+      "os": "26.5",
+      "platform": "iOS Simulator"
+    },
+    {
+      "scope": "iPhone UI prior keyboard-only freeze",
+      "path": "/private/tmp/count-stick-ui-tests-r3.xcresult",
+      "result": "Passed",
+      "passed": 3,
+      "failed": 0,
+      "skipped": 0,
+      "device": "iPhone 17 Pro",
+      "os": "26.5",
+      "platform": "iOS Simulator"
+    },
+    {
+      "scope": "iPad UI prior keyboard-only freeze",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/ipad-ui-final.xcresult",
+      "result": "Passed",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "device": "iPad Pro 13-inch (M5)",
+      "os": "26.5",
+      "platform": "iOS Simulator"
+    }
+  ],
+  "runtimeWarningAssessment": {
+    "observedIn": "output/ipad-release-capture.xcresult",
+    "message": "Invalid frame dimension (negative or non-finite).",
+    "testResult": "Passed",
+    "scope": "Non-failing SwiftUI runtime warning; no corresponding visible defect in inspected iPad result screens. Frozen source remains unchanged.",
+    "newCaptureReview": "Pending superseding iPad/phone store-capture runs."
+  }
+}

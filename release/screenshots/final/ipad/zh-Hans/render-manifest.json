@@ -1,0 +1,104 @@
+{
+  "createdAtUTC": "2026-10-23T04:27:32.992729+00:00",
+  "locale": "zh-Hans",
+  "appVersion": "1.0",
+  "build": "1",
+  "sourceManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/zh-Hans/manifest.json",
+  "sourceManifestSHA256": "3bd63633944ea17d67af12fb69392ac3a6a45e46c0201d5a8856fe2cd54cb24a",
+  "background": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/artwork/marketing/background.png",
+  "backgroundSHA256": "f83c7709a425e100842e152773ffb66e2f8916abe76d5fff21a1a87836541003",
+  "sourceEvidence": {
+    "device": "iPad Pro 13-inch (M5)",
+    "os": "iOS 26.5 (23F77)",
+    "appleLanguages": [
+      "zh-Hans"
+    ],
+    "appleLocale": "zh_Hans_CN",
+    "effectiveLanguage": "Simplified Chinese",
+    "configuration": "Release; ENABLE_TESTABILITY=YES for XCTest; DEBUG photo hook absent"
+  },
+  "rendering": "Entire authentic screenshot proportionately scaled; no UI edits or masks.",
+  "dimensionsReference": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/",
+  "visualReview": "PENDING",
+  "screenshots": [
+    {
+      "role": "result",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/zh-Hans/result.png",
+      "sourceSHA256": "16b6bb5e3915c85ab00c8178d35c09cec395377913507b5f1592b58645fb7341",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/zh-Hans/01-result.png",
+      "sha256": "ff1e03c3c4ade30bfb15216a40b25cfc67b65be741115169477e4ba0974bdd55",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "拍照数签，逐个看清",
+      "supporting": "数量与标记，一起核对",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "4509d6c70798ef00e5de2ffdef37781d1d219791814610e8ed039fe2dfcff050",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "拍照数签，",
+        "逐个看清"
+      ]
+    },
+    {
+      "role": "correction",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/zh-Hans/correction.png",
+      "sourceSHA256": "65c6c808654ec6a45e8cb015265f93eb06bf3cc052d30b62ad7adfeb2525b3f3",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/zh-Hans/02-correction.png",
+      "sha256": "7bb6ef7b5470ae15085350531ac628139b201b69703e753efeecc23809f0d4ed",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "漏了补，错了改",
+      "supporting": "添加、删除、撤销，随手校对",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "64566823ed0ef04b6bfd1aac65eb0c1da1ea0552b443b84f3d532c0360e01ec8",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "漏了补，",
+        "错了改"
+      ]
+    },
+    {
+      "role": "history",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/zh-Hans/history.png",
+      "sourceSHA256": "44333d126c7144d7fb324eb51b54a1bd8653a55b1dcb0aac8eb466301559da97",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/zh-Hans/03-history.png",
+      "sha256": "29b117aac253a2e5c5780793eef1529c2ae6f6dcbf506861a363a0dae4e5147b",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "数完留一份记录",
+      "supporting": "写备注，回看，也能分享",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "f3f771f829a5b3c23de591f77a6e139e915a9fb2a60046a8a8dde2445b52214c",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "数完",
+        "留一份记录"
+      ]
+    }
+  ],
+  "releaseCaptureGate": "RELEASE_SOURCE_RECORDED"
+}
