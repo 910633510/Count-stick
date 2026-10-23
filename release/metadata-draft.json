@@ -112,6 +112,7 @@
   "readiness": {
     "localFeatureEvidence": "CoreML detector, marker add/remove/undo, local history, note and share renderer exist in source. Final UI integration and device testing must be checked against the release candidate.",
     "beforeUpload": [
+      "Evaluate counting on independently annotated real restaurant skewer-end photos; current parameter/tiling experiments do not establish improved accuracy.",
       "Resolve the newly created x.Count-stick app ID through the official API; never reuse another bundle’s metadata IDs.",
       "Verify all feature claims against final built app and test en-US and zh-Hans flows.",
       "Capture authentic per-locale release-build screens and render the screenshot narrative.",
@@ -128,7 +129,8 @@
       "unlimited performance",
       "competitor brand keywords"
     ],
-    "privacyPolicyStatus": "Published app-specific privacy and support pages; parent verified HTTP 200 on 2026-10-22."
+    "privacyPolicyStatus": "Published app-specific privacy and support pages; parent verified HTTP 200 on 2026-10-22.",
+    "countingAccuracy": "BLOCKED_PENDING_TARGET_SCENE_DATA"
   },
   "privacyQuestionnaireDraft": {
     "dataCollectedByDeveloper": false,

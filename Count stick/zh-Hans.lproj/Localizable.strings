@@ -4,7 +4,7 @@
 "home.title" = "每根签，都数清。";
 "home.offline" = "设备端计数";
 "home.headline" = "拍一张，核一遍，数清楚。";
-"home.description" = "拍摄竹签或串签，逐一核对标记，再保存你的计数结果。";
+"home.description" = "对准一束竹签或串签的端头拍照，逐一核对标记，再保存计数结果。";
 "home.private.title" = "照片由你掌握";
 "home.private.detail" = "无需登录，不上传照片。只保存你主动选择的结果。";
 "action.camera" = "拍照数签";
@@ -70,8 +70,8 @@
 "history.delete.title" = "删除这条记录？";
 "history.delete.message" = "此记录的照片、备注与标记将从设备移除，且无法撤销。";
 "guide.subtitle" = "拍得清楚，数得轻松。";
-"guide.photo.title" = "让每根签子看得见";
-"guide.photo.detail" = "在光线均匀的地方拍摄，使用简洁、有对比度的背景。将整组签子放入画面，尽可能分开摆放。模糊、阴影和重叠都会影响计数。";
+"guide.photo.title" = "让签子端头正对镜头";
+"guide.photo.detail" = "将签子整理成一束，让露出的端头正对镜头。尽量让每个端头都看得见，让签束填满画面，并保持光线均匀。避免侧拍长签身、画面模糊或端头被遮挡。识别后仍需人工核对。";
 "guide.review.title" = "逐一检查标记";
 "guide.review.detail" = "自动识别结果需要核对。发现漏标或多标时，使用“添加”或“移除”校正。放大照片并切换到 2 倍视图，可以更仔细地检查。";
 "guide.save.title" = "保存或分享结果";

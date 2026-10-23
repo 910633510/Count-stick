@@ -165,5 +165,15 @@
     "testResult": "Passed",
     "scope": "Non-failing SwiftUI runtime warning; no corresponding visible defect in inspected iPad result screens. Frozen source remains unchanged.",
     "newCaptureReview": "Pending superseding iPad/phone store-capture runs."
+  },
+  "countingQualityGate": "BLOCK_COUNTING_QUALITY_ACCEPTANCE",
+  "countingQualityEvidence": "accuracy/quality-review.json",
+  "overallReleaseAcceptance": "BLOCK; local build PASS is not counting-quality acceptance.",
+  "currentSourceDelta": {
+    "file": "Count stick/StickDetector.swift",
+    "sha256": "f9be1037a75de32699b1f26d0fee9ecebb05599e77f24199b6144e6c648648fd",
+    "change": "Local NMS0.45 candidate with confidence0.25; not included in the reviewed IPA or screenshots.",
+    "qualityGate": "BLOCK",
+    "candidateReview": "accuracy/local-candidate-review.json"
   }
 }

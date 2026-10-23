@@ -96,7 +96,7 @@ final class Count_stickUITests: XCTestCase {
         XCTAssertTrue(app.alerts.staticTexts["A camera is not available on this device. Choose a photo to get started."].exists)
         app.alerts.buttons["OK"].tap()
         tapTab(app, label: "Guide")
-        XCTAssertTrue(app.staticTexts["Give every stick some space"].waitForExistence(timeout: 3))
+        XCTAssertTrue(app.staticTexts["Face the ends toward the camera"].waitForExistence(timeout: 3))
         capture(app, name: "en-US-guide")
         tapTab(app, label: "Count")
         app.buttons["choosePhoto"].tap()

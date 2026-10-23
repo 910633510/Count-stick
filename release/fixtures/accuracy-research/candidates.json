@@ -1,0 +1,65 @@
+[
+  {
+    "id": "bundle-bamboo",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:A_bundle_of_bamboo_skewers.jpg",
+    "originalURL": "https://upload.wikimedia.org/wikipedia/commons/8/85/A_bundle_of_bamboo_skewers.jpg",
+    "author": "Obsidian Soul",
+    "photoLicense": "CC0-1.0",
+    "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/fixtures/accuracy-research/bundle-bamboo.jpg",
+    "sha256": "55c8cc3a0e12738bdf2a4e99d812d3df7458589ef2210eff74257dc0ff4e4d15",
+    "groundTruth": null,
+    "evaluationStatus": "REFERENCE_ONLY_OUTSIDE_CONFIRMED_END_FACE_DOMAIN",
+    "reason": "Side-on full skewers; blunt end faces are not sufficiently exposed."
+  },
+  {
+    "id": "bamboo-stilfehler",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Bamboo_Skewers.jpg",
+    "originalURL": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Bamboo_Skewers.jpg",
+    "author": "Stilfehler",
+    "photoLicense": "CC-BY-SA-3.0",
+    "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/fixtures/accuracy-research/bamboo-stilfehler.jpg",
+    "sha256": "566009baaf93a49436be89884bc1b13f4b557af995084293d7ccd7d3e4310350",
+    "groundTruth": null,
+    "evaluationStatus": "REFERENCE_ONLY_OUTSIDE_CONFIRMED_END_FACE_DOMAIN",
+    "reason": "Side-on full skewers; blunt end faces are not sufficiently exposed."
+  },
+  {
+    "id": "pexels-9640960",
+    "sourcePage": "https://www.pexels.com/photo/9640960/",
+    "originalURL": "https://images.pexels.com/photos/9640960/pexels-photo-9640960.jpeg",
+    "author": "Sandra Muralha",
+    "photoLicense": "Pexels License",
+    "photoLicenseURL": "https://www.pexels.com/license/",
+    "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/fixtures/accuracy-research/pexels-9640960.jpg",
+    "sha256": "a13f08c15fe387155ea13e2d9edeb369de95cfdd37d82bcb7302ddf5ddfd7a27",
+    "groundTruth": null,
+    "evaluationStatus": "REFERENCE_ONLY_OUTSIDE_CONFIRMED_END_FACE_DOMAIN",
+    "reason": "Visible pointed toothpick tips rather than the aligned blunt skewer end faces required for restaurant bundle counting."
+  },
+  {
+    "id": "pexels-9640958",
+    "sourcePage": "https://www.pexels.com/photo/9640958/",
+    "originalURL": "https://images.pexels.com/photos/9640958/pexels-photo-9640958.jpeg",
+    "author": "Sandra Muralha",
+    "photoLicense": "Pexels License",
+    "photoLicenseURL": "https://www.pexels.com/license/",
+    "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/fixtures/accuracy-research/pexels-9640958.jpg",
+    "sha256": "5479b9696a4c590ec4c608aeeea812e9967cc07ff71df1f64a7f04279246cfbe",
+    "groundTruth": null,
+    "evaluationStatus": "REFERENCE_ONLY_OUTSIDE_CONFIRMED_END_FACE_DOMAIN",
+    "reason": "Visible pointed toothpick tips rather than the aligned blunt skewer end faces required for restaurant bundle counting."
+  },
+  {
+    "id": "pexels-8970199",
+    "sourcePage": "https://www.pexels.com/photo/8970199/",
+    "originalURL": "https://images.pexels.com/photos/8970199/pexels-photo-8970199.jpeg",
+    "author": "Terence Koh",
+    "photoLicense": "Pexels License",
+    "photoLicenseURL": "https://www.pexels.com/license/",
+    "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/fixtures/accuracy-research/pexels-8970199.jpg",
+    "sha256": "cb68d7775c1b75b0226732cba40d5e9f31ecbe9e62b0077d8570a1439a338a45",
+    "groundTruth": null,
+    "evaluationStatus": "REFERENCE_ONLY_OUTSIDE_CONFIRMED_END_FACE_DOMAIN",
+    "reason": "Visible pointed toothpick tips rather than the aligned blunt skewer end faces required for restaurant bundle counting."
+  }
+]

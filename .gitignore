@@ -13,3 +13,6 @@ __pycache__/
 
 # Preliminary capture evidence stays local; source-release contains final captures.
 release/screenshots/source/
+
+# Out-of-domain research photo downloads are retained locally.
+release/fixtures/accuracy-research/*.jpg

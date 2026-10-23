@@ -15,10 +15,24 @@ enum CountError: LocalizedError {
     }
 }
 
+/// Local deduplication candidate: preserve the model's score threshold while
+/// tightening suppression of overlapping boxes. This is not an accuracy guarantee.
+private final class StickDetectionThresholds: MLFeatureProvider {
+    var featureNames: Set<String> { ["confidenceThreshold", "iouThreshold"] }
+    func featureValue(for featureName: String) -> MLFeatureValue? {
+        switch featureName {
+        case "confidenceThreshold": return MLFeatureValue(double: 0.25)
+        case "iouThreshold": return MLFeatureValue(double: 0.45)
+        default: return nil
+        }
+    }
+}
+
 /// Serial work keeps model loading and prediction off the main thread.
 final class StickDetector: @unchecked Sendable {
     private let queue = DispatchQueue(label: "com.countstick.detection", qos: .userInitiated)
     private var model: VNCoreMLModel?
+    private let thresholds = StickDetectionThresholds()
 
     func detect(from image: UIImage) async throws -> [CountMarker] {
         try await withCheckedThrowingContinuation { continuation in
@@ -28,7 +42,9 @@ final class StickDetector: @unchecked Sendable {
                     if self.model == nil {
                         do {
                             let configuration = MLModelConfiguration()
-                            self.model = try VNCoreMLModel(for: best(configuration: configuration).model)
+                            let model = try VNCoreMLModel(for: best(configuration: configuration).model)
+                            model.featureProvider = self.thresholds
+                            self.model = model
                         } catch { throw CountError.unavailableModel }
                     }
                     guard let model = self.model else { throw CountError.unavailableModel }

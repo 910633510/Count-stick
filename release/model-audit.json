@@ -1,9 +1,9 @@
 {
   "reviewed_date_local": "2026-10-23",
   "scope": "Independent read-only technical review; runtime smoke artifacts and downloaded real photo fixtures only.",
-  "status": "PASS_SOURCE_REVIEW_AND_LOCAL_BUILD_WITH_RUNTIME_LIMITS",
+  "status": "BLOCK_COUNTING_QUALITY_ACCEPTANCE",
   "reviewed_file_sha256": {
-    "Count stick/StickDetector.swift": "5cd529f56e7f356e8ec4727af38c7872f3f5ad0de71e0002229eabafb3c55618",
+    "Count stick/StickDetector.swift": "f9be1037a75de32699b1f26d0fee9ecebb05599e77f24199b6144e6c648648fd",
     "Count stick/CountWorkspace.swift": "20a5a6fbc912bcb44b7280450cf8b5629ba50f71ab0d02e430428f8a9f03828e",
     "Count stick/CountHistory.swift": "a827cac7132e74268ff0ba77d4e18f2a1518b004d9c114f4545472845767b400",
     "Count stick/CountModel.swift": "130279a55f5b8e6776014a7a1a35f59d70733975ddb243e185d05b25c28c89a9",
@@ -104,5 +104,8 @@
     "App Store record creation, live pricing, uploads and review submission remain separate gates."
   ],
   "test_review": "Core unit 12 PASS; prior-keyboard iPhone UI 3 PASS and iPad UI 2 PASS. Frozen Release capture review pending; see build-review.json.",
-  "build_review": "build-review.json"
+  "build_review": "build-review.json",
+  "accuracy_review": "accuracy/quality-review.json",
+  "quality_override": "Earlier source/build/runtime passes establish integration only. Subsequent manual endpoint audit found duplicate/false/missed marks; commercial counting-quality acceptance is blocked.",
+  "local_candidate_review": "accuracy/local-candidate-review.json"
 }

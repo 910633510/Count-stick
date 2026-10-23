@@ -4,7 +4,7 @@
 "home.title" = "Make every stick count.";
 "home.offline" = "On-device counting";
 "home.headline" = "Photo. Check. Count.";
-"home.description" = "Photograph your skewers, check the markers, and keep a count you can review.";
+"home.description" = "Photograph the exposed ends of your skewer bundle, check the markers, and keep a count you can review.";
 "home.private.title" = "Your photos stay with you";
 "home.private.detail" = "No sign-in. No photo uploads. Save only the results you choose.";
 "action.camera" = "Take a photo";
@@ -70,8 +70,8 @@
 "history.delete.title" = "Delete this saved count?";
 "history.delete.message" = "Its photo, note, and markers will be removed from this device. This can’t be undone.";
 "guide.subtitle" = "A clearer photo. An easier count.";
-"guide.photo.title" = "Give every stick some space";
-"guide.photo.detail" = "Use even lighting and a plain, contrasting background. Keep the whole group in frame and spread sticks apart where possible. Blur, shadows, and overlap can affect the count.";
+"guide.photo.title" = "Face the ends toward the camera";
+"guide.photo.detail" = "Gather the skewers with their exposed ends facing the camera. Keep every end visible, fill the photo with the bundle, and use even lighting. Avoid side views of long shafts, blur, and hidden ends. Results still need a manual check.";
 "guide.review.title" = "Check the markers";
 "guide.review.detail" = "Automatic results are a starting point. Look for missed sticks or extra markers, then use Add or Remove. Enlarge the photo and switch to 2× for close-up corrections.";
 "guide.save.title" = "Keep or share your result";

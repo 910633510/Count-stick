@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-23",
+  "confirmedTarget": "Restaurant billing from a tightly gathered bundle of skewer blunt end faces, viewed toward the ends.",
+  "result": "NO_MATCHING_LABELLED_EVALUATION_SET_OBTAINED",
+  "usableMatchingPhotos": 0,
+  "downloadedReferenceOnlyPhotos": 5,
+  "groundTruthLabelsCreated": 0,
+  "candidateManifest": "candidates.json",
+  "findings": [
+    "Five permissively available real photos were downloaded and visually inspected. Two are side-view bamboo skewers; three show pointed toothpick tips. All are excluded from the confirmed blunt-end counting validation set.",
+    "No synthetic/generated images were used as counting-accuracy evidence.",
+    "No item count was inferred from a retail package title, density, or obscured sticks."
+  ],
+  "datasetResearch": {
+    "url": "https://universe.roboflow.com/object-counting-redi5/bamboo-counting-test/dataset/8",
+    "publisher": "Object Counting",
+    "photoDatasetLicenseAsListed": "CC BY 4.0",
+    "publicPageFacts": {
+      "originalImageCountShown": 88,
+      "v8Total": 365,
+      "v8Train": 330,
+      "v8Valid": 28,
+      "v8Test": 7,
+      "v8AugmentedOutputsPerTrainingExample": 10
+    },
+    "testOnlyVersionURL": "https://universe.roboflow.com/object-counting-redi5/bamboo-counting-test/dataset/14",
+    "testOnlyVersionCountShown": 68,
+    "domainVerifiedFromActualImages": false,
+    "annotationsDownloaded": false,
+    "exportRetrieved": false,
+    "accessObservation": "Public dataset metadata and download-format links were readable. Browse and download pages returned only JavaScript-dependent shell text to the web reader. In-app browser was unavailable; no signup/login or authentication bypass attempted. The presence of a download link does not prove anonymous export is available.",
+    "evaluationCaution": "Versions list augmentations; do not equate generated/augmented image totals with independent real scenes or reuse overlapping originals across training and acceptance."
+  },
+  "nextEvidenceNeeded": "Actual representative restaurant bundle photographs with a separately counted total and visible blunt ends; include round and flat heads, clean and used sticks, controlled and ordinary lighting, small and large bundles. Freeze original images and manual point annotations before comparing model changes."
+}

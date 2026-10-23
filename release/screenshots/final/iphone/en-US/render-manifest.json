@@ -100,5 +100,6 @@
       ]
     }
   ],
-  "releaseCaptureGate": "RELEASE_SOURCE_RECORDED"
+  "releaseCaptureGate": "RELEASE_SOURCE_RECORDED",
+  "releaseUseStatus": "STALE_AFTER_BUILD_2_DETECTION_CHANGE_DO_NOT_UPLOAD"
 }

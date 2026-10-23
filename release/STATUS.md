@@ -1,19 +1,25 @@
 # Count Stick release status
 
+**Accuracy investigation in progress. The user reported poor recognition; do not submit this candidate until the revised counting behavior is evaluated. Existing build and screenshot evidence below is a checkpoint, not final quality acceptance.**
+
 The local app and signed distribution package are prepared. **The new App Store record does not exist yet; nothing has been uploaded, priced or submitted.** The older StickCount app is not this release target.
 
 | Field | Value |
 | --- | --- |
 | App | Count Stick: Skewer Counter |
 | Bundle ID | `x.Count-stick` |
-| Version / build | `1.0` / `1` |
+| Current local candidate | `1.0` / `2` (deduplication experiment; not accepted for release) |
 | Publisher team | XM LLC — `5B49H2L7N4` |
 | Requested pricing | Paid download, China CNY 12.00; not applied live |
 | Languages | English and Simplified Chinese |
 | Devices | iPhone and iPad, iOS 17+ |
 | App Store app ID | Not created |
 
-## Completed
+## Build 2 local candidate
+
+The candidate is signed at `output/accuracy-candidate/Count stick.ipa`. Its 13 unit tests and 2 focused UI workflows passed; see `candidate-build-review.json`. These tests establish implementation behavior, not restaurant counting accuracy. Build 1 images and package below remain historical preparation artifacts.
+
+## Completed build 1 preparation
 
 - On-device photo counting, native camera/photo selection, manual marker correction, undo, enlarged editing, notes, local history and sharing.
 - Bilingual UI and camera explanations, app icon, privacy manifest, ASO research and localized store copy.
@@ -21,6 +27,12 @@ The local app and signed distribution package are prepared. **The new App Store 
 - Distribution archive and IPA export signed and verified; the Release executable excludes the DEBUG photo-import test hook. The local IPA is `output/app-store-final/Count stick.ipa` (9,222,308 bytes), SHA-256 `b15dbcc046c81270d2e8806a3cd794f2aeb8c9fde654eaeaf311ec6c02f6e8f6`.
 - [Privacy policy](https://www.xmaillc.com/count-stick-privacy.html) and [support page](https://www.xmaillc.com/count-stick-support.html) are published and HTTP 200 verified.
 - Bundle ID registration and App Store provisioning profile were created through the official API.
+
+## Counting accuracy handoff
+
+The confirmed target is restaurant checkout photos of a bundle of skewer ends. Default inference shows duplicate markers and missed terminal faces in the inspected real-photo region. Raising confidence or adding tiles did not establish a reliable improvement without losing recall, The only adopted local candidate change keeps confidence at 0.25 and tightens overlap suppression from 0.7 to 0.45. Across two small regions of one image it preserves 9 matched endpoints while reducing false marks from 13 to 11; two labeled endpoints remain missed. This does not establish restaurant counting accuracy.
+
+Next: collect 10–20 representative real photos with independently counted totals, annotate individual visible ends, separate calibration from held-out validation, and compare exact photo counts, absolute error, precision and recall. More representative training images may then be needed; 10–20 initial test photos are not a promise of sufficient training data. Do not use side-view skewer or pointed-toothpick images as substitutes for the confirmed target.
 
 ## Required account handoff
 
@@ -40,7 +52,7 @@ Once the record exists, continue with the official API: verify exact identity, a
 
 ## Artifacts and limits
 
-Use `screenshots/final/iphone/` and `screenshots/final/ipad/` for final store images; their render manifests bind each file to `screenshots/source-release/` captures. The originals preserve actual UI pixels and model-returned counts. Preliminary captures are retained locally and are not the final upload set.
+The `screenshots/final/iphone/` and `screenshots/final/ipad/` images are build 1 checkpoints and must be recaptured after the counting-quality work is accepted; their render manifests bind each file to `screenshots/source-release/` captures. The originals preserve actual UI pixels and model-returned counts. Preliminary captures are retained locally and are not the final upload set.
 
 `metadata-draft.json`, `ASO-brief.json`, `build-review.json`, `validation-summary.json`, `store-status.json` and the screenshot manifests contain the detailed evidence. Image-generation prompts and original outputs are in `artwork/`. No credentials or private signing keys are stored in the repository.
 
