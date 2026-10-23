@@ -1,5 +1,5 @@
 {
-  "status": "BLOCK",
+  "status": "BLOCK_MODEL_ACCURACY_NOT_ACCEPTED",
   "scope": "Counting accuracy for bundled skewer endpoints at restaurant/barbecue checkout",
   "implementationChecks": "PASS; see build-review.json and validation-summary.json",
   "accuracyFindings": [
@@ -8,7 +8,8 @@
     "A local build 2 candidate tightens NMS IoU from 0.7 to 0.45 at confidence0.25, preserving scaleFill and original weights. On two small same-image regions TP9/FN2 stay unchanged while FP13 drops to11; overall counting acceptance remains blocked."
   ],
   "requiredNextEvidence": "Representative real restaurant endpoint-bundle photos with independent manual counts and endpoint labels; separate calibration and held-out validation.",
-  "initialDataRequest": "10–20 real endpoint-bundle photos to characterize failures and build a first independent evaluation set; not a claim that this is sufficient training data.",
+  "initialDataRequest": "Superseded: user directed assistant to collect and annotate online photos. First frozen set completed:5sourcegroups/499visibleendpoints.",
   "appStoreSubmission": "NOT_SUBMITTED",
-  "accuracyReport": "release/accuracy/analysis-app.json"
+  "accuracyReport": "release/accuracy/analysis-app.json",
+  "latestEvidence": "release/accuracy/web-set/REPORT.md"
 }
