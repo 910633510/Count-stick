@@ -28,6 +28,12 @@ private final class StickDetectionThresholds: MLFeatureProvider {
     }
 }
 
+struct StickDetectionResult {
+    let markers: [CountMarker]
+    let rawMarkers: [CountMarker]
+    let automaticRegion: AutoCountRegionResult
+}
+
 /// Serial work keeps model loading and prediction off the main thread.
 final class StickDetector: @unchecked Sendable {
     private let queue = DispatchQueue(label: "com.countstick.detection", qos: .userInitiated)
@@ -35,6 +41,10 @@ final class StickDetector: @unchecked Sendable {
     private let thresholds = StickDetectionThresholds()
 
     func detect(from image: UIImage) async throws -> [CountMarker] {
+        try await detectWithAutomaticRegion(from: image).markers
+    }
+
+    func detectWithAutomaticRegion(from image: UIImage) async throws -> StickDetectionResult {
         try await withCheckedThrowingContinuation { continuation in
             queue.async {
                 do {
@@ -57,15 +67,52 @@ final class StickDetector: @unchecked Sendable {
                         throw CountError.unexpectedOutput
                     }
                     // Vision uses a bottom-left origin; the app uses top-left everywhere.
-                    let markers = observations.compactMap { observation -> CountMarker? in
+                    let detections = observations.compactMap { observation -> AutoCountDetection? in
                         let box = observation.boundingBox
                         guard box.midX.isFinite, box.midY.isFinite,
                               box.width > 0, box.height > 0 else { return nil }
-                        return CountMarker(x: box.midX, y: 1 - box.midY)
+                        return AutoCountDetection(id: UUID(), box: AutoCountBox(
+                            x: box.minX, y: 1 - box.maxY, width: box.width, height: box.height
+                        ), confidence: Double(observation.confidence))
                     }
-                    continuation.resume(returning: markers)
+                    let rawMarkers = detections.map { detection in
+                        CountMarker(id: detection.id, x: detection.box.x + detection.box.width / 2,
+                                    y: detection.box.y + detection.box.height / 2)
+                    }
+                    let selection = AutoCountRegion.select(
+                        detections: detections, textAreas: self.recognizedTextAreas(in: cgImage),
+                        imageAspectRatio: Double(cgImage.width) / Double(cgImage.height)
+                    )
+                    let kept = Set(selection.keptIDs)
+                    continuation.resume(returning: StickDetectionResult(
+                        markers: rawMarkers.filter { kept.contains($0.id) }, rawMarkers: rawMarkers,
+                        automaticRegion: selection
+                    ))
                 } catch { continuation.resume(throwing: error) }
             }
+        }
+    }
+
+    /// Text is used only during this local prediction. OCR failures preserve all
+    /// detections for the region selector; neither recognized strings nor photos leave the device.
+    private func recognizedTextAreas(in image: CGImage) -> [AutoCountTextArea] {
+        let request = VNRecognizeTextRequest()
+        request.recognitionLevel = .accurate
+        request.recognitionLanguages = ["zh-Hans", "zh-Hant", "en-US"]
+        request.usesLanguageCorrection = false
+        request.minimumTextHeight = 0.015
+        do {
+            try VNImageRequestHandler(cgImage: image, orientation: .up).perform([request])
+        } catch { return [] }
+        return (request.results ?? []).compactMap { observation in
+            guard let candidate = observation.topCandidates(1).first, candidate.confidence >= 0.8 else { return nil }
+            let count = candidate.string.unicodeScalars.filter { CharacterSet.alphanumerics.contains($0) }.count
+            guard count >= 2 else { return nil }
+            let box = observation.boundingBox.intersection(CGRect(x: 0, y: 0, width: 1, height: 1))
+            guard !box.isNull, box.width > 0, box.height > 0 else { return nil }
+            return AutoCountTextArea(box: AutoCountBox(x: box.minX, y: 1 - box.maxY,
+                                                       width: box.width, height: box.height),
+                                     confidence: Double(candidate.confidence), characterCount: count)
         }
     }
 }

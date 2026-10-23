@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "count-stick-web-endpoints-v3",
+  "labelsFrozen": true,
+  "frozenAt": "2026-10-23T15:58:50.676636+00:00",
+  "splitLocked": true,
+  "splitPolicy": "Both selected source groups are new holdout scenes. They were acquired and manually annotated without viewing target-model or automatic-region outputs. No label, radius, count or ignored border may be changed based on subsequent predictions. Prior v1/v2 data remain unchanged.",
+  "annotationPolicy": "Full original upright photos are input. Review crops are annotation aids only and are not inference regions. Mark visible terminal faces. Ignore uncertain center-out-of-frame fragments; partial images do not contribute to whole-image exact count or MAE.",
+  "algorithmCheckpointRequiredBeforeInference": true,
+  "algorithmCheckpointStatus": "PENDING_ROOT_FINALIZATION; acquisition/annotation agent has not run inference",
+  "images": [
+    {
+      "id": "acq-v3-vietnam-round",
+      "path": "output/web-annotation-v3/images/acq-v3-vietnam-round.jpg",
+      "imageSha256": "c569ef8a2ad3d58eb4f1e3d73d0bb1befd1e3fa86ccf8abc6c9bbccdc6348181",
+      "sourceUrl": "https://gochandmade.com/10-que-tre-tron-5mm-dai-80cm-lam-keo-bong-gon",
+      "imageUrl": "https://bizweb.dktcdn.net/thumb/1024x1024/100/474/520/products/b674cc1f1f7fde675ba774e368aa55e1.jpg?v=1676255991603",
+      "sourceGroup": "gochandmade-staggered-endfaces",
+      "split": "holdout",
+      "annotationPath": "release/accuracy/web-set-v3/annotations/acq-v3-vietnam-round.json",
+      "annotationSha256": "f3f1f70bd8012ee01171bcf902a8a774fe9332e00b2044dfe8477c94aea09fcc",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "staggered_round_endfaces_over_woven_bag",
+      "completeCountVerified": false
+    },
+    {
+      "id": "acq-v3-allegro-square",
+      "path": "output/web-annotation-v3/images/acq-v3-allegro-square.jpg",
+      "imageSha256": "e7e110fb60e8cdcd2b8b2d62d02a020cbbe3a4fd06cd4b921c05789017f73f13",
+      "sourceUrl": "https://allegro.pl/oferta/patyczki-do-waty-cukrowej-40cm-4x4mm-kwadratowe-100szt-patyki-do-maszyny-17753463496",
+      "imageUrl": "https://a.allegroimg.com/original/11d30e/31d5554c4830aeef1d78b8ebce9e/PATYCZKI-do-Waty-Cukrowej-40cm-4x4mm-Kwadratowe-100szt-Patyki-do-Maszyny",
+      "sourceGroup": "allegro-square-frontal-bundle",
+      "split": "holdout",
+      "annotationPath": "release/accuracy/web-set-v3/annotations/acq-v3-allegro-square.json",
+      "annotationSha256": "96294d2390eef14a5fbe86c32a4e7b4456be3efba47df6bcb8f720099d4a47b7",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "square_terminal_shape_stress",
+      "completeCountVerified": true
+    }
+  ],
+  "limitations": [
+    "Two online product photographs, not a representative restaurant field trial.",
+    "Vietnam has37 confident visible end faces plus an ignored bottom-left out-of-frame fragment; not eligible for a complete count.",
+    "Allegro has103 verified visible square terminal faces; square shape is explicitly a robustness stress case separate from common round skewers.",
+    "No training corpus is available, so unknown overlap with original model training photos cannot be excluded.",
+    "Retail package quantities were not accepted as labels. Perceptual hashes and visual review screen duplicates but do not establish statistical independence.",
+    "All downloaded originals and diagnostic overlays remain local under gitignored output/web-annotation-v3. No fabricated or generated test imagery."
+  ]
+}

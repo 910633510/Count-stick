@@ -6,11 +6,12 @@ A native iPhone and iPad app for counting bamboo skewers from photos, reviewing 
 
 - Camera capture and the system photo picker.
 - On-device Core ML inference with visible processing, error and empty-result states.
+- Automatically estimated bundle regions, with conservative local text/background filtering and visible outlines; no manual region selection.
 - Add/remove markers, undo corrections and inspect the photo in a larger editor.
 - Manually saved history with notes, reopen/delete, and system sharing of a marked image.
 - No account, ads, subscriptions or remote photo-processing API.
 
-Automatic counts are estimates. Real-photo smoke checks are not a measured accuracy benchmark; review the markers before using a result.
+Automatic counts and region outlines are estimates; an outline follows detected candidates and may miss undetected ends. Uncertain regions preserve the original detections, and corrections remain possible anywhere in the photo. See [automatic-region evaluation](release/accuracy/automatic-region/README.md) for development results and a separately frozen new-photo test. Review the markers before using a result.
 
 ## Build
 

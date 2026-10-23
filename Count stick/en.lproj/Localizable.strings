@@ -28,6 +28,9 @@
 "result.markers" = "One marker = one stick";
 "result.zero" = "No markers found. Try a clearer photo or choose Add and tap each visible stick.";
 "result.save.detail" = "Saved only on this device. Review the markers before using or sharing the count.";
+"region.identified" = "Estimated counting area. Check for stick ends outside it too.";
+"region.fallback" = "Bundle area not determined. Check the markers.";
+"region.outline.accessibility" = "Automatically estimated counting area";
 "correction.title" = "Fine-tune the count";
 "correction.mode" = "Marker editing mode";
 "mode.inspect" = "View";
@@ -73,7 +76,7 @@
 "guide.photo.title" = "Face the ends toward the camera";
 "guide.photo.detail" = "Gather the skewers with their exposed ends facing the camera. Keep every end visible, fill the photo with the bundle, and use even lighting. Avoid side views of long shafts, blur, and hidden ends. Results still need a manual check.";
 "guide.review.title" = "Check the markers";
-"guide.review.detail" = "Automatic results are a starting point. Look for missed sticks or extra markers, then use Add or Remove. Enlarge the photo and switch to 2× for close-up corrections.";
+"guide.review.detail" = "The outline is an automatically estimated area. Stick ends outside it may be missed, so check the whole photo and add or remove markers anywhere. Enlarge the photo and switch to 2× for closer corrections.";
 "guide.save.title" = "Keep or share your result";
 "guide.save.detail" = "Add an optional note and save to History. Share creates a copy with the count and markers. Delete a saved result using its menu in History.";
 "guide.privacy.title" = "Private by design";

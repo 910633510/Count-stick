@@ -25,7 +25,8 @@ struct StickDetectorDedupRegressionTests {
         candidateRequest.imageCropAndScaleOption = .scaleFill
         try VNImageRequestHandler(cgImage: cgImage, orientation: .up).perform([candidateRequest])
         let expected = try #require(candidateRequest.results as? [VNRecognizedObjectObservation])
-        let actual = try await StickDetector().detect(from: image)
+        let result = try await StickDetector().detectWithAutomaticRegion(from: image)
+        let actual = result.rawMarkers
 
         #expect(!actual.isEmpty)
         #expect(actual.count < baseline.count)
@@ -35,6 +36,8 @@ struct StickDetectorDedupRegressionTests {
             #expect(abs(marker.x - observation.boundingBox.midX) < 0.00001)
             #expect(abs(marker.y - (1 - observation.boundingBox.midY)) < 0.00001)
         }
+        #expect(result.markers.allSatisfy { actual.contains($0) })
+        #expect(Set(result.markers.map(\.id)) == Set(result.automaticRegion.keptIDs))
         // This verifies the production feature-provider wiring and real-model
         // deduplication behavior. Neither total is a ground-truth accuracy score.
     }

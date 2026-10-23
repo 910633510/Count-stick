@@ -28,6 +28,9 @@
 "result.markers" = "一个标记，代表一根签";
 "result.zero" = "未找到标记。可以换张更清晰的照片，或选择“添加”，逐根点击手动计数。";
 "result.save.detail" = "记录仅保存在此设备。使用或分享数量前，请先核对标记。";
+"region.identified" = "已自动标出参考范围，也请检查范围外的签头。";
+"region.fallback" = "未确定签束范围，请核对标记。";
+"region.outline.accessibility" = "自动估计的计数参考范围";
 "correction.title" = "校正计数";
 "correction.mode" = "标记编辑模式";
 "mode.inspect" = "查看";
@@ -73,7 +76,7 @@
 "guide.photo.title" = "让签子端头正对镜头";
 "guide.photo.detail" = "将签子整理成一束，让露出的端头正对镜头。尽量让每个端头都看得见，让签束填满画面，并保持光线均匀。避免侧拍长签身、画面模糊或端头被遮挡。识别后仍需人工核对。";
 "guide.review.title" = "逐一检查标记";
-"guide.review.detail" = "自动识别结果需要核对。发现漏标或多标时，使用“添加”或“移除”校正。放大照片并切换到 2 倍视图，可以更仔细地检查。";
+"guide.review.detail" = "虚线是 App 自动估计的参考范围，范围外也可能有漏掉的签头。请核对整张照片，随时添加或移除标记；可放大到 2 倍仔细校正。";
 "guide.save.title" = "保存或分享结果";
 "guide.save.detail" = "可添加备注，将结果保存到记录。分享会生成包含数量和标记的图片。需要删除时，打开记录右侧的菜单。";
 "guide.privacy.title" = "隐私留在本机";

@@ -9,6 +9,7 @@ final class CountWorkspace: ObservableObject {
     @Published private(set) var phase: Phase = .empty
     @Published private(set) var errorMessage: String?
     @Published private(set) var automaticCount: Int?
+    @Published private(set) var automaticRegion: AutoCountRegionResult?
     @Published var note = ""
     @Published private(set) var saved = false
     private(set) var id = UUID()
@@ -20,7 +21,7 @@ final class CountWorkspace: ObservableObject {
 
     var hasUnsavedChanges: Bool { image != nil && (savedMarkers != edits.markers || savedNote != note) }
     var isSaved: Bool { saved && savedNote == note && savedMarkers == edits.markers }
-    var record: CountRecord { CountRecord(id: id, date: date, markers: edits.markers, automaticCount: automaticCount, note: note) }
+    var record: CountRecord { CountRecord(id: id, date: date, markers: edits.markers, automaticCount: automaticCount, note: note, automaticRegion: automaticRegion) }
 
     func load(data: Data) async {
         let token = beginLoading()
@@ -67,6 +68,7 @@ final class CountWorkspace: ObservableObject {
         generation = UUID()
         edits.replace(with: [])
         automaticCount = nil
+        automaticRegion = nil
         phase = .ready
         errorMessage = nil
     }
@@ -85,6 +87,7 @@ final class CountWorkspace: ObservableObject {
         self.image = image
         self.edits.replace(with: record.markers)
         self.automaticCount = record.automaticCount
+        self.automaticRegion = record.automaticRegion
         self.note = record.note
         self.phase = .ready
         markSaved()
@@ -98,6 +101,7 @@ final class CountWorkspace: ObservableObject {
         edits.replace(with: [])
         phase = .empty
         automaticCount = nil
+        automaticRegion = nil
         errorMessage = nil
         note = ""
         saved = false
@@ -113,10 +117,11 @@ final class CountWorkspace: ObservableObject {
 
     private func detect(_ image: UIImage, token: UUID) async {
         do {
-            let markers = try await detector.detect(from: image)
+            let result = try await detector.detectWithAutomaticRegion(from: image)
             guard generation == token else { return }
-            edits.replace(with: markers)
-            automaticCount = markers.count
+            edits.replace(with: result.markers)
+            automaticCount = result.markers.count
+            automaticRegion = result.automaticRegion
             phase = .ready
         } catch {
             guard generation == token else { return }

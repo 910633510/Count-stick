@@ -8,14 +8,22 @@ The local app and signed distribution package are prepared. **The new App Store 
 | --- | --- |
 | App | Count Stick: Skewer Counter |
 | Bundle ID | `x.Count-stick` |
-| Current local candidate | `1.0` / `2` (deduplication experiment; not accepted for release) |
+| Current local candidate | `1.0` / `3` (automatic reference region; not accepted for release) |
 | Publisher team | XM LLC — `5B49H2L7N4` |
 | Requested pricing | Paid download, China CNY 12.00; not applied live |
 | Languages | English and Simplified Chinese |
 | Devices | iPhone and iPad, iOS 17+ |
 | App Store app ID | Not created |
 
-## Build 2 local candidate
+## Build 3 automatic reference region
+
+Build 3 automatically estimates the counting region from full-image detections and local Vision text regions; the user does not draw a region. It conservatively filters separated text and distant low-confidence points, preserves original detections on sparse/ambiguous inputs, and displays reference outlines in both result and correction views. Corrections remain available anywhere in the image. Optional region data round-trips through history while old records remain readable. The UI explicitly asks users to check outside the reference area because undetected ends can lie outside it.
+
+The unchanged model, confidence 0.25 and IoU 0.45 feed this filter. On nine previously seen development scenes, TP/FN remain 674/38 while FP falls from 83 to 34; this is development evidence. The two newly frozen scenes retain all 109 original TP, but 31 of 140 confirmed endpoints remain missed. Their sole apparent FP reduction lies only 0.125 pixels outside a frozen uncertainty mask and is not treated as reliable background-removal evidence. See `accuracy/automatic-region/README.md` and `accuracy/web-set-v3/REPORT.md`. Automatic checkout acceptance remains blocked.
+
+26 unit/integration tests and 3 focused UI workflows passed; the final reference-area wording was rechecked in 2 additional passing UI runs. The signed local distribution package is `output/automatic-region-candidate/Count stick.ipa` (9,313,754 bytes), SHA-256 `4218999b24aca4f62a29e564aa09be71c441de33fa5876821c7069732fdf417b`. Strict codesign, bundle/build/team entitlements and exclusion of the Debug photo hook were verified. See `automatic-region-build-review.json`. These are simulator and local package checks, with no physical-device or App Store submission acceptance.
+
+## Build 2 historical candidate
 
 The candidate is signed at `output/accuracy-candidate/Count stick.ipa`. Its 13 unit tests and 2 focused UI workflows passed; see `candidate-build-review.json`. These tests establish implementation behavior, not restaurant counting accuracy. Build 1 images and package below remain historical preparation artifacts.
 

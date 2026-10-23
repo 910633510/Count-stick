@@ -1,4 +1,5 @@
 import XCTest
+import UIKit
 
 @MainActor
 final class Count_stickUITests: XCTestCase {
@@ -85,6 +86,68 @@ final class Count_stickUITests: XCTestCase {
         try exerciseWorkflow(language: "zh-Hans", locale: "zh_Hans_CN", prefix: "zh-Hans")
     }
 
+    func testAutomaticRegionKeepsManualPhotoCorrections() throws {
+        #if DEBUG
+        let app = XCUIApplication()
+        let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent()
+        let fixture = root.appendingPathComponent("release/fixtures/bamboo-skewers-cc0.jpg")
+        let photoSize = try XCTUnwrap(UIImage(contentsOfFile: fixture.path)).size
+        app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_US", "--countstick-test-photo", fixture.path]
+        app.launch()
+        let count = app.staticTexts["resultCount"]
+        XCTAssertTrue(count.waitForExistence(timeout: 90))
+        let initial = try XCTUnwrap(Int(count.label.replacingOccurrences(of: ",", with: "")))
+        XCTAssertGreaterThan(initial, 0)
+        let status = app.descendants(matching: .any)["automaticRegionStatus"].firstMatch
+        XCTAssertTrue(status.waitForExistence(timeout: 5))
+        XCTAssertEqual(status.label, "Estimated counting area. Check for stick ends outside it too.")
+        scrollTo(app.buttons["enlargePhoto"], app: app)
+        XCTAssertTrue(app.descendants(matching: .any)["automaticRegionOutline"].firstMatch.waitForExistence(timeout: 5),
+                      "The visible automatic outline must have its own accessibility element.\n\(app.debugDescription)")
+        capture(app, name: "automatic-region-real-photo")
+
+        app.buttons["enlargePhoto"].tap()
+        let canvas = app.descendants(matching: .any)["editorPhoto"].firstMatch
+        XCTAssertTrue(canvas.waitForExistence(timeout: 5))
+        let outlineFrames = app.descendants(matching: .any).matching(identifier: "automaticRegionOutline")
+            .allElementsBoundByIndex.map(\.frame)
+        XCTAssertFalse(outlineFrames.isEmpty)
+        XCTAssertTrue(outlineFrames.allSatisfy { $0.width > 0 && $0.height > 0 })
+        let frame = canvas.frame
+        let scale = min(frame.width / photoSize.width, frame.height / photoSize.height)
+        let imageFrame = CGRect(x: frame.midX - photoSize.width * scale / 2,
+                                y: frame.midY - photoSize.height * scale / 2,
+                                width: photoSize.width * scale, height: photoSize.height * scale)
+        let fractions: [CGPoint] = [CGPoint(x: 0.03, y: 0.03), CGPoint(x: 0.97, y: 0.03),
+                                    CGPoint(x: 0.03, y: 0.97), CGPoint(x: 0.97, y: 0.97),
+                                    CGPoint(x: 0.03, y: 0.5), CGPoint(x: 0.97, y: 0.5)]
+        let targetPoint = try XCTUnwrap(fractions.map {
+            CGPoint(x: imageFrame.minX + $0.x * imageFrame.width, y: imageFrame.minY + $0.y * imageFrame.height)
+        }.first { point in
+            !outlineFrames.contains { $0.insetBy(dx: -2, dy: -2).contains(point) }
+        }, "The real fixture has background outside the automatically detected bundle")
+        let target = canvas.coordinate(withNormalizedOffset: .zero)
+            .withOffset(CGVector(dx: targetPoint.x - frame.minX, dy: targetPoint.y - frame.minY))
+        let editorCount = app.staticTexts["editorResultCount"]
+        let mode = app.segmentedControls["editorCorrectionMode"]
+        mode.buttons["Add"].tap()
+        target.tap()
+        XCTAssertEqual(editorCount.label, "\(initial + 1) sticks", "Manual correction must work outside the automatic outline")
+        mode.buttons["Remove"].tap()
+        target.tap()
+        XCTAssertEqual(editorCount.label, "\(initial) sticks")
+        app.buttons["editorUndoCorrection"].tap()
+        XCTAssertEqual(editorCount.label, "\(initial + 1) sticks")
+        app.buttons["editorUndoCorrection"].tap()
+        XCTAssertEqual(editorCount.label, "\(initial) sticks")
+        capture(app, name: "automatic-region-correction-outside-outline")
+        app.buttons["Done"].tap()
+        XCTAssertEqual(Int(count.label.replacingOccurrences(of: ",", with: "")), initial)
+        #else
+        throw XCTSkip("The real-fixture import hook is available only in Debug UI tests")
+        #endif
+    }
+
     func testHomeGuideAndCameraUnavailable() {
         let app = XCUIApplication()
         app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_US"]
@@ -118,6 +181,10 @@ final class Count_stickUITests: XCTestCase {
         let initial = try XCTUnwrap(Int(count.label.replacingOccurrences(of: ",", with: "")))
         XCTAssertGreaterThan(initial, 0, "The real fixture should run through the model, not a seeded count")
         XCTAssertTrue(app.staticTexts[language == "en" ? "Review your count." : "核对一下，心中有数。"].exists)
+        let regionStatus = app.descendants(matching: .any)["automaticRegionStatus"].firstMatch
+        XCTAssertTrue(regionStatus.waitForExistence(timeout: 5))
+        let originalRegionStatus = regionStatus.label
+        let hadAutomaticOutline = app.descendants(matching: .any)["automaticRegionOutline"].firstMatch.exists
         capture(app, name: "\(prefix)-result")
 
         let photo = app.descendants(matching: .any)["resultPhoto"].firstMatch
@@ -158,6 +225,8 @@ final class Count_stickUITests: XCTestCase {
         capture(app, name: "\(prefix)-history")
         app.staticTexts[language == "en" ? "\(initial) sticks" : "\(initial) 根签"].firstMatch.tap()
         XCTAssertEqual(Int(count.label.replacingOccurrences(of: ",", with: "")), initial)
+        XCTAssertEqual(regionStatus.label, originalRegionStatus, "Saving and reopening must retain the automatic-region result")
+        XCTAssertEqual(app.descendants(matching: .any)["automaticRegionOutline"].firstMatch.exists, hadAutomaticOutline)
         scrollTo(app.buttons["saveCount"], app: app)
         XCTAssertFalse(app.buttons["saveCount"].isEnabled)
         app.buttons["shareCount"].tap()

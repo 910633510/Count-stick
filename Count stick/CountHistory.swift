@@ -8,6 +8,7 @@ struct CountRecord: Identifiable, Codable, Equatable {
     var markers: [CountMarker]
     var automaticCount: Int?
     var note: String
+    var automaticRegion: AutoCountRegionResult? = nil
     var count: Int { markers.count }
 }
 

@@ -246,10 +246,13 @@ struct ContentView: View {
             }
             if workspace.phase == .ready {
                 countSummary
+                if workspace.automaticCount != nil {
+                    AutomaticRegionStatus(result: workspace.automaticRegion)
+                }
             }
             if let image = workspace.image {
                 VStack(spacing: 0) {
-                    MarkerCanvas(image: image, markers: workspace.edits.markers, mode: markerMode,
+                    MarkerCanvas(image: image, markers: workspace.edits.markers, automaticRegion: workspace.automaticRegion, mode: markerMode,
                                  onAdd: workspace.add, onRemove: workspace.remove)
                         .frame(height: horizontalSizeClass == .regular
                                ? min(560, max(300, 700 * image.size.height / max(image.size.width, 1)))
@@ -456,6 +459,7 @@ enum MarkerMode: String, CaseIterable, Identifiable {
 private struct MarkerCanvas: View {
     let image: UIImage
     let markers: [CountMarker]
+    let automaticRegion: AutoCountRegionResult?
     let mode: MarkerMode
     let onAdd: (CGPoint) -> Void
     let onRemove: (UUID) -> Void
@@ -477,6 +481,25 @@ private struct MarkerCanvas: View {
                         }
                     })
                     .accessibilityLabel(L10n.text("photo.accessibility"))
+                if let automaticRegion, automaticRegion.fallbackReason == .none {
+                    ForEach(Array(automaticRegion.regions.enumerated()), id: \.offset) { _, box in
+                        if let regionRect = AutomaticRegionPresentation.displayedRect(box, in: rect) {
+                            RoundedRectangle(cornerRadius: 6)
+                                .stroke(.white.opacity(0.95), style: StrokeStyle(lineWidth: 4, dash: [8, 6]))
+                                .overlay {
+                                    RoundedRectangle(cornerRadius: 6)
+                                        .stroke(Theme.ink, style: StrokeStyle(lineWidth: 2, dash: [8, 6]))
+                                }
+                                .frame(width: regionRect.width, height: regionRect.height)
+                                .position(x: regionRect.midX, y: regionRect.midY)
+                                .allowsHitTesting(false)
+                                .accessibilityElement(children: .ignore)
+                                .accessibilityLabel(L10n.text("region.outline.accessibility"))
+                                .accessibilityAddTraits(.isImage)
+                                .accessibilityIdentifier("automaticRegionOutline")
+                        }
+                    }
+                }
                 ForEach(Array(markers.enumerated()), id: \.element.id) { index, marker in
                     let point = ImageGeometry.position(of: marker, in: rect)
                     Button {
@@ -500,6 +523,46 @@ private struct MarkerCanvas: View {
             }
             .clipped()
         }
+        .accessibilityElement(children: .contain)
+    }
+}
+
+private enum AutomaticRegionPresentation {
+    static func normalizedRect(_ box: AutoCountBox) -> CGRect? {
+        guard box.x.isFinite, box.y.isFinite, box.width.isFinite, box.height.isFinite,
+              box.width > 0, box.height > 0 else { return nil }
+        let left = max(0, box.x)
+        let top = max(0, box.y)
+        let right = min(1, box.x + box.width)
+        let bottom = min(1, box.y + box.height)
+        guard right > left, bottom > top else { return nil }
+        return CGRect(x: left, y: top, width: right - left, height: bottom - top)
+    }
+
+    static func displayedRect(_ box: AutoCountBox, in imageRect: CGRect) -> CGRect? {
+        guard imageRect.width > 0, imageRect.height > 0, let region = normalizedRect(box) else { return nil }
+        return CGRect(x: imageRect.minX + region.minX * imageRect.width,
+                      y: imageRect.minY + region.minY * imageRect.height,
+                      width: region.width * imageRect.width,
+                      height: region.height * imageRect.height)
+    }
+
+    static func hasOutline(_ result: AutoCountRegionResult?) -> Bool {
+        guard let result, result.fallbackReason == .none else { return false }
+        return result.regions.contains { normalizedRect($0) != nil }
+    }
+}
+
+private struct AutomaticRegionStatus: View {
+    let result: AutoCountRegionResult?
+    var body: some View {
+        Label(L10n.text(AutomaticRegionPresentation.hasOutline(result) ? "region.identified" : "region.fallback"),
+              systemImage: "viewfinder")
+            .font(.footnote)
+            .foregroundStyle(Theme.muted)
+            .fixedSize(horizontal: false, vertical: true)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .accessibilityIdentifier("automaticRegionStatus")
     }
 }
 
@@ -514,17 +577,23 @@ private struct MarkerEditor: View {
             VStack(spacing: 16) {
                 Text(L10n.count(workspace.edits.markers.count))
                     .font(.system(.title2, design: .rounded, weight: .bold))
+                    .accessibilityIdentifier("editorResultCount")
+                if workspace.automaticCount != nil {
+                    AutomaticRegionStatus(result: workspace.automaticRegion)
+                }
                 GeometryReader { geometry in
                     ScrollView([.horizontal, .vertical]) {
-                        MarkerCanvas(image: image, markers: workspace.edits.markers, mode: mode, onAdd: workspace.add, onRemove: workspace.remove)
+                        MarkerCanvas(image: image, markers: workspace.edits.markers, automaticRegion: workspace.automaticRegion,
+                                     mode: mode, onAdd: workspace.add, onRemove: workspace.remove)
                             .frame(width: ImageGeometry.safeDimension(geometry.size.width * zoom), height: ImageGeometry.safeDimension(geometry.size.height * zoom))
+                            .accessibilityIdentifier("editorPhoto")
                     }
                     .background(Color.black.opacity(0.04))
                     .clipShape(RoundedRectangle(cornerRadius: 20))
                 }
                 Picker(L10n.text("correction.mode"), selection: $mode) {
                     ForEach(MarkerMode.allCases) { item in Text(L10n.text(item.key)).tag(item) }
-                }.pickerStyle(.segmented)
+                }.pickerStyle(.segmented).accessibilityIdentifier("editorCorrectionMode")
                 Text(L10n.text(mode.instructionKey)).font(.footnote).foregroundStyle(Theme.muted)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 HStack {
@@ -534,6 +603,7 @@ private struct MarkerEditor: View {
                     Spacer()
                     Button { workspace.undo() } label: { Label(L10n.text("action.undo"), systemImage: "arrow.uturn.backward") }
                         .disabled(!workspace.edits.canUndo)
+                        .accessibilityIdentifier("editorUndoCorrection")
                 }.font(.body.weight(.semibold)).padding(.vertical, 8)
             }
             .padding(20).background(Theme.paper)
