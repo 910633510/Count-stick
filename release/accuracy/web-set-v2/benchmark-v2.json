@@ -1,0 +1,3527 @@
+{
+  "schemaVersion": 1,
+  "evaluatedAt": "2026-10-23T15:15:39.909614+00:00",
+  "validation": {
+    "validationPassed": true,
+    "eligibleImages": 4,
+    "excludedImages": 0,
+    "sourceGroups": 4,
+    "manifestSha256": "b1e065e3fa402ae18a5bfe02e2d3ca4cc0a43c016940e4749185e827e95f6298",
+    "splitCounts": {
+      "holdout": 4
+    }
+  },
+  "executionPlatform": "macOS CoreML CPU-only offline reproduction; not physical iPhone acceptance",
+  "sourceDetectorSha256": "f9be1037a75de32699b1f26d0fee9ecebb05599e77f24199b6144e6c648648fd",
+  "modelDefinitionSha256": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+  "modelFileHashes": {
+    "Data/com.apple.CoreML/model.mlmodel": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+    "Data/com.apple.CoreML/weights/weight.bin": "21717eef227d96f45419d0b5730fa4114e6877f4a6548a71efe641fc23240090",
+    "Manifest.json": "069d7e3b5c970ac6b017cdc8921bfc2deb0da721c98b71009b80c7de3521832d"
+  },
+  "predictionFileSha256": "85636b9390ae934010cdef4f752760bb655bb34432d955fcc421fb6e9dec1a76",
+  "excludedImages": [],
+  "matchingProtocol": "Maximum-cardinality, minimum-total-pixel-distance one-to-one matches inside each frozen per-point radius. Unmatched predictions in ignored polygons excluded; extra matches to already-matched heads are duplicate FP.",
+  "countProtocol": "Exact-count rate/MAE only for full_image + completeCountVerified + no ignored uncertainty. These are visible-endpoint counts, never inferred package or physical hidden-stick quantities.",
+  "overall": {
+    "baseline": {
+      "TP": 211,
+      "FP": 54,
+      "FN": 2,
+      "ignoredPredictions": 17,
+      "duplicateFalsePositives": 27,
+      "images": 4,
+      "sourceGroups": 4,
+      "precision": 0.7962264150943397,
+      "recall": 0.9906103286384976,
+      "countEligibleImages": 2,
+      "countMAE": 1.0,
+      "exactCountRate": 0.0
+    },
+    "candidate": {
+      "TP": 210,
+      "FP": 22,
+      "FN": 3,
+      "ignoredPredictions": 17,
+      "duplicateFalsePositives": 0,
+      "images": 4,
+      "sourceGroups": 4,
+      "precision": 0.9051724137931034,
+      "recall": 0.9859154929577465,
+      "countEligibleImages": 2,
+      "countMAE": 1.5,
+      "exactCountRate": 0.0
+    }
+  },
+  "bySplit": {
+    "calibration": {
+      "baseline": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 0,
+        "images": 0,
+        "sourceGroups": 0,
+        "precision": null,
+        "recall": null,
+        "countEligibleImages": 0,
+        "countMAE": null,
+        "exactCountRate": null
+      },
+      "candidate": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 0,
+        "images": 0,
+        "sourceGroups": 0,
+        "precision": null,
+        "recall": null,
+        "countEligibleImages": 0,
+        "countMAE": null,
+        "exactCountRate": null
+      }
+    },
+    "holdout": {
+      "baseline": {
+        "TP": 211,
+        "FP": 54,
+        "FN": 2,
+        "ignoredPredictions": 17,
+        "duplicateFalsePositives": 27,
+        "images": 4,
+        "sourceGroups": 4,
+        "precision": 0.7962264150943397,
+        "recall": 0.9906103286384976,
+        "countEligibleImages": 2,
+        "countMAE": 1.0,
+        "exactCountRate": 0.0
+      },
+      "candidate": {
+        "TP": 210,
+        "FP": 22,
+        "FN": 3,
+        "ignoredPredictions": 17,
+        "duplicateFalsePositives": 0,
+        "images": 4,
+        "sourceGroups": 4,
+        "precision": 0.9051724137931034,
+        "recall": 0.9859154929577465,
+        "countEligibleImages": 2,
+        "countMAE": 1.5,
+        "exactCountRate": 0.0
+      }
+    }
+  },
+  "bySourceGroup": {
+    "hktvmall-coarse-promotional-ends": {
+      "baseline": {
+        "TP": 44,
+        "FP": 25,
+        "FN": 0,
+        "ignoredPredictions": 8,
+        "duplicateFalsePositives": 0,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 0.6376811594202898,
+        "recall": 1.0,
+        "countEligibleImages": 0,
+        "countMAE": null,
+        "exactCountRate": null
+      },
+      "candidate": {
+        "TP": 44,
+        "FP": 20,
+        "FN": 0,
+        "ignoredPredictions": 8,
+        "duplicateFalsePositives": 0,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 0.6875,
+        "recall": 1.0,
+        "countEligibleImages": 0,
+        "countMAE": null,
+        "exactCountRate": null
+      }
+    },
+    "nccaieiras-cotton-end-bundle": {
+      "baseline": {
+        "TP": 48,
+        "FP": 2,
+        "FN": 1,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 2,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 0.96,
+        "recall": 0.9795918367346939,
+        "countEligibleImages": 1,
+        "countMAE": 1.0,
+        "exactCountRate": 0.0
+      },
+      "candidate": {
+        "TP": 47,
+        "FP": 0,
+        "FN": 2,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 0,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 1.0,
+        "recall": 0.9591836734693877,
+        "countEligibleImages": 1,
+        "countMAE": 2.0,
+        "exactCountRate": 0.0
+      }
+    },
+    "pospal-handheld-demo-2026": {
+      "baseline": {
+        "TP": 52,
+        "FP": 1,
+        "FN": 0,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 0,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 0.9811320754716981,
+        "recall": 1.0,
+        "countEligibleImages": 1,
+        "countMAE": 1.0,
+        "exactCountRate": 0.0
+      },
+      "candidate": {
+        "TP": 52,
+        "FP": 1,
+        "FN": 0,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 0,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 0.9811320754716981,
+        "recall": 1.0,
+        "countEligibleImages": 1,
+        "countMAE": 1.0,
+        "exactCountRate": 0.0
+      }
+    },
+    "relaxdays-large-end-closeup": {
+      "baseline": {
+        "TP": 67,
+        "FP": 26,
+        "FN": 1,
+        "ignoredPredictions": 9,
+        "duplicateFalsePositives": 25,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 0.7204301075268817,
+        "recall": 0.9852941176470589,
+        "countEligibleImages": 0,
+        "countMAE": null,
+        "exactCountRate": null
+      },
+      "candidate": {
+        "TP": 67,
+        "FP": 1,
+        "FN": 1,
+        "ignoredPredictions": 9,
+        "duplicateFalsePositives": 0,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 0.9852941176470589,
+        "recall": 0.9852941176470589,
+        "countEligibleImages": 0,
+        "countMAE": null,
+        "exactCountRate": null
+      }
+    }
+  },
+  "images": [
+    {
+      "imageId": "root-v2-cotton",
+      "sourceGroup": "nccaieiras-cotton-end-bundle",
+      "split": "holdout",
+      "imageSha256": "1774f6f432598628e9d438ca346eb21dd7442afac3f47001866ac91dea6ae478",
+      "annotationSha256": "0e82bc5c728b202b2fa76ad2accd4456744a121cbb7cd3411bb9a074bb015fbd",
+      "variants": {
+        "baseline": {
+          "TP": 48,
+          "FP": 2,
+          "FN": 1,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 2,
+          "otherFalsePositives": 0,
+          "precision": 0.96,
+          "recall": 0.9795918367346939,
+          "predictedWholeImageCount": 50,
+          "predictedRegionCount": 50,
+          "confirmedVisibleEndpointCount": 49,
+          "exactCountEligible": true,
+          "signedCountError": 1,
+          "absoluteCountError": 1,
+          "exactCount": false,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 8,
+              "distancePx": 0.11485823974546518,
+              "labelId": "endpoint-009",
+              "predictionId": "baseline-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 25,
+              "distancePx": 1.6179568906871624,
+              "labelId": "endpoint-026",
+              "predictionId": "baseline-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 45,
+              "distancePx": 0.790270796128377,
+              "labelId": "endpoint-046",
+              "predictionId": "baseline-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 43,
+              "distancePx": 1.890514086788131,
+              "labelId": "endpoint-044",
+              "predictionId": "baseline-3"
+            },
+            {
+              "predictionIndex": 4,
+              "labelIndex": 5,
+              "distancePx": 3.1415551549479757,
+              "labelId": "endpoint-006",
+              "predictionId": "baseline-4"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 36,
+              "distancePx": 4.031402732853796,
+              "labelId": "endpoint-037",
+              "predictionId": "baseline-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 33,
+              "distancePx": 3.367562930249058,
+              "labelId": "endpoint-034",
+              "predictionId": "baseline-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 41,
+              "distancePx": 1.724473613091408,
+              "labelId": "endpoint-042",
+              "predictionId": "baseline-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 34,
+              "distancePx": 3.600354072589709,
+              "labelId": "endpoint-035",
+              "predictionId": "baseline-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 26,
+              "distancePx": 0.8396417419209226,
+              "labelId": "endpoint-027",
+              "predictionId": "baseline-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 31,
+              "distancePx": 1.6191680132823822,
+              "labelId": "endpoint-032",
+              "predictionId": "baseline-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 27,
+              "distancePx": 0.6793085554631199,
+              "labelId": "endpoint-028",
+              "predictionId": "baseline-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 22,
+              "distancePx": 0.6056459229184605,
+              "labelId": "endpoint-023",
+              "predictionId": "baseline-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 19,
+              "distancePx": 0.8892883174899722,
+              "labelId": "endpoint-020",
+              "predictionId": "baseline-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 3,
+              "distancePx": 2.1555615998608877,
+              "labelId": "endpoint-004",
+              "predictionId": "baseline-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 35,
+              "distancePx": 1.8667411909241665,
+              "labelId": "endpoint-036",
+              "predictionId": "baseline-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 23,
+              "distancePx": 0.9003911545890525,
+              "labelId": "endpoint-024",
+              "predictionId": "baseline-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 18,
+              "distancePx": 2.641127544187546,
+              "labelId": "endpoint-019",
+              "predictionId": "baseline-17"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 1,
+              "distancePx": 4.080801834339058,
+              "labelId": "endpoint-002",
+              "predictionId": "baseline-18"
+            },
+            {
+              "predictionIndex": 19,
+              "labelIndex": 0,
+              "distancePx": 1.0602451408075195,
+              "labelId": "endpoint-001",
+              "predictionId": "baseline-19"
+            },
+            {
+              "predictionIndex": 20,
+              "labelIndex": 29,
+              "distancePx": 0.90244097825746,
+              "labelId": "endpoint-030",
+              "predictionId": "baseline-20"
+            },
+            {
+              "predictionIndex": 21,
+              "labelIndex": 15,
+              "distancePx": 0.42945772443018637,
+              "labelId": "endpoint-016",
+              "predictionId": "baseline-21"
+            },
+            {
+              "predictionIndex": 22,
+              "labelIndex": 14,
+              "distancePx": 1.224079023322238,
+              "labelId": "endpoint-015",
+              "predictionId": "baseline-22"
+            },
+            {
+              "predictionIndex": 23,
+              "labelIndex": 24,
+              "distancePx": 1.5702172245710075,
+              "labelId": "endpoint-025",
+              "predictionId": "baseline-23"
+            },
+            {
+              "predictionIndex": 24,
+              "labelIndex": 30,
+              "distancePx": 3.0096685454538448,
+              "labelId": "endpoint-031",
+              "predictionId": "baseline-24"
+            },
+            {
+              "predictionIndex": 25,
+              "labelIndex": 6,
+              "distancePx": 2.3421873859917,
+              "labelId": "endpoint-007",
+              "predictionId": "baseline-25"
+            },
+            {
+              "predictionIndex": 26,
+              "labelIndex": 48,
+              "distancePx": 1.8459335586973329,
+              "labelId": "endpoint-049",
+              "predictionId": "baseline-26"
+            },
+            {
+              "predictionIndex": 27,
+              "labelIndex": 16,
+              "distancePx": 1.9240264170740446,
+              "labelId": "endpoint-017",
+              "predictionId": "baseline-27"
+            },
+            {
+              "predictionIndex": 28,
+              "labelIndex": 10,
+              "distancePx": 1.6053606354260062,
+              "labelId": "endpoint-011",
+              "predictionId": "baseline-28"
+            },
+            {
+              "predictionIndex": 29,
+              "labelIndex": 42,
+              "distancePx": 1.1008211712065508,
+              "labelId": "endpoint-043",
+              "predictionId": "baseline-29"
+            },
+            {
+              "predictionIndex": 30,
+              "labelIndex": 21,
+              "distancePx": 1.1279513534512753,
+              "labelId": "endpoint-022",
+              "predictionId": "baseline-30"
+            },
+            {
+              "predictionIndex": 31,
+              "labelIndex": 40,
+              "distancePx": 2.8455081158114885,
+              "labelId": "endpoint-041",
+              "predictionId": "baseline-31"
+            },
+            {
+              "predictionIndex": 32,
+              "labelIndex": 13,
+              "distancePx": 1.5939369839952122,
+              "labelId": "endpoint-014",
+              "predictionId": "baseline-32"
+            },
+            {
+              "predictionIndex": 33,
+              "labelIndex": 38,
+              "distancePx": 3.380060605120885,
+              "labelId": "endpoint-039",
+              "predictionId": "baseline-33"
+            },
+            {
+              "predictionIndex": 34,
+              "labelIndex": 37,
+              "distancePx": 1.470357137361247,
+              "labelId": "endpoint-038",
+              "predictionId": "baseline-34"
+            },
+            {
+              "predictionIndex": 35,
+              "labelIndex": 47,
+              "distancePx": 2.7228616776540835,
+              "labelId": "endpoint-048",
+              "predictionId": "baseline-35"
+            },
+            {
+              "predictionIndex": 36,
+              "labelIndex": 12,
+              "distancePx": 2.005277499124856,
+              "labelId": "endpoint-013",
+              "predictionId": "baseline-36"
+            },
+            {
+              "predictionIndex": 37,
+              "labelIndex": 32,
+              "distancePx": 2.028444259742777,
+              "labelId": "endpoint-033",
+              "predictionId": "baseline-37"
+            },
+            {
+              "predictionIndex": 38,
+              "labelIndex": 17,
+              "distancePx": 2.5733294651351613,
+              "labelId": "endpoint-018",
+              "predictionId": "baseline-38"
+            },
+            {
+              "predictionIndex": 39,
+              "labelIndex": 39,
+              "distancePx": 2.9733486497025523,
+              "labelId": "endpoint-040",
+              "predictionId": "baseline-39"
+            },
+            {
+              "predictionIndex": 40,
+              "labelIndex": 11,
+              "distancePx": 3.139436601341614,
+              "labelId": "endpoint-012",
+              "predictionId": "baseline-40"
+            },
+            {
+              "predictionIndex": 42,
+              "labelIndex": 46,
+              "distancePx": 3.0305780668866835,
+              "labelId": "endpoint-047",
+              "predictionId": "baseline-42"
+            },
+            {
+              "predictionIndex": 43,
+              "labelIndex": 28,
+              "distancePx": 6.202613194488671,
+              "labelId": "endpoint-029",
+              "predictionId": "baseline-43"
+            },
+            {
+              "predictionIndex": 44,
+              "labelIndex": 4,
+              "distancePx": 6.021318332537004,
+              "labelId": "endpoint-005",
+              "predictionId": "baseline-44"
+            },
+            {
+              "predictionIndex": 45,
+              "labelIndex": 20,
+              "distancePx": 1.56857036154773,
+              "labelId": "endpoint-021",
+              "predictionId": "baseline-45"
+            },
+            {
+              "predictionIndex": 47,
+              "labelIndex": 44,
+              "distancePx": 1.0293618458577343,
+              "labelId": "endpoint-045",
+              "predictionId": "baseline-47"
+            },
+            {
+              "predictionIndex": 48,
+              "labelIndex": 7,
+              "distancePx": 4.96614702888505,
+              "labelId": "endpoint-008",
+              "predictionId": "baseline-48"
+            },
+            {
+              "predictionIndex": 49,
+              "labelIndex": 9,
+              "distancePx": 1.4810551511192074,
+              "labelId": "endpoint-010",
+              "predictionId": "baseline-49"
+            }
+          ],
+          "falsePositivePredictionIds": [
+            "baseline-41",
+            "baseline-46"
+          ],
+          "duplicatePredictionIds": [
+            "baseline-41",
+            "baseline-46"
+          ],
+          "missedLabelIds": [
+            "endpoint-003"
+          ]
+        },
+        "candidate": {
+          "TP": 47,
+          "FP": 0,
+          "FN": 2,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 0,
+          "otherFalsePositives": 0,
+          "precision": 1.0,
+          "recall": 0.9591836734693877,
+          "predictedWholeImageCount": 47,
+          "predictedRegionCount": 47,
+          "confirmedVisibleEndpointCount": 49,
+          "exactCountEligible": true,
+          "signedCountError": -2,
+          "absoluteCountError": 2,
+          "exactCount": false,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 8,
+              "distancePx": 0.11485823974546518,
+              "labelId": "endpoint-009",
+              "predictionId": "candidate-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 25,
+              "distancePx": 1.6179568906871624,
+              "labelId": "endpoint-026",
+              "predictionId": "candidate-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 45,
+              "distancePx": 0.790270796128377,
+              "labelId": "endpoint-046",
+              "predictionId": "candidate-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 43,
+              "distancePx": 1.890514086788131,
+              "labelId": "endpoint-044",
+              "predictionId": "candidate-3"
+            },
+            {
+              "predictionIndex": 4,
+              "labelIndex": 5,
+              "distancePx": 3.1415551549479757,
+              "labelId": "endpoint-006",
+              "predictionId": "candidate-4"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 36,
+              "distancePx": 4.031402732853796,
+              "labelId": "endpoint-037",
+              "predictionId": "candidate-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 33,
+              "distancePx": 3.367562930249058,
+              "labelId": "endpoint-034",
+              "predictionId": "candidate-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 41,
+              "distancePx": 1.724473613091408,
+              "labelId": "endpoint-042",
+              "predictionId": "candidate-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 34,
+              "distancePx": 3.600354072589709,
+              "labelId": "endpoint-035",
+              "predictionId": "candidate-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 26,
+              "distancePx": 0.8396417419209226,
+              "labelId": "endpoint-027",
+              "predictionId": "candidate-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 31,
+              "distancePx": 1.6191680132823822,
+              "labelId": "endpoint-032",
+              "predictionId": "candidate-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 27,
+              "distancePx": 0.6793085554631199,
+              "labelId": "endpoint-028",
+              "predictionId": "candidate-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 22,
+              "distancePx": 0.6056459229184605,
+              "labelId": "endpoint-023",
+              "predictionId": "candidate-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 19,
+              "distancePx": 0.8892883174899722,
+              "labelId": "endpoint-020",
+              "predictionId": "candidate-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 3,
+              "distancePx": 2.1555615998608877,
+              "labelId": "endpoint-004",
+              "predictionId": "candidate-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 35,
+              "distancePx": 1.8667411909241665,
+              "labelId": "endpoint-036",
+              "predictionId": "candidate-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 23,
+              "distancePx": 0.9003911545890525,
+              "labelId": "endpoint-024",
+              "predictionId": "candidate-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 18,
+              "distancePx": 2.641127544187546,
+              "labelId": "endpoint-019",
+              "predictionId": "candidate-17"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 1,
+              "distancePx": 4.080801834339058,
+              "labelId": "endpoint-002",
+              "predictionId": "candidate-18"
+            },
+            {
+              "predictionIndex": 19,
+              "labelIndex": 0,
+              "distancePx": 1.0602451408075195,
+              "labelId": "endpoint-001",
+              "predictionId": "candidate-19"
+            },
+            {
+              "predictionIndex": 20,
+              "labelIndex": 29,
+              "distancePx": 0.90244097825746,
+              "labelId": "endpoint-030",
+              "predictionId": "candidate-20"
+            },
+            {
+              "predictionIndex": 21,
+              "labelIndex": 15,
+              "distancePx": 0.42945772443018637,
+              "labelId": "endpoint-016",
+              "predictionId": "candidate-21"
+            },
+            {
+              "predictionIndex": 22,
+              "labelIndex": 14,
+              "distancePx": 1.224079023322238,
+              "labelId": "endpoint-015",
+              "predictionId": "candidate-22"
+            },
+            {
+              "predictionIndex": 23,
+              "labelIndex": 24,
+              "distancePx": 1.5702172245710075,
+              "labelId": "endpoint-025",
+              "predictionId": "candidate-23"
+            },
+            {
+              "predictionIndex": 24,
+              "labelIndex": 30,
+              "distancePx": 3.0096685454538448,
+              "labelId": "endpoint-031",
+              "predictionId": "candidate-24"
+            },
+            {
+              "predictionIndex": 25,
+              "labelIndex": 6,
+              "distancePx": 2.3421873859917,
+              "labelId": "endpoint-007",
+              "predictionId": "candidate-25"
+            },
+            {
+              "predictionIndex": 26,
+              "labelIndex": 48,
+              "distancePx": 1.8459335586973329,
+              "labelId": "endpoint-049",
+              "predictionId": "candidate-26"
+            },
+            {
+              "predictionIndex": 27,
+              "labelIndex": 16,
+              "distancePx": 1.9240264170740446,
+              "labelId": "endpoint-017",
+              "predictionId": "candidate-27"
+            },
+            {
+              "predictionIndex": 28,
+              "labelIndex": 10,
+              "distancePx": 1.6053606354260062,
+              "labelId": "endpoint-011",
+              "predictionId": "candidate-28"
+            },
+            {
+              "predictionIndex": 29,
+              "labelIndex": 42,
+              "distancePx": 1.1008211712065508,
+              "labelId": "endpoint-043",
+              "predictionId": "candidate-29"
+            },
+            {
+              "predictionIndex": 30,
+              "labelIndex": 21,
+              "distancePx": 1.1279513534512753,
+              "labelId": "endpoint-022",
+              "predictionId": "candidate-30"
+            },
+            {
+              "predictionIndex": 31,
+              "labelIndex": 40,
+              "distancePx": 2.8455081158114885,
+              "labelId": "endpoint-041",
+              "predictionId": "candidate-31"
+            },
+            {
+              "predictionIndex": 32,
+              "labelIndex": 13,
+              "distancePx": 1.5939369839952122,
+              "labelId": "endpoint-014",
+              "predictionId": "candidate-32"
+            },
+            {
+              "predictionIndex": 33,
+              "labelIndex": 38,
+              "distancePx": 3.380060605120885,
+              "labelId": "endpoint-039",
+              "predictionId": "candidate-33"
+            },
+            {
+              "predictionIndex": 34,
+              "labelIndex": 37,
+              "distancePx": 1.470357137361247,
+              "labelId": "endpoint-038",
+              "predictionId": "candidate-34"
+            },
+            {
+              "predictionIndex": 35,
+              "labelIndex": 47,
+              "distancePx": 2.7228616776540835,
+              "labelId": "endpoint-048",
+              "predictionId": "candidate-35"
+            },
+            {
+              "predictionIndex": 36,
+              "labelIndex": 12,
+              "distancePx": 2.005277499124856,
+              "labelId": "endpoint-013",
+              "predictionId": "candidate-36"
+            },
+            {
+              "predictionIndex": 37,
+              "labelIndex": 32,
+              "distancePx": 2.028444259742777,
+              "labelId": "endpoint-033",
+              "predictionId": "candidate-37"
+            },
+            {
+              "predictionIndex": 38,
+              "labelIndex": 17,
+              "distancePx": 2.5733294651351613,
+              "labelId": "endpoint-018",
+              "predictionId": "candidate-38"
+            },
+            {
+              "predictionIndex": 39,
+              "labelIndex": 39,
+              "distancePx": 2.9733486497025523,
+              "labelId": "endpoint-040",
+              "predictionId": "candidate-39"
+            },
+            {
+              "predictionIndex": 40,
+              "labelIndex": 11,
+              "distancePx": 3.139436601341614,
+              "labelId": "endpoint-012",
+              "predictionId": "candidate-40"
+            },
+            {
+              "predictionIndex": 41,
+              "labelIndex": 46,
+              "distancePx": 3.0305780668866835,
+              "labelId": "endpoint-047",
+              "predictionId": "candidate-41"
+            },
+            {
+              "predictionIndex": 42,
+              "labelIndex": 28,
+              "distancePx": 6.202613194488671,
+              "labelId": "endpoint-029",
+              "predictionId": "candidate-42"
+            },
+            {
+              "predictionIndex": 43,
+              "labelIndex": 4,
+              "distancePx": 6.021318332537004,
+              "labelId": "endpoint-005",
+              "predictionId": "candidate-43"
+            },
+            {
+              "predictionIndex": 44,
+              "labelIndex": 20,
+              "distancePx": 1.56857036154773,
+              "labelId": "endpoint-021",
+              "predictionId": "candidate-44"
+            },
+            {
+              "predictionIndex": 45,
+              "labelIndex": 9,
+              "distancePx": 7.005014139388502,
+              "labelId": "endpoint-010",
+              "predictionId": "candidate-45"
+            },
+            {
+              "predictionIndex": 46,
+              "labelIndex": 44,
+              "distancePx": 1.0293618458577343,
+              "labelId": "endpoint-045",
+              "predictionId": "candidate-46"
+            }
+          ],
+          "falsePositivePredictionIds": [],
+          "duplicatePredictionIds": [],
+          "missedLabelIds": [
+            "endpoint-003",
+            "endpoint-008"
+          ]
+        }
+      }
+    },
+    {
+      "imageId": "root-v2-relax",
+      "sourceGroup": "relaxdays-large-end-closeup",
+      "split": "holdout",
+      "imageSha256": "a39d27c16c7058f5b6d6632f729a29e6c077067b27979d39bd31d9268c225b44",
+      "annotationSha256": "410cfee4287bb49842597bd6c88683e0b04c2fa3e62c3deaa09bcc9750f96dee",
+      "variants": {
+        "baseline": {
+          "TP": 67,
+          "FP": 26,
+          "FN": 1,
+          "ignoredPredictions": 9,
+          "duplicateFalsePositives": 25,
+          "otherFalsePositives": 1,
+          "precision": 0.7204301075268817,
+          "recall": 0.9852941176470589,
+          "predictedWholeImageCount": 102,
+          "predictedRegionCount": 102,
+          "confirmedVisibleEndpointCount": 68,
+          "exactCountEligible": false,
+          "signedCountError": null,
+          "absoluteCountError": null,
+          "exactCount": null,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 34,
+              "distancePx": 2.121320343559643,
+              "labelId": "end-035",
+              "predictionId": "baseline-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 17,
+              "distancePx": 6.324555320336759,
+              "labelId": "end-018",
+              "predictionId": "baseline-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 23,
+              "distancePx": 5.8309518948453,
+              "labelId": "end-024",
+              "predictionId": "baseline-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 20,
+              "distancePx": 3.092329219213245,
+              "labelId": "end-021",
+              "predictionId": "baseline-3"
+            },
+            {
+              "predictionIndex": 4,
+              "labelIndex": 54,
+              "distancePx": 5.590169943749474,
+              "labelId": "end-055",
+              "predictionId": "baseline-4"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 13,
+              "distancePx": 10.253048327204938,
+              "labelId": "end-014",
+              "predictionId": "baseline-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 32,
+              "distancePx": 5.522680508593631,
+              "labelId": "end-033",
+              "predictionId": "baseline-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 18,
+              "distancePx": 6.946221994724903,
+              "labelId": "end-019",
+              "predictionId": "baseline-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 22,
+              "distancePx": 11.55692433132622,
+              "labelId": "end-023",
+              "predictionId": "baseline-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 12,
+              "distancePx": 3.2040014044940737,
+              "labelId": "end-013",
+              "predictionId": "baseline-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 36,
+              "distancePx": 5.024937810560445,
+              "labelId": "end-037",
+              "predictionId": "baseline-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 58,
+              "distancePx": 4.451123453691213,
+              "labelId": "end-059",
+              "predictionId": "baseline-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 47,
+              "distancePx": 3.0,
+              "labelId": "end-048",
+              "predictionId": "baseline-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 15,
+              "distancePx": 8.280247580839598,
+              "labelId": "end-016",
+              "predictionId": "baseline-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 24,
+              "distancePx": 7.0400639201643616,
+              "labelId": "end-025",
+              "predictionId": "baseline-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 42,
+              "distancePx": 7.890857051043316,
+              "labelId": "end-043",
+              "predictionId": "baseline-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 25,
+              "distancePx": 2.1360009363293826,
+              "labelId": "end-026",
+              "predictionId": "baseline-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 9,
+              "distancePx": 2.704163456597992,
+              "labelId": "end-010",
+              "predictionId": "baseline-17"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 55,
+              "distancePx": 7.826237921249264,
+              "labelId": "end-056",
+              "predictionId": "baseline-18"
+            },
+            {
+              "predictionIndex": 19,
+              "labelIndex": 11,
+              "distancePx": 1.1792476415070754,
+              "labelId": "end-012",
+              "predictionId": "baseline-19"
+            },
+            {
+              "predictionIndex": 20,
+              "labelIndex": 35,
+              "distancePx": 5.0,
+              "labelId": "end-036",
+              "predictionId": "baseline-20"
+            },
+            {
+              "predictionIndex": 21,
+              "labelIndex": 37,
+              "distancePx": 2.6925824035672523,
+              "labelId": "end-038",
+              "predictionId": "baseline-21"
+            },
+            {
+              "predictionIndex": 22,
+              "labelIndex": 46,
+              "distancePx": 5.0,
+              "labelId": "end-047",
+              "predictionId": "baseline-22"
+            },
+            {
+              "predictionIndex": 23,
+              "labelIndex": 19,
+              "distancePx": 5.8309518948453,
+              "labelId": "end-020",
+              "predictionId": "baseline-23"
+            },
+            {
+              "predictionIndex": 24,
+              "labelIndex": 27,
+              "distancePx": 6.485560885536424,
+              "labelId": "end-028",
+              "predictionId": "baseline-24"
+            },
+            {
+              "predictionIndex": 25,
+              "labelIndex": 33,
+              "distancePx": 3.8078865529319543,
+              "labelId": "end-034",
+              "predictionId": "baseline-25"
+            },
+            {
+              "predictionIndex": 26,
+              "labelIndex": 16,
+              "distancePx": 6.4031242374328485,
+              "labelId": "end-017",
+              "predictionId": "baseline-26"
+            },
+            {
+              "predictionIndex": 27,
+              "labelIndex": 1,
+              "distancePx": 5.303300858899107,
+              "labelId": "end-002",
+              "predictionId": "baseline-27"
+            },
+            {
+              "predictionIndex": 28,
+              "labelIndex": 38,
+              "distancePx": 1.118033988749895,
+              "labelId": "end-039",
+              "predictionId": "baseline-28"
+            },
+            {
+              "predictionIndex": 29,
+              "labelIndex": 7,
+              "distancePx": 1.3462912017836262,
+              "labelId": "end-008",
+              "predictionId": "baseline-29"
+            },
+            {
+              "predictionIndex": 30,
+              "labelIndex": 10,
+              "distancePx": 3.8078865529319543,
+              "labelId": "end-011",
+              "predictionId": "baseline-30"
+            },
+            {
+              "predictionIndex": 31,
+              "labelIndex": 45,
+              "distancePx": 5.024937810560445,
+              "labelId": "end-046",
+              "predictionId": "baseline-31"
+            },
+            {
+              "predictionIndex": 32,
+              "labelIndex": 14,
+              "distancePx": 7.615773105863909,
+              "labelId": "end-015",
+              "predictionId": "baseline-32"
+            },
+            {
+              "predictionIndex": 33,
+              "labelIndex": 28,
+              "distancePx": 18.58258593414813,
+              "labelId": "end-029",
+              "predictionId": "baseline-33"
+            },
+            {
+              "predictionIndex": 34,
+              "labelIndex": 57,
+              "distancePx": 6.18465843842649,
+              "labelId": "end-058",
+              "predictionId": "baseline-34"
+            },
+            {
+              "predictionIndex": 35,
+              "labelIndex": 41,
+              "distancePx": 8.11730404752711,
+              "labelId": "end-042",
+              "predictionId": "baseline-35"
+            },
+            {
+              "predictionIndex": 36,
+              "labelIndex": 48,
+              "distancePx": 2.23606797749979,
+              "labelId": "end-049",
+              "predictionId": "baseline-36"
+            },
+            {
+              "predictionIndex": 37,
+              "labelIndex": 40,
+              "distancePx": 5.031152949374527,
+              "labelId": "end-041",
+              "predictionId": "baseline-37"
+            },
+            {
+              "predictionIndex": 38,
+              "labelIndex": 50,
+              "distancePx": 4.716990566028302,
+              "labelId": "end-051",
+              "predictionId": "baseline-38"
+            },
+            {
+              "predictionIndex": 39,
+              "labelIndex": 59,
+              "distancePx": 3.1622776601683795,
+              "labelId": "end-060",
+              "predictionId": "baseline-39"
+            },
+            {
+              "predictionIndex": 40,
+              "labelIndex": 65,
+              "distancePx": 3.905124837953328,
+              "labelId": "end-066",
+              "predictionId": "baseline-40"
+            },
+            {
+              "predictionIndex": 41,
+              "labelIndex": 21,
+              "distancePx": 8.503675675847473,
+              "labelId": "end-022",
+              "predictionId": "baseline-41"
+            },
+            {
+              "predictionIndex": 42,
+              "labelIndex": 30,
+              "distancePx": 1.5811388300841898,
+              "labelId": "end-031",
+              "predictionId": "baseline-42"
+            },
+            {
+              "predictionIndex": 43,
+              "labelIndex": 39,
+              "distancePx": 7.867059488779782,
+              "labelId": "end-040",
+              "predictionId": "baseline-43"
+            },
+            {
+              "predictionIndex": 45,
+              "labelIndex": 43,
+              "distancePx": 14.002231964940446,
+              "labelId": "end-044",
+              "predictionId": "baseline-45"
+            },
+            {
+              "predictionIndex": 46,
+              "labelIndex": 63,
+              "distancePx": 10.307764064044152,
+              "labelId": "end-064",
+              "predictionId": "baseline-46"
+            },
+            {
+              "predictionIndex": 47,
+              "labelIndex": 49,
+              "distancePx": 9.433981132056603,
+              "labelId": "end-050",
+              "predictionId": "baseline-47"
+            },
+            {
+              "predictionIndex": 50,
+              "labelIndex": 44,
+              "distancePx": 5.836308764964375,
+              "labelId": "end-045",
+              "predictionId": "baseline-50"
+            },
+            {
+              "predictionIndex": 51,
+              "labelIndex": 29,
+              "distancePx": 12.611998255629437,
+              "labelId": "end-030",
+              "predictionId": "baseline-51"
+            },
+            {
+              "predictionIndex": 53,
+              "labelIndex": 52,
+              "distancePx": 3.6055512754639896,
+              "labelId": "end-053",
+              "predictionId": "baseline-53"
+            },
+            {
+              "predictionIndex": 55,
+              "labelIndex": 60,
+              "distancePx": 6.4031242374328485,
+              "labelId": "end-061",
+              "predictionId": "baseline-55"
+            },
+            {
+              "predictionIndex": 56,
+              "labelIndex": 67,
+              "distancePx": 10.977249200050075,
+              "labelId": "end-068",
+              "predictionId": "baseline-56"
+            },
+            {
+              "predictionIndex": 57,
+              "labelIndex": 4,
+              "distancePx": 9.063362027967326,
+              "labelId": "end-005",
+              "predictionId": "baseline-57"
+            },
+            {
+              "predictionIndex": 58,
+              "labelIndex": 2,
+              "distancePx": 5.482928049865327,
+              "labelId": "end-003",
+              "predictionId": "baseline-58"
+            },
+            {
+              "predictionIndex": 59,
+              "labelIndex": 56,
+              "distancePx": 9.300537618869136,
+              "labelId": "end-057",
+              "predictionId": "baseline-59"
+            },
+            {
+              "predictionIndex": 60,
+              "labelIndex": 64,
+              "distancePx": 1.0307764064044151,
+              "labelId": "end-065",
+              "predictionId": "baseline-60"
+            },
+            {
+              "predictionIndex": 62,
+              "labelIndex": 53,
+              "distancePx": 7.810249675906656,
+              "labelId": "end-054",
+              "predictionId": "baseline-62"
+            },
+            {
+              "predictionIndex": 65,
+              "labelIndex": 3,
+              "distancePx": 8.602325267042627,
+              "labelId": "end-004",
+              "predictionId": "baseline-65"
+            },
+            {
+              "predictionIndex": 66,
+              "labelIndex": 66,
+              "distancePx": 8.602325267042627,
+              "labelId": "end-067",
+              "predictionId": "baseline-66"
+            },
+            {
+              "predictionIndex": 72,
+              "labelIndex": 31,
+              "distancePx": 10.654371168680017,
+              "labelId": "end-032",
+              "predictionId": "baseline-72"
+            },
+            {
+              "predictionIndex": 77,
+              "labelIndex": 61,
+              "distancePx": 18.475596235304558,
+              "labelId": "end-062",
+              "predictionId": "baseline-77"
+            },
+            {
+              "predictionIndex": 78,
+              "labelIndex": 51,
+              "distancePx": 7.1063352017759485,
+              "labelId": "end-052",
+              "predictionId": "baseline-78"
+            },
+            {
+              "predictionIndex": 80,
+              "labelIndex": 26,
+              "distancePx": 3.69120576505835,
+              "labelId": "end-027",
+              "predictionId": "baseline-80"
+            },
+            {
+              "predictionIndex": 81,
+              "labelIndex": 62,
+              "distancePx": 2.23606797749979,
+              "labelId": "end-063",
+              "predictionId": "baseline-81"
+            },
+            {
+              "predictionIndex": 82,
+              "labelIndex": 5,
+              "distancePx": 5.385164807134505,
+              "labelId": "end-006",
+              "predictionId": "baseline-82"
+            },
+            {
+              "predictionIndex": 92,
+              "labelIndex": 8,
+              "distancePx": 2.57390753524675,
+              "labelId": "end-009",
+              "predictionId": "baseline-92"
+            },
+            {
+              "predictionIndex": 93,
+              "labelIndex": 0,
+              "distancePx": 8.300037650517014,
+              "labelId": "end-001",
+              "predictionId": "baseline-93"
+            }
+          ],
+          "falsePositivePredictionIds": [
+            "baseline-44",
+            "baseline-48",
+            "baseline-49",
+            "baseline-54",
+            "baseline-63",
+            "baseline-64",
+            "baseline-67",
+            "baseline-68",
+            "baseline-69",
+            "baseline-70",
+            "baseline-74",
+            "baseline-83",
+            "baseline-85",
+            "baseline-86",
+            "baseline-87",
+            "baseline-88",
+            "baseline-89",
+            "baseline-90",
+            "baseline-91",
+            "baseline-94",
+            "baseline-95",
+            "baseline-96",
+            "baseline-97",
+            "baseline-98",
+            "baseline-99",
+            "baseline-100"
+          ],
+          "duplicatePredictionIds": [
+            "baseline-44",
+            "baseline-48",
+            "baseline-49",
+            "baseline-54",
+            "baseline-63",
+            "baseline-64",
+            "baseline-67",
+            "baseline-68",
+            "baseline-69",
+            "baseline-70",
+            "baseline-74",
+            "baseline-83",
+            "baseline-85",
+            "baseline-86",
+            "baseline-87",
+            "baseline-88",
+            "baseline-89",
+            "baseline-91",
+            "baseline-94",
+            "baseline-95",
+            "baseline-96",
+            "baseline-97",
+            "baseline-98",
+            "baseline-99",
+            "baseline-100"
+          ],
+          "missedLabelIds": [
+            "end-007"
+          ]
+        },
+        "candidate": {
+          "TP": 67,
+          "FP": 1,
+          "FN": 1,
+          "ignoredPredictions": 9,
+          "duplicateFalsePositives": 0,
+          "otherFalsePositives": 1,
+          "precision": 0.9852941176470589,
+          "recall": 0.9852941176470589,
+          "predictedWholeImageCount": 77,
+          "predictedRegionCount": 77,
+          "confirmedVisibleEndpointCount": 68,
+          "exactCountEligible": false,
+          "signedCountError": null,
+          "absoluteCountError": null,
+          "exactCount": null,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 34,
+              "distancePx": 2.121320343559643,
+              "labelId": "end-035",
+              "predictionId": "candidate-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 17,
+              "distancePx": 6.324555320336759,
+              "labelId": "end-018",
+              "predictionId": "candidate-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 23,
+              "distancePx": 5.8309518948453,
+              "labelId": "end-024",
+              "predictionId": "candidate-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 20,
+              "distancePx": 3.092329219213245,
+              "labelId": "end-021",
+              "predictionId": "candidate-3"
+            },
+            {
+              "predictionIndex": 4,
+              "labelIndex": 54,
+              "distancePx": 5.590169943749474,
+              "labelId": "end-055",
+              "predictionId": "candidate-4"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 13,
+              "distancePx": 10.253048327204938,
+              "labelId": "end-014",
+              "predictionId": "candidate-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 32,
+              "distancePx": 5.522680508593631,
+              "labelId": "end-033",
+              "predictionId": "candidate-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 18,
+              "distancePx": 6.946221994724903,
+              "labelId": "end-019",
+              "predictionId": "candidate-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 22,
+              "distancePx": 11.55692433132622,
+              "labelId": "end-023",
+              "predictionId": "candidate-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 12,
+              "distancePx": 3.2040014044940737,
+              "labelId": "end-013",
+              "predictionId": "candidate-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 36,
+              "distancePx": 5.024937810560445,
+              "labelId": "end-037",
+              "predictionId": "candidate-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 58,
+              "distancePx": 4.451123453691213,
+              "labelId": "end-059",
+              "predictionId": "candidate-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 47,
+              "distancePx": 3.0,
+              "labelId": "end-048",
+              "predictionId": "candidate-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 15,
+              "distancePx": 8.280247580839598,
+              "labelId": "end-016",
+              "predictionId": "candidate-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 24,
+              "distancePx": 7.0400639201643616,
+              "labelId": "end-025",
+              "predictionId": "candidate-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 42,
+              "distancePx": 7.890857051043316,
+              "labelId": "end-043",
+              "predictionId": "candidate-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 25,
+              "distancePx": 2.1360009363293826,
+              "labelId": "end-026",
+              "predictionId": "candidate-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 9,
+              "distancePx": 2.704163456597992,
+              "labelId": "end-010",
+              "predictionId": "candidate-17"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 55,
+              "distancePx": 7.826237921249264,
+              "labelId": "end-056",
+              "predictionId": "candidate-18"
+            },
+            {
+              "predictionIndex": 19,
+              "labelIndex": 11,
+              "distancePx": 1.1792476415070754,
+              "labelId": "end-012",
+              "predictionId": "candidate-19"
+            },
+            {
+              "predictionIndex": 20,
+              "labelIndex": 35,
+              "distancePx": 5.0,
+              "labelId": "end-036",
+              "predictionId": "candidate-20"
+            },
+            {
+              "predictionIndex": 21,
+              "labelIndex": 37,
+              "distancePx": 2.6925824035672523,
+              "labelId": "end-038",
+              "predictionId": "candidate-21"
+            },
+            {
+              "predictionIndex": 22,
+              "labelIndex": 46,
+              "distancePx": 5.0,
+              "labelId": "end-047",
+              "predictionId": "candidate-22"
+            },
+            {
+              "predictionIndex": 23,
+              "labelIndex": 19,
+              "distancePx": 5.8309518948453,
+              "labelId": "end-020",
+              "predictionId": "candidate-23"
+            },
+            {
+              "predictionIndex": 24,
+              "labelIndex": 27,
+              "distancePx": 6.485560885536424,
+              "labelId": "end-028",
+              "predictionId": "candidate-24"
+            },
+            {
+              "predictionIndex": 25,
+              "labelIndex": 33,
+              "distancePx": 3.8078865529319543,
+              "labelId": "end-034",
+              "predictionId": "candidate-25"
+            },
+            {
+              "predictionIndex": 26,
+              "labelIndex": 16,
+              "distancePx": 6.4031242374328485,
+              "labelId": "end-017",
+              "predictionId": "candidate-26"
+            },
+            {
+              "predictionIndex": 27,
+              "labelIndex": 1,
+              "distancePx": 5.303300858899107,
+              "labelId": "end-002",
+              "predictionId": "candidate-27"
+            },
+            {
+              "predictionIndex": 28,
+              "labelIndex": 38,
+              "distancePx": 1.118033988749895,
+              "labelId": "end-039",
+              "predictionId": "candidate-28"
+            },
+            {
+              "predictionIndex": 29,
+              "labelIndex": 7,
+              "distancePx": 1.3462912017836262,
+              "labelId": "end-008",
+              "predictionId": "candidate-29"
+            },
+            {
+              "predictionIndex": 30,
+              "labelIndex": 10,
+              "distancePx": 3.8078865529319543,
+              "labelId": "end-011",
+              "predictionId": "candidate-30"
+            },
+            {
+              "predictionIndex": 31,
+              "labelIndex": 45,
+              "distancePx": 5.024937810560445,
+              "labelId": "end-046",
+              "predictionId": "candidate-31"
+            },
+            {
+              "predictionIndex": 32,
+              "labelIndex": 14,
+              "distancePx": 7.615773105863909,
+              "labelId": "end-015",
+              "predictionId": "candidate-32"
+            },
+            {
+              "predictionIndex": 33,
+              "labelIndex": 28,
+              "distancePx": 18.58258593414813,
+              "labelId": "end-029",
+              "predictionId": "candidate-33"
+            },
+            {
+              "predictionIndex": 34,
+              "labelIndex": 57,
+              "distancePx": 6.18465843842649,
+              "labelId": "end-058",
+              "predictionId": "candidate-34"
+            },
+            {
+              "predictionIndex": 35,
+              "labelIndex": 41,
+              "distancePx": 8.11730404752711,
+              "labelId": "end-042",
+              "predictionId": "candidate-35"
+            },
+            {
+              "predictionIndex": 36,
+              "labelIndex": 48,
+              "distancePx": 2.23606797749979,
+              "labelId": "end-049",
+              "predictionId": "candidate-36"
+            },
+            {
+              "predictionIndex": 37,
+              "labelIndex": 40,
+              "distancePx": 5.031152949374527,
+              "labelId": "end-041",
+              "predictionId": "candidate-37"
+            },
+            {
+              "predictionIndex": 38,
+              "labelIndex": 50,
+              "distancePx": 4.716990566028302,
+              "labelId": "end-051",
+              "predictionId": "candidate-38"
+            },
+            {
+              "predictionIndex": 39,
+              "labelIndex": 59,
+              "distancePx": 3.1622776601683795,
+              "labelId": "end-060",
+              "predictionId": "candidate-39"
+            },
+            {
+              "predictionIndex": 40,
+              "labelIndex": 65,
+              "distancePx": 3.905124837953328,
+              "labelId": "end-066",
+              "predictionId": "candidate-40"
+            },
+            {
+              "predictionIndex": 41,
+              "labelIndex": 21,
+              "distancePx": 8.503675675847473,
+              "labelId": "end-022",
+              "predictionId": "candidate-41"
+            },
+            {
+              "predictionIndex": 42,
+              "labelIndex": 30,
+              "distancePx": 1.5811388300841898,
+              "labelId": "end-031",
+              "predictionId": "candidate-42"
+            },
+            {
+              "predictionIndex": 43,
+              "labelIndex": 39,
+              "distancePx": 7.867059488779782,
+              "labelId": "end-040",
+              "predictionId": "candidate-43"
+            },
+            {
+              "predictionIndex": 44,
+              "labelIndex": 62,
+              "distancePx": 10.932320202043114,
+              "labelId": "end-063",
+              "predictionId": "candidate-44"
+            },
+            {
+              "predictionIndex": 45,
+              "labelIndex": 43,
+              "distancePx": 14.002231964940446,
+              "labelId": "end-044",
+              "predictionId": "candidate-45"
+            },
+            {
+              "predictionIndex": 46,
+              "labelIndex": 63,
+              "distancePx": 10.307764064044152,
+              "labelId": "end-064",
+              "predictionId": "candidate-46"
+            },
+            {
+              "predictionIndex": 47,
+              "labelIndex": 49,
+              "distancePx": 9.433981132056603,
+              "labelId": "end-050",
+              "predictionId": "candidate-47"
+            },
+            {
+              "predictionIndex": 48,
+              "labelIndex": 26,
+              "distancePx": 8.06225774829855,
+              "labelId": "end-027",
+              "predictionId": "candidate-48"
+            },
+            {
+              "predictionIndex": 49,
+              "labelIndex": 8,
+              "distancePx": 10.514870422406545,
+              "labelId": "end-009",
+              "predictionId": "candidate-49"
+            },
+            {
+              "predictionIndex": 50,
+              "labelIndex": 44,
+              "distancePx": 5.836308764964375,
+              "labelId": "end-045",
+              "predictionId": "candidate-50"
+            },
+            {
+              "predictionIndex": 51,
+              "labelIndex": 29,
+              "distancePx": 12.611998255629437,
+              "labelId": "end-030",
+              "predictionId": "candidate-51"
+            },
+            {
+              "predictionIndex": 53,
+              "labelIndex": 52,
+              "distancePx": 3.6055512754639896,
+              "labelId": "end-053",
+              "predictionId": "candidate-53"
+            },
+            {
+              "predictionIndex": 54,
+              "labelIndex": 5,
+              "distancePx": 12.992786460186284,
+              "labelId": "end-006",
+              "predictionId": "candidate-54"
+            },
+            {
+              "predictionIndex": 55,
+              "labelIndex": 60,
+              "distancePx": 6.4031242374328485,
+              "labelId": "end-061",
+              "predictionId": "candidate-55"
+            },
+            {
+              "predictionIndex": 56,
+              "labelIndex": 67,
+              "distancePx": 10.977249200050075,
+              "labelId": "end-068",
+              "predictionId": "candidate-56"
+            },
+            {
+              "predictionIndex": 57,
+              "labelIndex": 4,
+              "distancePx": 9.063362027967326,
+              "labelId": "end-005",
+              "predictionId": "candidate-57"
+            },
+            {
+              "predictionIndex": 58,
+              "labelIndex": 2,
+              "distancePx": 5.482928049865327,
+              "labelId": "end-003",
+              "predictionId": "candidate-58"
+            },
+            {
+              "predictionIndex": 59,
+              "labelIndex": 56,
+              "distancePx": 9.300537618869136,
+              "labelId": "end-057",
+              "predictionId": "candidate-59"
+            },
+            {
+              "predictionIndex": 60,
+              "labelIndex": 64,
+              "distancePx": 1.0307764064044151,
+              "labelId": "end-065",
+              "predictionId": "candidate-60"
+            },
+            {
+              "predictionIndex": 62,
+              "labelIndex": 53,
+              "distancePx": 7.810249675906656,
+              "labelId": "end-054",
+              "predictionId": "candidate-62"
+            },
+            {
+              "predictionIndex": 63,
+              "labelIndex": 3,
+              "distancePx": 8.602325267042627,
+              "labelId": "end-004",
+              "predictionId": "candidate-63"
+            },
+            {
+              "predictionIndex": 64,
+              "labelIndex": 66,
+              "distancePx": 8.602325267042627,
+              "labelId": "end-067",
+              "predictionId": "candidate-64"
+            },
+            {
+              "predictionIndex": 66,
+              "labelIndex": 31,
+              "distancePx": 10.654371168680017,
+              "labelId": "end-032",
+              "predictionId": "candidate-66"
+            },
+            {
+              "predictionIndex": 70,
+              "labelIndex": 61,
+              "distancePx": 18.475596235304558,
+              "labelId": "end-062",
+              "predictionId": "candidate-70"
+            },
+            {
+              "predictionIndex": 71,
+              "labelIndex": 51,
+              "distancePx": 7.1063352017759485,
+              "labelId": "end-052",
+              "predictionId": "candidate-71"
+            },
+            {
+              "predictionIndex": 75,
+              "labelIndex": 0,
+              "distancePx": 8.300037650517014,
+              "labelId": "end-001",
+              "predictionId": "candidate-75"
+            }
+          ],
+          "falsePositivePredictionIds": [
+            "candidate-74"
+          ],
+          "duplicatePredictionIds": [],
+          "missedLabelIds": [
+            "end-007"
+          ]
+        }
+      }
+    },
+    {
+      "imageId": "reviewer-v2-hktvmall",
+      "sourceGroup": "hktvmall-coarse-promotional-ends",
+      "split": "holdout",
+      "imageSha256": "850a67f57e9d181906a18ff88d5701a0ead10c20f8babf407683da139d0e91ba",
+      "annotationSha256": "66bcc1bb17fd1c015229c39015b3536554f4ce9699cea3426511c0d6d18215ff",
+      "variants": {
+        "baseline": {
+          "TP": 44,
+          "FP": 25,
+          "FN": 0,
+          "ignoredPredictions": 8,
+          "duplicateFalsePositives": 0,
+          "otherFalsePositives": 25,
+          "precision": 0.6376811594202898,
+          "recall": 1.0,
+          "predictedWholeImageCount": 77,
+          "predictedRegionCount": 77,
+          "confirmedVisibleEndpointCount": 44,
+          "exactCountEligible": false,
+          "signedCountError": null,
+          "absoluteCountError": null,
+          "exactCount": null,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 29,
+              "distancePx": 1.8947527254565435,
+              "labelId": "end-030",
+              "predictionId": "baseline-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 26,
+              "distancePx": 1.6179283030200626,
+              "labelId": "end-027",
+              "predictionId": "baseline-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 17,
+              "distancePx": 0.7233236993713572,
+              "labelId": "end-018",
+              "predictionId": "baseline-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 19,
+              "distancePx": 0.8075199091674348,
+              "labelId": "end-020",
+              "predictionId": "baseline-3"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 18,
+              "distancePx": 3.2434020927121825,
+              "labelId": "end-019",
+              "predictionId": "baseline-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 1,
+              "distancePx": 3.032302241217939,
+              "labelId": "end-002",
+              "predictionId": "baseline-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 11,
+              "distancePx": 2.565621881796723,
+              "labelId": "end-012",
+              "predictionId": "baseline-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 24,
+              "distancePx": 6.865870726003158,
+              "labelId": "end-025",
+              "predictionId": "baseline-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 4,
+              "distancePx": 5.336134905535639,
+              "labelId": "end-005",
+              "predictionId": "baseline-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 6,
+              "distancePx": 4.2580204134232735,
+              "labelId": "end-007",
+              "predictionId": "baseline-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 38,
+              "distancePx": 3.5840439794089987,
+              "labelId": "end-039",
+              "predictionId": "baseline-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 13,
+              "distancePx": 2.7658429679538057,
+              "labelId": "end-014",
+              "predictionId": "baseline-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 0,
+              "distancePx": 1.5170917296113964,
+              "labelId": "end-001",
+              "predictionId": "baseline-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 34,
+              "distancePx": 1.402150940457788,
+              "labelId": "end-035",
+              "predictionId": "baseline-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 28,
+              "distancePx": 4.072015534183947,
+              "labelId": "end-029",
+              "predictionId": "baseline-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 20,
+              "distancePx": 2.3391393451388405,
+              "labelId": "end-021",
+              "predictionId": "baseline-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 42,
+              "distancePx": 3.057284058924778,
+              "labelId": "end-043",
+              "predictionId": "baseline-17"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 21,
+              "distancePx": 5.294703057980044,
+              "labelId": "end-022",
+              "predictionId": "baseline-18"
+            },
+            {
+              "predictionIndex": 19,
+              "labelIndex": 32,
+              "distancePx": 2.9080045592575328,
+              "labelId": "end-033",
+              "predictionId": "baseline-19"
+            },
+            {
+              "predictionIndex": 20,
+              "labelIndex": 39,
+              "distancePx": 4.061074344197796,
+              "labelId": "end-040",
+              "predictionId": "baseline-20"
+            },
+            {
+              "predictionIndex": 21,
+              "labelIndex": 2,
+              "distancePx": 1.0152411175541005,
+              "labelId": "end-003",
+              "predictionId": "baseline-21"
+            },
+            {
+              "predictionIndex": 22,
+              "labelIndex": 10,
+              "distancePx": 2.3303462447405936,
+              "labelId": "end-011",
+              "predictionId": "baseline-22"
+            },
+            {
+              "predictionIndex": 23,
+              "labelIndex": 14,
+              "distancePx": 3.901312828401414,
+              "labelId": "end-015",
+              "predictionId": "baseline-23"
+            },
+            {
+              "predictionIndex": 24,
+              "labelIndex": 5,
+              "distancePx": 3.510537855969325,
+              "labelId": "end-006",
+              "predictionId": "baseline-24"
+            },
+            {
+              "predictionIndex": 25,
+              "labelIndex": 33,
+              "distancePx": 2.7793627561587324,
+              "labelId": "end-034",
+              "predictionId": "baseline-25"
+            },
+            {
+              "predictionIndex": 26,
+              "labelIndex": 16,
+              "distancePx": 2.3264467475743595,
+              "labelId": "end-017",
+              "predictionId": "baseline-26"
+            },
+            {
+              "predictionIndex": 27,
+              "labelIndex": 27,
+              "distancePx": 1.7810101263924638,
+              "labelId": "end-028",
+              "predictionId": "baseline-27"
+            },
+            {
+              "predictionIndex": 28,
+              "labelIndex": 30,
+              "distancePx": 2.1618200037837942,
+              "labelId": "end-031",
+              "predictionId": "baseline-28"
+            },
+            {
+              "predictionIndex": 29,
+              "labelIndex": 3,
+              "distancePx": 3.454627223806711,
+              "labelId": "end-004",
+              "predictionId": "baseline-29"
+            },
+            {
+              "predictionIndex": 30,
+              "labelIndex": 40,
+              "distancePx": 3.334997397540448,
+              "labelId": "end-041",
+              "predictionId": "baseline-30"
+            },
+            {
+              "predictionIndex": 31,
+              "labelIndex": 9,
+              "distancePx": 0.7343756493098857,
+              "labelId": "end-010",
+              "predictionId": "baseline-31"
+            },
+            {
+              "predictionIndex": 32,
+              "labelIndex": 25,
+              "distancePx": 1.1975452787244985,
+              "labelId": "end-026",
+              "predictionId": "baseline-32"
+            },
+            {
+              "predictionIndex": 33,
+              "labelIndex": 22,
+              "distancePx": 1.8002854862580129,
+              "labelId": "end-023",
+              "predictionId": "baseline-33"
+            },
+            {
+              "predictionIndex": 34,
+              "labelIndex": 35,
+              "distancePx": 0.37759518667483033,
+              "labelId": "end-036",
+              "predictionId": "baseline-34"
+            },
+            {
+              "predictionIndex": 35,
+              "labelIndex": 31,
+              "distancePx": 2.359705011390977,
+              "labelId": "end-032",
+              "predictionId": "baseline-35"
+            },
+            {
+              "predictionIndex": 36,
+              "labelIndex": 8,
+              "distancePx": 3.253192360773314,
+              "labelId": "end-009",
+              "predictionId": "baseline-36"
+            },
+            {
+              "predictionIndex": 37,
+              "labelIndex": 36,
+              "distancePx": 4.700844043669221,
+              "labelId": "end-037",
+              "predictionId": "baseline-37"
+            },
+            {
+              "predictionIndex": 38,
+              "labelIndex": 15,
+              "distancePx": 1.0914334424180503,
+              "labelId": "end-016",
+              "predictionId": "baseline-38"
+            },
+            {
+              "predictionIndex": 39,
+              "labelIndex": 12,
+              "distancePx": 3.5275235473501136,
+              "labelId": "end-013",
+              "predictionId": "baseline-39"
+            },
+            {
+              "predictionIndex": 40,
+              "labelIndex": 41,
+              "distancePx": 3.4352109743764743,
+              "labelId": "end-042",
+              "predictionId": "baseline-40"
+            },
+            {
+              "predictionIndex": 41,
+              "labelIndex": 37,
+              "distancePx": 1.817292553004487,
+              "labelId": "end-038",
+              "predictionId": "baseline-41"
+            },
+            {
+              "predictionIndex": 42,
+              "labelIndex": 43,
+              "distancePx": 6.7577578151011775,
+              "labelId": "end-044",
+              "predictionId": "baseline-42"
+            },
+            {
+              "predictionIndex": 44,
+              "labelIndex": 7,
+              "distancePx": 1.9883350297590738,
+              "labelId": "end-008",
+              "predictionId": "baseline-44"
+            },
+            {
+              "predictionIndex": 50,
+              "labelIndex": 23,
+              "distancePx": 0.7438241681215159,
+              "labelId": "end-024",
+              "predictionId": "baseline-50"
+            }
+          ],
+          "falsePositivePredictionIds": [
+            "baseline-47",
+            "baseline-49",
+            "baseline-52",
+            "baseline-53",
+            "baseline-54",
+            "baseline-56",
+            "baseline-57",
+            "baseline-58",
+            "baseline-59",
+            "baseline-60",
+            "baseline-62",
+            "baseline-63",
+            "baseline-64",
+            "baseline-65",
+            "baseline-66",
+            "baseline-67",
+            "baseline-68",
+            "baseline-69",
+            "baseline-70",
+            "baseline-71",
+            "baseline-72",
+            "baseline-73",
+            "baseline-74",
+            "baseline-75",
+            "baseline-76"
+          ],
+          "duplicatePredictionIds": [],
+          "missedLabelIds": []
+        },
+        "candidate": {
+          "TP": 44,
+          "FP": 20,
+          "FN": 0,
+          "ignoredPredictions": 8,
+          "duplicateFalsePositives": 0,
+          "otherFalsePositives": 20,
+          "precision": 0.6875,
+          "recall": 1.0,
+          "predictedWholeImageCount": 72,
+          "predictedRegionCount": 72,
+          "confirmedVisibleEndpointCount": 44,
+          "exactCountEligible": false,
+          "signedCountError": null,
+          "absoluteCountError": null,
+          "exactCount": null,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 29,
+              "distancePx": 1.8947527254565435,
+              "labelId": "end-030",
+              "predictionId": "candidate-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 26,
+              "distancePx": 1.6179283030200626,
+              "labelId": "end-027",
+              "predictionId": "candidate-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 17,
+              "distancePx": 0.7233236993713572,
+              "labelId": "end-018",
+              "predictionId": "candidate-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 19,
+              "distancePx": 0.8075199091674348,
+              "labelId": "end-020",
+              "predictionId": "candidate-3"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 18,
+              "distancePx": 3.2434020927121825,
+              "labelId": "end-019",
+              "predictionId": "candidate-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 1,
+              "distancePx": 3.032302241217939,
+              "labelId": "end-002",
+              "predictionId": "candidate-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 11,
+              "distancePx": 2.565621881796723,
+              "labelId": "end-012",
+              "predictionId": "candidate-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 24,
+              "distancePx": 6.865870726003158,
+              "labelId": "end-025",
+              "predictionId": "candidate-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 4,
+              "distancePx": 5.336134905535639,
+              "labelId": "end-005",
+              "predictionId": "candidate-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 6,
+              "distancePx": 4.2580204134232735,
+              "labelId": "end-007",
+              "predictionId": "candidate-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 38,
+              "distancePx": 3.5840439794089987,
+              "labelId": "end-039",
+              "predictionId": "candidate-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 13,
+              "distancePx": 2.7658429679538057,
+              "labelId": "end-014",
+              "predictionId": "candidate-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 0,
+              "distancePx": 1.5170917296113964,
+              "labelId": "end-001",
+              "predictionId": "candidate-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 34,
+              "distancePx": 1.402150940457788,
+              "labelId": "end-035",
+              "predictionId": "candidate-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 28,
+              "distancePx": 4.072015534183947,
+              "labelId": "end-029",
+              "predictionId": "candidate-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 20,
+              "distancePx": 2.3391393451388405,
+              "labelId": "end-021",
+              "predictionId": "candidate-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 42,
+              "distancePx": 3.057284058924778,
+              "labelId": "end-043",
+              "predictionId": "candidate-17"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 21,
+              "distancePx": 5.294703057980044,
+              "labelId": "end-022",
+              "predictionId": "candidate-18"
+            },
+            {
+              "predictionIndex": 19,
+              "labelIndex": 32,
+              "distancePx": 2.9080045592575328,
+              "labelId": "end-033",
+              "predictionId": "candidate-19"
+            },
+            {
+              "predictionIndex": 20,
+              "labelIndex": 39,
+              "distancePx": 4.061074344197796,
+              "labelId": "end-040",
+              "predictionId": "candidate-20"
+            },
+            {
+              "predictionIndex": 21,
+              "labelIndex": 2,
+              "distancePx": 1.0152411175541005,
+              "labelId": "end-003",
+              "predictionId": "candidate-21"
+            },
+            {
+              "predictionIndex": 22,
+              "labelIndex": 10,
+              "distancePx": 2.3303462447405936,
+              "labelId": "end-011",
+              "predictionId": "candidate-22"
+            },
+            {
+              "predictionIndex": 23,
+              "labelIndex": 14,
+              "distancePx": 3.901312828401414,
+              "labelId": "end-015",
+              "predictionId": "candidate-23"
+            },
+            {
+              "predictionIndex": 24,
+              "labelIndex": 5,
+              "distancePx": 3.510537855969325,
+              "labelId": "end-006",
+              "predictionId": "candidate-24"
+            },
+            {
+              "predictionIndex": 25,
+              "labelIndex": 33,
+              "distancePx": 2.7793627561587324,
+              "labelId": "end-034",
+              "predictionId": "candidate-25"
+            },
+            {
+              "predictionIndex": 26,
+              "labelIndex": 16,
+              "distancePx": 2.3264467475743595,
+              "labelId": "end-017",
+              "predictionId": "candidate-26"
+            },
+            {
+              "predictionIndex": 27,
+              "labelIndex": 27,
+              "distancePx": 1.7810101263924638,
+              "labelId": "end-028",
+              "predictionId": "candidate-27"
+            },
+            {
+              "predictionIndex": 28,
+              "labelIndex": 30,
+              "distancePx": 2.1618200037837942,
+              "labelId": "end-031",
+              "predictionId": "candidate-28"
+            },
+            {
+              "predictionIndex": 29,
+              "labelIndex": 3,
+              "distancePx": 3.454627223806711,
+              "labelId": "end-004",
+              "predictionId": "candidate-29"
+            },
+            {
+              "predictionIndex": 30,
+              "labelIndex": 40,
+              "distancePx": 3.334997397540448,
+              "labelId": "end-041",
+              "predictionId": "candidate-30"
+            },
+            {
+              "predictionIndex": 31,
+              "labelIndex": 9,
+              "distancePx": 0.7343756493098857,
+              "labelId": "end-010",
+              "predictionId": "candidate-31"
+            },
+            {
+              "predictionIndex": 32,
+              "labelIndex": 25,
+              "distancePx": 1.1975452787244985,
+              "labelId": "end-026",
+              "predictionId": "candidate-32"
+            },
+            {
+              "predictionIndex": 33,
+              "labelIndex": 22,
+              "distancePx": 1.8002854862580129,
+              "labelId": "end-023",
+              "predictionId": "candidate-33"
+            },
+            {
+              "predictionIndex": 34,
+              "labelIndex": 35,
+              "distancePx": 0.37759518667483033,
+              "labelId": "end-036",
+              "predictionId": "candidate-34"
+            },
+            {
+              "predictionIndex": 35,
+              "labelIndex": 31,
+              "distancePx": 2.359705011390977,
+              "labelId": "end-032",
+              "predictionId": "candidate-35"
+            },
+            {
+              "predictionIndex": 36,
+              "labelIndex": 8,
+              "distancePx": 3.253192360773314,
+              "labelId": "end-009",
+              "predictionId": "candidate-36"
+            },
+            {
+              "predictionIndex": 37,
+              "labelIndex": 36,
+              "distancePx": 4.700844043669221,
+              "labelId": "end-037",
+              "predictionId": "candidate-37"
+            },
+            {
+              "predictionIndex": 38,
+              "labelIndex": 15,
+              "distancePx": 1.0914334424180503,
+              "labelId": "end-016",
+              "predictionId": "candidate-38"
+            },
+            {
+              "predictionIndex": 39,
+              "labelIndex": 12,
+              "distancePx": 3.5275235473501136,
+              "labelId": "end-013",
+              "predictionId": "candidate-39"
+            },
+            {
+              "predictionIndex": 40,
+              "labelIndex": 41,
+              "distancePx": 3.4352109743764743,
+              "labelId": "end-042",
+              "predictionId": "candidate-40"
+            },
+            {
+              "predictionIndex": 41,
+              "labelIndex": 37,
+              "distancePx": 1.817292553004487,
+              "labelId": "end-038",
+              "predictionId": "candidate-41"
+            },
+            {
+              "predictionIndex": 42,
+              "labelIndex": 43,
+              "distancePx": 6.7577578151011775,
+              "labelId": "end-044",
+              "predictionId": "candidate-42"
+            },
+            {
+              "predictionIndex": 44,
+              "labelIndex": 7,
+              "distancePx": 1.9883350297590738,
+              "labelId": "end-008",
+              "predictionId": "candidate-44"
+            },
+            {
+              "predictionIndex": 50,
+              "labelIndex": 23,
+              "distancePx": 0.7438241681215159,
+              "labelId": "end-024",
+              "predictionId": "candidate-50"
+            }
+          ],
+          "falsePositivePredictionIds": [
+            "candidate-47",
+            "candidate-49",
+            "candidate-52",
+            "candidate-53",
+            "candidate-54",
+            "candidate-56",
+            "candidate-57",
+            "candidate-58",
+            "candidate-59",
+            "candidate-60",
+            "candidate-62",
+            "candidate-63",
+            "candidate-64",
+            "candidate-65",
+            "candidate-66",
+            "candidate-67",
+            "candidate-68",
+            "candidate-69",
+            "candidate-70",
+            "candidate-71"
+          ],
+          "duplicatePredictionIds": [],
+          "missedLabelIds": []
+        }
+      }
+    },
+    {
+      "imageId": "acq-v2-pospal-clean",
+      "sourceGroup": "pospal-handheld-demo-2026",
+      "split": "holdout",
+      "imageSha256": "cc32fbadf4ae311fc49a74aa9afc9152c0cb37035e86c409405c0fba87b51b4c",
+      "annotationSha256": "290125d6ce1db0c7af7325b6507ea65bc737956f58f94cf040911884c97395c8",
+      "variants": {
+        "baseline": {
+          "TP": 52,
+          "FP": 1,
+          "FN": 0,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 0,
+          "otherFalsePositives": 1,
+          "precision": 0.9811320754716981,
+          "recall": 1.0,
+          "predictedWholeImageCount": 53,
+          "predictedRegionCount": 53,
+          "confirmedVisibleEndpointCount": 52,
+          "exactCountEligible": true,
+          "signedCountError": 1,
+          "absoluteCountError": 1,
+          "exactCount": false,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 18,
+              "distancePx": 1.8114326228078856,
+              "labelId": "endpoint-019",
+              "predictionId": "baseline-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 49,
+              "distancePx": 2.242635967848895,
+              "labelId": "endpoint-050",
+              "predictionId": "baseline-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 15,
+              "distancePx": 0.890337178084759,
+              "labelId": "endpoint-016",
+              "predictionId": "baseline-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 12,
+              "distancePx": 1.9740860695554328,
+              "labelId": "endpoint-013",
+              "predictionId": "baseline-3"
+            },
+            {
+              "predictionIndex": 4,
+              "labelIndex": 19,
+              "distancePx": 4.473484385754696,
+              "labelId": "endpoint-020",
+              "predictionId": "baseline-4"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 51,
+              "distancePx": 1.2774109429001363,
+              "labelId": "endpoint-052",
+              "predictionId": "baseline-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 23,
+              "distancePx": 1.403666517946309,
+              "labelId": "endpoint-024",
+              "predictionId": "baseline-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 44,
+              "distancePx": 0.9850953584709986,
+              "labelId": "endpoint-045",
+              "predictionId": "baseline-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 41,
+              "distancePx": 1.4463273892678694,
+              "labelId": "endpoint-042",
+              "predictionId": "baseline-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 32,
+              "distancePx": 1.1299250140671064,
+              "labelId": "endpoint-033",
+              "predictionId": "baseline-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 35,
+              "distancePx": 1.9524699218816817,
+              "labelId": "endpoint-036",
+              "predictionId": "baseline-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 16,
+              "distancePx": 0.40845565650470367,
+              "labelId": "endpoint-017",
+              "predictionId": "baseline-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 10,
+              "distancePx": 0.267602738410897,
+              "labelId": "endpoint-011",
+              "predictionId": "baseline-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 9,
+              "distancePx": 0.8604779188569176,
+              "labelId": "endpoint-010",
+              "predictionId": "baseline-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 42,
+              "distancePx": 3.7639369287285342,
+              "labelId": "endpoint-043",
+              "predictionId": "baseline-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 47,
+              "distancePx": 2.0120454837680417,
+              "labelId": "endpoint-048",
+              "predictionId": "baseline-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 37,
+              "distancePx": 2.168991823483502,
+              "labelId": "endpoint-038",
+              "predictionId": "baseline-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 38,
+              "distancePx": 1.732593893394026,
+              "labelId": "endpoint-039",
+              "predictionId": "baseline-17"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 25,
+              "distancePx": 2.1836570771508104,
+              "labelId": "endpoint-026",
+              "predictionId": "baseline-18"
+            },
+            {
+              "predictionIndex": 19,
+              "labelIndex": 0,
+              "distancePx": 2.892528546389449,
+              "labelId": "endpoint-001",
+              "predictionId": "baseline-19"
+            },
+            {
+              "predictionIndex": 20,
+              "labelIndex": 22,
+              "distancePx": 1.0254869978892789,
+              "labelId": "endpoint-023",
+              "predictionId": "baseline-20"
+            },
+            {
+              "predictionIndex": 21,
+              "labelIndex": 33,
+              "distancePx": 5.284558946869592,
+              "labelId": "endpoint-034",
+              "predictionId": "baseline-21"
+            },
+            {
+              "predictionIndex": 22,
+              "labelIndex": 14,
+              "distancePx": 0.1028652271620806,
+              "labelId": "endpoint-015",
+              "predictionId": "baseline-22"
+            },
+            {
+              "predictionIndex": 23,
+              "labelIndex": 40,
+              "distancePx": 2.1496811475076267,
+              "labelId": "endpoint-041",
+              "predictionId": "baseline-23"
+            },
+            {
+              "predictionIndex": 24,
+              "labelIndex": 13,
+              "distancePx": 0.2786512047555925,
+              "labelId": "endpoint-014",
+              "predictionId": "baseline-24"
+            },
+            {
+              "predictionIndex": 25,
+              "labelIndex": 46,
+              "distancePx": 1.89718347897431,
+              "labelId": "endpoint-047",
+              "predictionId": "baseline-25"
+            },
+            {
+              "predictionIndex": 26,
+              "labelIndex": 5,
+              "distancePx": 1.2829099927090366,
+              "labelId": "endpoint-006",
+              "predictionId": "baseline-26"
+            },
+            {
+              "predictionIndex": 27,
+              "labelIndex": 17,
+              "distancePx": 2.4550935172703894,
+              "labelId": "endpoint-018",
+              "predictionId": "baseline-27"
+            },
+            {
+              "predictionIndex": 28,
+              "labelIndex": 34,
+              "distancePx": 0.678160607594088,
+              "labelId": "endpoint-035",
+              "predictionId": "baseline-28"
+            },
+            {
+              "predictionIndex": 29,
+              "labelIndex": 45,
+              "distancePx": 2.238480856950989,
+              "labelId": "endpoint-046",
+              "predictionId": "baseline-29"
+            },
+            {
+              "predictionIndex": 30,
+              "labelIndex": 39,
+              "distancePx": 3.2406371672796426,
+              "labelId": "endpoint-040",
+              "predictionId": "baseline-30"
+            },
+            {
+              "predictionIndex": 31,
+              "labelIndex": 24,
+              "distancePx": 2.1027611359621234,
+              "labelId": "endpoint-025",
+              "predictionId": "baseline-31"
+            },
+            {
+              "predictionIndex": 32,
+              "labelIndex": 21,
+              "distancePx": 3.0025182426622625,
+              "labelId": "endpoint-022",
+              "predictionId": "baseline-32"
+            },
+            {
+              "predictionIndex": 33,
+              "labelIndex": 2,
+              "distancePx": 0.6165399171973219,
+              "labelId": "endpoint-003",
+              "predictionId": "baseline-33"
+            },
+            {
+              "predictionIndex": 34,
+              "labelIndex": 30,
+              "distancePx": 4.5714183023882375,
+              "labelId": "endpoint-031",
+              "predictionId": "baseline-34"
+            },
+            {
+              "predictionIndex": 35,
+              "labelIndex": 7,
+              "distancePx": 1.5196471182376177,
+              "labelId": "endpoint-008",
+              "predictionId": "baseline-35"
+            },
+            {
+              "predictionIndex": 36,
+              "labelIndex": 48,
+              "distancePx": 3.1944658421523084,
+              "labelId": "endpoint-049",
+              "predictionId": "baseline-36"
+            },
+            {
+              "predictionIndex": 37,
+              "labelIndex": 11,
+              "distancePx": 1.3155007346719205,
+              "labelId": "endpoint-012",
+              "predictionId": "baseline-37"
+            },
+            {
+              "predictionIndex": 38,
+              "labelIndex": 6,
+              "distancePx": 1.9490839542726788,
+              "labelId": "endpoint-007",
+              "predictionId": "baseline-38"
+            },
+            {
+              "predictionIndex": 39,
+              "labelIndex": 8,
+              "distancePx": 1.0818957302458807,
+              "labelId": "endpoint-009",
+              "predictionId": "baseline-39"
+            },
+            {
+              "predictionIndex": 40,
+              "labelIndex": 27,
+              "distancePx": 0.5027542549002569,
+              "labelId": "endpoint-028",
+              "predictionId": "baseline-40"
+            },
+            {
+              "predictionIndex": 41,
+              "labelIndex": 4,
+              "distancePx": 1.5857537825586057,
+              "labelId": "endpoint-005",
+              "predictionId": "baseline-41"
+            },
+            {
+              "predictionIndex": 42,
+              "labelIndex": 29,
+              "distancePx": 0.7709780033204604,
+              "labelId": "endpoint-030",
+              "predictionId": "baseline-42"
+            },
+            {
+              "predictionIndex": 43,
+              "labelIndex": 3,
+              "distancePx": 0.7266427682816884,
+              "labelId": "endpoint-004",
+              "predictionId": "baseline-43"
+            },
+            {
+              "predictionIndex": 44,
+              "labelIndex": 43,
+              "distancePx": 1.425489589175472,
+              "labelId": "endpoint-044",
+              "predictionId": "baseline-44"
+            },
+            {
+              "predictionIndex": 45,
+              "labelIndex": 1,
+              "distancePx": 0.2496188357475105,
+              "labelId": "endpoint-002",
+              "predictionId": "baseline-45"
+            },
+            {
+              "predictionIndex": 46,
+              "labelIndex": 31,
+              "distancePx": 1.01829354293261,
+              "labelId": "endpoint-032",
+              "predictionId": "baseline-46"
+            },
+            {
+              "predictionIndex": 47,
+              "labelIndex": 28,
+              "distancePx": 1.3291212552732783,
+              "labelId": "endpoint-029",
+              "predictionId": "baseline-47"
+            },
+            {
+              "predictionIndex": 48,
+              "labelIndex": 36,
+              "distancePx": 2.1410715792867356,
+              "labelId": "endpoint-037",
+              "predictionId": "baseline-48"
+            },
+            {
+              "predictionIndex": 49,
+              "labelIndex": 50,
+              "distancePx": 2.7646732740186053,
+              "labelId": "endpoint-051",
+              "predictionId": "baseline-49"
+            },
+            {
+              "predictionIndex": 50,
+              "labelIndex": 20,
+              "distancePx": 1.3744752272645449,
+              "labelId": "endpoint-021",
+              "predictionId": "baseline-50"
+            },
+            {
+              "predictionIndex": 51,
+              "labelIndex": 26,
+              "distancePx": 1.2126704459974702,
+              "labelId": "endpoint-027",
+              "predictionId": "baseline-51"
+            }
+          ],
+          "falsePositivePredictionIds": [
+            "baseline-52"
+          ],
+          "duplicatePredictionIds": [],
+          "missedLabelIds": []
+        },
+        "candidate": {
+          "TP": 52,
+          "FP": 1,
+          "FN": 0,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 0,
+          "otherFalsePositives": 1,
+          "precision": 0.9811320754716981,
+          "recall": 1.0,
+          "predictedWholeImageCount": 53,
+          "predictedRegionCount": 53,
+          "confirmedVisibleEndpointCount": 52,
+          "exactCountEligible": true,
+          "signedCountError": 1,
+          "absoluteCountError": 1,
+          "exactCount": false,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 18,
+              "distancePx": 1.8114326228078856,
+              "labelId": "endpoint-019",
+              "predictionId": "candidate-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 49,
+              "distancePx": 2.242635967848895,
+              "labelId": "endpoint-050",
+              "predictionId": "candidate-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 15,
+              "distancePx": 0.890337178084759,
+              "labelId": "endpoint-016",
+              "predictionId": "candidate-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 12,
+              "distancePx": 1.9740860695554328,
+              "labelId": "endpoint-013",
+              "predictionId": "candidate-3"
+            },
+            {
+              "predictionIndex": 4,
+              "labelIndex": 19,
+              "distancePx": 4.473484385754696,
+              "labelId": "endpoint-020",
+              "predictionId": "candidate-4"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 51,
+              "distancePx": 1.2774109429001363,
+              "labelId": "endpoint-052",
+              "predictionId": "candidate-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 23,
+              "distancePx": 1.403666517946309,
+              "labelId": "endpoint-024",
+              "predictionId": "candidate-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 44,
+              "distancePx": 0.9850953584709986,
+              "labelId": "endpoint-045",
+              "predictionId": "candidate-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 41,
+              "distancePx": 1.4463273892678694,
+              "labelId": "endpoint-042",
+              "predictionId": "candidate-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 32,
+              "distancePx": 1.1299250140671064,
+              "labelId": "endpoint-033",
+              "predictionId": "candidate-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 35,
+              "distancePx": 1.9524699218816817,
+              "labelId": "endpoint-036",
+              "predictionId": "candidate-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 16,
+              "distancePx": 0.40845565650470367,
+              "labelId": "endpoint-017",
+              "predictionId": "candidate-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 10,
+              "distancePx": 0.267602738410897,
+              "labelId": "endpoint-011",
+              "predictionId": "candidate-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 9,
+              "distancePx": 0.8604779188569176,
+              "labelId": "endpoint-010",
+              "predictionId": "candidate-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 42,
+              "distancePx": 3.7639369287285342,
+              "labelId": "endpoint-043",
+              "predictionId": "candidate-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 47,
+              "distancePx": 2.0120454837680417,
+              "labelId": "endpoint-048",
+              "predictionId": "candidate-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 37,
+              "distancePx": 2.168991823483502,
+              "labelId": "endpoint-038",
+              "predictionId": "candidate-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 38,
+              "distancePx": 1.732593893394026,
+              "labelId": "endpoint-039",
+              "predictionId": "candidate-17"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 25,
+              "distancePx": 2.1836570771508104,
+              "labelId": "endpoint-026",
+              "predictionId": "candidate-18"
+            },
+            {
+              "predictionIndex": 19,
+              "labelIndex": 0,
+              "distancePx": 2.892528546389449,
+              "labelId": "endpoint-001",
+              "predictionId": "candidate-19"
+            },
+            {
+              "predictionIndex": 20,
+              "labelIndex": 22,
+              "distancePx": 1.0254869978892789,
+              "labelId": "endpoint-023",
+              "predictionId": "candidate-20"
+            },
+            {
+              "predictionIndex": 21,
+              "labelIndex": 33,
+              "distancePx": 5.284558946869592,
+              "labelId": "endpoint-034",
+              "predictionId": "candidate-21"
+            },
+            {
+              "predictionIndex": 22,
+              "labelIndex": 14,
+              "distancePx": 0.1028652271620806,
+              "labelId": "endpoint-015",
+              "predictionId": "candidate-22"
+            },
+            {
+              "predictionIndex": 23,
+              "labelIndex": 40,
+              "distancePx": 2.1496811475076267,
+              "labelId": "endpoint-041",
+              "predictionId": "candidate-23"
+            },
+            {
+              "predictionIndex": 24,
+              "labelIndex": 13,
+              "distancePx": 0.2786512047555925,
+              "labelId": "endpoint-014",
+              "predictionId": "candidate-24"
+            },
+            {
+              "predictionIndex": 25,
+              "labelIndex": 46,
+              "distancePx": 1.89718347897431,
+              "labelId": "endpoint-047",
+              "predictionId": "candidate-25"
+            },
+            {
+              "predictionIndex": 26,
+              "labelIndex": 5,
+              "distancePx": 1.2829099927090366,
+              "labelId": "endpoint-006",
+              "predictionId": "candidate-26"
+            },
+            {
+              "predictionIndex": 27,
+              "labelIndex": 17,
+              "distancePx": 2.4550935172703894,
+              "labelId": "endpoint-018",
+              "predictionId": "candidate-27"
+            },
+            {
+              "predictionIndex": 28,
+              "labelIndex": 34,
+              "distancePx": 0.678160607594088,
+              "labelId": "endpoint-035",
+              "predictionId": "candidate-28"
+            },
+            {
+              "predictionIndex": 29,
+              "labelIndex": 45,
+              "distancePx": 2.238480856950989,
+              "labelId": "endpoint-046",
+              "predictionId": "candidate-29"
+            },
+            {
+              "predictionIndex": 30,
+              "labelIndex": 39,
+              "distancePx": 3.2406371672796426,
+              "labelId": "endpoint-040",
+              "predictionId": "candidate-30"
+            },
+            {
+              "predictionIndex": 31,
+              "labelIndex": 24,
+              "distancePx": 2.1027611359621234,
+              "labelId": "endpoint-025",
+              "predictionId": "candidate-31"
+            },
+            {
+              "predictionIndex": 32,
+              "labelIndex": 21,
+              "distancePx": 3.0025182426622625,
+              "labelId": "endpoint-022",
+              "predictionId": "candidate-32"
+            },
+            {
+              "predictionIndex": 33,
+              "labelIndex": 2,
+              "distancePx": 0.6165399171973219,
+              "labelId": "endpoint-003",
+              "predictionId": "candidate-33"
+            },
+            {
+              "predictionIndex": 34,
+              "labelIndex": 30,
+              "distancePx": 4.5714183023882375,
+              "labelId": "endpoint-031",
+              "predictionId": "candidate-34"
+            },
+            {
+              "predictionIndex": 35,
+              "labelIndex": 7,
+              "distancePx": 1.5196471182376177,
+              "labelId": "endpoint-008",
+              "predictionId": "candidate-35"
+            },
+            {
+              "predictionIndex": 36,
+              "labelIndex": 48,
+              "distancePx": 3.1944658421523084,
+              "labelId": "endpoint-049",
+              "predictionId": "candidate-36"
+            },
+            {
+              "predictionIndex": 37,
+              "labelIndex": 11,
+              "distancePx": 1.3155007346719205,
+              "labelId": "endpoint-012",
+              "predictionId": "candidate-37"
+            },
+            {
+              "predictionIndex": 38,
+              "labelIndex": 6,
+              "distancePx": 1.9490839542726788,
+              "labelId": "endpoint-007",
+              "predictionId": "candidate-38"
+            },
+            {
+              "predictionIndex": 39,
+              "labelIndex": 8,
+              "distancePx": 1.0818957302458807,
+              "labelId": "endpoint-009",
+              "predictionId": "candidate-39"
+            },
+            {
+              "predictionIndex": 40,
+              "labelIndex": 27,
+              "distancePx": 0.5027542549002569,
+              "labelId": "endpoint-028",
+              "predictionId": "candidate-40"
+            },
+            {
+              "predictionIndex": 41,
+              "labelIndex": 4,
+              "distancePx": 1.5857537825586057,
+              "labelId": "endpoint-005",
+              "predictionId": "candidate-41"
+            },
+            {
+              "predictionIndex": 42,
+              "labelIndex": 29,
+              "distancePx": 0.7709780033204604,
+              "labelId": "endpoint-030",
+              "predictionId": "candidate-42"
+            },
+            {
+              "predictionIndex": 43,
+              "labelIndex": 3,
+              "distancePx": 0.7266427682816884,
+              "labelId": "endpoint-004",
+              "predictionId": "candidate-43"
+            },
+            {
+              "predictionIndex": 44,
+              "labelIndex": 43,
+              "distancePx": 1.425489589175472,
+              "labelId": "endpoint-044",
+              "predictionId": "candidate-44"
+            },
+            {
+              "predictionIndex": 45,
+              "labelIndex": 1,
+              "distancePx": 0.2496188357475105,
+              "labelId": "endpoint-002",
+              "predictionId": "candidate-45"
+            },
+            {
+              "predictionIndex": 46,
+              "labelIndex": 31,
+              "distancePx": 1.01829354293261,
+              "labelId": "endpoint-032",
+              "predictionId": "candidate-46"
+            },
+            {
+              "predictionIndex": 47,
+              "labelIndex": 28,
+              "distancePx": 1.3291212552732783,
+              "labelId": "endpoint-029",
+              "predictionId": "candidate-47"
+            },
+            {
+              "predictionIndex": 48,
+              "labelIndex": 36,
+              "distancePx": 2.1410715792867356,
+              "labelId": "endpoint-037",
+              "predictionId": "candidate-48"
+            },
+            {
+              "predictionIndex": 49,
+              "labelIndex": 50,
+              "distancePx": 2.7646732740186053,
+              "labelId": "endpoint-051",
+              "predictionId": "candidate-49"
+            },
+            {
+              "predictionIndex": 50,
+              "labelIndex": 20,
+              "distancePx": 1.3744752272645449,
+              "labelId": "endpoint-021",
+              "predictionId": "candidate-50"
+            },
+            {
+              "predictionIndex": 51,
+              "labelIndex": 26,
+              "distancePx": 1.2126704459974702,
+              "labelId": "endpoint-027",
+              "predictionId": "candidate-51"
+            }
+          ],
+          "falsePositivePredictionIds": [
+            "candidate-52"
+          ],
+          "duplicatePredictionIds": [],
+          "missedLabelIds": []
+        }
+      }
+    }
+  ],
+  "limitations": [
+    "Web imagery may differ from restaurant camera captures.",
+    "Mac CPU-only inference is not physical iPhone validation.",
+    "No release-quality acceptance is implied by completion of this evaluation."
+  ]
+}

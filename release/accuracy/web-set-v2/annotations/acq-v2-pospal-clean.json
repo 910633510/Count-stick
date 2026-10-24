@@ -1,0 +1,347 @@
+{
+  "schemaVersion": 1,
+  "imageId": "acq-v2-pospal-clean",
+  "imageSha256": "cc32fbadf4ae311fc49a74aa9afc9152c0cb37035e86c409405c0fba87b51b4c",
+  "width": 546,
+  "height": 930,
+  "coordinateSystem": "upright image pixels, top-left",
+  "scope": "full_image",
+  "evaluationRegion": {
+    "xywh": [
+      0,
+      0,
+      546,
+      930
+    ]
+  },
+  "points": [
+    {
+      "id": "endpoint-001",
+      "x": 198,
+      "y": 181,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-002",
+      "x": 147,
+      "y": 200,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-003",
+      "x": 265,
+      "y": 291,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-004",
+      "x": 75,
+      "y": 292,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-005",
+      "x": 221,
+      "y": 301,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-006",
+      "x": 120,
+      "y": 305,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-007",
+      "x": 317,
+      "y": 319,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-008",
+      "x": 203,
+      "y": 325,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-009",
+      "x": 232,
+      "y": 327,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-010",
+      "x": 281,
+      "y": 330,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-011",
+      "x": 54,
+      "y": 336,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-012",
+      "x": 333,
+      "y": 343,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-013",
+      "x": 111,
+      "y": 360,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-014",
+      "x": 383,
+      "y": 371,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-015",
+      "x": 166,
+      "y": 373,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-016",
+      "x": 220,
+      "y": 375,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-017",
+      "x": 253,
+      "y": 385,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-018",
+      "x": 316,
+      "y": 398,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-019",
+      "x": 377,
+      "y": 402,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-020",
+      "x": 5,
+      "y": 405,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-021",
+      "x": 54,
+      "y": 421,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-022",
+      "x": 133,
+      "y": 422,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-023",
+      "x": 174,
+      "y": 424,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-024",
+      "x": 412,
+      "y": 428,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-025",
+      "x": 270,
+      "y": 441,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-026",
+      "x": 342,
+      "y": 441,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-027",
+      "x": 137,
+      "y": 447,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-028",
+      "x": 215,
+      "y": 452,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-029",
+      "x": 14,
+      "y": 453,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-030",
+      "x": 409,
+      "y": 456,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-031",
+      "x": 454,
+      "y": 459,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-032",
+      "x": 76,
+      "y": 466,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-033",
+      "x": 286,
+      "y": 475,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-034",
+      "x": 360,
+      "y": 482,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-035",
+      "x": 239,
+      "y": 489,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-036",
+      "x": 201,
+      "y": 490,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-037",
+      "x": 461,
+      "y": 490,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-038",
+      "x": 92,
+      "y": 506,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-039",
+      "x": 418,
+      "y": 506,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-040",
+      "x": 158,
+      "y": 511,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-041",
+      "x": 301,
+      "y": 511,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-042",
+      "x": 259,
+      "y": 525,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-043",
+      "x": 16,
+      "y": 530,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-044",
+      "x": 211,
+      "y": 538,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-045",
+      "x": 39,
+      "y": 553,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-046",
+      "x": 386,
+      "y": 555,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-047",
+      "x": 464,
+      "y": 558,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-048",
+      "x": 98,
+      "y": 569,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-049",
+      "x": 155,
+      "y": 574,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-050",
+      "x": 277,
+      "y": 585,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-051",
+      "x": 321,
+      "y": 599,
+      "matchRadius": 15
+    },
+    {
+      "id": "endpoint-052",
+      "x": 222,
+      "y": 615,
+      "matchRadius": 15
+    }
+  ],
+  "ignoreRegions": [],
+  "visibleEndpointCount": 52,
+  "completeCountVerified": true,
+  "review": {
+    "status": "reviewed_frozen",
+    "annotator": "app_implementation",
+    "reviewer": "root",
+    "notes": [
+      "Primary annotator inspected only the clean photo crop and2x magnification; source UI counts, original collage and target model predictions were withheld.",
+      "Root independently examined original clean crop and numbered overlay:52 distinct visible terminal faces, no missing or duplicated visible face.",
+      "The partially cropped left-edge cap at5,405 is visibly a single textured face attached to a separate shaft. Its visible portion is sufficient to count as one endpoint; retained without an ignore region.",
+      "Root/acquisition reviewers had seen the published collage and its other-model count; it was not accepted as truth. Primary labels were independently produced from the clean photo before this review.",
+      "No CountStick prediction was generated or inspected before labels froze. Count applies only to visible terminal faces, not invisible physical sticks."
+    ],
+    "reviewedAt": "2026-10-23T15:11:12.518886+00:00"
+  }
+}

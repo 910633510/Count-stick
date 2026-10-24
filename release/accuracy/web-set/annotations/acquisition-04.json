@@ -1,0 +1,747 @@
+{
+  "schemaVersion": 1,
+  "imageId": "acquisition-04",
+  "imageSha256": "2305eb5ccd0f0c336da577e8b3471d84fed8da4007fb54ccd10d3ee65cf3890f",
+  "width": 1000,
+  "height": 1000,
+  "coordinateSystem": "upright image pixels, top-left",
+  "scope": "full_image",
+  "evaluationRegion": {
+    "xywh": [
+      0,
+      0,
+      1000,
+      1000
+    ]
+  },
+  "points": [
+    {
+      "id": "endpoint-001",
+      "x": 619,
+      "y": 307,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-002",
+      "x": 465,
+      "y": 310,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-003",
+      "x": 582,
+      "y": 312,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-004",
+      "x": 520,
+      "y": 325,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-005",
+      "x": 430,
+      "y": 340,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-006",
+      "x": 675,
+      "y": 342,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-007",
+      "x": 553,
+      "y": 352,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-008",
+      "x": 593,
+      "y": 359,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-009",
+      "x": 468,
+      "y": 361,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-010",
+      "x": 369,
+      "y": 372,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-011",
+      "x": 633,
+      "y": 372,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-012",
+      "x": 512,
+      "y": 376,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-013",
+      "x": 424,
+      "y": 378,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-014",
+      "x": 668,
+      "y": 385,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-015",
+      "x": 561,
+      "y": 394,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-016",
+      "x": 600,
+      "y": 400,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-017",
+      "x": 705,
+      "y": 402,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-018",
+      "x": 481,
+      "y": 403,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-019",
+      "x": 351,
+      "y": 416,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-020",
+      "x": 441,
+      "y": 416,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-021",
+      "x": 521,
+      "y": 416,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-022",
+      "x": 636,
+      "y": 416,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-023",
+      "x": 720,
+      "y": 427,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-024",
+      "x": 396,
+      "y": 432,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-025",
+      "x": 566,
+      "y": 437,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-026",
+      "x": 681,
+      "y": 438,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-027",
+      "x": 602,
+      "y": 444,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-028",
+      "x": 485,
+      "y": 445,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-029",
+      "x": 748,
+      "y": 452,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-030",
+      "x": 317,
+      "y": 454,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-031",
+      "x": 644,
+      "y": 454,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-032",
+      "x": 527,
+      "y": 458,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-033",
+      "x": 445,
+      "y": 468,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-034",
+      "x": 709,
+      "y": 469,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-035",
+      "x": 557,
+      "y": 480,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-036",
+      "x": 596,
+      "y": 482,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-037",
+      "x": 672,
+      "y": 482,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-038",
+      "x": 362,
+      "y": 484,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-039",
+      "x": 493,
+      "y": 490,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-040",
+      "x": 729,
+      "y": 491,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-041",
+      "x": 410,
+      "y": 504,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-042",
+      "x": 523,
+      "y": 505,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-043",
+      "x": 629,
+      "y": 505,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-044",
+      "x": 326,
+      "y": 507,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-045",
+      "x": 690,
+      "y": 508,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-046",
+      "x": 585,
+      "y": 520,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-047",
+      "x": 720,
+      "y": 521,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-048",
+      "x": 452,
+      "y": 522,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-049",
+      "x": 657,
+      "y": 524,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-050",
+      "x": 365,
+      "y": 525,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-051",
+      "x": 488,
+      "y": 531,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-052",
+      "x": 541,
+      "y": 535,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-053",
+      "x": 614,
+      "y": 543,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-054",
+      "x": 304,
+      "y": 546,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-055",
+      "x": 677,
+      "y": 549,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-056",
+      "x": 424,
+      "y": 551,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-057",
+      "x": 499,
+      "y": 556,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-058",
+      "x": 575,
+      "y": 556,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-059",
+      "x": 698,
+      "y": 561,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-060",
+      "x": 462,
+      "y": 565,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-061",
+      "x": 649,
+      "y": 565,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-062",
+      "x": 356,
+      "y": 567,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-063",
+      "x": 534,
+      "y": 576,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-064",
+      "x": 670,
+      "y": 583,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-065",
+      "x": 600,
+      "y": 585,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-066",
+      "x": 302,
+      "y": 586,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-067",
+      "x": 418,
+      "y": 587,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-068",
+      "x": 566,
+      "y": 590,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-069",
+      "x": 695,
+      "y": 599,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-070",
+      "x": 639,
+      "y": 600,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-071",
+      "x": 450,
+      "y": 603,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-072",
+      "x": 370,
+      "y": 604,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-073",
+      "x": 491,
+      "y": 606,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-074",
+      "x": 525,
+      "y": 621,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-075",
+      "x": 595,
+      "y": 623,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-076",
+      "x": 662,
+      "y": 625,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-077",
+      "x": 561,
+      "y": 629,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-078",
+      "x": 407,
+      "y": 632,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-079",
+      "x": 625,
+      "y": 635,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-080",
+      "x": 485,
+      "y": 643,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-081",
+      "x": 370,
+      "y": 645,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-082",
+      "x": 442,
+      "y": 647,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-084",
+      "x": 513,
+      "y": 654,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-085",
+      "x": 590,
+      "y": 657,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-086",
+      "x": 545,
+      "y": 663,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-088",
+      "x": 398,
+      "y": 673,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-090",
+      "x": 441,
+      "y": 678,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-091",
+      "x": 478,
+      "y": 680,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-092",
+      "x": 356,
+      "y": 689,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-093",
+      "x": 510,
+      "y": 690,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-095",
+      "x": 393,
+      "y": 698,
+      "matchRadius": 22
+    },
+    {
+      "id": "endpoint-097",
+      "x": 441,
+      "y": 713,
+      "matchRadius": 22
+    }
+  ],
+  "ignoreRegions": [
+    {
+      "id": "bottom-shadow-uncertain-1",
+      "polygon": [
+        [
+          465,
+          690
+        ],
+        [
+          489,
+          690
+        ],
+        [
+          491,
+          711
+        ],
+        [
+          467,
+          719
+        ],
+        [
+          457,
+          707
+        ]
+      ],
+      "reason": "Partly occluded dark terminal-face candidate at bundle lower rim; cannot confidently distinguish a separate complete end face from adjacent occlusion/side surface in this web image."
+    },
+    {
+      "id": "bottom-shadow-uncertain-2",
+      "polygon": [
+        [
+          534,
+          684
+        ],
+        [
+          564,
+          676
+        ],
+        [
+          570,
+          705
+        ],
+        [
+          549,
+          714
+        ],
+        [
+          532,
+          706
+        ]
+      ],
+      "reason": "Partly occluded dark terminal-face candidate at bundle lower rim; cannot confidently distinguish a separate complete end face from adjacent occlusion/side surface in this web image."
+    },
+    {
+      "id": "bottom-shadow-uncertain-3",
+      "polygon": [
+        [
+          565,
+          658
+        ],
+        [
+          586,
+          654
+        ],
+        [
+          596,
+          679
+        ],
+        [
+          575,
+          693
+        ],
+        [
+          559,
+          685
+        ]
+      ],
+      "reason": "Partly occluded dark terminal-face candidate at bundle lower rim; cannot confidently distinguish a separate complete end face from adjacent occlusion/side surface in this web image."
+    },
+    {
+      "id": "bottom-shadow-uncertain-4",
+      "polygon": [
+        [
+          602,
+          652
+        ],
+        [
+          622,
+          642
+        ],
+        [
+          634,
+          666
+        ],
+        [
+          623,
+          684
+        ],
+        [
+          602,
+          684
+        ]
+      ],
+      "reason": "Partly occluded dark terminal-face candidate at bundle lower rim; cannot confidently distinguish a separate complete end face from adjacent occlusion/side surface in this web image."
+    },
+    {
+      "id": "bottom-shadow-uncertain-5",
+      "polygon": [
+        [
+          630,
+          645
+        ],
+        [
+          644,
+          633
+        ],
+        [
+          658,
+          645
+        ],
+        [
+          650,
+          665
+        ],
+        [
+          633,
+          670
+        ],
+        [
+          625,
+          661
+        ]
+      ],
+      "reason": "Small lower-right shadowed cap overlaps the visible extent of a larger nearby head; distinct terminal-plane interpretation cannot be confirmed confidently."
+    }
+  ],
+  "visibleEndpointCount": 92,
+  "completeCountVerified": false,
+  "review": {
+    "status": "reviewed_frozen",
+    "annotator": "app_implementation",
+    "reviewer": "root independent raw-image and numbered-overlay review",
+    "notes": [
+      "Blind manual centers from original and magnified crops before any detector predictions.97 candidate faces examined;92 visually distinguishable endpoint faces retained,5 dark partly occluded lower-rim candidates moved to explicit ignore polygons. No package quantity used. Needs independent review; not a verified whole-bundle count.",
+      "Root visually checked each numbered point against the photographed terminal faces; no app/model predictions were used. Count is visible endpoint faces only, not a retail-package or hidden physical-stick total.",
+      "Five lower-rim shadow/partial candidates remain explicit ignore regions; exact-count metrics disabled."
+    ],
+    "uncertainCandidatesExcluded": [
+      {
+        "formerId": "endpoint-087",
+        "x": 611,
+        "y": 671
+      },
+      {
+        "formerId": "endpoint-089",
+        "x": 575,
+        "y": 673
+      },
+      {
+        "formerId": "endpoint-094",
+        "x": 551,
+        "y": 695
+      },
+      {
+        "formerId": "endpoint-096",
+        "x": 476,
+        "y": 699
+      },
+      {
+        "formerId": "endpoint-083",
+        "x": 642,
+        "y": 650
+      }
+    ],
+    "reviewedAtUTC": "2026-10-23T12:58:32.772747+00:00"
+  }
+}

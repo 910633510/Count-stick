@@ -1,0 +1,45 @@
+{
+  "photos": [
+    {
+      "file": "bamboo-skewers-cc0.jpg",
+      "title": "Bamboo skewers.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Bamboo_skewers.jpg",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Bamboo_skewers.jpg",
+      "author": "Fumikas Sagisavas",
+      "pixels": [
+        4000,
+        3000
+      ],
+      "suitability": "Real densely packed rectangular skewer handles. Occlusion prevents defensible total-count ground truth. Runtime and manual-correction demonstration only.",
+      "sha256": "824da6b42b3c14c66e6843aaeaae9f35676ee2e9df72a68eee9f7fa2820bb1b1",
+      "bytes": 2773651,
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modified": false,
+      "source_verified_date": "2026-10-22",
+      "is_real_photo": true,
+      "ground_truth_count": null
+    },
+    {
+      "file": "bamboo-toothpicks-cc0.jpg",
+      "title": "9725Bamboo toothpicks 01.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:9725Bamboo_toothpicks_01.jpg",
+      "download": "https://upload.wikimedia.org/wikipedia/commons/c/ca/9725Bamboo_toothpicks_01.jpg",
+      "author": "Judgefloro",
+      "pixels": [
+        4608,
+        3456
+      ],
+      "suitability": "Real macro image of toothpick tips held in a hand. Overlap and blur prevent defensible total-count ground truth. Runtime and difficult-input smoke only.",
+      "sha256": "27453ab73161aa54a11074c6a662077c170f2f1339854ec32502e2c5c44a2831",
+      "bytes": 6116735,
+      "license": "CC0 1.0 Universal",
+      "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "modified": false,
+      "source_verified_date": "2026-10-22",
+      "is_real_photo": true,
+      "ground_truth_count": null
+    }
+  ],
+  "note": "Real source photos for inference smoke; no count-accuracy ground truth is asserted."
+}

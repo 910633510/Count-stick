@@ -1,0 +1,71 @@
+{
+  "records": [
+    {
+      "id": "root-v2-cotton",
+      "sourceUrl": "https://www.nccaieiras.com.br/sustentabilidade-na-producao-de-bambu-um-compromisso",
+      "imageUrl": "https://images.tcdn.com.br/img/img_prod/1246089/180_palito_de_bambu_para_algodo_doce_45cm_x_5mm_200_1_20260126092525_48d418d666d3.jpg",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/root-v2-cotton.jpg",
+      "imageSha256": "1774f6f432598628e9d438ca346eb21dd7442afac3f47001866ac91dea6ae478",
+      "originalSha256": "5eeb244270b34fbe2734a4b099e11137326953b22784f5fd9ea9059af7dd953d",
+      "width": 450,
+      "height": 450,
+      "retrievedAt": "2026-10-23T14:57:24.966413+00:00",
+      "status": "SELECTED_REVIEWED_FROZEN",
+      "storage": "LOCAL_ONLY",
+      "modelPredictionsViewed": false,
+      "sourceGroup": "nccaieiras-cotton-end-bundle",
+      "scene": "product_photo_coarse_blunt_ends",
+      "visualInspected": true
+    },
+    {
+      "id": "root-v2-blunt",
+      "sourceUrl": "https://www.nccaieiras.com.br/espetos-de-bambu/espetos-de-bambu-meia-ponta-22cm-x-4mm-1mil",
+      "imageUrl": "https://images.tcdn.com.br/img/img_prod/1246089/b1_espetos_de_bambu_importado_1_2_ponta_22cm_x_4mm_1mil_343_1_66b8d3e37cae0a39b8d22cedf9f2cf19.jpg",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/root-v2-blunt.jpg",
+      "imageSha256": "f336e6c05c27bba1f21c7d57658bb5a7f96c3cbb0b89e70a27580f0e8b7c3273",
+      "originalSha256": "8accf06ce6bdb23dec8fed839287de35fee3d9782c72fb57b5479d952cf2281d",
+      "width": 1001,
+      "height": 1001,
+      "retrievedAt": "2026-10-23T14:57:25.808524+00:00",
+      "status": "EXCLUDED_WRONG_END",
+      "storage": "LOCAL_ONLY",
+      "modelPredictionsViewed": false,
+      "reason": "Visual inspection shows tapered pointed tips, not blunt terminal faces targeted by this evaluation.",
+      "visualInspected": true
+    },
+    {
+      "id": "root-v2-relax",
+      "sourceUrl": "https://www.kaufland.cz/product/378693347/",
+      "imageUrl": "https://media.cdn.kaufland.de/product-images/1024x1024/76ea09b6b478d58f52b03ea978c0f088.jpg",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/root-v2-relax.jpg",
+      "imageSha256": "a39d27c16c7058f5b6d6632f729a29e6c077067b27979d39bd31d9268c225b44",
+      "originalSha256": "41540586f702e6d82d8542f1e8a4bd6361997823580fe1c987238e26a60efcd8",
+      "width": 1024,
+      "height": 1024,
+      "retrievedAt": "2026-10-23T14:57:26.656882+00:00",
+      "status": "SELECTED_REVIEWED_FROZEN",
+      "storage": "LOCAL_ONLY",
+      "modelPredictionsViewed": false,
+      "sourceGroup": "relaxdays-large-end-closeup",
+      "scene": "product_photo_large_blunt_ends_border_cut",
+      "visualInspected": true
+    },
+    {
+      "id": "root-v2-umall",
+      "sourceUrl": "https://www.umall.com.au/products/qingchun-bamboo-skewers-for-bbq-30cm-pack-of-65-x3",
+      "imageUrl": "https://www.umall.com.au/cdn/shop/files/3_4412b733-19f7-45d5-99ca-0fcc6a89939d.jpg?v=1737684536",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/root-v2-umall.jpg",
+      "imageSha256": "dd7c19fdddb0cabcc646370b5d93e9b320b856653d2feae9e20e77b35c1456ae",
+      "originalSha256": "3a6139a731c2560bcd5a6859dd1ceb17dfee9140fcaf054d56550f3ac01b111d",
+      "width": 1000,
+      "height": 1000,
+      "retrievedAt": "2026-10-23T14:57:27.529617+00:00",
+      "status": "RESERVED_UNANNOTATED_NOT_EVALUATED",
+      "storage": "LOCAL_ONLY",
+      "modelPredictionsViewed": false,
+      "reason": "Dense candidate retained for future annotation; this round intentionally targets moderate-density and larger visible ends. No model inference performed.",
+      "visualInspected": true
+    }
+  ],
+  "phase": "Acquisition and annotation status before inference; modelPredictionsViewed flags apply to that phase."
+}

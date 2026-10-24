@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "algorithmFrozen": true,
+  "labelsFrozen": true,
+  "splitLocked": true,
+  "preparedAtUTC": "2026-10-23T16:29:36.479066+00:00",
+  "checkpointSha256": "067adaa5091813d2f856a127de73b11c37e6cb2bcc5dd13f6cc617fcf4c4cf79",
+  "compiledHelperSha256": "7b63e0c035d5df8553ddee701907e28c436be212d78a72c4f9283823ce689f07",
+  "manifestSha256": "bfd3d87885e8add72be93919688e6103c3379dc3c019ec02296b40b6a24f2af9",
+  "modelPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/Count stick/best.mlpackage",
+  "modelFileHashes": {
+    "Data/com.apple.CoreML/model.mlmodel": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+    "Data/com.apple.CoreML/weights/weight.bin": "21717eef227d96f45419d0b5730fa4114e6877f4a6548a71efe641fc23240090",
+    "Manifest.json": "069d7e3b5c970ac6b017cdc8921bfc2deb0da721c98b71009b80c7de3521832d"
+  },
+  "sourceFiles": {
+    "detector": {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/Count stick/StickDetector.swift",
+      "sha256": "50462cf49c71e06c947bca0e870ff4cca36e3ef63414d0cdf23bdd12db8f10fa"
+    },
+    "region": {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/Count stick/AutoCountRegion.swift",
+      "sha256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112"
+    },
+    "helper": {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/accuracy/automatic-region/helper-holdout.swift",
+      "sha256": "bc09a61f76440cbe8a44a420499555e16fc558a18d66002df58d5143b7f60999"
+    },
+    "harness": {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/accuracy/automatic-region/evaluate-holdout-v3.py",
+      "sha256": "5626d143c0621eaa5cb23ad7325cfddd27b51a16d549c7e5150152740585f06a"
+    },
+    "scorer": {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/accuracy/web-set/evaluate.py",
+      "sha256": "3570b9a448c8ad0e8d264d8a1d642da2777ab28eb7d97aeacaa7153e5b2aebe5"
+    }
+  },
+  "rawSettings": {
+    "confidenceThreshold": 0.25,
+    "iouThreshold": 0.45,
+    "cropScale": "scaleFill",
+    "maximumDimension": 2048,
+    "computeUnits": "cpuOnly"
+  },
+  "ocrSettings": {
+    "recognitionLevel": "accurate",
+    "recognitionLanguages": [
+      "zh-Hans",
+      "zh-Hant",
+      "en-US"
+    ],
+    "usesLanguageCorrection": false,
+    "minimumTextHeight": 0.015,
+    "minimumCandidateConfidence": 0.8,
+    "minimumAlphanumericCharacters": 2,
+    "candidateRank": 1,
+    "revisionMode": "system_default",
+    "failurePolicy": "empty_text_areas_then_shared_selector"
+  },
+  "images": [
+    {
+      "id": "acq-v3-vietnam-round",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-vietnam-round.jpg",
+      "sha256": "c569ef8a2ad3d58eb4f1e3d73d0bb1befd1e3fa86ccf8abc6c9bbccdc6348181",
+      "width": 598,
+      "height": 640
+    },
+    {
+      "id": "acq-v3-allegro-square",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-allegro-square.jpg",
+      "sha256": "e7e110fb60e8cdcd2b8b2d62d02a020cbbe3a4fd06cd4b921c05789017f73f13",
+      "width": 1900,
+      "height": 1980
+    }
+  ]
+}

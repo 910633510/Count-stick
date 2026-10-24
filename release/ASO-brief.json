@@ -1,0 +1,278 @@
+{
+  "status": "LOCAL_METADATA_IMPLEMENTED_PENDING_LIVE_READBACK_AND_BUILD3_ASSETS",
+  "researchedOn": "2026-10-24",
+  "bundleId": "x.Count-stick",
+  "appStoreId": null,
+  "targetMarkets": [
+    "China mainland",
+    "United States"
+  ],
+  "locales": [
+    "zh-Hans",
+    "en-US"
+  ],
+  "positioning": "A paid-upfront assistant for counting exposed skewer ends: inspect an automatically estimated reference area, check the whole photo, correct markers, and keep local records. Manual review remains part of the workflow.",
+  "price": {
+    "territory": "CHN",
+    "currency": "CNY",
+    "requestedCustomerPrice": "12.00",
+    "doNotPrintFixedPriceInGlobalDescription": true
+  },
+  "candidateKeywords": [
+    {
+      "intent": "Chinese core counting",
+      "terms": [
+        "拍照数签子",
+        "竹签计数",
+        "签子数量",
+        "拍照点数"
+      ]
+    },
+    {
+      "intent": "Chinese use case",
+      "terms": [
+        "串串清点",
+        "烧烤数签",
+        "火锅签头",
+        "餐饮清点"
+      ]
+    },
+    {
+      "intent": "Chinese workflow",
+      "terms": [
+        "离线计数",
+        "手动标记"
+      ]
+    },
+    {
+      "intent": "English core counting",
+      "terms": [
+        "skewer counter",
+        "stick count",
+        "photo tally",
+        "bamboo count"
+      ]
+    },
+    {
+      "intent": "English use case",
+      "terms": [
+        "barbecue skewers",
+        "hotpot counting",
+        "restaurant tally"
+      ]
+    },
+    {
+      "intent": "English workflow",
+      "terms": [
+        "offline tally",
+        "manual correction",
+        "count history"
+      ]
+    }
+  ],
+  "keywordEvidence": "Intent hypotheses from product functions and observed App Store positioning; no search-volume, difficulty, ranking or conversion measurements are claimed.",
+  "selectedFields": {
+    "en-US": {
+      "name": "Count Stick: Skewer Counter",
+      "subtitle": "Photo tally & manual review",
+      "keywords": "bamboo,wooden,barbecue,hotpot,restaurant,markers,correction,history,offline",
+      "validation": {
+        "nameCharacters": 27,
+        "subtitleCharacters": 27,
+        "keywordsUTF8Bytes": 75,
+        "promotionalTextCharacters": 162,
+        "descriptionCharacters": 1623
+      }
+    },
+    "zh-Hans": {
+      "name": "Count Stick 拍照数签子",
+      "subtitle": "串串烧烤清点，逐点核对记录",
+      "keywords": "竹签,火锅,餐饮,离线,相册,标记,统计,分享,备注",
+      "validation": {
+        "nameCharacters": 17,
+        "subtitleCharacters": 13,
+        "keywordsUTF8Bytes": 62,
+        "promotionalTextCharacters": 68,
+        "descriptionCharacters": 583
+      }
+    }
+  },
+  "competitorObservations": [
+    {
+      "sourceId": "competitor-us",
+      "observation": "A direct skewer counter emphasizes many item types, speed/accuracy promises and subscriptions. Count Stick can present a narrower, verifiable workflow and upfront purchase."
+    },
+    {
+      "sourceId": "competitor-cn-1",
+      "observation": "Chinese inventory counters combine broad item coverage, history and export. Focus the first image on skewers rather than implying broad model coverage."
+    },
+    {
+      "sourceId": "competitor-cn-2",
+      "observation": "Manual correction is familiar adjacent-category language. The second screenshot should make the actual add/remove controls easy to see."
+    }
+  ],
+  "screenshotFirstThree": {
+    "en-US": [
+      {
+        "order": 1,
+        "headline": "Automatic area. Manual review.",
+        "supporting": "Check every stick end, inside and outside.",
+        "screen": "Actual Build 3 English result screen with its automatically estimated reference outline visible; retain the real photo, count, markers and warning unchanged."
+      },
+      {
+        "order": 2,
+        "headline": "Check it. Correct it.",
+        "supporting": "Add, remove, or undo a marker.",
+        "screen": "Actual Build 3 locale-matched full-screen marker editor; keep the automatic outline and implemented add/remove/undo controls visible."
+      },
+      {
+        "order": 3,
+        "headline": "Keep the count handy.",
+        "supporting": "Save a note. Reopen or share.",
+        "screen": "Actual Build 3 locale-matched saved history with a genuine local record and a non-personal note; no invented counts."
+      }
+    ],
+    "zh-Hans": [
+      {
+        "order": 1,
+        "headline": "自动圈出参考范围",
+        "supporting": "逐点核对，也别漏看范围外",
+        "screen": "真实 Build 3 中文计数结果，展示自动估计的参考虚线；保留真实照片、数量、标记和范围外核对提示。"
+      },
+      {
+        "order": 2,
+        "headline": "漏了补，错了改",
+        "supporting": "添加、删除、撤销，随手校对",
+        "screen": "真实 Build 3 中文全屏标记编辑界面，保留参考虚线和实际添加、删除、撤销控件。"
+      },
+      {
+        "order": 3,
+        "headline": "数完留一份记录",
+        "supporting": "写备注，回看，也能分享",
+        "screen": "真实 Build 3 中文历史记录，使用实际保存的记录及不含个人信息的备注，不编造数量。"
+      }
+    ]
+  },
+  "termsToAvoid": [
+    "CountThings",
+    "CountThis",
+    "Count Camera",
+    "点数相机",
+    "competitor app names",
+    "99% accuracy",
+    "1 second",
+    "500 items",
+    "steel pipe detection",
+    "cell counting",
+    "automatic checkout",
+    "guaranteed accuracy",
+    "toothpick recognition",
+    "all objects",
+    "100%",
+    "精准无误",
+    "自动结账",
+    "一秒出数"
+  ],
+  "localizationNotes": [
+    "Use actual English app UI for en-US assets and actual Simplified Chinese app UI for zh-Hans assets.",
+    "Do not translate UI pixels in marketing images. Capture each locale after final app localization.",
+    "Keep language concise; do not imply a billing system when the app only counts and stores results."
+  ],
+  "optionalFutureExperiments": [
+    "After release, compare photo-result versus manual-correction hero screenshots using App Store product page optimization.",
+    "Consider a restaurant/skewer custom product page only after a baseline listing and enough acquisition evidence exist. No advertising spend or new custom page is part of this draft."
+  ],
+  "sources": [
+    {
+      "id": "apple-product",
+      "title": "Creating your product page",
+      "url": "https://developer.apple.com/app-store/product-page/",
+      "accessed": "2026-10-24",
+      "supports": "Simple distinctive names; benefit-led screenshots; first one to three screenshots can appear in search; no fixed regional price in description.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-search",
+      "title": "App Store search",
+      "url": "https://developer.apple.com/app-store/search/",
+      "accessed": "2026-10-24",
+      "supports": "Text relevance includes title, subtitle, keywords and primary category; user behavior also contributes.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-keywords",
+      "title": "Platform version information",
+      "url": "https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/",
+      "accessed": "2026-10-24",
+      "supports": "Official field reference: keywords up to 100 bytes; do not duplicate app/company names or include other companies/apps. Description maximum 4000 characters, promotional text maximum 170 characters.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-ads",
+      "title": "Keywords best practices",
+      "url": "https://ads.apple.com/app-store/best-practices/keywords",
+      "accessed": "2026-10-24",
+      "supports": "Use relevant general/specific user-intent terms. This is advertising guidance, not organic ranking/volume evidence; competitor-brand ad bidding advice is not used for organic metadata.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-cpp",
+      "title": "Custom product pages",
+      "url": "https://developer.apple.com/app-store/custom-product-pages/",
+      "accessed": "2026-10-24",
+      "supports": "Localized screenshots and promotional text can focus on a particular use case; additional pages are optional.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "competitor-us",
+      "title": "Count Camera — US App Store",
+      "url": "https://apps.apple.com/us/app/count-camera/id6753931802",
+      "accessed": "2026-10-24",
+      "supports": "Listing focuses on skewers/chopsticks, restaurant use, offline processing and history; free with in-app purchases. Claims are publisher copy, not independent measurements.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "competitor-cn-1",
+      "title": "点数相机-啥都能数：数钢管、数竹签、数钢筋 — China App Store",
+      "url": "https://apps.apple.com/cn/app/%E7%82%B9%E6%95%B0%E7%9B%B8%E6%9C%BA-%E5%95%A5%E9%83%BD%E8%83%BD%E6%95%B0-%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%95%B0%E7%AB%B9%E7%AD%BE-%E6%95%B0%E9%92%A2%E7%AD%8B/id1568634122",
+      "accessed": "2026-10-24",
+      "supports": "Broad inventory positioning, history/export and subscription model. Candidate differentiation: a focused skewer workflow and upfront purchase.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "competitor-cn-2",
+      "title": "拍照点数神器-AI拍照计数钢管 — China App Store",
+      "url": "https://apps.apple.com/cn/app/%E6%8B%8D%E7%85%A7%E7%82%B9%E6%95%B0%E7%A5%9E%E5%99%A8-ai%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0%E9%92%A2%E7%AE%A1/id6758122199",
+      "accessed": "2026-10-24",
+      "supports": "Manual add/remove corrections are part of adjacent counting-app positioning; no inference about its accuracy.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "app-privacy",
+      "title": "Count Stick Privacy Policy — XM LLC",
+      "url": "https://www.xmaillc.com/count-stick-privacy.html",
+      "accessed": "2026-10-24",
+      "accessedTimezone": "America/New_York",
+      "supports": "On-device photo processing, local history, user-initiated sharing, no account/ads/tracking; direct HTTP fetch verified."
+    },
+    {
+      "id": "app-support",
+      "title": "Count Stick Support — XM LLC",
+      "url": "https://www.xmaillc.com/count-stick-support.html",
+      "accessed": "2026-10-24",
+      "accessedTimezone": "America/New_York",
+      "supports": "Public support contact, endpoint photo guidance, manual verification, local records and paid download; direct HTTP fetch verified."
+    }
+  ],
+  "completionGate": "Local copy is ready for the exact new app. Final ASO PASS requires live localized-field readback plus actual Build 3 locale-matched first-three screenshots and their processed App Store placements; no live apply or upload is claimed by this preparation.",
+  "researchTimezone": "America/New_York",
+  "targetVersion": "1.0",
+  "targetBuild": "3",
+  "implementationDecisions": [
+    "Keep the user-selected English app name and focused Chinese app name.",
+    "Use subtitle space for photo/manual-review intent in English and skewer-use-case/manual-checking intent in Chinese; avoid repeating these words in the keyword field.",
+    "Replace broad inventory positioning with exposed skewer ends; remove unsupported general-object, reliable automated checkout, speed and accuracy guarantees.",
+    "First screenshot introduces the automatic reference area while explicitly requiring whole-photo review; second shows actual corrections and third genuine local history.",
+    "Keep one-time paid-download copy, no subscriptions or IAP, and no fixed currency amount in global descriptions. China CNY 12 remains a live pricing task."
+  ]
+}

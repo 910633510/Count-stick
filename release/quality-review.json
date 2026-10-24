@@ -1,0 +1,39 @@
+{
+  "status": "SUBMITTED_AS_ASSISTED_COUNTING_WITH_KNOWN_LIMITATIONS",
+  "scope": "Counting accuracy for bundled skewer endpoints at restaurant/barbecue checkout",
+  "implementationChecks": "PASS; see build-review.json and validation-summary.json",
+  "accuracyFindings": [
+    "Duplicate/false markers and missed terminal faces were confirmed in a manually annotated region of a real photo.",
+    "Changing confidence, overlap filtering, aspect scaling or tiling has not established a reliable improvement on the available evidence.",
+    "A local build 2 candidate tightens NMS IoU from 0.7 to 0.45 at confidence0.25, preserving scaleFill and original weights. On two small same-image regions TP9/FN2 stay unchanged while FP13 drops to11; overall counting acceptance remains blocked.",
+    "Frozen v2 adds 4 new holdout scenes / 213 visible endpoints. Build2 TP210 FP22 FN3; exact count0/2 and MAE1.5 for the two complete photos. Three product scenes and one POS demonstration do not establish field accuracy. No detector/model parameters changed.",
+    "Build3 adds automatic reference regions and conservative text/outlier filtering with unchanged model/NMS. Development TP674/FN38 unchanged, FP83 to34; new frozen v3 TP109/FN31 unchanged across140 confirmed endpoints. The sole nominal FP reduction is uncertainty-boundary-sensitive, not reliable evidence of general background filtering. Detection-derived reference boxes can exclude original missed ends."
+  ],
+  "requiredNextEvidence": "Improve base-model recall using representative round endpoint training data, then validate on new frozen source groups and physical iPhone photos. Automatic region filtering cannot recover missed endpoints.",
+  "initialDataRequest": "Superseded: user directed assistant to collect and annotate online photos. First frozen set completed:5sourcegroups/499visibleendpoints.",
+  "appStoreSubmission": "WAITING_FOR_REVIEW",
+  "accuracyReport": "release/accuracy/analysis-app.json",
+  "latestEvidence": "release/accuracy/web-set-v3/REPORT.md",
+  "additionalDataCollected": {
+    "v1SourceGroups": 5,
+    "v1VisibleEndpoints": 499,
+    "v2SourceGroups": 4,
+    "v2VisibleEndpoints": 213,
+    "totalDistinctWebScenes": 11,
+    "totalCertainVisibleEndpoints": 852,
+    "v3SourceGroups": 2,
+    "v3VisibleEndpoints": 140,
+    "v3IncludesSquareEndShapeStressScene": true
+  },
+  "automaticRegionReport": "release/accuracy/automatic-region/README.md",
+  "currentBuild": "3",
+  "automaticRegionImplemented": true,
+  "manualRegionRequired": false,
+  "localBuildEvidence": "release/automatic-region-build-review.json",
+  "automaticCheckoutAccuracyAcceptance": "NOT_PASSED",
+  "appStoreId": "6826601708",
+  "submissionEvidence": "release/store-status.json",
+  "releaseScope": "Assisted counting with required whole-photo manual review and correction; not unattended automatic checkout",
+  "releaseInstructionDate": "2026-10-24",
+  "accuracyFindingsPreserved": true
+}

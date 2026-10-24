@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "imageId": "acquisition-05",
+  "imageSha256": "c7c795aee949d1e13521a35f30a4d740dac749d948a436d0df6c9efc5608c6e5",
+  "width": 725,
+  "height": 735,
+  "coordinateSystem": "upright image pixels, top-left",
+  "scope": "full_image",
+  "evaluationRegion": {
+    "xywh": [
+      0,
+      0,
+      725,
+      735
+    ]
+  },
+  "points": [
+    {
+      "id": "end-001",
+      "x": 336,
+      "y": 63,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-002",
+      "x": 238,
+      "y": 106,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-003",
+      "x": 441,
+      "y": 83,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-004",
+      "x": 149,
+      "y": 159,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-005",
+      "x": 511,
+      "y": 142,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-006",
+      "x": 287,
+      "y": 190,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-007",
+      "x": 370,
+      "y": 223,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-008",
+      "x": 573,
+      "y": 199,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-009",
+      "x": 121,
+      "y": 269,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-010",
+      "x": 174,
+      "y": 238,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-011",
+      "x": 254,
+      "y": 311,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-012",
+      "x": 422,
+      "y": 315,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-013",
+      "x": 546,
+      "y": 324,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-014",
+      "x": 120,
+      "y": 382,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-015",
+      "x": 167,
+      "y": 346,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-016",
+      "x": 341,
+      "y": 351,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-017",
+      "x": 232,
+      "y": 414,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-018",
+      "x": 417,
+      "y": 408,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-019",
+      "x": 611,
+      "y": 436,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-020",
+      "x": 173,
+      "y": 438,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-021",
+      "x": 314,
+      "y": 470,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-022",
+      "x": 498,
+      "y": 491,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-023",
+      "x": 234,
+      "y": 525,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-024",
+      "x": 389,
+      "y": 542,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-025",
+      "x": 589,
+      "y": 554,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-026",
+      "x": 334,
+      "y": 561,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-027",
+      "x": 409,
+      "y": 622,
+      "matchRadius": 18
+    },
+    {
+      "id": "end-028",
+      "x": 473,
+      "y": 623,
+      "matchRadius": 18
+    }
+  ],
+  "ignoreRegions": [],
+  "visibleEndpointCount": 28,
+  "method": "Manual visual end-face enumeration from original product photograph; no detector predictions inspected. Every individually identifiable visible blunt end is included; shafts and background are excluded.",
+  "imageStorage": "LOCAL_EVALUATION_ONLY; originals and annotated overlay under ignored output/web-annotation.",
+  "sourcePage": "https://m.made-in-china.com/product/Natural-Color-Sharp-End-Round-Disposable-Bamboo-Stick-Bamboo-Skewer-1977437892.html",
+  "review": {
+    "status": "reviewed_frozen",
+    "annotator": "aso_release_audit manual visual pass",
+    "reviewer": "root independent raw-image and numbered-overlay review",
+    "notes": [
+      "Independent reviewer confirms 28 visible faces, no missed/duplicate point; neither annotator nor reviewer viewed detector outputs.",
+      "Point1 is fully visible; original edge-clipped metadata corrected before shared manifest freeze.",
+      "Points9,14,20,26 are soft or partly occluded but independently distinguishable.",
+      "Parent must approve and freeze combined manifest before prediction evaluation. Match radius18 pixels fixed before viewing predictions.",
+      "Root visually checked each numbered point against the photographed terminal faces; no app/model predictions were used. Count is visible endpoint faces only, not a retail-package or hidden physical-stick total.",
+      "Independent reviewer skill_update also recounted28 before root verification."
+    ],
+    "reviewedAtUTC": "2026-10-23T12:58:32.773341+00:00"
+  },
+  "completeCountVerified": true
+}

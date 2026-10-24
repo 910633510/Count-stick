@@ -1,0 +1,22 @@
+{
+  "searchedAt": "2026-10-23",
+  "prospects": [
+    {
+      "title": "MobileNetV3 with CBAM for Bamboo Stick Counting",
+      "url": "https://ieee-dataport.org/documents/mobilenetv3-cbam-bamboo-stick-counting",
+      "doi": "10.21227/414k-hd33",
+      "publisher": "IEEE DataPort",
+      "sourceReportedOriginalSparseImages": 600,
+      "sourceReportedAfterCropFlipImages": 700,
+      "archive": "zhuzi.zip",
+      "sourceReportedArchiveSize": "817.8 MB",
+      "status": "NOT_DOWNLOADED_LOGIN_AND_SUBSCRIPTION_REQUIRED",
+      "verifiedSourceText": "Dataset Files: LOGIN TO ACCESS DATASET FILES. How to access this dataset: This dataset requires an IEEE DataPort Subscription.",
+      "notes": [
+        "Dataset content and labels have not been locally audited.",
+        "Source-reported augmentation count is not an independent image count.",
+        "No signup, subscription, author message, or access-control workaround performed."
+      ]
+    }
+  ]
+}

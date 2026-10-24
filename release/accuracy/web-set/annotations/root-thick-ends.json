@@ -1,0 +1,620 @@
+{
+  "schemaVersion": 1,
+  "imageId": "root-thick-ends",
+  "imageSha256": "7da2f9feff53bc4e49693363208b3047aee93a2929b2ea2ec92b3f2806f085ee",
+  "width": 800,
+  "height": 800,
+  "coordinateSystem": "upright image pixels, top-left",
+  "scope": "full_image",
+  "evaluationRegion": {
+    "xywh": [
+      0,
+      0,
+      800,
+      800
+    ]
+  },
+  "points": [
+    {
+      "id": "end-001",
+      "x": 273,
+      "y": 174,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-002",
+      "x": 333,
+      "y": 174,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-003",
+      "x": 382,
+      "y": 166,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-004",
+      "x": 427,
+      "y": 165,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-005",
+      "x": 253,
+      "y": 214,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-006",
+      "x": 309,
+      "y": 210,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-007",
+      "x": 361,
+      "y": 214,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-008",
+      "x": 412,
+      "y": 200,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-009",
+      "x": 469,
+      "y": 200,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-010",
+      "x": 222,
+      "y": 248,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-011",
+      "x": 286,
+      "y": 246,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-012",
+      "x": 340,
+      "y": 246,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-013",
+      "x": 387,
+      "y": 250,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-014",
+      "x": 455,
+      "y": 237,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-015",
+      "x": 508,
+      "y": 231,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-016",
+      "x": 202,
+      "y": 289,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-017",
+      "x": 253,
+      "y": 278,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-018",
+      "x": 304,
+      "y": 290,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-019",
+      "x": 353,
+      "y": 287,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-020",
+      "x": 431,
+      "y": 269,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-021",
+      "x": 479,
+      "y": 268,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-022",
+      "x": 526,
+      "y": 274,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-023",
+      "x": 561,
+      "y": 249,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-024",
+      "x": 168,
+      "y": 327,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-025",
+      "x": 220,
+      "y": 335,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-026",
+      "x": 274,
+      "y": 325,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-027",
+      "x": 323,
+      "y": 330,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-028",
+      "x": 376,
+      "y": 323,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-029",
+      "x": 405,
+      "y": 304,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-030",
+      "x": 457,
+      "y": 306,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-031",
+      "x": 506,
+      "y": 309,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-032",
+      "x": 551,
+      "y": 314,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-033",
+      "x": 585,
+      "y": 284,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-034",
+      "x": 635,
+      "y": 328,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-035",
+      "x": 193,
+      "y": 373,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-036",
+      "x": 243,
+      "y": 375,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-037",
+      "x": 294,
+      "y": 365,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-038",
+      "x": 347,
+      "y": 364,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-039",
+      "x": 402,
+      "y": 368,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-040",
+      "x": 448,
+      "y": 372,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-041",
+      "x": 480,
+      "y": 346,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-042",
+      "x": 534,
+      "y": 346,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-043",
+      "x": 585,
+      "y": 354,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-044",
+      "x": 641,
+      "y": 375,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-045",
+      "x": 160,
+      "y": 418,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-046",
+      "x": 216,
+      "y": 414,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-047",
+      "x": 267,
+      "y": 412,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-048",
+      "x": 318,
+      "y": 407,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-049",
+      "x": 377,
+      "y": 409,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-050",
+      "x": 429,
+      "y": 397,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-051",
+      "x": 483,
+      "y": 415,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-052",
+      "x": 511,
+      "y": 383,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-053",
+      "x": 557,
+      "y": 390,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-054",
+      "x": 611,
+      "y": 410,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-055",
+      "x": 658,
+      "y": 423,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-056",
+      "x": 188,
+      "y": 459,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-057",
+      "x": 241,
+      "y": 461,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-058",
+      "x": 290,
+      "y": 451,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-059",
+      "x": 348,
+      "y": 441,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-060",
+      "x": 399,
+      "y": 451,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-061",
+      "x": 451,
+      "y": 448,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-062",
+      "x": 500,
+      "y": 455,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-063",
+      "x": 524,
+      "y": 423,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-064",
+      "x": 574,
+      "y": 439,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-065",
+      "x": 630,
+      "y": 452,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-066",
+      "x": 214,
+      "y": 496,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-067",
+      "x": 279,
+      "y": 498,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-068",
+      "x": 323,
+      "y": 483,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-069",
+      "x": 374,
+      "y": 485,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-070",
+      "x": 431,
+      "y": 487,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-071",
+      "x": 478,
+      "y": 489,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-072",
+      "x": 523,
+      "y": 497,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-073",
+      "x": 550,
+      "y": 469,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-074",
+      "x": 593,
+      "y": 482,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-075",
+      "x": 646,
+      "y": 498,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-076",
+      "x": 248,
+      "y": 531,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-077",
+      "x": 296,
+      "y": 542,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-078",
+      "x": 344,
+      "y": 522,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-079",
+      "x": 395,
+      "y": 530,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-080",
+      "x": 444,
+      "y": 532,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-081",
+      "x": 495,
+      "y": 533,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-082",
+      "x": 536,
+      "y": 554,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-083",
+      "x": 575,
+      "y": 512,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-084",
+      "x": 615,
+      "y": 529,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-085",
+      "x": 275,
+      "y": 580,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-086",
+      "x": 327,
+      "y": 574,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-087",
+      "x": 367,
+      "y": 565,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-088",
+      "x": 414,
+      "y": 576,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-089",
+      "x": 462,
+      "y": 578,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-090",
+      "x": 509,
+      "y": 591,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-091",
+      "x": 560,
+      "y": 594,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-092",
+      "x": 590,
+      "y": 561,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-093",
+      "x": 349,
+      "y": 616,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-094",
+      "x": 400,
+      "y": 631,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-095",
+      "x": 449,
+      "y": 629,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-096",
+      "x": 514,
+      "y": 641,
+      "matchRadius": 12
+    },
+    {
+      "id": "end-097",
+      "x": 432,
+      "y": 338,
+      "matchRadius": 10
+    }
+  ],
+  "ignoreRegions": [],
+  "visibleEndpointCount": 97,
+  "method": "Manual blind point annotation of visible blunt bamboo end faces, scanned top-to-bottom in overlapping enlarged crops. No detector outputs viewed and no retail quantity used. Points indicate center of visible terminal cross-section, not stem or wood pores. All apparent head centers in frame are included; reviewer must check faint upper/right heads and missed tight adjacency before freeze.",
+  "imageStorage": "LOCAL_EVALUATION_ONLY; original and annotated overlay stay under ignored output/web-annotation.",
+  "sourcePage": "https://arvar.hu/termek/60-cm-x-6-mm-50-100db-bbq-bambusz-nyars-szuper-hosszu-tornado-burgonya-fa-spiral-tu-bar-etteremellatas/",
+  "review": {
+    "status": "reviewed_frozen",
+    "annotator": "skill_update manual visual pass",
+    "reviewer": "root independent raw-image and numbered-overlay review",
+    "notes": [
+      "Exact count is provisional pending independent point-by-point review.",
+      "Typical manual center uncertainty about 4 pixels; upper blurred faces about 6 pixels.",
+      "No border-clipped endpoint centers observed; blur still permits distinct face identification. Confirm this before freeze.",
+      "Self-audit on numbered overlay found one omitted distinct face at (432,338), added as end-097 before independent review.",
+      "Root visually checked each numbered point against the photographed terminal faces; no app/model predictions were used. Count is visible endpoint faces only, not a retail-package or hidden physical-stick total."
+    ],
+    "reviewedAtUTC": "2026-10-23T12:58:32.771787+00:00"
+  },
+  "completeCountVerified": true
+}

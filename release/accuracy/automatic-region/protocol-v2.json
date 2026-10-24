@@ -1,0 +1,62 @@
+{
+  "status": "PREDECLARED_DEVELOPMENT_DIAGNOSTIC",
+  "scope": "Use existing cached build2 full-image confidence0.25/IoU0.45 detections from already-seen v1/v2 images. No new detector inference, crop/rescale, weight, confidence, NMS, or frozen-label changes. These are development diagnostics, not blind holdout evidence.",
+  "candidates": [
+    "conservative_text_only",
+    "conservative_geometry_only",
+    "combined"
+  ],
+  "ocr": {
+    "engine": "Apple Vision accurate",
+    "recognitionLanguages": [
+      "zh-Hans",
+      "zh-Hant",
+      "en-US"
+    ],
+    "minimumTextHeight": 0.015,
+    "usesLanguageCorrection": false,
+    "minimumConfidence": 0.8,
+    "minimumAlphanumericOrCJKCharacters": 2,
+    "persistRecognizedStrings": false
+  },
+  "textGeometry": {
+    "minimumLongAxisInMedianEndpointSides": 2,
+    "minimumAspectRatio": 1.4,
+    "minimumDetectionAreaInsideText": 0.7,
+    "requireDetectionCenterInsideText": true,
+    "supportGate": {
+      "minimumOriginalDetections": 6,
+      "excludeOCRExpandedByMedianSidesFromAnchorCandidates": 0.5,
+      "anchorGroupMinimumSize": 6,
+      "minimumAnchorSpanEachAxisInMedianSides": 2,
+      "preserveTextCandidateNearAnyReliableAnchorInMedianSides": 2.5,
+      "preserveAllOriginalComponentsSmallerThan": 6
+    }
+  },
+  "geometry": {
+    "minimumDetections": 6,
+    "neighborDistanceInMedianEndpointSides": 3,
+    "supportedComponentMinimumSize": 3,
+    "minimumSupportedFraction": 0.65,
+    "reliableComponentMinimumSize": 6,
+    "minimumReliableComponentSpanEachAxisInMedianSides": 2,
+    "onlyRemoveSingletonComponents": true,
+    "preserveAllPairsAndLargerComponents": true,
+    "maximumRemovedConfidenceExclusive": 0.7,
+    "minimumDistanceToSupportedPointInMedianSides": 6,
+    "preserveInsideSupportedBoxesExpandedInMedianSides": 3,
+    "mergeRetainedProtrusionsIntoNearestRegionWithinMedianSides": 6
+  },
+  "fallback": "Original input<6 -> sparse with every original detection retained. No reliable post-filter support or any empty/sparse post-filter result -> return all original detections and no exclusions. No reliable non-text anchor group -> OCR cannot delete. Empty only means originally empty input.",
+  "requiredChecks": [
+    "TP/FP/FN and exact visible-count errors per image for all3 candidates",
+    "Explicit preservation of both tall Pospal endpoints",
+    "Text false-positive suppression must not delete known endpoint faces",
+    "Report uncertain/fallback cases, no concealed low-recall zero counts"
+  ],
+  "selection": "No additional parameter search in this development pass. Root reviews the fixed candidates; a future new v3 set must be frozen and evaluated once after selection.",
+  "declaredAtUTC": "2026-10-23T16:16:49.198250+00:00",
+  "revision": "v2",
+  "supersedes": "protocol-v1.json (retained with its measured failures)",
+  "ocrResults": "Reuse the fixed v1 OCR boxes/settings; no additional core detector or OCR inference in this revision."
+}

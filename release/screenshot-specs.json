@@ -1,0 +1,64 @@
+{
+  "source": "GET /v1/appAssetLibraryRefData",
+  "verifiedAtUTC": "2026-10-23T04:06:39.987290+00:00",
+  "specifications": [
+    {
+      "specId": "5a7a65df-8822-5e32-bd47-cfbc4ef99663",
+      "shortName": "i1206x2622a0",
+      "dimensions": {
+        "minWidth": 1206,
+        "maxWidth": 1206,
+        "minHeight": 2622,
+        "maxHeight": 2622
+      },
+      "aspectRatio": "6:13",
+      "compatiblePlacementTypes": [
+        "APP_SCREENSHOT",
+        "IMESSAGE_APP_SCREENSHOT"
+      ],
+      "alphaAllowed": false,
+      "fileExtensions": [
+        ".jpg",
+        ".jpeg",
+        ".png"
+      ],
+      "maxFileSize": 524288000,
+      "mimeTypes": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "universalAsset": false
+    },
+    {
+      "specId": "1751a63a-af79-5c7f-a2f2-41140bf28f9e",
+      "shortName": "i2064x2752a0",
+      "dimensions": {
+        "minWidth": 2064,
+        "maxWidth": 2064,
+        "minHeight": 2752,
+        "maxHeight": 2752
+      },
+      "aspectRatio": "3:4",
+      "compatiblePlacementTypes": [
+        "APP_SCREENSHOT",
+        "IMESSAGE_APP_SCREENSHOT"
+      ],
+      "alphaAllowed": false,
+      "fileExtensions": [
+        ".jpg",
+        ".jpeg",
+        ".png"
+      ],
+      "maxFileSize": 524288000,
+      "mimeTypes": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "universalAsset": false
+    }
+  ],
+  "placementGroups": [
+    "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+    "IPAD_13_PROFILE"
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-24",
+  "timezone": "America/New_York",
+  "target": {
+    "bundleId": "x.Count-stick",
+    "appStoreId": "6826601708",
+    "version": "1.0",
+    "build": "3",
+    "sku": "count-stick-20261022",
+    "name": "Count Stick: Skewer Counter",
+    "appStoreVersionId": "d0c1b249-a423-475d-892f-f53130b2eb69"
+  },
+  "status": "PASS_FINAL_ASO_COPY_ASSETS_AND_PRICE",
+  "scope": "Final read-only ASO lane review: exact new app identity, persisted bilingual metadata, independent copy review, authentic Build3 screenshot visual/source checks, fresh live image/placement/order reads, processed RGB equality and China CNY12 price. No ASC writes or submission by this reviewer.",
+  "fieldValidation": {
+    "en-US": {
+      "nameCharacters": 27,
+      "subtitleCharacters": 27,
+      "keywordsUTF8Bytes": 75,
+      "promotionalTextCharacters": 162,
+      "descriptionCharacters": 1623
+    },
+    "zh-Hans": {
+      "nameCharacters": 17,
+      "subtitleCharacters": 13,
+      "keywordsUTF8Bytes": 62,
+      "promotionalTextCharacters": 68,
+      "descriptionCharacters": 583
+    }
+  },
+  "checks": {
+    "supportedEndpointDomain": "PASS: exposed skewer ends; no generic object coverage",
+    "automaticReferenceArea": "PASS: attempts/estimates an area; guide only; full photo and outside-area checking explicit; fallback explained",
+    "manualReview": "PASS: add/remove/undo anywhere; no automatic checkout guarantee",
+    "localProcessing": "PASS: source and public policy agree; local OCR strings not saved or sent",
+    "monetizationCopy": "PASS: assisted-counting paid download, China CNY12 schedule independently re-read; no in-app purchase or subscription implementation",
+    "noCompetitorKeywords": "PASS",
+    "noUnmeasuredRankOrAccuracyClaim": "PASS",
+    "fieldLimits": "PASS",
+    "firstVersionWhatsNew": "OMITTED",
+    "privacyAndSupportLinks": "PASS_HTTP200_CONTENT_CHECK",
+    "liveMetadataReadback": "PASS_ALL_FIELDS",
+    "build3MarketingScreenshots": "PASS: 12 independent visual and source-pixel checks",
+    "liveScreenshotPlacementReadback": "PASS: 12 ACTIVE placements; four locale/device groups ordered result, correction, history; no extra placement groups or custom product pages",
+    "liveProcessedImages": "PASS: all12 READY_FOR_REVIEW; downloaded full-size RGB pixels independently match the twelve approved local marketing PNGs exactly",
+    "independentCopyReview": "PASS",
+    "selectedBuild": "PASS: selected build3 id30db8ed8-a7d8-4614-bda1-b529909a2e76 VALID"
+  },
+  "sourceEvidence": {
+    "Count stick/StickDetector.swift": "50462cf49c71e06c947bca0e870ff4cca36e3ef63414d0cdf23bdd12db8f10fa",
+    "Count stick/AutoCountRegion.swift": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+    "Count stick/ContentView.swift": "72023e925771bdc71ad50ab32e76bdcd2694235222658660776116037cfa4bcf",
+    "Count stick/CountHistory.swift": "50b85f0a9fbcd8c8b8a28cb1cd794245615e3fb369cc102cca0b815363e07581",
+    "Count stick/en.lproj/Localizable.strings": "6d319e63eb7c2c0fe827d3965e358625c8d87663ea16d9c329bb34960c881a2e",
+    "Count stick/zh-Hans.lproj/Localizable.strings": "0570ba4acd9b2b9eb5e508faee4af16b87f79a8b973a49d9941bc24a0ed5a1e1",
+    "Count stick.xcodeproj/project.pbxproj": "e217e3e439556d8edb2f036a194a8fc76df980f7dedcff26a5395e35190e7a1a",
+    "release/automatic-region-build-review.json": "0dcda578586296007edd6489832f89b88e034eb1d27aa6b579bf2d4f9c0079c1",
+    "release/accuracy/web-set-v3/REPORT.md": "f3f5fbfa6985eba7d8aee8baab600557caae59f7f56f81b067e86a087940d81d"
+  },
+  "localMetadataSHA256": "193d803731a670f8baa262f7dc52be681d8a454ad9dda4d6018da15786892587",
+  "asoBriefSHA256": "858412aa410ef4715c8007ad81e49b75de4d97825386ae3e88bdb3080307ad53",
+  "webChecks": [
+    {
+      "field": "supportUrl",
+      "url": "https://www.xmaillc.com/count-stick-support.html",
+      "httpStatus": 200,
+      "finalUrl": "https://www.xmaillc.com/count-stick-support.html",
+      "bodySHA256": "7823294fbfdf36154548a1c06f68b4afcc2390897476474a232fa971f60239b5",
+      "accessedOn": "2026-10-24",
+      "timezone": "America/New_York"
+    },
+    {
+      "field": "privacyPolicyUrl",
+      "url": "https://www.xmaillc.com/count-stick-privacy.html",
+      "httpStatus": 200,
+      "finalUrl": "https://www.xmaillc.com/count-stick-privacy.html",
+      "bodySHA256": "e8f98621777bf86d47e16601f2251a9affffe51a2ee46f0a20ad87e90b6b12e5",
+      "accessedOn": "2026-10-24",
+      "timezone": "America/New_York"
+    },
+    {
+      "field": "termsOfUseUrl",
+      "url": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "httpStatus": 200,
+      "finalUrl": "https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+      "bodySHA256": "a882b1cc8117fa345d907554577d03e4858fcaae25b461af50e789b8efde31bf",
+      "accessedOn": "2026-10-24",
+      "timezone": "America/New_York"
+    }
+  ],
+  "sources": [
+    {
+      "id": "apple-product",
+      "title": "Creating your product page",
+      "url": "https://developer.apple.com/app-store/product-page/",
+      "accessed": "2026-10-24",
+      "supports": "Simple distinctive names; benefit-led screenshots; first one to three screenshots can appear in search; no fixed regional price in description.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-search",
+      "title": "App Store search",
+      "url": "https://developer.apple.com/app-store/search/",
+      "accessed": "2026-10-24",
+      "supports": "Text relevance includes title, subtitle, keywords and primary category; user behavior also contributes.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-keywords",
+      "title": "Platform version information",
+      "url": "https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/",
+      "accessed": "2026-10-24",
+      "supports": "Official field reference: keywords up to 100 bytes; do not duplicate app/company names or include other companies/apps. Description maximum 4000 characters, promotional text maximum 170 characters.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-ads",
+      "title": "Keywords best practices",
+      "url": "https://ads.apple.com/app-store/best-practices/keywords",
+      "accessed": "2026-10-24",
+      "supports": "Use relevant general/specific user-intent terms. This is advertising guidance, not organic ranking/volume evidence; competitor-brand ad bidding advice is not used for organic metadata.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-cpp",
+      "title": "Custom product pages",
+      "url": "https://developer.apple.com/app-store/custom-product-pages/",
+      "accessed": "2026-10-24",
+      "supports": "Localized screenshots and promotional text can focus on a particular use case; additional pages are optional.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "competitor-us",
+      "title": "Count Camera — US App Store",
+      "url": "https://apps.apple.com/us/app/count-camera/id6753931802",
+      "accessed": "2026-10-24",
+      "supports": "Listing focuses on skewers/chopsticks, restaurant use, offline processing and history; free with in-app purchases. Claims are publisher copy, not independent measurements.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "competitor-cn-1",
+      "title": "点数相机-啥都能数：数钢管、数竹签、数钢筋 — China App Store",
+      "url": "https://apps.apple.com/cn/app/%E7%82%B9%E6%95%B0%E7%9B%B8%E6%9C%BA-%E5%95%A5%E9%83%BD%E8%83%BD%E6%95%B0-%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%95%B0%E7%AB%B9%E7%AD%BE-%E6%95%B0%E9%92%A2%E7%AD%8B/id1568634122",
+      "accessed": "2026-10-24",
+      "supports": "Broad inventory positioning, history/export and subscription model. Candidate differentiation: a focused skewer workflow and upfront purchase.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "competitor-cn-2",
+      "title": "拍照点数神器-AI拍照计数钢管 — China App Store",
+      "url": "https://apps.apple.com/cn/app/%E6%8B%8D%E7%85%A7%E7%82%B9%E6%95%B0%E7%A5%9E%E5%99%A8-ai%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0%E9%92%A2%E7%AE%A1/id6758122199",
+      "accessed": "2026-10-24",
+      "supports": "Manual add/remove corrections are part of adjacent counting-app positioning; no inference about its accuracy.",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "app-privacy",
+      "title": "Count Stick Privacy Policy — XM LLC",
+      "url": "https://www.xmaillc.com/count-stick-privacy.html",
+      "accessed": "2026-10-24",
+      "accessedTimezone": "America/New_York",
+      "supports": "On-device photo processing, local history, user-initiated sharing, no account/ads/tracking; direct HTTP fetch verified."
+    },
+    {
+      "id": "app-support",
+      "title": "Count Stick Support — XM LLC",
+      "url": "https://www.xmaillc.com/count-stick-support.html",
+      "accessed": "2026-10-24",
+      "accessedTimezone": "America/New_York",
+      "supports": "Public support contact, endpoint photo guidance, manual verification, local records and paid download; direct HTTP fetch verified."
+    }
+  ],
+  "accuracyLimitation": "Existing frozen holdout evidence retains missed endpoints. This review passes truthful assisted-counting copy only; it does not certify automatic-checkout accuracy or physical-camera behavior.",
+  "nextEvidenceRequired": [],
+  "validation": {
+    "command": "PYTHONDONTWRITEBYTECODE=1 python3 release/scripts/apply_metadata.py --validate-only",
+    "result": "PASS: locale lengths and all 10 used OpenAPI request schema variants; no API calls.",
+    "privateReceipt": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261022/metadata-20261024T142728423497Z/offline-validation.json",
+    "privateReceiptSHA256": "19791e7edc4b996b3164b6b6096290dd4d13b14ba830761f769866e3d51a5b67",
+    "jsonConsistency": "PASS",
+    "gitDiffCheck": "PASS"
+  },
+  "localAssetReview": {
+    "path": "release/screenshots/build3/independent-visual-review.json",
+    "sha256": "14e32c94c768844fe449b891e7c484b9d73b91ed7b528a99389240d6f646cd56",
+    "status": "PASS_LOCAL_BUILD3_VISUAL_AND_PIXEL_REVIEW",
+    "finalImages": 12
+  },
+  "liveMetadataReview": {
+    "status": "PASS",
+    "privateReceipt": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/aso-review/metadata-readback-20261024T150938Z.json",
+    "privateReceiptSHA256": "f203eda55d60080cf3edde5a3f593d4e92ac4c98b19604aaa0fc1ff6cbcbaa4a",
+    "checkedAtUTC": "2026-10-24T15:09:38.911703+00:00",
+    "identityVerified": true,
+    "localizations": {
+      "en-US": {
+        "appInfo": {
+          "resourceId": "3e63acdf-1b2a-4563-8dea-54c1b9e55823",
+          "allFieldsMatch": true,
+          "mismatchFields": [],
+          "comparedFields": [
+            "name",
+            "subtitle",
+            "privacyPolicyUrl"
+          ]
+        },
+        "version": {
+          "resourceId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+          "allFieldsMatch": true,
+          "mismatchFields": [],
+          "comparedFields": [
+            "keywords",
+            "promotionalText",
+            "description",
+            "whatsNew",
+            "supportUrl",
+            "marketingUrl"
+          ]
+        }
+      },
+      "zh-Hans": {
+        "appInfo": {
+          "resourceId": "6725d15b-8afe-4d94-8b31-97fced8b744a",
+          "allFieldsMatch": true,
+          "mismatchFields": [],
+          "comparedFields": [
+            "name",
+            "subtitle",
+            "privacyPolicyUrl"
+          ]
+        },
+        "version": {
+          "resourceId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+          "allFieldsMatch": true,
+          "mismatchFields": [],
+          "comparedFields": [
+            "keywords",
+            "promotionalText",
+            "description",
+            "whatsNew",
+            "supportUrl",
+            "marketingUrl"
+          ]
+        }
+      }
+    },
+    "reviewNotesMatch": true,
+    "primaryCategoryMatches": true,
+    "copyrightMatches": true,
+    "demoAccountRequired": false
+  },
+  "previousMetadataReadback": {
+    "status": "PARTIAL_READBACK_DURING_OPERATOR_APPLY",
+    "privateReceipt": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/aso-review/metadata-readback-20261024T150401Z.json",
+    "privateReceiptSHA256": "e0582e22e7e110855a3a80ff713bcdbf1ac348126d4e988ac3aea7e965f8050b",
+    "checkedAtUTC": "2026-10-24T15:04:01.462680+00:00",
+    "identityVerified": true,
+    "localizations": {
+      "en-US": {
+        "appInfo": {
+          "resourceId": "3e63acdf-1b2a-4563-8dea-54c1b9e55823",
+          "allFieldsMatch": true,
+          "mismatchFields": [],
+          "comparedFields": [
+            "name",
+            "subtitle",
+            "privacyPolicyUrl"
+          ]
+        },
+        "version": {
+          "resourceId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+          "allFieldsMatch": true,
+          "mismatchFields": [],
+          "comparedFields": [
+            "keywords",
+            "promotionalText",
+            "description",
+            "whatsNew",
+            "supportUrl",
+            "marketingUrl"
+          ]
+        }
+      },
+      "zh-Hans": {
+        "appInfo": {
+          "resourceId": "6725d15b-8afe-4d94-8b31-97fced8b744a",
+          "allFieldsMatch": true,
+          "mismatchFields": [],
+          "comparedFields": [
+            "name",
+            "subtitle",
+            "privacyPolicyUrl"
+          ]
+        },
+        "version": {
+          "resourceId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+          "allFieldsMatch": false,
+          "mismatchFields": [
+            "keywords",
+            "promotionalText",
+            "description",
+            "supportUrl",
+            "marketingUrl"
+          ],
+          "comparedFields": [
+            "keywords",
+            "promotionalText",
+            "description",
+            "whatsNew",
+            "supportUrl",
+            "marketingUrl"
+          ]
+        }
+      }
+    },
+    "reviewNotesMatch": false,
+    "primaryCategoryMatches": false,
+    "copyrightMatches": true
+  },
+  "monetizationReadback": {
+    "status": "PASS",
+    "privateReceipt": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/aso-review/price-readback.json",
+    "sha256": "0698c2424557adadb44cabdbf679528b541e7b361eade6654135c00e8f5eb9cb",
+    "checkedAtUTC": "2026-10-24T15:10:09.773355+00:00",
+    "baseTerritory": "CHN",
+    "currency": "CNY",
+    "customerPrice": "12.00",
+    "immediateSchedule": true,
+    "appId": "6826601708"
+  },
+  "finalReviewedAtUTC": "2026-10-24T15:39:35.252695+00:00",
+  "localMetadataSHA256AtPreparation": "dd09fbe98c738f44406fa4f62f3d6c0c5627c192c4ac107cb0fa3b9fd84f1f0d",
+  "metadataIdentityUpdate": {
+    "changedTopLevelKeys": [
+      "status",
+      "monetization",
+      "appStoreId"
+    ],
+    "actualAppInfoVersionCopyReviewNotesSharedURLsAndScreenshotNarrativesUnchanged": true,
+    "currentAppStoreId": "6826601708",
+    "priceVerified": true,
+    "metadataAtRenderSHA256": "dd09fbe98c738f44406fa4f62f3d6c0c5627c192c4ac107cb0fa3b9fd84f1f0d",
+    "currentMetadataSHA256": "193d803731a670f8baa262f7dc52be681d8a454ad9dda4d6018da15786892587"
+  },
+  "independentCopyReview": {
+    "path": "release/aso-build3-copy-independent-review.json",
+    "sha256": "019d1edf4889924f616a19ea5921261ac1e88d3b559c71677a2c6b2ac00b4bb8",
+    "status": "PASS_COPY_REVIEW",
+    "unchangedContentDespiteIdentityOnlyMetadataUpdate": true
+  },
+  "liveAssetReview": {
+    "status": "PASS",
+    "apiReceipt": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/aso-review/final-asset-readback.json",
+    "apiReceiptSHA256": "6bb875c4c5f169221623871e0548df8f6a723750b3509c4bd3fd47b7f2c15c86",
+    "pixelReceipt": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/aso-review/processed-image-review.json",
+    "pixelReceiptSHA256": "32da68a9f69f5d93988c2db269afa535ca7db2e892df95032875ef14f619eaaa",
+    "checkedAtUTC": "2026-10-24T15:37:38.882300+00:00",
+    "imageCount": 12,
+    "imageStates": [
+      "READY_FOR_REVIEW"
+    ],
+    "placementStates": [
+      "ACTIVE"
+    ],
+    "groups": [
+      {
+        "family": "iphone",
+        "locale": "en-US",
+        "localizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+        "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+        "orderedPlacementIds": [
+          "eb400019-6e5a-8cec-8f3e-edbcff7f07a8",
+          "43400019-6e5a-8cec-8f18-0f8eb7b895e7",
+          "77400019-6e5a-8cec-8f02-be97a7b3231b"
+        ],
+        "orderVerified": true
+      },
+      {
+        "family": "iphone",
+        "locale": "zh-Hans",
+        "localizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+        "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+        "orderedPlacementIds": [
+          "67c00019-6e5a-8cec-8f07-58cf19fc744e",
+          "68400019-6e5a-8cec-8f12-e312342c4d3a",
+          "3b000019-6e5a-8cec-8f22-e2c99d838e97"
+        ],
+        "orderVerified": true
+      },
+      {
+        "family": "ipad",
+        "locale": "en-US",
+        "localizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+        "placementGroup": "IPAD_13_PROFILE",
+        "orderedPlacementIds": [
+          "df800019-6e5a-8cec-8f21-3343b6e30899",
+          "41400019-6e5a-8cec-8f1e-2ea0b5ec6876",
+          "72c00019-6e5a-8cec-8f22-dcc14808daa9"
+        ],
+        "orderVerified": true
+      },
+      {
+        "family": "ipad",
+        "locale": "zh-Hans",
+        "localizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+        "placementGroup": "IPAD_13_PROFILE",
+        "orderedPlacementIds": [
+          "86800019-6e5a-8cec-8f28-228232745acf",
+          "ba400019-6e5a-8cec-8f1e-2cb055fefa81",
+          "88000019-6e5a-8cec-8f34-93e17201665e"
+        ],
+        "orderVerified": true
+      }
+    ],
+    "localePlacementCounts": {
+      "zh-Hans": 6,
+      "en-US": 6
+    },
+    "customProductPageCount": 0,
+    "selectedBuild": {
+      "id": "30db8ed8-a7d8-4614-bda1-b529909a2e76",
+      "version": "3",
+      "processingState": "VALID"
+    },
+    "screenshots": [
+      {
+        "family": "iphone",
+        "locale": "en-US",
+        "order": 1,
+        "role": "result",
+        "imageId": "9b000019-6e5a-8cec-8007-685ce13f24bc",
+        "placementId": "eb400019-6e5a-8cec-8f3e-edbcff7f07a8",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/iphone/en-US/01-result.png",
+        "processedSHA256": "ba6ac0d8c1ca7c07f8934da8fd27b538f131be87edeb593d9883ee2175219e85",
+        "localPath": "release/screenshots/build3/final/iphone/en-US/01-result.png",
+        "localSHA256": "7d94a28a7628d1626b26e0a6f0f1d02520c779698b9d8f3ca7b68ae53fe1827e",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "iphone",
+        "locale": "en-US",
+        "order": 2,
+        "role": "correction",
+        "imageId": "77c00019-6e5a-8cec-8033-0bc556973727",
+        "placementId": "43400019-6e5a-8cec-8f18-0f8eb7b895e7",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/iphone/en-US/02-correction.png",
+        "processedSHA256": "06cc2d580cf94d9c022e9ded78424c20bc0cd38fb613ab5b0766cca6447f0b04",
+        "localPath": "release/screenshots/build3/final/iphone/en-US/02-correction.png",
+        "localSHA256": "ca770e9c768ed2c8b77980360f31b43a157d47e56d787cb517e151e32d19c74f",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "iphone",
+        "locale": "en-US",
+        "order": 3,
+        "role": "history",
+        "imageId": "d1800019-6e5a-8cec-8009-66f77a5bd0bf",
+        "placementId": "77400019-6e5a-8cec-8f02-be97a7b3231b",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/iphone/en-US/03-history.png",
+        "processedSHA256": "59b0913d3e3f6cb88040a9b8eddbb8f98d52777b1a910fe8f09d197e3d4a28c9",
+        "localPath": "release/screenshots/build3/final/iphone/en-US/03-history.png",
+        "localSHA256": "ef9a71382b44f7f5b5dc98302b041e2f624a82381e6b55d47cf43deae04b8b4d",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "iphone",
+        "locale": "zh-Hans",
+        "order": 1,
+        "role": "result",
+        "imageId": "18c00019-6e5a-8cec-802f-65077c7bb8d9",
+        "placementId": "67c00019-6e5a-8cec-8f07-58cf19fc744e",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/iphone/zh-Hans/01-result.png",
+        "processedSHA256": "ca0fa60f93f7d2d0217521683981384f2548d9207114d9bd6e348fcc679fd2af",
+        "localPath": "release/screenshots/build3/final/iphone/zh-Hans/01-result.png",
+        "localSHA256": "f0b79211e87462cbae8e3f927bf4c19905fef184b3f7e30a693f07d4906d4d98",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "iphone",
+        "locale": "zh-Hans",
+        "order": 2,
+        "role": "correction",
+        "imageId": "77400019-6e5a-8cec-802a-74f984b159b4",
+        "placementId": "68400019-6e5a-8cec-8f12-e312342c4d3a",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/iphone/zh-Hans/02-correction.png",
+        "processedSHA256": "03ccc073264d204cb3a3f5d3dba3ac9e009c109c07fa8b52383b3c8b78209f00",
+        "localPath": "release/screenshots/build3/final/iphone/zh-Hans/02-correction.png",
+        "localSHA256": "dd78617eda203cbd5a3cd23c2bd171dec20aae0416dde0e2c656d760fee4ad21",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "iphone",
+        "locale": "zh-Hans",
+        "order": 3,
+        "role": "history",
+        "imageId": "fe000019-6e5a-8cec-8003-52a19b0c5c6d",
+        "placementId": "3b000019-6e5a-8cec-8f22-e2c99d838e97",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/iphone/zh-Hans/03-history.png",
+        "processedSHA256": "67fbe2ca40020d624181eb603b129fc7ed1392f6b2fe9719a8fe9e4e0ef67a2b",
+        "localPath": "release/screenshots/build3/final/iphone/zh-Hans/03-history.png",
+        "localSHA256": "b13caf2547754b7d2c7045e9c8637a8c77fe32851d9384b0d43f06bc678951a1",
+        "pixels": [
+          1206,
+          2622
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "ipad",
+        "locale": "en-US",
+        "order": 1,
+        "role": "result",
+        "imageId": "9d000019-6e5a-8cec-8029-1581175ae0c4",
+        "placementId": "df800019-6e5a-8cec-8f21-3343b6e30899",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/ipad/en-US/01-result.png",
+        "processedSHA256": "948499da25acb4a585b6b8ceeccbd602ba797ab9e7c9354ae1dae8a555aba282",
+        "localPath": "release/screenshots/build3/final/ipad/en-US/01-result.png",
+        "localSHA256": "7753b9b2d3b9da1ac9fb779661f11eda1cafb99331f6e52ee7b1cc30703e8e36",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "ipad",
+        "locale": "en-US",
+        "order": 2,
+        "role": "correction",
+        "imageId": "fe000019-6e5a-8cec-8039-a210043d17b8",
+        "placementId": "41400019-6e5a-8cec-8f1e-2ea0b5ec6876",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/ipad/en-US/02-correction.png",
+        "processedSHA256": "960900ab35c051a7ca351fbd1c8bdd8c4843ba47def7ca38c20e2c7a700373bd",
+        "localPath": "release/screenshots/build3/final/ipad/en-US/02-correction.png",
+        "localSHA256": "96f182cd938ae64ad4266d21d19e3369d0dcf6800361ac83bd0b19f35a5ae7fc",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "ipad",
+        "locale": "en-US",
+        "order": 3,
+        "role": "history",
+        "imageId": "db800019-6e5a-8cec-8006-c9899609264d",
+        "placementId": "72c00019-6e5a-8cec-8f22-dcc14808daa9",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/ipad/en-US/03-history.png",
+        "processedSHA256": "aee4b849b14a92cfbbc58b2fc7cdab10614eaf6b868e22296161ca7077371ad5",
+        "localPath": "release/screenshots/build3/final/ipad/en-US/03-history.png",
+        "localSHA256": "b4f028ff78d14e88ecffb212716c7454f25b6c01ffb1fe25c9af48d5409af66f",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "ipad",
+        "locale": "zh-Hans",
+        "order": 1,
+        "role": "result",
+        "imageId": "6fc00019-6e5a-8cec-8015-47fcfc1c418a",
+        "placementId": "86800019-6e5a-8cec-8f28-228232745acf",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/ipad/zh-Hans/01-result.png",
+        "processedSHA256": "0118cdc0c58b28d17441e389d35135415edefa759e919709bdfa69828ef9c393",
+        "localPath": "release/screenshots/build3/final/ipad/zh-Hans/01-result.png",
+        "localSHA256": "616ee9bcd0daf65675f9166445ec8e8d74d04f99aad4240a93227e4fb1aec8ec",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "ipad",
+        "locale": "zh-Hans",
+        "order": 2,
+        "role": "correction",
+        "imageId": "6a400019-6e5a-8cec-802c-f6c989fcbc63",
+        "placementId": "ba400019-6e5a-8cec-8f1e-2cb055fefa81",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/ipad/zh-Hans/02-correction.png",
+        "processedSHA256": "a9ecef0dcdf1fcb934064525d0ea55e14ce556f2b1082e19aa377b63da6c0d3d",
+        "localPath": "release/screenshots/build3/final/ipad/zh-Hans/02-correction.png",
+        "localSHA256": "87ed5e598d4c4d99625d710269c44719c3ef3909932d282ee2a3f45da8c9b7f5",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      },
+      {
+        "family": "ipad",
+        "locale": "zh-Hans",
+        "order": 3,
+        "role": "history",
+        "imageId": "06800019-6e5a-8cec-8019-e0a92b7efda5",
+        "placementId": "88000019-6e5a-8cec-8f34-93e17201665e",
+        "processedPath": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024/assets/processed/ipad/zh-Hans/03-history.png",
+        "processedSHA256": "01461ffa008753c5cc43bcee60a5d45a30b16d53da94c3b97bf11c4ff9d16762",
+        "localPath": "release/screenshots/build3/final/ipad/zh-Hans/03-history.png",
+        "localSHA256": "ea515d92c56d0ca391fcf2172283d0580e4cfa9bea6211242c71ae8b6d26d74c",
+        "pixels": [
+          2064,
+          2752
+        ],
+        "independentRGBEquality": true,
+        "visualReview": "PASS: exact RGB match to the same individually reviewed approved marketing PNG; retained UI, markers, 150 result and bilingual copy unchanged."
+      }
+    ],
+    "liveSchemaNote": "Actual placement state ACTIVE accepted as returned live; image state READY_FOR_REVIEW follows addition to the review draft and is not a processing failure."
+  },
+  "submissionScopeNote": "This is an ASO lane PASS. It does not itself assert review submission, Apple approval, public availability, privacy publication, or automatic-checkout accuracy. Release Captain owns final submission-state verification."
+}

@@ -1,0 +1,993 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "count-stick-web-endpoints-v1",
+  "reviewStatus": "PASS_EVALUATION_INTEGRITY; COUNTING_QUALITY_NOT_PASSED",
+  "manifestSha256": "4e139a8803bbc07c149f4f5645afc40aaf1d2721fb1f9026ac22fb4a0ddd856a",
+  "reportSha256": "2aaae0d5867174a7a9dd352c23b9059f46199dc27eb142444f30747803e5a7e9",
+  "predictionSha256": "c5e225e59bf309ce2660a25c613e316f28692eacfb355e5d2ae408a495fab4d6",
+  "inferenceRerun": false,
+  "frozenLabelsModified": false,
+  "checks": {
+    "frozenManifestAndAllImageAnnotationHashes": "PASS",
+    "splitLockAndFiveDistinctSourceGroups": "PASS",
+    "noExactDuplicateImages": "PASS",
+    "visualSceneIndependence": "PASS for the5 visibly different compositions; no claim of unknown training-set independence",
+    "manualPointCount": 499,
+    "partial04ExcludedFromExactCountAndMAE": "PASS",
+    "independentHungarianMatchingMatchesAllReportedTPFPFNDuplicatesAndMinimumDistance": "PASS",
+    "overallAndSplitAggregation": "PASS",
+    "holdoutTruthCounts": [
+      97,
+      28,
+      70
+    ],
+    "currentModelAndDetectorSourceHashes": "PASS; exact report hashes match current local source/model files"
+  },
+  "independentRecalculation": {
+    "method": "SciPy linear_sum_assignment with unmatched penalties independently implements maximum-cardinality/minimum-distance bipartite assignment; own ignore-polygon arithmetic. Existing predictions only.",
+    "overall": {
+      "baseline": {
+        "TP": 465,
+        "FP": 111,
+        "FN": 34,
+        "ignoredPredictions": 2,
+        "duplicateFalsePositives": 53,
+        "precision": 0.8072916666666666,
+        "recall": 0.9318637274549099,
+        "countEligibleImages": 4,
+        "countMAE": 28.75,
+        "exactCountRate": 0.0
+      },
+      "candidate": {
+        "TP": 464,
+        "FP": 61,
+        "FN": 35,
+        "ignoredPredictions": 2,
+        "duplicateFalsePositives": 14,
+        "precision": 0.8838095238095238,
+        "recall": 0.9298597194388778,
+        "countEligibleImages": 4,
+        "countMAE": 16.75,
+        "exactCountRate": 0.0
+      }
+    },
+    "bySplit": {
+      "calibration": {
+        "baseline": {
+          "TP": 300,
+          "FP": 91,
+          "FN": 4,
+          "ignoredPredictions": 2,
+          "duplicateFalsePositives": 49,
+          "precision": 0.7672634271099744,
+          "recall": 0.9868421052631579,
+          "countEligibleImages": 1,
+          "countMAE": 85.0,
+          "exactCountRate": 0.0
+        },
+        "candidate": {
+          "TP": 299,
+          "FP": 45,
+          "FN": 5,
+          "ignoredPredictions": 2,
+          "duplicateFalsePositives": 13,
+          "precision": 0.8691860465116279,
+          "recall": 0.9835526315789473,
+          "countEligibleImages": 1,
+          "countMAE": 39.0,
+          "exactCountRate": 0.0
+        }
+      },
+      "holdout": {
+        "baseline": {
+          "TP": 165,
+          "FP": 20,
+          "FN": 30,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 4,
+          "precision": 0.8918918918918919,
+          "recall": 0.8461538461538461,
+          "countEligibleImages": 3,
+          "countMAE": 10.0,
+          "exactCountRate": 0.0
+        },
+        "candidate": {
+          "TP": 165,
+          "FP": 16,
+          "FN": 30,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 1,
+          "precision": 0.9116022099447514,
+          "recall": 0.8461538461538461,
+          "countEligibleImages": 3,
+          "countMAE": 9.333333333333334,
+          "exactCountRate": 0.0
+        }
+      }
+    },
+    "perImage": [
+      {
+        "imageId": "root-flat-black",
+        "split": "calibration",
+        "sourceGroup": "round-flat-black-promo",
+        "variants": {
+          "baseline": {
+            "TP": 208,
+            "FP": 89,
+            "FN": 4,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 48,
+            "countEligible": true,
+            "predictionCount": 297,
+            "truthCount": 212,
+            "absoluteCountError": 85,
+            "matchingDistanceSum": 797.0418000623051
+          },
+          "candidate": {
+            "TP": 207,
+            "FP": 44,
+            "FN": 5,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 13,
+            "countEligible": true,
+            "predictionCount": 251,
+            "truthCount": 212,
+            "absoluteCountError": 39,
+            "matchingDistanceSum": 818.8157986984011
+          }
+        }
+      },
+      {
+        "imageId": "acquisition-04",
+        "split": "calibration",
+        "sourceGroup": "round-yellow-band-white",
+        "variants": {
+          "baseline": {
+            "TP": 92,
+            "FP": 2,
+            "FN": 0,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 1,
+            "countEligible": false,
+            "predictionCount": 96,
+            "truthCount": 92,
+            "absoluteCountError": null,
+            "matchingDistanceSum": 361.70627507153114
+          },
+          "candidate": {
+            "TP": 92,
+            "FP": 1,
+            "FN": 0,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 0,
+            "countEligible": false,
+            "predictionCount": 95,
+            "truthCount": 92,
+            "absoluteCountError": null,
+            "matchingDistanceSum": 361.70627507153114
+          }
+        }
+      },
+      {
+        "imageId": "root-thick-ends",
+        "split": "holdout",
+        "sourceGroup": "round-thick-woodtable-root",
+        "variants": {
+          "baseline": {
+            "TP": 96,
+            "FP": 0,
+            "FN": 1,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 0,
+            "countEligible": true,
+            "predictionCount": 96,
+            "truthCount": 97,
+            "absoluteCountError": 1,
+            "matchingDistanceSum": 261.7381942490493
+          },
+          "candidate": {
+            "TP": 96,
+            "FP": 0,
+            "FN": 1,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 0,
+            "countEligible": true,
+            "predictionCount": 96,
+            "truthCount": 97,
+            "absoluteCountError": 1,
+            "matchingDistanceSum": 261.7381942490493
+          }
+        }
+      },
+      {
+        "imageId": "acquisition-05",
+        "split": "holdout",
+        "sourceGroup": "round-closeup-woven-background",
+        "variants": {
+          "baseline": {
+            "TP": 3,
+            "FP": 6,
+            "FN": 25,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 0,
+            "countEligible": true,
+            "predictionCount": 9,
+            "truthCount": 28,
+            "absoluteCountError": 19,
+            "matchingDistanceSum": 37.45597758179228
+          },
+          "candidate": {
+            "TP": 3,
+            "FP": 5,
+            "FN": 25,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 0,
+            "countEligible": true,
+            "predictionCount": 8,
+            "truthCount": 28,
+            "absoluteCountError": 20,
+            "matchingDistanceSum": 37.45597758179228
+          }
+        }
+      },
+      {
+        "imageId": "acquisition-07",
+        "split": "holdout",
+        "sourceGroup": "restaurant-07",
+        "variants": {
+          "baseline": {
+            "TP": 66,
+            "FP": 14,
+            "FN": 4,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 4,
+            "countEligible": true,
+            "predictionCount": 80,
+            "truthCount": 70,
+            "absoluteCountError": 10,
+            "matchingDistanceSum": 197.05066795667747
+          },
+          "candidate": {
+            "TP": 66,
+            "FP": 11,
+            "FN": 4,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 1,
+            "countEligible": true,
+            "predictionCount": 77,
+            "truthCount": 70,
+            "absoluteCountError": 7,
+            "matchingDistanceSum": 197.05066795667747
+          }
+        }
+      }
+    ]
+  },
+  "toleranceSensitivity": {
+    "method": "Scale frozen per-point matching radii in memory by0.5/0.75/1/1.25/1.5. No file/label/model changes. Descriptive sensitivity only; primary threshold remains frozen1.0. Count errors are invariant to matching radius.",
+    "results": [
+      {
+        "radiusMultiplier": 0.5,
+        "overall": {
+          "baseline": {
+            "TP": 441,
+            "FP": 135,
+            "FN": 58,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 27,
+            "precision": 0.765625,
+            "recall": 0.8837675350701403,
+            "countEligibleImages": 4,
+            "countMAE": 28.75,
+            "exactCountRate": 0.0
+          },
+          "candidate": {
+            "TP": 439,
+            "FP": 86,
+            "FN": 60,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 3,
+            "precision": 0.8361904761904762,
+            "recall": 0.8797595190380761,
+            "countEligibleImages": 4,
+            "countMAE": 16.75,
+            "exactCountRate": 0.0
+          }
+        },
+        "holdout": {
+          "baseline": {
+            "TP": 157,
+            "FP": 28,
+            "FN": 38,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 2,
+            "precision": 0.8486486486486486,
+            "recall": 0.8051282051282052,
+            "countEligibleImages": 3,
+            "countMAE": 10.0,
+            "exactCountRate": 0.0
+          },
+          "candidate": {
+            "TP": 157,
+            "FP": 24,
+            "FN": 38,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 0,
+            "precision": 0.8674033149171271,
+            "recall": 0.8051282051282052,
+            "countEligibleImages": 3,
+            "countMAE": 9.333333333333334,
+            "exactCountRate": 0.0
+          }
+        },
+        "perImage": [
+          {
+            "imageId": "root-flat-black",
+            "variants": {
+              "baseline": {
+                "TP": 194,
+                "FP": 103,
+                "FN": 18
+              },
+              "candidate": {
+                "TP": 192,
+                "FP": 59,
+                "FN": 20
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-04",
+            "variants": {
+              "baseline": {
+                "TP": 90,
+                "FP": 4,
+                "FN": 2
+              },
+              "candidate": {
+                "TP": 90,
+                "FP": 3,
+                "FN": 2
+              }
+            }
+          },
+          {
+            "imageId": "root-thick-ends",
+            "variants": {
+              "baseline": {
+                "TP": 90,
+                "FP": 6,
+                "FN": 7
+              },
+              "candidate": {
+                "TP": 90,
+                "FP": 6,
+                "FN": 7
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-05",
+            "variants": {
+              "baseline": {
+                "TP": 1,
+                "FP": 8,
+                "FN": 27
+              },
+              "candidate": {
+                "TP": 1,
+                "FP": 7,
+                "FN": 27
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-07",
+            "variants": {
+              "baseline": {
+                "TP": 66,
+                "FP": 14,
+                "FN": 4
+              },
+              "candidate": {
+                "TP": 66,
+                "FP": 11,
+                "FN": 4
+              }
+            }
+          }
+        ]
+      },
+      {
+        "radiusMultiplier": 0.75,
+        "overall": {
+          "baseline": {
+            "TP": 460,
+            "FP": 116,
+            "FN": 39,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 42,
+            "precision": 0.7986111111111112,
+            "recall": 0.9218436873747495,
+            "countEligibleImages": 4,
+            "countMAE": 28.75,
+            "exactCountRate": 0.0
+          },
+          "candidate": {
+            "TP": 459,
+            "FP": 66,
+            "FN": 40,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 5,
+            "precision": 0.8742857142857143,
+            "recall": 0.9198396793587175,
+            "countEligibleImages": 4,
+            "countMAE": 16.75,
+            "exactCountRate": 0.0
+          }
+        },
+        "holdout": {
+          "baseline": {
+            "TP": 163,
+            "FP": 22,
+            "FN": 32,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 4,
+            "precision": 0.8810810810810811,
+            "recall": 0.8358974358974359,
+            "countEligibleImages": 3,
+            "countMAE": 10.0,
+            "exactCountRate": 0.0
+          },
+          "candidate": {
+            "TP": 163,
+            "FP": 18,
+            "FN": 32,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 1,
+            "precision": 0.9005524861878453,
+            "recall": 0.8358974358974359,
+            "countEligibleImages": 3,
+            "countMAE": 9.333333333333334,
+            "exactCountRate": 0.0
+          }
+        },
+        "perImage": [
+          {
+            "imageId": "root-flat-black",
+            "variants": {
+              "baseline": {
+                "TP": 205,
+                "FP": 92,
+                "FN": 7
+              },
+              "candidate": {
+                "TP": 204,
+                "FP": 47,
+                "FN": 8
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-04",
+            "variants": {
+              "baseline": {
+                "TP": 92,
+                "FP": 2,
+                "FN": 0
+              },
+              "candidate": {
+                "TP": 92,
+                "FP": 1,
+                "FN": 0
+              }
+            }
+          },
+          {
+            "imageId": "root-thick-ends",
+            "variants": {
+              "baseline": {
+                "TP": 96,
+                "FP": 0,
+                "FN": 1
+              },
+              "candidate": {
+                "TP": 96,
+                "FP": 0,
+                "FN": 1
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-05",
+            "variants": {
+              "baseline": {
+                "TP": 1,
+                "FP": 8,
+                "FN": 27
+              },
+              "candidate": {
+                "TP": 1,
+                "FP": 7,
+                "FN": 27
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-07",
+            "variants": {
+              "baseline": {
+                "TP": 66,
+                "FP": 14,
+                "FN": 4
+              },
+              "candidate": {
+                "TP": 66,
+                "FP": 11,
+                "FN": 4
+              }
+            }
+          }
+        ]
+      },
+      {
+        "radiusMultiplier": 1.0,
+        "overall": {
+          "baseline": {
+            "TP": 465,
+            "FP": 111,
+            "FN": 34,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 53,
+            "precision": 0.8072916666666666,
+            "recall": 0.9318637274549099,
+            "countEligibleImages": 4,
+            "countMAE": 28.75,
+            "exactCountRate": 0.0
+          },
+          "candidate": {
+            "TP": 464,
+            "FP": 61,
+            "FN": 35,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 14,
+            "precision": 0.8838095238095238,
+            "recall": 0.9298597194388778,
+            "countEligibleImages": 4,
+            "countMAE": 16.75,
+            "exactCountRate": 0.0
+          }
+        },
+        "holdout": {
+          "baseline": {
+            "TP": 165,
+            "FP": 20,
+            "FN": 30,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 4,
+            "precision": 0.8918918918918919,
+            "recall": 0.8461538461538461,
+            "countEligibleImages": 3,
+            "countMAE": 10.0,
+            "exactCountRate": 0.0
+          },
+          "candidate": {
+            "TP": 165,
+            "FP": 16,
+            "FN": 30,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 1,
+            "precision": 0.9116022099447514,
+            "recall": 0.8461538461538461,
+            "countEligibleImages": 3,
+            "countMAE": 9.333333333333334,
+            "exactCountRate": 0.0
+          }
+        },
+        "perImage": [
+          {
+            "imageId": "root-flat-black",
+            "variants": {
+              "baseline": {
+                "TP": 208,
+                "FP": 89,
+                "FN": 4
+              },
+              "candidate": {
+                "TP": 207,
+                "FP": 44,
+                "FN": 5
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-04",
+            "variants": {
+              "baseline": {
+                "TP": 92,
+                "FP": 2,
+                "FN": 0
+              },
+              "candidate": {
+                "TP": 92,
+                "FP": 1,
+                "FN": 0
+              }
+            }
+          },
+          {
+            "imageId": "root-thick-ends",
+            "variants": {
+              "baseline": {
+                "TP": 96,
+                "FP": 0,
+                "FN": 1
+              },
+              "candidate": {
+                "TP": 96,
+                "FP": 0,
+                "FN": 1
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-05",
+            "variants": {
+              "baseline": {
+                "TP": 3,
+                "FP": 6,
+                "FN": 25
+              },
+              "candidate": {
+                "TP": 3,
+                "FP": 5,
+                "FN": 25
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-07",
+            "variants": {
+              "baseline": {
+                "TP": 66,
+                "FP": 14,
+                "FN": 4
+              },
+              "candidate": {
+                "TP": 66,
+                "FP": 11,
+                "FN": 4
+              }
+            }
+          }
+        ]
+      },
+      {
+        "radiusMultiplier": 1.25,
+        "overall": {
+          "baseline": {
+            "TP": 468,
+            "FP": 108,
+            "FN": 31,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 53,
+            "precision": 0.8125,
+            "recall": 0.9378757515030061,
+            "countEligibleImages": 4,
+            "countMAE": 28.75,
+            "exactCountRate": 0.0
+          },
+          "candidate": {
+            "TP": 466,
+            "FP": 59,
+            "FN": 33,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 15,
+            "precision": 0.8876190476190476,
+            "recall": 0.9338677354709419,
+            "countEligibleImages": 4,
+            "countMAE": 16.75,
+            "exactCountRate": 0.0
+          }
+        },
+        "holdout": {
+          "baseline": {
+            "TP": 166,
+            "FP": 19,
+            "FN": 29,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 5,
+            "precision": 0.8972972972972973,
+            "recall": 0.8512820512820513,
+            "countEligibleImages": 3,
+            "countMAE": 10.0,
+            "exactCountRate": 0.0
+          },
+          "candidate": {
+            "TP": 166,
+            "FP": 15,
+            "FN": 29,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 2,
+            "precision": 0.9171270718232044,
+            "recall": 0.8512820512820513,
+            "countEligibleImages": 3,
+            "countMAE": 9.333333333333334,
+            "exactCountRate": 0.0
+          }
+        },
+        "perImage": [
+          {
+            "imageId": "root-flat-black",
+            "variants": {
+              "baseline": {
+                "TP": 210,
+                "FP": 87,
+                "FN": 2
+              },
+              "candidate": {
+                "TP": 208,
+                "FP": 43,
+                "FN": 4
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-04",
+            "variants": {
+              "baseline": {
+                "TP": 92,
+                "FP": 2,
+                "FN": 0
+              },
+              "candidate": {
+                "TP": 92,
+                "FP": 1,
+                "FN": 0
+              }
+            }
+          },
+          {
+            "imageId": "root-thick-ends",
+            "variants": {
+              "baseline": {
+                "TP": 96,
+                "FP": 0,
+                "FN": 1
+              },
+              "candidate": {
+                "TP": 96,
+                "FP": 0,
+                "FN": 1
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-05",
+            "variants": {
+              "baseline": {
+                "TP": 4,
+                "FP": 5,
+                "FN": 24
+              },
+              "candidate": {
+                "TP": 4,
+                "FP": 4,
+                "FN": 24
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-07",
+            "variants": {
+              "baseline": {
+                "TP": 66,
+                "FP": 14,
+                "FN": 4
+              },
+              "candidate": {
+                "TP": 66,
+                "FP": 11,
+                "FN": 4
+              }
+            }
+          }
+        ]
+      },
+      {
+        "radiusMultiplier": 1.5,
+        "overall": {
+          "baseline": {
+            "TP": 472,
+            "FP": 104,
+            "FN": 27,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 55,
+            "precision": 0.8194444444444444,
+            "recall": 0.9458917835671342,
+            "countEligibleImages": 4,
+            "countMAE": 28.75,
+            "exactCountRate": 0.0
+          },
+          "candidate": {
+            "TP": 472,
+            "FP": 53,
+            "FN": 27,
+            "ignoredPredictions": 2,
+            "duplicateFalsePositives": 14,
+            "precision": 0.8990476190476191,
+            "recall": 0.9458917835671342,
+            "countEligibleImages": 4,
+            "countMAE": 16.75,
+            "exactCountRate": 0.0
+          }
+        },
+        "holdout": {
+          "baseline": {
+            "TP": 168,
+            "FP": 17,
+            "FN": 27,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 6,
+            "precision": 0.9081081081081082,
+            "recall": 0.8615384615384616,
+            "countEligibleImages": 3,
+            "countMAE": 10.0,
+            "exactCountRate": 0.0
+          },
+          "candidate": {
+            "TP": 168,
+            "FP": 13,
+            "FN": 27,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 2,
+            "precision": 0.9281767955801105,
+            "recall": 0.8615384615384616,
+            "countEligibleImages": 3,
+            "countMAE": 9.333333333333334,
+            "exactCountRate": 0.0
+          }
+        },
+        "perImage": [
+          {
+            "imageId": "root-flat-black",
+            "variants": {
+              "baseline": {
+                "TP": 212,
+                "FP": 85,
+                "FN": 0
+              },
+              "candidate": {
+                "TP": 212,
+                "FP": 39,
+                "FN": 0
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-04",
+            "variants": {
+              "baseline": {
+                "TP": 92,
+                "FP": 2,
+                "FN": 0
+              },
+              "candidate": {
+                "TP": 92,
+                "FP": 1,
+                "FN": 0
+              }
+            }
+          },
+          {
+            "imageId": "root-thick-ends",
+            "variants": {
+              "baseline": {
+                "TP": 96,
+                "FP": 0,
+                "FN": 1
+              },
+              "candidate": {
+                "TP": 96,
+                "FP": 0,
+                "FN": 1
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-05",
+            "variants": {
+              "baseline": {
+                "TP": 6,
+                "FP": 3,
+                "FN": 22
+              },
+              "candidate": {
+                "TP": 6,
+                "FP": 2,
+                "FN": 22
+              }
+            }
+          },
+          {
+            "imageId": "acquisition-07",
+            "variants": {
+              "baseline": {
+                "TP": 66,
+                "FP": 14,
+                "FN": 4
+              },
+              "candidate": {
+                "TP": 66,
+                "FP": 11,
+                "FN": 4
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "duplicateScreening": {
+    "phashPairs": [
+      {
+        "a": "root-flat-black",
+        "b": "acquisition-04",
+        "phash63BitHamming": 24
+      },
+      {
+        "a": "root-flat-black",
+        "b": "root-thick-ends",
+        "phash63BitHamming": 24
+      },
+      {
+        "a": "root-flat-black",
+        "b": "acquisition-05",
+        "phash63BitHamming": 32
+      },
+      {
+        "a": "root-flat-black",
+        "b": "acquisition-07",
+        "phash63BitHamming": 34
+      },
+      {
+        "a": "acquisition-04",
+        "b": "root-thick-ends",
+        "phash63BitHamming": 34
+      },
+      {
+        "a": "acquisition-04",
+        "b": "acquisition-05",
+        "phash63BitHamming": 24
+      },
+      {
+        "a": "acquisition-04",
+        "b": "acquisition-07",
+        "phash63BitHamming": 38
+      },
+      {
+        "a": "root-thick-ends",
+        "b": "acquisition-05",
+        "phash63BitHamming": 36
+      },
+      {
+        "a": "root-thick-ends",
+        "b": "acquisition-07",
+        "phash63BitHamming": 34
+      },
+      {
+        "a": "acquisition-05",
+        "b": "acquisition-07",
+        "phash63BitHamming": 32
+      }
+    ],
+    "note": "No byte duplicates; all5 visually different. Perceptual distance is a screen, not proof of statistical or training-data independence."
+  },
+  "conclusion": [
+    "The report arithmetic and primary localization/count metrics reproduce independently.",
+    "Candidate reduces false positives materially in the dense calibration scene but retained holdout counting errors are -1,-20,+7; holdout exact-count rate remains0/3.",
+    "Partial04 supplies92 confident endpoint labels but is not a complete97/100-style bundle count; its predictions are excluded from exact-count/MAE denominators.",
+    "Results support a limited deduplication gain, not automatic checkout readiness or a general accuracy claim.",
+    "Only5 online scenes,4product photos and1restaurant photo. Sample diversity, unknown model training overlap, annotation-center uncertainty and macOS-only execution remain material limits."
+  ]
+}

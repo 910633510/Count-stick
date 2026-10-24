@@ -1,0 +1,63 @@
+{
+  "locale": "zh-Hans",
+  "appVersion": "1.0",
+  "build": "1",
+  "bundleID": "x.Count-stick",
+  "configuration": "Release; ENABLE_TESTABILITY=YES for XCTest; DEBUG photo hook absent",
+  "device": "iPad Pro 13-inch (M5)",
+  "deviceId": "6C03C109-6C07-4AE8-BCAE-9EBB956CA92D",
+  "os": "iOS 26.5 (23F77)",
+  "appleLanguages": [
+    "zh-Hans"
+  ],
+  "appleLocale": "zh_Hans_CN",
+  "effectiveLanguage": "Simplified Chinese",
+  "testEvidence": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/ipad-store-capture.xcresult",
+  "genuineRecordSetupEvidence": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/ipad-clean-setup.xcresult",
+  "fixture": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/fixtures/bamboo-skewers-cc0.jpg",
+  "automaticCountObserved": 167,
+  "groundTruthCount": null,
+  "productionSourceSHA256": "15001ecd23e7571099ae485811516ded601bc6a0cb587244d2c97819caf701cc",
+  "screenshots": [
+    {
+      "role": "history",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/zh-Hans/history.png",
+      "sha256": "44333d126c7144d7fb324eb51b54a1bd8653a55b1dcb0aac8eb466301559da97",
+      "width": 2064,
+      "height": 2752,
+      "capturedAtUnix": 1792729564.196
+    },
+    {
+      "role": "zoom",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/zh-Hans/zoom.png",
+      "sha256": "9da770a416933f63e478cd98b68c821e356d5380ed8746b67dfe940efd6a7fca",
+      "width": 2064,
+      "height": 2752,
+      "capturedAtUnix": 1792729559.932
+    },
+    {
+      "role": "correction",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/zh-Hans/correction.png",
+      "sha256": "65c6c808654ec6a45e8cb015265f93eb06bf3cc052d30b62ad7adfeb2525b3f3",
+      "width": 2064,
+      "height": 2752,
+      "capturedAtUnix": 1792729559.264
+    },
+    {
+      "role": "result",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/zh-Hans/result.png",
+      "sha256": "16b6bb5e3915c85ab00c8178d35c09cec395377913507b5f1592b58645fb7341",
+      "width": 2064,
+      "height": 2752,
+      "capturedAtUnix": 1792729556.899
+    },
+    {
+      "role": "home",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/zh-Hans/home.png",
+      "sha256": "528ee4b89545549049bec60c0aa5cd0d6e926c3dcceff2281abb5bc580171682",
+      "width": 2064,
+      "height": 2752,
+      "capturedAtUnix": 1792729541.587
+    }
+  ]
+}
