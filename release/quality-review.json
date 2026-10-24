@@ -1,5 +1,5 @@
 {
-  "status": "BLOCK_MODEL_ACCURACY_NOT_ACCEPTED",
+  "status": "SUBMITTED_AS_ASSISTED_COUNTING_WITH_KNOWN_LIMITATIONS",
   "scope": "Counting accuracy for bundled skewer endpoints at restaurant/barbecue checkout",
   "implementationChecks": "PASS; see build-review.json and validation-summary.json",
   "accuracyFindings": [
@@ -11,7 +11,7 @@
   ],
   "requiredNextEvidence": "Improve base-model recall using representative round endpoint training data, then validate on new frozen source groups and physical iPhone photos. Automatic region filtering cannot recover missed endpoints.",
   "initialDataRequest": "Superseded: user directed assistant to collect and annotate online photos. First frozen set completed:5sourcegroups/499visibleendpoints.",
-  "appStoreSubmission": "NOT_SUBMITTED",
+  "appStoreSubmission": "WAITING_FOR_REVIEW",
   "accuracyReport": "release/accuracy/analysis-app.json",
   "latestEvidence": "release/accuracy/web-set-v3/REPORT.md",
   "additionalDataCollected": {
@@ -29,5 +29,11 @@
   "currentBuild": "3",
   "automaticRegionImplemented": true,
   "manualRegionRequired": false,
-  "localBuildEvidence": "release/automatic-region-build-review.json"
+  "localBuildEvidence": "release/automatic-region-build-review.json",
+  "automaticCheckoutAccuracyAcceptance": "NOT_PASSED",
+  "appStoreId": "6826601708",
+  "submissionEvidence": "release/store-status.json",
+  "releaseScope": "Assisted counting with required whole-photo manual review and correction; not unattended automatic checkout",
+  "releaseInstructionDate": "2026-10-24",
+  "accuracyFindingsPreserved": true
 }

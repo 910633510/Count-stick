@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[2]
 ROLES = ("result", "correction", "history")
 SIZES = {"iphone": (1206, 2622), "ipad": (2064, 2752)}
 HEADLINE_LINES = {
+    "Automatic area. Manual review.": ["Automatic area.", "Manual review."],
     "A photo. A clearer count.": ["A photo.", "A clearer count."],
     "Check it. Correct it.": ["Check it.", "Correct it."],
     "Keep the count handy.": ["Keep the count", "handy."],

@@ -15,6 +15,10 @@ final class Count_stickUITests: XCTestCase {
         let count = app.staticTexts["resultCount"]
         XCTAssertTrue(count.waitForExistence(timeout: 90))
         XCTAssertGreaterThan(Int(count.label) ?? 0, 0)
+        XCTAssertTrue(app.descendants(matching: .any)["automaticRegionStatus"].firstMatch.waitForExistence(timeout: 5))
+        scrollTo(app.buttons["enlargePhoto"], app: app)
+        XCTAssertTrue(app.descendants(matching: .any)["automaticRegionOutline"].firstMatch.waitForExistence(timeout: 5),
+                      "Build 3 screenshot setup needs a genuine nonempty automatic-region result")
         capture(app, name: "setup-real-model-inference")
         let note = app.descendants(matching: .any)["resultNote"].firstMatch
         scrollTo(note, app: app)
@@ -62,6 +66,9 @@ final class Count_stickUITests: XCTestCase {
                 app.buttons["saveCount"].tap()
             }
             for _ in 0..<3 { app.swipeDown() }
+            XCTAssertTrue(app.descendants(matching: .any)["automaticRegionStatus"].firstMatch.waitForExistence(timeout: 5))
+            XCTAssertTrue(app.descendants(matching: .any)["automaticRegionOutline"].firstMatch.waitForExistence(timeout: 5),
+                          "Release capture must show Build 3's authentic automatic reference outline")
             capture(app, name: "\(prefix)-result")
             scrollTo(app.buttons["enlargePhoto"], app: app)
             app.buttons["enlargePhoto"].tap()
@@ -263,6 +270,8 @@ final class Count_stickUITests: XCTestCase {
     }
 
     private func capture(_ app: XCUIApplication, name: String) {
+        // Let transient scroll indicators and sheet animations settle before recording evidence.
+        Thread.sleep(forTimeInterval: 1.0)
         let attachment = XCTAttachment(screenshot: app.screenshot())
         attachment.name = name
         attachment.lifetime = .keepAlways

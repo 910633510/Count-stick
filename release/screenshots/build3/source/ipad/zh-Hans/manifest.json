@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "bundleID": "x.Count-stick",
+  "appVersion": "1.0",
+  "build": "3",
+  "configuration": "Release (ENABLE_TESTABILITY=YES for XCTest; DEBUG import hook absent)",
+  "locale": "zh-Hans",
+  "device": "iPad Pro 13-inch (M5)",
+  "simulatorId": "6C03C109-6C07-4AE8-BCAE-9EBB956CA92D",
+  "os": "iOS 26.5 (23F77)",
+  "appleLanguages": [
+    "zh-Hans"
+  ],
+  "appleLocale": "zh_Hans_CN",
+  "effectiveLanguage": "Simplified Chinese",
+  "captureMethod": "XCTest app.screenshot() attachment, copied byte-for-byte",
+  "sourceFreeze": "release/screenshots/build3/source-freeze.json",
+  "sourceFreezeSHA256": "a23714cefaba96540f9b99d3efd3f2eb2537d2ff73fe09be94dd88035663e73f",
+  "releaseSimulatorExecutableSHA256": "d86a2c03c6a4c502cfcf4ce0078a73d8912e977264f5db4f4e5777d2f44cfd32",
+  "captureTest": "Count_stickUITests/testCaptureReleaseScreenshots",
+  "captureTestSourceSHA256": "c610eadcd6942f73fb21c7ab766b2f3bdbbb118807b4643b6ab8a6b0570b02e1",
+  "captureResult": "output/screenshots-build3/ipad-release-captures.xcresult",
+  "setupResult": "output/screenshots-build3/ipad-setup.xcresult",
+  "recordOrigin": {
+    "method": "Current Debug 1.0(3) processed the real fixture using production CoreML/OCR/automatic-region code, then saved through app UI. Current Release 1.0(3) reopened that record; no seeded marker coordinates, counts, or regions.",
+    "fixture": "release/fixtures/bamboo-skewers-cc0.jpg",
+    "fixtureSHA256": "824da6b42b3c14c66e6843aaeaae9f35676ee2e9df72a68eee9f7fa2820bb1b1",
+    "groundTruthCount": null,
+    "noteEnteredThroughUI": "晚餐备料",
+    "automaticRegionAssertions": "Status and nonempty outline exist in both setup and Release capture tests."
+  },
+  "visualReview": {
+    "status": "PASS",
+    "reviewedRoles": [
+      "result",
+      "correction",
+      "history"
+    ],
+    "observedCount": 150,
+    "countIsGroundTruth": false,
+    "effectiveLanguageVerified": true,
+    "nonemptyAutomaticReferenceOutlineVisible": true,
+    "notes": "All three marketing source captures visually inspected. Real marker and outline positions retained. Optional home/zoom attachments preserved as supplementary originals."
+  },
+  "screenshots": [
+    {
+      "role": "home",
+      "path": "home.png",
+      "sha256": "a932ca0b54b13c93f37a3fcd824c7a444d9f9a1ed7f5627b2cc7763cb11ca38c",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "originalAttachment": "output/screenshots-build3/ipad-attachments/3F4AE1AB-9AA4-49D4-A6CE-618549D37848.png",
+      "capturedAtUTC": "2026-10-24T14:43:52.512000+00:00"
+    },
+    {
+      "role": "result",
+      "path": "result.png",
+      "sha256": "9641ed3bb5f3bff0e6fc82de079b06f95c17f06a5d62fea3c18aa11d357fc952",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "originalAttachment": "output/screenshots-build3/ipad-attachments/523840BB-F338-4384-865C-4C84049E230B.png",
+      "capturedAtUTC": "2026-10-24T14:44:08.720000+00:00"
+    },
+    {
+      "role": "correction",
+      "path": "correction.png",
+      "sha256": "4892bb3be507052f54f67717f589c81681bd6d975c2386a3161dec59fc2edaad",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "originalAttachment": "output/screenshots-build3/ipad-attachments/EE622A9F-B488-4BB7-8791-9E1EC6C83E94.png",
+      "capturedAtUTC": "2026-10-24T14:44:12.116000+00:00"
+    },
+    {
+      "role": "zoom",
+      "path": "zoom.png",
+      "sha256": "c6665701fbed6bbbb4b766924794ffa3c166ca67e51fa9038cecaf471e72e1df",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "originalAttachment": "output/screenshots-build3/ipad-attachments/D3E4D226-E2AF-4DA7-AEC2-1389B796C205.png",
+      "capturedAtUTC": "2026-10-24T14:44:13.740000+00:00"
+    },
+    {
+      "role": "history",
+      "path": "history.png",
+      "sha256": "42ef8a9e6ec09863ff73ef5d51213325c431972924878dd49d20d6b25fba5bc3",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "originalAttachment": "output/screenshots-build3/ipad-attachments/0F854FB6-47F0-4979-8B2D-55A25DEF8C6F.png",
+      "capturedAtUTC": "2026-10-24T14:44:18.464000+00:00"
+    }
+  ]
+}

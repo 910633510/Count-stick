@@ -29,7 +29,7 @@ The unit suite exercises coordinate conversion, marker correction, image orienta
 
 See [release/STATUS.md](release/STATUS.md) for the verified package, test evidence and remaining App Store record handoff.
 
-The requested monetization is a **paid download, CNY 12 in China**, with no in-app purchases. App Store prices must be set and verified against the newly created App Store record; a local configuration does not set the live price.
+The app is a **paid download, CNY 12 in China**, with no in-app purchases. The new App Store Connect record is **6826601708**. Version **1.0 (3)** was submitted on 2026-10-24 and verified as **Waiting for Review**, with automatic release after approval. The price was applied and independently read back; public availability is not yet confirmed.
 
 - `release/ASO-brief.json`: sourced Chinese/English positioning and screenshot plan.
 - `release/metadata-draft.json`: localized product-page text and target pricing.
@@ -37,6 +37,6 @@ The requested monetization is a **paid download, CNY 12 in China**, with no in-a
 - `release/ExportOptions.plist`: App Store export configuration.
 - `release/fixtures/sources.json`: photo fixture provenance.
 
-The public App Store Connect API does not create new App Store records. Create the new record for `x.Count-stick` before upload; do not reuse the older `com.yang.stickcount` app. Credentials and private signing receipts remain outside this repository. Fetch the current Apple schema with `python3 release/scripts/fetch_apple_schema.py` before validating or running the metadata helper. Its default is a read-only plan; writes require an explicit `--apply` and pricing requires `--set-price`.
+The release uses the official API first, with the website for operations the API cannot perform. New-record creation and App Privacy publishing were completed on the website; metadata, pricing, asset placement and submission used the API. The older `com.yang.stickcount` app is unchanged. Credentials and private signing receipts remain outside this repository. Fetch the current Apple schema with `python3 release/scripts/fetch_apple_schema.py` before running release helpers. The metadata helper defaults to a read-only plan; writes require `--apply` and pricing requires `--set-price`.
 
 [Privacy policy](https://www.xmaillc.com/count-stick-privacy.html) · [Support](https://www.xmaillc.com/count-stick-support.html)

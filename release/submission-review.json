@@ -1,0 +1,118 @@
+{
+  "status": "PASS_SUBMISSION_VERIFIED_WAITING_FOR_REVIEW",
+  "verifiedAtUTC": "2026-10-24T15:53:40.099541+00:00",
+  "appStoreId": "6826601708",
+  "bundleId": "x.Count-stick",
+  "version": "1.0",
+  "build": "3",
+  "submission": {
+    "verifiedAtUTC": "2026-10-24T15:44:48.351516+00:00",
+    "appStoreId": "6826601708",
+    "bundleId": "x.Count-stick",
+    "appName": "Count Stick: Skewer Counter",
+    "version": "1.0",
+    "buildNumber": "3",
+    "buildId": "30db8ed8-a7d8-4614-bda1-b529909a2e76",
+    "versionId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+    "reviewSubmissionId": "f9e44425-25f0-40ee-8d5e-ed77913a0f1a",
+    "reviewSubmissionState": "WAITING_FOR_REVIEW",
+    "appStoreState": "WAITING_FOR_REVIEW",
+    "submittedDate": "2026-10-24T15:44:44.056Z",
+    "buildProcessingState": "VALID",
+    "releaseType": "AFTER_APPROVAL",
+    "requestedChinaPrice": "CNY12.00",
+    "priceApplied": true,
+    "priceReadbackVerified": true,
+    "uploaded": true,
+    "submitted": true,
+    "privacyLabelsPublished": true,
+    "privacyLabel": "Data Not Collected",
+    "screenshotCount": 12,
+    "locales": [
+      "en-US",
+      "zh-Hans"
+    ],
+    "liveAvailabilityConfiguredTerritories": 175,
+    "availableInNewTerritories": false,
+    "apiPreferred": true,
+    "websiteFallback": [
+      "Create app record",
+      "Publish App Privacy questionnaire"
+    ],
+    "publicReleaseConfirmed": false,
+    "originalApp6752362515Unchanged": true,
+    "privateReceiptDirectory": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024"
+  },
+  "reviewEvidenceHashes": {
+    "release/aso-build3-review.json": "9aec176f81c93dbaed5baf483061d9db912d2f76f0c48e3256e675527d7c8c4e",
+    "release/aso-build3-copy-independent-review.json": "019d1edf4889924f616a19ea5921261ac1e88d3b559c71677a2c6b2ac00b4bb8",
+    "release/pre-submit-build3-review.json": "ed900e455ba8ac8ba5e2f82dde894131b03f0cf4c5b10a74f6e13a8c4f874d45",
+    "release/screenshots/build3/verification.json": "892f73f769151f4358ec463a0a67eb867977c32862d4e8dd30a482542b0099c6",
+    "release/screenshots/build3/independent-visual-review.json": "14e32c94c768844fe449b891e7c484b9d73b91ed7b528a99389240d6f646cd56",
+    "release/screenshots/build3/upload-review.json": "c6cab8d91a4bc6a9f18400431a9a14b3333e8fb3fcec979f9117793548107bf5",
+    "release/metadata-draft.json": "193d803731a670f8baa262f7dc52be681d8a454ad9dda4d6018da15786892587"
+  },
+  "websiteProofs": [
+    {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/store-release-20261024/privacy-published.jpg",
+      "sha256": "21eff4baa56f9bb5e4df615b3b88c737cd45a861972ec0813808726384ca4463"
+    },
+    {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/store-release-20261024/submitted-waiting-review.jpg",
+      "sha256": "64b674755a8fadebb8e8464bf75462ee0e667734b2efa552d42206ea0f06a90f"
+    }
+  ],
+  "assetStates": [
+    {
+      "id": "9b000019-6e5a-8cec-8007-685ce13f24bc",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "77c00019-6e5a-8cec-8033-0bc556973727",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "d1800019-6e5a-8cec-8009-66f77a5bd0bf",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "18c00019-6e5a-8cec-802f-65077c7bb8d9",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "77400019-6e5a-8cec-802a-74f984b159b4",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "fe000019-6e5a-8cec-8003-52a19b0c5c6d",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "9d000019-6e5a-8cec-8029-1581175ae0c4",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "fe000019-6e5a-8cec-8039-a210043d17b8",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "db800019-6e5a-8cec-8006-c9899609264d",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "6fc00019-6e5a-8cec-8015-47fcfc1c418a",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "6a400019-6e5a-8cec-802c-f6c989fcbc63",
+      "state": "WAITING_FOR_REVIEW"
+    },
+    {
+      "id": "06800019-6e5a-8cec-8019-e0a92b7efda5",
+      "state": "WAITING_FOR_REVIEW"
+    }
+  ],
+  "accuracyEvidencePreserved": true,
+  "physicalIPhoneAccuracyNotCertified": true,
+  "publicReleaseConfirmed": false
+}

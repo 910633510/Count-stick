@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
-  "status": "DRAFT_NOT_UPLOADED",
-  "researchedOn": "2026-10-22",
+  "status": "LIVE_METADATA_VERIFIED_ASSETS_IN_PROGRESS",
+  "researchedOn": "2026-10-24",
   "bundleId": "x.Count-stick",
-  "appStoreId": null,
+  "appStoreId": "6826601708",
   "appRecord": {
     "name": "Count Stick: Skewer Counter",
     "primaryLocale": "en-US",
@@ -15,7 +15,7 @@
     "requestedBaseTerritory": "CHN",
     "currency": "CNY",
     "customerPrice": "12.00",
-    "appStorePriceVerified": false,
+    "appStorePriceVerified": true,
     "inAppPurchases": false,
     "subscriptions": false
   },
@@ -32,91 +32,91 @@
     "en-US": {
       "appInfo": {
         "name": "Count Stick: Skewer Counter",
-        "subtitle": "Photo counting, local history"
+        "subtitle": "Photo tally & manual review"
       },
       "version": {
-        "keywords": "bamboo,wooden,tally,barbecue,hotpot,restaurant,markers,correction,inventory,offline",
-        "promotionalText": "Count skewers from a photo, check each marker, and keep the result with a note. On-device processing, local history, and sharing when you choose.",
-        "description": "Count Stick helps you count skewers from a photo and check the result before using it. Take a picture or choose one from your library, review the markers, and correct any missed or extra items.\n\nA focused counting workflow\n• Count from camera photos or selected images.\n• Review the markers on your photo and the total together.\n• Add or remove markers manually, with undo for corrections.\n• Save a checked result with a note in local history.\n• Reopen or delete saved records, and share a marked result image when needed.\n\nProcessing stays on your device\nThe counting model runs on your device. Photos are not uploaded to a server for counting. No account is required.\n\nOne purchase\nThe download purchase includes the app’s features. There are no in-app subscriptions or ads.\n\nFor a clearer result, keep the skewers visible, use even lighting, and avoid overlapping items where possible. Automatic recognition can miss or double-count items. Check and correct the markers before relying on a total, especially for billing or stock records.\n\nSupport: https://www.xmaillc.com/count-stick-support.html\nPrivacy policy: https://www.xmaillc.com/count-stick-privacy.html",
+        "keywords": "bamboo,wooden,barbecue,hotpot,restaurant,markers,correction,history,offline",
+        "promotionalText": "Photograph exposed skewer ends. Review the automatic reference area and every marker, correct the count, then save a local record. One purchase, no subscriptions.",
+        "description": "Count Stick helps you count the visible ends of a skewer bundle from a photo. Take a picture or choose one from Photos, review the suggested markers, and correct the total before using it.\n\nA reference area for your review\nThe app automatically estimates an area around detected stick ends when it can. The outline is a guide: missed ends can lie inside or outside it. Check the whole photo. If no area is determined, you can still review and edit the markers.\n\nCheck, correct, and keep\n• See the photo, markers, and current count together.\n• Enlarge the photo to inspect individual ends.\n• Add missing markers or remove extra ones anywhere in the photo, with Undo for corrections.\n• Save a checked result with an optional note in local history.\n• Reopen or delete saved records and share a marked result image when you choose.\n\nOn-device processing\nCounting and reference-area estimation run on your device. Photos are not uploaded to a server for processing. No account is required. Saved records stay on the same device and are not synced between devices.\n\nOne purchase\nThe paid download includes the app’s features. No in-app purchases, subscriptions, or ads.\n\nFor a clearer photo, aim at the exposed ends of the bundle, use even lighting, and keep the image in focus. Automatic results are estimates and can contain missed or extra markers. Verify every visible end before using a total for a bill or stock record. Count Stick assists manual checking; it does not calculate or collect payments.\n\nSupport: https://www.xmaillc.com/count-stick-support.html\nPrivacy policy: https://www.xmaillc.com/count-stick-privacy.html",
         "whatsNew": null
       },
       "screenshots": [
         {
           "order": 1,
-          "headline": "A photo. A clearer count.",
-          "supporting": "Count skewers and review each marker.",
-          "screen": "Actual counting result with a real photo; keep returned count and markers unmodified."
+          "headline": "Automatic area. Manual review.",
+          "supporting": "Check every stick end, inside and outside.",
+          "screen": "Actual Build 3 English result screen with its automatically estimated reference outline visible; retain the real photo, count, markers and warning unchanged."
         },
         {
           "order": 2,
           "headline": "Check it. Correct it.",
           "supporting": "Add, remove, or undo a marker.",
-          "screen": "Actual marker-editing state; demonstrate the implemented correction controls."
+          "screen": "Actual Build 3 locale-matched full-screen marker editor; keep the automatic outline and implemented add/remove/undo controls visible."
         },
         {
           "order": 3,
           "headline": "Keep the count handy.",
           "supporting": "Save a note. Reopen or share.",
-          "screen": "Actual saved local history or record detail with a non-personal note."
+          "screen": "Actual Build 3 locale-matched saved history with a genuine local record and a non-personal note; no invented counts."
         }
       ],
       "fieldValidation": {
         "nameCharacters": 27,
-        "subtitleCharacters": 29,
-        "keywordsUTF8Bytes": 83,
-        "promotionalTextCharacters": 145,
-        "descriptionCharacters": 1164
+        "subtitleCharacters": 27,
+        "keywordsUTF8Bytes": 75,
+        "promotionalTextCharacters": 162,
+        "descriptionCharacters": 1623
       }
     },
     "zh-Hans": {
       "appInfo": {
         "name": "Count Stick 拍照数签子",
-        "subtitle": "竹签清点、手动校对与本地记录"
+        "subtitle": "串串烧烤清点，逐点核对记录"
       },
       "version": {
-        "keywords": "烧烤,串串,火锅,餐饮,点数,离线,相册,标记,统计,分享",
-        "promotionalText": "拍一张照片，查看签子数量，逐个核对标记；漏标、误标可手动修正。计数在设备上完成，确认后可添加备注、保存记录或分享结果。",
-        "description": "Count Stick 帮你从照片中清点签子，并在使用结果前逐个核对。拍照或选择相册图片，查看数量与标记，再修正漏标或误标。\n\n从拍照到留存\n• 拍摄照片，或选择已有图片进行计数。\n• 在照片上查看标记，同时核对总数。\n• 手动添加、删除标记，操作失误可撤销。\n• 确认结果后添加备注，保存到本地历史记录。\n• 重新查看或删除记录，按需分享带标记的结果图。\n\n在设备上处理\n计数模型在你的设备上运行，照片不会上传到服务器进行计数。无需注册账号。\n\n一次购买\n下载购买包含应用内的功能，无应用内订阅，无广告。\n\n拍摄时请尽量让签子清晰可见，保持光线均匀，减少遮挡和重叠。自动识别可能漏计或重复计数。用于结账或库存记录前，请核对并修正标记。\n\n支持与反馈：https://www.xmaillc.com/count-stick-support.html\n隐私政策：https://www.xmaillc.com/count-stick-privacy.html",
+        "keywords": "竹签,火锅,餐饮,离线,相册,标记,统计,分享,备注",
+        "promotionalText": "对准一束签子的端头拍照，查看自动估计的参考范围，逐点核对整张照片。漏标、误标可手动修正，确认后保存备注或分享。一次购买，无内购、无订阅。",
+        "description": "Count Stick 帮你清点照片中一束签子的可见端头。对准签头拍照，或选择相册图片，查看自动标记，核对并修正后再使用数量。\n\n自动参考范围，方便逐点核对\nApp 会尝试围绕检测到的签头自动估计参考范围。虚线仅供核对参考，范围内外都可能有漏掉的签头，请检查整张照片。未能确定范围时，仍可查看和修正标记。\n\n拍照、校对、留存\n• 照片、标记和当前数量同时查看。\n• 放大照片，仔细检查每个可见端头。\n• 可在整张照片上补加漏标、删除误标，操作失误可撤销。\n• 确认结果后添加可选备注，手动保存到本地历史记录。\n• 重新查看或删除记录，按需分享带标记的结果图。\n\n在设备上处理\n计数和参考范围估计均在设备上完成，照片不会上传到服务器处理。无需注册账号。记录保存在当前设备，不跨设备同步。\n\n一次购买\n付费下载包含应用内的功能，无内购、无订阅、无广告。\n\n拍摄时请对准签束露出的端头，保持光线均匀和画面清晰。自动结果属于估算，可能出现漏标或误标。用于结账或库存记录前，请逐个核对所有可见签头。Count Stick 是辅助核对工具，不计算金额或收款。\n\n支持与反馈：https://www.xmaillc.com/count-stick-support.html\n隐私政策：https://www.xmaillc.com/count-stick-privacy.html",
         "whatsNew": null
       },
       "screenshots": [
         {
           "order": 1,
-          "headline": "拍照数签，逐个看清",
-          "supporting": "数量与标记，一起核对",
-          "screen": "真实中文计数结果与真实照片；保留应用实际返回的数量和标记。"
+          "headline": "自动圈出参考范围",
+          "supporting": "逐点核对，也别漏看范围外",
+          "screen": "真实 Build 3 中文计数结果，展示自动估计的参考虚线；保留真实照片、数量、标记和范围外核对提示。"
         },
         {
           "order": 2,
           "headline": "漏了补，错了改",
           "supporting": "添加、删除、撤销，随手校对",
-          "screen": "真实中文标记编辑界面，展示实际修正控件。"
+          "screen": "真实 Build 3 中文全屏标记编辑界面，保留参考虚线和实际添加、删除、撤销控件。"
         },
         {
           "order": 3,
           "headline": "数完留一份记录",
           "supporting": "写备注，回看，也能分享",
-          "screen": "真实中文历史或详情界面，使用不含个人信息的备注。"
+          "screen": "真实 Build 3 中文历史记录，使用实际保存的记录及不含个人信息的备注，不编造数量。"
         }
       ],
       "fieldValidation": {
         "nameCharacters": 17,
-        "subtitleCharacters": 14,
-        "keywordsUTF8Bytes": 69,
-        "promotionalTextCharacters": 59,
-        "descriptionCharacters": 428
+        "subtitleCharacters": 13,
+        "keywordsUTF8Bytes": 62,
+        "promotionalTextCharacters": 68,
+        "descriptionCharacters": 583
       }
     }
   },
-  "reviewNotesDraft": "No account sign-in is required. Take a camera photo or choose an image from Photos, then wait for on-device counting to finish. Review the visible markers and total. Add missing markers or remove extra ones; Undo reverses an edit. Save a checked result with a note, open it from local history, and use Share to export the marked result. Saved records can be deleted.\n\nThis is a paid-upfront app with no in-app purchases, subscriptions, advertising, or remote photo-processing service. Camera permission is requested only for taking a photo. Photo processing runs locally on the device.\n\nAutomatic counts are estimates; the interface supports manual verification and correction.",
+  "reviewNotesDraft": "No account sign-in is required. Photograph the exposed ends of a skewer bundle using Camera, or choose an image from Photos. Counting runs on-device. The app estimates a reference area around detections when possible; its outline is only a guide, and the UI asks users to check for missed stick ends outside it as well. If an area cannot be determined, marker review remains available.\n\nUse Enlarge & edit to inspect the photo. Add missing markers or remove extra ones anywhere in the image, including outside the reference area. Undo reverses an edit. Save a checked result with an optional note, reopen it from History, and use Share to export a marked result image. Saved records can be deleted.\n\nThis is a paid-upfront app with no in-app purchases, subscriptions, advertising, or remote photo-processing service. Camera permission is requested only for taking a photo. Photo counting and text-region analysis run locally; recognized text is not stored or transmitted. There is no payment calculation or collection feature.\n\nAutomatic results are estimates and may miss or add markers. Manual verification is part of the intended workflow; no guaranteed counting accuracy is claimed.",
   "readiness": {
-    "localFeatureEvidence": "CoreML detector, marker add/remove/undo, local history, note and share renderer exist in source. Final UI integration and device testing must be checked against the release candidate.",
+    "localFeatureEvidence": "Build 3 source and signed-package review establish on-device photo counting, automatic reference outlines and fallback, corrections anywhere in the photo, undo, local history, notes and sharing. 26 unit/integration tests plus focused English/Chinese simulator workflows are recorded in release/automatic-region-build-review.json. This is implementation evidence, not real-world accuracy or physical-camera acceptance.",
     "beforeUpload": [
-      "Evaluate counting on independently annotated real restaurant skewer-end photos; current parameter/tiling experiments do not establish improved accuracy.",
-      "Resolve the newly created x.Count-stick app ID through the official API; never reuse another bundle’s metadata IDs.",
-      "Verify all feature claims against final built app and test en-US and zh-Hans flows.",
-      "Capture authentic per-locale release-build screens and render the screenshot narrative.",
-      "Set and re-read CNY 12 paid-download pricing using live price-point IDs."
+      "Resolve and verify the new x.Count-stick App Store app ID and count-stick-20261022 SKU; never reuse older StickCount localization/resource IDs.",
+      "Apply and re-read these exact en-US/zh-Hans fields and verify the selected 1.0 (3) build.",
+      "Capture and inspect actual Build 3 Release screens per locale/device, render this first-three narrative, upload and inspect processed placements.",
+      "Set and re-read China CNY 12 paid-download pricing and verify no in-app purchase or subscription products apply.",
+      "Finish the live App Privacy and other mandatory store declarations on the exact new record."
     ],
     "whatsNewPolicy": "Omitted for an initial release; Apple does not expose this field for a first version.",
     "claimsExcluded": [
@@ -127,16 +127,24 @@
       "free trial",
       "subscription benefits",
       "unlimited performance",
-      "competitor brand keywords"
+      "competitor brand keywords",
+      "guaranteed background removal",
+      "reference outline contains every skewer",
+      "automatic checkout or payment collection",
+      "general-purpose object counting",
+      "physical-device accuracy acceptance"
     ],
-    "privacyPolicyStatus": "Published app-specific privacy and support pages; parent verified HTTP 200 on 2026-10-22.",
-    "countingAccuracy": "BLOCKED_PENDING_TARGET_SCENE_DATA"
+    "privacyPolicyStatus": "App-specific privacy and support pages re-fetched successfully with HTTP 200 on 2026-10-24 (America/New_York); content matches local processing, user-triggered sharing and local records.",
+    "countingAccuracy": "LIMITATIONS_DISCLOSED_ASSISTED_REVIEW_ONLY; frozen benchmarks do not establish reliable automatic checkout or a general accuracy percentage."
   },
   "privacyQuestionnaireDraft": {
     "dataCollectedByDeveloper": false,
     "tracking": false,
-    "basis": "CoreML inference and manually saved history stay on device. PhotosPicker grants selected-photo access. Share is user initiated. No app networking, analytics, ads, account or third-party SDK.",
+    "basis": "On-device counting and Vision text-region analysis; recognized OCR strings are not persisted or transmitted. History is saved only on request in local storage. PhotosPicker grants selected-photo access. Share is user initiated. No app networking, analytics, ads, account or third-party SDK.",
     "status": "NOT_PUBLISHED",
     "requiresAppStoreConnectWebsite": true
-  }
+  },
+  "researchTimezone": "America/New_York",
+  "targetVersion": "1.0",
+  "targetBuild": "3"
 }

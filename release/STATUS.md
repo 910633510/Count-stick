@@ -1,69 +1,54 @@
 # Count Stick release status
 
-**Accuracy investigation in progress. The user reported poor recognition; do not submit this candidate until the revised counting behavior is evaluated. Existing build and screenshot evidence below is a checkpoint, not final quality acceptance.**
+**Submitted to Apple App Review. Version 1.0 (3) and submission both read back as `WAITING_FOR_REVIEW`. This is not approval or a public-release confirmation.**
 
-The local app and signed distribution package are prepared. **The new App Store record does not exist yet; nothing has been uploaded, priced or submitted.** The older StickCount app is not this release target.
+Submitted 2026-10-24 11:44:44 EDT through the official App Store Connect API. The release option is `AFTER_APPROVAL`, so Apple can publish this version automatically after approval.
 
-| Field | Value |
+| Field | Verified value |
 | --- | --- |
-| App | Count Stick: Skewer Counter |
+| New app | Count Stick: Skewer Counter |
+| App Store app ID | `6826601708` |
 | Bundle ID | `x.Count-stick` |
-| Current local candidate | `1.0` / `3` (automatic reference region; not accepted for release) |
+| Version / build | `1.0` / `3` |
 | Publisher team | XM LLC — `5B49H2L7N4` |
-| Requested pricing | Paid download, China CNY 12.00; not applied live |
-| Languages | English and Simplified Chinese |
+| China storefront price | Paid download, **CNY 12.00**, applied and independently read back |
+| Other storefront prices | Apple equalization from the China base price |
+| Configured storefronts | 175 current storefronts; future territories are not automatically added |
+| Languages | English (U.S.) and Simplified Chinese |
 | Devices | iPhone and iPad, iOS 17+ |
-| App Store app ID | Not created |
+| App Privacy | Data Not Collected, published and verified on the website |
+| Age rating | 4+ (`FOUR_PLUS`) |
+| Screenshots | 12 current Build 3 images; 4 locale/device groups of 3, verified placements/order |
+| Review submission ID | `f9e44425-25f0-40ee-8d5e-ed77913a0f1a` |
+| State | `WAITING_FOR_REVIEW` |
 
-## Build 3 automatic reference region
+[App Store Connect](https://appstoreconnect.apple.com/apps/6826601708/distribution)
 
-Build 3 automatically estimates the counting region from full-image detections and local Vision text regions; the user does not draw a region. It conservatively filters separated text and distant low-confidence points, preserves original detections on sparse/ambiguous inputs, and displays reference outlines in both result and correction views. Corrections remain available anywhere in the image. Optional region data round-trips through history while old records remain readable. The UI explicitly asks users to check outside the reference area because undetected ends can lie outside it.
+## Completed release work
 
-The unchanged model, confidence 0.25 and IoU 0.45 feed this filter. On nine previously seen development scenes, TP/FN remain 674/38 while FP falls from 83 to 34; this is development evidence. The two newly frozen scenes retain all 109 original TP, but 31 of 140 confirmed endpoints remain missed. Their sole apparent FP reduction lies only 0.125 pixels outside a frozen uncertainty mask and is not treated as reliable background-removal evidence. See `accuracy/automatic-region/README.md` and `accuracy/web-set-v3/REPORT.md`. Automatic checkout acceptance remains blocked.
+- Created a new app record for the original bundle ID; the older `6752362515` / `com.yang.stickcount` record was not modified.
+- Used the website for new-app creation and App Privacy publishing because those operations have no public API endpoint in the fetched Apple OpenAPI 4.5.1. The user clarified that the preferred workflow is API-first with website fallback when needed, not API-only.
+- Applied and re-read English/Chinese names, subtitles, keywords, descriptions, promotional text, support/privacy URLs, review notes/contact, category, age declarations, content declaration and price through the API.
+- Uploaded the signed Build 3 using Apple's upload tool with API-key authentication, verified `VALID`, and selected the exact processed build.
+- Captured current Release 1.0(3) UI on dedicated iPhone/iPad simulators in both languages. Rendered 12 marketing images using the existing ImageGen-derived backgrounds and unmodified real UI pixels. Uploaded through Asset Library, verified processing, downloaded all processed images for pixel comparison, and read back every placement/order. Historical Build 1 images were not used for this release.
+- Published the verified no-collection privacy answers. Reused the single review draft, added the intended version, and submitted it. Apple automatically includes its assigned assets with the first app version.
+- Read back both the submission and version as waiting for review, with the selected Build 3 unchanged.
 
-26 unit/integration tests and 3 focused UI workflows passed; the final reference-area wording was rechecked in 2 additional passing UI runs. The signed local distribution package is `output/automatic-region-candidate/Count stick.ipa` (9,313,754 bytes), SHA-256 `4218999b24aca4f62a29e564aa09be71c441de33fa5876821c7069732fdf417b`. Strict codesign, bundle/build/team entitlements and exclusion of the Debug photo hook were verified. See `automatic-region-build-review.json`. These are simulator and local package checks, with no physical-device or App Store submission acceptance.
+## Verification evidence
 
-## Build 2 historical candidate
+- `store-status.json`: sanitized live submission receipt and identifiers.
+- `pre-submit-build3-review.json`: independent identity, signing, implementation and privacy review.
+- `aso-build3-review.json` and `aso-build3-copy-independent-review.json`: live copy/price and independent copy/asset review.
+- `screenshots/build3/verification.json`, `independent-visual-review.json`, `upload-review.json`: authentic capture, pixel fidelity, processing and placement evidence.
+- `automatic-region-build-review.json`: prior Build 3 package/test evidence. Its pre-submission status fields are historical; use `store-status.json` for current store state.
+- Private API receipts: `~/.codex/app-store-connect-release/runs/count-stick-20261024/`. Credentials, contacts and signed upload URLs are not committed.
 
-The candidate is signed at `output/accuracy-candidate/Count stick.ipa`. Its 13 unit tests and 2 focused UI workflows passed; see `candidate-build-review.json`. These tests establish implementation behavior, not restaurant counting accuracy. Build 1 images and package below remain historical preparation artifacts.
+The submitted IPA remains `output/automatic-region-candidate/Count stick.ipa`, 9,313,754 bytes, SHA-256 `4218999b24aca4f62a29e564aa09be71c441de33fa5876821c7069732fdf417b`. Bundle, version, team entitlements, strict code signing and absence of the Debug photo hook were verified. No production source/model change was required in this release-preparation turn.
 
-## Completed build 1 preparation
+## Accuracy and product scope
 
-- On-device photo counting, native camera/photo selection, manual marker correction, undo, enlarged editing, notes, local history and sharing.
-- Bilingual UI and camera explanations, app icon, privacy manifest, ASO research and localized store copy.
-- Core unit suite: 12 passed. iPhone workflow suite: 3 passed. iPad English/Chinese workflows: 2 passed. Release screenshot runs passed on both device families.
-- Distribution archive and IPA export signed and verified; the Release executable excludes the DEBUG photo-import test hook. The local IPA is `output/app-store-final/Count stick.ipa` (9,222,308 bytes), SHA-256 `b15dbcc046c81270d2e8806a3cd794f2aeb8c9fde654eaeaf311ec6c02f6e8f6`.
-- [Privacy policy](https://www.xmaillc.com/count-stick-privacy.html) and [support page](https://www.xmaillc.com/count-stick-support.html) are published and HTTP 200 verified.
-- Bundle ID registration and App Store provisioning profile were created through the official API.
+The submitted product is assisted counting with explicit manual review, editable markers, local history and sharing. The automatic outline is a reference derived from detected candidates, not a guaranteed complete bundle boundary. Store copy and current UI tell users to check all visible ends inside and outside the outline. The release request does not turn earlier recognition failures into a pass.
 
-## Counting accuracy handoff
+The frozen experiments remain unchanged: on 9 previously seen development scenes, filtering reduced FP83 to34 with TP674/FN38 unchanged; in 2 new scenes, 31 of140 confirmed endpoints remained missed. The single nominal new-set FP improvement is sensitive to an uncertainty boundary and is not treated as reliable background-removal evidence. Complete automatic checkout accuracy and physical iPhone acceptance have not been established. See `accuracy/automatic-region/README.md` and `accuracy/web-set-v3/REPORT.md`.
 
-The confirmed target is restaurant checkout photos of a bundle of skewer ends. Default inference shows duplicate markers and missed terminal faces in the inspected real-photo region. Raising confidence or adding tiles did not establish a reliable improvement without losing recall, The only adopted local candidate change keeps confidence at 0.25 and tightens overlap suppression from 0.7 to 0.45. Across two small regions of one image it preserves 9 matched endpoints while reducing false marks from 13 to 11; two labeled endpoints remain missed. This does not establish restaurant counting accuracy.
-
-The user delegated online collection and annotation to the assistant. A first frozen set now contains five independent online endpoint photos and499 labeled visible endpoints, with two calibration scenes and three holdout scenes. See `accuracy/web-set/REPORT.md`. Build2 predicts96/8/77 on holdout truths97/28/70 (MAE9.33, exact0/3). One predeclared confidence sweep did not improve holdout counting, so production parameters remain unchanged. More independent target-scene coverage and scale-robust model work are needed before release; no additional user photo upload is required to begin research. Side-view sticks and pointed tips are not substitutes for the confirmed endpoint domain.
-
-A second frozen search-and-test round added four new scenes and 213 certain visible endpoints, all held out from parameter selection. Build 2 predicts 47 and 53 on the two complete visible counts 49 and 52 (MAE 1.5, exact 0/2). Across all four new scenes, point precision is 90.52% and recall is 98.59%; 20 of 22 false positives are advertising text. The two partial-border scenes are excluded from exact-count metrics. See `accuracy/web-set-v2/REPORT.md`. This iteration changed no weights, inference parameters, or App code; release remains blocked.
-
-## Required account handoff
-
-Apple's [Apps API](https://developer.apple.com/documentation/appstoreconnectapi/apps) does not create App Store app records. The current public OpenAPI 4.5.1 exposes only GET on `/v1/apps`. This task is using API-only operations.
-
-Create the new record in App Store Connect with:
-
-- Platform: iOS
-- Name: `Count Stick: Skewer Counter`
-- Primary language: English (U.S.)
-- Bundle ID: `x.Count-stick`
-- SKU: `count-stick-20261022`
-
-Provide its numeric app ID or page link. App Privacy also requires the website: the prepared answers are no tracking and no data collected by the developer, based on the app's verified local processing and storage. The public API has no privacy-questionnaire publication endpoint. Other required store declarations must be checked against the new record.
-
-Once the record exists, continue with the official API: verify exact identity, apply the draft metadata and CNY 12 price, upload/select the processed build, place the final screenshots, complete readiness checks, and submit review. Read back every change and the actual submitted state.
-
-## Artifacts and limits
-
-The `screenshots/final/iphone/` and `screenshots/final/ipad/` images are build 1 checkpoints and must be recaptured after the counting-quality work is accepted; their render manifests bind each file to `screenshots/source-release/` captures. The originals preserve actual UI pixels and model-returned counts. Preliminary captures are retained locally and are not the final upload set.
-
-`metadata-draft.json`, `ASO-brief.json`, `build-review.json`, `validation-summary.json`, `store-status.json` and the screenshot manifests contain the detailed evidence. Image-generation prompts and original outputs are in `artwork/`. No credentials or private signing keys are stored in the repository.
-
-All UI validation used simulators. Physical camera behavior and real-world counting accuracy have not been accepted on a physical device. Real-photo smoke checks show inference works, not an accuracy guarantee. A non-failing SwiftUI frame-size diagnostic remains during note-keyboard presentation; no visible malfunction was observed in the exercised flows.
+The user explicitly requested creation and submission on 2026-10-24 after the prior limitation disclosure. Historical preparation and investigation status is preserved in `STATUS-before-submission-20261023.md`; it is not the current release state.
