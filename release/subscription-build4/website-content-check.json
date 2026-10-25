@@ -1,0 +1,96 @@
+{
+  "status": "PASS_PUBLISHED_WEBSITE_AND_LOCAL_COPY_CHECKS",
+  "checkedOn": "2026-10-25",
+  "timezone": "America/New_York",
+  "appStoreId": "6826601708",
+  "bundleId": "x.Count-stick",
+  "brand": "CountScope",
+  "productId": "com.xmaillc.countscope.pro.monthly",
+  "files": {
+    "count-stick-privacy.html": {
+      "bytes": 8360,
+      "sha256": "8d244772287862c21d27c4d2b445f310b5b044999ed93c6f32b5219980149b0c"
+    },
+    "count-stick-support.html": {
+      "bytes": 8842,
+      "sha256": "e0c8c8426486138e26862cec5a0bf8c2f4b64a10ca0414ef9469c649368ddda0"
+    }
+  },
+  "metadataFields": {
+    "en-US": {
+      "nameCharacters": 25,
+      "subtitleCharacters": 28,
+      "keywordsUTF8Bytes": 74,
+      "promotionalTextCharacters": 147,
+      "descriptionCharacters": 3025
+    },
+    "zh-Hans": {
+      "nameCharacters": 15,
+      "subtitleCharacters": 11,
+      "keywordsUTF8Bytes": 76,
+      "promotionalTextCharacters": 56,
+      "descriptionCharacters": 1079
+    }
+  },
+  "subscriptionLocalizations": {
+    "en-US": {
+      "groupName": "CountScope Pro",
+      "name": "CountScope Pro Monthly",
+      "description": "Unlimited photo counts while subscribed."
+    },
+    "zh-Hans": {
+      "groupName": "CountScope Pro",
+      "name": "CountScope Pro 月度订阅",
+      "description": "订阅期间不限识别次数，逐点核对并保存记录。"
+    }
+  },
+  "websiteRepository": {
+    "remote": "https://github.com/910633510/XM.git",
+    "branch": "main",
+    "baseCommit": "93fcbac24cb7554da8c22fcfe70d0d7f02ce8a5a",
+    "publisher": "GitHub Pages legacy main root"
+  },
+  "checks": {
+    "onlyTwoWebsitePagesChanged": true,
+    "htmlParsingAndLocalLinks": true,
+    "noStalePaidDownloadText": true,
+    "allMetadataLimits": true,
+    "storeKitAndKeychainFlowMatchesCurrentSource": true,
+    "visualLayoutReview": "NOT_PERFORMED; existing stylesheet and structure retained",
+    "globalWebsiteChecker": {
+      "state": "PRE_EXISTING_FAILURES_UNCHANGED",
+      "baseline": "1dd864751ecf185cd544a08c54cd607a830918cf",
+      "issues": [
+        "protected file differs byte-for-byte: xsimple-privacy.html",
+        "protected file differs byte-for-byte: xsimple.html"
+      ]
+    }
+  },
+  "liveMetadataVerified": false,
+  "published": true,
+  "verifiedAtUTC": "2026-10-25T04:08:41.384656+00:00",
+  "livePages": [
+    {
+      "url": "https://www.xmaillc.com/count-stick-support.html",
+      "status": 200,
+      "finalUrl": "https://www.xmaillc.com/count-stick-support.html",
+      "bytes": 8842,
+      "sha256": "e0c8c8426486138e26862cec5a0bf8c2f4b64a10ca0414ef9469c649368ddda0",
+      "matchesCommit": true
+    },
+    {
+      "url": "https://www.xmaillc.com/count-stick-privacy.html",
+      "status": 200,
+      "finalUrl": "https://www.xmaillc.com/count-stick-privacy.html",
+      "bytes": 8360,
+      "sha256": "8d244772287862c21d27c4d2b445f310b5b044999ed93c6f32b5219980149b0c",
+      "matchesCommit": true
+    }
+  ],
+  "websiteCommit": "5d7d5e8e6fb78ccc2ee7da3a9f51f9d8f1112405",
+  "independentContentReview": {
+    "reviewer": "root",
+    "result": "PASS",
+    "scope": "Metadata and complete support/privacy pages read-only review before push"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "createdAtUTC": "2026-10-25T04:16:35.450361+00:00",
+  "locale": "zh-Hans",
+  "appVersion": "1.0",
+  "build": "4",
+  "sourceManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build4/source/ipad/zh-Hans/manifest.json",
+  "sourceManifestSHA256": "fa245952989cda7e9ff1cb90ab9269a56dad41e6f00ead3f4b51152c4e15c1be",
+  "background": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/artwork/marketing/background.png",
+  "backgroundSHA256": "f83c7709a425e100842e152773ffb66e2f8916abe76d5fff21a1a87836541003",
+  "metadata": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build4/metadata-at-render.json",
+  "metadataSHA256": "d8b3eb38f562a46a72074fba52a9b76031390d80697bb66972090e4f17f0c295",
+  "rendererSHA256": "c5d3f666c3fb71547918bd1ac0e403f51b3d8b25e74d427e3cb4b787aa10e667",
+  "brand": "COUNTSCOPE",
+  "sourceEvidence": {
+    "device": "iPad Pro 13-inch (M4)",
+    "os": "iOS 18.5 (22F77)",
+    "appleLanguages": [
+      "zh-Hans"
+    ],
+    "appleLocale": "zh_Hans_CN",
+    "effectiveLanguage": "Simplified Chinese",
+    "configuration": "Release (ENABLE_TESTABILITY=YES for XCTest; Debug hooks absent)"
+  },
+  "rendering": "Entire authentic screenshot proportionately scaled; no UI edits or masks.",
+  "dimensionsReference": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/",
+  "visualReview": "PASS_ROOT_INDEPENDENT_VISUAL_AND_PIXEL_REVIEW",
+  "screenshots": [
+    {
+      "role": "result",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build4/source/ipad/zh-Hans/result.png",
+      "sourceSHA256": "de7ba660c3dff51bb5459a342269f6237b564e59bbd4484a31f99e6175f1638e",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build4/final/ipad/zh-Hans/01-result.png",
+      "sha256": "02defc74d1578146b21d998fd7004c5985220a5f51fc8e8166eb359a28bb3004",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "自动圈出参考范围",
+      "supporting": "逐点核对，也别漏看范围外",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "042cc4673a256f4798866b6c673741030fee2993c7b94e6d741f1c0979fa0400",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "自动圈出参考范围"
+      ]
+    },
+    {
+      "role": "correction",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build4/source/ipad/zh-Hans/correction.png",
+      "sourceSHA256": "3ed3172fb6e7d5f9d4590edb6f7c0c5366aff1b64c241f8772d7775a7b511c99",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build4/final/ipad/zh-Hans/02-correction.png",
+      "sha256": "08881c3daa3fcb0447bf9e4f28a5aca464610f6383732ca0a179a8f2a88d4545",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "漏了补，错了改",
+      "supporting": "添加、删除、撤销，随手校对",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "04bcf602ccc8b0a204c65572c5784d539e22890495f1d11a9c8fee6c418adb8d",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "漏了补，",
+        "错了改"
+      ]
+    },
+    {
+      "role": "history",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build4/source/ipad/zh-Hans/history.png",
+      "sourceSHA256": "ef86bfd758acbda041de82b69ccdc3b00f8f0e67377b6f65c68cab82c91e9793",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build4/final/ipad/zh-Hans/03-history.png",
+      "sha256": "89ea1ec4fd7377b4a60390ec6669dcec1f04e877beaf5354446e5b9b50ace0b0",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "数完留一份记录",
+      "supporting": "写备注，回看，也能分享",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "311e047df2177eff0c0359d19e4cd7449e5ed7c74962803880537cacecf9f3a9",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "数完",
+        "留一份记录"
+      ]
+    }
+  ],
+  "releaseCaptureGate": "RELEASE_SOURCE_RECORDED"
+}

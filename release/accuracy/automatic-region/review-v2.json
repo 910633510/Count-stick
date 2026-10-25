@@ -1,0 +1,42 @@
+{
+  "status": "PASS_SCOPED_SAFETY_AND_INTEGRATION_REVIEW",
+  "algorithmSourceSha256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+  "probes": [
+    {
+      "case": "Sparse3 high-confidence detections covered by OCR",
+      "raw": 3,
+      "kept": 3,
+      "excluded": 0,
+      "fallback": "sparse",
+      "result": "PASS"
+    },
+    {
+      "case": "Dense9 plus secondary triangular3 covered by OCR",
+      "raw": 12,
+      "kept": 12,
+      "secondaryKept": 3,
+      "excluded": 0,
+      "fallback": "none",
+      "result": "PASS"
+    }
+  ],
+  "method": "Independent Foundation-only Swift selector probes. No image/model inference or v3 outputs accessed.",
+  "integrationReview": [
+    "Serial worker keeps model and OCR off main thread.",
+    "MainActor generation token prevents stale completion from replacing current photo result.",
+    "Optional Codable region preserves legacy history decoding; new records persist region alongside corrected markers.",
+    "Image orientation is normalized before Vision; boxes and markers use matching top-left normalized coordinates.",
+    "Outlines are clipped to image bounds; manual correction is not limited to automatic boxes."
+  ],
+  "remainingLimitations": [
+    "OCR can still misclassify real texture in larger components. These guards are not a universal guarantee of preserving every legitimate endpoint.",
+    "Region grouping only filters existing detections; it does not recover missed endpoints or prove counting accuracy."
+  ],
+  "uiVerification": {
+    "priorRun": "output/automatic-region-ui.xcresult",
+    "priorResult": "EN/ZH full workflows passed; focused test failed on outline accessibility query at line104, while exported screenshots show correctly drawn outline.",
+    "fix": "Explicit MarkerCanvas accessibility container; scroll before outline assertion; retain wait/assert and outside-outline manual-correction checks.",
+    "finalRerun": "Pending parent-coordinated v2 run."
+  },
+  "releaseQualityAcceptance": "NOT_ESTABLISHED"
+}

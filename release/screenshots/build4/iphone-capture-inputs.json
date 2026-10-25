@@ -1,0 +1,14 @@
+{
+  "sourceFreeze": "release/screenshots/build4/source-freeze.json",
+  "metadata": "release/subscription-build4/metadata.json",
+  "families": {
+    "iphone": {
+      "appPath": "output/subscription-build4/DerivedData/Build/Products/Release-iphonesimulator/Count stick.app",
+      "setupAppPath": "output/subscription-build4/setup-apps/iphone/Count stick.app",
+      "setupSourceFreeze": "release/screenshots/build4/source-freeze.json",
+      "xcresult": "output/subscription-build4/iphone-release-captures.xcresult",
+      "setupXcresult": "output/subscription-build4/iphone-setup.xcresult",
+      "attachmentsManifest": "output/subscription-build4/iphone-release-attachments/manifest.json"
+    }
+  }
+}

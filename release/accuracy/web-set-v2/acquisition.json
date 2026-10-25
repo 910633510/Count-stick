@@ -1,0 +1,168 @@
+{
+  "target": "Unseen restaurant/demo used-skewer blunt-end bundle photos for frozen build2 holdout",
+  "noInferenceBeforeAnnotationFreeze": true,
+  "records": [
+    {
+      "id": "acq-v2-01",
+      "sourcePage": "https://news.hsw.cn/system/2025/0611/1849681.shtml",
+      "imageURL": "https://img5.myhsw.cn/2025-06-11/pCrknSDCon8QFHG5.jpeg",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-01.original",
+      "originalSha256": "9899436ec9b695c68b5de10f65287f14328d0bb82307964a1cf8f4edd55d9b14",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-01.jpg",
+      "sha256": "d8c7e9d34ab2704ec76d927f51e5932ef332c80f5dda24ef4bb60ab1ceff6976",
+      "pixels": [
+        728,
+        548
+      ],
+      "sourceGroup": "hsw-restaurant-2025",
+      "status": "EXCLUDE_ANNOTATED_UI_AND_SMALL_BACKGROUND_SUBJECT",
+      "storage": "LOCAL_ONLY",
+      "annotationsFrozen": false,
+      "visualInspected": true,
+      "reason": "Published news photograph includes a phone with model circles, plus a small oblique physical bundle in the background. Not a clean full-subject counting image.",
+      "targetModelOutputViewed": false,
+      "acquisitionAgentSawPublishedOtherModelOutput": true
+    },
+    {
+      "id": "acq-v2-02",
+      "sourcePage": "https://blog.pospal.cn/kb/26832",
+      "imageURL": "https://blog.pospal.cn/wp-content/uploads/2026/04/AI%E6%95%B0%E7%AD%BE%E5%8A%9F%E8%83%BD08-2026042210110692.png",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-02.original",
+      "originalSha256": "58e252edfc72a6d0a96cd7363da9d40f7e8a68c51f1ca94e2d96c610791c64bd",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-02.jpg",
+      "sha256": "3bd88311a7dc10dd6a6610e90f8a758dd785ed9b7cf1bb943b9a4a58c5e00bf6",
+      "pixels": [
+        2896,
+        1256
+      ],
+      "sourceGroup": "pospal-demo-2026",
+      "status": "EXCLUDE_LOW_RESOLUTION_TEMPLATE_MODAL",
+      "storage": "LOCAL_ONLY",
+      "annotationsFrozen": false,
+      "visualInspected": true,
+      "reason": "Repeated app example thumbnail is small; surrounding modal and other panels are not independent scenes.",
+      "targetModelOutputViewed": false
+    },
+    {
+      "id": "acq-v2-03",
+      "sourcePage": "https://blog.pospal.cn/kb/26832",
+      "imageURL": "https://blog.pospal.cn/wp-content/uploads/2026/04/QQ20260422-111109-2026042211140356.png",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-03.original",
+      "originalSha256": "c5136dd22c6b97f1586921676c4a5521f9189b18ad36860edcdcfed6df9b3963",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-03.jpg",
+      "sha256": "4d9e5eac8c5acf0398e6087f7a82f5e380104a5044cbf881b62e8aff008f0522",
+      "pixels": [
+        2896,
+        1256
+      ],
+      "sourceGroup": "pospal-demo-2026",
+      "status": "EXCLUDE_NO_COUNTING_SUBJECT",
+      "storage": "LOCAL_ONLY",
+      "annotationsFrozen": false,
+      "visualInspected": true,
+      "reason": "App configuration screenshots and blank camera panel.",
+      "targetModelOutputViewed": false
+    },
+    {
+      "id": "acq-v2-04",
+      "sourcePage": "https://blog.pospal.cn/kb/26832",
+      "imageURL": "https://blog.pospal.cn/wp-content/uploads/2026/04/QQ20260422-111237-2026042211143256.png",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-04.original",
+      "originalSha256": "c0d0aa30ea3ce01f7a98ce0199c9e341dc214b7bc1de882e06d367d49e2dc467",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-04.jpg",
+      "sha256": "a61e328018e13b7343c5a32cd6da2c4a01eaaa4ecff2e63594b9cef1ca7e2003",
+      "pixels": [
+        2896,
+        1256
+      ],
+      "sourceGroup": "pospal-handheld-demo-2026",
+      "status": "SOURCE_COLLAGE_ONLY_USE_CLEAN_DERIVATIVE",
+      "storage": "LOCAL_ONLY",
+      "annotationsFrozen": false,
+      "visualInspected": true,
+      "reason": "Three stages of one scene; only the left pre-recognition photo is eligible. Middle/right panels must not be shown to blind annotators.",
+      "targetModelOutputViewed": false,
+      "acquisitionAgentSawPublishedOtherModelOutput": true
+    },
+    {
+      "id": "acq-v2-pospal-clean",
+      "sourcePage": "https://blog.pospal.cn/kb/26832",
+      "imageURL": "https://blog.pospal.cn/wp-content/uploads/2026/04/QQ20260422-111237-2026042211143256.png",
+      "sourceGroup": "pospal-handheld-demo-2026",
+      "sourceOriginalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-04.original",
+      "sourceOriginalSha256": "c0d0aa30ea3ce01f7a98ce0199c9e341dc214b7bc1de882e06d367d49e2dc467",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-pospal-clean.jpg",
+      "sha256": "cc32fbadf4ae311fc49a74aa9afc9152c0cb37035e86c409405c0fba87b51b4c",
+      "losslessCropPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-pospal-clean.png",
+      "losslessCropSha256": "d8ddef70484adb83237ee15a06c75cef14656afc02c23dcdb72f41fc05bb088e",
+      "pixels": [
+        546,
+        930
+      ],
+      "cropBoundsXYWH": [
+        598,
+        141,
+        546,
+        930
+      ],
+      "sourcePixels": [
+        2896,
+        1256
+      ],
+      "derivation": "Exact rectangle from the left pre-recognition photographic panel. No resize, rotation, content editing, count markers or inferred annotations. PNG preserves source RGB pixel crop exactly; JPEG uses quality100, chroma subsampling0.",
+      "status": "USABLE_BLIND_ANNOTATION_PENDING",
+      "visualInspected": true,
+      "photoDomain": "Handheld fanned bundle of blunt round bamboo ends; official restaurant POS demo. Prior food use of sticks is not established.",
+      "realRestaurantUsedEvidence": "Unverified: demo scene, not documented post-meal sticks.",
+      "storage": "LOCAL_ONLY_DO_NOT_PUBLISH_ORIGINAL",
+      "sourceCollageContainsOtherModelOverlay": true,
+      "acquisitionAgentSawSourceCountClaim": true,
+      "annotationInstruction": "Fresh annotator receives ONLY clean derivative, does not inspect original collage/source page or accept any displayed quantity. Do not infer before independent annotation freeze.",
+      "pHash64": "92ad3bbc94b0dc15",
+      "nearestV1Images": [
+        {
+          "file": "acquisition-01.jpg",
+          "pHashDistance": 28
+        },
+        {
+          "file": "root-thick-ends.jpg",
+          "pHashDistance": 28
+        },
+        {
+          "file": "acquisition-06.jpg",
+          "pHashDistance": 30
+        },
+        {
+          "file": "root-flat-black.jpg",
+          "pHashDistance": 30
+        },
+        {
+          "file": "acquisition-09.jpg",
+          "pHashDistance": 32
+        }
+      ],
+      "independenceAssessment": "Visually distinct from v1 source groups; full-image DCT pHash does not find close v1 duplicates. Collage panels all share one source group.",
+      "annotationsFrozen": false,
+      "targetModelOutputViewed": false,
+      "acquisitionAgentSawPublishedOtherModelOutput": true
+    }
+  ],
+  "officialDatasetAccess": {
+    "sourcePage": "https://ai.baidu.com/tech/easydl/dkyqianzi",
+    "publicShareURL": "https://pan.baidu.com/s/1kvEiowOLXwFTRzHw1b-uXg",
+    "publicExtractionCode": "hird",
+    "claimedFormat": "Pre-annotated XML dataset per official tutorial; archive not obtained or inspected.",
+    "status": "BROWSER_SITE_SAFETY_BLOCKED",
+    "observedBlocker": "Browser site-safety policy denied access to pan.baidu.com before page observation. No user permission prompt or Auto-review occurred. No alternate browser, raw request, proxy, or downloader workaround attempted.",
+    "downloaded": false
+  },
+  "excludedDataset": {
+    "url": "https://universe.roboflow.com/object-counting-redi5/bamboo-counting-test/browse",
+    "status": "WRONG_DOMAIN_CONFIRMED_BY_PUBLIC_PREVIEW",
+    "evidence": "Chrome public Images page showed aerial DJI video frames of a bamboo/rock barrier across water, not restaurant skewer end faces. Show Annotations was disabled before visual inspection. No account sign-in or downloads.",
+    "independentScenes": "Frames from one DJI video, not 88 independent restaurant scenes."
+  },
+  "usableNewSourceGroups": 1,
+  "acquisitionCompletedAtUTC": "2026-10-23T15:06:18.065140+00:00",
+  "inferencePerformed": false
+}

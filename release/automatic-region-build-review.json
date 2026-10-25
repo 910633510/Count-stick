@@ -1,0 +1,146 @@
+{
+  "scope": "LOCAL_AUTOMATIC_REGION_CANDIDATE_NOT_SUBMITTED",
+  "verifiedAtUTC": "2026-10-23T16:47:57.180350+00:00",
+  "bundleId": "x.Count-stick",
+  "version": "1.0",
+  "build": "3",
+  "teamId": "5B49H2L7N4",
+  "archive": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/CountStick-1.0-3-auto-region-final.xcarchive",
+  "ipa": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/automatic-region-candidate/Count stick.ipa",
+  "ipaBytes": 9313754,
+  "ipaSHA256": "4218999b24aca4f62a29e564aa09be71c441de33fa5876821c7069732fdf417b",
+  "strictCodesignVerified": true,
+  "distributionEntitlementsVerified": true,
+  "debugPhotoImportHookAbsentFromReleaseBinary": true,
+  "sourceHashes": {
+    "Count stick/AutoCountRegion.swift": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+    "Count stick/ContentView.swift": "72023e925771bdc71ad50ab32e76bdcd2694235222658660776116037cfa4bcf",
+    "Count stick/CountHistory.swift": "50b85f0a9fbcd8c8b8a28cb1cd794245615e3fb369cc102cca0b815363e07581",
+    "Count stick/CountModel.swift": "130279a55f5b8e6776014a7a1a35f59d70733975ddb243e185d05b25c28c89a9",
+    "Count stick/CountWorkspace.swift": "210c536e97ff8715fac1f5523485fd21bfeef5dc104786af3318df3c86ddc348",
+    "Count stick/Count_stickApp.swift": "1756eec937dc3a3d010a4e1e0b58a4a46da8b0bcae027fa83c9f30b569906b00",
+    "Count stick/ImagePicker.swift": "efcf0893940e8d96ce7a39ef1920a5efe1a032f73e98dfef634f2872a789a7a8",
+    "Count stick/StickDetector.swift": "50462cf49c71e06c947bca0e870ff4cca36e3ef63414d0cdf23bdd12db8f10fa",
+    "Count stick/en.lproj/Localizable.strings": "6d319e63eb7c2c0fe827d3965e358625c8d87663ea16d9c329bb34960c881a2e",
+    "Count stick/zh-Hans.lproj/Localizable.strings": "0570ba4acd9b2b9eb5e508faee4af16b87f79a8b973a49d9941bc24a0ed5a1e1",
+    "Count stick.xcodeproj/project.pbxproj": "e217e3e439556d8edb2f036a194a8fc76df980f7dedcff26a5395e35190e7a1a"
+  },
+  "weightsChanged": false,
+  "thresholds": {
+    "confidence": 0.25,
+    "iou": 0.45
+  },
+  "automaticRegion": {
+    "mode": "Automatic reference region from full-image detection and local OCR; no manual selection, no second/cropped model pass",
+    "regionSourceSHA256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+    "modelAndTextProcessing": "on-device",
+    "recognizedOCRStringsPersisted": false,
+    "fallback": "sparse or ambiguous selection preserves original detections",
+    "manualCorrection": "permitted anywhere in photo, including outside outline",
+    "history": "new optional region payload; legacy records retain compatibility"
+  },
+  "unitTests": {
+    "passed": 26,
+    "failed": 0,
+    "result": "Passed",
+    "evidence": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/automatic-region-unit-v2.xcresult",
+    "device": {
+      "architecture": "arm64",
+      "deviceId": "4904839F-DB2C-4670-A430-4A0B5F9B5BFB",
+      "deviceName": "Count Stick Automatic Region QA",
+      "modelName": "iPhone 17 Pro",
+      "osBuildNumber": "23F77",
+      "osVersion": "26.5",
+      "platform": "iOS Simulator"
+    }
+  },
+  "uiWorkflows": {
+    "passed": 3,
+    "failed": 0,
+    "result": "Passed",
+    "evidence": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/automatic-region-ui-v2.xcresult",
+    "device": {
+      "architecture": "arm64",
+      "deviceId": "4904839F-DB2C-4670-A430-4A0B5F9B5BFB",
+      "deviceName": "Count Stick Automatic Region QA",
+      "modelName": "iPhone 17 Pro",
+      "osBuildNumber": "23F77",
+      "osVersion": "26.5",
+      "platform": "iOS Simulator"
+    }
+  },
+  "finalCopyUIRecheck": {
+    "passed": 2,
+    "failed": 0,
+    "result": "Passed",
+    "evidence": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/automatic-region-ui-final-copy.xcresult",
+    "device": {
+      "architecture": "arm64",
+      "deviceId": "4904839F-DB2C-4670-A430-4A0B5F9B5BFB",
+      "deviceName": "Count Stick Automatic Region QA",
+      "modelName": "iPhone 17 Pro",
+      "osBuildNumber": "23F77",
+      "osVersion": "26.5",
+      "platform": "iOS Simulator"
+    }
+  },
+  "earlierFailuresPreserved": [
+    {
+      "evidence": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/automatic-region-ui.xcresult",
+      "issue": "Initial focused test could not find shape accessibility ID despite a visible outline. Added explicit accessibility container and scrolled/waited before assertion; later focused test passed without weakening manual-outside-region requirement."
+    },
+    {
+      "evidence": "release/accuracy/automatic-region/review-v2.json",
+      "issue": "Development v1 could discard sparse/small secondary groups under OCR errors; v2 adds fail-open and small-group protections with independent regression probes."
+    }
+  ],
+  "accuracyDevelopment": {
+    "report": "release/accuracy/automatic-region/development-v2-report.json",
+    "sourceGroups": 9,
+    "knownEndpoints": 712,
+    "TP": 674,
+    "FPBefore": 83,
+    "FPAfter": 34,
+    "FN": 38,
+    "countMAEBefore": 11.6666666667,
+    "countMAEAfter": 6.3333333333,
+    "exactCount": "0/6",
+    "status": "DEVELOPMENT_DATA_NOT_BLIND_VALIDATION"
+  },
+  "accuracyHoldout": {
+    "report": "release/accuracy/web-set-v3/REPORT.md",
+    "sourceGroups": 2,
+    "knownEndpoints": 140,
+    "TP": 109,
+    "FN": 31,
+    "exactCount": "0/1",
+    "status": "NO_ADDITIONAL_CONFIRMED_TRUE_POSITIVE_LOSS; RECALL_INSUFFICIENT",
+    "caveat": "Sole apparent FP removal is only0.125px outside a frozen uncertain-edge mask; no reliable background-removal benefit is claimed for this holdout. No eligible text regions in these two images."
+  },
+  "previews": [
+    {
+      "locale": "zh-Hans",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/automatic-region-zh-Hans.png",
+      "sourceAttachment": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/automatic-region-ui-final-captures/504A61F8-F1EB-4C99-9C41-D65168685CCC.png",
+      "sha256": "c0d0a9690edb95c0b1faf4d223ad8cf2d344eb884e01f3985ea90570f960cafb",
+      "unmodifiedScreenshotPixels": true,
+      "build": "3",
+      "configuration": "Debug UI test, real production detection on CC0 photo; not App Store marketing screenshot"
+    },
+    {
+      "locale": "en-US",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/automatic-region-en-US.png",
+      "sourceAttachment": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/automatic-region-ui-final-captures/AA4BD72F-5422-4E48-B3B4-9EC5867C0B8B.png",
+      "sha256": "a1267482089e06bba1af390dacca238899e7727a647041968bdf8b7a2db1148c",
+      "unmodifiedScreenshotPixels": true,
+      "build": "3",
+      "configuration": "Debug UI test, real production detection on CC0 photo; not App Store marketing screenshot"
+    }
+  ],
+  "physicalIPhoneValidation": "NOT_PERFORMED",
+  "appStoreSubmission": "NOT_SUBMITTED",
+  "newAppStoreRecord": "NOT_CREATED",
+  "price": "CNY12 requested; not applied live",
+  "accuracyAcceptance": "BLOCK_MODEL_RECALL_NOT_ACCEPTED",
+  "marketingScreenshots": "Prior build1 marketing images remain stale; new screenshots are QA evidence only"
+}

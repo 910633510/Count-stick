@@ -1,0 +1,21 @@
+{
+  "verifiedAtUTC": "2026-10-25T04:07:16.900710+00:00",
+  "appId": "6826601708",
+  "versionId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+  "groupId": "22511744",
+  "subscriptionId": "6826741970",
+  "productId": "com.xmaillc.countscope.pro.monthly",
+  "groupVersionId": "af7cfd17-e0dc-4bba-989c-ae22efa66db9",
+  "subscriptionVersionId": "cebc6a11-3f0c-4cd1-85b3-5bddfb2c2706",
+  "status": "PASS_LIVE_PRICES_OFFERS_AVAILABILITY",
+  "subscriptionPeriod": "ONE_MONTH",
+  "subscriptionPriceUSA": "2.99",
+  "subscriptionPriceCHN": "22.0",
+  "monthlyPriceTerritories": 175,
+  "freeTrialDays": 7,
+  "freeTrialTerritories": 175,
+  "freeAppPriceTerritories": 175,
+  "availableInNewTerritories": false,
+  "appSaleTerritoriesUnchanged": true,
+  "submissionStatus": "NOT_RESUBMITTED_YET"
+}

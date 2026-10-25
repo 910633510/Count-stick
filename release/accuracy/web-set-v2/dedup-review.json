@@ -1,0 +1,105 @@
+{
+  "method": "64-bit DCT perceptual hash plus side-by-side visual scene comparison. Hash alone is not proof of independence.",
+  "newImages": [
+    {
+      "id": "root-v2-cotton",
+      "sha256": "1774f6f432598628e9d438ca346eb21dd7442afac3f47001866ac91dea6ae478",
+      "pHash64": "c6350cf91c8333dd",
+      "nearestExistingV1": [
+        {
+          "id": "root-flat-black",
+          "distance": 30
+        },
+        {
+          "id": "root-thick-ends",
+          "distance": 30
+        }
+      ]
+    },
+    {
+      "id": "root-v2-relax",
+      "sha256": "a39d27c16c7058f5b6d6632f729a29e6c077067b27979d39bd31d9268c225b44",
+      "pHash64": "8e485169a3a56fd5",
+      "nearestExistingV1": [
+        {
+          "id": "acquisition-07",
+          "distance": 30
+        },
+        {
+          "id": "acquisition-05",
+          "distance": 34
+        }
+      ]
+    },
+    {
+      "id": "reviewer-v2-hktvmall",
+      "sha256": "850a67f57e9d181906a18ff88d5701a0ead10c20f8babf407683da139d0e91ba",
+      "pHash64": "f853586972294e57",
+      "nearestExistingV1": [
+        {
+          "id": "acquisition-07",
+          "distance": 32
+        },
+        {
+          "id": "root-flat-black",
+          "distance": 34
+        }
+      ]
+    },
+    {
+      "id": "acq-v2-pospal-clean",
+      "sha256": "cc32fbadf4ae311fc49a74aa9afc9152c0cb37035e86c409405c0fba87b51b4c",
+      "pHash64": "a83b0d293ddcb549",
+      "nearestExistingV1": [
+        {
+          "id": "root-thick-ends",
+          "distance": 28
+        },
+        {
+          "id": "root-flat-black",
+          "distance": 30
+        }
+      ]
+    }
+  ],
+  "newPairDistances": [
+    {
+      "a": "root-v2-cotton",
+      "b": "root-v2-relax",
+      "distance": 30
+    },
+    {
+      "a": "root-v2-cotton",
+      "b": "reviewer-v2-hktvmall",
+      "distance": 32
+    },
+    {
+      "a": "root-v2-cotton",
+      "b": "acq-v2-pospal-clean",
+      "distance": 26
+    },
+    {
+      "a": "root-v2-relax",
+      "b": "reviewer-v2-hktvmall",
+      "distance": 22
+    },
+    {
+      "a": "root-v2-relax",
+      "b": "acq-v2-pospal-clean",
+      "distance": 32
+    },
+    {
+      "a": "reviewer-v2-hktvmall",
+      "b": "acq-v2-pospal-clean",
+      "distance": 32
+    }
+  ],
+  "visualReviewStatus": "PASS_FOUR_DISTINCT_NEW_SCENES",
+  "modelTrainingSetKnown": false,
+  "visualReviewer": "root",
+  "reviewedAt": "2026-10-23T15:08:50.602964+00:00",
+  "visualEvidence": "Side-by-side 9-image contact sheet checked: distinct stick layouts, perspective and backgrounds. New full-photo perceptual distance to v1 is 28 or greater. The second Relaxdays download is a different composition from the same vendor/product family and is conservatively excluded from this four-scene evaluation; it is not claimed as a byte/visual duplicate. Pospal source panels remain one group.",
+  "limitations": [
+    "Cannot establish absence of overlap with the unavailable original model training set."
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "frozenAtUTC": "2026-10-23T16:24:14.597196+00:00",
+  "candidate": "combined development-v2",
+  "source": "Count stick/AutoCountRegion.swift",
+  "sourceSha256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+  "protocol": "release/accuracy/automatic-region/protocol-v2.json",
+  "protocolSha256": "0d1274cd5feac851a9382e2b91e6c54421fd5b5ff3354b675843ad8caaba4dc8",
+  "developmentReport": "release/accuracy/automatic-region/development-v2-report.json",
+  "developmentReportSha256": "6d2238f44c2b71a36ee347c43f887a5a61cbaddba649bca05693a37029955ff3",
+  "developmentOnly": true,
+  "summary": {
+    "text_only": {
+      "TP": 674,
+      "FP": 39,
+      "FN": 38,
+      "countMAE": 7.166666666666667,
+      "exactCountImages": 0,
+      "countEligibleImages": 6
+    },
+    "geometry_only": {
+      "TP": 674,
+      "FP": 78,
+      "FN": 38,
+      "countMAE": 10.833333333333334,
+      "exactCountImages": 0,
+      "countEligibleImages": 6
+    },
+    "combined": {
+      "TP": 674,
+      "FP": 34,
+      "FN": 38,
+      "countMAE": 6.333333333333333,
+      "exactCountImages": 0,
+      "countEligibleImages": 6
+    },
+    "baseline": {
+      "TP": 674,
+      "FP": 83,
+      "FN": 38,
+      "countMAE": 11.666666666666666,
+      "exactCountImages": 0,
+      "countEligibleImages": 6
+    }
+  },
+  "pureChecks": {
+    "count": 11,
+    "status": "PASS_STANDALONE_SWIFT_ASSERTIONS",
+    "testSource": "Count stickTests/AutoCountRegionTests.swift",
+    "testSourceSha256": "71afdfa3f8f390a7f143a6af217401693eb42c184c5e442ddae093f08de225d1",
+    "includes": [
+      "sparseOCRfailOpen",
+      "smallSecondaryBundleOCRpreserved",
+      "noReliableNonTextAnchorPreservesAll",
+      "nonfiniteConfidence",
+      "outOfRangeBoxes",
+      "multipleBundles",
+      "highConfidenceFarEndpoint",
+      "retainedPairs",
+      "supportedTexture",
+      "separatedTextRow",
+      "CodableRoundTrip"
+    ]
+  },
+  "requiredLimitations": [
+    "The9images are previously observed development data, not blind validation.",
+    "No crop/rescale, coremodel weights, confidence0.25, or NMS0.45 changed in these filtering experiments.",
+    "No observed TP/FN regression on these9images does not guarantee preservation under arbitrary OCR mistakes or all multi-bundle layouts.",
+    "Sparse/unsupported input and post-filter ambiguity preserve original detections; fallback count remains unverified.",
+    "Distant high-confidence false points, near-bundle false points, and small text-like components can remain intentionally.",
+    "This filter cannot recover existing missed endpoint detections; the28-end close-up still returns8 in development.",
+    "V3must be evaluated once after root checkpoint approval; no V3predictions were used here."
+  ]
+}

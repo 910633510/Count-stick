@@ -1,0 +1,76 @@
+{
+  "dateLocal": "2026-10-23",
+  "status": "BLOCK_COUNTING_QUALITY_ACCEPTANCE",
+  "target": "Concentrated visible skewer terminal ends for restaurant/barbecue checkout",
+  "scope": "Independent read-only quality review. Subsequent app-agent local NMS0.45 candidate is assessed separately; original weights remain unchanged.",
+  "annotationFile": "release/accuracy/annotations-review.json",
+  "annotationSHA256": "78d6f62946ed1705f3c282f03391eb60f6211ad9f05ad4abc9f7634cdc3c8c99",
+  "scoreFile": "release/accuracy/results/roi-scores.json",
+  "scoreSHA256": "060825a376328ac79d9ac24d97716a15164d048600bb51b5820d3d7c9750867d",
+  "evidence": {
+    "calibrationROI": {
+      "xywh": [
+        520,
+        700,
+        1000,
+        800
+      ],
+      "confirmedEndFaces": 7,
+      "independentParentConfirmation": true,
+      "baseline_conf025_iou070_primary80": {
+        "TP": 5,
+        "FP": 5,
+        "FN": 2,
+        "ignored": 5
+      },
+      "candidate_conf025_iou045_primary80": {
+        "TP": 5,
+        "FP": 5,
+        "FN": 2,
+        "ignored": 4
+      },
+      "stronger_conf040_iou045_primary80": {
+        "TP": 3,
+        "FP": 1,
+        "FN": 4,
+        "ignored": 2
+      }
+    },
+    "disjointHoldoutROI": {
+      "xywh": [
+        1900,
+        1450,
+        900,
+        400
+      ],
+      "highConfidenceEndFaces": 4,
+      "ambiguousAndClippedFaces": "Explicitly ignored; not treated as absent.",
+      "baseline_conf025_iou070_primary80": {
+        "TP": 4,
+        "FP": 8,
+        "FN": 0,
+        "ignored": 3
+      },
+      "candidate_conf025_iou045_primary80": {
+        "TP": 4,
+        "FP": 6,
+        "FN": 0,
+        "ignored": 3
+      }
+    }
+  },
+  "conclusions": [
+    "The photographed target contains duplicate marks, marks on side surfaces and missed clear endpoints. The displayed167 is not a verified total.",
+    "Lowering NMS IoU to0.45 removes2false marks in the four-head holdout but leaves6false marks; it does not improve the seven-head calibration counts. This local change is insufficient to establish a safe production default.",
+    "Increasing confidence removes real endpoints as well as false positives. Cropping/tiling results trade precision against recall on this single photo; no release-ready replacement was established; the later narrow local candidate is assessed separately.",
+    "The pointed toothpick-side photo is outside the confirmed restaurant end-face target and is not counted as an in-target accuracy failure.",
+    "Build/signature/UI functionality checks remain valid technical checkpoints, not counting-quality or release acceptance."
+  ],
+  "limits": [
+    "Two small regions from one public flat-headed-skewer photo; no full-image or population accuracy estimate.",
+    "Manually estimated endpoint centers and ignore boundaries; approximate25px center uncertainty; matching radius and face-box sensitivity must accompany numerical interpretation.",
+    "The holdout is spatially disjoint but not an independent photograph, camera, venue or skewer type."
+  ],
+  "nextEvidence": "Collect roughly10-20representative real restaurant/barbecue end-face photos with independently verified counts/visible-end labels for an initial baseline. Include round/flat ends, densities, lighting, camera angles and relevant phones. Keep some photographs held out before selecting preprocessing, thresholds or training changes; this small set does not guarantee adequate training or final acceptance.",
+  "localCandidateReview": "local-candidate-review.json"
+}

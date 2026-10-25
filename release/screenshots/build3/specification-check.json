@@ -1,0 +1,21 @@
+{
+  "checkedOnClientDate": "2026-10-24",
+  "source": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/",
+  "plannedOutputs": {
+    "iphone": {
+      "pixels": [
+        1206,
+        2622
+      ],
+      "placement": "iPhone with Dynamic Island (medium display)"
+    },
+    "ipad": {
+      "pixels": [
+        2064,
+        2752
+      ],
+      "placement": "13-inch iPad display"
+    }
+  },
+  "note": "Accepted pixel sizes rechecked in Apple documentation. Live App Store asset-placement requirements are owned by Release Operator; this file does not assert uploaded placement acceptance."
+}

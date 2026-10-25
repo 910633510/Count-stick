@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "count-stick-web-endpoints-v2",
+  "labelsFrozen": true,
+  "frozenAt": "2026-10-23T15:15:14.767629+00:00",
+  "splitLocked": true,
+  "splitPolicy": "All four new source groups fixed holdout; no tuning or threshold selection on this set. Original v1 calibration/holdout remains unchanged.",
+  "annotationPolicy": "Manual visible terminal face points with independent review before target-model inference. Partial uncertain border faces ignored, excluded from exact count. Primary Pospal annotator saw only clean unmarked crop; root/acquisition reviewers saw source collage, disclosed in annotation review.",
+  "images": [
+    {
+      "id": "root-v2-cotton",
+      "path": "output/web-annotation-v2/images/root-v2-cotton.jpg",
+      "imageSha256": "1774f6f432598628e9d438ca346eb21dd7442afac3f47001866ac91dea6ae478",
+      "sourceUrl": "https://www.nccaieiras.com.br/sustentabilidade-na-producao-de-bambu-um-compromisso",
+      "imageUrl": "https://images.tcdn.com.br/img/img_prod/1246089/180_palito_de_bambu_para_algodo_doce_45cm_x_5mm_200_1_20260126092525_48d418d666d3.jpg",
+      "sourceGroup": "nccaieiras-cotton-end-bundle",
+      "split": "holdout",
+      "annotationPath": "release/accuracy/web-set-v2/annotations/root-v2-cotton.json",
+      "annotationSha256": "0e82bc5c728b202b2fa76ad2accd4456744a121cbb7cd3411bb9a074bb015fbd",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "product_photo_large_blunt_ends",
+      "completeCountVerified": true
+    },
+    {
+      "id": "root-v2-relax",
+      "path": "output/web-annotation-v2/images/root-v2-relax.jpg",
+      "imageSha256": "a39d27c16c7058f5b6d6632f729a29e6c077067b27979d39bd31d9268c225b44",
+      "sourceUrl": "https://www.kaufland.cz/product/378693347/",
+      "imageUrl": "https://media.cdn.kaufland.de/product-images/1024x1024/76ea09b6b478d58f52b03ea978c0f088.jpg",
+      "sourceGroup": "relaxdays-large-end-closeup",
+      "split": "holdout",
+      "annotationPath": "release/accuracy/web-set-v2/annotations/root-v2-relax.json",
+      "annotationSha256": "410cfee4287bb49842597bd6c88683e0b04c2fa3e62c3deaa09bcc9750f96dee",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "product_photo_large_blunt_ends",
+      "completeCountVerified": false
+    },
+    {
+      "id": "reviewer-v2-hktvmall",
+      "path": "output/web-annotation-v2/images/reviewer-v2-hktvmall.jpg",
+      "imageSha256": "850a67f57e9d181906a18ff88d5701a0ead10c20f8babf407683da139d0e91ba",
+      "sourceUrl": "https://www.hktvmall.com/hktv/zh/main/佳菲百貨/s/B0875001/運動旅行/運動旅行/露營用品/野餐用品/其他野餐用品/Z012-全城熱賣-30CM-燒烤竹籤-拋棄式-露營燒烤-衛生袋裝簽-關東煮串串香-加粗燒烤簽-BBQ專用木簽-生果串签/p/B0875001_S_QT-zhuqian-0430",
+      "imageUrl": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/956c/aa22/57f6/WunOnfgmoZ20241030234800_1200.jpg",
+      "sourceGroup": "hktvmall-coarse-promotional-ends",
+      "split": "holdout",
+      "annotationPath": "release/accuracy/web-set-v2/annotations/reviewer-v2-hktvmall.json",
+      "annotationSha256": "66bcc1bb17fd1c015229c39015b3536554f4ce9699cea3426511c0d6d18215ff",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "product_photo_large_blunt_ends",
+      "completeCountVerified": false
+    },
+    {
+      "id": "acq-v2-pospal-clean",
+      "path": "output/web-annotation-v2/images/acq-v2-pospal-clean.jpg",
+      "imageSha256": "cc32fbadf4ae311fc49a74aa9afc9152c0cb37035e86c409405c0fba87b51b4c",
+      "sourceUrl": "https://blog.pospal.cn/kb/26832",
+      "imageUrl": "https://blog.pospal.cn/wp-content/uploads/2026/04/QQ20260422-111237-2026042211143256.png",
+      "sourceGroup": "pospal-handheld-demo-2026",
+      "split": "holdout",
+      "annotationPath": "release/accuracy/web-set-v2/annotations/acq-v2-pospal-clean.json",
+      "annotationSha256": "290125d6ce1db0c7af7325b6507ea65bc737956f58f94cf040911884c97395c8",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "handheld_pos_demo",
+      "completeCountVerified": true
+    }
+  ],
+  "limitations": [
+    "Four new online scenes: three product photographs and one POS demonstration. Not a representative real restaurant camera test.",
+    "No original target-model training set is available; overlap with unknown training photos cannot be ruled out.",
+    "Matching radii vary with manually assessed endpoints and were fixed before inference; precision/recall are point-localization metrics, not bbox AP.",
+    "Mac CPU-only inference is not physical iPhone validation."
+  ]
+}

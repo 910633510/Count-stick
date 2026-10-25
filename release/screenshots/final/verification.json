@@ -1,0 +1,202 @@
+{
+  "verifiedAtUTC": "2026-10-23T04:30:22.311993+00:00",
+  "technicalResult": "PASS",
+  "finalImageCount": 12,
+  "checks": [
+    "All four source manifests identify Release captures of x.Count-stick 1.0 (1).",
+    "All final PNGs are RGB and have the requested accepted dimensions.",
+    "Each output SHA256 and source SHA256 matches its render manifest.",
+    "Each source manifest hash matches the file currently on disk.",
+    "Each complete screenshot rectangle is byte-identical to a proportionate LANCZOS resize of its authentic source; no UI pixel edits, crops, masks or overlays."
+  ],
+  "visualReview": "PENDING_FINAL_INDEPENDENT_REVIEW",
+  "backgroundGeneration": "release/artwork/marketing/generation.json",
+  "specificationSource": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/",
+  "sets": [
+    {
+      "family": "ipad",
+      "locale": "en-US",
+      "appVersion": "1.0",
+      "build": "1",
+      "sourceManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/en-US/manifest.json",
+      "sourceManifestSHA256": "cf110e8f3589e0f3a37a231ab3cb3f473a03aebea743b752b16752b879928662",
+      "configuration": "Release; ENABLE_TESTABILITY=YES for XCTest; DEBUG photo hook absent",
+      "renderManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/en-US/render-manifest.json",
+      "screenshots": [
+        {
+          "role": "result",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/en-US/01-result.png",
+          "sha256": "cca09cad0940838d9c0f987eb5f72f8d8ae3c7b56296cccd1ed56947ece67e8c",
+          "pixels": [
+            2064,
+            2752
+          ],
+          "sourceSHA256": "729ab3b3c7c2ba1a13fa6017c5d9ef78a66a7fdcdcb7625b27961af617bfd01a",
+          "sourceRegionPixelMatch": true
+        },
+        {
+          "role": "correction",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/en-US/02-correction.png",
+          "sha256": "f349676ae597f41cc1551c1150d00fe0889db7a53677b8652faf53910a056a1d",
+          "pixels": [
+            2064,
+            2752
+          ],
+          "sourceSHA256": "1d85cdf71d15a3c91ae5b24a6d58c471ae6e1604e728b3d0dbccf0439e30c4bb",
+          "sourceRegionPixelMatch": true
+        },
+        {
+          "role": "history",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/en-US/03-history.png",
+          "sha256": "e47d6cdab1f9d99bc8918da979033e4e6419d89cea97332b9f92a99390ead611",
+          "pixels": [
+            2064,
+            2752
+          ],
+          "sourceSHA256": "f370e72b48cf62a28e1995344e2befa2bb202187306a542708c338a77449e39c",
+          "sourceRegionPixelMatch": true
+        }
+      ]
+    },
+    {
+      "family": "ipad",
+      "locale": "zh-Hans",
+      "appVersion": "1.0",
+      "build": "1",
+      "sourceManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/ipad/zh-Hans/manifest.json",
+      "sourceManifestSHA256": "3bd63633944ea17d67af12fb69392ac3a6a45e46c0201d5a8856fe2cd54cb24a",
+      "configuration": "Release; ENABLE_TESTABILITY=YES for XCTest; DEBUG photo hook absent",
+      "renderManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/zh-Hans/render-manifest.json",
+      "screenshots": [
+        {
+          "role": "result",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/zh-Hans/01-result.png",
+          "sha256": "ff1e03c3c4ade30bfb15216a40b25cfc67b65be741115169477e4ba0974bdd55",
+          "pixels": [
+            2064,
+            2752
+          ],
+          "sourceSHA256": "16b6bb5e3915c85ab00c8178d35c09cec395377913507b5f1592b58645fb7341",
+          "sourceRegionPixelMatch": true
+        },
+        {
+          "role": "correction",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/zh-Hans/02-correction.png",
+          "sha256": "7bb6ef7b5470ae15085350531ac628139b201b69703e753efeecc23809f0d4ed",
+          "pixels": [
+            2064,
+            2752
+          ],
+          "sourceSHA256": "65c6c808654ec6a45e8cb015265f93eb06bf3cc052d30b62ad7adfeb2525b3f3",
+          "sourceRegionPixelMatch": true
+        },
+        {
+          "role": "history",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/ipad/zh-Hans/03-history.png",
+          "sha256": "29b117aac253a2e5c5780793eef1529c2ae6f6dcbf506861a363a0dae4e5147b",
+          "pixels": [
+            2064,
+            2752
+          ],
+          "sourceSHA256": "44333d126c7144d7fb324eb51b54a1bd8653a55b1dcb0aac8eb466301559da97",
+          "sourceRegionPixelMatch": true
+        }
+      ]
+    },
+    {
+      "family": "iphone",
+      "locale": "en-US",
+      "appVersion": "1.0",
+      "build": "1",
+      "sourceManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/en-US/manifest.json",
+      "sourceManifestSHA256": "f6d15347bafd79382f37bf4a7fb5a18d37c7aa20bcf61e85e43e6d1d5c2333ef",
+      "configuration": "Release",
+      "renderManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/en-US/render-manifest.json",
+      "screenshots": [
+        {
+          "role": "result",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/en-US/01-result.png",
+          "sha256": "7bc22839a07679a02e04c3f8886f1d10e3ffbf2992a32f74f097f6c64f066f9a",
+          "pixels": [
+            1206,
+            2622
+          ],
+          "sourceSHA256": "51dc8509f4067ee9d8f2babd3438e142e0ee50d953906793411b93ba862612eb",
+          "sourceRegionPixelMatch": true
+        },
+        {
+          "role": "correction",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/en-US/02-correction.png",
+          "sha256": "cd0a91458d055abd54e44d94fa0322ba7b5c331fc368759bbdba22bdc29965c0",
+          "pixels": [
+            1206,
+            2622
+          ],
+          "sourceSHA256": "ae8aede9d33ea6ad84add5083d417554720a06590facb8616cbd213e35c613a7",
+          "sourceRegionPixelMatch": true
+        },
+        {
+          "role": "history",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/en-US/03-history.png",
+          "sha256": "4c2869477964cadcc5dcd9a28a7badc9c972f15d0a4a0e296c34d0561b81b1b9",
+          "pixels": [
+            1206,
+            2622
+          ],
+          "sourceSHA256": "bd9cda4cec8070e4925c114254780a4c14d9770eceecdd09df46994444c10934",
+          "sourceRegionPixelMatch": true
+        }
+      ]
+    },
+    {
+      "family": "iphone",
+      "locale": "zh-Hans",
+      "appVersion": "1.0",
+      "build": "1",
+      "sourceManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/zh-Hans/manifest.json",
+      "sourceManifestSHA256": "99b396b653865fdac9168b163ac4526bcb1c892877c8be5f06fb7b4a378c1a3d",
+      "configuration": "Release",
+      "renderManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/zh-Hans/render-manifest.json",
+      "screenshots": [
+        {
+          "role": "result",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/zh-Hans/01-result.png",
+          "sha256": "7af4c87c81933507ebd02b1267c22ca3b1c891a428616a612383afe212300bb0",
+          "pixels": [
+            1206,
+            2622
+          ],
+          "sourceSHA256": "d9ea078d5929ad0023e46ce8b62eab7f0c1fdb3f47d7ead7e120f8add25a5c75",
+          "sourceRegionPixelMatch": true
+        },
+        {
+          "role": "correction",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/zh-Hans/02-correction.png",
+          "sha256": "97765e82b7b4dc4b5943b7205eff804002e97602893ad1ea4b2139a8313717c2",
+          "pixels": [
+            1206,
+            2622
+          ],
+          "sourceSHA256": "e242b17ed6681819983b8b12cf5623ed66713f29c3a75d6d0bf23383484c6c3b",
+          "sourceRegionPixelMatch": true
+        },
+        {
+          "role": "history",
+          "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/final/iphone/zh-Hans/03-history.png",
+          "sha256": "8f1879d2d244e61e68661bae8d167d69039ac83175c1a0cb923f460aabffa2bc",
+          "pixels": [
+            1206,
+            2622
+          ],
+          "sourceSHA256": "9ff1c25e75477b197dba2f3c0017bac966ef8646fc7dad8ddef109197801e500",
+          "sourceRegionPixelMatch": true
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Simulator screenshots; not physical-device camera validation.",
+    "Observed count167 is an actual model output, not a ground-truth or accuracy claim.",
+    "Assets have not been uploaded to an App Store Connect record."
+  ]
+}

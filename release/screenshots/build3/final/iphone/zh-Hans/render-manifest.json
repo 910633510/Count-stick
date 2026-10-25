@@ -1,0 +1,105 @@
+{
+  "createdAtUTC": "2026-10-24T14:45:30.759914+00:00",
+  "locale": "zh-Hans",
+  "appVersion": "1.0",
+  "build": "3",
+  "sourceManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/source/iphone/zh-Hans/manifest.json",
+  "sourceManifestSHA256": "95a2552942ca67a1c53fa4a538e472a3857f46cf4bded28f13f688493d1d21c6",
+  "background": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/artwork/marketing/background.png",
+  "backgroundSHA256": "f83c7709a425e100842e152773ffb66e2f8916abe76d5fff21a1a87836541003",
+  "sourceEvidence": {
+    "device": "iPhone 17 Pro",
+    "os": "iOS 26.5 (23F77)",
+    "appleLanguages": [
+      "zh-Hans"
+    ],
+    "appleLocale": "zh_Hans_CN",
+    "effectiveLanguage": "Simplified Chinese",
+    "configuration": "Release (ENABLE_TESTABILITY=YES for XCTest; DEBUG import hook absent)"
+  },
+  "rendering": "Entire authentic screenshot proportionately scaled; no UI edits or masks.",
+  "dimensionsReference": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/",
+  "visualReview": "PASS: each final PNG individually inspected and compared with its original capture; localized copy, outline, marker count, hierarchy, legibility, margins and complete UI preservation verified.",
+  "screenshots": [
+    {
+      "role": "result",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/source/iphone/zh-Hans/result.png",
+      "sourceSHA256": "23791df5d5f7b7e13d9fd6e1bfc738493abbcbeacf1ca5a9576610fb2500fef0",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/final/iphone/zh-Hans/01-result.png",
+      "sha256": "f0b79211e87462cbae8e3f927bf4c19905fef184b3f7e30a693f07d4906d4d98",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "headline": "自动圈出参考范围",
+      "supporting": "逐点核对，也别漏看范围外",
+      "screenshotRectangle": [
+        140,
+        520,
+        925,
+        2012
+      ],
+      "proportionalScale": 0.7673531655225019,
+      "scaledScreenshotPixelSHA256": "fd9a2c1f357d4dd1be85159ba79fb6dd4b0c91f8912654f1bf75ef944533430e",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "自动圈出参考范围"
+      ]
+    },
+    {
+      "role": "correction",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/source/iphone/zh-Hans/correction.png",
+      "sourceSHA256": "58cfc7f4d42d3ecc70d9b6cd1d0608c41c446101b10cba09fcb260d11244f244",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/final/iphone/zh-Hans/02-correction.png",
+      "sha256": "dd78617eda203cbd5a3cd23c2bd171dec20aae0416dde0e2c656d760fee4ad21",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "headline": "漏了补，错了改",
+      "supporting": "添加、删除、撤销，随手校对",
+      "screenshotRectangle": [
+        140,
+        520,
+        925,
+        2012
+      ],
+      "proportionalScale": 0.7673531655225019,
+      "scaledScreenshotPixelSHA256": "b8abd22802c975ff79c586d3df7af7a41e0704a4d49adb33067b0d2ece60d6ab",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "漏了补，",
+        "错了改"
+      ]
+    },
+    {
+      "role": "history",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/source/iphone/zh-Hans/history.png",
+      "sourceSHA256": "e2965ecb99dc2e5a8aaa0065a7f18948db37036a067279145e1fbe1812fe8e10",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/final/iphone/zh-Hans/03-history.png",
+      "sha256": "b13caf2547754b7d2c7045e9c8637a8c77fe32851d9384b0d43f06bc678951a1",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "headline": "数完留一份记录",
+      "supporting": "写备注，回看，也能分享",
+      "screenshotRectangle": [
+        140,
+        520,
+        925,
+        2012
+      ],
+      "proportionalScale": 0.7673531655225019,
+      "scaledScreenshotPixelSHA256": "bcda12e442abdf867826da4658bc3c5c75aa50a7ceba524e92a3f8657f87108d",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "数完",
+        "留一份记录"
+      ]
+    }
+  ],
+  "releaseCaptureGate": "RELEASE_SOURCE_RECORDED",
+  "rendererSHA256": "2f453bcff0ab831e310085206da84caada62a5032abd62576e1d53654d8e983d",
+  "metadataSHA256": "dd09fbe98c738f44406fa4f62f3d6c0c5627c192c4ac107cb0fa3b9fd84f1f0d"
+}

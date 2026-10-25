@@ -1,0 +1,172 @@
+{
+  "status": "PASS_TARGET_BUILD_AND_PRIVACY",
+  "verifiedAtUTC": "2026-10-25T04:24:52.402019+00:00",
+  "role": "Independent read-only Target & Build / AI & Privacy reviewer",
+  "app": {
+    "id": "6826601708",
+    "name": "CountScope: Photo Counter",
+    "bundleId": "x.Count-stick",
+    "sku": "count-stick-20261022",
+    "versionId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+    "version": "1.0",
+    "build": "4",
+    "buildId": "e240daf9-6d06-42df-9eb7-ec1687022404",
+    "processingState": "VALID",
+    "appStoreStateAtRead": "PREPARE_FOR_SUBMISSION",
+    "releaseType": "AFTER_APPROVAL",
+    "usesNonExemptEncryption": false
+  },
+  "ipa": {
+    "path": "output/subscription-build4/export-final/Count stick.ipa",
+    "bytes": 10405279,
+    "sha256": "681e04826e105732701c833dd50ce1bcbf209a4617f069e6a971586e7906a920"
+  },
+  "archive": {
+    "path": "output/subscription-build4/CountScope-1.0-4-final.xcarchive",
+    "info": {
+      "ApplicationPath": "Applications/Count stick.app",
+      "CFBundleIdentifier": "x.Count-stick",
+      "CFBundleShortVersionString": "1.0",
+      "CFBundleVersion": "4",
+      "SigningIdentity": "Apple Distribution: XM LLC (US) (5B49H2L7N4)",
+      "Team": "5B49H2L7N4"
+    }
+  },
+  "signature": {
+    "exitCode": 0,
+    "output": "<temporary-extraction>/Payload/Count stick.app: valid on disk\n<temporary-extraction>/Payload/Count stick.app: satisfies its Designated Requirement\n"
+  },
+  "entitlements": {
+    "application-identifier": "5B49H2L7N4.x.Count-stick",
+    "com.apple.developer.team-identifier": "5B49H2L7N4",
+    "get-task-allow": false,
+    "keychain-access-groups": null
+  },
+  "profile": {
+    "teamIdentifiers": [
+      "5B49H2L7N4"
+    ],
+    "getTaskAllow": false,
+    "appIdentifier": "5B49H2L7N4.x.Count-stick",
+    "hasProvisionedDevices": false,
+    "provisionsAllDevices": false,
+    "expirationDate": "2027-10-19 03:20:37"
+  },
+  "packagedInfo": {
+    "CFBundleIdentifier": "x.Count-stick",
+    "CFBundleDisplayName": "CountScope",
+    "CFBundleShortVersionString": "1.0",
+    "CFBundleVersion": "4",
+    "DTPlatformName": "iphoneos",
+    "MinimumOSVersion": "17.0",
+    "ITSAppUsesNonExemptEncryption": false,
+    "UIDeviceFamily": [
+      1,
+      2
+    ]
+  },
+  "localizedDisplayNames": {
+    "en.lproj": "CountScope",
+    "zh-Hans.lproj": "CountScope"
+  },
+  "compiledIcons": [
+    {
+      "Name": "AppIcon",
+      "RenditionName": "AppIcon-CountScope-Camera.png",
+      "PixelWidth": 1024,
+      "PixelHeight": 1024,
+      "AssetType": "Icon Image",
+      "Idiom": "phone"
+    },
+    {
+      "Name": "AppIcon",
+      "RenditionName": "AppIcon-CountScope-Camera.png",
+      "PixelWidth": 1024,
+      "PixelHeight": 1024,
+      "AssetType": "Icon Image",
+      "Idiom": "pad"
+    },
+    {
+      "Name": "AppIcon",
+      "RenditionName": null,
+      "PixelWidth": null,
+      "PixelHeight": null,
+      "AssetType": "MultiSized Image",
+      "Idiom": "phone"
+    },
+    {
+      "Name": "AppIcon",
+      "RenditionName": null,
+      "PixelWidth": null,
+      "PixelHeight": null,
+      "AssetType": "MultiSized Image",
+      "Idiom": "pad"
+    }
+  ],
+  "sourceFreeze": {
+    "path": "release/screenshots/build4/source-freeze.json",
+    "sha256": "5e22ad6c7c1dcde39d1ba4778c0a504c536c61dcebda68ea67a18392a24aa581",
+    "verifiedFiles": 25,
+    "allMatch": true
+  },
+  "finalReleaseCaptureResults": {
+    "iphone": {
+      "path": "output/subscription-build4/iphone-release-captures.xcresult",
+      "result": "Passed",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0
+    },
+    "ipad": {
+      "path": "output/subscription-build4/ipad-release-captures.xcresult",
+      "result": "Passed",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0
+    }
+  },
+  "privacy": {
+    "retainPublishedLabel": "Data Not Collected",
+    "assessment": "Consistent with reviewed implementation and current Apple guidance; no questionnaire or legal attestation was changed in this review.",
+    "sourceFacts": [
+      "Photos, OCR reference-region analysis, count markers and notes remain on device.",
+      "Successful-count quota is a non-synchronizing device-only Keychain value, not transmitted.",
+      "Only StoreKit product/transaction/restore network functionality is added. The app has no developer receipt server or custom HTTP client.",
+      "External support/privacy/EULA pages open only through user-selected links; share-sheet sends only user-selected content to their chosen destination.",
+      "Packaged manifest declares no tracking or collected data; no third-party analytics/advertising dependencies are linked."
+    ],
+    "appleGuidance": "https://developer.apple.com/app-store/app-privacy-details/",
+    "guidanceApplication": "Apple states on-device-only processing is not collection; developers do not disclose data collected solely by Apple. Payment details unavailable to the developer are not app-collected payment information.",
+    "publishedQuestionnaireLiveReadThisPass": false,
+    "publicPolicyPreviouslyVerifiedIn": "release/subscription-build4/monetization-independent-review.json"
+  },
+  "checks": {
+    "sourceFreeze25FilesMatch": true,
+    "appIdentityNameSKU": true,
+    "selectedBuild4Matches": true,
+    "buildValidStoreEligibleNoEncryption": true,
+    "versionAndReleasePolicy": true,
+    "buildParentAndMarketingVersion": true,
+    "ipaExactBytesAndHash": true,
+    "packagedIdentityAndVersion": true,
+    "localizedBrandNames": true,
+    "strictSignatureValid": true,
+    "distributionTeamAndEntitlements": true,
+    "debugAndStoreKitTestResourcesAbsent": true,
+    "compiledCameraIconConsumer": true,
+    "privacyManifestNoTrackingOrCollectedData": true,
+    "noCustomNetworkPhotoUploadsOrAnalyticsSDK": true,
+    "onlyAppleSystemLibrariesLinked": true,
+    "keychainQuotaNotSynced": true,
+    "finalLocalizedReleaseCapturesPassed": true
+  },
+  "issues": [],
+  "apiWritesPerformed": false,
+  "buildOrTestRunPerformed": false,
+  "receiptDirectory": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-subscription-20261025/independent-review",
+  "limitations": [
+    "This pass does not establish real-device network traffic, production billing, App Review approval or public availability.",
+    "API verifies build identity and selection; Apple does not provide a downloadable uploaded-IPA hash in the examined build response.",
+    "Marketing screenshot replacement is reviewed in a separate lane."
+  ]
+}

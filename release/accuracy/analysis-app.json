@@ -1,0 +1,1484 @@
+{
+  "dateLocal": "2026-10-23",
+  "timezone": "America/New_York",
+  "status": "LOCAL_NMS_CANDIDATE_IMPLEMENTED_RELEASE_ACCURACY_BLOCKED",
+  "userTarget": "Concentrated exposed skewer endpoints for restaurant/barbecue checkout",
+  "weightsReplaced": false,
+  "productionCodeChanged": true,
+  "executionPlatform": "macOS CoreML CPU-only. No physical iPhone timing/accuracy acceptance.",
+  "annotation": {
+    "path": "release/accuracy/annotations-review.json",
+    "confirmedCompleteEndpoints": 11,
+    "parentIndependentlyConfirmed": true,
+    "primaryMatching": "Maximum-cardinality then minimum-total-distance one-to-one matches within 80 original-image pixels. Ignore unmatched points in annotated border polygons. Duplicate points on already matched targets remain false positives.",
+    "sensitivity": [
+      "radius25",
+      "radius50",
+      "radius80",
+      "radius110",
+      "terminal-face-bounding-box expanded25px"
+    ],
+    "scope": "Two spatially disjoint ROIs in one photo; first used for calibration, second evaluates only the preselected lower-NMS candidate. Not full-image or restaurant ground truth.",
+    "primaryROIEndpoints": 7,
+    "spatialHoldoutEndpoints": 4
+  },
+  "findings": [
+    {
+      "id": "confidence-is-available",
+      "severity": "implementation-opportunity",
+      "evidence": "VNRecognizedObjectObservation.confidence equals raw CoreML confidence; only the one-class label confidence is normalized to 1. Production currently discards confidence and rectangle when converting to markers.",
+      "implication": "Retain score and box for evaluation and any deduplication; do not threshold label.confidence."
+    },
+    {
+      "id": "threshold-inputs-work",
+      "severity": "verified-behavior",
+      "evidence": "VNCoreMLModel.featureProvider accepts confidenceThreshold/iouThreshold. Embedded defaults are 0.25/0.7. Raw CoreML predictions and Vision agree for identical scaleFill inputs and thresholds.",
+      "implication": "A reversible threshold experiment needs no weight replacement, but a new default must be selected on annotated data."
+    },
+    {
+      "id": "default-overlap",
+      "severity": "likely-duplicate-risk",
+      "evidence": {
+        "defaultSkewerCount": 167,
+        "scoreBelow035": 51,
+        "scoreBelow045": 83,
+        "pairsIoUAbove05": 18,
+        "pairsIoUAbove07": 3,
+        "maxPairIoU": 0.7112922002328289,
+        "iou045AtSameConfidenceCount": 150,
+        "iou045PairsAbove03": 0
+      },
+      "implication": "Default NMS is permissive and leaves substantial overlap; overlap alone does not prove all pairs are duplicate endpoints."
+    },
+    {
+      "id": "higher-confidence-trades-away-real-heads",
+      "severity": "do-not-change-default-on-current-evidence",
+      "evidence": "On the seven-head ROI, confidence 0.4 with NMS 0.45 changes TP/FP/FN from baseline 5/5/2 to 3/1/4 under the primary 80px matching protocol.",
+      "implication": "A cleaner-looking image or lower total count is not a demonstrated accuracy gain."
+    },
+    {
+      "id": "scale-and-tiling-are-not-monotonic",
+      "severity": "do-not-change-default-on-current-evidence",
+      "evidence": "Full scaleFit, independent ROI crop, and 2x2/3x3 overlapping inference all change outputs. 2x2 scaleFit recovers one previously missed front-center endpoint near (1097,1009) at score about0.39 but loses other ROI targets.",
+      "implication": "Run precision/recall on multiple labeled regions and representative restaurant endpoint bundles before selecting these preprocessing changes."
+    },
+    {
+      "id": "domain-boundary",
+      "severity": "scope",
+      "evidence": "User confirmed concentrated skewer endpoints for restaurant/barbecue checkout. The pointed/side-view toothpick photo is outside that target and is retained only as exploratory out-of-scope behavior.",
+      "implication": "Do not use this photo as an in-target accuracy failure or broaden the app to general stick side views."
+    },
+    {
+      "id": "ground-truth-limit",
+      "severity": "validation-limit",
+      "evidence": "Eleven unambiguous complete terminal faces across two regions in one public flat-ended skewer photograph are annotated. The second ROI was not used to select new parameters. Baseline167 is model output, not a verified total.",
+      "implication": "These are local calibration diagnostics, not global accuracy, restaurant readiness, or physical iPhone performance evidence."
+    },
+    {
+      "id": "limited-dedup-benefit-on-spatial-holdout",
+      "severity": "local-evidence-only",
+      "evidence": "At confidence0.25, lowering NMS IoU0.7 to0.45 gives primaryROI TP/FP/FN5/5/2 unchanged; secondROI4/8/0 becomes4/6/0. Aggregate9/13/2 becomes9/11/2.",
+      "implication": "Supports a narrow local NMS candidate only. The implementation now binds explicit0.25/0.45 inputs; it does not establish restaurant-level accuracy or justify resuming release."
+    }
+  ],
+  "selectedROIMetrics": [
+    {
+      "confidenceThreshold": 0.25,
+      "fixture": "bamboo-skewers-cc0.jpg",
+      "iouThreshold": 0.45,
+      "mode": "scaleFill",
+      "roiCount": 14,
+      "wholeCount": 150,
+      "method": "wholeImage",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 10,
+          "FN": 7,
+          "ignored": 4,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 3,
+          "FP": 7,
+          "FN": 4,
+          "ignored": 4,
+          "precision": 0.3,
+          "recall": 0.42857142857142855
+        },
+        "80": {
+          "TP": 5,
+          "FP": 5,
+          "FN": 2,
+          "ignored": 4,
+          "precision": 0.5,
+          "recall": 0.7142857142857143
+        },
+        "110": {
+          "TP": 6,
+          "FP": 4,
+          "FN": 1,
+          "ignored": 4,
+          "precision": 0.6,
+          "recall": 0.8571428571428571
+        },
+        "bbox_plus25": {
+          "TP": 6,
+          "FP": 4,
+          "FN": 1,
+          "ignored": 4,
+          "precision": 0.6,
+          "recall": 0.8571428571428571
+        }
+      }
+    },
+    {
+      "confidenceThreshold": 0.25,
+      "fixture": "bamboo-skewers-cc0.jpg",
+      "iouThreshold": 0.7,
+      "mode": "scaleFill",
+      "roiCount": 15,
+      "wholeCount": 167,
+      "method": "wholeImage",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 10,
+          "FN": 7,
+          "ignored": 5,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 3,
+          "FP": 7,
+          "FN": 4,
+          "ignored": 5,
+          "precision": 0.3,
+          "recall": 0.42857142857142855
+        },
+        "80": {
+          "TP": 5,
+          "FP": 5,
+          "FN": 2,
+          "ignored": 5,
+          "precision": 0.5,
+          "recall": 0.7142857142857143
+        },
+        "110": {
+          "TP": 6,
+          "FP": 4,
+          "FN": 1,
+          "ignored": 5,
+          "precision": 0.6,
+          "recall": 0.8571428571428571
+        },
+        "bbox_plus25": {
+          "TP": 6,
+          "FP": 4,
+          "FN": 1,
+          "ignored": 5,
+          "precision": 0.6,
+          "recall": 0.8571428571428571
+        }
+      }
+    },
+    {
+      "confidenceThreshold": 0.4,
+      "fixture": "bamboo-skewers-cc0.jpg",
+      "iouThreshold": 0.45,
+      "mode": "scaleFill",
+      "roiCount": 6,
+      "wholeCount": 92,
+      "method": "wholeImage",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 4,
+          "FN": 7,
+          "ignored": 2,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 5,
+          "ignored": 2,
+          "precision": 0.5,
+          "recall": 0.2857142857142857
+        },
+        "80": {
+          "TP": 3,
+          "FP": 1,
+          "FN": 4,
+          "ignored": 2,
+          "precision": 0.75,
+          "recall": 0.42857142857142855
+        },
+        "110": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 3,
+          "ignored": 2,
+          "precision": 1.0,
+          "recall": 0.5714285714285714
+        },
+        "bbox_plus25": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 3,
+          "ignored": 2,
+          "precision": 1.0,
+          "recall": 0.5714285714285714
+        }
+      }
+    },
+    {
+      "confidenceThreshold": 0.4,
+      "fixture": "bamboo-skewers-cc0.jpg",
+      "iouThreshold": 0.7,
+      "mode": "scaleFill",
+      "roiCount": 7,
+      "wholeCount": 99,
+      "method": "wholeImage",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 4,
+          "FN": 7,
+          "ignored": 3,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 2,
+          "FP": 2,
+          "FN": 5,
+          "ignored": 3,
+          "precision": 0.5,
+          "recall": 0.2857142857142857
+        },
+        "80": {
+          "TP": 3,
+          "FP": 1,
+          "FN": 4,
+          "ignored": 3,
+          "precision": 0.75,
+          "recall": 0.42857142857142855
+        },
+        "110": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 3,
+          "ignored": 3,
+          "precision": 1.0,
+          "recall": 0.5714285714285714
+        },
+        "bbox_plus25": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 3,
+          "ignored": 3,
+          "precision": 1.0,
+          "recall": 0.5714285714285714
+        }
+      }
+    },
+    {
+      "confidenceThreshold": 0.5,
+      "fixture": "bamboo-skewers-cc0.jpg",
+      "iouThreshold": 0.45,
+      "mode": "scaleFill",
+      "roiCount": 2,
+      "wholeCount": 69,
+      "method": "wholeImage",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 7,
+          "ignored": 2,
+          "precision": null,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 7,
+          "ignored": 2,
+          "precision": null,
+          "recall": 0.0
+        },
+        "80": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 7,
+          "ignored": 2,
+          "precision": null,
+          "recall": 0.0
+        },
+        "110": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 7,
+          "ignored": 2,
+          "precision": null,
+          "recall": 0.0
+        },
+        "bbox_plus25": {
+          "TP": 1,
+          "FP": 0,
+          "FN": 6,
+          "ignored": 1,
+          "precision": 1.0,
+          "recall": 0.14285714285714285
+        }
+      }
+    },
+    {
+      "confidenceThreshold": 0.5,
+      "fixture": "bamboo-skewers-cc0.jpg",
+      "iouThreshold": 0.7,
+      "mode": "scaleFill",
+      "roiCount": 3,
+      "wholeCount": 74,
+      "method": "wholeImage",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 7,
+          "ignored": 3,
+          "precision": null,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 7,
+          "ignored": 3,
+          "precision": null,
+          "recall": 0.0
+        },
+        "80": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 7,
+          "ignored": 3,
+          "precision": null,
+          "recall": 0.0
+        },
+        "110": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 7,
+          "ignored": 3,
+          "precision": null,
+          "recall": 0.0
+        },
+        "bbox_plus25": {
+          "TP": 1,
+          "FP": 0,
+          "FN": 6,
+          "ignored": 2,
+          "precision": 1.0,
+          "recall": 0.14285714285714285
+        }
+      }
+    },
+    {
+      "confidenceThreshold": 0.25,
+      "fixture": "bamboo-skewers-cc0.jpg",
+      "iouThreshold": 0.45,
+      "mode": "scaleFit",
+      "roiCount": 8,
+      "wholeCount": 123,
+      "method": "wholeImage",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 5,
+          "FN": 7,
+          "ignored": 3,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 1,
+          "FP": 4,
+          "FN": 6,
+          "ignored": 3,
+          "precision": 0.2,
+          "recall": 0.14285714285714285
+        },
+        "80": {
+          "TP": 3,
+          "FP": 2,
+          "FN": 4,
+          "ignored": 3,
+          "precision": 0.6,
+          "recall": 0.42857142857142855
+        },
+        "110": {
+          "TP": 3,
+          "FP": 2,
+          "FN": 4,
+          "ignored": 3,
+          "precision": 0.6,
+          "recall": 0.42857142857142855
+        },
+        "bbox_plus25": {
+          "TP": 4,
+          "FP": 1,
+          "FN": 3,
+          "ignored": 3,
+          "precision": 0.8,
+          "recall": 0.5714285714285714
+        }
+      }
+    },
+    {
+      "confidenceThreshold": 0.25,
+      "count": 8,
+      "iouThreshold": 0.45,
+      "mode": "scaleFill",
+      "method": "independentCrop",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 6,
+          "FN": 7,
+          "ignored": 2,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 0,
+          "FP": 6,
+          "FN": 7,
+          "ignored": 2,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "80": {
+          "TP": 0,
+          "FP": 6,
+          "FN": 7,
+          "ignored": 2,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "110": {
+          "TP": 1,
+          "FP": 5,
+          "FN": 6,
+          "ignored": 2,
+          "precision": 0.16666666666666666,
+          "recall": 0.14285714285714285
+        },
+        "bbox_plus25": {
+          "TP": 1,
+          "FP": 5,
+          "FN": 6,
+          "ignored": 2,
+          "precision": 0.16666666666666666,
+          "recall": 0.14285714285714285
+        }
+      }
+    },
+    {
+      "confidenceThreshold": 0.25,
+      "count": 6,
+      "iouThreshold": 0.45,
+      "mode": "scaleFit",
+      "method": "independentCrop",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 5,
+          "FN": 7,
+          "ignored": 1,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 0,
+          "FP": 5,
+          "FN": 7,
+          "ignored": 1,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "80": {
+          "TP": 0,
+          "FP": 5,
+          "FN": 7,
+          "ignored": 1,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "110": {
+          "TP": 0,
+          "FP": 5,
+          "FN": 7,
+          "ignored": 1,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "bbox_plus25": {
+          "TP": 0,
+          "FP": 5,
+          "FN": 7,
+          "ignored": 1,
+          "precision": 0.0,
+          "recall": 0.0
+        }
+      }
+    },
+    {
+      "confidenceThreshold": 0.25,
+      "count": 199,
+      "fixture": "bamboo-skewers-cc0.jpg",
+      "globalIoU": 0.45,
+      "grid": 2,
+      "mode": "scaleFill",
+      "perTileIoU": 0.45,
+      "preMergeCount": 299,
+      "roiCount": 9,
+      "seconds": 0.049012064933776855,
+      "tileFraction": 0.6,
+      "method": "overlappingTiles",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 6,
+          "FN": 7,
+          "ignored": 3,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 2,
+          "FP": 4,
+          "FN": 5,
+          "ignored": 3,
+          "precision": 0.3333333333333333,
+          "recall": 0.2857142857142857
+        },
+        "80": {
+          "TP": 4,
+          "FP": 2,
+          "FN": 3,
+          "ignored": 3,
+          "precision": 0.6666666666666666,
+          "recall": 0.5714285714285714
+        },
+        "110": {
+          "TP": 5,
+          "FP": 2,
+          "FN": 2,
+          "ignored": 2,
+          "precision": 0.7142857142857143,
+          "recall": 0.7142857142857143
+        },
+        "bbox_plus25": {
+          "TP": 5,
+          "FP": 1,
+          "FN": 2,
+          "ignored": 3,
+          "precision": 0.8333333333333334,
+          "recall": 0.7142857142857143
+        }
+      }
+    },
+    {
+      "confidenceThreshold": 0.25,
+      "count": 179,
+      "fixture": "bamboo-skewers-cc0.jpg",
+      "globalIoU": 0.45,
+      "grid": 2,
+      "mode": "scaleFit",
+      "perTileIoU": 0.45,
+      "preMergeCount": 275,
+      "roiCount": 10,
+      "seconds": 0.05006098747253418,
+      "tileFraction": 0.6,
+      "method": "overlappingTiles",
+      "metrics": {
+        "25": {
+          "TP": 0,
+          "FP": 6,
+          "FN": 7,
+          "ignored": 4,
+          "precision": 0.0,
+          "recall": 0.0
+        },
+        "50": {
+          "TP": 1,
+          "FP": 5,
+          "FN": 6,
+          "ignored": 4,
+          "precision": 0.16666666666666666,
+          "recall": 0.14285714285714285
+        },
+        "80": {
+          "TP": 3,
+          "FP": 3,
+          "FN": 4,
+          "ignored": 4,
+          "precision": 0.5,
+          "recall": 0.42857142857142855
+        },
+        "110": {
+          "TP": 3,
+          "FP": 3,
+          "FN": 4,
+          "ignored": 4,
+          "precision": 0.5,
+          "recall": 0.42857142857142855
+        },
+        "bbox_plus25": {
+          "TP": 3,
+          "FP": 3,
+          "FN": 4,
+          "ignored": 4,
+          "precision": 0.5,
+          "recall": 0.42857142857142855
+        }
+      }
+    }
+  ],
+  "recommendedNextSteps": [
+    "Keep the release accuracy gate unresolved. Do not treat a cleaner-looking screenshot, model confidence, or changed total count as verified accuracy.",
+    "Request10–20 representative real restaurant endpoint-bundle photos with independently counted totals; annotate visible endpoints and ambiguous/occluded regions. Cover bundle sizes, colors, lighting, angles, and adjacent endpoints.",
+    "Freeze a calibration subset and a separate held-out-photo subset before tuning. Compare count absolute error, exact-count rate, endpoint precision/recall, and duplicate false positives.",
+    "Validate the now-implemented local lower-IoU candidate on the real dataset while retaining confidence0.25; retain baseline evidence and require held-out-photo improvements before release.",
+    "If domain failures remain, compare or fine-tune an endpoint-specific model rather than continuing to tune this one public photo."
+  ],
+  "reproducibility": {
+    "scripts": [
+      {
+        "path": "release/accuracy/threshold-sweep.swift",
+        "sha256": "42e7d5ae00bb324e61248e7ebf180d90854babfa3d47ce0f322c707966e85c8c"
+      },
+      {
+        "path": "release/accuracy/crop-tile-sweep.swift",
+        "sha256": "d1926521a739961ac7b47b7c351fb252d9100f8a8a2cfd47feb07eb798319956"
+      },
+      {
+        "path": "release/accuracy/score-roi.py",
+        "sha256": "7c91c5377c80fe19ba0eb2b56e7a852df48944834c444c1bad0186253b993f77"
+      }
+    ],
+    "appleSDKContract": "Vision VNCoreMLRequest.h documents featureProvider for non-image inputs and VNObservation.confidence forwarded from model. CoreML MLFeatureValue+MLImageConversion.h documents cropAndScale.",
+    "coordinateConvention": "All encoded rectangles use original-source pixels, top-left origin, [x,y,width,height]. ROI membership uses center point.",
+    "commands": [
+      "swift release/accuracy/threshold-sweep.swift \"$PWD\"",
+      "swift release/accuracy/crop-tile-sweep.swift \"$PWD\"",
+      "python3 release/accuracy/score-roi.py \"$PWD\""
+    ],
+    "matcherReexecutedOnSavedResults": true,
+    "preservedROICrop": {
+      "path": "release/accuracy/roi-front-left.png",
+      "sha256": "591c4a9760a5bafe0114ef168c3813d9f242942f402776c88a652b2c78d8ffeb",
+      "sourceRectangle": [
+        520,
+        700,
+        1000,
+        800
+      ]
+    },
+    "swiftScriptsTypechecked": true
+  },
+  "recordedResultFiles": [
+    {
+      "path": "release/accuracy/results/crops-and-tiles.json",
+      "sha256": "6d53057f652b124fb82689c84002d3febceb8a6c569caf388cfdcec4f075c6d7"
+    },
+    {
+      "path": "release/accuracy/results/roi-scores.json",
+      "sha256": "060825a376328ac79d9ac24d97716a15164d048600bb51b5820d3d7c9750867d"
+    },
+    {
+      "path": "release/accuracy/results/thresholds.json",
+      "sha256": "e01b7adc49742d0d5522b3238c8fe8d98fc7c6ae6429e7410368206b68f70f9f"
+    }
+  ],
+  "decision": "Implement only the narrow local NMS candidate atconfidence0.25/IoU0.45. Do not use tiling, scaleFit, or higher confidence. Keep release accuracy blocked: the two-ROI benefit is small and substantial false positives/misses remain.",
+  "spatialHoldout": {
+    "roi": [
+      1900,
+      1450,
+      900,
+      400
+    ],
+    "confirmedPrimaryEndpoints": 4,
+    "selection": "Spatially disjoint region in the same photo; selected without looking at variant predictions. This is not an independent-image held-out set.",
+    "rows": [
+      {
+        "configuration": "baseline_fill_conf025_iou070",
+        "metrics": {
+          "25": {
+            "TP": 1,
+            "FP": 11,
+            "FN": 3,
+            "ignored": 3,
+            "precision": 0.08333333333333333,
+            "recall": 0.25,
+            "matched": [
+              {
+                "prediction": 14,
+                "label": "holdout-04",
+                "distancePixels": 9.53
+              }
+            ],
+            "falsePositiveIndices": [
+              1,
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12
+            ],
+            "falsePositiveCenters": [
+              [
+                2671.875,
+                1710.9375
+              ],
+              [
+                2162.109375,
+                1485.3515625
+              ],
+              [
+                2369.140625,
+                1798.828125
+              ],
+              [
+                2224.609375,
+                1590.8203125
+              ],
+              [
+                2259.765625,
+                1485.3515625
+              ],
+              [
+                2507.8125,
+                1719.7265625
+              ],
+              [
+                2250.0,
+                1589.35546875
+              ],
+              [
+                2314.453125,
+                1586.42578125
+              ],
+              [
+                2261.71875,
+                1725.5859375
+              ],
+              [
+                2220.703125,
+                1782.71484375
+              ],
+              [
+                2421.875,
+                1606.93359375
+              ]
+            ],
+            "missedLabels": [
+              "holdout-01",
+              "holdout-02",
+              "holdout-03"
+            ]
+          },
+          "50": {
+            "TP": 3,
+            "FP": 9,
+            "FN": 1,
+            "ignored": 3,
+            "precision": 0.25,
+            "recall": 0.75,
+            "matched": [
+              {
+                "prediction": 6,
+                "label": "holdout-01",
+                "distancePixels": 45.79
+              },
+              {
+                "prediction": 9,
+                "label": "holdout-02",
+                "distancePixels": 31.94
+              },
+              {
+                "prediction": 14,
+                "label": "holdout-04",
+                "distancePixels": 9.53
+              }
+            ],
+            "falsePositiveIndices": [
+              1,
+              2,
+              3,
+              5,
+              7,
+              8,
+              10,
+              11,
+              12
+            ],
+            "falsePositiveCenters": [
+              [
+                2671.875,
+                1710.9375
+              ],
+              [
+                2162.109375,
+                1485.3515625
+              ],
+              [
+                2369.140625,
+                1798.828125
+              ],
+              [
+                2224.609375,
+                1590.8203125
+              ],
+              [
+                2507.8125,
+                1719.7265625
+              ],
+              [
+                2250.0,
+                1589.35546875
+              ],
+              [
+                2261.71875,
+                1725.5859375
+              ],
+              [
+                2220.703125,
+                1782.71484375
+              ],
+              [
+                2421.875,
+                1606.93359375
+              ]
+            ],
+            "missedLabels": [
+              "holdout-03"
+            ]
+          },
+          "80": {
+            "TP": 4,
+            "FP": 8,
+            "FN": 0,
+            "ignored": 3,
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "matched": [
+              {
+                "prediction": 6,
+                "label": "holdout-01",
+                "distancePixels": 45.79
+              },
+              {
+                "prediction": 7,
+                "label": "holdout-03",
+                "distancePixels": 66.14
+              },
+              {
+                "prediction": 9,
+                "label": "holdout-02",
+                "distancePixels": 31.94
+              },
+              {
+                "prediction": 14,
+                "label": "holdout-04",
+                "distancePixels": 9.53
+              }
+            ],
+            "falsePositiveIndices": [
+              1,
+              2,
+              3,
+              5,
+              8,
+              10,
+              11,
+              12
+            ],
+            "falsePositiveCenters": [
+              [
+                2671.875,
+                1710.9375
+              ],
+              [
+                2162.109375,
+                1485.3515625
+              ],
+              [
+                2369.140625,
+                1798.828125
+              ],
+              [
+                2224.609375,
+                1590.8203125
+              ],
+              [
+                2250.0,
+                1589.35546875
+              ],
+              [
+                2261.71875,
+                1725.5859375
+              ],
+              [
+                2220.703125,
+                1782.71484375
+              ],
+              [
+                2421.875,
+                1606.93359375
+              ]
+            ],
+            "missedLabels": []
+          },
+          "110": {
+            "TP": 4,
+            "FP": 8,
+            "FN": 0,
+            "ignored": 3,
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "matched": [
+              {
+                "prediction": 6,
+                "label": "holdout-01",
+                "distancePixels": 45.79
+              },
+              {
+                "prediction": 7,
+                "label": "holdout-03",
+                "distancePixels": 66.14
+              },
+              {
+                "prediction": 9,
+                "label": "holdout-02",
+                "distancePixels": 31.94
+              },
+              {
+                "prediction": 14,
+                "label": "holdout-04",
+                "distancePixels": 9.53
+              }
+            ],
+            "falsePositiveIndices": [
+              1,
+              2,
+              3,
+              5,
+              8,
+              10,
+              11,
+              12
+            ],
+            "falsePositiveCenters": [
+              [
+                2671.875,
+                1710.9375
+              ],
+              [
+                2162.109375,
+                1485.3515625
+              ],
+              [
+                2369.140625,
+                1798.828125
+              ],
+              [
+                2224.609375,
+                1590.8203125
+              ],
+              [
+                2250.0,
+                1589.35546875
+              ],
+              [
+                2261.71875,
+                1725.5859375
+              ],
+              [
+                2220.703125,
+                1782.71484375
+              ],
+              [
+                2421.875,
+                1606.93359375
+              ]
+            ],
+            "missedLabels": []
+          },
+          "bbox_plus25": {
+            "TP": 4,
+            "FP": 8,
+            "FN": 0,
+            "ignored": 3,
+            "precision": 0.3333333333333333,
+            "recall": 1.0,
+            "matched": [
+              {
+                "prediction": 6,
+                "label": "holdout-01",
+                "distancePixels": 45.79
+              },
+              {
+                "prediction": 7,
+                "label": "holdout-03",
+                "distancePixels": 66.14
+              },
+              {
+                "prediction": 9,
+                "label": "holdout-02",
+                "distancePixels": 31.94
+              },
+              {
+                "prediction": 14,
+                "label": "holdout-04",
+                "distancePixels": 9.53
+              }
+            ],
+            "falsePositiveIndices": [
+              1,
+              2,
+              3,
+              5,
+              8,
+              10,
+              11,
+              12
+            ],
+            "falsePositiveCenters": [
+              [
+                2671.875,
+                1710.9375
+              ],
+              [
+                2162.109375,
+                1485.3515625
+              ],
+              [
+                2369.140625,
+                1798.828125
+              ],
+              [
+                2224.609375,
+                1590.8203125
+              ],
+              [
+                2250.0,
+                1589.35546875
+              ],
+              [
+                2261.71875,
+                1725.5859375
+              ],
+              [
+                2220.703125,
+                1782.71484375
+              ],
+              [
+                2421.875,
+                1606.93359375
+              ]
+            ],
+            "missedLabels": []
+          }
+        },
+        "detectionsInsideROI": 15
+      },
+      {
+        "configuration": "candidate_fill_conf025_iou045",
+        "metrics": {
+          "25": {
+            "TP": 1,
+            "FP": 9,
+            "FN": 3,
+            "ignored": 3,
+            "precision": 0.1,
+            "recall": 0.25,
+            "matched": [
+              {
+                "prediction": 1,
+                "label": "holdout-04",
+                "distancePixels": 20.53
+              }
+            ],
+            "falsePositiveIndices": [
+              2,
+              3,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "falsePositiveCenters": [
+              [
+                2162.109375,
+                1485.3515625
+              ],
+              [
+                2369.140625,
+                1798.828125
+              ],
+              [
+                2224.609375,
+                1590.8203125
+              ],
+              [
+                2259.765625,
+                1485.3515625
+              ],
+              [
+                2507.8125,
+                1719.7265625
+              ],
+              [
+                2314.453125,
+                1586.42578125
+              ],
+              [
+                2261.71875,
+                1725.5859375
+              ],
+              [
+                2220.703125,
+                1782.71484375
+              ],
+              [
+                2421.875,
+                1606.93359375
+              ]
+            ],
+            "missedLabels": [
+              "holdout-01",
+              "holdout-02",
+              "holdout-03"
+            ]
+          },
+          "50": {
+            "TP": 3,
+            "FP": 7,
+            "FN": 1,
+            "ignored": 3,
+            "precision": 0.3,
+            "recall": 0.75,
+            "matched": [
+              {
+                "prediction": 1,
+                "label": "holdout-04",
+                "distancePixels": 20.53
+              },
+              {
+                "prediction": 6,
+                "label": "holdout-01",
+                "distancePixels": 45.79
+              },
+              {
+                "prediction": 8,
+                "label": "holdout-02",
+                "distancePixels": 31.94
+              }
+            ],
+            "falsePositiveIndices": [
+              2,
+              3,
+              5,
+              7,
+              9,
+              10,
+              11
+            ],
+            "falsePositiveCenters": [
+              [
+                2162.109375,
+                1485.3515625
+              ],
+              [
+                2369.140625,
+                1798.828125
+              ],
+              [
+                2224.609375,
+                1590.8203125
+              ],
+              [
+                2507.8125,
+                1719.7265625
+              ],
+              [
+                2261.71875,
+                1725.5859375
+              ],
+              [
+                2220.703125,
+                1782.71484375
+              ],
+              [
+                2421.875,
+                1606.93359375
+              ]
+            ],
+            "missedLabels": [
+              "holdout-03"
+            ]
+          },
+          "80": {
+            "TP": 4,
+            "FP": 6,
+            "FN": 0,
+            "ignored": 3,
+            "precision": 0.4,
+            "recall": 1.0,
+            "matched": [
+              {
+                "prediction": 1,
+                "label": "holdout-04",
+                "distancePixels": 20.53
+              },
+              {
+                "prediction": 6,
+                "label": "holdout-01",
+                "distancePixels": 45.79
+              },
+              {
+                "prediction": 7,
+                "label": "holdout-03",
+                "distancePixels": 66.14
+              },
+              {
+                "prediction": 8,
+                "label": "holdout-02",
+                "distancePixels": 31.94
+              }
+            ],
+            "falsePositiveIndices": [
+              2,
+              3,
+              5,
+              9,
+              10,
+              11
+            ],
+            "falsePositiveCenters": [
+              [
+                2162.109375,
+                1485.3515625
+              ],
+              [
+                2369.140625,
+                1798.828125
+              ],
+              [
+                2224.609375,
+                1590.8203125
+              ],
+              [
+                2261.71875,
+                1725.5859375
+              ],
+              [
+                2220.703125,
+                1782.71484375
+              ],
+              [
+                2421.875,
+                1606.93359375
+              ]
+            ],
+            "missedLabels": []
+          },
+          "110": {
+            "TP": 4,
+            "FP": 6,
+            "FN": 0,
+            "ignored": 3,
+            "precision": 0.4,
+            "recall": 1.0,
+            "matched": [
+              {
+                "prediction": 1,
+                "label": "holdout-04",
+                "distancePixels": 20.53
+              },
+              {
+                "prediction": 6,
+                "label": "holdout-01",
+                "distancePixels": 45.79
+              },
+              {
+                "prediction": 7,
+                "label": "holdout-03",
+                "distancePixels": 66.14
+              },
+              {
+                "prediction": 8,
+                "label": "holdout-02",
+                "distancePixels": 31.94
+              }
+            ],
+            "falsePositiveIndices": [
+              2,
+              3,
+              5,
+              9,
+              10,
+              11
+            ],
+            "falsePositiveCenters": [
+              [
+                2162.109375,
+                1485.3515625
+              ],
+              [
+                2369.140625,
+                1798.828125
+              ],
+              [
+                2224.609375,
+                1590.8203125
+              ],
+              [
+                2261.71875,
+                1725.5859375
+              ],
+              [
+                2220.703125,
+                1782.71484375
+              ],
+              [
+                2421.875,
+                1606.93359375
+              ]
+            ],
+            "missedLabels": []
+          },
+          "bbox_plus25": {
+            "TP": 4,
+            "FP": 6,
+            "FN": 0,
+            "ignored": 3,
+            "precision": 0.4,
+            "recall": 1.0,
+            "matched": [
+              {
+                "prediction": 1,
+                "label": "holdout-04",
+                "distancePixels": 20.53
+              },
+              {
+                "prediction": 6,
+                "label": "holdout-01",
+                "distancePixels": 45.79
+              },
+              {
+                "prediction": 7,
+                "label": "holdout-03",
+                "distancePixels": 66.14
+              },
+              {
+                "prediction": 8,
+                "label": "holdout-02",
+                "distancePixels": 31.94
+              }
+            ],
+            "falsePositiveIndices": [
+              2,
+              3,
+              5,
+              9,
+              10,
+              11
+            ],
+            "falsePositiveCenters": [
+              [
+                2162.109375,
+                1485.3515625
+              ],
+              [
+                2369.140625,
+                1798.828125
+              ],
+              [
+                2224.609375,
+                1590.8203125
+              ],
+              [
+                2261.71875,
+                1725.5859375
+              ],
+              [
+                2220.703125,
+                1782.71484375
+              ],
+              [
+                2421.875,
+                1606.93359375
+              ]
+            ],
+            "missedLabels": []
+          }
+        },
+        "detectionsInsideROI": 13
+      }
+    ]
+  },
+  "combinedTwoROIPrimary80": {
+    "baseline": {
+      "TP": 9,
+      "FP": 13,
+      "FN": 2,
+      "precision": 0.4090909090909091,
+      "recall": 0.8181818181818182
+    },
+    "candidateIoU045": {
+      "TP": 9,
+      "FP": 11,
+      "FN": 2,
+      "precision": 0.45,
+      "recall": 0.8181818181818182
+    },
+    "interpretation": "Lower NMS threshold removes two false positives without recall loss in these two local regions; substantial errors remain and unlabeled full-image detections have not been validated."
+  },
+  "baselineSourceHashes": {
+    "Count stick/StickDetector.swift": "5cd529f56e7f356e8ec4727af38c7872f3f5ad0de71e0002229eabafb3c55618",
+    "Count stick/best.mlpackage/Data/com.apple.CoreML/model.mlmodel": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+    "release/accuracy/annotations-review.json": "78d6f62946ed1705f3c282f03391eb60f6211ad9f05ad4abc9f7634cdc3c8c99"
+  },
+  "localCandidate": {
+    "change": "Explicit CoreML featureProvider confidenceThreshold0.25 and iouThreshold0.45. Existing weights, scaleFill preprocessing, orientation normalization, and UI marker mapping retained.",
+    "file": "Count stick/StickDetector.swift",
+    "sha256": "f9be1037a75de32699b1f26d0fee9ecebb05599e77f24199b6144e6c648648fd",
+    "confidenceThreshold": 0.25,
+    "iouThreshold": 0.45,
+    "cropScale": "scaleFill",
+    "weightsUnchanged": true,
+    "basis": "Across two small regions in the same photo, TP9/FN2 unchanged and FP13 reduced to11 using primary80px matching. This is limited local dedup evidence, not overall accuracy acceptance.",
+    "regressionTest": "Count stickTests/StickDetectorDedupRegressionTests.swift",
+    "regressionTestPurpose": "Run the actual production detector on the real fixture and compare its centers to independently configured CoreML threshold outputs; verify baseline count > candidate count >0 and finite/correctly mapped coordinates.",
+    "testEvidence": "/tmp/count-stick-dedup-candidate-tests.xcresult",
+    "testState": "PASS_13_UNIT_TESTS_INCLUDING_REAL_FIXTURE_PRODUCTION_REFERENCE_MATCH",
+    "releaseQualityGate": "BLOCKED_PENDING_REPRESENTATIVE_RESTAURANT_DATA_AND_HELD_OUT_PHOTO_VALIDATION",
+    "testDurationSeconds": 1.347
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "count-stick-web-endpoints-v1",
+  "labelsFrozen": true,
+  "frozenAt": "2026-10-23T13:10:43.007409+00:00",
+  "splitLocked": true,
+  "splitPolicy": "Chosen by source group before any new-photo model inference: denseblack+yellowband calibration; thickwoodtable+closeup+actualrestaurant holdout. No model-tuned parameters or labels.",
+  "annotationPolicy": "Assistant visual manual point annotations with independent agent review; no app-model predictions used. Counts are visible terminal faces only; ambiguous04rim regions ignored.",
+  "images": [
+    {
+      "id": "root-flat-black",
+      "path": "output/web-annotation/images/root-flat-black.jpg",
+      "imageSha256": "5ca15f1126358d947030bc865748194accd8a4caa47a8bb63de5d4759a4b9d45",
+      "sourceUrl": "https://tao.hooos.com/goods_598989800916.html",
+      "imageUrl": "https://img.alicdn.com/i4/1945119714/O1CN01zGgYuC2Ld3ybyRY5H_%21%211945119714.jpg",
+      "sourceGroup": "round-flat-black-promo",
+      "split": "calibration",
+      "annotationPath": "release/accuracy/web-set/annotations/root-flat-black.json",
+      "annotationSha256": "803b870bd0d87021bb7bcd9f86d962544c75e179336fb883734bb72cf6c36500",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "product_photo_bundle_ends"
+    },
+    {
+      "id": "acquisition-04",
+      "path": "output/web-annotation/images/acquisition-04.jpg",
+      "imageSha256": "2305eb5ccd0f0c336da577e8b3471d84fed8da4007fb54ccd10d3ee65cf3890f",
+      "sourceUrl": "https://hefeiaoao.en.made-in-china.com/product/vdPfnaRWsDAk/China-BBQ-Skewers-Retail-Large-Diameter-Long-Bamboo-Round-Wooden-Sticks.html",
+      "imageUrl": "https://image.made-in-china.com/2f0j00WBYiuHgEIhfM/BBQ-Skewers-Retail-Large-Diameter-Long-Bamboo-Round-Wooden-Sticks.jpg",
+      "sourceGroup": "round-yellow-band-white",
+      "split": "calibration",
+      "annotationPath": "release/accuracy/web-set/annotations/acquisition-04.json",
+      "annotationSha256": "0d2acb7ead88a4a2ff29e72e1f87a69309c440c7837975692e25d8eac3858476",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "product_photo_bundle_ends"
+    },
+    {
+      "id": "root-thick-ends",
+      "path": "output/web-annotation/images/root-thick-ends.jpg",
+      "imageSha256": "7da2f9feff53bc4e49693363208b3047aee93a2929b2ea2ec92b3f2806f085ee",
+      "sourceUrl": "https://arvar.hu/termek/60-cm-x-6-mm-50-100db-bbq-bambusz-nyars-szuper-hosszu-tornado-burgonya-fa-spiral-tu-bar-etteremellatas/",
+      "imageUrl": "https://ae01.alicdn.com/kf/Sf8a56f84925f4ae1bbcaae26b8ee01d2a/60cm-x-6mm-50-100Pcs-BBQ-Bamboo-Skewers-Super-Long-Tornado-Potato-Wood-Skewer-Wooden-Spiral.jpg",
+      "sourceGroup": "round-thick-woodtable-root",
+      "split": "holdout",
+      "annotationPath": "release/accuracy/web-set/annotations/root-thick-ends.json",
+      "annotationSha256": "3ca579978cdb0f3ba4c151561424f3a583f7224aa33eb27080af66cc85c44614",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "product_photo_bundle_ends"
+    },
+    {
+      "id": "acquisition-05",
+      "path": "output/web-annotation/images/acquisition-05.jpg",
+      "imageSha256": "c7c795aee949d1e13521a35f30a4d740dac749d948a436d0df6c9efc5608c6e5",
+      "sourceUrl": "https://m.made-in-china.com/product/Natural-Color-Sharp-End-Round-Disposable-Bamboo-Stick-Bamboo-Skewer-1977437892.html",
+      "imageUrl": "https://image.made-in-china.com/2f0j00wJtlCyDrrGzn/Natural-Color-Sharp-End-Round-Disposable-Bamboo-Stick-Bamboo-Skewer.webp",
+      "sourceGroup": "round-closeup-woven-background",
+      "split": "holdout",
+      "annotationPath": "release/accuracy/web-set/annotations/acquisition-05.json",
+      "annotationSha256": "f7a25c4a30935f5f1140f095890259592c897b10eca8c4a7179f6f5aeeec9b89",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "product_photo_bundle_ends"
+    },
+    {
+      "id": "acquisition-07",
+      "path": "output/web-annotation/images/acquisition-07.jpg",
+      "imageSha256": "40833ec6c3fa4a830199eeb3add7e8af3702b9d98e76d210c9508536de40ee76",
+      "sourceUrl": "https://linux.do/t/topic/1280608",
+      "imageUrl": "https://cdn3.ldstatic.com/original/4X/a/d/0/ad02b0368c2e6ba4d755757ff559f69436403488.jpeg",
+      "sourceGroup": "restaurant-07",
+      "split": "holdout",
+      "annotationPath": "release/accuracy/web-set/annotations/acquisition-07.json",
+      "annotationSha256": "96203fcfb4ae6a5a97f31f160271bc6d5051c6fc678a7e70fa102f3759bd1d18",
+      "status": "reviewed_frozen",
+      "eligible": true,
+      "originalStorage": "LOCAL_ONLY",
+      "scene": "actual_restaurant_used_bundle"
+    }
+  ],
+  "limitations": [
+    "Five independent online scenes, four product photographs and one actual restaurant photograph. This is an initial diagnostic set, not population accuracy or release acceptance.",
+    "Manual centers have finite pixel uncertainty; exact count and localization metrics reported separately.",
+    "Original photos remain local; source URLs and exact hashes support provenance."
+  ]
+}

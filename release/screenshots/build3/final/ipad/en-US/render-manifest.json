@@ -1,0 +1,106 @@
+{
+  "createdAtUTC": "2026-10-24T14:46:22.852801+00:00",
+  "locale": "en-US",
+  "appVersion": "1.0",
+  "build": "3",
+  "sourceManifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/source/ipad/en-US/manifest.json",
+  "sourceManifestSHA256": "89545656d05faf18f2c600dccc4261e994f980d0a96dc2548f9d40f5ee5959f2",
+  "background": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/artwork/marketing/background.png",
+  "backgroundSHA256": "f83c7709a425e100842e152773ffb66e2f8916abe76d5fff21a1a87836541003",
+  "sourceEvidence": {
+    "device": "iPad Pro 13-inch (M5)",
+    "os": "iOS 26.5 (23F77)",
+    "appleLanguages": [
+      "en"
+    ],
+    "appleLocale": "en_US",
+    "effectiveLanguage": "English",
+    "configuration": "Release (ENABLE_TESTABILITY=YES for XCTest; DEBUG import hook absent)"
+  },
+  "rendering": "Entire authentic screenshot proportionately scaled; no UI edits or masks.",
+  "dimensionsReference": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/",
+  "visualReview": "PASS: each final PNG individually inspected and compared with its original capture; localized copy, outline, marker count, hierarchy, legibility, margins and complete UI preservation verified.",
+  "screenshots": [
+    {
+      "role": "result",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/source/ipad/en-US/result.png",
+      "sourceSHA256": "e0dacea52a27e764ad6598637d6bb811f885d8f84b9695141d2369ecb05ba5ea",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/final/ipad/en-US/01-result.png",
+      "sha256": "7753b9b2d3b9da1ac9fb779661f11eda1cafb99331f6e52ee7b1cc30703e8e36",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "Automatic area. Manual review.",
+      "supporting": "Check every stick end, inside and outside.",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "4ff65d4fc332f91569abf4f06904b12585b2cc49a73fa65ef872f15deaf001dd",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "Automatic area.",
+        "Manual review."
+      ]
+    },
+    {
+      "role": "correction",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/source/ipad/en-US/correction.png",
+      "sourceSHA256": "dca668989c114ec6c81cee8e15368ed8bb3a121a161bf489e151e273a6f4d836",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/final/ipad/en-US/02-correction.png",
+      "sha256": "96f182cd938ae64ad4266d21d19e3369d0dcf6800361ac83bd0b19f35a5ae7fc",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "Check it. Correct it.",
+      "supporting": "Add, remove, or undo a marker.",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "e1516dedd13d284ca0731bf41f64345b1531276910d1815074c0460cc7b6351a",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "Check it.",
+        "Correct it."
+      ]
+    },
+    {
+      "role": "history",
+      "source": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/source/ipad/en-US/history.png",
+      "sourceSHA256": "cf5eb55763ed09ba6fb3dce20dbc47e4e5ef31c701befb327930f7f446cf915f",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/build3/final/ipad/en-US/03-history.png",
+      "sha256": "b4f028ff78d14e88ecffb212716c7454f25b6c01ffb1fe25c9af48d5409af66f",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "headline": "Keep the count handy.",
+      "supporting": "Save a note. Reopen or share.",
+      "screenshotRectangle": [
+        279,
+        650,
+        1505,
+        2007
+      ],
+      "proportionalScale": 0.7292877906976745,
+      "scaledScreenshotPixelSHA256": "c15afe4aada531086f659efe52609db5d61da6639be50594515299ff6dc8fef1",
+      "unmodifiedScaledScreenshotVerified": true,
+      "headlineLines": [
+        "Keep the count",
+        "handy."
+      ]
+    }
+  ],
+  "releaseCaptureGate": "RELEASE_SOURCE_RECORDED",
+  "rendererSHA256": "2f453bcff0ab831e310085206da84caada62a5032abd62576e1d53654d8e983d",
+  "metadataSHA256": "dd09fbe98c738f44406fa4f62f3d6c0c5627c192c4ac107cb0fa3b9fd84f1f0d"
+}

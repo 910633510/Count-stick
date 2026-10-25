@@ -1,0 +1,43 @@
+{
+  "validationPassed": true,
+  "labelsFrozen": true,
+  "splitLocked": true,
+  "manifestSha256": "b1e065e3fa402ae18a5bfe02e2d3ca4cc0a43c016940e4749185e827e95f6298",
+  "modelPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/Count stick/best.mlpackage",
+  "modelFileHashes": {
+    "Data/com.apple.CoreML/model.mlmodel": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+    "Data/com.apple.CoreML/weights/weight.bin": "21717eef227d96f45419d0b5730fa4114e6877f4a6548a71efe641fc23240090",
+    "Manifest.json": "069d7e3b5c970ac6b017cdc8921bfc2deb0da721c98b71009b80c7de3521832d"
+  },
+  "sourceDetectorSha256": "f9be1037a75de32699b1f26d0fee9ecebb05599e77f24199b6144e6c648648fd",
+  "images": [
+    {
+      "id": "root-v2-cotton",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/root-v2-cotton.jpg",
+      "sha256": "1774f6f432598628e9d438ca346eb21dd7442afac3f47001866ac91dea6ae478",
+      "width": 450,
+      "height": 450
+    },
+    {
+      "id": "root-v2-relax",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/root-v2-relax.jpg",
+      "sha256": "a39d27c16c7058f5b6d6632f729a29e6c077067b27979d39bd31d9268c225b44",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "id": "reviewer-v2-hktvmall",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/reviewer-v2-hktvmall.jpg",
+      "sha256": "850a67f57e9d181906a18ff88d5701a0ead10c20f8babf407683da139d0e91ba",
+      "width": 800,
+      "height": 870
+    },
+    {
+      "id": "acq-v2-pospal-clean",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/acq-v2-pospal-clean.jpg",
+      "sha256": "cc32fbadf4ae311fc49a74aa9afc9152c0cb37035e86c409405c0fba87b51b4c",
+      "width": 546,
+      "height": 930
+    }
+  ]
+}

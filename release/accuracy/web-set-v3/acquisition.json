@@ -1,0 +1,185 @@
+{
+  "target": "Unseen validation scenes for automatic-region algorithm; no model outputs viewed before label freeze",
+  "labelsFrozen": false,
+  "records": [
+    {
+      "id": "acq-v3-umall",
+      "sourceUrl": "https://www.umall.com.au/products/qingchun-bamboo-skewers-for-bbq-30cm-pack-of-65-x3",
+      "imageUrl": "https://www.umall.com.au/cdn/shop/files/3_4412b733-19f7-45d5-99ca-0fcc6a89939d.jpg?v=1737684536",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-umall.jpg",
+      "imageSha256": "dd7c19fdddb0cabcc646370b5d93e9b320b856653d2feae9e20e77b35c1456ae",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v2/images/root-v2-umall.original",
+      "originalSha256": "3a6139a731c2560bcd5a6859dd1ceb17dfee9140fcaf054d56550f3ac01b111d",
+      "pixels": [
+        1000,
+        1000
+      ],
+      "storage": "LOCAL_ONLY",
+      "modelPredictionsViewed": false,
+      "status": "RESERVED_UNANNOTATED_NOT_EVALUATED",
+      "sourceGroup": "umall-dense-bundle-with-text",
+      "note": "Was reserved, unannotated and not evaluated in v2. Retail pack count not used.",
+      "pHashNearestPriorEvaluated": [
+        {
+          "id": "root-v2-relax",
+          "distance63": 26
+        },
+        {
+          "id": "root-v2-cotton",
+          "distance63": 28
+        },
+        {
+          "id": "reviewer-v2-hktvmall",
+          "distance63": 30
+        }
+      ],
+      "visualInspected": true
+    },
+    {
+      "id": "acq-v3-vietnam-round",
+      "sourceUrl": "https://gochandmade.com/10-que-tre-tron-5mm-dai-80cm-lam-keo-bong-gon",
+      "imageUrl": "https://bizweb.dktcdn.net/thumb/1024x1024/100/474/520/products/b674cc1f1f7fde675ba774e368aa55e1.jpg?v=1676255991603",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-vietnam-round.jpg",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-vietnam-round.original",
+      "originalSha256": "96814a7f78fdd81e2224d4d01f6aec00beafb089e48b174189153f43957285a9",
+      "imageSha256": "c569ef8a2ad3d58eb4f1e3d73d0bb1befd1e3fa86ccf8abc6c9bbccdc6348181",
+      "pixels": [
+        598,
+        640
+      ],
+      "storage": "LOCAL_ONLY",
+      "modelPredictionsViewed": false,
+      "status": "SELECTED_REVIEWED_FROZEN_PENDING_ALGORITHM_CHECKPOINT",
+      "normalization": "EXIF upright + RGB JPEG quality100; no crop or content edits.",
+      "pHashNearestPriorEvaluated": [
+        {
+          "id": "reviewer-v2-hktvmall",
+          "distance63": 24
+        },
+        {
+          "id": "root-thick-ends",
+          "distance63": 26
+        },
+        {
+          "id": "root-v2-relax",
+          "distance63": 30
+        }
+      ],
+      "sourceGroup": "gochandmade-staggered-endfaces",
+      "visualInspected": true,
+      "annotationPath": "release/accuracy/web-set-v3/annotations/acq-v3-vietnam-round.json",
+      "annotationSha256": "f3f1f70bd8012ee01171bcf902a8a774fe9332e00b2044dfe8477c94aea09fcc",
+      "manuallyConfirmedVisibleEndpoints": 37
+    },
+    {
+      "id": "acq-v3-yardbird-square",
+      "sourceUrl": "https://yardbirdrestaurant.com/shop/p/bamboo-yakitori-skewers",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5f7c3c8edb881029c68aaf27/1688367967005-H0KOP0W2WNRQKMNY57WA/Skewer_Pack_product_03_2fba95c4-6a3b-41aa-a56c-3660c6b1d279_1024x1024.jpg",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-yardbird-square.jpg",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-yardbird-square.original",
+      "originalSha256": "86e4a924f71af7c0c9da1d3887936fdf808081d20376d23050adb047abf221ef",
+      "imageSha256": "100a9f857356b80f47cc5e30e2227ea66e565c4ef86e0dc2aa7f787849be4fcf",
+      "pixels": [
+        1024,
+        894
+      ],
+      "storage": "LOCAL_ONLY",
+      "modelPredictionsViewed": false,
+      "status": "RESERVED_UNANNOTATED_NOT_EVALUATED",
+      "normalization": "EXIF upright + RGB JPEG quality100; no crop or content edits.",
+      "pHashNearestPriorEvaluated": [
+        {
+          "id": "root-thick-ends",
+          "distance63": 28
+        },
+        {
+          "id": "reviewer-v2-hktvmall",
+          "distance63": 28
+        },
+        {
+          "id": "acquisition-04",
+          "distance63": 30
+        }
+      ],
+      "sourceGroup": "yardbird-square-bundle",
+      "visualInspected": true
+    },
+    {
+      "id": "acq-v3-taiwan-cotton",
+      "sourceUrl": "https://www.nianhoang.com.tw/product-detail-3351159.html",
+      "imageUrl": "https://resource.iyp.tw/static.iyp.tw/1487/products/photooriginal-2538009-EdbCx.jpg",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-taiwan-cotton.jpg",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-taiwan-cotton.original",
+      "originalSha256": "4784eeea6cd1d3e81a4771a6391fde259a5d1caeaf58c7a0fc83c9aad6e9eca4",
+      "imageSha256": "413e9183cdad7914847b68f18e0b1198cefe960fbb3a89236ecb7635ac988aec",
+      "pixels": [
+        777,
+        609
+      ],
+      "storage": "LOCAL_ONLY",
+      "modelPredictionsViewed": false,
+      "status": "RESERVED_UNANNOTATED_NOT_EVALUATED",
+      "normalization": "EXIF upright + RGB JPEG quality100; no crop or content edits.",
+      "pHashNearestPriorEvaluated": [
+        {
+          "id": "root-v2-cotton",
+          "distance63": 24
+        },
+        {
+          "id": "root-thick-ends",
+          "distance63": 28
+        },
+        {
+          "id": "root-flat-black",
+          "distance63": 32
+        }
+      ],
+      "sourceGroup": "nianhoang-round-bundle",
+      "visualInspected": true
+    },
+    {
+      "id": "acq-v3-allegro-square",
+      "sourceUrl": "https://allegro.pl/oferta/patyczki-do-waty-cukrowej-40cm-4x4mm-kwadratowe-100szt-patyki-do-maszyny-17753463496",
+      "imageUrl": "https://a.allegroimg.com/original/11d30e/31d5554c4830aeef1d78b8ebce9e/PATYCZKI-do-Waty-Cukrowej-40cm-4x4mm-Kwadratowe-100szt-Patyki-do-Maszyny",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-allegro-square.jpg",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/images/acq-v3-allegro-square.original",
+      "originalSha256": "c1ff6418640ca384cd90eb9e64b37560f2d47ed326882bb93aa18f67f357f81f",
+      "imageSha256": "e7e110fb60e8cdcd2b8b2d62d02a020cbbe3a4fd06cd4b921c05789017f73f13",
+      "pixels": [
+        1900,
+        1980
+      ],
+      "storage": "LOCAL_ONLY",
+      "modelPredictionsViewed": false,
+      "status": "SELECTED_REVIEWED_FROZEN_PENDING_ALGORITHM_CHECKPOINT",
+      "normalization": "EXIF upright + RGB JPEG quality100; no crop or content edits.",
+      "pHashNearestPriorEvaluated": [
+        {
+          "id": "acquisition-04",
+          "distance63": 28
+        },
+        {
+          "id": "reviewer-v2-hktvmall",
+          "distance63": 28
+        },
+        {
+          "id": "acquisition-05",
+          "distance63": 30
+        }
+      ],
+      "sourceGroup": "allegro-square-frontal-bundle",
+      "visualInspected": true,
+      "annotationPath": "release/accuracy/web-set-v3/annotations/acq-v3-allegro-square.json",
+      "annotationSha256": "96294d2390eef14a5fbe86c32a4e7b4456be3efba47df6bcb8f720099d4a47b7",
+      "manuallyConfirmedVisibleEndpoints": 103
+    }
+  ],
+  "duplicateScreening": "No close63bit perceptual match to prior evaluated v1/v2 scenes. Pending independent visual source-group review; unavailable original training overlap remains unknown.",
+  "labelsFrozenForSelectedImages": true,
+  "selectedHoldoutImages": [
+    "acq-v3-vietnam-round",
+    "acq-v3-allegro-square"
+  ],
+  "targetInferencePerformed": false,
+  "reservedCandidatesNotIndependentTestResults": true
+}

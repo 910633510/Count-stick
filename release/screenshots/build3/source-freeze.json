@@ -1,0 +1,20 @@
+{
+  "bundleId": "x.Count-stick",
+  "appVersion": "1.0",
+  "build": "3",
+  "sourceFiles": {
+    "Count stick/AutoCountRegion.swift": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+    "Count stick/ContentView.swift": "72023e925771bdc71ad50ab32e76bdcd2694235222658660776116037cfa4bcf",
+    "Count stick/CountHistory.swift": "50b85f0a9fbcd8c8b8a28cb1cd794245615e3fb369cc102cca0b815363e07581",
+    "Count stick/CountModel.swift": "130279a55f5b8e6776014a7a1a35f59d70733975ddb243e185d05b25c28c89a9",
+    "Count stick/CountWorkspace.swift": "210c536e97ff8715fac1f5523485fd21bfeef5dc104786af3318df3c86ddc348",
+    "Count stick/Count_stickApp.swift": "1756eec937dc3a3d010a4e1e0b58a4a46da8b0bcae027fa83c9f30b569906b00",
+    "Count stick/ImagePicker.swift": "efcf0893940e8d96ce7a39ef1920a5efe1a032f73e98dfef634f2872a789a7a8",
+    "Count stick/StickDetector.swift": "50462cf49c71e06c947bca0e870ff4cca36e3ef63414d0cdf23bdd12db8f10fa",
+    "Count stick/en.lproj/InfoPlist.strings": "c3209f1c3e767f53fd004d64c9ef3c85fa8a91e91166cf720f8d0eec481dad71",
+    "Count stick/en.lproj/Localizable.strings": "6d319e63eb7c2c0fe827d3965e358625c8d87663ea16d9c329bb34960c881a2e",
+    "Count stick/zh-Hans.lproj/InfoPlist.strings": "0600ab12cb024f90c4954916ad5c60baf7d8169aff9604c23f3382a98ebcfd08",
+    "Count stick/zh-Hans.lproj/Localizable.strings": "0570ba4acd9b2b9eb5e508faee4af16b87f79a8b973a49d9941bc24a0ed5a1e1",
+    "Count stick.xcodeproj/project.pbxproj": "e217e3e439556d8edb2f036a194a8fc76df980f7dedcff26a5395e35190e7a1a"
+  }
+}

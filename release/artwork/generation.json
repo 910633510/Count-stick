@@ -1,0 +1,7 @@
+{
+  "tool": "built-in image_gen",
+  "purpose": "Full-bleed Count Stick app icon",
+  "source": "/Users/xue/.codex/generated_images/01a166d6-e558-7432-b456-f4b2b9cff7c1/exec-9617ecd7-0c37-49ff-a6d7-ec88531b23dc.png",
+  "prompt": "Use case: logo-brand. Create a premium iOS app icon for Count Stick, an on-device bamboo skewer photo counter. Square 1024x1024 opaque full-bleed artwork. Deep midnight charcoal-teal background fills every corner. Centered bold warm ivory and soft golden-orange abstract bundle of five slim bamboo sticks, four vertical and one subtle diagonal tally gesture, with tiny precise teal counting dots at stick tips. Elegant minimal dimensional material, soft studio light, crisp silhouette and high readability at small size. Tasteful utility app, no text, no letters, no numbers, no camera outline. No rounded outer corners, no inset rounded-square, no frame, no border, no badge, no device mockup, no watermark. The artwork itself must fill the entire square, iOS supplies the corner mask.",
+  "final": "Count stick/Assets.xcassets/AppIcon.appiconset/AppIcon.png"
+}

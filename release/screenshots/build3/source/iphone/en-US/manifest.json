@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "bundleID": "x.Count-stick",
+  "appVersion": "1.0",
+  "build": "3",
+  "configuration": "Release (ENABLE_TESTABILITY=YES for XCTest; DEBUG import hook absent)",
+  "locale": "en-US",
+  "device": "iPhone 17 Pro",
+  "simulatorId": "75EDBD64-9DFD-4A86-AA40-D58ABB301A08",
+  "os": "iOS 26.5 (23F77)",
+  "appleLanguages": [
+    "en"
+  ],
+  "appleLocale": "en_US",
+  "effectiveLanguage": "English",
+  "captureMethod": "XCTest app.screenshot() attachment, copied byte-for-byte",
+  "sourceFreeze": "release/screenshots/build3/source-freeze.json",
+  "sourceFreezeSHA256": "a23714cefaba96540f9b99d3efd3f2eb2537d2ff73fe09be94dd88035663e73f",
+  "releaseSimulatorExecutableSHA256": "d86a2c03c6a4c502cfcf4ce0078a73d8912e977264f5db4f4e5777d2f44cfd32",
+  "captureTest": "Count_stickUITests/testCaptureReleaseScreenshots",
+  "captureTestSourceSHA256": "c610eadcd6942f73fb21c7ab766b2f3bdbbb118807b4643b6ab8a6b0570b02e1",
+  "captureResult": "output/screenshots-build3/iphone-release-captures.xcresult",
+  "setupResult": "output/screenshots-build3/iphone-setup.xcresult",
+  "recordOrigin": {
+    "method": "Current Debug 1.0(3) processed the real fixture using production CoreML/OCR/automatic-region code, then saved through app UI. Current Release 1.0(3) reopened that record; no seeded marker coordinates, counts, or regions.",
+    "fixture": "release/fixtures/bamboo-skewers-cc0.jpg",
+    "fixtureSHA256": "824da6b42b3c14c66e6843aaeaae9f35676ee2e9df72a68eee9f7fa2820bb1b1",
+    "groundTruthCount": null,
+    "noteEnteredThroughUI": "Dinner prep",
+    "automaticRegionAssertions": "Status and nonempty outline exist in both setup and Release capture tests."
+  },
+  "visualReview": {
+    "status": "PASS",
+    "reviewedRoles": [
+      "result",
+      "correction",
+      "history"
+    ],
+    "observedCount": 150,
+    "countIsGroundTruth": false,
+    "effectiveLanguageVerified": true,
+    "nonemptyAutomaticReferenceOutlineVisible": true,
+    "notes": "All three marketing source captures visually inspected. Real marker and outline positions retained. Optional home/zoom attachments preserved as supplementary originals."
+  },
+  "screenshots": [
+    {
+      "role": "home",
+      "path": "home.png",
+      "sha256": "1f321ca0d9acfb0cbe9ea30e4967029b308bc114063733aee5738805735fb2dc",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "originalAttachment": "output/screenshots-build3/iphone-attachments/A04943B2-8A14-4122-B3CB-DB7FBA3388E9.png",
+      "capturedAtUTC": "2026-10-24T14:41:16.972000+00:00"
+    },
+    {
+      "role": "result",
+      "path": "result.png",
+      "sha256": "61ee44e4faa2675cf86f6dfbee35db108101085196a5204fcc932cf44f7fa122",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "originalAttachment": "output/screenshots-build3/iphone-attachments/17B7DBBD-FF7F-4918-9B25-F37850151177.png",
+      "capturedAtUTC": "2026-10-24T14:41:30.344000+00:00"
+    },
+    {
+      "role": "correction",
+      "path": "correction.png",
+      "sha256": "b2d458bf1013b8b6e4d049bd1eb8f6538ecb8c7a0c1bfa07fe204501c7df71b6",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "originalAttachment": "output/screenshots-build3/iphone-attachments/E0672542-2914-46A7-86DA-0CD6C9C78ED7.png",
+      "capturedAtUTC": "2026-10-24T14:41:33.557000+00:00"
+    },
+    {
+      "role": "zoom",
+      "path": "zoom.png",
+      "sha256": "13cdab484676f3d6a3bf6ba74f6c29a4d61437704c7e1ca89d9418688cc259c9",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "originalAttachment": "output/screenshots-build3/iphone-attachments/B5519015-323E-4097-BE1A-DBFDBDC7B4B9.png",
+      "capturedAtUTC": "2026-10-24T14:41:35.081000+00:00"
+    },
+    {
+      "role": "history",
+      "path": "history.png",
+      "sha256": "3ea0a6177b78fc2f02ae575e3020ab0862371d68e1263cb3cd5f1827adb594c2",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "originalAttachment": "output/screenshots-build3/iphone-attachments/FE84B92E-E634-4089-B132-67258AB49106.png",
+      "capturedAtUTC": "2026-10-24T14:41:40.234000+00:00"
+    }
+  ]
+}

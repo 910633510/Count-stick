@@ -1,0 +1,17 @@
+{
+  "tool": "built-in image_gen",
+  "intent": "new background artwork only",
+  "sourceScreenshotViewed": "palette-reference-preview.png",
+  "sourceScreenshotRole": "visual palette reference only; not sent to generation tool",
+  "generatedOutput": "background.png",
+  "originalOutput": "/Users/xue/.codex/generated_images/01a166d8-50f8-7641-b5b9-71e4f8514d82/exec-74763097-69f5-4631-896d-78ffdfb0c64a.png",
+  "promptFile": "prompt.txt",
+  "sha256": "f83c7709a425e100842e152773ffb66e2f8916abe76d5fff21a1a87836541003",
+  "pixels": [
+    1024,
+    1536
+  ],
+  "visualReview": "PASS: abstract charcoal, cream and gold; no generated text, screen, numbers, device, UI or markers.",
+  "sourceScreenshotSHA256": "69b9bd6dfaf3afb798876ab1b46cb8855466048590493ff6f75242197c90591e",
+  "sourceScreenshotStatus": "Candidate UI preview for palette only; not an upload screenshot source."
+}

@@ -1,0 +1,29 @@
+{
+  "scope": "LOCAL_ACCURACY_CANDIDATE_NOT_SUBMITTED",
+  "bundleId": "x.Count-stick",
+  "version": "1.0",
+  "build": "2",
+  "ipa": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/accuracy-candidate/Count stick.ipa",
+  "ipaBytes": 9223860,
+  "ipaSHA256": "56749b5e1787570ce96e6e576e1707440b4e5d94fc50e2332bf0db086fe88e4e",
+  "strictCodesignVerified": true,
+  "detectionSourceSHA256": "f9be1037a75de32699b1f26d0fee9ecebb05599e77f24199b6144e6c648648fd",
+  "thresholds": {
+    "confidence": 0.25,
+    "iou": 0.45
+  },
+  "weightsChanged": false,
+  "accuracyAcceptance": "BLOCK_PENDING_REPRESENTATIVE_END_FACE_PHOTOS",
+  "unitTests": {
+    "result": "Passed",
+    "passed": 13,
+    "failed": 0,
+    "evidence": "/tmp/count-stick-dedup-candidate-tests.xcresult"
+  },
+  "uiTests": {
+    "result": "Passed",
+    "passed": 2,
+    "failed": 0,
+    "evidence": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/dedup-candidate-ui.xcresult"
+  }
+}

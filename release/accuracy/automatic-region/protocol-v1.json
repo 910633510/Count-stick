@@ -1,0 +1,56 @@
+{
+  "status": "PREDECLARED_DEVELOPMENT_DIAGNOSTIC",
+  "scope": "Use existing cached build2 full-image confidence0.25/IoU0.45 detections from already-seen v1/v2 images. No new detector inference, crop/rescale, weight, confidence, NMS, or frozen-label changes. These are development diagnostics, not blind holdout evidence.",
+  "candidates": [
+    "conservative_text_only",
+    "conservative_geometry_only",
+    "combined"
+  ],
+  "ocr": {
+    "engine": "Apple Vision accurate",
+    "recognitionLanguages": [
+      "zh-Hans",
+      "zh-Hant",
+      "en-US"
+    ],
+    "minimumTextHeight": 0.015,
+    "usesLanguageCorrection": false,
+    "minimumConfidence": 0.8,
+    "minimumAlphanumericOrCJKCharacters": 2,
+    "persistRecognizedStrings": false
+  },
+  "textGeometry": {
+    "minimumLongAxisInMedianEndpointSides": 2,
+    "minimumAspectRatio": 1.4,
+    "minimumDetectionAreaInsideText": 0.7,
+    "requireDetectionCenterInsideText": true,
+    "protectLocalTwoDimensionalEndpointSupport": {
+      "neighborRadiusInMedianSides": 2.5,
+      "minimumOtherNeighbors": 3,
+      "minimumSpanEachAxisInMedianSides": 1.25
+    }
+  },
+  "geometry": {
+    "minimumDetections": 6,
+    "neighborDistanceInMedianEndpointSides": 3,
+    "supportedComponentMinimumSize": 3,
+    "minimumSupportedFraction": 0.65,
+    "reliableComponentMinimumSize": 6,
+    "minimumReliableComponentSpanEachAxisInMedianSides": 2,
+    "onlyRemoveSingletonComponents": true,
+    "preserveAllPairsAndLargerComponents": true,
+    "maximumRemovedConfidenceExclusive": 0.7,
+    "minimumDistanceToSupportedPointInMedianSides": 6,
+    "preserveInsideSupportedBoxesExpandedInMedianSides": 3,
+    "mergeRetainedProtrusionsIntoNearestRegionWithinMedianSides": 6
+  },
+  "fallback": "No detections -> empty. Fewer than6 -> sparse, preserve all non-text detections. No reliable2D support or supported fraction below0.65 -> ambiguous, preserve all non-text detections. Confident isolated singletons, all pairs, nearby edge/protruding ends, and multiple supported bundles remain counted.",
+  "requiredChecks": [
+    "TP/FP/FN and exact visible-count errors per image for all3 candidates",
+    "Explicit preservation of both tall Pospal endpoints",
+    "Text false-positive suppression must not delete known endpoint faces",
+    "Report uncertain/fallback cases, no concealed low-recall zero counts"
+  ],
+  "selection": "No additional parameter search in this development pass. Root reviews the fixed candidates; a future new v3 set must be frozen and evaluated once after selection.",
+  "declaredAtUTC": "2026-10-23T16:01:26.828537+00:00"
+}

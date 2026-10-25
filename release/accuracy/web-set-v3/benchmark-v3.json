@@ -1,0 +1,2129 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "count-stick-web-endpoints-v3",
+  "evaluatedAtUTC": "2026-10-23T16:29:41.256695+00:00",
+  "validation": {
+    "validationPassed": true,
+    "datasetId": "count-stick-web-endpoints-v3",
+    "manifestSha256": "bfd3d87885e8add72be93919688e6103c3379dc3c019ec02296b40b6a24f2af9",
+    "eligibleImages": 2,
+    "manualEndpointCount": 140,
+    "sourceGroups": 2
+  },
+  "checkpointSha256": "067adaa5091813d2f856a127de73b11c37e6cb2bcc5dd13f6cc617fcf4c4cf79",
+  "checkpointFrozenAtUTC": "2026-10-23T16:29:15.197289+00:00",
+  "modelFileHashes": {
+    "Data/com.apple.CoreML/model.mlmodel": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+    "Data/com.apple.CoreML/weights/weight.bin": "21717eef227d96f45419d0b5730fa4114e6877f4a6548a71efe641fc23240090",
+    "Manifest.json": "069d7e3b5c970ac6b017cdc8921bfc2deb0da721c98b71009b80c7de3521832d"
+  },
+  "sourceDetectorSha256": "50462cf49c71e06c947bca0e870ff4cca36e3ef63414d0cdf23bdd12db8f10fa",
+  "autoCountRegionSha256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+  "sourceFiles": {
+    "detector": {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/Count stick/StickDetector.swift",
+      "sha256": "50462cf49c71e06c947bca0e870ff4cca36e3ef63414d0cdf23bdd12db8f10fa"
+    },
+    "region": {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/Count stick/AutoCountRegion.swift",
+      "sha256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112"
+    },
+    "helper": {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/accuracy/automatic-region/helper-holdout.swift",
+      "sha256": "bc09a61f76440cbe8a44a420499555e16fc558a18d66002df58d5143b7f60999"
+    },
+    "harness": {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/accuracy/automatic-region/evaluate-holdout-v3.py",
+      "sha256": "5626d143c0621eaa5cb23ad7325cfddd27b51a16d549c7e5150152740585f06a"
+    },
+    "scorer": {
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/accuracy/web-set/evaluate.py",
+      "sha256": "3570b9a448c8ad0e8d264d8a1d642da2777ab28eb7d97aeacaa7153e5b2aebe5"
+    }
+  },
+  "rawSettings": {
+    "confidenceThreshold": 0.25,
+    "iouThreshold": 0.45,
+    "cropScale": "scaleFill",
+    "maximumDimension": 2048,
+    "computeUnits": "cpuOnly"
+  },
+  "ocrSettings": {
+    "recognitionLevel": "accurate",
+    "recognitionLanguages": [
+      "zh-Hans",
+      "zh-Hant",
+      "en-US"
+    ],
+    "usesLanguageCorrection": false,
+    "minimumTextHeight": 0.015,
+    "minimumCandidateConfidence": 0.8,
+    "minimumAlphanumericCharacters": 2,
+    "candidateRank": 1,
+    "revisionMode": "system_default",
+    "failurePolicy": "empty_text_areas_then_shared_selector"
+  },
+  "predictionFileSha256": "ed8a295d173fcb2c5180c69f5a1a6bd509ee3d0f3b67b882b7fc568951cfd91c",
+  "executionPlatform": "macOS CoreML CPU-only + Vision OCR; not physical iPhone validation",
+  "operatingSystem": "Version 26.4.1 (Build 25E253)",
+  "inferencePerformedThisInvocation": true,
+  "excludedImages": [],
+  "matchingProtocol": "Unmodified v1 score_image: maximum-cardinality, minimum-distance one-to-one matches within frozen radii; unmatched predictions inside frozen ignore polygons are excluded.",
+  "countProtocol": "Exact count and MAE only for completeCountVerified + full_image + no ignored uncertainty. Vietnam is partial; Allegro square ends are the sole complete-count image.",
+  "selectionProtocol": "Full-image CoreML inference once. Shared production AutoCountRegion.select filters original detection IDs using aligned OCR areas and geometry; no manual ROI, input crop, extra prediction, or new detection.",
+  "overall": {
+    "raw_build2": {
+      "TP": 109,
+      "FP": 2,
+      "FN": 31,
+      "ignoredPredictions": 0,
+      "duplicateFalsePositives": 1,
+      "images": 2,
+      "sourceGroups": 2,
+      "precision": 0.9819819819819819,
+      "recall": 0.7785714285714286,
+      "countEligibleImages": 1,
+      "countMAE": 11.0,
+      "exactCountRate": 0.0
+    },
+    "automatic_region": {
+      "TP": 109,
+      "FP": 1,
+      "FN": 31,
+      "ignoredPredictions": 0,
+      "duplicateFalsePositives": 1,
+      "images": 2,
+      "sourceGroups": 2,
+      "precision": 0.990909090909091,
+      "recall": 0.7785714285714286,
+      "countEligibleImages": 1,
+      "countMAE": 11.0,
+      "exactCountRate": 0.0
+    }
+  },
+  "bySplit": {
+    "calibration": {
+      "raw_build2": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 0,
+        "images": 0,
+        "sourceGroups": 0,
+        "precision": null,
+        "recall": null,
+        "countEligibleImages": 0,
+        "countMAE": null,
+        "exactCountRate": null
+      },
+      "automatic_region": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 0,
+        "images": 0,
+        "sourceGroups": 0,
+        "precision": null,
+        "recall": null,
+        "countEligibleImages": 0,
+        "countMAE": null,
+        "exactCountRate": null
+      }
+    },
+    "holdout": {
+      "raw_build2": {
+        "TP": 109,
+        "FP": 2,
+        "FN": 31,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 1,
+        "images": 2,
+        "sourceGroups": 2,
+        "precision": 0.9819819819819819,
+        "recall": 0.7785714285714286,
+        "countEligibleImages": 1,
+        "countMAE": 11.0,
+        "exactCountRate": 0.0
+      },
+      "automatic_region": {
+        "TP": 109,
+        "FP": 1,
+        "FN": 31,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 1,
+        "images": 2,
+        "sourceGroups": 2,
+        "precision": 0.990909090909091,
+        "recall": 0.7785714285714286,
+        "countEligibleImages": 1,
+        "countMAE": 11.0,
+        "exactCountRate": 0.0
+      }
+    }
+  },
+  "bySourceGroup": {
+    "allegro-square-frontal-bundle": {
+      "raw_build2": {
+        "TP": 91,
+        "FP": 1,
+        "FN": 12,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 1,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 0.9891304347826086,
+        "recall": 0.883495145631068,
+        "countEligibleImages": 1,
+        "countMAE": 11.0,
+        "exactCountRate": 0.0
+      },
+      "automatic_region": {
+        "TP": 91,
+        "FP": 1,
+        "FN": 12,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 1,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 0.9891304347826086,
+        "recall": 0.883495145631068,
+        "countEligibleImages": 1,
+        "countMAE": 11.0,
+        "exactCountRate": 0.0
+      }
+    },
+    "gochandmade-staggered-endfaces": {
+      "raw_build2": {
+        "TP": 18,
+        "FP": 1,
+        "FN": 19,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 0,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 0.9473684210526315,
+        "recall": 0.4864864864864865,
+        "countEligibleImages": 0,
+        "countMAE": null,
+        "exactCountRate": null
+      },
+      "automatic_region": {
+        "TP": 18,
+        "FP": 0,
+        "FN": 19,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 0,
+        "images": 1,
+        "sourceGroups": 1,
+        "precision": 1.0,
+        "recall": 0.4864864864864865,
+        "countEligibleImages": 0,
+        "countMAE": null,
+        "exactCountRate": null
+      }
+    }
+  },
+  "images": [
+    {
+      "imageId": "acq-v3-vietnam-round",
+      "sourceGroup": "gochandmade-staggered-endfaces",
+      "split": "holdout",
+      "imageSha256": "c569ef8a2ad3d58eb4f1e3d73d0bb1befd1e3fa86ccf8abc6c9bbccdc6348181",
+      "annotationSha256": "f3f1f70bd8012ee01171bcf902a8a774fe9332e00b2044dfe8477c94aea09fcc",
+      "variants": {
+        "raw_build2": {
+          "TP": 18,
+          "FP": 1,
+          "FN": 19,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 0,
+          "otherFalsePositives": 1,
+          "precision": 0.9473684210526315,
+          "recall": 0.4864864864864865,
+          "predictedWholeImageCount": 19,
+          "predictedRegionCount": 19,
+          "confirmedVisibleEndpointCount": 37,
+          "exactCountEligible": false,
+          "signedCountError": null,
+          "absoluteCountError": null,
+          "exactCount": null,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 22,
+              "distancePx": 0.4337795649849531,
+              "labelId": "end-023",
+              "predictionId": "det-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 10,
+              "distancePx": 1.392028785846399,
+              "labelId": "end-011",
+              "predictionId": "det-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 26,
+              "distancePx": 0.7757619742066506,
+              "labelId": "end-027",
+              "predictionId": "det-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 9,
+              "distancePx": 0.4445934178436983,
+              "labelId": "end-010",
+              "predictionId": "det-3"
+            },
+            {
+              "predictionIndex": 4,
+              "labelIndex": 16,
+              "distancePx": 0.5030462926110932,
+              "labelId": "end-017",
+              "predictionId": "det-4"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 12,
+              "distancePx": 3.6340871892115496,
+              "labelId": "end-013",
+              "predictionId": "det-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 13,
+              "distancePx": 0.752934120650049,
+              "labelId": "end-014",
+              "predictionId": "det-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 1,
+              "distancePx": 0.6806325371555239,
+              "labelId": "end-002",
+              "predictionId": "det-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 17,
+              "distancePx": 0.40016190113395433,
+              "labelId": "end-018",
+              "predictionId": "det-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 18,
+              "distancePx": 1.80362607449592,
+              "labelId": "end-019",
+              "predictionId": "det-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 23,
+              "distancePx": 1.8214817466774142,
+              "labelId": "end-024",
+              "predictionId": "det-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 14,
+              "distancePx": 3.623189539812436,
+              "labelId": "end-015",
+              "predictionId": "det-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 3,
+              "distancePx": 6.389777987806734,
+              "labelId": "end-004",
+              "predictionId": "det-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 15,
+              "distancePx": 2.8162614888356043,
+              "labelId": "end-016",
+              "predictionId": "det-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 27,
+              "distancePx": 1.1901761067333954,
+              "labelId": "end-028",
+              "predictionId": "det-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 19,
+              "distancePx": 1.1238617967235855,
+              "labelId": "end-020",
+              "predictionId": "det-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 5,
+              "distancePx": 1.7287774011698007,
+              "labelId": "end-006",
+              "predictionId": "det-16"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 4,
+              "distancePx": 0.9274711797714474,
+              "labelId": "end-005",
+              "predictionId": "det-18"
+            }
+          ],
+          "falsePositivePredictionIds": [
+            "det-17"
+          ],
+          "duplicatePredictionIds": [],
+          "missedLabelIds": [
+            "end-001",
+            "end-003",
+            "end-007",
+            "end-008",
+            "end-009",
+            "end-012",
+            "end-021",
+            "end-022",
+            "end-025",
+            "end-026",
+            "end-029",
+            "end-030",
+            "end-031",
+            "end-032",
+            "end-033",
+            "end-034",
+            "end-035",
+            "end-036",
+            "end-037"
+          ]
+        },
+        "automatic_region": {
+          "TP": 18,
+          "FP": 0,
+          "FN": 19,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 0,
+          "otherFalsePositives": 0,
+          "precision": 1.0,
+          "recall": 0.4864864864864865,
+          "predictedWholeImageCount": 18,
+          "predictedRegionCount": 18,
+          "confirmedVisibleEndpointCount": 37,
+          "exactCountEligible": false,
+          "signedCountError": null,
+          "absoluteCountError": null,
+          "exactCount": null,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 22,
+              "distancePx": 0.4337795649849531,
+              "labelId": "end-023",
+              "predictionId": "det-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 10,
+              "distancePx": 1.392028785846399,
+              "labelId": "end-011",
+              "predictionId": "det-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 26,
+              "distancePx": 0.7757619742066506,
+              "labelId": "end-027",
+              "predictionId": "det-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 9,
+              "distancePx": 0.4445934178436983,
+              "labelId": "end-010",
+              "predictionId": "det-3"
+            },
+            {
+              "predictionIndex": 4,
+              "labelIndex": 16,
+              "distancePx": 0.5030462926110932,
+              "labelId": "end-017",
+              "predictionId": "det-4"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 12,
+              "distancePx": 3.6340871892115496,
+              "labelId": "end-013",
+              "predictionId": "det-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 13,
+              "distancePx": 0.752934120650049,
+              "labelId": "end-014",
+              "predictionId": "det-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 1,
+              "distancePx": 0.6806325371555239,
+              "labelId": "end-002",
+              "predictionId": "det-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 17,
+              "distancePx": 0.40016190113395433,
+              "labelId": "end-018",
+              "predictionId": "det-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 18,
+              "distancePx": 1.80362607449592,
+              "labelId": "end-019",
+              "predictionId": "det-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 23,
+              "distancePx": 1.8214817466774142,
+              "labelId": "end-024",
+              "predictionId": "det-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 14,
+              "distancePx": 3.623189539812436,
+              "labelId": "end-015",
+              "predictionId": "det-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 3,
+              "distancePx": 6.389777987806734,
+              "labelId": "end-004",
+              "predictionId": "det-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 15,
+              "distancePx": 2.8162614888356043,
+              "labelId": "end-016",
+              "predictionId": "det-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 27,
+              "distancePx": 1.1901761067333954,
+              "labelId": "end-028",
+              "predictionId": "det-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 19,
+              "distancePx": 1.1238617967235855,
+              "labelId": "end-020",
+              "predictionId": "det-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 5,
+              "distancePx": 1.7287774011698007,
+              "labelId": "end-006",
+              "predictionId": "det-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 4,
+              "distancePx": 0.9274711797714474,
+              "labelId": "end-005",
+              "predictionId": "det-18"
+            }
+          ],
+          "falsePositivePredictionIds": [],
+          "duplicatePredictionIds": [],
+          "missedLabelIds": [
+            "end-001",
+            "end-003",
+            "end-007",
+            "end-008",
+            "end-009",
+            "end-012",
+            "end-021",
+            "end-022",
+            "end-025",
+            "end-026",
+            "end-029",
+            "end-030",
+            "end-031",
+            "end-032",
+            "end-033",
+            "end-034",
+            "end-035",
+            "end-036",
+            "end-037"
+          ]
+        }
+      },
+      "selection": {
+        "elapsedSeconds": 5.1975250244140625e-05,
+        "excluded": [
+          {
+            "id": "det-17",
+            "reason": "isolated"
+          }
+        ],
+        "fallbackReason": "none",
+        "keptIDs": [
+          "det-0",
+          "det-1",
+          "det-2",
+          "det-3",
+          "det-4",
+          "det-5",
+          "det-6",
+          "det-7",
+          "det-8",
+          "det-9",
+          "det-10",
+          "det-11",
+          "det-12",
+          "det-13",
+          "det-14",
+          "det-15",
+          "det-16",
+          "det-18"
+        ],
+        "pixelRegions": [
+          [
+            162.00671947383893,
+            386.0302790441514,
+            409.82680153083777,
+            196.00584816169714
+          ]
+        ],
+        "regions": [
+          {
+            "height": 0.3062591377526518,
+            "width": 0.685329099549896,
+            "x": 0.27091424661177077,
+            "y": 0.6031723110064866
+          }
+        ]
+      },
+      "ocrSummary": {
+        "effectiveRevision": 3,
+        "elapsedSeconds": 3.2367820739746094,
+        "status": "completed"
+      },
+      "ocrAreaCount": 0,
+      "change": {
+        "truePositiveChange": 0,
+        "falsePositiveChange": -1,
+        "removedDetectionCount": 1
+      }
+    },
+    {
+      "imageId": "acq-v3-allegro-square",
+      "sourceGroup": "allegro-square-frontal-bundle",
+      "split": "holdout",
+      "imageSha256": "e7e110fb60e8cdcd2b8b2d62d02a020cbbe3a4fd06cd4b921c05789017f73f13",
+      "annotationSha256": "96294d2390eef14a5fbe86c32a4e7b4456be3efba47df6bcb8f720099d4a47b7",
+      "variants": {
+        "raw_build2": {
+          "TP": 91,
+          "FP": 1,
+          "FN": 12,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 1,
+          "otherFalsePositives": 0,
+          "precision": 0.9891304347826086,
+          "recall": 0.883495145631068,
+          "predictedWholeImageCount": 92,
+          "predictedRegionCount": 92,
+          "confirmedVisibleEndpointCount": 103,
+          "exactCountEligible": true,
+          "signedCountError": -11,
+          "absoluteCountError": 11,
+          "exactCount": false,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 67,
+              "distancePx": 4.546378301908288,
+              "labelId": "end-068",
+              "predictionId": "det-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 37,
+              "distancePx": 3.761426682586883,
+              "labelId": "end-038",
+              "predictionId": "det-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 62,
+              "distancePx": 4.202014081412991,
+              "labelId": "end-063",
+              "predictionId": "det-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 76,
+              "distancePx": 4.630134516135812,
+              "labelId": "end-077",
+              "predictionId": "det-3"
+            },
+            {
+              "predictionIndex": 4,
+              "labelIndex": 49,
+              "distancePx": 3.117070628487349,
+              "labelId": "end-050",
+              "predictionId": "det-4"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 80,
+              "distancePx": 2.3865317413437865,
+              "labelId": "end-081",
+              "predictionId": "det-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 77,
+              "distancePx": 5.573017677984122,
+              "labelId": "end-078",
+              "predictionId": "det-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 50,
+              "distancePx": 7.063524560120521,
+              "labelId": "end-051",
+              "predictionId": "det-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 87,
+              "distancePx": 3.02843037454178,
+              "labelId": "end-088",
+              "predictionId": "det-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 65,
+              "distancePx": 3.016440167714319,
+              "labelId": "end-066",
+              "predictionId": "det-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 75,
+              "distancePx": 4.018789031935258,
+              "labelId": "end-076",
+              "predictionId": "det-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 45,
+              "distancePx": 6.043243421687726,
+              "labelId": "end-046",
+              "predictionId": "det-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 36,
+              "distancePx": 6.439524508153787,
+              "labelId": "end-037",
+              "predictionId": "det-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 81,
+              "distancePx": 6.816728032340335,
+              "labelId": "end-082",
+              "predictionId": "det-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 24,
+              "distancePx": 11.600707565300704,
+              "labelId": "end-025",
+              "predictionId": "det-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 28,
+              "distancePx": 4.9827684067371845,
+              "labelId": "end-029",
+              "predictionId": "det-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 52,
+              "distancePx": 3.9852964046431136,
+              "labelId": "end-053",
+              "predictionId": "det-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 29,
+              "distancePx": 6.9576651505536695,
+              "labelId": "end-030",
+              "predictionId": "det-17"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 58,
+              "distancePx": 2.738452595833805,
+              "labelId": "end-059",
+              "predictionId": "det-18"
+            },
+            {
+              "predictionIndex": 19,
+              "labelIndex": 64,
+              "distancePx": 6.942322300802711,
+              "labelId": "end-065",
+              "predictionId": "det-19"
+            },
+            {
+              "predictionIndex": 20,
+              "labelIndex": 32,
+              "distancePx": 2.4386898951160263,
+              "labelId": "end-033",
+              "predictionId": "det-20"
+            },
+            {
+              "predictionIndex": 21,
+              "labelIndex": 23,
+              "distancePx": 10.184849306470262,
+              "labelId": "end-024",
+              "predictionId": "det-21"
+            },
+            {
+              "predictionIndex": 22,
+              "labelIndex": 61,
+              "distancePx": 5.717729654641294,
+              "labelId": "end-062",
+              "predictionId": "det-22"
+            },
+            {
+              "predictionIndex": 23,
+              "labelIndex": 89,
+              "distancePx": 3.789377101147003,
+              "labelId": "end-090",
+              "predictionId": "det-23"
+            },
+            {
+              "predictionIndex": 24,
+              "labelIndex": 57,
+              "distancePx": 1.799347875933247,
+              "labelId": "end-058",
+              "predictionId": "det-24"
+            },
+            {
+              "predictionIndex": 25,
+              "labelIndex": 33,
+              "distancePx": 2.383152671671318,
+              "labelId": "end-034",
+              "predictionId": "det-25"
+            },
+            {
+              "predictionIndex": 26,
+              "labelIndex": 30,
+              "distancePx": 3.6332620322087896,
+              "labelId": "end-031",
+              "predictionId": "det-26"
+            },
+            {
+              "predictionIndex": 27,
+              "labelIndex": 6,
+              "distancePx": 7.332189673052063,
+              "labelId": "end-007",
+              "predictionId": "det-27"
+            },
+            {
+              "predictionIndex": 28,
+              "labelIndex": 48,
+              "distancePx": 7.020424880947961,
+              "labelId": "end-049",
+              "predictionId": "det-28"
+            },
+            {
+              "predictionIndex": 29,
+              "labelIndex": 7,
+              "distancePx": 12.149709162743683,
+              "labelId": "end-008",
+              "predictionId": "det-29"
+            },
+            {
+              "predictionIndex": 30,
+              "labelIndex": 68,
+              "distancePx": 5.96175209968886,
+              "labelId": "end-069",
+              "predictionId": "det-30"
+            },
+            {
+              "predictionIndex": 31,
+              "labelIndex": 43,
+              "distancePx": 2.8689837325211003,
+              "labelId": "end-044",
+              "predictionId": "det-31"
+            },
+            {
+              "predictionIndex": 32,
+              "labelIndex": 17,
+              "distancePx": 2.450004390790469,
+              "labelId": "end-018",
+              "predictionId": "det-32"
+            },
+            {
+              "predictionIndex": 33,
+              "labelIndex": 100,
+              "distancePx": 6.080628965370437,
+              "labelId": "end-101",
+              "predictionId": "det-33"
+            },
+            {
+              "predictionIndex": 34,
+              "labelIndex": 60,
+              "distancePx": 4.541742738325813,
+              "labelId": "end-061",
+              "predictionId": "det-34"
+            },
+            {
+              "predictionIndex": 35,
+              "labelIndex": 59,
+              "distancePx": 6.67000945049114,
+              "labelId": "end-060",
+              "predictionId": "det-35"
+            },
+            {
+              "predictionIndex": 36,
+              "labelIndex": 56,
+              "distancePx": 3.705909937267063,
+              "labelId": "end-057",
+              "predictionId": "det-36"
+            },
+            {
+              "predictionIndex": 37,
+              "labelIndex": 27,
+              "distancePx": 8.944716787700457,
+              "labelId": "end-028",
+              "predictionId": "det-37"
+            },
+            {
+              "predictionIndex": 38,
+              "labelIndex": 88,
+              "distancePx": 12.143930660205648,
+              "labelId": "end-089",
+              "predictionId": "det-38"
+            },
+            {
+              "predictionIndex": 39,
+              "labelIndex": 35,
+              "distancePx": 4.714693662819306,
+              "labelId": "end-036",
+              "predictionId": "det-39"
+            },
+            {
+              "predictionIndex": 40,
+              "labelIndex": 55,
+              "distancePx": 5.551772843124992,
+              "labelId": "end-056",
+              "predictionId": "det-40"
+            },
+            {
+              "predictionIndex": 41,
+              "labelIndex": 3,
+              "distancePx": 4.422418567690535,
+              "labelId": "end-004",
+              "predictionId": "det-41"
+            },
+            {
+              "predictionIndex": 42,
+              "labelIndex": 51,
+              "distancePx": 6.739738859556765,
+              "labelId": "end-052",
+              "predictionId": "det-42"
+            },
+            {
+              "predictionIndex": 43,
+              "labelIndex": 63,
+              "distancePx": 8.266173259817878,
+              "labelId": "end-064",
+              "predictionId": "det-43"
+            },
+            {
+              "predictionIndex": 44,
+              "labelIndex": 22,
+              "distancePx": 4.7052986470218885,
+              "labelId": "end-023",
+              "predictionId": "det-44"
+            },
+            {
+              "predictionIndex": 45,
+              "labelIndex": 19,
+              "distancePx": 9.427092466121627,
+              "labelId": "end-020",
+              "predictionId": "det-45"
+            },
+            {
+              "predictionIndex": 46,
+              "labelIndex": 91,
+              "distancePx": 5.952106378671132,
+              "labelId": "end-092",
+              "predictionId": "det-46"
+            },
+            {
+              "predictionIndex": 47,
+              "labelIndex": 78,
+              "distancePx": 9.363039652572478,
+              "labelId": "end-079",
+              "predictionId": "det-47"
+            },
+            {
+              "predictionIndex": 48,
+              "labelIndex": 42,
+              "distancePx": 2.167299184417325,
+              "labelId": "end-043",
+              "predictionId": "det-48"
+            },
+            {
+              "predictionIndex": 49,
+              "labelIndex": 99,
+              "distancePx": 7.480245641663055,
+              "labelId": "end-100",
+              "predictionId": "det-49"
+            },
+            {
+              "predictionIndex": 50,
+              "labelIndex": 71,
+              "distancePx": 0.4179014347808518,
+              "labelId": "end-072",
+              "predictionId": "det-50"
+            },
+            {
+              "predictionIndex": 51,
+              "labelIndex": 16,
+              "distancePx": 9.47558045232308,
+              "labelId": "end-017",
+              "predictionId": "det-51"
+            },
+            {
+              "predictionIndex": 52,
+              "labelIndex": 92,
+              "distancePx": 11.528836294904064,
+              "labelId": "end-093",
+              "predictionId": "det-52"
+            },
+            {
+              "predictionIndex": 53,
+              "labelIndex": 0,
+              "distancePx": 4.464677248542697,
+              "labelId": "end-001",
+              "predictionId": "det-53"
+            },
+            {
+              "predictionIndex": 54,
+              "labelIndex": 66,
+              "distancePx": 15.884037479084556,
+              "labelId": "end-067",
+              "predictionId": "det-54"
+            },
+            {
+              "predictionIndex": 55,
+              "labelIndex": 84,
+              "distancePx": 7.688623609848256,
+              "labelId": "end-085",
+              "predictionId": "det-55"
+            },
+            {
+              "predictionIndex": 56,
+              "labelIndex": 1,
+              "distancePx": 3.724955534189563,
+              "labelId": "end-002",
+              "predictionId": "det-56"
+            },
+            {
+              "predictionIndex": 57,
+              "labelIndex": 82,
+              "distancePx": 7.311610241091011,
+              "labelId": "end-083",
+              "predictionId": "det-57"
+            },
+            {
+              "predictionIndex": 58,
+              "labelIndex": 31,
+              "distancePx": 13.818535362174387,
+              "labelId": "end-032",
+              "predictionId": "det-58"
+            },
+            {
+              "predictionIndex": 59,
+              "labelIndex": 21,
+              "distancePx": 5.795962197548406,
+              "labelId": "end-022",
+              "predictionId": "det-59"
+            },
+            {
+              "predictionIndex": 61,
+              "labelIndex": 12,
+              "distancePx": 2.2786574590477233,
+              "labelId": "end-013",
+              "predictionId": "det-61"
+            },
+            {
+              "predictionIndex": 62,
+              "labelIndex": 4,
+              "distancePx": 4.999465913858011,
+              "labelId": "end-005",
+              "predictionId": "det-62"
+            },
+            {
+              "predictionIndex": 63,
+              "labelIndex": 47,
+              "distancePx": 4.247892530421669,
+              "labelId": "end-048",
+              "predictionId": "det-63"
+            },
+            {
+              "predictionIndex": 64,
+              "labelIndex": 69,
+              "distancePx": 2.9765137996344087,
+              "labelId": "end-070",
+              "predictionId": "det-64"
+            },
+            {
+              "predictionIndex": 65,
+              "labelIndex": 46,
+              "distancePx": 8.348581351187313,
+              "labelId": "end-047",
+              "predictionId": "det-65"
+            },
+            {
+              "predictionIndex": 66,
+              "labelIndex": 5,
+              "distancePx": 3.7955568639329633,
+              "labelId": "end-006",
+              "predictionId": "det-66"
+            },
+            {
+              "predictionIndex": 67,
+              "labelIndex": 90,
+              "distancePx": 5.184618045934201,
+              "labelId": "end-091",
+              "predictionId": "det-67"
+            },
+            {
+              "predictionIndex": 68,
+              "labelIndex": 73,
+              "distancePx": 8.380670250648075,
+              "labelId": "end-074",
+              "predictionId": "det-68"
+            },
+            {
+              "predictionIndex": 69,
+              "labelIndex": 44,
+              "distancePx": 6.4031900680907246,
+              "labelId": "end-045",
+              "predictionId": "det-69"
+            },
+            {
+              "predictionIndex": 70,
+              "labelIndex": 8,
+              "distancePx": 4.703294212364253,
+              "labelId": "end-009",
+              "predictionId": "det-70"
+            },
+            {
+              "predictionIndex": 71,
+              "labelIndex": 83,
+              "distancePx": 1.178407897172766,
+              "labelId": "end-084",
+              "predictionId": "det-71"
+            },
+            {
+              "predictionIndex": 72,
+              "labelIndex": 34,
+              "distancePx": 3.388671875,
+              "labelId": "end-035",
+              "predictionId": "det-72"
+            },
+            {
+              "predictionIndex": 73,
+              "labelIndex": 102,
+              "distancePx": 4.345703125,
+              "labelId": "end-103",
+              "predictionId": "det-73"
+            },
+            {
+              "predictionIndex": 74,
+              "labelIndex": 18,
+              "distancePx": 2.919321668297401,
+              "labelId": "end-019",
+              "predictionId": "det-74"
+            },
+            {
+              "predictionIndex": 75,
+              "labelIndex": 101,
+              "distancePx": 10.724866184208988,
+              "labelId": "end-102",
+              "predictionId": "det-75"
+            },
+            {
+              "predictionIndex": 76,
+              "labelIndex": 9,
+              "distancePx": 5.470083891453678,
+              "labelId": "end-010",
+              "predictionId": "det-76"
+            },
+            {
+              "predictionIndex": 77,
+              "labelIndex": 20,
+              "distancePx": 8.487451827933644,
+              "labelId": "end-021",
+              "predictionId": "det-77"
+            },
+            {
+              "predictionIndex": 78,
+              "labelIndex": 72,
+              "distancePx": 11.09132659662101,
+              "labelId": "end-073",
+              "predictionId": "det-78"
+            },
+            {
+              "predictionIndex": 79,
+              "labelIndex": 2,
+              "distancePx": 7.85299866859719,
+              "labelId": "end-003",
+              "predictionId": "det-79"
+            },
+            {
+              "predictionIndex": 80,
+              "labelIndex": 86,
+              "distancePx": 12.065318040319639,
+              "labelId": "end-087",
+              "predictionId": "det-80"
+            },
+            {
+              "predictionIndex": 81,
+              "labelIndex": 85,
+              "distancePx": 7.051924087176409,
+              "labelId": "end-086",
+              "predictionId": "det-81"
+            },
+            {
+              "predictionIndex": 82,
+              "labelIndex": 98,
+              "distancePx": 1.8541126314783358,
+              "labelId": "end-099",
+              "predictionId": "det-82"
+            },
+            {
+              "predictionIndex": 83,
+              "labelIndex": 11,
+              "distancePx": 0.8104439175951007,
+              "labelId": "end-012",
+              "predictionId": "det-83"
+            },
+            {
+              "predictionIndex": 84,
+              "labelIndex": 94,
+              "distancePx": 3.554808226830389,
+              "labelId": "end-095",
+              "predictionId": "det-84"
+            },
+            {
+              "predictionIndex": 85,
+              "labelIndex": 93,
+              "distancePx": 2.924136179339927,
+              "labelId": "end-094",
+              "predictionId": "det-85"
+            },
+            {
+              "predictionIndex": 86,
+              "labelIndex": 25,
+              "distancePx": 7.812652586400537,
+              "labelId": "end-026",
+              "predictionId": "det-86"
+            },
+            {
+              "predictionIndex": 87,
+              "labelIndex": 54,
+              "distancePx": 4.121278876173671,
+              "labelId": "end-055",
+              "predictionId": "det-87"
+            },
+            {
+              "predictionIndex": 88,
+              "labelIndex": 74,
+              "distancePx": 17.485369970188927,
+              "labelId": "end-075",
+              "predictionId": "det-88"
+            },
+            {
+              "predictionIndex": 89,
+              "labelIndex": 15,
+              "distancePx": 3.398852268208215,
+              "labelId": "end-016",
+              "predictionId": "det-89"
+            },
+            {
+              "predictionIndex": 90,
+              "labelIndex": 38,
+              "distancePx": 12.006402056325399,
+              "labelId": "end-039",
+              "predictionId": "det-90"
+            },
+            {
+              "predictionIndex": 91,
+              "labelIndex": 70,
+              "distancePx": 3.257835955272373,
+              "labelId": "end-071",
+              "predictionId": "det-91"
+            }
+          ],
+          "falsePositivePredictionIds": [
+            "det-60"
+          ],
+          "duplicatePredictionIds": [
+            "det-60"
+          ],
+          "missedLabelIds": [
+            "end-011",
+            "end-014",
+            "end-015",
+            "end-027",
+            "end-040",
+            "end-041",
+            "end-042",
+            "end-054",
+            "end-080",
+            "end-096",
+            "end-097",
+            "end-098"
+          ]
+        },
+        "automatic_region": {
+          "TP": 91,
+          "FP": 1,
+          "FN": 12,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 1,
+          "otherFalsePositives": 0,
+          "precision": 0.9891304347826086,
+          "recall": 0.883495145631068,
+          "predictedWholeImageCount": 92,
+          "predictedRegionCount": 92,
+          "confirmedVisibleEndpointCount": 103,
+          "exactCountEligible": true,
+          "signedCountError": -11,
+          "absoluteCountError": 11,
+          "exactCount": false,
+          "matches": [
+            {
+              "predictionIndex": 0,
+              "labelIndex": 67,
+              "distancePx": 4.546378301908288,
+              "labelId": "end-068",
+              "predictionId": "det-0"
+            },
+            {
+              "predictionIndex": 1,
+              "labelIndex": 37,
+              "distancePx": 3.761426682586883,
+              "labelId": "end-038",
+              "predictionId": "det-1"
+            },
+            {
+              "predictionIndex": 2,
+              "labelIndex": 62,
+              "distancePx": 4.202014081412991,
+              "labelId": "end-063",
+              "predictionId": "det-2"
+            },
+            {
+              "predictionIndex": 3,
+              "labelIndex": 76,
+              "distancePx": 4.630134516135812,
+              "labelId": "end-077",
+              "predictionId": "det-3"
+            },
+            {
+              "predictionIndex": 4,
+              "labelIndex": 49,
+              "distancePx": 3.117070628487349,
+              "labelId": "end-050",
+              "predictionId": "det-4"
+            },
+            {
+              "predictionIndex": 5,
+              "labelIndex": 80,
+              "distancePx": 2.3865317413437865,
+              "labelId": "end-081",
+              "predictionId": "det-5"
+            },
+            {
+              "predictionIndex": 6,
+              "labelIndex": 77,
+              "distancePx": 5.573017677984122,
+              "labelId": "end-078",
+              "predictionId": "det-6"
+            },
+            {
+              "predictionIndex": 7,
+              "labelIndex": 50,
+              "distancePx": 7.063524560120521,
+              "labelId": "end-051",
+              "predictionId": "det-7"
+            },
+            {
+              "predictionIndex": 8,
+              "labelIndex": 87,
+              "distancePx": 3.02843037454178,
+              "labelId": "end-088",
+              "predictionId": "det-8"
+            },
+            {
+              "predictionIndex": 9,
+              "labelIndex": 65,
+              "distancePx": 3.016440167714319,
+              "labelId": "end-066",
+              "predictionId": "det-9"
+            },
+            {
+              "predictionIndex": 10,
+              "labelIndex": 75,
+              "distancePx": 4.018789031935258,
+              "labelId": "end-076",
+              "predictionId": "det-10"
+            },
+            {
+              "predictionIndex": 11,
+              "labelIndex": 45,
+              "distancePx": 6.043243421687726,
+              "labelId": "end-046",
+              "predictionId": "det-11"
+            },
+            {
+              "predictionIndex": 12,
+              "labelIndex": 36,
+              "distancePx": 6.439524508153787,
+              "labelId": "end-037",
+              "predictionId": "det-12"
+            },
+            {
+              "predictionIndex": 13,
+              "labelIndex": 81,
+              "distancePx": 6.816728032340335,
+              "labelId": "end-082",
+              "predictionId": "det-13"
+            },
+            {
+              "predictionIndex": 14,
+              "labelIndex": 24,
+              "distancePx": 11.600707565300704,
+              "labelId": "end-025",
+              "predictionId": "det-14"
+            },
+            {
+              "predictionIndex": 15,
+              "labelIndex": 28,
+              "distancePx": 4.9827684067371845,
+              "labelId": "end-029",
+              "predictionId": "det-15"
+            },
+            {
+              "predictionIndex": 16,
+              "labelIndex": 52,
+              "distancePx": 3.9852964046431136,
+              "labelId": "end-053",
+              "predictionId": "det-16"
+            },
+            {
+              "predictionIndex": 17,
+              "labelIndex": 29,
+              "distancePx": 6.9576651505536695,
+              "labelId": "end-030",
+              "predictionId": "det-17"
+            },
+            {
+              "predictionIndex": 18,
+              "labelIndex": 58,
+              "distancePx": 2.738452595833805,
+              "labelId": "end-059",
+              "predictionId": "det-18"
+            },
+            {
+              "predictionIndex": 19,
+              "labelIndex": 64,
+              "distancePx": 6.942322300802711,
+              "labelId": "end-065",
+              "predictionId": "det-19"
+            },
+            {
+              "predictionIndex": 20,
+              "labelIndex": 32,
+              "distancePx": 2.4386898951160263,
+              "labelId": "end-033",
+              "predictionId": "det-20"
+            },
+            {
+              "predictionIndex": 21,
+              "labelIndex": 23,
+              "distancePx": 10.184849306470262,
+              "labelId": "end-024",
+              "predictionId": "det-21"
+            },
+            {
+              "predictionIndex": 22,
+              "labelIndex": 61,
+              "distancePx": 5.717729654641294,
+              "labelId": "end-062",
+              "predictionId": "det-22"
+            },
+            {
+              "predictionIndex": 23,
+              "labelIndex": 89,
+              "distancePx": 3.789377101147003,
+              "labelId": "end-090",
+              "predictionId": "det-23"
+            },
+            {
+              "predictionIndex": 24,
+              "labelIndex": 57,
+              "distancePx": 1.799347875933247,
+              "labelId": "end-058",
+              "predictionId": "det-24"
+            },
+            {
+              "predictionIndex": 25,
+              "labelIndex": 33,
+              "distancePx": 2.383152671671318,
+              "labelId": "end-034",
+              "predictionId": "det-25"
+            },
+            {
+              "predictionIndex": 26,
+              "labelIndex": 30,
+              "distancePx": 3.6332620322087896,
+              "labelId": "end-031",
+              "predictionId": "det-26"
+            },
+            {
+              "predictionIndex": 27,
+              "labelIndex": 6,
+              "distancePx": 7.332189673052063,
+              "labelId": "end-007",
+              "predictionId": "det-27"
+            },
+            {
+              "predictionIndex": 28,
+              "labelIndex": 48,
+              "distancePx": 7.020424880947961,
+              "labelId": "end-049",
+              "predictionId": "det-28"
+            },
+            {
+              "predictionIndex": 29,
+              "labelIndex": 7,
+              "distancePx": 12.149709162743683,
+              "labelId": "end-008",
+              "predictionId": "det-29"
+            },
+            {
+              "predictionIndex": 30,
+              "labelIndex": 68,
+              "distancePx": 5.96175209968886,
+              "labelId": "end-069",
+              "predictionId": "det-30"
+            },
+            {
+              "predictionIndex": 31,
+              "labelIndex": 43,
+              "distancePx": 2.8689837325211003,
+              "labelId": "end-044",
+              "predictionId": "det-31"
+            },
+            {
+              "predictionIndex": 32,
+              "labelIndex": 17,
+              "distancePx": 2.450004390790469,
+              "labelId": "end-018",
+              "predictionId": "det-32"
+            },
+            {
+              "predictionIndex": 33,
+              "labelIndex": 100,
+              "distancePx": 6.080628965370437,
+              "labelId": "end-101",
+              "predictionId": "det-33"
+            },
+            {
+              "predictionIndex": 34,
+              "labelIndex": 60,
+              "distancePx": 4.541742738325813,
+              "labelId": "end-061",
+              "predictionId": "det-34"
+            },
+            {
+              "predictionIndex": 35,
+              "labelIndex": 59,
+              "distancePx": 6.67000945049114,
+              "labelId": "end-060",
+              "predictionId": "det-35"
+            },
+            {
+              "predictionIndex": 36,
+              "labelIndex": 56,
+              "distancePx": 3.705909937267063,
+              "labelId": "end-057",
+              "predictionId": "det-36"
+            },
+            {
+              "predictionIndex": 37,
+              "labelIndex": 27,
+              "distancePx": 8.944716787700457,
+              "labelId": "end-028",
+              "predictionId": "det-37"
+            },
+            {
+              "predictionIndex": 38,
+              "labelIndex": 88,
+              "distancePx": 12.143930660205648,
+              "labelId": "end-089",
+              "predictionId": "det-38"
+            },
+            {
+              "predictionIndex": 39,
+              "labelIndex": 35,
+              "distancePx": 4.714693662819306,
+              "labelId": "end-036",
+              "predictionId": "det-39"
+            },
+            {
+              "predictionIndex": 40,
+              "labelIndex": 55,
+              "distancePx": 5.551772843124992,
+              "labelId": "end-056",
+              "predictionId": "det-40"
+            },
+            {
+              "predictionIndex": 41,
+              "labelIndex": 3,
+              "distancePx": 4.422418567690535,
+              "labelId": "end-004",
+              "predictionId": "det-41"
+            },
+            {
+              "predictionIndex": 42,
+              "labelIndex": 51,
+              "distancePx": 6.739738859556765,
+              "labelId": "end-052",
+              "predictionId": "det-42"
+            },
+            {
+              "predictionIndex": 43,
+              "labelIndex": 63,
+              "distancePx": 8.266173259817878,
+              "labelId": "end-064",
+              "predictionId": "det-43"
+            },
+            {
+              "predictionIndex": 44,
+              "labelIndex": 22,
+              "distancePx": 4.7052986470218885,
+              "labelId": "end-023",
+              "predictionId": "det-44"
+            },
+            {
+              "predictionIndex": 45,
+              "labelIndex": 19,
+              "distancePx": 9.427092466121627,
+              "labelId": "end-020",
+              "predictionId": "det-45"
+            },
+            {
+              "predictionIndex": 46,
+              "labelIndex": 91,
+              "distancePx": 5.952106378671132,
+              "labelId": "end-092",
+              "predictionId": "det-46"
+            },
+            {
+              "predictionIndex": 47,
+              "labelIndex": 78,
+              "distancePx": 9.363039652572478,
+              "labelId": "end-079",
+              "predictionId": "det-47"
+            },
+            {
+              "predictionIndex": 48,
+              "labelIndex": 42,
+              "distancePx": 2.167299184417325,
+              "labelId": "end-043",
+              "predictionId": "det-48"
+            },
+            {
+              "predictionIndex": 49,
+              "labelIndex": 99,
+              "distancePx": 7.480245641663055,
+              "labelId": "end-100",
+              "predictionId": "det-49"
+            },
+            {
+              "predictionIndex": 50,
+              "labelIndex": 71,
+              "distancePx": 0.4179014347808518,
+              "labelId": "end-072",
+              "predictionId": "det-50"
+            },
+            {
+              "predictionIndex": 51,
+              "labelIndex": 16,
+              "distancePx": 9.47558045232308,
+              "labelId": "end-017",
+              "predictionId": "det-51"
+            },
+            {
+              "predictionIndex": 52,
+              "labelIndex": 92,
+              "distancePx": 11.528836294904064,
+              "labelId": "end-093",
+              "predictionId": "det-52"
+            },
+            {
+              "predictionIndex": 53,
+              "labelIndex": 0,
+              "distancePx": 4.464677248542697,
+              "labelId": "end-001",
+              "predictionId": "det-53"
+            },
+            {
+              "predictionIndex": 54,
+              "labelIndex": 66,
+              "distancePx": 15.884037479084556,
+              "labelId": "end-067",
+              "predictionId": "det-54"
+            },
+            {
+              "predictionIndex": 55,
+              "labelIndex": 84,
+              "distancePx": 7.688623609848256,
+              "labelId": "end-085",
+              "predictionId": "det-55"
+            },
+            {
+              "predictionIndex": 56,
+              "labelIndex": 1,
+              "distancePx": 3.724955534189563,
+              "labelId": "end-002",
+              "predictionId": "det-56"
+            },
+            {
+              "predictionIndex": 57,
+              "labelIndex": 82,
+              "distancePx": 7.311610241091011,
+              "labelId": "end-083",
+              "predictionId": "det-57"
+            },
+            {
+              "predictionIndex": 58,
+              "labelIndex": 31,
+              "distancePx": 13.818535362174387,
+              "labelId": "end-032",
+              "predictionId": "det-58"
+            },
+            {
+              "predictionIndex": 59,
+              "labelIndex": 21,
+              "distancePx": 5.795962197548406,
+              "labelId": "end-022",
+              "predictionId": "det-59"
+            },
+            {
+              "predictionIndex": 61,
+              "labelIndex": 12,
+              "distancePx": 2.2786574590477233,
+              "labelId": "end-013",
+              "predictionId": "det-61"
+            },
+            {
+              "predictionIndex": 62,
+              "labelIndex": 4,
+              "distancePx": 4.999465913858011,
+              "labelId": "end-005",
+              "predictionId": "det-62"
+            },
+            {
+              "predictionIndex": 63,
+              "labelIndex": 47,
+              "distancePx": 4.247892530421669,
+              "labelId": "end-048",
+              "predictionId": "det-63"
+            },
+            {
+              "predictionIndex": 64,
+              "labelIndex": 69,
+              "distancePx": 2.9765137996344087,
+              "labelId": "end-070",
+              "predictionId": "det-64"
+            },
+            {
+              "predictionIndex": 65,
+              "labelIndex": 46,
+              "distancePx": 8.348581351187313,
+              "labelId": "end-047",
+              "predictionId": "det-65"
+            },
+            {
+              "predictionIndex": 66,
+              "labelIndex": 5,
+              "distancePx": 3.7955568639329633,
+              "labelId": "end-006",
+              "predictionId": "det-66"
+            },
+            {
+              "predictionIndex": 67,
+              "labelIndex": 90,
+              "distancePx": 5.184618045934201,
+              "labelId": "end-091",
+              "predictionId": "det-67"
+            },
+            {
+              "predictionIndex": 68,
+              "labelIndex": 73,
+              "distancePx": 8.380670250648075,
+              "labelId": "end-074",
+              "predictionId": "det-68"
+            },
+            {
+              "predictionIndex": 69,
+              "labelIndex": 44,
+              "distancePx": 6.4031900680907246,
+              "labelId": "end-045",
+              "predictionId": "det-69"
+            },
+            {
+              "predictionIndex": 70,
+              "labelIndex": 8,
+              "distancePx": 4.703294212364253,
+              "labelId": "end-009",
+              "predictionId": "det-70"
+            },
+            {
+              "predictionIndex": 71,
+              "labelIndex": 83,
+              "distancePx": 1.178407897172766,
+              "labelId": "end-084",
+              "predictionId": "det-71"
+            },
+            {
+              "predictionIndex": 72,
+              "labelIndex": 34,
+              "distancePx": 3.388671875,
+              "labelId": "end-035",
+              "predictionId": "det-72"
+            },
+            {
+              "predictionIndex": 73,
+              "labelIndex": 102,
+              "distancePx": 4.345703125,
+              "labelId": "end-103",
+              "predictionId": "det-73"
+            },
+            {
+              "predictionIndex": 74,
+              "labelIndex": 18,
+              "distancePx": 2.919321668297401,
+              "labelId": "end-019",
+              "predictionId": "det-74"
+            },
+            {
+              "predictionIndex": 75,
+              "labelIndex": 101,
+              "distancePx": 10.724866184208988,
+              "labelId": "end-102",
+              "predictionId": "det-75"
+            },
+            {
+              "predictionIndex": 76,
+              "labelIndex": 9,
+              "distancePx": 5.470083891453678,
+              "labelId": "end-010",
+              "predictionId": "det-76"
+            },
+            {
+              "predictionIndex": 77,
+              "labelIndex": 20,
+              "distancePx": 8.487451827933644,
+              "labelId": "end-021",
+              "predictionId": "det-77"
+            },
+            {
+              "predictionIndex": 78,
+              "labelIndex": 72,
+              "distancePx": 11.09132659662101,
+              "labelId": "end-073",
+              "predictionId": "det-78"
+            },
+            {
+              "predictionIndex": 79,
+              "labelIndex": 2,
+              "distancePx": 7.85299866859719,
+              "labelId": "end-003",
+              "predictionId": "det-79"
+            },
+            {
+              "predictionIndex": 80,
+              "labelIndex": 86,
+              "distancePx": 12.065318040319639,
+              "labelId": "end-087",
+              "predictionId": "det-80"
+            },
+            {
+              "predictionIndex": 81,
+              "labelIndex": 85,
+              "distancePx": 7.051924087176409,
+              "labelId": "end-086",
+              "predictionId": "det-81"
+            },
+            {
+              "predictionIndex": 82,
+              "labelIndex": 98,
+              "distancePx": 1.8541126314783358,
+              "labelId": "end-099",
+              "predictionId": "det-82"
+            },
+            {
+              "predictionIndex": 83,
+              "labelIndex": 11,
+              "distancePx": 0.8104439175951007,
+              "labelId": "end-012",
+              "predictionId": "det-83"
+            },
+            {
+              "predictionIndex": 84,
+              "labelIndex": 94,
+              "distancePx": 3.554808226830389,
+              "labelId": "end-095",
+              "predictionId": "det-84"
+            },
+            {
+              "predictionIndex": 85,
+              "labelIndex": 93,
+              "distancePx": 2.924136179339927,
+              "labelId": "end-094",
+              "predictionId": "det-85"
+            },
+            {
+              "predictionIndex": 86,
+              "labelIndex": 25,
+              "distancePx": 7.812652586400537,
+              "labelId": "end-026",
+              "predictionId": "det-86"
+            },
+            {
+              "predictionIndex": 87,
+              "labelIndex": 54,
+              "distancePx": 4.121278876173671,
+              "labelId": "end-055",
+              "predictionId": "det-87"
+            },
+            {
+              "predictionIndex": 88,
+              "labelIndex": 74,
+              "distancePx": 17.485369970188927,
+              "labelId": "end-075",
+              "predictionId": "det-88"
+            },
+            {
+              "predictionIndex": 89,
+              "labelIndex": 15,
+              "distancePx": 3.398852268208215,
+              "labelId": "end-016",
+              "predictionId": "det-89"
+            },
+            {
+              "predictionIndex": 90,
+              "labelIndex": 38,
+              "distancePx": 12.006402056325399,
+              "labelId": "end-039",
+              "predictionId": "det-90"
+            },
+            {
+              "predictionIndex": 91,
+              "labelIndex": 70,
+              "distancePx": 3.257835955272373,
+              "labelId": "end-071",
+              "predictionId": "det-91"
+            }
+          ],
+          "falsePositivePredictionIds": [
+            "det-60"
+          ],
+          "duplicatePredictionIds": [
+            "det-60"
+          ],
+          "missedLabelIds": [
+            "end-011",
+            "end-014",
+            "end-015",
+            "end-027",
+            "end-040",
+            "end-041",
+            "end-042",
+            "end-054",
+            "end-080",
+            "end-096",
+            "end-097",
+            "end-098"
+          ]
+        }
+      },
+      "selection": {
+        "elapsedSeconds": 0.0003299713134765625,
+        "excluded": [],
+        "fallbackReason": "none",
+        "keptIDs": [
+          "det-0",
+          "det-1",
+          "det-2",
+          "det-3",
+          "det-4",
+          "det-5",
+          "det-6",
+          "det-7",
+          "det-8",
+          "det-9",
+          "det-10",
+          "det-11",
+          "det-12",
+          "det-13",
+          "det-14",
+          "det-15",
+          "det-16",
+          "det-17",
+          "det-18",
+          "det-19",
+          "det-20",
+          "det-21",
+          "det-22",
+          "det-23",
+          "det-24",
+          "det-25",
+          "det-26",
+          "det-27",
+          "det-28",
+          "det-29",
+          "det-30",
+          "det-31",
+          "det-32",
+          "det-33",
+          "det-34",
+          "det-35",
+          "det-36",
+          "det-37",
+          "det-38",
+          "det-39",
+          "det-40",
+          "det-41",
+          "det-42",
+          "det-43",
+          "det-44",
+          "det-45",
+          "det-46",
+          "det-47",
+          "det-48",
+          "det-49",
+          "det-50",
+          "det-51",
+          "det-52",
+          "det-53",
+          "det-54",
+          "det-55",
+          "det-56",
+          "det-57",
+          "det-58",
+          "det-59",
+          "det-60",
+          "det-61",
+          "det-62",
+          "det-63",
+          "det-64",
+          "det-65",
+          "det-66",
+          "det-67",
+          "det-68",
+          "det-69",
+          "det-70",
+          "det-71",
+          "det-72",
+          "det-73",
+          "det-74",
+          "det-75",
+          "det-76",
+          "det-77",
+          "det-78",
+          "det-79",
+          "det-80",
+          "det-81",
+          "det-82",
+          "det-83",
+          "det-84",
+          "det-85",
+          "det-86",
+          "det-87",
+          "det-88",
+          "det-89",
+          "det-90",
+          "det-91"
+        ],
+        "pixelRegions": [
+          [
+            213.55898856630552,
+            735.8035564373993,
+            1420.7259559728577,
+            1244.1964435626007
+          ]
+        ],
+        "regions": [
+          {
+            "height": 0.6283820422033337,
+            "width": 0.7477505031436094,
+            "x": 0.11239946766647659,
+            "y": 0.3716179577966663
+          }
+        ]
+      },
+      "ocrSummary": {
+        "effectiveRevision": 3,
+        "elapsedSeconds": 0.03159809112548828,
+        "status": "completed"
+      },
+      "ocrAreaCount": 0,
+      "change": {
+        "truePositiveChange": 0,
+        "falsePositiveChange": 0,
+        "removedDetectionCount": 0
+      }
+    }
+  ],
+  "limitations": [
+    "Two new online product scenes are a diagnostic holdout, not restaurant field accuracy.",
+    "Square-ended Allegro image is a shape stress case separate from the usual round-skewer population.",
+    "Unknown original-model training-image overlap cannot be ruled out.",
+    "Vision OCR revisions/platform behavior may differ on physical iPhone; this run uses recorded macOS default revision and CPU-only CoreML.",
+    "Only OCR rectangles/confidence/character counts are stored; recognized strings are never emitted.",
+    "Independent score audit and physical-device validation remain separate from this evaluator's completion."
+  ]
+}

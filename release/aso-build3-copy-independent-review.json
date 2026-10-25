@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "reviewDateLocal": "2026-10-24",
+  "result": "PASS_COPY_REVIEW",
+  "target": {
+    "bundleId": "x.Count-stick",
+    "version": "1.0",
+    "build": "3",
+    "appStoreIdReportedByReleaseOperator": "6826601708"
+  },
+  "scope": "Independent read-only review of Build3 English/Simplified Chinese ASO copy; no API reads/writes or metadata mutations in this pass.",
+  "inputs": [
+    {
+      "path": "release/metadata-draft.json",
+      "sha256": "dd09fbe98c738f44406fa4f62f3d6c0c5627c192c4ac107cb0fa3b9fd84f1f0d"
+    },
+    {
+      "path": "release/ASO-brief.json",
+      "sha256": "858412aa410ef4715c8007ad81e49b75de4d97825386ae3e88bdb3080307ad53"
+    }
+  ],
+  "localeChecks": {
+    "en-US": {
+      "nameCharacters": 27,
+      "subtitleCharacters": 27,
+      "keywordsUTF8Bytes": 75,
+      "promotionalTextCharacters": 162,
+      "descriptionCharacters": 1623,
+      "fieldLimits": "PASS",
+      "keywordBytesIncludeCommas": true,
+      "duplicateKeywordTerms": false,
+      "whatsNewIsNull": true,
+      "briefAndDraftFieldsMatch": true,
+      "grammarAndClarity": "PASS",
+      "featureAndLimitationAccuracy": "PASS",
+      "paidOnceNoIAPNoSubscription": "PASS"
+    },
+    "zh-Hans": {
+      "nameCharacters": 17,
+      "subtitleCharacters": 13,
+      "keywordsUTF8Bytes": 62,
+      "promotionalTextCharacters": 68,
+      "descriptionCharacters": 583,
+      "fieldLimits": "PASS",
+      "keywordBytesIncludeCommas": true,
+      "duplicateKeywordTerms": false,
+      "whatsNewIsNull": true,
+      "briefAndDraftFieldsMatch": true,
+      "grammarAndClarity": "PASS",
+      "featureAndLimitationAccuracy": "PASS",
+      "paidOnceNoIAPNoSubscription": "PASS"
+    }
+  },
+  "semanticChecks": [
+    {
+      "topic": "Target use case",
+      "result": "PASS",
+      "basis": "Both locales describe exposed/visible ends of a skewer bundle, not arbitrary-object recognition."
+    },
+    {
+      "topic": "Automatic reference area and fallback",
+      "result": "PASS",
+      "basis": "Copy calls the outline estimated, explains missed ends can lie inside or outside, requires whole-photo checking and preserves editing when no region is determined."
+    },
+    {
+      "topic": "Manual correction and persistence",
+      "result": "PASS",
+      "basis": "Add/remove anywhere, Undo, notes, local history, reopen/delete and marked-image sharing match Build3 behavior. No manual crop or ROI-selection step is claimed."
+    },
+    {
+      "topic": "Processing/privacy",
+      "result": "PASS",
+      "basis": "On-device counting and local text-region analysis, no remote photo-processing service, no login, and local non-synced history match the implementation; recognized OCR strings are not persisted."
+    },
+    {
+      "topic": "Monetization",
+      "result": "PASS",
+      "basis": "Paid download with one purchase, no IAP/subscription/ads; no hardcoded regional currency amount in global descriptions. Live CNY12 pricing is a separate operator verification."
+    },
+    {
+      "topic": "Claims and competitive terms",
+      "result": "PASS",
+      "basis": "No accuracy percentage, speed/capacity guarantee, reliable automated checkout or payment-collection claim. Research-only competitor names are absent from selected title/subtitle/keyword/description copy."
+    },
+    {
+      "topic": "Initial version",
+      "result": "PASS",
+      "basis": "whatsNew is null in both locales."
+    },
+    {
+      "topic": "ASO consistency",
+      "result": "PASS",
+      "basis": "Selected title/subtitle/keywords and first-three screenshot copy exactly agree between brief and metadata draft. Research hypotheses are not represented as measured rank, volume or conversion results."
+    }
+  ],
+  "implementationEvidence": [
+    "release/pre-submit-build3-review.json",
+    "release/automatic-region-build-review.json"
+  ],
+  "issues": [],
+  "scopeNotes": [
+    "Local preparation files still retain null appStoreId and pending-live status fields. The release operator/ASO agent reports the new target ID and matching live field readback; this pass verifies content rather than independently certifying live state.",
+    "No counting field-accuracy certification is implied; disclosed estimate/manual-review positioning is retained.",
+    "Final visual/processed App Store placements are outside this copy pass and belong to the asset/upload review."
+  ]
+}

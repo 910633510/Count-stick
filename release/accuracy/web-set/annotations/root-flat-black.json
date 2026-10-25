@@ -1,0 +1,2637 @@
+{
+  "schemaVersion": 1,
+  "imageId": "root-flat-black",
+  "imageSha256": "5ca15f1126358d947030bc865748194accd8a4caa47a8bb63de5d4759a4b9d45",
+  "width": 800,
+  "height": 800,
+  "coordinateSystem": "upright image pixels, top-left",
+  "scope": "full_image",
+  "evaluationRegion": {
+    "xywh": [
+      0,
+      0,
+      800,
+      800
+    ]
+  },
+  "points": [
+    {
+      "id": "p001",
+      "x": 257,
+      "y": 187,
+      "matchRadius": 14,
+      "bbox": [
+        249,
+        176,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p002",
+      "x": 276,
+      "y": 179,
+      "matchRadius": 14,
+      "bbox": [
+        268,
+        168,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p003",
+      "x": 302,
+      "y": 169,
+      "matchRadius": 14,
+      "bbox": [
+        294,
+        158,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p004",
+      "x": 314,
+      "y": 181,
+      "matchRadius": 14,
+      "bbox": [
+        306,
+        170,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p005",
+      "x": 331,
+      "y": 184,
+      "matchRadius": 14,
+      "bbox": [
+        323,
+        173,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p006",
+      "x": 212,
+      "y": 214,
+      "matchRadius": 14,
+      "bbox": [
+        204,
+        203,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p007",
+      "x": 224,
+      "y": 214,
+      "matchRadius": 14,
+      "bbox": [
+        216,
+        203,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p008",
+      "x": 239,
+      "y": 195,
+      "matchRadius": 14,
+      "bbox": [
+        231,
+        184,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p009",
+      "x": 276,
+      "y": 206,
+      "matchRadius": 14,
+      "bbox": [
+        268,
+        195,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p010",
+      "x": 298,
+      "y": 201,
+      "matchRadius": 14,
+      "bbox": [
+        290,
+        190,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p011",
+      "x": 318,
+      "y": 207,
+      "matchRadius": 14,
+      "bbox": [
+        310,
+        196,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p012",
+      "x": 338,
+      "y": 210,
+      "matchRadius": 14,
+      "bbox": [
+        330,
+        199,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p013",
+      "x": 347,
+      "y": 195,
+      "matchRadius": 14,
+      "bbox": [
+        339,
+        184,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p014",
+      "x": 368,
+      "y": 195,
+      "matchRadius": 14,
+      "bbox": [
+        360,
+        184,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p015",
+      "x": 210,
+      "y": 236,
+      "matchRadius": 14,
+      "bbox": [
+        202,
+        225,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p016",
+      "x": 226,
+      "y": 234,
+      "matchRadius": 14,
+      "bbox": [
+        218,
+        223,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p017",
+      "x": 244,
+      "y": 222,
+      "matchRadius": 14,
+      "bbox": [
+        236,
+        211,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p018",
+      "x": 256,
+      "y": 231,
+      "matchRadius": 14,
+      "bbox": [
+        248,
+        220,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p019",
+      "x": 259,
+      "y": 219,
+      "matchRadius": 14,
+      "bbox": [
+        251,
+        208,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p020",
+      "x": 277,
+      "y": 229,
+      "matchRadius": 14,
+      "bbox": [
+        269,
+        218,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p021",
+      "x": 292,
+      "y": 219,
+      "matchRadius": 14,
+      "bbox": [
+        284,
+        208,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p022",
+      "x": 303,
+      "y": 239,
+      "matchRadius": 14,
+      "bbox": [
+        295,
+        228,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p023",
+      "x": 310,
+      "y": 221,
+      "matchRadius": 14,
+      "bbox": [
+        302,
+        210,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p024",
+      "x": 328,
+      "y": 223,
+      "matchRadius": 14,
+      "bbox": [
+        320,
+        212,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p025",
+      "x": 347,
+      "y": 225,
+      "matchRadius": 14,
+      "bbox": [
+        339,
+        214,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p026",
+      "x": 356,
+      "y": 218,
+      "matchRadius": 14,
+      "bbox": [
+        348,
+        207,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p027",
+      "x": 378,
+      "y": 218,
+      "matchRadius": 14,
+      "bbox": [
+        370,
+        207,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p028",
+      "x": 395,
+      "y": 224,
+      "matchRadius": 14,
+      "bbox": [
+        387,
+        213,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p029",
+      "x": 191,
+      "y": 245,
+      "matchRadius": 14,
+      "bbox": [
+        183,
+        234,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p030",
+      "x": 207,
+      "y": 255,
+      "matchRadius": 14,
+      "bbox": [
+        199,
+        244,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p031",
+      "x": 230,
+      "y": 252,
+      "matchRadius": 14,
+      "bbox": [
+        222,
+        241,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p032",
+      "x": 247,
+      "y": 244,
+      "matchRadius": 14,
+      "bbox": [
+        239,
+        233,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p033",
+      "x": 261,
+      "y": 256,
+      "matchRadius": 14,
+      "bbox": [
+        253,
+        245,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p034",
+      "x": 292,
+      "y": 258,
+      "matchRadius": 14,
+      "bbox": [
+        284,
+        247,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p035",
+      "x": 322,
+      "y": 241,
+      "matchRadius": 14,
+      "bbox": [
+        314,
+        230,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p036",
+      "x": 343,
+      "y": 256,
+      "matchRadius": 14,
+      "bbox": [
+        335,
+        245,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p037",
+      "x": 360,
+      "y": 254,
+      "matchRadius": 14,
+      "bbox": [
+        352,
+        243,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p038",
+      "x": 370,
+      "y": 243,
+      "matchRadius": 14,
+      "bbox": [
+        362,
+        232,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p039",
+      "x": 381,
+      "y": 254,
+      "matchRadius": 14,
+      "bbox": [
+        373,
+        243,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p040",
+      "x": 406,
+      "y": 247,
+      "matchRadius": 14,
+      "bbox": [
+        398,
+        236,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p041",
+      "x": 183,
+      "y": 285,
+      "matchRadius": 14,
+      "bbox": [
+        175,
+        274,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p042",
+      "x": 200,
+      "y": 273,
+      "matchRadius": 14,
+      "bbox": [
+        192,
+        262,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p043",
+      "x": 244,
+      "y": 276,
+      "matchRadius": 14,
+      "bbox": [
+        236,
+        265,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p044",
+      "x": 265,
+      "y": 284,
+      "matchRadius": 14,
+      "bbox": [
+        257,
+        273,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p045",
+      "x": 276,
+      "y": 273,
+      "matchRadius": 14,
+      "bbox": [
+        268,
+        262,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p046",
+      "x": 292,
+      "y": 285,
+      "matchRadius": 14,
+      "bbox": [
+        284,
+        274,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p047",
+      "x": 314,
+      "y": 265,
+      "matchRadius": 14,
+      "bbox": [
+        306,
+        254,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p048",
+      "x": 335,
+      "y": 271,
+      "matchRadius": 14,
+      "bbox": [
+        327,
+        260,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p049",
+      "x": 350,
+      "y": 281,
+      "matchRadius": 14,
+      "bbox": [
+        342,
+        270,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p050",
+      "x": 372,
+      "y": 276,
+      "matchRadius": 14,
+      "bbox": [
+        364,
+        265,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p051",
+      "x": 390,
+      "y": 283,
+      "matchRadius": 14,
+      "bbox": [
+        382,
+        272,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p052",
+      "x": 403,
+      "y": 267,
+      "matchRadius": 14,
+      "bbox": [
+        395,
+        256,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p053",
+      "x": 415,
+      "y": 280,
+      "matchRadius": 14,
+      "bbox": [
+        407,
+        269,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p054",
+      "x": 440,
+      "y": 279,
+      "matchRadius": 14,
+      "bbox": [
+        432,
+        268,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p055",
+      "x": 213,
+      "y": 310,
+      "matchRadius": 14,
+      "bbox": [
+        205,
+        299,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p056",
+      "x": 217,
+      "y": 289,
+      "matchRadius": 14,
+      "bbox": [
+        209,
+        278,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p057",
+      "x": 245,
+      "y": 301,
+      "matchRadius": 14,
+      "bbox": [
+        237,
+        290,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p058",
+      "x": 307,
+      "y": 302,
+      "matchRadius": 14,
+      "bbox": [
+        299,
+        291,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p059",
+      "x": 322,
+      "y": 289,
+      "matchRadius": 14,
+      "bbox": [
+        314,
+        278,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p060",
+      "x": 341,
+      "y": 300,
+      "matchRadius": 14,
+      "bbox": [
+        333,
+        289,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p061",
+      "x": 384,
+      "y": 303,
+      "matchRadius": 14,
+      "bbox": [
+        376,
+        292,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p062",
+      "x": 408,
+      "y": 305,
+      "matchRadius": 14,
+      "bbox": [
+        400,
+        294,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p063",
+      "x": 429,
+      "y": 309,
+      "matchRadius": 14,
+      "bbox": [
+        421,
+        298,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p064",
+      "x": 182,
+      "y": 315,
+      "matchRadius": 14,
+      "bbox": [
+        174,
+        304,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p065",
+      "x": 198,
+      "y": 323,
+      "matchRadius": 14,
+      "bbox": [
+        190,
+        312,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p066",
+      "x": 232,
+      "y": 312,
+      "matchRadius": 14,
+      "bbox": [
+        224,
+        301,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p067",
+      "x": 266,
+      "y": 315,
+      "matchRadius": 14,
+      "bbox": [
+        258,
+        304,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p068",
+      "x": 280,
+      "y": 324,
+      "matchRadius": 14,
+      "bbox": [
+        272,
+        313,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p069",
+      "x": 294,
+      "y": 318,
+      "matchRadius": 14,
+      "bbox": [
+        286,
+        307,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p070",
+      "x": 312,
+      "y": 329,
+      "matchRadius": 14,
+      "bbox": [
+        304,
+        318,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p071",
+      "x": 330,
+      "y": 318,
+      "matchRadius": 14,
+      "bbox": [
+        322,
+        307,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p072",
+      "x": 347,
+      "y": 330,
+      "matchRadius": 14,
+      "bbox": [
+        339,
+        319,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p073",
+      "x": 353,
+      "y": 315,
+      "matchRadius": 14,
+      "bbox": [
+        345,
+        304,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p074",
+      "x": 375,
+      "y": 324,
+      "matchRadius": 14,
+      "bbox": [
+        367,
+        313,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p075",
+      "x": 396,
+      "y": 331,
+      "matchRadius": 14,
+      "bbox": [
+        388,
+        320,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p076",
+      "x": 434,
+      "y": 330,
+      "matchRadius": 14,
+      "bbox": [
+        426,
+        319,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p077",
+      "x": 445,
+      "y": 315,
+      "matchRadius": 14,
+      "bbox": [
+        437,
+        304,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p078",
+      "x": 183,
+      "y": 338,
+      "matchRadius": 14,
+      "bbox": [
+        175,
+        327,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p079",
+      "x": 207,
+      "y": 351,
+      "matchRadius": 14,
+      "bbox": [
+        199,
+        340,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p080",
+      "x": 217,
+      "y": 337,
+      "matchRadius": 14,
+      "bbox": [
+        209,
+        326,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p081",
+      "x": 239,
+      "y": 339,
+      "matchRadius": 14,
+      "bbox": [
+        231,
+        328,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p082",
+      "x": 253,
+      "y": 352,
+      "matchRadius": 14,
+      "bbox": [
+        245,
+        341,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p083",
+      "x": 261,
+      "y": 337,
+      "matchRadius": 14,
+      "bbox": [
+        253,
+        326,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p084",
+      "x": 283,
+      "y": 354,
+      "matchRadius": 14,
+      "bbox": [
+        275,
+        343,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p085",
+      "x": 298,
+      "y": 344,
+      "matchRadius": 14,
+      "bbox": [
+        290,
+        333,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p086",
+      "x": 318,
+      "y": 355,
+      "matchRadius": 14,
+      "bbox": [
+        310,
+        344,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p087",
+      "x": 337,
+      "y": 342,
+      "matchRadius": 14,
+      "bbox": [
+        329,
+        331,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p088",
+      "x": 350,
+      "y": 359,
+      "matchRadius": 14,
+      "bbox": [
+        342,
+        348,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p089",
+      "x": 365,
+      "y": 342,
+      "matchRadius": 14,
+      "bbox": [
+        357,
+        331,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p090",
+      "x": 383,
+      "y": 348,
+      "matchRadius": 14,
+      "bbox": [
+        375,
+        337,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p091",
+      "x": 407,
+      "y": 350,
+      "matchRadius": 14,
+      "bbox": [
+        399,
+        339,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p092",
+      "x": 429,
+      "y": 354,
+      "matchRadius": 14,
+      "bbox": [
+        421,
+        343,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p093",
+      "x": 457,
+      "y": 344,
+      "matchRadius": 14,
+      "bbox": [
+        449,
+        333,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p094",
+      "x": 194,
+      "y": 362,
+      "matchRadius": 14,
+      "bbox": [
+        186,
+        351,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p095",
+      "x": 209,
+      "y": 381,
+      "matchRadius": 14,
+      "bbox": [
+        201,
+        370,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p096",
+      "x": 222,
+      "y": 372,
+      "matchRadius": 14,
+      "bbox": [
+        214,
+        361,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p097",
+      "x": 234,
+      "y": 362,
+      "matchRadius": 14,
+      "bbox": [
+        226,
+        351,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p098",
+      "x": 265,
+      "y": 375,
+      "matchRadius": 14,
+      "bbox": [
+        257,
+        364,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p099",
+      "x": 287,
+      "y": 375,
+      "matchRadius": 14,
+      "bbox": [
+        279,
+        364,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p100",
+      "x": 303,
+      "y": 362,
+      "matchRadius": 14,
+      "bbox": [
+        295,
+        351,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p101",
+      "x": 323,
+      "y": 383,
+      "matchRadius": 14,
+      "bbox": [
+        315,
+        372,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p102",
+      "x": 338,
+      "y": 378,
+      "matchRadius": 14,
+      "bbox": [
+        330,
+        367,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p103",
+      "x": 375,
+      "y": 364,
+      "matchRadius": 14,
+      "bbox": [
+        367,
+        353,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p104",
+      "x": 396,
+      "y": 369,
+      "matchRadius": 14,
+      "bbox": [
+        388,
+        358,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p105",
+      "x": 416,
+      "y": 383,
+      "matchRadius": 14,
+      "bbox": [
+        408,
+        372,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p106",
+      "x": 452,
+      "y": 365,
+      "matchRadius": 14,
+      "bbox": [
+        444,
+        354,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p107",
+      "x": 469,
+      "y": 363,
+      "matchRadius": 14,
+      "bbox": [
+        461,
+        352,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p108",
+      "x": 197,
+      "y": 392,
+      "matchRadius": 14,
+      "bbox": [
+        189,
+        381,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p109",
+      "x": 217,
+      "y": 402,
+      "matchRadius": 14,
+      "bbox": [
+        209,
+        391,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p110",
+      "x": 233,
+      "y": 391,
+      "matchRadius": 14,
+      "bbox": [
+        225,
+        380,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p111",
+      "x": 243,
+      "y": 405,
+      "matchRadius": 14,
+      "bbox": [
+        235,
+        394,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p112",
+      "x": 251,
+      "y": 385,
+      "matchRadius": 14,
+      "bbox": [
+        243,
+        374,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p113",
+      "x": 262,
+      "y": 406,
+      "matchRadius": 14,
+      "bbox": [
+        254,
+        395,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p114",
+      "x": 277,
+      "y": 392,
+      "matchRadius": 14,
+      "bbox": [
+        269,
+        381,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p115",
+      "x": 291,
+      "y": 404,
+      "matchRadius": 14,
+      "bbox": [
+        283,
+        393,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p116",
+      "x": 308,
+      "y": 388,
+      "matchRadius": 14,
+      "bbox": [
+        300,
+        377,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p117",
+      "x": 342,
+      "y": 401,
+      "matchRadius": 14,
+      "bbox": [
+        334,
+        390,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p118",
+      "x": 356,
+      "y": 386,
+      "matchRadius": 14,
+      "bbox": [
+        348,
+        375,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p119",
+      "x": 371,
+      "y": 386,
+      "matchRadius": 14,
+      "bbox": [
+        363,
+        375,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p120",
+      "x": 391,
+      "y": 391,
+      "matchRadius": 14,
+      "bbox": [
+        383,
+        380,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p121",
+      "x": 427,
+      "y": 405,
+      "matchRadius": 14,
+      "bbox": [
+        419,
+        394,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p122",
+      "x": 446,
+      "y": 385,
+      "matchRadius": 14,
+      "bbox": [
+        438,
+        374,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p123",
+      "x": 477,
+      "y": 391,
+      "matchRadius": 14,
+      "bbox": [
+        469,
+        380,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p124",
+      "x": 197,
+      "y": 421,
+      "matchRadius": 14,
+      "bbox": [
+        189,
+        410,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p125",
+      "x": 233,
+      "y": 425,
+      "matchRadius": 14,
+      "bbox": [
+        225,
+        414,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p126",
+      "x": 279,
+      "y": 419,
+      "matchRadius": 14,
+      "bbox": [
+        271,
+        408,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p127",
+      "x": 308,
+      "y": 421,
+      "matchRadius": 14,
+      "bbox": [
+        300,
+        410,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p128",
+      "x": 324,
+      "y": 410,
+      "matchRadius": 14,
+      "bbox": [
+        316,
+        399,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p129",
+      "x": 335,
+      "y": 422,
+      "matchRadius": 14,
+      "bbox": [
+        327,
+        411,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p130",
+      "x": 365,
+      "y": 417,
+      "matchRadius": 14,
+      "bbox": [
+        357,
+        406,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p131",
+      "x": 384,
+      "y": 417,
+      "matchRadius": 14,
+      "bbox": [
+        376,
+        406,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p132",
+      "x": 408,
+      "y": 420,
+      "matchRadius": 14,
+      "bbox": [
+        400,
+        409,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p133",
+      "x": 442,
+      "y": 430,
+      "matchRadius": 14,
+      "bbox": [
+        434,
+        419,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p134",
+      "x": 448,
+      "y": 412,
+      "matchRadius": 14,
+      "bbox": [
+        440,
+        401,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p135",
+      "x": 464,
+      "y": 426,
+      "matchRadius": 14,
+      "bbox": [
+        456,
+        415,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p136",
+      "x": 213,
+      "y": 451,
+      "matchRadius": 14,
+      "bbox": [
+        205,
+        440,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p137",
+      "x": 231,
+      "y": 449,
+      "matchRadius": 14,
+      "bbox": [
+        223,
+        438,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p138",
+      "x": 247,
+      "y": 441,
+      "matchRadius": 14,
+      "bbox": [
+        239,
+        430,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p139",
+      "x": 265,
+      "y": 447,
+      "matchRadius": 14,
+      "bbox": [
+        257,
+        436,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p140",
+      "x": 295,
+      "y": 435,
+      "matchRadius": 14,
+      "bbox": [
+        287,
+        424,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p141",
+      "x": 314,
+      "y": 451,
+      "matchRadius": 14,
+      "bbox": [
+        306,
+        440,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p142",
+      "x": 326,
+      "y": 438,
+      "matchRadius": 14,
+      "bbox": [
+        318,
+        427,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p143",
+      "x": 347,
+      "y": 445,
+      "matchRadius": 14,
+      "bbox": [
+        339,
+        434,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p144",
+      "x": 367,
+      "y": 451,
+      "matchRadius": 14,
+      "bbox": [
+        359,
+        440,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p145",
+      "x": 381,
+      "y": 440,
+      "matchRadius": 14,
+      "bbox": [
+        373,
+        429,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p146",
+      "x": 385,
+      "y": 455,
+      "matchRadius": 14,
+      "bbox": [
+        377,
+        444,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p147",
+      "x": 407,
+      "y": 441,
+      "matchRadius": 14,
+      "bbox": [
+        399,
+        430,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p148",
+      "x": 431,
+      "y": 443,
+      "matchRadius": 14,
+      "bbox": [
+        423,
+        432,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p149",
+      "x": 453,
+      "y": 444,
+      "matchRadius": 14,
+      "bbox": [
+        445,
+        433,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p150",
+      "x": 467,
+      "y": 449,
+      "matchRadius": 14,
+      "bbox": [
+        459,
+        438,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p151",
+      "x": 227,
+      "y": 471,
+      "matchRadius": 14,
+      "bbox": [
+        219,
+        460,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p152",
+      "x": 251,
+      "y": 479,
+      "matchRadius": 14,
+      "bbox": [
+        243,
+        468,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p153",
+      "x": 252,
+      "y": 462,
+      "matchRadius": 14,
+      "bbox": [
+        244,
+        451,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p154",
+      "x": 267,
+      "y": 477,
+      "matchRadius": 14,
+      "bbox": [
+        259,
+        466,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p155",
+      "x": 282,
+      "y": 460,
+      "matchRadius": 14,
+      "bbox": [
+        274,
+        449,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p156",
+      "x": 299,
+      "y": 475,
+      "matchRadius": 14,
+      "bbox": [
+        291,
+        464,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p157",
+      "x": 318,
+      "y": 479,
+      "matchRadius": 14,
+      "bbox": [
+        310,
+        468,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p158",
+      "x": 327,
+      "y": 460,
+      "matchRadius": 14,
+      "bbox": [
+        319,
+        449,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p159",
+      "x": 343,
+      "y": 463,
+      "matchRadius": 14,
+      "bbox": [
+        335,
+        452,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p160",
+      "x": 401,
+      "y": 462,
+      "matchRadius": 14,
+      "bbox": [
+        393,
+        451,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p161",
+      "x": 418,
+      "y": 465,
+      "matchRadius": 14,
+      "bbox": [
+        410,
+        454,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p162",
+      "x": 441,
+      "y": 472,
+      "matchRadius": 14,
+      "bbox": [
+        433,
+        461,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p163",
+      "x": 470,
+      "y": 466,
+      "matchRadius": 14,
+      "bbox": [
+        462,
+        455,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p164",
+      "x": 232,
+      "y": 496,
+      "matchRadius": 14,
+      "bbox": [
+        224,
+        485,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p165",
+      "x": 278,
+      "y": 485,
+      "matchRadius": 14,
+      "bbox": [
+        270,
+        474,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p166",
+      "x": 300,
+      "y": 501,
+      "matchRadius": 14,
+      "bbox": [
+        292,
+        490,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p167",
+      "x": 335,
+      "y": 487,
+      "matchRadius": 14,
+      "bbox": [
+        327,
+        476,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p168",
+      "x": 351,
+      "y": 496,
+      "matchRadius": 14,
+      "bbox": [
+        343,
+        485,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p169",
+      "x": 360,
+      "y": 482,
+      "matchRadius": 14,
+      "bbox": [
+        352,
+        471,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p170",
+      "x": 382,
+      "y": 485,
+      "matchRadius": 14,
+      "bbox": [
+        374,
+        474,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p171",
+      "x": 396,
+      "y": 486,
+      "matchRadius": 14,
+      "bbox": [
+        388,
+        475,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p172",
+      "x": 414,
+      "y": 496,
+      "matchRadius": 14,
+      "bbox": [
+        406,
+        485,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p173",
+      "x": 430,
+      "y": 491,
+      "matchRadius": 14,
+      "bbox": [
+        422,
+        480,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p174",
+      "x": 463,
+      "y": 495,
+      "matchRadius": 14,
+      "bbox": [
+        455,
+        484,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p175",
+      "x": 253,
+      "y": 510,
+      "matchRadius": 14,
+      "bbox": [
+        245,
+        499,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p176",
+      "x": 273,
+      "y": 504,
+      "matchRadius": 14,
+      "bbox": [
+        265,
+        493,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p177",
+      "x": 287,
+      "y": 515,
+      "matchRadius": 14,
+      "bbox": [
+        279,
+        504,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p178",
+      "x": 325,
+      "y": 510,
+      "matchRadius": 14,
+      "bbox": [
+        317,
+        499,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p179",
+      "x": 332,
+      "y": 524,
+      "matchRadius": 14,
+      "bbox": [
+        324,
+        513,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p180",
+      "x": 340,
+      "y": 510,
+      "matchRadius": 14,
+      "bbox": [
+        332,
+        499,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p181",
+      "x": 357,
+      "y": 518,
+      "matchRadius": 14,
+      "bbox": [
+        349,
+        507,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p182",
+      "x": 369,
+      "y": 504,
+      "matchRadius": 14,
+      "bbox": [
+        361,
+        493,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p183",
+      "x": 389,
+      "y": 509,
+      "matchRadius": 14,
+      "bbox": [
+        381,
+        498,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p184",
+      "x": 404,
+      "y": 513,
+      "matchRadius": 14,
+      "bbox": [
+        396,
+        502,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p185",
+      "x": 431,
+      "y": 523,
+      "matchRadius": 14,
+      "bbox": [
+        423,
+        512,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p186",
+      "x": 448,
+      "y": 510,
+      "matchRadius": 14,
+      "bbox": [
+        440,
+        499,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p187",
+      "x": 284,
+      "y": 536,
+      "matchRadius": 14,
+      "bbox": [
+        276,
+        525,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p188",
+      "x": 299,
+      "y": 545,
+      "matchRadius": 14,
+      "bbox": [
+        291,
+        534,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p189",
+      "x": 310,
+      "y": 528,
+      "matchRadius": 14,
+      "bbox": [
+        302,
+        517,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p190",
+      "x": 347,
+      "y": 541,
+      "matchRadius": 14,
+      "bbox": [
+        339,
+        530,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p191",
+      "x": 367,
+      "y": 551,
+      "matchRadius": 14,
+      "bbox": [
+        359,
+        540,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p192",
+      "x": 382,
+      "y": 529,
+      "matchRadius": 14,
+      "bbox": [
+        374,
+        518,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p193",
+      "x": 391,
+      "y": 549,
+      "matchRadius": 14,
+      "bbox": [
+        383,
+        538,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p194",
+      "x": 399,
+      "y": 535,
+      "matchRadius": 14,
+      "bbox": [
+        391,
+        524,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p195",
+      "x": 423,
+      "y": 540,
+      "matchRadius": 14,
+      "bbox": [
+        415,
+        529,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p196",
+      "x": 459,
+      "y": 530,
+      "matchRadius": 14,
+      "bbox": [
+        451,
+        519,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p197",
+      "x": 320,
+      "y": 554,
+      "matchRadius": 14,
+      "bbox": [
+        312,
+        543,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p198",
+      "x": 338,
+      "y": 561,
+      "matchRadius": 14,
+      "bbox": [
+        330,
+        550,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p199",
+      "x": 356,
+      "y": 567,
+      "matchRadius": 14,
+      "bbox": [
+        348,
+        556,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p200",
+      "x": 377,
+      "y": 575,
+      "matchRadius": 14,
+      "bbox": [
+        369,
+        564,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p201",
+      "x": 409,
+      "y": 558,
+      "matchRadius": 14,
+      "bbox": [
+        401,
+        547,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p202",
+      "x": 425,
+      "y": 573,
+      "matchRadius": 14,
+      "bbox": [
+        417,
+        562,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p203",
+      "x": 441,
+      "y": 556,
+      "matchRadius": 14,
+      "bbox": [
+        433,
+        545,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p204",
+      "x": 400,
+      "y": 577,
+      "matchRadius": 14,
+      "bbox": [
+        392,
+        566,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p205",
+      "x": 277,
+      "y": 253,
+      "matchRadius": 14,
+      "bbox": [
+        269,
+        242,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p206",
+      "x": 249,
+      "y": 326,
+      "matchRadius": 14,
+      "bbox": [
+        241,
+        315,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p207",
+      "x": 215,
+      "y": 427,
+      "matchRadius": 14,
+      "bbox": [
+        207,
+        416,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p208",
+      "x": 293,
+      "y": 452,
+      "matchRadius": 14,
+      "bbox": [
+        285,
+        441,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p209",
+      "x": 389,
+      "y": 239,
+      "matchRadius": 14,
+      "bbox": [
+        381,
+        228,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p210",
+      "x": 279,
+      "y": 302,
+      "matchRadius": 14,
+      "bbox": [
+        271,
+        291,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p211",
+      "x": 365,
+      "y": 303,
+      "matchRadius": 14,
+      "bbox": [
+        357,
+        292,
+        16,
+        22
+      ]
+    },
+    {
+      "id": "p212",
+      "x": 411,
+      "y": 397,
+      "matchRadius": 14,
+      "bbox": [
+        403,
+        386,
+        16,
+        22
+      ]
+    }
+  ],
+  "ignoreRegions": [],
+  "visibleEndpointCount": 212,
+  "completeCountVerified": true,
+  "review": {
+    "status": "reviewed_frozen",
+    "annotator": "root",
+    "reviewer": "skill_update independent raw-image face audit; additions confirmed by root",
+    "notes": [
+      "Manual visual pass of three enlarged raw-image sections. Classical difference-of-Gaussian pixel maxima used only as unreviewed click proposals, then manually removed shaft/duplicate points, added missed faces and repositioned centers. No Count Stick detector/model output was viewed or used.",
+      "Needs independent whole-image verification before freezing. Centers approximate with about4px annotation uncertainty; all counts derive from visible endpoints, not retailer pack quantity.",
+      "Independent reviewer inspected raw image, all three enlarged numbered sections, both section seams, and eight individual raw-image gaps. Added 8 distinct missed faces after inspection. No duplicate labels identified. No Count Stick predictions viewed. Pending root agreement on additions before freeze.",
+      "Dense original 800px image limits exact centroid placement; some original points may have about 5-8px center uncertainty. Matching radii/bboxes are approximate and require tolerance sensitivity, not pixel-exact segmentation claims.",
+      "Eight independently identified missed faces confirmed by root before inference;212visiblefaces. Match radius14px predeclared to include5–8px manualcenter uncertainty; report tolerance sensitivity. No package counts or app detector predictions used."
+    ],
+    "reviewedAtUTC": "2026-10-23T13:10:43.002591+00:00"
+  },
+  "independentReviewChanges": [
+    {
+      "action": "add",
+      "id": "p205",
+      "x": 277,
+      "y": 253,
+      "reason": "Between p033/p034 above p045: distinct narrow terminal face."
+    },
+    {
+      "action": "add",
+      "id": "p206",
+      "x": 249,
+      "y": 326,
+      "reason": "Between p066/p067 and p081/p083: distinct tilted terminal face."
+    },
+    {
+      "action": "add",
+      "id": "p207",
+      "x": 215,
+      "y": 427,
+      "reason": "Between left-edge p124 and p125: distinct porous terminal face."
+    },
+    {
+      "action": "add",
+      "id": "p208",
+      "x": 293,
+      "y": 452,
+      "reason": "Between p155 and p141 above p156: distinct pale terminal face."
+    },
+    {
+      "action": "add",
+      "id": "p209",
+      "x": 389,
+      "y": 239,
+      "reason": "Between p028/p038/p039/p040: distinct narrow porous terminal face."
+    },
+    {
+      "action": "add",
+      "id": "p210",
+      "x": 279,
+      "y": 302,
+      "reason": "Between p044/p046 and p067/p069: distinct porous terminal face."
+    },
+    {
+      "action": "add",
+      "id": "p211",
+      "x": 365,
+      "y": 303,
+      "reason": "Between p049/p061/p073: distinct narrow terminal face."
+    },
+    {
+      "action": "add",
+      "id": "p212",
+      "x": 411,
+      "y": 397,
+      "reason": "Below p105 left of p121: distinct dark porous terminal face."
+    }
+  ]
+}

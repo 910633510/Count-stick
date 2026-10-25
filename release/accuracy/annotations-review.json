@@ -1,0 +1,837 @@
+{
+  "image": "release/fixtures/bamboo-skewers-cc0.jpg",
+  "image_sha256": "824da6b42b3c14c66e6843aaeaae9f35676ee2e9df72a68eee9f7fa2820bb1b1",
+  "image_pixels": [
+    4000,
+    3000
+  ],
+  "coordinates": "Pixels in upright original 4000x3000 image; top-left origin. ROI coordinates also provided for visual checking.",
+  "annotation_method": "Manual visual identification of unique fully visible cream terminal end faces in original photo crop. Selected without looking at detection overlay. Root reported general duplicate/miss concern before labeling, but predicted point positions were not used.",
+  "scope": "Local diagnostic only. Not full-image ground truth and not representative accuracy.",
+  "roi": {
+    "xywh": [
+      520,
+      700,
+      1000,
+      800
+    ],
+    "source_crop": "output/accuracy/roi-front-left.png",
+    "edge_policy": "Count only distinct terminal faces completely visible in this crop. Do not count printed broad sides, side bevels, or inferred occluded sticks. Border-clipped or ambiguous top/side faces are ignored rather than labeled negative.",
+    "confirmed_visible_end_faces": 7,
+    "labels": [
+      {
+        "id": "head-01",
+        "center_pixels_full_image": [
+          870,
+          780
+        ],
+        "center_pixels_roi": [
+          350,
+          80
+        ],
+        "terminal_face_bbox_full_image": [
+          800,
+          748,
+          955,
+          823
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Narrow back-left head; fully visible cream terminal face."
+      },
+      {
+        "id": "head-02",
+        "center_pixels_full_image": [
+          1290,
+          813
+        ],
+        "center_pixels_roi": [
+          770,
+          113
+        ],
+        "terminal_face_bbox_full_image": [
+          1178,
+          778,
+          1404,
+          855
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Broad back-middle head above the printed logo."
+      },
+      {
+        "id": "head-03",
+        "center_pixels_full_image": [
+          874,
+          860
+        ],
+        "center_pixels_roi": [
+          354,
+          160
+        ],
+        "terminal_face_bbox_full_image": [
+          798,
+          815,
+          962,
+          911
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Narrow head immediately behind the large front-left curved head."
+      },
+      {
+        "id": "head-04",
+        "center_pixels_full_image": [
+          794,
+          932
+        ],
+        "center_pixels_roi": [
+          274,
+          232
+        ],
+        "terminal_face_bbox_full_image": [
+          684,
+          864,
+          894,
+          1007
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Large curved terminal face on front-left stick."
+      },
+      {
+        "id": "head-05",
+        "center_pixels_full_image": [
+          1102,
+          887
+        ],
+        "center_pixels_roi": [
+          582,
+          187
+        ],
+        "terminal_face_bbox_full_image": [
+          1008,
+          838,
+          1193,
+          937
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Broad diagonal terminal face behind the center-front stick."
+      },
+      {
+        "id": "head-06",
+        "center_pixels_full_image": [
+          1132,
+          1030
+        ],
+        "center_pixels_roi": [
+          612,
+          330
+        ],
+        "terminal_face_bbox_full_image": [
+          1040,
+          978,
+          1215,
+          1085
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Center-front flat head; full cream terminal face."
+      },
+      {
+        "id": "head-07",
+        "center_pixels_full_image": [
+          1372,
+          1076
+        ],
+        "center_pixels_roi": [
+          852,
+          376
+        ],
+        "terminal_face_bbox_full_image": [
+          1274,
+          990,
+          1481,
+          1168
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Large curved terminal face of front-right stick."
+      }
+    ],
+    "ignore_regions": [
+      {
+        "id": "top-left-cut-face",
+        "polygon_pixels_roi": [
+          [
+            0,
+            0
+          ],
+          [
+            280,
+            0
+          ],
+          [
+            280,
+            65
+          ],
+          [
+            190,
+            115
+          ],
+          [
+            0,
+            105
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            520,
+            700
+          ],
+          [
+            800,
+            700
+          ],
+          [
+            800,
+            765
+          ],
+          [
+            710,
+            815
+          ],
+          [
+            520,
+            805
+          ]
+        ],
+        "reason": "Border-clipped or ambiguous terminal face; no defensible complete-face label."
+      },
+      {
+        "id": "top-middle-cut-faces",
+        "polygon_pixels_roi": [
+          [
+            280,
+            0
+          ],
+          [
+            1000,
+            0
+          ],
+          [
+            1000,
+            72
+          ],
+          [
+            780,
+            72
+          ],
+          [
+            780,
+            65
+          ],
+          [
+            525,
+            65
+          ],
+          [
+            525,
+            35
+          ],
+          [
+            280,
+            35
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            800,
+            700
+          ],
+          [
+            1520,
+            700
+          ],
+          [
+            1520,
+            772
+          ],
+          [
+            1300,
+            772
+          ],
+          [
+            1300,
+            765
+          ],
+          [
+            1045,
+            765
+          ],
+          [
+            1045,
+            735
+          ],
+          [
+            800,
+            735
+          ]
+        ],
+        "reason": "Border-clipped or ambiguous terminal face; no defensible complete-face label."
+      },
+      {
+        "id": "right-top-cut-face",
+        "polygon_pixels_roi": [
+          [
+            870,
+            131
+          ],
+          [
+            941,
+            92
+          ],
+          [
+            1000,
+            104
+          ],
+          [
+            1000,
+            197
+          ],
+          [
+            924,
+            194
+          ],
+          [
+            870,
+            156
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            1390,
+            831
+          ],
+          [
+            1461,
+            792
+          ],
+          [
+            1520,
+            804
+          ],
+          [
+            1520,
+            897
+          ],
+          [
+            1444,
+            894
+          ],
+          [
+            1390,
+            856
+          ]
+        ],
+        "reason": "Border-clipped or ambiguous terminal face; no defensible complete-face label."
+      },
+      {
+        "id": "right-middle-cut-face",
+        "polygon_pixels_roi": [
+          [
+            896,
+            252
+          ],
+          [
+            941,
+            239
+          ],
+          [
+            1000,
+            270
+          ],
+          [
+            1000,
+            340
+          ],
+          [
+            973,
+            320
+          ],
+          [
+            935,
+            288
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            1416,
+            952
+          ],
+          [
+            1461,
+            939
+          ],
+          [
+            1520,
+            970
+          ],
+          [
+            1520,
+            1040
+          ],
+          [
+            1493,
+            1020
+          ],
+          [
+            1455,
+            988
+          ]
+        ],
+        "reason": "Border-clipped or ambiguous terminal face; no defensible complete-face label."
+      },
+      {
+        "id": "right-bottom-cut-face",
+        "polygon_pixels_roi": [
+          [
+            925,
+            530
+          ],
+          [
+            1000,
+            480
+          ],
+          [
+            1000,
+            650
+          ],
+          [
+            970,
+            590
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            1445,
+            1230
+          ],
+          [
+            1520,
+            1180
+          ],
+          [
+            1520,
+            1350
+          ],
+          [
+            1490,
+            1290
+          ]
+        ],
+        "reason": "Border-clipped or ambiguous terminal face; no defensible complete-face label."
+      }
+    ]
+  },
+  "matching_protocol": {
+    "prediction_source": "Full-image inference, using center points transformed to original pixel coordinates. Do not infer only the cropped ROI unless reported as a separate experiment.",
+    "primary": "One-to-one point matching within 80 original-image pixels; prefer minimum total distance among maximum-cardinality matches. A small offset on the same object near its terminal face may match. Extra detections assigned to an already-matched head are not additional true positives.",
+    "radius_sensitivity_pixels": [
+      50,
+      80,
+      110
+    ],
+    "edges": "Use model centers inside ROI. Match to confirmed endpoints first; unmatched model centers inside ignore polygons are ignored, not false positives. Report ignored count separately.",
+    "metrics": "Report TP/FP/FN, precision/recall on seven confirmed faces and false positives only in non-ignored local region. Never extrapolate to all 167 detections or real-world accuracy.",
+    "uncertainty": "Centers manually estimated within about25px; polygon borders approximate. Radius110 may merge neighboring-head assignment, so primary80 and sensitivity are both required."
+  },
+  "review_status": "FIRST_ROI_SEVEN_CONFIRMED_BY_PARENT; HOLDOUT_FOUR_HIGH_CONFIDENCE_LABELS_READY",
+  "holdout_roi": {
+    "xywh": [
+      1900,
+      1450,
+      900,
+      400
+    ],
+    "source_crop": "release/accuracy/holdout-front-middle.png",
+    "selection": "Spatially disjoint foreground region selected and annotated without consulting variant detections. No new parameter choices should be tuned on this region.",
+    "edge_policy": "Four unambiguous complete terminal faces are primary labels. Two small adjacent-looking bright caps at local roughly(655,138)/(690,195) may represent distinct ends, but their boundary/plane interpretation is less certain and the group is ignored for primary scoring. Top/right clipped faces also ignored. This is not a claim that only four sticks exist in the crop.",
+    "confirmed_primary_end_faces": 4,
+    "labels": [
+      {
+        "id": "holdout-01",
+        "center_pixels_roi": [
+          315,
+          45
+        ],
+        "center_pixels_full_image": [
+          2215,
+          1495
+        ],
+        "terminal_face_bbox_full_image": [
+          2100,
+          1455,
+          2325,
+          1529
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Clear horizontal back-left terminal face."
+      },
+      {
+        "id": "holdout-02",
+        "center_pixels_roi": [
+          383,
+          142
+        ],
+        "center_pixels_full_image": [
+          2283,
+          1592
+        ],
+        "terminal_face_bbox_full_image": [
+          2180,
+          1555,
+          2392,
+          1631
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Large front-left terminal face above printed broad side."
+      },
+      {
+        "id": "holdout-03",
+        "center_pixels_roi": [
+          561,
+          223
+        ],
+        "center_pixels_full_image": [
+          2461,
+          1673
+        ],
+        "terminal_face_bbox_full_image": [
+          2378,
+          1586,
+          2548,
+          1760
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Narrow diagonal middle-front terminal face."
+      },
+      {
+        "id": "holdout-04",
+        "center_pixels_roi": [
+          792,
+          265
+        ],
+        "center_pixels_full_image": [
+          2692,
+          1715
+        ],
+        "terminal_face_bbox_full_image": [
+          2600,
+          1682,
+          2786,
+          1759
+        ],
+        "certainty": "high",
+        "center_annotation_uncertainty_pixels": 25,
+        "description": "Large right-front terminal face."
+      }
+    ],
+    "ignore_regions": [
+      {
+        "id": "top-clipped-faces",
+        "polygon_pixels_roi": [
+          [
+            0,
+            0
+          ],
+          [
+            200,
+            0
+          ],
+          [
+            200,
+            85
+          ],
+          [
+            140,
+            130
+          ],
+          [
+            0,
+            95
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            1900,
+            1450
+          ],
+          [
+            2100,
+            1450
+          ],
+          [
+            2100,
+            1535
+          ],
+          [
+            2040,
+            1580
+          ],
+          [
+            1900,
+            1545
+          ]
+        ],
+        "reason": "Clipped or uncertain terminal-face group excluded from primary scoring."
+      },
+      {
+        "id": "top-middle-clipped-face",
+        "polygon_pixels_roi": [
+          [
+            425,
+            0
+          ],
+          [
+            585,
+            0
+          ],
+          [
+            585,
+            92
+          ],
+          [
+            490,
+            120
+          ],
+          [
+            425,
+            70
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            2325,
+            1450
+          ],
+          [
+            2485,
+            1450
+          ],
+          [
+            2485,
+            1542
+          ],
+          [
+            2390,
+            1570
+          ],
+          [
+            2325,
+            1520
+          ]
+        ],
+        "reason": "Clipped or uncertain terminal-face group excluded from primary scoring."
+      },
+      {
+        "id": "top-right-clipped-face",
+        "polygon_pixels_roi": [
+          [
+            585,
+            0
+          ],
+          [
+            900,
+            0
+          ],
+          [
+            900,
+            125
+          ],
+          [
+            825,
+            147
+          ],
+          [
+            725,
+            103
+          ],
+          [
+            640,
+            42
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            2485,
+            1450
+          ],
+          [
+            2800,
+            1450
+          ],
+          [
+            2800,
+            1575
+          ],
+          [
+            2725,
+            1597
+          ],
+          [
+            2625,
+            1553
+          ],
+          [
+            2540,
+            1492
+          ]
+        ],
+        "reason": "Clipped or uncertain terminal-face group excluded from primary scoring."
+      },
+      {
+        "id": "ambiguous-adjacent-small-heads",
+        "polygon_pixels_roi": [
+          [
+            575,
+            95
+          ],
+          [
+            746,
+            99
+          ],
+          [
+            785,
+            238
+          ],
+          [
+            625,
+            240
+          ],
+          [
+            576,
+            162
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            2475,
+            1545
+          ],
+          [
+            2646,
+            1549
+          ],
+          [
+            2685,
+            1688
+          ],
+          [
+            2525,
+            1690
+          ],
+          [
+            2476,
+            1612
+          ]
+        ],
+        "reason": "Clipped or uncertain terminal-face group excluded from primary scoring."
+      },
+      {
+        "id": "right-clipped-faces",
+        "polygon_pixels_roi": [
+          [
+            800,
+            140
+          ],
+          [
+            900,
+            120
+          ],
+          [
+            900,
+            233
+          ],
+          [
+            853,
+            246
+          ],
+          [
+            805,
+            203
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            2700,
+            1590
+          ],
+          [
+            2800,
+            1570
+          ],
+          [
+            2800,
+            1683
+          ],
+          [
+            2753,
+            1696
+          ],
+          [
+            2705,
+            1653
+          ]
+        ],
+        "reason": "Clipped or uncertain terminal-face group excluded from primary scoring."
+      },
+      {
+        "id": "bottom-right-clipped-face",
+        "polygon_pixels_roi": [
+          [
+            886,
+            315
+          ],
+          [
+            900,
+            315
+          ],
+          [
+            900,
+            400
+          ],
+          [
+            850,
+            400
+          ]
+        ],
+        "polygon_pixels_full_image": [
+          [
+            2786,
+            1765
+          ],
+          [
+            2800,
+            1765
+          ],
+          [
+            2800,
+            1850
+          ],
+          [
+            2750,
+            1850
+          ]
+        ],
+        "reason": "Clipped or uncertain terminal-face group excluded from primary scoring."
+      }
+    ],
+    "matching": "Same one-to-one80px primary and50/110 sensitivity protocol as firstROI; also report terminal-face box+25px variant because neighboring heads are close."
+  },
+  "review_conclusion": "Existing evidence demonstrates false extra marks, duplicate marks and missed visible ends. This small single-photo diagnostic cannot establish general restaurant counting accuracy or justify a parameter replacement without held-out evidence."
+}

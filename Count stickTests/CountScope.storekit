@@ -1,0 +1,80 @@
+{
+  "appPolicies": {
+    "eula": "",
+    "policies": [
+      {
+        "locale": "en_US",
+        "policyText": "",
+        "policyURL": ""
+      }
+    ]
+  },
+  "identifier": "D06DC8BC",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_applicationInternalID": "6826601708",
+    "_askToBuyEnabled": false,
+    "_billingGracePeriodEnabled": false,
+    "_billingIssuesEnabled": false,
+    "_developerTeamID": "5B49H2L7N4",
+    "_disableDialogs": true,
+    "_failTransactionsEnabled": false,
+    "_locale": "en_US",
+    "_renewalBillingIssuesEnabled": false,
+    "_storefront": "USA",
+    "_storeKitErrors": [],
+    "_timeRate": 0
+  },
+  "subscriptionGroups": [
+    {
+      "id": "22511744",
+      "name": "CountScope Pro",
+      "localizations": [
+        {
+          "description": "Unlimited automatic counts",
+          "displayName": "CountScope Pro",
+          "locale": "en_US"
+        }
+      ],
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "2.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "6826741970",
+          "introductoryOffer": {
+            "internalID": "F7A689B2",
+            "numberOfPeriods": 1,
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W"
+          },
+          "localizations": [
+            {
+              "description": "Unlimited on-device automatic counts",
+              "displayName": "CountScope Pro Monthly",
+              "locale": "en_US"
+            },
+            {
+              "description": "订阅期间本机自动识别不限次数",
+              "displayName": "CountScope Pro 包月",
+              "locale": "zh_CN"
+            }
+          ],
+          "productID": "com.xmaillc.countscope.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "CountScope Pro Monthly",
+          "subscriptionGroupID": "22511744",
+          "type": "RecurringSubscription",
+          "winbackOffers": []
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

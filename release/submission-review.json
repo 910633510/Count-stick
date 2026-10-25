@@ -1,0 +1,20 @@
+{
+  "status": "SUBMITTED_WAITING_FOR_REVIEW",
+  "appId": "6826601708",
+  "build": "4",
+  "version": "1.0",
+  "submissionId": "1e69912e-a6a8-44f6-a202-3c67aa632d4e",
+  "submittedDate": "2026-10-25T04:27:52.309Z",
+  "lanes": {
+    "implementation": "subscription-build4/implementation-independent-review.json",
+    "monetization": "subscription-build4/monetization-independent-review.json",
+    "buildAndPrivacy": "subscription-build4/build-privacy-independent-review.json",
+    "ASO": "subscription-build4/aso-final-review.json",
+    "assetVisual": "screenshots/build4/independent-visual-review.json",
+    "assetUpload": "screenshots/build4/upload-review.json",
+    "submission": "subscription-build4/submission-independent-review.json"
+  },
+  "allApplicableLanesPass": true,
+  "allThreeVersionStates": "WAITING_FOR_REVIEW",
+  "publicReleaseConfirmed": false
+}

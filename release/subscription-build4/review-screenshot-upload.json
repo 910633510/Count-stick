@@ -1,0 +1,17 @@
+{
+  "createdAtUTC": "2026-10-25T04:16:53.402766+00:00",
+  "appId": "6826601708",
+  "subscriptionId": "6826741970",
+  "productId": "com.xmaillc.countscope.pro.monthly",
+  "id": "13997449-9a61-4225-aa1a-28e96bfe2752",
+  "path": "release/subscription-build4/review-screenshot-en-US.png",
+  "source": "output/subscription-build4/ipad-release-attachments/E09C1288-60F1-40C4-ABA7-785B699AA709.png",
+  "sha256": "00db44646e31c0d8c975ded3630942e8a88ef0266a13e80f4b3765b5bcce39ce",
+  "capture": "Unmodified actual Release 1.0(4) iPad screenshot with local StoreKit configuration; matching real ASC US2.99/month + eligible7day offer. No UI pixel editing.",
+  "visualReview": "PASS_ROOT_PRICE_TRIAL_BRAND",
+  "processingState": {
+    "errors": null,
+    "warnings": null,
+    "state": "UPLOAD_COMPLETE"
+  }
+}

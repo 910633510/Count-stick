@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "status": "PREDECLARED_SWEEP_COMPLETE_NO_PRODUCTION_CHANGE",
+  "manifestSha256": "4e139a8803bbc07c149f4f5645afc40aaf1d2721fb1f9026ac22fb4a0ddd856a",
+  "procedure": {
+    "confidenceCandidates": [
+      0.25,
+      0.35,
+      0.45,
+      0.55
+    ],
+    "fixedIoU": 0.45,
+    "fixedCropScale": "scaleFill",
+    "calibrationImages": [
+      "root-flat-black",
+      "acquisition-04"
+    ],
+    "holdoutImages": [
+      "root-thick-ends",
+      "acquisition-05",
+      "acquisition-07"
+    ],
+    "primary": "Macro average of per-image endpoint F1 on calibration only",
+    "tieBreak": "Count MAE on exact-count-eligible calibration images; then lower confidence",
+    "declaredAtUTC": "2026-10-23T13:18:23.302737+00:00",
+    "selectedAtUTC": "2026-10-23T13:18:24.660337+00:00",
+    "holdoutCompletedAtUTC": "2026-10-23T13:19:59.368115+00:00",
+    "baselineHoldoutPreviouslyObserved": true,
+    "newWinnerHoldoutUsedForSelection": false,
+    "winnerHoldoutRuns": 1,
+    "postHoldoutRetuning": false,
+    "labelsEdited": false
+  },
+  "calibrationVariants": [
+    {
+      "confidenceThreshold": 0.25,
+      "aggregate": {
+        "images": 2,
+        "macroPerImageF1": 0.9443815305586365,
+        "TP": 299,
+        "FP": 45,
+        "FN": 5,
+        "microPrecision": 0.8691860465116279,
+        "microRecall": 0.9835526315789473,
+        "countEligibleImages": 1,
+        "countMAE": 39.0,
+        "exactCountImages": 0,
+        "exactCountRate": 0.0
+      }
+    },
+    {
+      "confidenceThreshold": 0.35,
+      "aggregate": {
+        "images": 2,
+        "macroPerImageF1": 0.9545045045045045,
+        "TP": 295,
+        "FP": 30,
+        "FN": 9,
+        "microPrecision": 0.9076923076923077,
+        "microRecall": 0.9703947368421053,
+        "countEligibleImages": 1,
+        "countMAE": 20.0,
+        "exactCountImages": 0,
+        "exactCountRate": 0.0
+      }
+    },
+    {
+      "confidenceThreshold": 0.45,
+      "aggregate": {
+        "images": 2,
+        "macroPerImageF1": 0.9527047522750253,
+        "TP": 288,
+        "FP": 22,
+        "FN": 16,
+        "microPrecision": 0.9290322580645162,
+        "microRecall": 0.9473684210526315,
+        "countEligibleImages": 1,
+        "countMAE": 6.0,
+        "exactCountImages": 0,
+        "exactCountRate": 0.0
+      }
+    },
+    {
+      "confidenceThreshold": 0.55,
+      "aggregate": {
+        "images": 2,
+        "macroPerImageF1": 0.9307585618265231,
+        "TP": 271,
+        "FP": 19,
+        "FN": 33,
+        "microPrecision": 0.9344827586206896,
+        "microRecall": 0.8914473684210527,
+        "countEligibleImages": 1,
+        "countMAE": 12.0,
+        "exactCountImages": 0,
+        "exactCountRate": 0.0
+      }
+    }
+  ],
+  "frozenWinner": {
+    "confidenceThreshold": 0.35,
+    "iouThreshold": 0.45
+  },
+  "holdoutComparison": {
+    "currentConfidence025": {
+      "TP": 165,
+      "FP": 16,
+      "FN": 30,
+      "ignoredPredictions": 0,
+      "duplicateFalsePositives": 1,
+      "images": 3,
+      "sourceGroups": 3,
+      "precision": 0.9116022099447514,
+      "recall": 0.8461538461538461,
+      "countEligibleImages": 3,
+      "countMAE": 9.333333333333334,
+      "exactCountRate": 0.0,
+      "macroPerImageF1": 0.6864815010632923
+    },
+    "frozenWinnerConfidence035": {
+      "images": 3,
+      "macroPerImageF1": 0.6554698539802167,
+      "TP": 162,
+      "FP": 11,
+      "FN": 33,
+      "microPrecision": 0.9364161849710982,
+      "microRecall": 0.8307692307692308,
+      "countEligibleImages": 3,
+      "countMAE": 9.333333333333334,
+      "exactCountImages": 0,
+      "exactCountRate": 0.0
+    },
+    "perImage": [
+      {
+        "imageId": "root-thick-ends",
+        "visibleGroundTruth": 97,
+        "currentConfidence025": {
+          "TP": 96,
+          "FP": 0,
+          "FN": 1,
+          "predictedWholeImageCount": 96,
+          "signedCountError": -1,
+          "absoluteCountError": 1
+        },
+        "frozenWinnerConfidence035": {
+          "TP": 96,
+          "FP": 0,
+          "FN": 1,
+          "predictedWholeImageCount": 96,
+          "signedCountError": -1,
+          "absoluteCountError": 1
+        }
+      },
+      {
+        "imageId": "acquisition-05",
+        "visibleGroundTruth": 28,
+        "currentConfidence025": {
+          "TP": 3,
+          "FP": 5,
+          "FN": 25,
+          "predictedWholeImageCount": 8,
+          "signedCountError": -20,
+          "absoluteCountError": 20
+        },
+        "frozenWinnerConfidence035": {
+          "TP": 1,
+          "FP": 3,
+          "FN": 27,
+          "predictedWholeImageCount": 4,
+          "signedCountError": -24,
+          "absoluteCountError": 24
+        }
+      },
+      {
+        "imageId": "acquisition-07",
+        "visibleGroundTruth": 70,
+        "currentConfidence025": {
+          "TP": 66,
+          "FP": 11,
+          "FN": 4,
+          "predictedWholeImageCount": 77,
+          "signedCountError": 7,
+          "absoluteCountError": 7
+        },
+        "frozenWinnerConfidence035": {
+          "TP": 65,
+          "FP": 8,
+          "FN": 5,
+          "predictedWholeImageCount": 73,
+          "signedCountError": 3,
+          "absoluteCountError": 3
+        }
+      }
+    ]
+  },
+  "decision": "Do not adopt confidence0.35 as a new production default. It decreases false positives but increases missed endpoints; held-out countMAE remains9.333 and exact-count rate remains0/3. Keep current local0.25/0.45 candidate and release-quality gate unresolved. No further parameter search on these holdouts.",
+  "limitations": [
+    "Two calibration source groups and three holdout source groups are too small for a general accuracy claim.",
+    "Only one holdout image is an actual restaurant photograph; the others are target-like product imagery.",
+    "Ground truth counts visible endpoint faces only, not hidden sticks or retailer package quantities.",
+    "Mac CoreML CPU-only reproduction is not physical-device validation."
+  ],
+  "evidence": [
+    {
+      "path": "output/web-annotation/confidence-sweep-v2/calibration-input.json",
+      "sha256": "8310fe7d3cca056f60dd244dc7e95644e8fd0fc48c795872767c0662af6c1069"
+    },
+    {
+      "path": "output/web-annotation/confidence-sweep-v2/calibration-predictions.json",
+      "sha256": "434a42e0fd5443b90b13f62c8df605905e863f0a5dfad2a776fa8bd3edecb9e2"
+    },
+    {
+      "path": "output/web-annotation/confidence-sweep-v2/calibration-report.json",
+      "sha256": "6c9944ca309e6bb05fd840b6dedeacfefc59f1c8b533e43a9cafe53c44a891ed"
+    },
+    {
+      "path": "output/web-annotation/confidence-sweep-v2/holdout-input.json",
+      "sha256": "ef2e5dbfd95f35a1cc2b8e4aafa3f675a7597125bc0d5e445ad18e7cd0eeb485"
+    },
+    {
+      "path": "output/web-annotation/confidence-sweep-v2/holdout-predictions.json",
+      "sha256": "d130b852dba152110a81e7a7ada571615372622632c9b32404f7da41dee15209"
+    },
+    {
+      "path": "output/web-annotation/confidence-sweep-v2/holdout-report.json",
+      "sha256": "398c56627096958ec8b5f18fa8feb2601186c55aaa7905d4e1343e83957ffb7a"
+    },
+    {
+      "path": "output/web-annotation/confidence-sweep-v2/holdout-started.json",
+      "sha256": "d8c90f51a5cb2124a7ee2d08b17f706d2bdf644b7190c6c4b7a3f657b76867ca"
+    },
+    {
+      "path": "output/web-annotation/confidence-sweep-v2/plan.json",
+      "sha256": "60ef15689b2958d4d5595fd46b41eec52fbcdbbe7b3cc9ffd616887050420b81"
+    },
+    {
+      "path": "output/web-annotation/confidence-sweep-v2/selection.json",
+      "sha256": "8f7bee218d3aaa8b6b60ec6d4257b12d615561f2a81c18025ca837771fa36aa0"
+    }
+  ],
+  "reproduction": {
+    "calibrate": "python3 release/accuracy/web-set/evaluate-confidence-sweep.py calibrate release/accuracy/web-set/manifest.json",
+    "holdoutOnce": "python3 release/accuracy/web-set/evaluate-confidence-sweep.py holdout release/accuracy/web-set/manifest.json",
+    "note": "Existing plan/selection/holdout-started files prevent accidental repeated execution in the same output directory. Preserve this run; any future experiment needs a new preregistration and fresh held-out data."
+  }
+}

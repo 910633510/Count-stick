@@ -1,0 +1,58 @@
+{
+  "status": "IMPLEMENTED_AND_FUNCTIONALLY_VALIDATED",
+  "operator": "subscription_app",
+  "app": "CountScope",
+  "appStoreId": "6826601708",
+  "bundleId": "x.Count-stick",
+  "version": "1.0",
+  "build": "4",
+  "productId": "com.xmaillc.countscope.pro.monthly",
+  "implementation": {
+    "freeSuccessfulAutomaticCounts": 4,
+    "usagePersistence": "This-device-only, nonsynchronizing Keychain",
+    "zeroDetectionResultConsumesUse": true,
+    "failureCancellationHistoryEditingConsumeUse": false,
+    "subscribedCounting": "Unlimited while StoreKit-verified entitlement is active",
+    "trial": "Shown only when StoreKit confirms eligibility and a configured seven-day free trial",
+    "price": "Product.displayPrice; no hardcoded purchase price",
+    "restore": "AppStore.sync followed by a fresh verified entitlement scan",
+    "manage": "Apple manageSubscriptionsSheet",
+    "expirationRevocation": "Verified currentEntitlements and verified grace-period status; queued fresh scans after purchase, update, and restore",
+    "offline": "Locally verified StoreKit entitlements remain valid until expiration; no developer server or custom paid flag",
+    "currentRecognitionScope": "Bamboo skewer ends; no steel-pipe or colony recognition claims"
+  },
+  "tests": {
+    "resultBundle": "output/subscription-build4/final-tests.xcresult",
+    "passed": 46,
+    "failed": 0,
+    "skipped": 0,
+    "device": "CountScope StoreKit QA iOS18 / iPhone 16 Pro / iOS 18.5 (22F77)",
+    "breakdown": {
+      "quotaAndKeychain": 8,
+      "realLocalStoreKit": 5,
+      "existingUnitAndIntegration": 26,
+      "uiWorkflows": 7
+    },
+    "note": "The functional-test binary preceded only three final Chinese brand-label corrections. Final Release captures compile those corrections and verify both localized interfaces. No functional code changed afterward."
+  },
+  "priorFailuresPreserved": {
+    "iOS26_5": "SKTestSession CLI regression, SKInternalErrorDomain Code=3. Tests rerun successfully on the installed iOS18.5 runtime using real StoreKit test transactions.",
+    "officialReference": "https://developer.apple.com/forums/thread/826971",
+    "testExpectationCorrection": "iOS18.5 can reject an invalid signature before returning a purchase result. The test asserts no access and an error message instead of requiring one particular error string."
+  },
+  "sourceFreeze": "release/screenshots/build4/source-freeze.json",
+  "limitations": [
+    "Local StoreKit testing does not prove production App Store billing or physical-device behavior.",
+    "Recognition model, thresholds, and automatic-region algorithm are unchanged; prior accuracy limitations remain.",
+    "Only the exported-image brand string changed in StickDetector.swift."
+  ],
+  "storeMutationOrSubmissionByThisOperator": false,
+  "captureDiagnostics": {
+    "iphone": "After both Release capture tests passed, the optional simctl diagnose child (PID45151, verified child of xcodebuild44327) was terminated with SIGTERM after more than three minutes under disk pressure. No test process, simulator, result attachments, or source was terminated/deleted. Parent xcodebuild exited 0; xcresult and screenshots finalized successfully.",
+    "ipad": "Both Release capture tests and normal diagnostic collection completed successfully."
+  },
+  "releaseCaptureResults": {
+    "iphone": "output/subscription-build4/iphone-release-captures.xcresult",
+    "ipad": "output/subscription-build4/ipad-release-captures.xcresult"
+  }
+}

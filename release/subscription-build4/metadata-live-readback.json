@@ -1,0 +1,50 @@
+{
+  "verifiedAtUTC": "2026-10-25T04:07:13.540406+00:00",
+  "appId": "6826601708",
+  "versionId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+  "metadataSHA256": "d8b3eb38f562a46a72074fba52a9b76031390d80697bb66972090e4f17f0c295",
+  "localizations": {
+    "en-US": {
+      "appInfoLocalizations": {
+        "id": "3e63acdf-1b2a-4563-8dea-54c1b9e55823",
+        "attributes": {
+          "name": "CountScope: Photo Counter",
+          "subtitle": "Review markers. Save counts.",
+          "privacyPolicyUrl": "https://www.xmaillc.com/count-stick-privacy.html"
+        }
+      },
+      "appStoreVersionLocalizations": {
+        "id": "8186446f-906c-44e8-a6c1-3eac203adee3",
+        "attributes": {
+          "keywords": "skewer,bamboo,wooden,barbecue,hotpot,restaurant,correction,history,offline",
+          "promotionalText": "Try 4 photo counts free. Check every marker, correct the total, and keep a local record. Current automatic counting focuses on exposed skewer ends.",
+          "description": "CountScope helps you count visible skewer ends from a photo. Its current automatic counting mode is designed for bundles of sticks and skewers. Take a picture or choose one from Photos, then review and correct the suggested markers before using the total.\n\nA reference area for your review\nThe app automatically estimates an area around detected stick ends when it can. The outline is a guide: missed ends can lie inside or outside it. Check the whole photo. If no area is determined, you can still review and edit the markers.\n\nCheck, correct, and keep\n• See the photo, markers, and current count together.\n• Enlarge the photo to inspect individual ends.\n• Add missing markers or remove extra ones anywhere in the photo, with Undo for corrections.\n• Save a checked result with an optional note in local history.\n• Reopen or delete saved records and share a marked result image when you choose.\n\nTry 4 counts free\nDownload for free and complete 4 automatic photo counts without subscribing. The allowance is stored on this device and does not reset daily. Failed or canceled processing, manual corrections, and reopening saved results do not use an additional free count.\n\nCountScope Pro\nThe monthly auto-renewable subscription enables unlimited automatic photo counts while active. Eligible first-time subscribers can start a 7-day free trial, followed by the monthly price shown before purchase. The U.S. price is US$2.99 per month; other storefronts use the local price displayed by Apple. Trial eligibility is determined by Apple and is limited to one introductory offer per subscription group.\n\nPayment is charged to your Apple Account after purchase confirmation, or at the end of an eligible free trial. The subscription automatically renews unless canceled at least 24 hours before the current period ends. Your account is charged for renewal within 24 hours before the period ends. Manage or cancel your subscription in Apple Account subscription settings. Restore Purchases can restore an active subscription using the same Apple Account. Canceling or letting a subscription expire does not delete saved records.\n\nOn-device photo processing\nCounting and reference-area estimation run on your device. Photos are not uploaded for processing. No app account is required. Saved records stay on the same device and are not synced between devices. Apple handles subscription purchases and restoration; internet access is needed for these operations. There are no ads.\n\nFor a clearer photo, aim at the exposed ends of the bundle, use even lighting, and keep the image in focus. Automatic results are estimates and can contain missed or extra markers. Verify every visible end before using a total for a bill or stock record. CountScope assists manual checking; it does not calculate bills or collect customer payments.\n\nSupport: https://www.xmaillc.com/count-stick-support.html\nPrivacy Policy: https://www.xmaillc.com/count-stick-privacy.html\nTerms of Use: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+          "supportUrl": "https://www.xmaillc.com/count-stick-support.html",
+          "marketingUrl": "https://www.xmaillc.com/count-stick-support.html"
+        }
+      }
+    },
+    "zh-Hans": {
+      "appInfoLocalizations": {
+        "id": "6725d15b-8afe-4d94-8b31-97fced8b744a",
+        "attributes": {
+          "name": "CountScope 拍照计数",
+          "subtitle": "逐点核对，记录照片数量",
+          "privacyPolicyUrl": "https://www.xmaillc.com/count-stick-privacy.html"
+        }
+      },
+      "appStoreVersionLocalizations": {
+        "id": "bae2775e-1266-43e9-89d3-7debef9b577d",
+        "attributes": {
+          "keywords": "竹签,串串,烧烤,火锅,餐饮,离线,相册,标记,统计,分享,备注",
+          "promotionalText": "免费体验4次拍照识别，逐点核对、修正后保存本地记录。当前自动识别面向签束露出的端头；使用数量前，请检查整张照片。",
+          "description": "CountScope 帮你清点照片中可见的签头。当前自动识别模式面向一束竹签或木签露出的端头。对准签头拍照，或选择相册图片，查看自动标记，核对并修正后再使用数量。\n\n自动参考范围，方便逐点核对\nApp 会尝试围绕检测到的签头自动估计参考范围。虚线仅供核对参考，范围内外都可能有漏掉的签头，请检查整张照片。未能确定范围时，仍可查看和修正标记。\n\n拍照、校对、留存\n• 照片、标记和当前数量同时查看。\n• 放大照片，仔细检查每个可见端头。\n• 可在整张照片上补加漏标、删除误标，操作失误可撤销。\n• 确认结果后添加可选备注，手动保存到本地历史记录。\n• 重新查看或删除记录，按需分享带标记的结果图。\n\n先免费体验4次\nApp 可免费下载，未订阅也能完成4次自动识别。免费额度保存在当前设备，不会每天重置。处理失败或取消、手动修正、重新打开已保存结果，不会额外扣除免费次数。\n\nCountScope Pro 月度订阅\n订阅有效期间不限自动识别次数。符合 Apple 首次订阅试用资格的用户可享7天免费试用，试用结束后按购买前显示的月价续费。美国区价格为 US$2.99/月；其他地区以 Apple 购买页显示的当地价格为准。试用资格由 Apple 判断，每个订阅组仅可享受一次入门优惠。\n\n确认购买后由 Apple 账户扣款；符合免费试用资格时，在试用结束后扣款。除非在当前周期结束前至少24小时取消，否则订阅将自动续费，续费扣款会在当前周期结束前24小时内进行。可在 Apple 账户的订阅设置中管理或取消，也可使用相同 Apple 账户恢复有效订阅。取消或订阅到期不会删除已保存的记录。\n\n照片在设备上处理\n计数和参考范围估计均在设备上完成，照片不会上传到服务器处理。无需注册 App 账号。记录保存在当前设备，不跨设备同步。订阅购买和恢复由 Apple 处理，这些操作需要联网。App 无广告。\n\n拍摄时请对准签束露出的端头，保持光线均匀和画面清晰。自动结果属于估算，可能出现漏标或误标。用于结账或库存记录前，请逐个核对所有可见签头。CountScope 是辅助核对工具，不计算账单或向顾客收款。\n\n支持与反馈：https://www.xmaillc.com/count-stick-support.html\n隐私政策：https://www.xmaillc.com/count-stick-privacy.html\n使用条款：https://www.apple.com/legal/internet-services/itunes/dev/stdeula/",
+          "supportUrl": "https://www.xmaillc.com/count-stick-support.html",
+          "marketingUrl": "https://www.xmaillc.com/count-stick-support.html"
+        }
+      }
+    }
+  },
+  "status": "PASS_COPY_PERSISTED",
+  "reviewNotesVerified": true
+}

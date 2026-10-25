@@ -1,0 +1,254 @@
+{
+  "reviewDateLocal": "2026-10-24",
+  "reviewScope": "Read-only signed Build3 identity/privacy/implementation-disclosure review; no live App Store mutation.",
+  "implementationAndDisclosureResult": "PASS",
+  "fieldAccuracyAcceptance": "NOT_ESTABLISHED; reviewed as an assisted counting tool with explicitly disclosed estimates and manual correction, not a field-accuracy certification.",
+  "target": {
+    "name": "Count Stick",
+    "bundleId": "x.Count-stick",
+    "version": "1.0",
+    "build": "3",
+    "teamId": "5B49H2L7N4",
+    "newAppStoreId": "To be assigned and verified by release operator"
+  },
+  "protectedUnrelatedApp": {
+    "appStoreId": "6752362515",
+    "bundleId": "com.yang.stickcount",
+    "action": "NOT_TOUCHED"
+  },
+  "artifact": {
+    "ipa": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/automatic-region-candidate/Count stick.ipa",
+    "sha256": "4218999b24aca4f62a29e564aa09be71c441de33fa5876821c7069732fdf417b",
+    "bytes": 9313754,
+    "archive": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/CountStick-1.0-3-auto-region-final.xcarchive",
+    "extractedReviewPath": "/var/folders/2b/wyssdc713_l0nz6k_m559_xc0000gn/T/count-stick-build3-review-u558lmbs/Payload/Count stick.app",
+    "zipCRCValid": true,
+    "strictCodesignExit": 0,
+    "signingIdentityLines": [
+      "Identifier=x.Count-stick",
+      "Authority=Apple Distribution: XM LLC (US) (5B49H2L7N4)",
+      "Authority=Apple Worldwide Developer Relations Certification Authority",
+      "Authority=Apple Root CA",
+      "TeamIdentifier=5B49H2L7N4"
+    ],
+    "machoUUID": "DCA8F9CA-D575-3192-993E-49DA03B9D409",
+    "archiveMachoUUID": "DCA8F9CA-D575-3192-993E-49DA03B9D409",
+    "archiveMatches": true,
+    "releaseDebugPhotoHookAbsent": true,
+    "compiledCoreMLPresent": true,
+    "testFixturePhotosBundled": false,
+    "bundledFrameworks": [],
+    "sourceHashChecks": {
+      "Count stick/AutoCountRegion.swift": true,
+      "Count stick/ContentView.swift": true,
+      "Count stick/CountHistory.swift": true,
+      "Count stick/CountModel.swift": true,
+      "Count stick/CountWorkspace.swift": true,
+      "Count stick/Count_stickApp.swift": true,
+      "Count stick/ImagePicker.swift": true,
+      "Count stick/StickDetector.swift": true,
+      "Count stick/en.lproj/Localizable.strings": true,
+      "Count stick/zh-Hans.lproj/Localizable.strings": true,
+      "Count stick.xcodeproj/project.pbxproj": true
+    }
+  },
+  "entitlements": {
+    "application-identifier": "5B49H2L7N4.x.Count-stick",
+    "beta-reports-active": true,
+    "com.apple.developer.team-identifier": "5B49H2L7N4",
+    "get-task-allow": false
+  },
+  "profileFacts": {
+    "teamIdentifier": [
+      "5B49H2L7N4"
+    ],
+    "applicationIdentifier": "5B49H2L7N4.x.Count-stick",
+    "getTaskAllow": false,
+    "betaReportsActive": true,
+    "hasDeviceAllowlist": false,
+    "expirationUTC": "2027-10-19 03:20:37"
+  },
+  "builtInfo": {
+    "MinimumOSVersion": "17.0",
+    "UIDeviceFamily": [
+      1,
+      2
+    ],
+    "ITSAppUsesNonExemptEncryption": false,
+    "NSCameraUsageDescription": "Take a photo of your sticks or skewers to count them on this device.",
+    "NSPhotoLibraryUsageDescription": null,
+    "NSUserTrackingUsageDescription": null,
+    "CFBundleIcons": {
+      "CFBundlePrimaryIcon": {
+        "CFBundleIconFiles": [
+          "AppIcon60x60"
+        ],
+        "CFBundleIconName": "AppIcon"
+      }
+    },
+    "CFBundleIcons~ipad": {
+      "CFBundlePrimaryIcon": {
+        "CFBundleIconFiles": [
+          "AppIcon60x60",
+          "AppIcon76x76"
+        ],
+        "CFBundleIconName": "AppIcon"
+      }
+    }
+  },
+  "privacyManifest": {
+    "NSPrivacyTracking": false,
+    "NSPrivacyTrackingDomains": [],
+    "NSPrivacyCollectedDataTypes": [],
+    "NSPrivacyAccessedAPITypes": []
+  },
+  "builtLocalizations": {
+    "en": {
+      "keys": 86,
+      "matchesCurrentSource": true,
+      "displayName": "Count Stick",
+      "cameraPurpose": "Take a photo of sticks or skewers to count them on your device. Photos are not uploaded.",
+      "regionIdentified": "Estimated counting area. Check for stick ends outside it too.",
+      "regionFallback": "Bundle area not determined. Check the markers.",
+      "guideReview": "The outline is an automatically estimated area. Stick ends outside it may be missed, so check the whole photo and add or remove markers anywhere. Enlarge the photo and switch to 2× for closer corrections.",
+      "privacyCopy": "Counting runs on your device. No account, ads, analytics, or photo uploads. Photos and results are stored only when you tap Save count and are excluded from device backup. You decide when and where to share.",
+      "reviewRequiredCopy": "Saved only on this device. Review the markers before using or sharing the count."
+    },
+    "zh-Hans": {
+      "keys": 86,
+      "matchesCurrentSource": true,
+      "displayName": "数签",
+      "cameraPurpose": "拍摄竹签或串签照片，在设备上识别计数。照片不会上传。",
+      "regionIdentified": "已自动标出参考范围，也请检查范围外的签头。",
+      "regionFallback": "未确定签束范围，请核对标记。",
+      "guideReview": "虚线是 App 自动估计的参考范围，范围外也可能有漏掉的签头。请核对整张照片，随时添加或移除标记；可放大到 2 倍仔细校正。",
+      "privacyCopy": "计数在设备上完成，无需账号，无广告、分析追踪或照片上传。只有点击“保存记录”后才会保存照片与结果，且不纳入设备备份。是否分享、分享给谁，均由你决定。",
+      "reviewRequiredCopy": "记录仅保存在此设备。使用或分享数量前，请先核对标记。"
+    }
+  },
+  "concreteBlockers": [],
+  "externalReadiness": "App record, live privacy/age-rating/pricing fields, uploaded build processing, new screenshots and final submission receipt belong to operator/other reviewers; not verified by this local-only pass.",
+  "declarationFacts": {
+    "appPrivacy": {
+      "recommendedAnswer": "Data Not Collected",
+      "tracking": false,
+      "basis": [
+        "CoreML photo inference and Vision text analysis run on device.",
+        "Recognized OCR text is transient and is not included in persisted AutoCountRegionResult.",
+        "History is written only on Save, excluded from backup, and removable locally.",
+        "No account, ads, analytics, remote photo processing or third-party SDK in source; no bundled third-party frameworks.",
+        "PhotosPicker reads selected images; Camera permission applies only to capturing a new photo.",
+        "ShareSheet exports only on explicit user action to a selected external destination. Support correspondence outside the app is separately described in the privacy policy."
+      ],
+      "appPermissions": [
+        "Camera"
+      ],
+      "wholeLibraryPermissionRequired": false,
+      "privacyManifestConsistent": true,
+      "livePrivacyPublicationVerified": false,
+      "source": "https://developer.apple.com/app-store/app-privacy-details/"
+    },
+    "category": {
+      "primary": "UTILITIES",
+      "secondary": "Optional; none required by core feature set",
+      "basis": "A focused photo-assisted counting task with local notes/history; Utilities is the direct fit.",
+      "source": "https://developer.apple.com/app-store/categories/"
+    },
+    "ageRating": {
+      "expectedGlobalResult": "4+ if Apple calculates the reviewed No/None answers; live rating is not verified.",
+      "questionnaireFacts": {
+        "parentalControls": "No",
+        "ageAssurance": "No",
+        "unrestrictedWebAccess": "No",
+        "broadlyDistributedUserGeneratedContent": "No",
+        "socialMedia": "No",
+        "messagingAndChat": "No",
+        "advertising": "No",
+        "healthOrWellnessTopics": "No",
+        "medicalOrTreatmentInformation": "None",
+        "profanityOrCrudeHumor": "None",
+        "horrorOrFear": "None",
+        "matureOrSuggestiveThemes": "None",
+        "alcoholTobaccoDrugUse": "None",
+        "sexualContentOrNudity": "None",
+        "graphicSexualContent": "None",
+        "cartoonFantasyViolence": "None",
+        "realisticViolence": "None",
+        "prolongedGraphicSadisticViolence": "None",
+        "gunsOrOtherWeapons": "None",
+        "simulatedGambling": "None",
+        "gambling": "No",
+        "contests": "None",
+        "lootBoxes": "No"
+      },
+      "notes": [
+        "Local private photo import and a system share sheet do not provide a public feed or in-app messaging.",
+        "Only two fixed support/privacy links open externally; no embedded browser or arbitrary in-app web navigation.",
+        "Not presented as a Kids Category app; do not infer a kids designation from a low age rating."
+      ],
+      "source": "https://developer.apple.com/help/app-store-connect/reference/app-information/age-ratings-values-and-definitions/"
+    },
+    "exportCompliance": {
+      "usesNonExemptEncryption": false,
+      "builtInfoPlistValue": false,
+      "basis": "No app-defined or bundled third-party crypto implementation. File protection and platform facilities are provided by Apple OS.",
+      "ASCEncryptionDocumentationExpected": "None for encryption limited to Apple operating system; operator should read back the processed build determination.",
+      "source": "https://developer.apple.com/help/app-store-connect/reference/export-compliance-documentation-for-encryption/"
+    },
+    "monetization": {
+      "type": "Paid upfront",
+      "requestedChinaPrice": "CNY 12.00",
+      "appIAPOrSubscriptionCode": false,
+      "freeTrialClaims": false,
+      "livePriceVerified": false
+    }
+  },
+  "privacyPolicyReachability": {
+    "url": "https://www.xmaillc.com/count-stick-privacy.html",
+    "httpStatus": 200,
+    "sha256": "e8f98621777bf86d47e16601f2251a9affffe51a2ee46f0a20ad87e90b6b12e5",
+    "readDateLocal": "2026-10-24",
+    "consistency": "PASS for local processing, explicit saves, backup exclusion, user-directed sharing and no tracking."
+  },
+  "supportPageReachability": {
+    "url": "https://www.xmaillc.com/count-stick-support.html",
+    "httpStatus": 200,
+    "sha256": "7823294fbfdf36154548a1c06f68b4afcc2390897476474a232fa971f60239b5",
+    "readDateLocal": "2026-10-24",
+    "consistency": "PASS; estimates/manual review, local history, no in-app subscriptions."
+  },
+  "implementationVerification": {
+    "unitTests": {
+      "passed": 26,
+      "failed": 0,
+      "evidence": "output/automatic-region-unit-v2.xcresult"
+    },
+    "uiWorkflows": {
+      "passed": 3,
+      "failed": 0,
+      "evidence": "output/automatic-region-ui-v2.xcresult"
+    },
+    "finalCopyRecheck": {
+      "passed": 2,
+      "failed": 0,
+      "evidence": "output/automatic-region-ui-final-copy.xcresult"
+    },
+    "evidenceMethod": "Independent xcresulttool summary reads; no Xcode build/test was launched in this review."
+  },
+  "claimReview": {
+    "result": "PASS",
+    "reviewNotesMatchImplementation": true,
+    "onDevicePhotoAndOCR": true,
+    "referenceOutlineExplicitlyEstimated": true,
+    "outsideOutlineManualCorrectionAvailable": true,
+    "recognizedTextPersisted": false,
+    "automaticCheckoutOrAccuracyGuaranteeClaimed": false,
+    "requiredPublicPositioning": "Estimated assisted skewer-end counting with manual verification, including ends outside the estimated reference outline.",
+    "materialLimits": [
+      "Benchmarks contain missed ends and extra markers; no general accuracy percentage or reliable automatic checkout claim.",
+      "The automatic reference outline is derived from detections and can omit real endpoints.",
+      "Physical iPhone camera/performance acceptance has not been established by simulator/macOS evidence."
+    ]
+  },
+  "sourcesCheckedDateLocal": "2026-10-24"
+}

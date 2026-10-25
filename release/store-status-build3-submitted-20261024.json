@@ -1,0 +1,38 @@
+{
+  "verifiedAtUTC": "2026-10-24T15:44:48.351516+00:00",
+  "appStoreId": "6826601708",
+  "bundleId": "x.Count-stick",
+  "appName": "Count Stick: Skewer Counter",
+  "version": "1.0",
+  "buildNumber": "3",
+  "buildId": "30db8ed8-a7d8-4614-bda1-b529909a2e76",
+  "versionId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+  "reviewSubmissionId": "f9e44425-25f0-40ee-8d5e-ed77913a0f1a",
+  "reviewSubmissionState": "WAITING_FOR_REVIEW",
+  "appStoreState": "WAITING_FOR_REVIEW",
+  "submittedDate": "2026-10-24T15:44:44.056Z",
+  "buildProcessingState": "VALID",
+  "releaseType": "AFTER_APPROVAL",
+  "requestedChinaPrice": "CNY12.00",
+  "priceApplied": true,
+  "priceReadbackVerified": true,
+  "uploaded": true,
+  "submitted": true,
+  "privacyLabelsPublished": true,
+  "privacyLabel": "Data Not Collected",
+  "screenshotCount": 12,
+  "locales": [
+    "en-US",
+    "zh-Hans"
+  ],
+  "liveAvailabilityConfiguredTerritories": 175,
+  "availableInNewTerritories": false,
+  "apiPreferred": true,
+  "websiteFallback": [
+    "Create app record",
+    "Publish App Privacy questionnaire"
+  ],
+  "publicReleaseConfirmed": false,
+  "originalApp6752362515Unchanged": true,
+  "privateReceiptDirectory": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-20261024"
+}

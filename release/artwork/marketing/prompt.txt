@@ -1,0 +1,7 @@
+Use case: ads-marketing
+Asset type: background artwork only for Count Stick App Store screenshot compositions.
+Primary request: create one restrained, premium abstract portrait backdrop. The real app is warm ivory with deep green-charcoal typography, saffron-gold cards, and coral detection markers; the actual app screenshot will be placed on top later, unchanged.
+Scene/backdrop: deep green-charcoal matte paper (#1E302D), quiet soft lighting, subtle paper grain. A very sparse sculptural sweep of warm champagne-gold and ivory ribbon forms can enter from the bottom-left and far right edges, inspired by slender bamboo slivers but abstract, softly lit. Keep the top 25 percent and the central 80 percent nearly uniform and uncluttered, with generous negative space for large cream headlines and the real app screen overlay. All decorative elements stay near outer edges.
+Style: refined editorial product photography of abstract materials, understated depth, tactile rather than glossy, clean composition.
+Canvas: tall portrait background, at least 1024 by 1536. Opaque.
+Constraints: NO text, NO numbers, NO letters, NO logos, NO icons, NO phone or tablet, NO screen, NO UI, NO count markers, NO recognizable objects, NO diagrams, NO borders. This is only decorative background artwork. Do not fabricate any app interface.

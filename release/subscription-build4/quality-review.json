@@ -1,0 +1,25 @@
+{
+  "status": "SUBMITTED_AS_ASSISTED_COUNTING_WITH_KNOWN_LIMITATIONS",
+  "version": "1.0",
+  "build": "4",
+  "modelWeightsChanged": false,
+  "automaticRegionAlgorithmChanged": false,
+  "detectorChange": "Exported-image title only; no inference threshold or detection changes.",
+  "automaticCheckoutAccuracyAcceptance": "NOT_PASSED",
+  "priorEvidencePreserved": [
+    "release/accuracy/automatic-region",
+    "release/accuracy/web-set",
+    "release/accuracy/web-set-v2",
+    "release/accuracy/web-set-v3"
+  ],
+  "currentCapabilities": "On-device skewer-end assisted counting plus manual review, local history and sharing.",
+  "futureCategoriesImplemented": false,
+  "physicalDeviceAcceptance": "NOT_PERFORMED",
+  "localRuntimeEvidence": {
+    "functionalUnitStoreKitUITestsPassed": 46,
+    "finalReleaseCaptureTestsPassed": 4,
+    "failed": 0
+  },
+  "productionBillingVerified": false,
+  "appStoreReview": "WAITING_FOR_REVIEW"
+}

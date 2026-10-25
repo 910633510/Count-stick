@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "bundleID": "x.Count-stick",
+  "appVersion": "1.0",
+  "build": "4",
+  "brand": "CountScope",
+  "configuration": "Release (ENABLE_TESTABILITY=YES for XCTest; Debug hooks absent)",
+  "locale": "zh-Hans",
+  "device": "iPhone 16 Pro",
+  "simulatorId": "F32ABD3B-EC33-4A6F-BBB7-4FA3CD3E3BCC",
+  "os": "iOS 18.5 (22F77)",
+  "appleLanguages": [
+    "zh-Hans"
+  ],
+  "appleLocale": "zh_Hans_CN",
+  "effectiveLanguage": "Simplified Chinese",
+  "effectiveLanguageVerification": "PENDING_VISUAL_REVIEW; launch arguments and locale capture labels are not alone proof",
+  "captureMethod": "XCTest app.screenshot() attachments, copied byte-for-byte",
+  "sourceFreeze": "release/screenshots/build4/source-freeze.json",
+  "sourceFreezeSHA256": "5e22ad6c7c1dcde39d1ba4778c0a504c536c61dcebda68ea67a18392a24aa581",
+  "releaseSimulatorExecutableSHA256": "121401fbe740b6d067d286e2a41fcc31c4a4acd514c0f658eedb35aaa41b9a74",
+  "setupSimulatorExecutableSHA256": "d51fb77e9014bb6f85b47f271520827e719e5f31cdb855637cbd0b076abfc6ed",
+  "setupSourceFreeze": "release/screenshots/build4/source-freeze.json",
+  "setupSourceFreezeSHA256": "5e22ad6c7c1dcde39d1ba4778c0a504c536c61dcebda68ea67a18392a24aa581",
+  "captureTest": "Count_stickUITests/testCaptureReleaseScreenshots",
+  "captureTestSourceSHA256": "d5284b29f6152a0a9f9a003b457ca5d967212b6b76e62d52b7a4740a43d5ec1f",
+  "captureResult": "output/subscription-build4/iphone-release-captures.xcresult",
+  "setupResult": "output/subscription-build4/iphone-setup.xcresult",
+  "captureSummary": {
+    "devicesAndConfigurations": [
+      {
+        "device": {
+          "architecture": "arm64",
+          "deviceId": "F32ABD3B-EC33-4A6F-BBB7-4FA3CD3E3BCC",
+          "deviceName": "CountScope StoreKit QA iOS18",
+          "modelName": "iPhone 16 Pro",
+          "osBuildNumber": "22F77",
+          "osVersion": "18.5",
+          "platform": "iOS Simulator"
+        },
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "passedTests": 2,
+        "skippedTests": 0,
+        "testPlanConfiguration": {
+          "configurationId": "1",
+          "configurationName": "Test Scheme Action"
+        }
+      }
+    ],
+    "environmentDescription": "Count stick · Built with macOS 26.4.1",
+    "expectedFailures": 0,
+    "failedTests": 0,
+    "finishTime": 1792902031.033,
+    "passedTests": 2,
+    "result": "Passed",
+    "skippedTests": 0,
+    "startTime": 1792901744.44,
+    "statistics": [],
+    "testFailures": [],
+    "title": "Test - Count stick",
+    "topInsights": [],
+    "totalTestCount": 2
+  },
+  "setupSummary": {
+    "devicesAndConfigurations": [
+      {
+        "device": {
+          "architecture": "arm64",
+          "deviceId": "F32ABD3B-EC33-4A6F-BBB7-4FA3CD3E3BCC",
+          "deviceName": "CountScope StoreKit QA iOS18",
+          "modelName": "iPhone 16 Pro",
+          "osBuildNumber": "22F77",
+          "osVersion": "18.5",
+          "platform": "iOS Simulator"
+        },
+        "expectedFailures": 0,
+        "failedTests": 0,
+        "passedTests": 1,
+        "skippedTests": 0,
+        "testPlanConfiguration": {
+          "configurationId": "1",
+          "configurationName": "Test Scheme Action"
+        }
+      }
+    ],
+    "environmentDescription": "Count stick · Built with macOS 26.4.1",
+    "expectedFailures": 0,
+    "failedTests": 0,
+    "finishTime": 1792901727.649,
+    "passedTests": 1,
+    "result": "Passed",
+    "skippedTests": 0,
+    "startTime": 1792901682.775,
+    "statistics": [],
+    "testFailures": [],
+    "title": "Test - Count stick",
+    "topInsights": [],
+    "totalTestCount": 1
+  },
+  "recordOrigin": {
+    "method": "Debug 1.0(4) processed the real fixture through production inference and saved the result through app UI. Release 1.0(4) reopened it. No marker coordinates or count were fabricated.",
+    "fixture": "release/fixtures/bamboo-skewers-cc0.jpg",
+    "fixtureSHA256": "824da6b42b3c14c66e6843aaeaae9f35676ee2e9df72a68eee9f7fa2820bb1b1",
+    "groundTruthCount": null,
+    "noteEnteredThroughUI": "晚餐备料"
+  },
+  "visualReview": "PENDING",
+  "screenshots": [
+    {
+      "role": "home",
+      "path": "home.png",
+      "sha256": "ea00be2d21c14366069709328d95792d434804e7f2731caf7c57416bff7e92ff",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "originalAttachment": "output/subscription-build4/iphone-release-attachments/A1071593-6502-4E95-B54F-F6FE876A8925.png",
+      "capturedAtUTC": "2026-10-25T04:16:36.060000+00:00"
+    },
+    {
+      "role": "result",
+      "path": "result.png",
+      "sha256": "db7e2953b80a9913a36652c542299c0ccb28c352b17fd457da822ca271c98a1e",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "originalAttachment": "output/subscription-build4/iphone-release-attachments/1A19C952-6B87-41A1-863F-9EE0B2E7B2E3.png",
+      "capturedAtUTC": "2026-10-25T04:16:51.637000+00:00"
+    },
+    {
+      "role": "correction",
+      "path": "correction.png",
+      "sha256": "299cb392fbca8ef00011b2d16f01ed32943fd3aa731fd7933bd87c82d114a764",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "originalAttachment": "output/subscription-build4/iphone-release-attachments/CDAC8C69-DFFD-4ACD-9A99-86E13C029333.png",
+      "capturedAtUTC": "2026-10-25T04:16:54.648000+00:00"
+    },
+    {
+      "role": "zoom",
+      "path": "zoom.png",
+      "sha256": "6e52b180be3fc4d3593047863ad74eef2362dde96c3e04b26cf07db50e334ae7",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "originalAttachment": "output/subscription-build4/iphone-release-attachments/C765B8EE-B86A-4684-906F-6550CAD2991C.png",
+      "capturedAtUTC": "2026-10-25T04:16:56.109000+00:00"
+    },
+    {
+      "role": "history",
+      "path": "history.png",
+      "sha256": "b89ccef41378f772369d96611334718d8501428340d4222e8171e154e69033f6",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "originalAttachment": "output/subscription-build4/iphone-release-attachments/42440624-C11E-403D-9D34-93E1E1724D2E.png",
+      "capturedAtUTC": "2026-10-25T04:16:59.826000+00:00"
+    }
+  ]
+}

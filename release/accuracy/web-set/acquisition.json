@@ -1,0 +1,249 @@
+{
+  "target": "Real skewer bundle blunt-end faces; local evaluation only",
+  "annotationsFrozen": false,
+  "records": [
+    {
+      "id": "acquisition-01",
+      "sourcePage": "https://arvar.hu/termek/60-cm-x-6-mm-50-100db-bbq-bambusz-nyars-szuper-hosszu-tornado-burgonya-fa-spiral-tu-bar-etteremellatas/",
+      "imageURL": "https://ae01.alicdn.com/kf/Sf8a56f84925f4ae1bbcaae26b8ee01d2a/60cm-x-6mm-50-100Pcs-BBQ-Bamboo-Skewers-Super-Long-Tornado-Potato-Wood-Skewer-Wooden-Spiral.jpg",
+      "sourceGroup": "round-thick-woodtable-root",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-01.original",
+      "originalSHA256": "7da2f9feff53bc4e49693363208b3047aee93a2929b2ea2ec92b3f2806f085ee",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-01.jpg",
+      "sha256": "1c89ef5d1f46d9d051d945e96d3ffe873e432f14a0416dbafc16d3e3d81a5218",
+      "pixels": [
+        800,
+        800
+      ],
+      "storage": "LOCAL_ONLY_DO_NOT_PUBLISH_ORIGINAL",
+      "accessedDate": "2026-10-23",
+      "status": "EXCLUDE_DUPLICATE_OF_ROOT_THICK_ENDS",
+      "groundTruth": null,
+      "modelPredictionsViewed": false,
+      "visualInspected": true,
+      "photographAssessment": "Photographic bamboo end-face textures, natural lighting/depth of field; no visible synthetic-image indicators. Original capture provenance not independently verified.",
+      "pHash64": "858d38de4179ba63",
+      "conversion": "Original download retained byte-for-byte in .original; RGB JPEG derivative made without resize/crop/content edits for local annotation.",
+      "duplicateOf": "root-thick-ends.jpg",
+      "selectionNote": "Duplicate source image; do not count as independent."
+    },
+    {
+      "id": "acquisition-02",
+      "sourcePage": "https://nl.vicedeal.com/products/90-stks-15-cm-bamboe-spiesjes-sticks-houten-barbecue-spiesjes-natuurlijke-wood-sticks-barbecue-accessoires-koken-tool?variant=UHJvZHVjdFZhcmlhbnQ6NzI3NzQxMzMy",
+      "imageURL": "https://images.nexusapp.co/assets/fd/eb/ff/11980696.jpg",
+      "sourceGroup": "round-dense-front-white",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-02.original",
+      "originalSHA256": "fb320b8305f711dce3215ec9ecb60f6d48d785a9435319ca93f054796ebe5644",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-02.jpg",
+      "sha256": "efb3296b311f041b4970116986bedf0eede56871b2bd47eecac3550888638f97",
+      "pixels": [
+        800,
+        800
+      ],
+      "storage": "LOCAL_ONLY_DO_NOT_PUBLISH_ORIGINAL",
+      "accessedDate": "2026-10-23",
+      "status": "USABLE_BLUNT_END_FACE_CANDIDATE",
+      "groundTruth": null,
+      "modelPredictionsViewed": false,
+      "visualInspected": true,
+      "photographAssessment": "Photographic bamboo end-face textures, natural lighting/depth of field; no visible synthetic-image indicators. Original capture provenance not independently verified.",
+      "pHash64": "ff82c08bc39d8b54",
+      "conversion": "Original download retained byte-for-byte in .original; RGB JPEG derivative made without resize/crop/content edits for local annotation.",
+      "selectionNote": "Hundreds of dense but separated visible faces; laborious annotation."
+    },
+    {
+      "id": "acquisition-03",
+      "sourcePage": "https://xizhubamboo.en.made-in-china.com/product/rOvfDkKGhBUJ/China-20cm-30cm-40cm-Customzied-Sizes-Skewer-Bamboo-Sticks.html",
+      "imageURL": "https://image.made-in-china.com/2f0j00ZJzhumYyCUrG/20cm-30cm-40cm-Customzied-Sizes-Skewer-Bamboo-Sticks.webp",
+      "sourceGroup": "round-dense-angle-white",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-03.original",
+      "originalSHA256": "2da37e4dc91e513b1533abcd4c7105885fac733a7c92f8f6af7370d1fd5c11d1",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-03.jpg",
+      "sha256": "e4a87a2560f53cac00247f5ba1672344953f123fede1c5b1f05c8bdc7c02c29e",
+      "pixels": [
+        800,
+        800
+      ],
+      "storage": "LOCAL_ONLY_DO_NOT_PUBLISH_ORIGINAL",
+      "accessedDate": "2026-10-23",
+      "status": "USABLE_BLUNT_END_FACE_CANDIDATE",
+      "groundTruth": null,
+      "modelPredictionsViewed": false,
+      "visualInspected": true,
+      "photographAssessment": "Photographic bamboo end-face textures, natural lighting/depth of field; no visible synthetic-image indicators. Original capture provenance not independently verified.",
+      "pHash64": "efd1e05ac1889e74",
+      "conversion": "Original download retained byte-for-byte in .original; RGB JPEG derivative made without resize/crop/content edits for local annotation.",
+      "selectionNote": "Many separated visible faces; some left-edge blur; moderate/hard annotation."
+    },
+    {
+      "id": "acquisition-04",
+      "sourcePage": "https://hefeiaoao.en.made-in-china.com/product/vdPfnaRWsDAk/China-BBQ-Skewers-Retail-Large-Diameter-Long-Bamboo-Round-Wooden-Sticks.html",
+      "imageURL": "https://image.made-in-china.com/2f0j00WBYiuHgEIhfM/BBQ-Skewers-Retail-Large-Diameter-Long-Bamboo-Round-Wooden-Sticks.jpg",
+      "sourceGroup": "round-yellow-band-white",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-04.original",
+      "originalSHA256": "d6fc7a32e8dfce1868f8fa1d16f31efdd0951d6fdd2362a8f095d943da665ddb",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-04.jpg",
+      "sha256": "2305eb5ccd0f0c336da577e8b3471d84fed8da4007fb54ccd10d3ee65cf3890f",
+      "pixels": [
+        1000,
+        1000
+      ],
+      "storage": "LOCAL_ONLY_DO_NOT_PUBLISH_ORIGINAL",
+      "accessedDate": "2026-10-23",
+      "status": "USABLE_BLUNT_END_FACE_CANDIDATE",
+      "groundTruth": null,
+      "modelPredictionsViewed": false,
+      "visualInspected": true,
+      "photographAssessment": "Photographic bamboo end-face textures, natural lighting/depth of field; no visible synthetic-image indicators. Original capture provenance not independently verified.",
+      "pHash64": "a506ca706de7729c",
+      "conversion": "Original download retained byte-for-byte in .original; RGB JPEG derivative made without resize/crop/content edits for local annotation.",
+      "selectionNote": "Distinct visible round faces; suitable next manual annotation candidate."
+    },
+    {
+      "id": "acquisition-05",
+      "sourcePage": "https://m.made-in-china.com/product/Natural-Color-Sharp-End-Round-Disposable-Bamboo-Stick-Bamboo-Skewer-1977437892.html",
+      "imageURL": "https://image.made-in-china.com/2f0j00wJtlCyDrrGzn/Natural-Color-Sharp-End-Round-Disposable-Bamboo-Stick-Bamboo-Skewer.webp",
+      "sourceGroup": "round-closeup-woven-background",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-05.original",
+      "originalSHA256": "e2ac4cd90c7ae41c4164ff2dd7881a4598c433d3e87037ff9e2751cb7f30e153",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-05.jpg",
+      "sha256": "c7c795aee949d1e13521a35f30a4d740dac749d948a436d0df6c9efc5608c6e5",
+      "pixels": [
+        725,
+        735
+      ],
+      "storage": "LOCAL_ONLY_DO_NOT_PUBLISH_ORIGINAL",
+      "accessedDate": "2026-10-23",
+      "status": "BLIND_MANUAL_DRAFT_REVIEW_PENDING",
+      "groundTruth": null,
+      "modelPredictionsViewed": false,
+      "visualInspected": true,
+      "photographAssessment": "Photographic bamboo end-face textures, natural lighting/depth of field; no visible synthetic-image indicators. Original capture provenance not independently verified.",
+      "pHash64": "f5348e232b4878fc",
+      "conversion": "Original download retained byte-for-byte in .original; RGB JPEG derivative made without resize/crop/content edits for local annotation.",
+      "groundTruthVisibleEndFaces": 28,
+      "annotationPath": "release/accuracy/web-set/annotations/acquisition-05.json",
+      "annotationSHA256": "f7a25c4a30935f5f1140f095890259592c897b10eca8c4a7179f6f5aeeec9b89",
+      "selectionNote": "28 individually identifiable visible end faces; blind manual point annotation frozen.",
+      "independentReview": "skill_update confirms28; parent combined freeze pending"
+    },
+    {
+      "id": "acquisition-06",
+      "sourcePage": "https://bambooitems.en.made-in-china.com/product/ZxYUHWJrRaRV/China-Eco-Friendly-BBQ-Bamboo-Skewers-Disposable-Natural-Round-and-Flat-Fruit-Bamboo-Sticks.html",
+      "imageURL": "https://image.made-in-china.com/202f0j00gUpcPKimhHre/Eco-Friendly-BBQ-Bamboo-Skewers-Disposable-Natural-Round-and-Flat-Fruit-Bamboo-Sticks.webp",
+      "sourceGroup": "round-green-band-white",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-06.original",
+      "originalSHA256": "342f1f408108cc05cc0d0e1ea95ee55acbd4ee13b3900355472249d8b858c36e",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-06.jpg",
+      "sha256": "9b8cfcdc38c6b67a84f0bb3b0b73b18dcb2089bbfe844dd044e610b92026d586",
+      "pixels": [
+        500,
+        550
+      ],
+      "storage": "LOCAL_ONLY_DO_NOT_PUBLISH_ORIGINAL",
+      "accessedDate": "2026-10-23",
+      "status": "USABLE_BLUNT_END_FACE_CANDIDATE",
+      "groundTruth": null,
+      "modelPredictionsViewed": false,
+      "visualInspected": true,
+      "photographAssessment": "Photographic bamboo end-face textures, natural lighting/depth of field; no visible synthetic-image indicators. Original capture provenance not independently verified.",
+      "pHash64": "dac2a5a997b43a4a",
+      "conversion": "Original download retained byte-for-byte in .original; RGB JPEG derivative made without resize/crop/content edits for local annotation.",
+      "selectionNote": "Dense small faces at 500px width; lower priority than 04/05."
+    },
+    {
+      "id": "acquisition-07",
+      "sourcePage": "https://linux.do/t/topic/1280608",
+      "imageURL": "https://cdn3.ldstatic.com/original/4X/a/d/0/ad02b0368c2e6ba4d755757ff559f69436403488.jpeg",
+      "sourceGroup": "restaurant-07",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-07.original",
+      "originalSHA256": "e00440ad723b3b7aa8f8f38efdb27330d219e2af54818527ce0d04b9b2906e69",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-07.jpg",
+      "sha256": "40833ec6c3fa4a830199eeb3add7e8af3702b9d98e76d210c9508536de40ee76",
+      "pixels": [
+        1920,
+        2560
+      ],
+      "storage": "LOCAL_ONLY_DO_NOT_PUBLISH_ORIGINAL",
+      "accessedDate": "2026-10-23",
+      "status": "USABLE_RESTAURANT_BLUNT_END_CANDIDATE",
+      "groundTruth": null,
+      "modelPredictionsViewed": false,
+      "sourcePageContainsUnverifiedCountClaims": true,
+      "annotateByFreshReviewer": "acquisition agent saw textual count claims in source article; independent annotation should ignore those claims",
+      "visualInspected": true,
+      "selectionNote": "Original photograph: used dark/light skewer blunt-end bundle held in hand over a restaurant table; no model dots or boxes. Need independent manual annotation; do not use source-page claimed counts."
+    },
+    {
+      "id": "acquisition-08",
+      "sourcePage": "https://blog.csdn.net/wangchensong/article/details/122979514",
+      "imageURL": "https://i-blog.csdnimg.cn/blog_migrate/b5a932465cb1f197dc9da668af598d54.png",
+      "sourceGroup": "restaurant-08",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-08.original",
+      "originalSHA256": "87cb1370e1bd52168ae3001547a76075aaf1203b40da6643aa2b922df11a05dc",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-08.jpg",
+      "sha256": "85e33430c7b1b7e15fc40396a0be391a221a637109debe49f9cce747548861bc",
+      "pixels": [
+        448,
+        887
+      ],
+      "storage": "LOCAL_ONLY_DO_NOT_PUBLISH_ORIGINAL",
+      "accessedDate": "2026-10-23",
+      "status": "EXCLUDE_UI_TEMPLATE_THUMBNAIL",
+      "groundTruth": null,
+      "modelPredictionsViewed": false,
+      "sourcePageContainsUnverifiedCountClaims": false,
+      "annotateByFreshReviewer": null,
+      "visualInspected": true,
+      "selectionNote": "Only an app home-screen template thumbnail, not a usable full-resolution restaurant photograph."
+    },
+    {
+      "id": "acquisition-09",
+      "sourcePage": "https://kan.china.com/article/5700626.html",
+      "imageURL": "https://k-static.appmobile.cn/uploads2/allimg/2505/20/1026332956-2.jpg",
+      "sourceGroup": "restaurant-news-09",
+      "originalPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-09.original",
+      "originalSHA256": "f81e1bbdbe0fe671c850d66a0c2a3482357078c3d9fb074914f77049520a2af3",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation/images/acquisition-09.jpg",
+      "sha256": "d1271b7acb51d9d202b671949a144daadc162449d3ceb4d2ff1c265cf5d23297",
+      "pixels": [
+        600,
+        853
+      ],
+      "storage": "LOCAL_ONLY_DO_NOT_PUBLISH_ORIGINAL",
+      "accessedDate": "2026-10-23",
+      "status": "EXCLUDE_TEXT_OCCLUDES_ENDPOINTS",
+      "groundTruth": null,
+      "modelPredictionsViewed": false,
+      "sourcePageContainsUnverifiedCountClaims": true,
+      "visualInspected": true,
+      "selectionNote": "Restaurant blunt-end scene, but news headline text covers several end faces; cannot provide complete unbiased visible-head annotation. Kept local context only."
+    }
+  ],
+  "duplicateCheck": {
+    "method": "64-bit DCT pHash plus direct visual review",
+    "pairs": [
+      {
+        "first": "acquisition-01.jpg",
+        "second": "root-thick-ends.jpg",
+        "distance": 0
+      }
+    ],
+    "scope": "Syndicated copies grouped; visually distinct photographs are candidate source groups, physical specimen independence unverified."
+  },
+  "frozenAnnotationImages": [],
+  "notes": "Do not run predictions on a candidate until its own manual annotations are frozen. Images are local-only and excluded from public source/artifact publication.",
+  "recommendedEvaluationCandidates": [
+    "root-thick-ends",
+    "root-flat-black",
+    "acquisition-04",
+    "acquisition-05",
+    "acquisition-07"
+  ],
+  "additionalRestaurantSearch": {
+    "result": "One clean used restaurant photograph obtained (07). Second news candidate (09) excluded for text occlusion; app homepage thumbnail (08) excluded; DFRobot demo photographs are unrelated keyboard captures.",
+    "rawRestaurantCandidate": "acquisition-07",
+    "warning": "Acquisition agent saw source-page textual count claims for07; have a fresh reviewer annotate original image without viewing discussion or accepting claims.",
+    "noDetectorEvaluationsRunByAcquisitionAgent": true
+  }
+}

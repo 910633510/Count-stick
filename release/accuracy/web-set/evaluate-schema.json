@@ -1,0 +1,45 @@
+{
+  "purpose": "Example contract only; placeholder fields deliberately do not pass validation. Freeze real blind annotations and the source-group split before running evaluate.py.",
+  "manifestExample": {
+    "schemaVersion": 1,
+    "labelsFrozen": false,
+    "frozenAt": null,
+    "splitLocked": false,
+    "images": [{
+      "id": "source-photo-01",
+      "path": "output/web-annotation/images/source-photo-01.jpg",
+      "imageSha256": "sha256-of-exact-upright-input-file",
+      "sourceUrl": "https://source.example/item",
+      "imageUrl": "https://source.example/photo.jpg",
+      "sourceGroup": "original-photo-and-all-its-crops-or-recompressions",
+      "split": "calibration",
+      "annotationPath": "release/accuracy/web-set/annotations/source-photo-01.json",
+      "annotationSha256": "sha256-of-reviewed-frozen-annotation-file",
+      "status": "pending_review",
+      "eligible": false
+    }]
+  },
+  "annotationExample": {
+    "schemaVersion": 1,
+    "imageId": "source-photo-01",
+    "imageSha256": "sha256-of-exact-input-file",
+    "width": 1000,
+    "height": 1000,
+    "coordinateSystem": "upright image pixels, top-left",
+    "scope": "full_image",
+    "evaluationRegion": {"xywh": [0, 0, 1000, 1000]},
+    "points": [{"id": "head-01", "x": 100, "y": 100, "matchRadius": 18, "bbox": [82, 82, 36, 36]}],
+    "ignoreRegions": [],
+    "visibleEndpointCount": 1,
+    "completeCountVerified": false,
+    "review": {"status": "draft", "annotator": "manual-labeler", "reviewer": null, "notes": "No model predictions viewed. Package quantities are not ground truth."}
+  },
+  "commands": [
+    "python3 release/accuracy/web-set/evaluate-tests.py",
+    "python3 release/accuracy/web-set/evaluate.py release/accuracy/web-set/manifest.json --validate-only",
+    "python3 release/accuracy/web-set/evaluate.py release/accuracy/web-set/manifest.json --output-dir output/web-annotation/evaluation",
+    "python3 release/accuracy/web-set/evaluate.py release/accuracy/web-set/manifest.json --predictions output/web-annotation/evaluation/predictions.json --output-dir output/web-annotation/evaluation"
+  ],
+  "countMetricGate": "Only manually verified full-image visible endpoint counts with no ignored uncertainty qualify for exact-count rate or MAE. Partial/ROI labels retain endpoint precision/recall only. Never use retailer pack quantities or infer hidden ends.",
+  "splitPolicy": "Choose calibration/holdout by original source photo/group before model execution. Same bytes cannot be eligible twice, and source groups cannot cross splits. Human review must group resized/cropped/recompressed versions too."
+}

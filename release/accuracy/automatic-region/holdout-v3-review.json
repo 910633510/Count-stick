@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "datasetId": "count-stick-web-endpoints-v3",
+  "reviewedAtUTC": "2026-10-23T16:36:14.068662+00:00",
+  "reviewStatus": "PASS_EVALUATION_INTEGRITY; NO_AUTOMATIC_CHECKOUT_ACCEPTANCE",
+  "manifestSha256": "bfd3d87885e8add72be93919688e6103c3379dc3c019ec02296b40b6a24f2af9",
+  "checkpointSha256": "067adaa5091813d2f856a127de73b11c37e6cb2bcc5dd13f6cc617fcf4c4cf79",
+  "reportSha256": "165d056e14d5fdbace78da918c59cfbd8b418b66a8ad3f593404efab8ce82080",
+  "predictionSha256": "ed8a295d173fcb2c5180c69f5a1a6bd509ee3d0f3b67b882b7fc568951cfd91c",
+  "preInferenceInputSha256": "4badf5c1a5619fb761c0dbe7b8ea90750b0c4893b9e67b86ac1773c9549e3c68",
+  "compiledHelperSha256": "7b63e0c035d5df8553ddee701907e28c436be212d78a72c4f9283823ce689f07",
+  "sourceDetectorSha256": "50462cf49c71e06c947bca0e870ff4cca36e3ef63414d0cdf23bdd12db8f10fa",
+  "autoCountRegionSha256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+  "inferenceRerun": false,
+  "selectorRerun": false,
+  "ocrRerun": false,
+  "labelsOrCodeModified": false,
+  "checks": {
+    "frozenManifestAlgorithmAndChronology": "PASS",
+    "allSourceModelPhotoAnnotationBindings": "PASS",
+    "sharedCompiledHelperDigest": "PASS",
+    "rawBuild2OnePassPerImageAndNoExtraModelPass": "PASS",
+    "OCRSettingsAlignedAndNoRecognizedStringsPersisted": "PASS",
+    "selectorIsExactKeptExcludedPartitionOfUnchangedRawIDs": "PASS",
+    "regionBoundsContainEveryRetainedDetectionCenter": "PASS",
+    "independentHungarianTPFPFNDuplicateAndMinimumDistance": "PASS",
+    "ignoredBorderAndExactCountEligibility": "PASS",
+    "allAggregateScopes": "PASS",
+    "noAdditionalTruePositiveLossFromSelection": "PASS",
+    "byteIdenticalPublishedReceiptCopies": "PASS",
+    "auditInputsUnchanged": "PASS"
+  },
+  "independentRecalculation": {
+    "method": "Independent SciPy Hungarian assignment with unmatched penalties for maximum cardinality and Euclidean-distance tie minimization; own winding-number boundary-inclusive ignored polygons; no calls to production scoring implementation.",
+    "scipyVersion": "1.13.1",
+    "overall": {
+      "raw_build2": {
+        "TP": 109,
+        "FP": 2,
+        "FN": 31,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 1,
+        "images": 2,
+        "sourceGroups": 2,
+        "precision": 0.9819819819819819,
+        "recall": 0.7785714285714286,
+        "countEligibleImages": 1,
+        "countMAE": 11.0,
+        "exactCountRate": 0.0
+      },
+      "automatic_region": {
+        "TP": 109,
+        "FP": 1,
+        "FN": 31,
+        "ignoredPredictions": 0,
+        "duplicateFalsePositives": 1,
+        "images": 2,
+        "sourceGroups": 2,
+        "precision": 0.990909090909091,
+        "recall": 0.7785714285714286,
+        "countEligibleImages": 1,
+        "countMAE": 11.0,
+        "exactCountRate": 0.0
+      }
+    },
+    "bySplit": {
+      "calibration": {
+        "raw_build2": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 0,
+          "images": 0,
+          "sourceGroups": 0,
+          "precision": null,
+          "recall": null,
+          "countEligibleImages": 0,
+          "countMAE": null,
+          "exactCountRate": null
+        },
+        "automatic_region": {
+          "TP": 0,
+          "FP": 0,
+          "FN": 0,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 0,
+          "images": 0,
+          "sourceGroups": 0,
+          "precision": null,
+          "recall": null,
+          "countEligibleImages": 0,
+          "countMAE": null,
+          "exactCountRate": null
+        }
+      },
+      "holdout": {
+        "raw_build2": {
+          "TP": 109,
+          "FP": 2,
+          "FN": 31,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 1,
+          "images": 2,
+          "sourceGroups": 2,
+          "precision": 0.9819819819819819,
+          "recall": 0.7785714285714286,
+          "countEligibleImages": 1,
+          "countMAE": 11.0,
+          "exactCountRate": 0.0
+        },
+        "automatic_region": {
+          "TP": 109,
+          "FP": 1,
+          "FN": 31,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 1,
+          "images": 2,
+          "sourceGroups": 2,
+          "precision": 0.990909090909091,
+          "recall": 0.7785714285714286,
+          "countEligibleImages": 1,
+          "countMAE": 11.0,
+          "exactCountRate": 0.0
+        }
+      }
+    },
+    "bySourceGroup": {
+      "allegro-square-frontal-bundle": {
+        "raw_build2": {
+          "TP": 91,
+          "FP": 1,
+          "FN": 12,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 1,
+          "images": 1,
+          "sourceGroups": 1,
+          "precision": 0.9891304347826086,
+          "recall": 0.883495145631068,
+          "countEligibleImages": 1,
+          "countMAE": 11.0,
+          "exactCountRate": 0.0
+        },
+        "automatic_region": {
+          "TP": 91,
+          "FP": 1,
+          "FN": 12,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 1,
+          "images": 1,
+          "sourceGroups": 1,
+          "precision": 0.9891304347826086,
+          "recall": 0.883495145631068,
+          "countEligibleImages": 1,
+          "countMAE": 11.0,
+          "exactCountRate": 0.0
+        }
+      },
+      "gochandmade-staggered-endfaces": {
+        "raw_build2": {
+          "TP": 18,
+          "FP": 1,
+          "FN": 19,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 0,
+          "images": 1,
+          "sourceGroups": 1,
+          "precision": 0.9473684210526315,
+          "recall": 0.4864864864864865,
+          "countEligibleImages": 0,
+          "countMAE": null,
+          "exactCountRate": null
+        },
+        "automatic_region": {
+          "TP": 18,
+          "FP": 0,
+          "FN": 19,
+          "ignoredPredictions": 0,
+          "duplicateFalsePositives": 0,
+          "images": 1,
+          "sourceGroups": 1,
+          "precision": 1.0,
+          "recall": 0.4864864864864865,
+          "countEligibleImages": 0,
+          "countMAE": null,
+          "exactCountRate": null
+        }
+      }
+    },
+    "perImage": [
+      {
+        "imageId": "acq-v3-vietnam-round",
+        "sourceGroup": "gochandmade-staggered-endfaces",
+        "split": "holdout",
+        "visibleEndpointTruth": 37,
+        "exactCountEligible": false,
+        "ignoreRegionCount": 1,
+        "ocrAreaCount": 0,
+        "ocrRevision": 3,
+        "variants": {
+          "raw_build2": {
+            "TP": 18,
+            "FP": 1,
+            "FN": 19,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 0,
+            "otherFalsePositives": 1,
+            "precision": 0.9473684210526315,
+            "recall": 0.4864864864864865,
+            "predictedWholeImageCount": 19,
+            "predictedRegionCount": 19,
+            "confirmedVisibleEndpointCount": 37,
+            "exactCountEligible": false,
+            "signedCountError": null,
+            "absoluteCountError": null,
+            "exactCount": null,
+            "minimumMatchingDistanceSum": 30.44164910567021,
+            "falsePositiveIDs": [
+              "det-17"
+            ],
+            "missedLabelIDs": [
+              "end-001",
+              "end-003",
+              "end-007",
+              "end-008",
+              "end-009",
+              "end-012",
+              "end-021",
+              "end-022",
+              "end-025",
+              "end-026",
+              "end-029",
+              "end-030",
+              "end-031",
+              "end-032",
+              "end-033",
+              "end-034",
+              "end-035",
+              "end-036",
+              "end-037"
+            ]
+          },
+          "automatic_region": {
+            "TP": 18,
+            "FP": 0,
+            "FN": 19,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 0,
+            "otherFalsePositives": 0,
+            "precision": 1.0,
+            "recall": 0.4864864864864865,
+            "predictedWholeImageCount": 18,
+            "predictedRegionCount": 18,
+            "confirmedVisibleEndpointCount": 37,
+            "exactCountEligible": false,
+            "signedCountError": null,
+            "absoluteCountError": null,
+            "exactCount": null,
+            "minimumMatchingDistanceSum": 30.44164910567021,
+            "falsePositiveIDs": [],
+            "missedLabelIDs": [
+              "end-001",
+              "end-003",
+              "end-007",
+              "end-008",
+              "end-009",
+              "end-012",
+              "end-021",
+              "end-022",
+              "end-025",
+              "end-026",
+              "end-029",
+              "end-030",
+              "end-031",
+              "end-032",
+              "end-033",
+              "end-034",
+              "end-035",
+              "end-036",
+              "end-037"
+            ]
+          }
+        }
+      },
+      {
+        "imageId": "acq-v3-allegro-square",
+        "sourceGroup": "allegro-square-frontal-bundle",
+        "split": "holdout",
+        "visibleEndpointTruth": 103,
+        "exactCountEligible": true,
+        "ignoreRegionCount": 0,
+        "ocrAreaCount": 0,
+        "ocrRevision": 3,
+        "variants": {
+          "raw_build2": {
+            "TP": 91,
+            "FP": 1,
+            "FN": 12,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 1,
+            "otherFalsePositives": 0,
+            "precision": 0.9891304347826086,
+            "recall": 0.883495145631068,
+            "predictedWholeImageCount": 92,
+            "predictedRegionCount": 92,
+            "confirmedVisibleEndpointCount": 103,
+            "exactCountEligible": true,
+            "signedCountError": -11,
+            "absoluteCountError": 11,
+            "exactCount": false,
+            "minimumMatchingDistanceSum": 543.6878832091935,
+            "falsePositiveIDs": [
+              "det-60"
+            ],
+            "missedLabelIDs": [
+              "end-011",
+              "end-014",
+              "end-015",
+              "end-027",
+              "end-040",
+              "end-041",
+              "end-042",
+              "end-054",
+              "end-080",
+              "end-096",
+              "end-097",
+              "end-098"
+            ]
+          },
+          "automatic_region": {
+            "TP": 91,
+            "FP": 1,
+            "FN": 12,
+            "ignoredPredictions": 0,
+            "duplicateFalsePositives": 1,
+            "otherFalsePositives": 0,
+            "precision": 0.9891304347826086,
+            "recall": 0.883495145631068,
+            "predictedWholeImageCount": 92,
+            "predictedRegionCount": 92,
+            "confirmedVisibleEndpointCount": 103,
+            "exactCountEligible": true,
+            "signedCountError": -11,
+            "absoluteCountError": 11,
+            "exactCount": false,
+            "minimumMatchingDistanceSum": 543.6878832091935,
+            "falsePositiveIDs": [
+              "det-60"
+            ],
+            "missedLabelIDs": [
+              "end-011",
+              "end-014",
+              "end-015",
+              "end-027",
+              "end-040",
+              "end-041",
+              "end-042",
+              "end-054",
+              "end-080",
+              "end-096",
+              "end-097",
+              "end-098"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "diagnostics": [
+    {
+      "imageId": "acq-v3-vietnam-round",
+      "excluded": [
+        {
+          "id": "det-17",
+          "reason": "isolated",
+          "x": 5.4520416259765625,
+          "y": 591.875,
+          "confidence": 0.301513671875,
+          "matchedRawTruth": false
+        }
+      ],
+      "rawMatchedPredictionIDsRemoved": [],
+      "unmatchedConfirmedLabelsOutsideDisplayedRegions": [
+        "end-001",
+        "end-003",
+        "end-021",
+        "end-030",
+        "end-031",
+        "end-033",
+        "end-034",
+        "end-035",
+        "end-036",
+        "end-037"
+      ],
+      "retainedFalsePositives": []
+    },
+    {
+      "imageId": "acq-v3-allegro-square",
+      "excluded": [],
+      "rawMatchedPredictionIDsRemoved": [],
+      "unmatchedConfirmedLabelsOutsideDisplayedRegions": [],
+      "retainedFalsePositives": [
+        {
+          "id": "det-60",
+          "x": 1208.837890625,
+          "y": 1872.685546875,
+          "nearestTruthDistance": 22.556746237928138
+        }
+      ]
+    }
+  ],
+  "repositoryReceiptCopies": [
+    {
+      "path": "release/accuracy/web-set-v3/benchmark-v3.json",
+      "sha256": "165d056e14d5fdbace78da918c59cfbd8b418b66a8ad3f593404efab8ce82080",
+      "byteIdentical": true
+    },
+    {
+      "path": "release/accuracy/web-set-v3/predictions-v3.json",
+      "sha256": "ed8a295d173fcb2c5180c69f5a1a6bd509ee3d0f3b67b882b7fc568951cfd91c",
+      "byteIdentical": true
+    },
+    {
+      "path": "release/accuracy/web-set-v3/pre-inference-input.json",
+      "sha256": "4badf5c1a5619fb761c0dbe7b8ea90750b0c4893b9e67b86ac1773c9549e3c68",
+      "byteIdentical": true
+    }
+  ],
+  "localPreview": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/web-annotation-v3/audit-review.jpg",
+  "conclusions": [
+    "Automatic selection removed one protocol-defined isolated FP on Vietnam and removed no raw true-positive detection on either image. The removed point lies0.125px outside an ignored border-fragment region, so this FP reduction is boundary-sensitive.",
+    "Raw misses remain: Vietnam19 unmatched confirmed faces and Allegro12; the selector cannot create detections absent from the raw model.",
+    "Only Allegro is eligible for exact whole-image visible-end count: output92 versus103 truth, signed error-11 and exact rate0/1. Vietnam partial border is excluded from full-count MAE/exact rate.",
+    "Both OCR requests completed at revision3 with zero accepted text areas. This holdout does not independently validate the OCR/text-exclusion branch.",
+    "Displayed region bounds are inferred from detections; labels missed by the raw model can lie outside them. No region cropping or second model pass occurred.",
+    "Two product photos, including a square-shape stress case, do not establish restaurant-field accuracy or physical iPhone acceptance."
+  ],
+  "ignoredBoundarySensitivity": {
+    "imageId": "acq-v3-vietnam-round",
+    "predictionId": "det-17",
+    "pointXY": [
+      5.4520416259765625,
+      591.875
+    ],
+    "frozenIgnoreTopY": 592,
+    "distanceToFrozenIgnoreBoundaryPx": 0.125,
+    "primaryClassification": "Unmatched FP under the immutable frozen center-in-polygon protocol.",
+    "interpretation": "This point is immediately adjacent to the uncertain out-of-frame fragment, so the one-FP reduction is sensitive to the frozen mask boundary. It is not strong evidence that an unambiguous ordinary background object was removed.",
+    "labelsOrMasksChangedAfterInference": false
+  },
+  "visualReview": "PASS: original/manual/automatic comparison inspected. Vietnam inferred rectangle omits10 already-missed confirmed endpoints; Allegro rectangle contains all confirmed endpoint centers. Displayed bounds are detection-based references, not guarantees of the true bundle extent."
+}

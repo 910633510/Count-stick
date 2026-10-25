@@ -1,0 +1,17 @@
+{
+  "dateLocal": "2026-10-23",
+  "sourceReview": "PASS_NARROW_LOCAL_CANDIDATE",
+  "countingQualityAcceptance": "BLOCK",
+  "artifactStatus": "Prior IPA/screenshots remain the original NMS0.7 technical checkpoint; they do not contain this local NMS0.45 change.",
+  "detectorSourceSHA256": "f9be1037a75de32699b1f26d0fee9ecebb05599e77f24199b6144e6c648648fd",
+  "verifiedImplementation": [
+    "MLFeatureProvider supplies confidenceThreshold as Double0.25 and iouThreshold as Double0.45.",
+    "Provider is retained by StickDetector and attached to cached VNCoreMLModel before first inference.",
+    "scaleFill, upright normalized input, single-class observation mapping and error behavior remain unchanged.",
+    "No label.confidence filtering; threshold override is the CoreML NMS numeric input.",
+    "Model specification and weight files unchanged."
+  ],
+  "regressionTest": "Count stickTests/StickDetectorDedupRegressionTests.swift independently runs baseline/CoreML dictionary-provider reference and compares real production output count+coordinates; result pending agent run.",
+  "scopeOfEvidence": "Two small regions of one real flat-head-skewer photograph. Aggregate matching: TP9/FN2 unchanged, FP13 to11; not a general accuracy or restaurant-readiness claim.",
+  "sourceFindings": []
+}

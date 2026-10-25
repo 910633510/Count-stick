@@ -1,0 +1,657 @@
+{
+  "schemaVersion": 1,
+  "imageId": "acq-v3-allegro-square",
+  "imageSha256": "e7e110fb60e8cdcd2b8b2d62d02a020cbbe3a4fd06cd4b921c05789017f73f13",
+  "width": 1900,
+  "height": 1980,
+  "coordinateSystem": "upright image pixels, top-left",
+  "scope": "full_image",
+  "evaluationRegion": {
+    "xywh": [
+      0,
+      0,
+      1900,
+      1980
+    ]
+  },
+  "points": [
+    {
+      "id": "end-001",
+      "x": 952.5,
+      "y": 851.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-002",
+      "x": 1063.75,
+      "y": 850.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-003",
+      "x": 610.0,
+      "y": 948.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-004",
+      "x": 721.25,
+      "y": 928.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-005",
+      "x": 826.25,
+      "y": 887.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-006",
+      "x": 892.5,
+      "y": 971.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-007",
+      "x": 1047.5,
+      "y": 985.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-008",
+      "x": 1161.25,
+      "y": 912.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-009",
+      "x": 1251.25,
+      "y": 972.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-010",
+      "x": 1338.75,
+      "y": 1031.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-011",
+      "x": 801.25,
+      "y": 1018.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-012",
+      "x": 531.25,
+      "y": 1023.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-013",
+      "x": 690.0,
+      "y": 1053.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-014",
+      "x": 598.75,
+      "y": 1106.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-015",
+      "x": 466.25,
+      "y": 1105.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-016",
+      "x": 403.75,
+      "y": 1190.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-017",
+      "x": 525.0,
+      "y": 1188.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-018",
+      "x": 656.25,
+      "y": 1200.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-019",
+      "x": 748.75,
+      "y": 1142.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-020",
+      "x": 843.75,
+      "y": 1092.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-021",
+      "x": 950.0,
+      "y": 1065.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-022",
+      "x": 1031.25,
+      "y": 1135.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-023",
+      "x": 1123.75,
+      "y": 1057.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-024",
+      "x": 1233.75,
+      "y": 1092.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-025",
+      "x": 1310.0,
+      "y": 1178.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-026",
+      "x": 1387.5,
+      "y": 1122.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-027",
+      "x": 1490.0,
+      "y": 1190.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-028",
+      "x": 338.75,
+      "y": 1267.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-029",
+      "x": 482.5,
+      "y": 1283.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-030",
+      "x": 585.0,
+      "y": 1317.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-031",
+      "x": 740.0,
+      "y": 1298.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-032",
+      "x": 822.5,
+      "y": 1232.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-033",
+      "x": 937.5,
+      "y": 1185.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-034",
+      "x": 967.5,
+      "y": 1290.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-035",
+      "x": 1067.5,
+      "y": 1237.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-036",
+      "x": 1153.75,
+      "y": 1171.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-037",
+      "x": 1207.5,
+      "y": 1253.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-038",
+      "x": 1393.75,
+      "y": 1241.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-039",
+      "x": 1512.5,
+      "y": 1257.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-040",
+      "x": 1516,
+      "y": 1297,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-041",
+      "x": 1537,
+      "y": 1363,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-042",
+      "x": 347.5,
+      "y": 1383.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-043",
+      "x": 446.25,
+      "y": 1385.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-044",
+      "x": 568.75,
+      "y": 1418.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-045",
+      "x": 672.5,
+      "y": 1418.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-046",
+      "x": 771.25,
+      "y": 1396.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-047",
+      "x": 865.0,
+      "y": 1327.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-048",
+      "x": 910.0,
+      "y": 1403.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-049",
+      "x": 1003.75,
+      "y": 1380.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-050",
+      "x": 1115.0,
+      "y": 1331.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-051",
+      "x": 1311.25,
+      "y": 1331.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-052",
+      "x": 1410.0,
+      "y": 1343.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-053",
+      "x": 1446.25,
+      "y": 1435.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-054",
+      "x": 1543.75,
+      "y": 1461.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-055",
+      "x": 1521.25,
+      "y": 1543.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-056",
+      "x": 326.25,
+      "y": 1483.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-057",
+      "x": 467.5,
+      "y": 1477.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-058",
+      "x": 380.0,
+      "y": 1568.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-059",
+      "x": 480.0,
+      "y": 1568.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-060",
+      "x": 602.5,
+      "y": 1506.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-061",
+      "x": 711.25,
+      "y": 1508.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-062",
+      "x": 823.75,
+      "y": 1508.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-063",
+      "x": 941.25,
+      "y": 1505.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-064",
+      "x": 1057.5,
+      "y": 1537.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-065",
+      "x": 1135.0,
+      "y": 1450.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-066",
+      "x": 1250.0,
+      "y": 1421.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-067",
+      "x": 1207.5,
+      "y": 1506.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-068",
+      "x": 1328.75,
+      "y": 1515.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-069",
+      "x": 1435.0,
+      "y": 1530.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-070",
+      "x": 1475.0,
+      "y": 1640.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-071",
+      "x": 468.75,
+      "y": 1671.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-072",
+      "x": 558.75,
+      "y": 1648.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-073",
+      "x": 491.25,
+      "y": 1752.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-074",
+      "x": 587.5,
+      "y": 1798.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-075",
+      "x": 633.75,
+      "y": 1701.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-076",
+      "x": 665.0,
+      "y": 1603.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-077",
+      "x": 776.25,
+      "y": 1597.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-078",
+      "x": 890.0,
+      "y": 1596.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-079",
+      "x": 1043.75,
+      "y": 1633.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-080",
+      "x": 1136.25,
+      "y": 1591.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-081",
+      "x": 1265.0,
+      "y": 1606.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-082",
+      "x": 1371.25,
+      "y": 1622.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-083",
+      "x": 748.75,
+      "y": 1691.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-084",
+      "x": 853.75,
+      "y": 1697.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-085",
+      "x": 947.5,
+      "y": 1718.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-086",
+      "x": 1088.75,
+      "y": 1718.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-087",
+      "x": 1172.5,
+      "y": 1678.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-088",
+      "x": 1325.0,
+      "y": 1698.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-089",
+      "x": 1417.5,
+      "y": 1727.5,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-090",
+      "x": 1343.75,
+      "y": 1801.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-091",
+      "x": 1227.5,
+      "y": 1751.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-092",
+      "x": 1136.25,
+      "y": 1805.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-093",
+      "x": 1040.0,
+      "y": 1818.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-094",
+      "x": 938.75,
+      "y": 1805.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-095",
+      "x": 823.75,
+      "y": 1788.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-096",
+      "x": 727.5,
+      "y": 1776.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-097",
+      "x": 692.5,
+      "y": 1843.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-098",
+      "x": 796.25,
+      "y": 1866.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-099",
+      "x": 887.5,
+      "y": 1878.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-100",
+      "x": 987.5,
+      "y": 1906.25,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-101",
+      "x": 1090.0,
+      "y": 1898.75,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-102",
+      "x": 1187.5,
+      "y": 1880.0,
+      "matchRadius": 32
+    },
+    {
+      "id": "end-103",
+      "x": 1287.5,
+      "y": 1886.25,
+      "matchRadius": 32
+    }
+  ],
+  "ignoreRegions": [],
+  "visibleEndpointCount": 103,
+  "completeCountVerified": true,
+  "review": {
+    "status": "reviewed_frozen",
+    "annotator": "root",
+    "reviewer": "aso_release_audit",
+    "notes": [
+      "Manual centers from a raw-photo crop at[250,760,1400,1220] rendered at0.8 scale for viewing. Coordinates converted back to original pixels.",
+      "No CountStick or automatic-region prediction, source claimed count or retailer package quantity used.",
+      "Square terminal faces are a separately identified shape-robustness stress scene, not evidence of round-skewer population accuracy.",
+      "Requires independent inspection of tightly stacked right edge faces before complete-count verification.",
+      "Independent reviewer inspected the entire original and numbered image and enlarged right-edge raw crop. All103 distinct visible square terminal faces accounted for; no clear missing face or duplicate point.",
+      "Right stacked ends039/040/041 are separate occluding terminal faces, not one face split by wood grooves. Root independently confirmed raw edges before approving correction.",
+      "Before any target prediction, end040 recentered from1536.25,1326.25 to1516,1297 and end041 from1542.5,1377.5 to1537,1363. Only these two coordinates changed; all matching radii remain32px.",
+      "All terminal faces are within the full photograph; complete visible-end count verified as103. This is square-end shape stress coverage, not a claim about the usual round-skewer population.",
+      "Retailer package quantities and model outputs were not used as ground truth. No inference has run on this target scene."
+    ],
+    "reviewedAt": "2026-10-23T15:58:50.567727+00:00"
+  }
+}

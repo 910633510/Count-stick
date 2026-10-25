@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 1,
+  "imageId": "acq-v3-vietnam-round",
+  "imageSha256": "c569ef8a2ad3d58eb4f1e3d73d0bb1befd1e3fa86ccf8abc6c9bbccdc6348181",
+  "width": 598,
+  "height": 640,
+  "coordinateSystem": "upright image pixels, top-left",
+  "scope": "full_image",
+  "evaluationRegion": {
+    "xywh": [
+      0,
+      0,
+      598,
+      640
+    ]
+  },
+  "points": [
+    {
+      "id": "end-001",
+      "x": 218,
+      "y": 384,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-002",
+      "x": 535,
+      "y": 418,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-003",
+      "x": 583,
+      "y": 422,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-004",
+      "x": 420,
+      "y": 426,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-005",
+      "x": 326,
+      "y": 432,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-006",
+      "x": 361,
+      "y": 433,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-007",
+      "x": 513,
+      "y": 438,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-008",
+      "x": 560,
+      "y": 439,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-009",
+      "x": 434,
+      "y": 440,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-010",
+      "x": 482,
+      "y": 452,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-011",
+      "x": 249,
+      "y": 459,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-012",
+      "x": 444,
+      "y": 469,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-013",
+      "x": 417,
+      "y": 473,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-014",
+      "x": 389,
+      "y": 478,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-015",
+      "x": 538,
+      "y": 478,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-016",
+      "x": 505,
+      "y": 490,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-017",
+      "x": 194,
+      "y": 493,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-018",
+      "x": 356,
+      "y": 498,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-019",
+      "x": 476,
+      "y": 503,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-020",
+      "x": 289,
+      "y": 506,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-021",
+      "x": 34,
+      "y": 516,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-022",
+      "x": 389,
+      "y": 516,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-023",
+      "x": 355,
+      "y": 524,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-024",
+      "x": 324,
+      "y": 526,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-025",
+      "x": 397,
+      "y": 531,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-026",
+      "x": 291,
+      "y": 540,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-027",
+      "x": 359,
+      "y": 549,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-028",
+      "x": 313,
+      "y": 552,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-029",
+      "x": 241,
+      "y": 552,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-030",
+      "x": 126,
+      "y": 550,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-031",
+      "x": 161,
+      "y": 559,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-032",
+      "x": 200,
+      "y": 559,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-033",
+      "x": 91,
+      "y": 562,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-034",
+      "x": 116,
+      "y": 576,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-035",
+      "x": 153,
+      "y": 584,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-036",
+      "x": 48,
+      "y": 596,
+      "matchRadius": 10
+    },
+    {
+      "id": "end-037",
+      "x": 87,
+      "y": 600,
+      "matchRadius": 10
+    }
+  ],
+  "ignoreRegions": [
+    {
+      "polygon": [
+        [
+          0,
+          592
+        ],
+        [
+          10,
+          592
+        ],
+        [
+          10,
+          625
+        ],
+        [
+          0,
+          625
+        ]
+      ],
+      "reason": "Tiny bottom-left border-cut terminal fragment whose face center/extent is outside the image; not a verified countable full end."
+    }
+  ],
+  "visibleEndpointCount": 37,
+  "completeCountVerified": false,
+  "method": "Blind manual enumeration of distinct visible blunt end faces from original and a2x magnified inspection crop. No model predictions used; no retailer quantity accepted. Full original image remains evaluation input, not the inspection crop.",
+  "review": {
+    "status": "reviewed_frozen",
+    "annotator": "aso_release_audit",
+    "reviewer": "root",
+    "notes": [
+      "Distinct photographic scene from v1 acquisition-05: long staggered rods over blue-gray woven bag, versus tight yellow-end macro over white crocheted material. Not a resized/cropped duplicate.",
+      "Please independently verify dark/partly occluded face end-034 at116,576 and layered ends end-025,end-027,end-028; these were included from visible face contours before any prediction.",
+      "Radius10px chosen before prediction from typical20-30px end-face dimensions; do not retune using results.",
+      "Bottom-left center-out-of-frame fragment ignored. Exact full-bundle count not established.",
+      "Root inspected full raw image, numbered overlay, and enlarged raw crops of layered ends25/27/28 and dark partly occluded end34. All are distinct terminal faces; all37 confirmed points retained.",
+      "No clear missing complete face or duplicated point found. Left out-of-frame fragment remains explicitly ignored; completeCountVerified stays false.",
+      "No target model or automatic-region result was viewed before freeze."
+    ],
+    "reviewedAt": "2026-10-23T15:51:23.727954+00:00"
+  },
+  "createdAtUTC": "2026-10-23T15:48:15.704971+00:00"
+}

@@ -1,0 +1,77 @@
+{
+  "locale": "zh-Hans",
+  "appVersion": "1.0",
+  "build": "1",
+  "bundleID": "x.Count-stick",
+  "configuration": "Release",
+  "enableTestability": true,
+  "debugPhotoLaunchHookPresent": false,
+  "device": "iPhone 17 Pro",
+  "deviceId": "75EDBD64-9DFD-4A86-AA40-D58ABB301A08",
+  "os": "iOS 26.5 (23F77)",
+  "appleLanguages": [
+    "zh-Hans"
+  ],
+  "appleLocale": "zh_Hans_CN",
+  "effectiveLanguage": "Simplified Chinese",
+  "captureTestEvidence": "/tmp/count-stick-final-release-captures.xcresult",
+  "savedRecordOrigin": {
+    "method": "Actual CoreML inference on real fixture in Debug setup, saved via app UI, then reopened through Release History. No fabricated records or seeded counts.",
+    "testEvidence": "/tmp/count-stick-final-capture-setup.xcresult",
+    "fixture": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/fixtures/bamboo-skewers-cc0.jpg",
+    "fixtureSHA256": "824da6b42b3c14c66e6843aaeaae9f35676ee2e9df72a68eee9f7fa2820bb1b1"
+  },
+  "automaticCountObserved": 167,
+  "groundTruthCount": null,
+  "sourceHashes": {
+    "Count stick/ContentView.swift": "15001ecd23e7571099ae485811516ded601bc6a0cb587244d2c97819caf701cc",
+    "Count stick/CountHistory.swift": "a827cac7132e74268ff0ba77d4e18f2a1518b004d9c114f4545472845767b400",
+    "Count stick/CountModel.swift": "130279a55f5b8e6776014a7a1a35f59d70733975ddb243e185d05b25c28c89a9",
+    "Count stick/CountWorkspace.swift": "20a5a6fbc912bcb44b7280450cf8b5629ba50f71ab0d02e430428f8a9f03828e",
+    "Count stick/Count_stickApp.swift": "1756eec937dc3a3d010a4e1e0b58a4a46da8b0bcae027fa83c9f30b569906b00",
+    "Count stick/ImagePicker.swift": "efcf0893940e8d96ce7a39ef1920a5efe1a032f73e98dfef634f2872a789a7a8",
+    "Count stick/StickDetector.swift": "5cd529f56e7f356e8ec4727af38c7872f3f5ad0de71e0002229eabafb3c55618"
+  },
+  "screenshots": [
+    {
+      "role": "history",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/zh-Hans/history.png",
+      "sha256": "9ff1c25e75477b197dba2f3c0017bac966ef8646fc7dad8ddef109197801e500",
+      "width": 1206,
+      "height": 2622,
+      "capturedAtUnix": 1792729485.689
+    },
+    {
+      "role": "zoom",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/zh-Hans/zoom.png",
+      "sha256": "36a58bcc10a97400e6ca954d5976b4b8f1bf3f404bf9fcc97fa50a567b6c3796",
+      "width": 1206,
+      "height": 2622,
+      "capturedAtUnix": 1792729481.28
+    },
+    {
+      "role": "correction",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/zh-Hans/correction.png",
+      "sha256": "e242b17ed6681819983b8b12cf5623ed66713f29c3a75d6d0bf23383484c6c3b",
+      "width": 1206,
+      "height": 2622,
+      "capturedAtUnix": 1792729480.619
+    },
+    {
+      "role": "result",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/zh-Hans/result.png",
+      "sha256": "d9ea078d5929ad0023e46ce8b62eab7f0c1fdb3f47d7ead7e120f8add25a5c75",
+      "width": 1206,
+      "height": 2622,
+      "capturedAtUnix": 1792729478.529
+    },
+    {
+      "role": "home",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/release/screenshots/source-release/zh-Hans/home.png",
+      "sha256": "9e165520e5a64dbbba753b1990715552260a804c2680f2dd6949cc099229c1b8",
+      "width": 1206,
+      "height": 2622,
+      "capturedAtUnix": 1792729458.188
+    }
+  ]
+}
