@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_API_UPLOAD_REPLACEMENT_AND_PROCESSED_PIXEL_READBACK",
+  "verifiedAtUTC": "2026-10-25T04:26:31.203473+00:00",
+  "appId": "6826601708",
+  "bundleId": "x.Count-stick",
+  "appName": "CountScope: Photo Counter",
+  "version": "1.0",
+  "build": "4",
+  "buildId": "e240daf9-6d06-42df-9eb7-ec1687022404",
+  "versionId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+  "assetMethod": "Official App Asset Library API",
+  "finalImageCount": 12,
+  "imageStates": {
+    "PREPARE_FOR_SUBMISSION": 12
+  },
+  "placementStates": {
+    "ACTIVE": 12
+  },
+  "localePlacementCounts": {
+    "zh-Hans": 6,
+    "en-US": 6
+  },
+  "groups": [
+    {
+      "family": "iphone",
+      "locale": "en-US",
+      "localizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+      "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+      "orderedPlacementIds": [
+        "4c400019-6e5a-8cec-8f0c-225d918c8949",
+        "5d800019-6e5a-8cec-8f16-c4ccba820d6a",
+        "29400019-6e5a-8cec-8f2c-62287fdeb934"
+      ]
+    },
+    {
+      "family": "iphone",
+      "locale": "zh-Hans",
+      "localizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+      "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+      "orderedPlacementIds": [
+        "33400019-6e5a-8cec-8f14-4d87bddcd36a",
+        "b9c00019-6e5a-8cec-8f0d-98d238a9358f",
+        "01400019-6e5a-8cec-8f13-3e0793a31c86"
+      ]
+    },
+    {
+      "family": "ipad",
+      "locale": "en-US",
+      "localizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+      "placementGroup": "IPAD_13_PROFILE",
+      "orderedPlacementIds": [
+        "2c800019-6e5a-8cec-8f13-1e60e7a7f4d0",
+        "6b800019-6e5a-8cec-8f05-22b5f8e3b927",
+        "1c400019-6e5a-8cec-8f3b-f968224be04f"
+      ]
+    },
+    {
+      "family": "ipad",
+      "locale": "zh-Hans",
+      "localizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+      "placementGroup": "IPAD_13_PROFILE",
+      "orderedPlacementIds": [
+        "8f400019-6e5a-8cec-8f28-8866a0d81c49",
+        "fc000019-6e5a-8cec-8f37-87ceef1d832d",
+        "8f800019-6e5a-8cec-8f10-a5726878e20f"
+      ]
+    }
+  ],
+  "replacedOriginalPlacementCount": 12,
+  "originalPlacementsAbsent": true,
+  "originalLibraryImagesRetained": 12,
+  "customProductPageCount": 0,
+  "unrelatedSurfacesModified": false,
+  "productionSourceUnchangedSinceCaptureFreeze": true,
+  "sourceFreeze": {
+    "path": "release/screenshots/build4/source-freeze.json",
+    "sha256": "5e22ad6c7c1dcde39d1ba4778c0a504c536c61dcebda68ea67a18392a24aa581"
+  },
+  "independentVisualReview": {
+    "path": "release/screenshots/build4/independent-visual-review.json",
+    "sha256": "25fd5b0111b8a296f2887536aca6675c550d777ed4c4929f09ac847fe614bccd"
+  },
+  "metadataSHA256": "d8b3eb38f562a46a72074fba52a9b76031390d80697bb66972090e4f17f0c295",
+  "screenshots": [
+    {
+      "family": "iphone",
+      "locale": "en-US",
+      "order": 1,
+      "role": "result",
+      "referenceName": "countscope-build4-iphone-en-US-01-result",
+      "imageId": "56c00019-6e5a-8cec-8016-2862df9dae93",
+      "placementId": "4c400019-6e5a-8cec-8f0c-225d918c8949",
+      "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+      "localizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+      "specId": "5a7a65df-8822-5e32-bd47-cfbc4ef99663",
+      "sha256": "3049ced5b09cc39edf861daeea53b0bb3e1b833ec6bfa225e8efe93ce1e2973c",
+      "sourceScreenshotSHA256": "5a7be4a1fde3db336ad894aefa977932c69884f7018b7bdda4a3442505e8e260",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "7e098cd7a65eafa7627a88c00a02714d80ed34d61f84b03fbaaeb19b6c658476",
+      "path": "release/screenshots/build4/final/iphone/en-US/01-result.png",
+      "processedRGBPixelSHA256": "06949dd1fccb5607ae92ee9c83e4b0993014bb5de4a70f9c2fb877dcc7c0afe8",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "iphone",
+      "locale": "en-US",
+      "order": 2,
+      "role": "correction",
+      "referenceName": "countscope-build4-iphone-en-US-02-correction",
+      "imageId": "3b400019-6e5a-8cec-800f-bef1b0b69c9b",
+      "placementId": "5d800019-6e5a-8cec-8f16-c4ccba820d6a",
+      "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+      "localizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+      "specId": "5a7a65df-8822-5e32-bd47-cfbc4ef99663",
+      "sha256": "91625928789ec7973aed18f268ff3bc4d3eabf6bb53105302f62f685c3bf4c31",
+      "sourceScreenshotSHA256": "325d50fa4e685a6cca2f030aeff6e096d0e42e57cb7c7eb0679ab5947963fab3",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "25aac6e87915489ad95de91058433e20493c8e603f585ccecd4745e77a5c0eca",
+      "path": "release/screenshots/build4/final/iphone/en-US/02-correction.png",
+      "processedRGBPixelSHA256": "e36f7ceb9310a89c4cb5291a225ae265dc4368a234e3da175972253c3ca513ab",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "iphone",
+      "locale": "en-US",
+      "order": 3,
+      "role": "history",
+      "referenceName": "countscope-build4-iphone-en-US-03-history",
+      "imageId": "e6000019-6e5a-8cec-8025-478ce55ea025",
+      "placementId": "29400019-6e5a-8cec-8f2c-62287fdeb934",
+      "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+      "localizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+      "specId": "5a7a65df-8822-5e32-bd47-cfbc4ef99663",
+      "sha256": "a4c96cc0367a8ba5eae9ca8f7db2fc14f5878832dac7459e7a318b6ca6a6c120",
+      "sourceScreenshotSHA256": "6aafd6d03ffbff31add8818e4271719f55b1a1af359bcc2c700694f05d39c958",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "c2d0d8e147e214c0abeb5143ae9ab2b9868e4787e7855ec7eb352a021a053dac",
+      "path": "release/screenshots/build4/final/iphone/en-US/03-history.png",
+      "processedRGBPixelSHA256": "22b343d339f5947c5c67420c7a3f41adf9ee5b92478611c45663a1755ee5ea37",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "iphone",
+      "locale": "zh-Hans",
+      "order": 1,
+      "role": "result",
+      "referenceName": "countscope-build4-iphone-zh-Hans-01-result",
+      "imageId": "0f000019-6e5a-8cec-8007-4975f27a7fab",
+      "placementId": "33400019-6e5a-8cec-8f14-4d87bddcd36a",
+      "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+      "localizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+      "specId": "5a7a65df-8822-5e32-bd47-cfbc4ef99663",
+      "sha256": "0d0d019222907187ac9eb7bc8c828d6a0dbfe5c9c1d208953792823bd880dc8e",
+      "sourceScreenshotSHA256": "db7e2953b80a9913a36652c542299c0ccb28c352b17fd457da822ca271c98a1e",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "9ace03543a03449236a4f8ff63329432fcda580fa50d8621a484f5fbe5fc0751",
+      "path": "release/screenshots/build4/final/iphone/zh-Hans/01-result.png",
+      "processedRGBPixelSHA256": "8ca03ee521fa93e7c0138509dfe9306743399a27e2143667e388a400f3a5661d",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "iphone",
+      "locale": "zh-Hans",
+      "order": 2,
+      "role": "correction",
+      "referenceName": "countscope-build4-iphone-zh-Hans-02-correction",
+      "imageId": "b8800019-6e5a-8cec-8003-545f6baa76e6",
+      "placementId": "b9c00019-6e5a-8cec-8f0d-98d238a9358f",
+      "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+      "localizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+      "specId": "5a7a65df-8822-5e32-bd47-cfbc4ef99663",
+      "sha256": "d066c638756b21bc06423e8f5e62d967e5d561b581688bc836832a02d5066596",
+      "sourceScreenshotSHA256": "299cb392fbca8ef00011b2d16f01ed32943fd3aa731fd7933bd87c82d114a764",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "369de874afe232b2a5141f7e6dd481adef6611c24144b6eca4b07de1ec07e5b2",
+      "path": "release/screenshots/build4/final/iphone/zh-Hans/02-correction.png",
+      "processedRGBPixelSHA256": "44428423cef5fabe0d581a327bfa683a8c43a5ebc625cdc06c5d72b9b85826b4",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "iphone",
+      "locale": "zh-Hans",
+      "order": 3,
+      "role": "history",
+      "referenceName": "countscope-build4-iphone-zh-Hans-03-history",
+      "imageId": "94c00019-6e5a-8cec-8019-cb9c7d2fb4d8",
+      "placementId": "01400019-6e5a-8cec-8f13-3e0793a31c86",
+      "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+      "localizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+      "specId": "5a7a65df-8822-5e32-bd47-cfbc4ef99663",
+      "sha256": "383c07780e4f7b7bc711b134742736d091a70f05a70e1e7f7ef980b530983d3c",
+      "sourceScreenshotSHA256": "b89ccef41378f772369d96611334718d8501428340d4222e8171e154e69033f6",
+      "pixels": [
+        1206,
+        2622
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "89d7dff8e9f3f17f127663defa97606b5321e9f37c35a0affbeea4bb69a4381a",
+      "path": "release/screenshots/build4/final/iphone/zh-Hans/03-history.png",
+      "processedRGBPixelSHA256": "19285c976686365444bb5e85aa71447336e3f143d2312e09a440e37a1671c8c7",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "ipad",
+      "locale": "en-US",
+      "order": 1,
+      "role": "result",
+      "referenceName": "countscope-build4-ipad-en-US-01-result",
+      "imageId": "80400019-6e5a-8cec-8020-c67ebb52a15e",
+      "placementId": "2c800019-6e5a-8cec-8f13-1e60e7a7f4d0",
+      "placementGroup": "IPAD_13_PROFILE",
+      "localizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+      "specId": "1751a63a-af79-5c7f-a2f2-41140bf28f9e",
+      "sha256": "7685923c6be06c0f53b6c75a93b1a7a860e77ccec72bfea9a14c403c314976d0",
+      "sourceScreenshotSHA256": "84ca9c2433ec23141b614bbd8b89818cbc5aea1fc13edf0d49c9c870731f60c5",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "7ef749c4f76d37ddd84c4da62c1c0154f4884b50ddd85e22755800e34e2f556c",
+      "path": "release/screenshots/build4/final/ipad/en-US/01-result.png",
+      "processedRGBPixelSHA256": "47ddaac079bc98aa1ab1f15dcf9f4a20f539a0dd01bd79df432ee9490f056904",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "ipad",
+      "locale": "en-US",
+      "order": 2,
+      "role": "correction",
+      "referenceName": "countscope-build4-ipad-en-US-02-correction",
+      "imageId": "0a800019-6e5a-8cec-802b-eb17d2893e13",
+      "placementId": "6b800019-6e5a-8cec-8f05-22b5f8e3b927",
+      "placementGroup": "IPAD_13_PROFILE",
+      "localizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+      "specId": "1751a63a-af79-5c7f-a2f2-41140bf28f9e",
+      "sha256": "ffc86a1ae2f6c0d209d3483954892dd10f72f8167f6c84a2956cc25b02861a92",
+      "sourceScreenshotSHA256": "21d6752911a815f5a4504bf7afd821724859c198e3e55389f2a0042ef494c419",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "73b451788719b35a24a947af1fc9d723f869db573623fd5c579771f9047a6743",
+      "path": "release/screenshots/build4/final/ipad/en-US/02-correction.png",
+      "processedRGBPixelSHA256": "94e586fbd4f6ab7b04c58f83dbe1311b731671a124575bb7c68fbc76e1d69a9d",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "ipad",
+      "locale": "en-US",
+      "order": 3,
+      "role": "history",
+      "referenceName": "countscope-build4-ipad-en-US-03-history",
+      "imageId": "38c00019-6e5a-8cec-800a-9bd39b88c1aa",
+      "placementId": "1c400019-6e5a-8cec-8f3b-f968224be04f",
+      "placementGroup": "IPAD_13_PROFILE",
+      "localizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+      "specId": "1751a63a-af79-5c7f-a2f2-41140bf28f9e",
+      "sha256": "b339bf86d114a6049edd90fb162624a92dda02db993bb49f4331707cdd44a51a",
+      "sourceScreenshotSHA256": "b882995bdfe5bd1fc1af1f2a8b8d1e582b2a5f756163fc338c7de4cacf9dbbec",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "27a3538fced2a9457d9d82c8296e02d465d979ba2d4e4e26f0a4760ceeac4f5e",
+      "path": "release/screenshots/build4/final/ipad/en-US/03-history.png",
+      "processedRGBPixelSHA256": "ef9a9a5df27388efebc0039bd29211c0eaeb96257b594736d46baa593457e09f",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "ipad",
+      "locale": "zh-Hans",
+      "order": 1,
+      "role": "result",
+      "referenceName": "countscope-build4-ipad-zh-Hans-01-result",
+      "imageId": "9fc00019-6e5a-8cec-800b-6f71bfd5c97e",
+      "placementId": "8f400019-6e5a-8cec-8f28-8866a0d81c49",
+      "placementGroup": "IPAD_13_PROFILE",
+      "localizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+      "specId": "1751a63a-af79-5c7f-a2f2-41140bf28f9e",
+      "sha256": "02defc74d1578146b21d998fd7004c5985220a5f51fc8e8166eb359a28bb3004",
+      "sourceScreenshotSHA256": "de7ba660c3dff51bb5459a342269f6237b564e59bbd4484a31f99e6175f1638e",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "bf34ae393df441e4877cab8cd7790c419c3c2ec7d5e8708296e87dea0a24f6fd",
+      "path": "release/screenshots/build4/final/ipad/zh-Hans/01-result.png",
+      "processedRGBPixelSHA256": "919492d21097e5fb43caf13db7073ce8f46ce8c33fccdac7c4ec4aa7347f8f63",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "ipad",
+      "locale": "zh-Hans",
+      "order": 2,
+      "role": "correction",
+      "referenceName": "countscope-build4-ipad-zh-Hans-02-correction",
+      "imageId": "6e400019-6e5a-8cec-8038-668dc9aafc7f",
+      "placementId": "fc000019-6e5a-8cec-8f37-87ceef1d832d",
+      "placementGroup": "IPAD_13_PROFILE",
+      "localizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+      "specId": "1751a63a-af79-5c7f-a2f2-41140bf28f9e",
+      "sha256": "08881c3daa3fcb0447bf9e4f28a5aca464610f6383732ca0a179a8f2a88d4545",
+      "sourceScreenshotSHA256": "3ed3172fb6e7d5f9d4590edb6f7c0c5366aff1b64c241f8772d7775a7b511c99",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "51f15434d3625d2e623672dc9205ce6d083046d41070b52f1b93f9bbb53313e9",
+      "path": "release/screenshots/build4/final/ipad/zh-Hans/02-correction.png",
+      "processedRGBPixelSHA256": "a22eda666468862a6179bc25fd90acb2eaa5512ebc424473627d250acb6b8088",
+      "processedPixelsEqualApprovedFile": true
+    },
+    {
+      "family": "ipad",
+      "locale": "zh-Hans",
+      "order": 3,
+      "role": "history",
+      "referenceName": "countscope-build4-ipad-zh-Hans-03-history",
+      "imageId": "fa400019-6e5a-8cec-802c-cd0879199111",
+      "placementId": "8f800019-6e5a-8cec-8f10-a5726878e20f",
+      "placementGroup": "IPAD_13_PROFILE",
+      "localizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+      "specId": "1751a63a-af79-5c7f-a2f2-41140bf28f9e",
+      "sha256": "89ea1ec4fd7377b4a60390ec6669dcec1f04e877beaf5354446e5b9b50ace0b0",
+      "sourceScreenshotSHA256": "ef86bfd758acbda041de82b69ccdc3b00f8f0e67377b6f65c68cab82c91e9793",
+      "pixels": [
+        2064,
+        2752
+      ],
+      "imageState": "PREPARE_FOR_SUBMISSION",
+      "placementState": "ACTIVE",
+      "processedSHA256": "190650f9cc102bac3900f6b04f058786fc9b5937fd83b57082221da25b3f63a6",
+      "path": "release/screenshots/build4/final/ipad/zh-Hans/03-history.png",
+      "processedRGBPixelSHA256": "4337c141df15313ff32a6b65eddc090da8c6b6d83ca027938b5c5021bda76a35",
+      "processedPixelsEqualApprovedFile": true
+    }
+  ],
+  "submittedByThisOperator": false,
+  "privateEvidenceDirectory": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-subscription-20261025/assets"
+}

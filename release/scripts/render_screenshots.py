@@ -98,7 +98,7 @@ def read_sources(path, family):
     return manifest, loaded
 
 
-def render(source, copy, locale, family, background, order):
+def render(source, copy, locale, family, background, order, brand="COUNT STICK"):
     width, height = SIZES[family]
     canvas = ImageOps.fit(background.convert("RGB"), (width, height), method=Image.Resampling.LANCZOS)
     draw = ImageDraw.Draw(canvas)
@@ -106,7 +106,8 @@ def render(source, copy, locale, family, background, order):
     left = 128 if is_pad else 88
     text_width = width - left * 2
     brand_face = font(40 if is_pad else 32, "en-US", True)
-    brand = "COUNT STICK"
+    if not brand.strip() or draw.textlength(brand, font=brand_face) > text_width:
+        raise ValueError("Brand label is empty or exceeds the layout")
     draw.text((left, 76), brand, font=brand_face, fill="#DDBB79", stroke_width=0)
     headline_size = 140 if is_pad else 94
     headline_face = font(headline_size, locale, True)
@@ -158,11 +159,20 @@ def main():
     parser.add_argument("--family", choices=SIZES, default="iphone")
     parser.add_argument("--background", type=Path, default=ROOT / "release/artwork/marketing/background.png")
     parser.add_argument("--output", type=Path, default=ROOT / "release/screenshots/final")
+    parser.add_argument("--metadata", type=Path, default=ROOT / "release/metadata-draft.json")
+    parser.add_argument("--brand", default="COUNT STICK", help="Promotional brand outside the authentic screenshot")
+    parser.add_argument("--require-release", action="store_true", help="Reject captures without recorded Release provenance")
     args = parser.parse_args()
-    metadata = json.loads((ROOT / "release/metadata-draft.json").read_text())
+    metadata = json.loads(args.metadata.read_text())
     background = Image.open(args.background).convert("RGB")
     for manifest_path in args.manifest:
         manifest, sources = read_sources(manifest_path.resolve(), args.family)
+        if metadata.get("targetVersion") and manifest["appVersion"] != metadata["targetVersion"]:
+            raise ValueError("Capture version differs from the selected metadata")
+        if metadata.get("targetBuild") and manifest["build"] != metadata["targetBuild"]:
+            raise ValueError("Capture build differs from the selected metadata")
+        if args.require_release and not manifest.get("configuration", "").lower().startswith("release"):
+            raise ValueError("Production marketing images require a recorded Release capture")
         locale = manifest["locale"]
         output = args.output / args.family / locale
         output.mkdir(parents=True, exist_ok=True)
@@ -170,6 +180,8 @@ def main():
                    "appVersion": manifest["appVersion"], "build": manifest["build"],
                    "sourceManifest": str(manifest_path.resolve()), "sourceManifestSHA256": digest(manifest_path),
                    "background": str(args.background.resolve()), "backgroundSHA256": digest(args.background),
+                   "metadata": str(args.metadata.resolve()), "metadataSHA256": digest(args.metadata),
+                   "rendererSHA256": digest(Path(__file__)), "brand": args.brand,
                    "sourceEvidence": {key: manifest[key] for key in ("device", "os", "appleLanguages", "appleLocale", "effectiveLanguage")},
                    "rendering": "Entire authentic screenshot proportionately scaled; no UI edits or masks.",
                    "dimensionsReference": "https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications/",
@@ -179,7 +191,7 @@ def main():
         images = []
         for index, (role, path, source) in enumerate(sources, start=1):
             copy = metadata["localizations"][locale]["screenshots"][index - 1]
-            result, evidence = render(source, copy, locale, args.family, background, index)
+            result, evidence = render(source, copy, locale, args.family, background, index, args.brand)
             destination = output / f"{index:02d}-{role}.png"
             result.save(destination, "PNG", optimize=True)
             receipt["screenshots"].append({"role": role, "source": str(path), "sourceSHA256": digest(path),

@@ -3,6 +3,7 @@ import UIKit
 
 @MainActor
 final class Count_stickUITests: XCTestCase {
+    private let testLedgerID = UUID().uuidString
     override func setUpWithError() throws { continueAfterFailure = false }
 
     func testPrepareReleaseScreenshotRecord() throws {
@@ -11,6 +12,7 @@ final class Count_stickUITests: XCTestCase {
         let root = URL(fileURLWithPath: #filePath).deletingLastPathComponent().deletingLastPathComponent()
         let fixture = root.appendingPathComponent("release/fixtures/bamboo-skewers-cc0.jpg")
         app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_US", "--countstick-test-photo", fixture.path]
+        app.launchArguments += ["--countscope-test-ledger", testLedgerID]
         app.launch()
         let count = app.staticTexts["resultCount"]
         XCTAssertTrue(count.waitForExistence(timeout: 90))
@@ -18,7 +20,7 @@ final class Count_stickUITests: XCTestCase {
         XCTAssertTrue(app.descendants(matching: .any)["automaticRegionStatus"].firstMatch.waitForExistence(timeout: 5))
         scrollTo(app.buttons["enlargePhoto"], app: app)
         XCTAssertTrue(app.descendants(matching: .any)["automaticRegionOutline"].firstMatch.waitForExistence(timeout: 5),
-                      "Build 3 screenshot setup needs a genuine nonempty automatic-region result")
+                      "Build 4 screenshot setup needs a genuine nonempty automatic-region result")
         capture(app, name: "setup-real-model-inference")
         let note = app.descendants(matching: .any)["resultNote"].firstMatch
         scrollTo(note, app: app)
@@ -41,7 +43,8 @@ final class Count_stickUITests: XCTestCase {
         let app = XCUIApplication()
         for (language, locale, prefix, noteText) in [("en", "en_US", "en-US", "Dinner prep"), ("zh-Hans", "zh_Hans_CN", "zh-Hans", "晚餐备料")] {
             app.launchArguments = ["-AppleLanguages", "(\(language))", "-AppleLocale", locale]
-            app.launch()
+            app.launchArguments += ["--countscope-test-ledger", testLedgerID]
+        app.launch()
             XCTAssertTrue(app.buttons["takePhoto"].waitForExistence(timeout: 10))
             capture(app, name: "\(prefix)-home")
             tapTab(app, label: language == "en" ? "History" : "记录")
@@ -68,7 +71,7 @@ final class Count_stickUITests: XCTestCase {
             for _ in 0..<3 { app.swipeDown() }
             XCTAssertTrue(app.descendants(matching: .any)["automaticRegionStatus"].firstMatch.waitForExistence(timeout: 5))
             XCTAssertTrue(app.descendants(matching: .any)["automaticRegionOutline"].firstMatch.waitForExistence(timeout: 5),
-                          "Release capture must show Build 3's authentic automatic reference outline")
+                          "Release capture must show Build 4's authentic automatic reference outline")
             capture(app, name: "\(prefix)-result")
             scrollTo(app.buttons["enlargePhoto"], app: app)
             app.buttons["enlargePhoto"].tap()
@@ -100,6 +103,7 @@ final class Count_stickUITests: XCTestCase {
         let fixture = root.appendingPathComponent("release/fixtures/bamboo-skewers-cc0.jpg")
         let photoSize = try XCTUnwrap(UIImage(contentsOfFile: fixture.path)).size
         app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_US", "--countstick-test-photo", fixture.path]
+        app.launchArguments += ["--countscope-test-ledger", testLedgerID]
         app.launch()
         let count = app.staticTexts["resultCount"]
         XCTAssertTrue(count.waitForExistence(timeout: 90))
@@ -158,11 +162,12 @@ final class Count_stickUITests: XCTestCase {
     func testHomeGuideAndCameraUnavailable() {
         let app = XCUIApplication()
         app.launchArguments = ["-AppleLanguages", "(en)", "-AppleLocale", "en_US"]
+        app.launchArguments += ["--countscope-test-ledger", testLedgerID]
         app.launch()
         XCTAssertTrue(app.buttons["takePhoto"].waitForExistence(timeout: 10))
         capture(app, name: "en-US-home")
         app.buttons["takePhoto"].tap()
-        XCTAssertTrue(app.alerts["Count Stick"].waitForExistence(timeout: 3))
+        XCTAssertTrue(app.alerts["CountScope"].waitForExistence(timeout: 3))
         XCTAssertTrue(app.alerts.staticTexts["A camera is not available on this device. Choose a photo to get started."].exists)
         app.alerts.buttons["OK"].tap()
         tapTab(app, label: "Guide")
@@ -182,6 +187,7 @@ final class Count_stickUITests: XCTestCase {
         let fixture = root.appendingPathComponent("release/fixtures/bamboo-skewers-cc0.jpg")
         XCTAssertTrue(FileManager.default.fileExists(atPath: fixture.path))
         app.launchArguments = ["-AppleLanguages", "(\(language))", "-AppleLocale", locale, "--countstick-test-photo", fixture.path]
+        app.launchArguments += ["--countscope-test-ledger", testLedgerID]
         app.launch()
         let count = app.staticTexts["resultCount"]
         XCTAssertTrue(count.waitForExistence(timeout: 90))
@@ -242,6 +248,7 @@ final class Count_stickUITests: XCTestCase {
         // Relaunch retains saved history. The import itself must not create extra records.
         app.terminate()
         app.launchArguments = ["-AppleLanguages", "(\(language))", "-AppleLocale", locale]
+        app.launchArguments += ["--countscope-test-ledger", testLedgerID]
         app.launch()
         capture(app, name: "\(prefix)-home")
         tapTab(app, label: language == "en" ? "History" : "记录")
@@ -251,7 +258,7 @@ final class Count_stickUITests: XCTestCase {
         app.buttons[language == "en" ? "Saved count options" : "记录选项"].firstMatch.tap()
         app.buttons[language == "en" ? "Delete" : "删除"].firstMatch.tap()
         app.buttons[language == "en" ? "Delete" : "删除"].firstMatch.tap()
-        tapTab(app, label: language == "en" ? "Count" : "数签")
+        tapTab(app, label: language == "en" ? "Count" : "计数")
         scrollTo(app.buttons["saveCount"], app: app)
         XCTAssertTrue(app.buttons["saveCount"].isEnabled, "Deleting the current record must allow saving it again")
     }

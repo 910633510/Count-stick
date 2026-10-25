@@ -15,6 +15,9 @@ private enum Theme {
 struct ContentView: View {
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
     @StateObject private var workspace = CountWorkspace()
+    @StateObject private var access = CountingAccess.shared
+    @Environment(\.scenePhase) private var scenePhase
+    @State private var showSubscription = false
     @StateObject private var history = CountHistory()
     @State private var selectedTab = 0
     @State private var selectedPhoto: PhotosPickerItem?
@@ -36,6 +39,7 @@ struct ContentView: View {
                 ScrollView {
                     VStack(alignment: .leading, spacing: 24) {
                         brandHeader
+                        accessSummary
                         if workspace.phase == .empty && !importing {
                             emptyWorkspace
                         } else {
@@ -77,7 +81,7 @@ struct ContentView: View {
             .tabItem { Label(L10n.text("tab.history"), systemImage: "clock.arrow.circlepath") }
             .tag(1)
 
-            GuideView()
+            GuideView(access: access, showSubscription: { showSubscription = true })
                 .tabItem { Label(L10n.text("tab.guide"), systemImage: "lightbulb") }
                 .tag(2)
         }
@@ -108,6 +112,7 @@ struct ContentView: View {
                 MarkerEditor(image: image, workspace: workspace)
             }
         }
+        .sheet(isPresented: $showSubscription) { SubscriptionView(access: access) }
         .sheet(item: $shareItem) { item in
             ShareSheet(items: [item.image])
         }
@@ -136,6 +141,16 @@ struct ContentView: View {
         .onChange(of: workspace.errorMessage) { _, message in
             if workspace.phase == .empty, let message { notice = message }
         }
+        .onChange(of: workspace.subscriptionRequired) { _, required in
+            if required { showSubscription = true; workspace.subscriptionRequired = false }
+        }
+        .onChange(of: workspace.accessError) { _, message in
+            if let message { notice = message; workspace.accessError = nil }
+        }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active { Task { await access.refresh() } }
+        }
+        .task { await access.refresh() }
         .task {
             #if DEBUG
             // UI automation may supply an actual image. It always runs the real model.
@@ -148,10 +163,27 @@ struct ContentView: View {
         }
     }
 
+    private var accessSummary: some View {
+        Button { showSubscription = true } label: {
+            HStack(alignment: .center, spacing: 12) {
+                Image(systemName: access.isSubscribed ? "checkmark.seal.fill" : "sparkles")
+                VStack(alignment: .leading, spacing: 4) {
+                    Text(L10n.text(access.isSubscribed ? "subscription.active" : "access.free.title"))
+                        .font(.subheadline.weight(.semibold))
+                    Text(access.isSubscribed ? L10n.text("subscription.active.detail") : String(format: L10n.text("access.remaining"), access.remainingFreeCounts))
+                        .font(.footnote)
+                }
+                Spacer(minLength: 0)
+                Image(systemName: "chevron.right").font(.caption.weight(.semibold))
+            }.foregroundStyle(Theme.ink).padding(16)
+                .background(.white, in: RoundedRectangle(cornerRadius: 18))
+        }.buttonStyle(.plain).accessibilityIdentifier("subscriptionEntry")
+    }
+
     private var brandHeader: some View {
         HStack(alignment: .top) {
             VStack(alignment: .leading, spacing: 5) {
-                Text("COUNT STICK")
+                Text("COUNTSCOPE")
                     .font(.system(size: 13, weight: .bold, design: .rounded))
                     .tracking(2.5)
                     .foregroundStyle(Theme.muted)
@@ -173,7 +205,7 @@ struct ContentView: View {
         VStack(alignment: .leading, spacing: 22) {
             VStack(alignment: .leading, spacing: 18) {
                 HStack {
-                    Label(L10n.text("home.offline"), systemImage: "iphone.gen3.radiowaves.left.and.right.slash")
+                    Label(L10n.text("home.offline"), systemImage: "iphone")
                         .font(.caption.weight(.semibold))
                         .padding(.horizontal, 12).padding(.vertical, 8)
                         .background(.white.opacity(0.1), in: Capsule())
@@ -680,10 +712,19 @@ private struct HistoryView: View {
 }
 
 private struct GuideView: View {
+    @ObservedObject var access: CountingAccess
+    let showSubscription: () -> Void
     var body: some View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 22) {
+                    Button(action: showSubscription) {
+                        HStack {
+                            Label(L10n.text("subscription.title"), systemImage: "sparkles")
+                            Spacer()
+                            Image(systemName: "chevron.right")
+                        }.font(.headline).padding(18).background(.white, in: RoundedRectangle(cornerRadius: 18))
+                    }.accessibilityIdentifier("guideSubscription")
                     Text(L10n.text("guide.subtitle")).font(.title3).foregroundStyle(Theme.muted)
                     VStack(spacing: 22) {
                         guideRow(number: "01", title: "guide.photo.title", body: "guide.photo.detail", symbol: "camera")
@@ -700,11 +741,15 @@ private struct GuideView: View {
                             linkRow("guide.support", symbol: "questionmark.circle")
                         }
                         Divider()
-                        Link(destination: URL(string: "https://www.xmaillc.com/count-stick-privacy.html")!) {
+                        Link(destination: CountingAccess.privacyURL) {
                             linkRow("guide.policy", symbol: "hand.raised")
                         }
+                        Divider()
+                        Link(destination: CountingAccess.termsURL) {
+                            linkRow("subscription.terms", symbol: "doc.text")
+                        }
                     }.padding(.horizontal, 17).background(.white, in: RoundedRectangle(cornerRadius: 20))
-                    Text("Count Stick · \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0")")
+                    Text("CountScope · \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "1.0")")
                         .font(.caption).foregroundStyle(Theme.muted).frame(maxWidth: .infinity)
                 }.padding(22).frame(maxWidth: 760).frame(maxWidth: .infinity)
             }.background(Theme.paper).navigationTitle(L10n.text("tab.guide"))

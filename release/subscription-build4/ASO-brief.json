@@ -1,0 +1,266 @@
+{
+  "status": "BUILD4_CANDIDATE_COPY_IMPLEMENTED_PENDING_LIVE_READBACK_AND_ASSETS",
+  "researchedOn": "2026-10-25",
+  "bundleId": "x.Count-stick",
+  "appStoreId": "6826601708",
+  "targetMarkets": [
+    "China mainland",
+    "United States"
+  ],
+  "locales": [
+    "zh-Hans",
+    "en-US"
+  ],
+  "positioning": "CountScope is a broader photo-counting brand. Its current automatic mode remains focused on exposed skewer ends; users review the entire photo, correct markers and keep local records. Free download offers four completed automatic counts; an optional monthly subscription removes the count limit.",
+  "price": {
+    "download": "Free",
+    "subscriptionBaseTerritory": "USA",
+    "subscriptionCurrency": "USD",
+    "requestedMonthlyCustomerPrice": "2.99",
+    "introductoryOffer": "7-day free trial for Apple-eligible first-time subscribers",
+    "freeAutomaticCounts": 4,
+    "regionalPriceCopy": "If a fixed price is stated, label it explicitly as U.S. storefront pricing; use actual localized StoreKit price in the app."
+  },
+  "candidateKeywords": [
+    {
+      "intent": "English core counting",
+      "terms": [
+        "photo counter",
+        "skewer count",
+        "bamboo tally",
+        "wooden sticks"
+      ]
+    },
+    {
+      "intent": "English workflow",
+      "terms": [
+        "manual correction",
+        "count history",
+        "offline count"
+      ]
+    },
+    {
+      "intent": "English use case",
+      "terms": [
+        "barbecue skewers",
+        "hotpot restaurant"
+      ]
+    },
+    {
+      "intent": "Chinese core counting",
+      "terms": [
+        "拍照计数",
+        "竹签",
+        "签头清点"
+      ]
+    },
+    {
+      "intent": "Chinese use case",
+      "terms": [
+        "串串",
+        "烧烤",
+        "火锅",
+        "餐饮"
+      ]
+    },
+    {
+      "intent": "Chinese workflow",
+      "terms": [
+        "逐点核对",
+        "离线计数",
+        "相册点数",
+        "备注"
+      ]
+    }
+  ],
+  "keywordEvidence": "Intent hypotheses from product functions and observed App Store positioning; no search-volume, difficulty, ranking or conversion measurements are claimed.",
+  "selectedFields": {
+    "en-US": {
+      "name": "CountScope: Photo Counter",
+      "subtitle": "Review markers. Save counts.",
+      "keywords": "skewer,bamboo,wooden,barbecue,hotpot,restaurant,correction,history,offline",
+      "validation": {
+        "nameCharacters": 25,
+        "subtitleCharacters": 28,
+        "keywordsUTF8Bytes": 74,
+        "promotionalTextCharacters": 147,
+        "descriptionCharacters": 3025
+      }
+    },
+    "zh-Hans": {
+      "name": "CountScope 拍照计数",
+      "subtitle": "逐点核对，记录照片数量",
+      "keywords": "竹签,串串,烧烤,火锅,餐饮,离线,相册,标记,统计,分享,备注",
+      "validation": {
+        "nameCharacters": 15,
+        "subtitleCharacters": 11,
+        "keywordsUTF8Bytes": 76,
+        "promotionalTextCharacters": 56,
+        "descriptionCharacters": 1079
+      }
+    }
+  },
+  "competitorObservations": [
+    {
+      "sourceId": "competitor-us",
+      "observation": "Count Camera is free with IAP and promotes skewers, offline processing and history. Retain focused, evidence-backed assisted review without repeating its accuracy/speed promises."
+    },
+    {
+      "sourceId": "competitor-cn-2",
+      "observation": "The Chinese adjacent counting app uses free download plus IAP, manual correction and history. CountScope can clearly separate four free completed counts from the conditional subscription trial."
+    }
+  ],
+  "screenshotFirstThree": {
+    "en-US": [
+      {
+        "order": 1,
+        "headline": "Automatic area. Manual review.",
+        "supporting": "Check every stick end, inside and outside.",
+        "screen": "Actual Build 4 English result screen with its automatically estimated reference outline visible; retain the real photo, count, markers and warning unchanged."
+      },
+      {
+        "order": 2,
+        "headline": "Check it. Correct it.",
+        "supporting": "Add, remove, or undo a marker.",
+        "screen": "Actual Build 4 locale-matched full-screen marker editor; keep the automatic outline and implemented add/remove/undo controls visible."
+      },
+      {
+        "order": 3,
+        "headline": "Keep the count handy.",
+        "supporting": "Save a note. Reopen or share.",
+        "screen": "Actual Build 4 locale-matched saved history with a genuine local record and a non-personal note; no invented counts."
+      }
+    ],
+    "zh-Hans": [
+      {
+        "order": 1,
+        "headline": "自动圈出参考范围",
+        "supporting": "逐点核对，也别漏看范围外",
+        "screen": "真实 Build 4 中文计数结果，展示自动估计的参考虚线；保留真实照片、数量、标记和范围外核对提示。"
+      },
+      {
+        "order": 2,
+        "headline": "漏了补，错了改",
+        "supporting": "添加、删除、撤销，随手校对",
+        "screen": "真实 Build 4 中文全屏标记编辑界面，保留参考虚线和实际添加、删除、撤销控件。"
+      },
+      {
+        "order": 3,
+        "headline": "数完留一份记录",
+        "supporting": "写备注，回看，也能分享",
+        "screen": "真实 Build 4 中文历史记录，使用实际保存的记录及不含个人信息的备注，不编造数量。"
+      }
+    ]
+  },
+  "termsToAvoid": [
+    "CountThings",
+    "CountThis",
+    "Count Camera",
+    "点数相机",
+    "competitor app names",
+    "99% accuracy",
+    "1 second",
+    "500 items",
+    "steel pipe detection",
+    "cell counting",
+    "automatic checkout",
+    "guaranteed accuracy",
+    "toothpick recognition",
+    "all objects",
+    "100%",
+    "精准无误",
+    "自动结账",
+    "一秒出数",
+    "steel pipe",
+    "colony counting",
+    "菌落计数",
+    "钢管识别",
+    "all-object automatic recognition"
+  ],
+  "localizationNotes": [
+    "Use actual English app UI for en-US assets and actual Simplified Chinese app UI for zh-Hans assets.",
+    "Do not translate UI pixels in marketing images. Capture each locale after final app localization.",
+    "Keep language concise; do not imply a billing system when the app only counts and stores results."
+  ],
+  "optionalFutureExperiments": [
+    "After release, compare photo-result versus manual-correction hero screenshots using App Store product page optimization.",
+    "Consider a restaurant/skewer custom product page only after a baseline listing and enough acquisition evidence exist. No advertising spend or new custom page is part of this draft."
+  ],
+  "sources": [
+    {
+      "id": "apple-product",
+      "title": "Creating your product page",
+      "url": "https://developer.apple.com/app-store/product-page/",
+      "supports": "Distinctive name, concise subtitle, authentic first-three screenshot benefits, avoid globally ambiguous fixed-price claims.",
+      "accessed": "2026-10-25",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-search",
+      "title": "App Store search",
+      "url": "https://developer.apple.com/app-store/search/",
+      "supports": "Relevant text and behavior contribute to discovery; no ranking guarantee.",
+      "accessed": "2026-10-25",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-keywords",
+      "title": "Platform version information",
+      "url": "https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information/",
+      "supports": "Preflight field lengths and 100-byte keyword limit.",
+      "accessed": "2026-10-25",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-subscriptions",
+      "title": "Auto-renewable subscriptions",
+      "url": "https://developer.apple.com/app-store/subscriptions/",
+      "supports": "Recurring value, truthful trial duration and post-trial price; restoration and management.",
+      "accessed": "2026-10-25",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-intro",
+      "title": "Set up introductory offers for auto-renewable subscriptions",
+      "url": "https://developer.apple.com/help/app-store-connect/manage-subscriptions/set-up-introductory-offers-for-auto-renewable-subscriptions/",
+      "supports": "Eligibility and subscription-group offer constraints; trial is distinct from local free quota.",
+      "accessed": "2026-10-25",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "apple-privacy",
+      "title": "App Privacy Details",
+      "url": "https://developer.apple.com/app-store/app-privacy-details/",
+      "supports": "Developer collection declarations must follow implemented data flows, including partners.",
+      "accessed": "2026-10-25",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "competitor-us",
+      "title": "Count Camera — US App Store",
+      "url": "https://apps.apple.com/us/app/count-camera/id6753931802",
+      "supports": "Publisher listing shows free download with IAP, skewer counting, manual/record-related workflow. Claims are not independent evidence.",
+      "accessed": "2026-10-25",
+      "accessedTimezone": "America/New_York"
+    },
+    {
+      "id": "competitor-cn-2",
+      "title": "拍照点数神器 — China App Store",
+      "url": "https://apps.apple.com/cn/app/%E6%8B%8D%E7%85%A7%E7%82%B9%E6%95%B0%E7%A5%9E%E5%99%A8-ai%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0%E9%92%A2%E7%AE%A1/id6758122199",
+      "supports": "Adjacent publisher positioning includes manual correction and local results; no adoption of accuracy claims.",
+      "accessed": "2026-10-25",
+      "accessedTimezone": "America/New_York"
+    }
+  ],
+  "completionGate": "Final ASO PASS requires independent review of exact live localized metadata, current billing and real Build 4 source screenshots plus processed placements. This file is not submission or upload evidence.",
+  "researchTimezone": "America/New_York",
+  "targetVersion": "1.0",
+  "targetBuild": "4",
+  "implementationDecisions": [
+    "Rename to the user-requested broader CountScope brand; preserve bundle ID and stable support/privacy URLs.",
+    "Use generic marker-review and saved-count workflow in subtitle; describe exposed skewer ends as the current automatic mode in the first sentence.",
+    "Retain three authentic screenshot benefits: reference area and full-photo review, manual corrections, local records. Recapture Build 4 after UI rename and billing changes.",
+    "Introduce four free completed automatic counts, optional monthly subscription and Apple-eligible seven-day trial as distinct concepts.",
+    "Do not place time/price/accuracy promises in keyword fields. Avoid rival brand names and unimplemented pipe/colony/general recognition."
+  ]
+}

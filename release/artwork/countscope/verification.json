@@ -1,0 +1,14 @@
+{
+  "tool": "built-in image_gen",
+  "useCase": "logo-brand",
+  "source": "icon-source.png",
+  "consumer": "Count stick/Assets.xcassets/AppIcon.appiconset/AppIcon-CountScope.png",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "alpha": false,
+  "sourceSHA256": "444ec45f30a6e57f34dffe2c765f9671f5007eb006c9b3c84cb3b7c0a2a2aa47",
+  "appIconSHA256": "50d86c26d65de815c21f6ad8b9db57f99de58d434db406b485fa54181cf25f45",
+  "visualReview": "PASS: full-bleed square, no pre-rounded outer corners or border, no words or skewers; general lens/dots mark. Existing AppIcon.png retained as history."
+}

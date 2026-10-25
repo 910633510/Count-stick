@@ -1,0 +1,48 @@
+{
+  "status": "PASS_ALL_REQUIRED_LANES",
+  "checkedAtUTC": "2026-10-25T04:27:48.309629+00:00",
+  "appId": "6826601708",
+  "versionId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+  "groupId": "22511744",
+  "subscriptionId": "6826741970",
+  "productId": "com.xmaillc.countscope.pro.monthly",
+  "groupVersionId": "af7cfd17-e0dc-4bba-989c-ae22efa66db9",
+  "subscriptionVersionId": "cebc6a11-3f0c-4cd1-85b3-5bddfb2c2706",
+  "subscriptionReviewScreenshotId": "13997449-9a61-4225-aa1a-28e96bfe2752",
+  "buildId": "e240daf9-6d06-42df-9eb7-ec1687022404",
+  "reviewSubmissionId": "1e69912e-a6a8-44f6-a202-3c67aa632d4e",
+  "reviewerArtifacts": {
+    "release/subscription-build4/implementation-independent-review.json": {
+      "status": "PASS_IMPLEMENTATION_AND_LOCAL_STOREKIT_TESTS",
+      "sha256": "ad0242dae092298a746eda27ff90103d857ce5bfe138f16b51948046b175ee6d"
+    },
+    "release/subscription-build4/monetization-independent-review.json": {
+      "status": "PASS_MONETIZATION_CONFIGURATION_COPY_SCREENSHOT_AND_LOCAL_RUNTIME",
+      "sha256": "91e85a8bb77cd395a961a340a0738e304cf7badaefb064f8ca46c67ddbd4c51e"
+    },
+    "release/subscription-build4/build-privacy-independent-review.json": {
+      "status": "PASS_TARGET_BUILD_AND_PRIVACY",
+      "sha256": "24d58e249ef91e62117317005b130353b62bc7fc49efc98ad97df78172bd3765"
+    },
+    "release/screenshots/build4/independent-visual-review.json": {
+      "status": "PASS_ALL_12_FINAL_ASSETS",
+      "sha256": "25fd5b0111b8a296f2887536aca6675c550d777ed4c4929f09ac847fe614bccd"
+    },
+    "release/screenshots/build4/upload-review.json": {
+      "status": "PASS_API_UPLOAD_REPLACEMENT_AND_PROCESSED_PIXEL_READBACK",
+      "sha256": "5e6e08ce7c4116a51c1cfceb15b6ce17a72d07a8f83ee7d0c353c31e52348400"
+    },
+    "release/subscription-build4/aso-final-review.json": {
+      "status": "PASS_FINAL_ASO_COPY_ASSETS_AND_MONETIZATION",
+      "sha256": "46dc2a139cef3a2b21a54641f42d6ac1c5f6df56cd43491328a09a35db087246"
+    }
+  },
+  "items": {
+    "appStoreVersion": "MWU2OTkxMmUtYTZhOC00NGY2LWEyMDItM2M2N2FhNjMyZDRlfDZ8ODkzODEyNDMx",
+    "subscriptionVersion": "MWU2OTkxMmUtYTZhOC00NGY2LWEyMDItM2M2N2FhNjMyZDRlfDE4fGNlYmM2YTExLTNmMGMtNGNkMS04NWIzLTViZGRmYjJjMjcwNg",
+    "subscriptionGroupVersion": "MWU2OTkxMmUtYTZhOC00NGY2LWEyMDItM2M2N2FhNjMyZDRlfDE5fGFmN2NmZDE3LWUwZGMtNGJiYS05ODljLWFlMjJlZmE2NmRiOQ"
+  },
+  "modelChanges": false,
+  "accuracyScope": "Assisted manual-review product; prior frozen accuracy limitations remain. No new automatic-recognition categories or accuracy guarantees.",
+  "physicalDeviceAcceptance": "NOT_PERFORMED; local simulator StoreKit tests only."
+}

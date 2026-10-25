@@ -1,0 +1,62 @@
+{
+  "status": "PASS_SUBMISSION_VERIFIED",
+  "verifiedAtUTC": "2026-10-25T04:28:48.748180+00:00",
+  "submissionId": "1e69912e-a6a8-44f6-a202-3c67aa632d4e",
+  "submissionState": "WAITING_FOR_REVIEW",
+  "submittedDate": "2026-10-25T04:27:52.309Z",
+  "submittedDateAmericaNewYork": "2026-10-25T00:27:52.309000-04:00",
+  "appId": "6826601708",
+  "bundleId": "x.Count-stick",
+  "appVersionId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+  "appVersion": "1.0",
+  "buildId": "e240daf9-6d06-42df-9eb7-ec1687022404",
+  "build": "4",
+  "buildProcessingState": "VALID",
+  "releaseType": "AFTER_APPROVAL",
+  "items": [
+    {
+      "reviewItemId": "MWU2OTkxMmUtYTZhOC00NGY2LWEyMDItM2M2N2FhNjMyZDRlfDZ8ODkzODEyNDMx",
+      "reviewItemState": "READY_FOR_REVIEW",
+      "relationship": "appStoreVersion",
+      "resourceType": "appStoreVersions",
+      "resourceId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+      "resourceState": "WAITING_FOR_REVIEW"
+    },
+    {
+      "reviewItemId": "MWU2OTkxMmUtYTZhOC00NGY2LWEyMDItM2M2N2FhNjMyZDRlfDE4fGNlYmM2YTExLTNmMGMtNGNkMS04NWIzLTViZGRmYjJjMjcwNg",
+      "reviewItemState": "READY_FOR_REVIEW",
+      "relationship": "subscriptionVersion",
+      "resourceType": "subscriptionVersions",
+      "resourceId": "cebc6a11-3f0c-4cd1-85b3-5bddfb2c2706",
+      "resourceState": "WAITING_FOR_REVIEW"
+    },
+    {
+      "reviewItemId": "MWU2OTkxMmUtYTZhOC00NGY2LWEyMDItM2M2N2FhNjMyZDRlfDE5fGFmN2NmZDE3LWUwZGMtNGJiYS05ODljLWFlMjJlZmE2NmRiOQ",
+      "reviewItemState": "READY_FOR_REVIEW",
+      "relationship": "subscriptionGroupVersion",
+      "resourceType": "subscriptionGroupVersions",
+      "resourceId": "af7cfd17-e0dc-4bba-989c-ae22efa66db9",
+      "resourceState": "WAITING_FOR_REVIEW"
+    }
+  ],
+  "itemStateNote": "ReviewSubmissionItem resources retain READY_FOR_REVIEW in this live response; their referenced app/subscription/group version resources and the enclosing submission are WAITING_FOR_REVIEW. These are distinct resource state machines.",
+  "checks": {
+    "exactThreeIntendedItems": true,
+    "submissionWaitingForReview": true,
+    "submissionAppBinding": true,
+    "appVersionWaitingForReview": true,
+    "subscriptionVersionWaitingForReview": true,
+    "groupVersionWaitingForReview": true,
+    "version10Build4SelectedValid": true,
+    "releaseAfterApproval": true,
+    "noNonExemptEncryption": true,
+    "buildAppBundleIdentity": true
+  },
+  "issues": [],
+  "freshAPIReadOnly": true,
+  "apiWritesPerformed": false,
+  "receiptDirectory": "/Users/xue/.codex/app-store-connect-release/runs/count-stick-subscription-20261025/independent-review",
+  "limitations": [
+    "Waiting for Review confirms submission, not approval or public release."
+  ]
+}

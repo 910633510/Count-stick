@@ -1,0 +1,14 @@
+{
+  "sourceFreeze": "release/screenshots/build4/source-freeze.json",
+  "metadata": "release/subscription-build4/metadata.json",
+  "families": {
+    "ipad": {
+      "appPath": "output/subscription-build4/iPadDerivedData/Build/Products/Release-iphonesimulator/Count stick.app",
+      "setupAppPath": "output/subscription-build4/setup-apps/ipad/Count stick.app",
+      "setupSourceFreeze": "release/screenshots/build4/source-freeze-before-chinese-brand-fix.json",
+      "xcresult": "output/subscription-build4/ipad-release-captures.xcresult",
+      "setupXcresult": "output/subscription-build4/ipad-setup.xcresult",
+      "attachmentsManifest": "output/subscription-build4/ipad-release-attachments/manifest.json"
+    }
+  }
+}

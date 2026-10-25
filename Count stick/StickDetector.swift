@@ -176,7 +176,7 @@ enum PhotoProcessing {
                 path.lineWidth = max(1.5, radius * 0.25)
                 path.stroke()
             }
-            let title = "Count Stick · \(L10n.count(markers.count))"
+            let title = "CountScope · \(L10n.count(markers.count))"
             title.draw(in: CGRect(x: margin, y: photoHeight + 22, width: width - margin * 2, height: 48), withAttributes: [
                 .font: UIFont.boldSystemFont(ofSize: min(36, width * 0.045)), .foregroundColor: AppPalette.ink
             ])

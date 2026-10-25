@@ -1,0 +1,14 @@
+{
+  "status": "PASS_FINAL_CAMERA_ICON",
+  "tool": "built-in image_gen",
+  "source": "icon-camera-source.png",
+  "consumer": "Count stick/Assets.xcassets/AppIcon.appiconset/AppIcon-CountScope-Camera.png",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "alpha": false,
+  "sourceSHA256": "7893f44edc47c06ea0ac551bbd22f1150e64a2d431fe29b77409f4a0a12db8f1",
+  "appIconSHA256": "1b2ab07a0d1e3e591538743246c2124372ce2c454c7d72e5b77054f65cf508c4",
+  "visualReview": "Concrete camera, digit 3 and three objects; full square canvas; no external rounded tile or border. Supersedes abstract lens-and-spheres draft at user request; generated source retained."
+}

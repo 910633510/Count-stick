@@ -12,24 +12,46 @@ final class CountWorkspace: ObservableObject {
     @Published private(set) var automaticRegion: AutoCountRegionResult?
     @Published var note = ""
     @Published private(set) var saved = false
+    @Published var subscriptionRequired = false
+    @Published var accessError: String?
     private(set) var id = UUID()
     private(set) var date = Date()
     private var generation = UUID()
-    private let detector = StickDetector()
+    private let access: CountingAccess
+    private let runDetector: (UIImage) async throws -> StickDetectionResult
+    private var reserving = false
     private var savedMarkers: [CountMarker]?
     private var savedNote: String?
+
+    init(access: CountingAccess? = nil, detector: ((UIImage) async throws -> StickDetectionResult)? = nil) {
+        self.access = access ?? .shared
+        let localDetector = StickDetector()
+        self.runDetector = detector ?? { image in try await localDetector.detectWithAutomaticRegion(from: image) }
+    }
+
+    private func reserve() async -> CountingAccess.Reservation? {
+        guard !reserving, phase != .processing else { return nil }
+        reserving = true
+        defer { reserving = false }
+        do { return try await access.reserveCount() }
+        catch CountAccessError.subscriptionRequired { subscriptionRequired = true }
+        catch { accessError = error.localizedDescription }
+        return nil
+    }
 
     var hasUnsavedChanges: Bool { image != nil && (savedMarkers != edits.markers || savedNote != note) }
     var isSaved: Bool { saved && savedNote == note && savedMarkers == edits.markers }
     var record: CountRecord { CountRecord(id: id, date: date, markers: edits.markers, automaticCount: automaticCount, note: note, automaticRegion: automaticRegion) }
 
     func load(data: Data) async {
+        guard let reservation = await reserve() else { return }
+        defer { access.cancelCount(reservation) }
         let token = beginLoading()
         do {
             let image = try await Task.detached(priority: .userInitiated) { try PhotoProcessing.load(data: data) }.value
             guard generation == token else { return }
             self.image = image
-            await detect(image, token: token)
+            await detect(image, token: token, reservation: reservation)
         } catch {
             guard generation == token else { return }
             phase = .empty
@@ -38,12 +60,14 @@ final class CountWorkspace: ObservableObject {
     }
 
     func load(image: UIImage) async {
+        guard let reservation = await reserve() else { return }
+        defer { access.cancelCount(reservation) }
         let token = beginLoading()
         do {
             let prepared = try await Task.detached(priority: .userInitiated) { try PhotoProcessing.normalized(image) }.value
             guard generation == token else { return }
             self.image = prepared
-            await detect(prepared, token: token)
+            await detect(prepared, token: token, reservation: reservation)
         } catch {
             guard generation == token else { return }
             phase = .empty
@@ -56,11 +80,12 @@ final class CountWorkspace: ObservableObject {
     }
 
     func retry() async {
-        guard let image else { return }
+        guard let image, let reservation = await reserve() else { return }
+        defer { access.cancelCount(reservation) }
         generation = UUID()
         phase = .processing
         errorMessage = nil
-        await detect(image, token: generation)
+        await detect(image, token: generation, reservation: reservation)
     }
 
     func countManually() {
@@ -115,10 +140,12 @@ final class CountWorkspace: ObservableObject {
         return generation
     }
 
-    private func detect(_ image: UIImage, token: UUID) async {
+    private func detect(_ image: UIImage, token: UUID, reservation: CountingAccess.Reservation) async {
         do {
-            let result = try await detector.detectWithAutomaticRegion(from: image)
+            let result = try await runDetector(image)
             guard generation == token else { return }
+            try Task.checkCancellation()
+            try access.completeCount(reservation)
             edits.replace(with: result.markers)
             automaticCount = result.markers.count
             automaticRegion = result.automaticRegion

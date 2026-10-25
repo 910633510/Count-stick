@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "checkedAtUTC": "2026-10-25T04:12:50.338650+00:00",
+  "status": "PASS_CURRENT_API_SPECIFICATIONS",
+  "appId": "6826601708",
+  "bundleId": "x.Count-stick",
+  "targetVersion": "1.0",
+  "targetBuild": "4",
+  "source": "https://api.appstoreconnect.apple.com/v1/appAssetLibraryRefData",
+  "sourceResponseSHA256": "8564055efec63b2b1a7f953c630d5ec558285c77796c6eabdc386b342bd1f782",
+  "chosenSpecs": [
+    {
+      "family": "iphone",
+      "placementGroup": "IPHONE_DYNAMIC_ISLAND_MEDIUM_PROFILE",
+      "specId": "5a7a65df-8822-5e32-bd47-cfbc4ef99663",
+      "shortName": "i1206x2622a0",
+      "dimensions": {
+        "minWidth": 1206,
+        "maxWidth": 1206,
+        "minHeight": 2622,
+        "maxHeight": 2622
+      },
+      "aspectRatio": "6:13",
+      "compatiblePlacementTypes": [
+        "APP_SCREENSHOT",
+        "IMESSAGE_APP_SCREENSHOT"
+      ],
+      "alphaAllowed": false,
+      "fileExtensions": [
+        ".jpg",
+        ".jpeg",
+        ".png"
+      ],
+      "maxFileSize": 524288000,
+      "mimeTypes": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "universalAsset": false
+    },
+    {
+      "family": "ipad",
+      "placementGroup": "IPAD_13_PROFILE",
+      "specId": "1751a63a-af79-5c7f-a2f2-41140bf28f9e",
+      "shortName": "i2064x2752a0",
+      "dimensions": {
+        "minWidth": 2064,
+        "maxWidth": 2064,
+        "minHeight": 2752,
+        "maxHeight": 2752
+      },
+      "aspectRatio": "3:4",
+      "compatiblePlacementTypes": [
+        "APP_SCREENSHOT",
+        "IMESSAGE_APP_SCREENSHOT"
+      ],
+      "alphaAllowed": false,
+      "fileExtensions": [
+        ".jpg",
+        ".jpeg",
+        ".png"
+      ],
+      "maxFileSize": 524288000,
+      "mimeTypes": [
+        "image/jpeg",
+        "image/png"
+      ],
+      "universalAsset": false
+    }
+  ],
+  "plannedPlacementsPerLocalePerGroup": 3,
+  "maxScreenshotsPerGroup": 10,
+  "sourceCapturesReady": {
+    "ipad": true,
+    "iphone": true
+  }
+}

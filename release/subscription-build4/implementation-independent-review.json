@@ -1,0 +1,444 @@
+{
+  "status": "PASS_IMPLEMENTATION_AND_LOCAL_STOREKIT_TESTS",
+  "reviewedAt": "2026-10-25T04:16:13.331226+00:00",
+  "role": "Independent read-only implementation reviewer",
+  "appId": "6826601708",
+  "bundleId": "x.Count-stick",
+  "productId": "com.xmaillc.countscope.pro.monthly",
+  "subscriptionId": "6826741970",
+  "groupId": "22511744",
+  "readOnly": true,
+  "executedBuildOrSimulatorTests": false,
+  "fileSHA256": {
+    "Count stick/CountingAccess.swift": "6958354ca014772eae3c52806b425e745bab2540ad7f4433ff8f051e86b01ff1",
+    "Count stick/SubscriptionView.swift": "a3be50a2d448680a79480508f8da903a1b9b07f5b2198a0be6a1f463515080eb",
+    "Count stick/CountWorkspace.swift": "ea8410c057fb0307071f55caa2f18d5d981059f7c6a24f957a4ff5d62dca4c24",
+    "Count stick/ContentView.swift": "acf7567b796d80bee85a24088b6d4c3b7000e6a042ad598c4dbab3a83558f306",
+    "Count stick/en.lproj/Localizable.strings": "6a0674e9eb4c26acef492a551e4a0552b6dafc884f5d5b98d18f07014d4cf5c5",
+    "Count stick/zh-Hans.lproj/Localizable.strings": "e701e96b3d81c0c9e8a2531f155b0c8952ad8b78e8af6eec13132475d8a9ea3a",
+    "Count stickTests/CountingAccessTests.swift": "455d51204f6373bb879e3fb48cf57342e4503b9cb5b91ffc6fec912889ad6e2e",
+    "Count stickTests/SubscriptionStoreKitTests.swift": "b6e5bcd75bdbb460c394ad62531e4d68d85a1907035c9aec4a27fc953d382871",
+    "Count stickTests/CountScope.storekit": "6aab38ca1d408f11168114e3f2c80f16cebd69bd33dfc4250284afa462eceafd",
+    "Count stick/zh-Hans.lproj/InfoPlist.strings": "d311909e0801a4453bd3dad5467420fa535b4396e14b12b2ee3ffd63d9b26ab0",
+    "Count stickUITests/SubscriptionUITests.swift": "b35bebaf97ba28253e33d87a402c6e027de66e6f3ca06c1c19f61c07f46379e7",
+    "Count stickUITests/CountScope.storekit": "6aab38ca1d408f11168114e3f2c80f16cebd69bd33dfc4250284afa462eceafd",
+    "Count stickUITests/Count_stickUITests.swift": "d5284b29f6152a0a9f9a003b457ca5d967212b6b76e62d52b7a4740a43d5ec1f",
+    "Count stick.xcodeproj/xcshareddata/xcschemes/Count stick.xcscheme": "f214986075f7e829e4da1946be3eb6a87eb37b50af63c86b4b545e3e8c2b9e00"
+  },
+  "issues": [
+    {
+      "id": "ENTITLEMENT_REFRESH_EVENT_COALESCING",
+      "severity": "medium",
+      "status": "RESOLVED_BY_QUEUED_FRESH_SCANS",
+      "file": "Count stick/CountingAccess.swift",
+      "lines": [
+        145,
+        174
+      ],
+      "finding": "A purchase/update/restore-triggered refresh joins any already-running entitlementTask, even if that task enumerated currentEntitlements before the transaction event and is suspended in subscription.status. The transaction event can then finish without an entitlement scan after the event. A newly purchased user may retain nil expiry and the not-active message until another foreground/manual refresh; a revoked entitlement may remain displayed until another gate refresh.",
+      "recommendation": "Invalidate or force a new serialized entitlement scan after verified purchase, transaction update and AppStore.sync. A dirty-generation/retry loop or forceFresh path must not drop events that arrive during a scan. Add a controlled asynchronous regression or verify code structure plus StoreKit purchase/refund/update tests.",
+      "resolution": "Each refresh captures the preceding task, queues a separate fresh readVerifiedEntitlement scan after it, and clears the tail only if entitlementRefreshID still matches. Purchase/update/restore can no longer join a scan begun before the event.",
+      "resolutionLines": [
+        146,
+        181
+      ]
+    }
+  ],
+  "verifiedByInspection": [
+    "StoreKit success and transaction update paths require verified matching product transactions before granting access or finishing.",
+    "Current entitlement scan rejects revoked, upgraded and expired transactions. Verified grace-period data is accepted; failed status retrieval does not grant extra access.",
+    "Ordinary subscriber entitlement relies on Apple StoreKit currentEntitlements and expiration rather than an arbitrary local unlock flag.",
+    "Main-actor shared access manager serializes in-process free reservations; reservation completion is single-use and Keychain is written before publishing results.",
+    "Free allowance is lifetime four successful automatic results, including zero detections. Failed/cancelled processing, manual editing and history restore do not debit.",
+    "Invalid/corrupt/unavailable Keychain fails closed and can recover on a later reserve; no UserDefaults fallback resets quota.",
+    "Denied counting gate preserves existing workspace; saved result view/edit/save/share is not subscription-gated.",
+    "Paywall uses localized StoreKit displayPrice, verifies seven-day introductory free-trial period and Apple eligibility, and exposes restore/manage/privacy/EULA.",
+    "Scene activation and entitlement expiry schedule refresh. Product errors do not fabricate access.",
+    "No network receipt-upload/analytics SDK introduced in reviewed code."
+  ],
+  "limitations": [
+    "This reviewer read existing xcresult artifacts and source; did not run or mutate the simulator.",
+    "Transactions are Apple local StoreKit Test, not Apple sandbox/TestFlight/production purchases. Physical-device billing and fully disconnected-device behavior have not been tested.",
+    "Final current-build screenshot/localization validation, live StoreKit configuration, review screenshot and submission state are separate release lanes."
+  ],
+  "history": [
+    {
+      "status": "BLOCK_PENDING_ENTITLEMENT_REFRESH_RACE_FIX",
+      "reviewedAt": "2026-10-25T04:07:18.505632+00:00",
+      "fileSHA256": {
+        "Count stick/CountingAccess.swift": "7001300bd4ec690250a4829dedfb41792db40314f04e60dd22899853cd37a7ac",
+        "Count stick/SubscriptionView.swift": "a3be50a2d448680a79480508f8da903a1b9b07f5b2198a0be6a1f463515080eb",
+        "Count stick/CountWorkspace.swift": "ea8410c057fb0307071f55caa2f18d5d981059f7c6a24f957a4ff5d62dca4c24",
+        "Count stick/ContentView.swift": "f9ee273fe3a9ce66d00ff0f606cbe702a91b7cb69f4ba33421b84be0959e52f9",
+        "Count stick/en.lproj/Localizable.strings": "6a0674e9eb4c26acef492a551e4a0552b6dafc884f5d5b98d18f07014d4cf5c5",
+        "Count stick/zh-Hans.lproj/Localizable.strings": "ef0d4a3a0a2293aea2448dae015240d91abe8f6eb264f7c1406168c63ed8c5f4",
+        "Count stickTests/CountingAccessTests.swift": "455d51204f6373bb879e3fb48cf57342e4503b9cb5b91ffc6fec912889ad6e2e",
+        "Count stickTests/SubscriptionStoreKitTests.swift": "26de3e38a1840b614ffa6c2ed0b4d891841e588369d156626623a6498e9e5223",
+        "Count stickTests/CountScope.storekit": "6aab38ca1d408f11168114e3f2c80f16cebd69bd33dfc4250284afa462eceafd"
+      },
+      "issues": [
+        {
+          "id": "ENTITLEMENT_REFRESH_EVENT_COALESCING",
+          "severity": "medium",
+          "status": "RESOLVED_BY_QUEUED_FRESH_SCANS",
+          "file": "Count stick/CountingAccess.swift",
+          "lines": [
+            145,
+            174
+          ],
+          "finding": "A purchase/update/restore-triggered refresh joins any already-running entitlementTask, even if that task enumerated currentEntitlements before the transaction event and is suspended in subscription.status. The transaction event can then finish without an entitlement scan after the event. A newly purchased user may retain nil expiry and the not-active message until another foreground/manual refresh; a revoked entitlement may remain displayed until another gate refresh.",
+          "recommendation": "Invalidate or force a new serialized entitlement scan after verified purchase, transaction update and AppStore.sync. A dirty-generation/retry loop or forceFresh path must not drop events that arrive during a scan. Add a controlled asynchronous regression or verify code structure plus StoreKit purchase/refund/update tests.",
+          "resolution": "Each refresh captures the preceding task, queues a separate fresh readVerifiedEntitlement scan after it, and clears the tail only if entitlementRefreshID still matches. Purchase/update/restore can no longer join a scan begun before the event.",
+          "resolutionLines": [
+            146,
+            181
+          ]
+        }
+      ]
+    },
+    {
+      "status": "PASS_STATIC_REVIEW_RUNTIME_EVIDENCE_PENDING",
+      "reviewedAt": "2026-10-25T04:10:52.227028+00:00",
+      "fileSHA256": {
+        "Count stick/CountingAccess.swift": "6958354ca014772eae3c52806b425e745bab2540ad7f4433ff8f051e86b01ff1",
+        "Count stick/SubscriptionView.swift": "a3be50a2d448680a79480508f8da903a1b9b07f5b2198a0be6a1f463515080eb",
+        "Count stick/CountWorkspace.swift": "ea8410c057fb0307071f55caa2f18d5d981059f7c6a24f957a4ff5d62dca4c24",
+        "Count stick/ContentView.swift": "acf7567b796d80bee85a24088b6d4c3b7000e6a042ad598c4dbab3a83558f306",
+        "Count stick/en.lproj/Localizable.strings": "6a0674e9eb4c26acef492a551e4a0552b6dafc884f5d5b98d18f07014d4cf5c5",
+        "Count stick/zh-Hans.lproj/Localizable.strings": "ef0d4a3a0a2293aea2448dae015240d91abe8f6eb264f7c1406168c63ed8c5f4",
+        "Count stickTests/CountingAccessTests.swift": "455d51204f6373bb879e3fb48cf57342e4503b9cb5b91ffc6fec912889ad6e2e",
+        "Count stickTests/SubscriptionStoreKitTests.swift": "bf6917be586d92e128f8af5899063ddc342083f61e08afec5138c593581d050c",
+        "Count stickTests/CountScope.storekit": "6aab38ca1d408f11168114e3f2c80f16cebd69bd33dfc4250284afa462eceafd"
+      },
+      "issues": [
+        {
+          "id": "ENTITLEMENT_REFRESH_EVENT_COALESCING",
+          "severity": "medium",
+          "status": "RESOLVED_BY_QUEUED_FRESH_SCANS",
+          "file": "Count stick/CountingAccess.swift",
+          "lines": [
+            145,
+            174
+          ],
+          "finding": "A purchase/update/restore-triggered refresh joins any already-running entitlementTask, even if that task enumerated currentEntitlements before the transaction event and is suspended in subscription.status. The transaction event can then finish without an entitlement scan after the event. A newly purchased user may retain nil expiry and the not-active message until another foreground/manual refresh; a revoked entitlement may remain displayed until another gate refresh.",
+          "recommendation": "Invalidate or force a new serialized entitlement scan after verified purchase, transaction update and AppStore.sync. A dirty-generation/retry loop or forceFresh path must not drop events that arrive during a scan. Add a controlled asynchronous regression or verify code structure plus StoreKit purchase/refund/update tests.",
+          "resolution": "Each refresh captures the preceding task, queues a separate fresh readVerifiedEntitlement scan after it, and clears the tail only if entitlementRefreshID still matches. Purchase/update/restore can no longer join a scan begun before the event.",
+          "resolutionLines": [
+            146,
+            181
+          ]
+        }
+      ]
+    }
+  ],
+  "openBlockingIssues": [],
+  "runtimeEvidenceStatus": "Independently parsed final xcresult summary and all 46 test case results; zero failures/skips. Read current StoreKit and UI test assertions to confirm coverage.",
+  "releaseReady": true,
+  "runtimeEvidence": {
+    "xcresult": "output/subscription-build4/final-tests.xcresult",
+    "summary": {
+      "devicesAndConfigurations": [
+        {
+          "device": {
+            "architecture": "arm64",
+            "deviceId": "F32ABD3B-EC33-4A6F-BBB7-4FA3CD3E3BCC",
+            "deviceName": "CountScope StoreKit QA iOS18",
+            "modelName": "iPhone 16 Pro",
+            "osBuildNumber": "22F77",
+            "osVersion": "18.5",
+            "platform": "iOS Simulator"
+          },
+          "expectedFailures": 0,
+          "failedTests": 0,
+          "passedTests": 46,
+          "skippedTests": 0,
+          "testPlanConfiguration": {
+            "configurationId": "1",
+            "configurationName": "Test Scheme Action"
+          }
+        }
+      ],
+      "environmentDescription": "Count stick · Built with macOS 26.4.1",
+      "expectedFailures": 0,
+      "failedTests": 0,
+      "finishTime": 1792901674.247,
+      "passedTests": 46,
+      "result": "Passed",
+      "skippedTests": 0,
+      "startTime": 1792901466.874,
+      "statistics": [],
+      "testFailures": [],
+      "title": "Test - Count stick",
+      "topInsights": [
+        {
+          "category": "Longest Test Runs",
+          "impact": "47% of duration",
+          "text": "2 longest test runs with outlier durations exceeding 0.89s (three standard deviations)"
+        }
+      ],
+      "totalTestCount": 46
+    },
+    "summarySHA256": "99c20ebf5781c555d626316741d68bb6dd54a3ad2e7cac2c08f1f2a781ec7f33",
+    "testTreeSHA256": "af5340b108fd4694b33558e0beb523566550fbd3380f69a2d5d7714b7e7501c6",
+    "testGroups": {
+      "CountingAccessTests": 8,
+      "SubscriptionStoreKitTests": 5,
+      "AutoCountRegionTests": 11,
+      "AutomaticRegionHistoryTests": 2,
+      "Count_stickTests": 12,
+      "StickDetectorDedupRegressionTests": 1,
+      "Count_stickUITests": 4,
+      "SubscriptionUITests": 3
+    },
+    "testResults": [
+      {
+        "nodeIdentifier": "CountingAccessTests/testCancelledInferenceAndOverlappingLoadsDoNotDebit()",
+        "name": "testCancelledInferenceAndOverlappingLoadsDoNotDebit()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "CountingAccessTests/testFourCompletedCountsPersistAndFifthIsDenied()",
+        "name": "testFourCompletedCountsPersistAndFifthIsDenied()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "CountingAccessTests/testInvalidImageAndDetectorFailureDoNotConsumeUse()",
+        "name": "testInvalidImageAndDetectorFailureDoNotConsumeUse()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "CountingAccessTests/testKeychainPersistenceAcrossNewStoreInstances()",
+        "name": "testKeychainPersistenceAcrossNewStoreInstances()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "CountingAccessTests/testReadFailureFailsClosedAndRecovers()",
+        "name": "testReadFailureFailsClosedAndRecovers()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "CountingAccessTests/testReservationsPreventConcurrentOverspendAndCancelIsFree()",
+        "name": "testReservationsPreventConcurrentOverspendAndCancelIsFree()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "CountingAccessTests/testStorageFailureDoesNotExposeResultOrLoseAllowance()",
+        "name": "testStorageFailureDoesNotExposeResultOrLoseAllowance()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "CountingAccessTests/testZeroResultConsumesOnceHistoryAndEditsAreFreeAndGatePreservesResult()",
+        "name": "testZeroResultConsumesOnceHistoryAndEditsAreFreeAndGatePreservesResult()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "SubscriptionStoreKitTests/testCancelledAndUnverifiedPurchasesDoNotUnlock()",
+        "name": "testCancelledAndUnverifiedPurchasesDoNotUnlock()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "SubscriptionStoreKitTests/testPendingPurchaseDoesNotUnlockUntilApprovalAndUpdatesAreObserved()",
+        "name": "testPendingPurchaseDoesNotUnlockUntilApprovalAndUpdatesAreObserved()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "SubscriptionStoreKitTests/testPurchaseTrialRelaunchRestoreExpireAndRefund()",
+        "name": "testPurchaseTrialRelaunchRestoreExpireAndRefund()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "SubscriptionStoreKitTests/testRestoreWithNoPurchaseDoesNotUnlock()",
+        "name": "testRestoreWithNoPurchaseDoesNotUnlock()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "SubscriptionStoreKitTests/testUnavailableProductCannotBePurchasedOrAdvertiseTrial()",
+        "name": "testUnavailableProductCannotBePurchasedOrAdvertiseTrial()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/sparseInputFailsOpen()",
+        "name": "sparseInputFailsOpen()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/sparseEndpointsCannotBeErasedByOCR()",
+        "name": "sparseEndpointsCannotBeErasedByOCR()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/smallSecondaryBundleCannotBeErasedByOCR()",
+        "name": "smallSecondaryBundleCannotBeErasedByOCR()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/OCRWithoutNonTextAnchorCannotCreateFalseZero()",
+        "name": "OCRWithoutNonTextAnchorCannotCreateFalseZero()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/distantLowConfidenceSingletonIsExcludedWithoutRemovingDenseBundle()",
+        "name": "distantLowConfidenceSingletonIsExcludedWithoutRemovingDenseBundle()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/distantHighConfidenceEndpointAndLowConfidencePairArePreserved()",
+        "name": "distantHighConfidenceEndpointAndLowConfidencePairArePreserved()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/smallerSecondBundleAndNearEdgeEndpointArePreserved()",
+        "name": "smallerSecondBundleAndNearEdgeEndpointArePreserved()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/supportedEndpointTextureIsNotDeletedAsText()",
+        "name": "supportedEndpointTextureIsNotDeletedAsText()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/confidentSeparatedTextRowIsExcluded()",
+        "name": "confidentSeparatedTextRowIsExcluded()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/nonfiniteTextConfidenceIsIgnoredAndInvalidDetectionsFailOpen()",
+        "name": "nonfiniteTextConfidenceIsIgnoredAndInvalidDetectionsFailOpen()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutoCountRegionTests/emptyAndRoundTripPreserveFallbackContract()",
+        "name": "emptyAndRoundTripPreserveFallbackContract()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutomaticRegionHistoryTests/legacyRecordsWithoutRegionStillDecode()",
+        "name": "legacyRecordsWithoutRegionStillDecode()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "AutomaticRegionHistoryTests/regionSurvivesHistoryAndNeverRestrictsManualCorrection()",
+        "name": "regionSurvivesHistoryAndNeverRestrictsManualCorrection()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/markerEditsMaintainCountAndUndo()",
+        "name": "markerEditsMaintainCountAndUndo()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/invalidTapsAndUnknownRemovalDoNotCreateUndo()",
+        "name": "invalidTapsAndUnknownRemovalDoNotCreateUndo()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/newPhotoResetsUndoAndMarkers()",
+        "name": "newPhotoResetsUndoAndMarkers()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/fittingRejectsLetterboxAndPreservesCoordinates()",
+        "name": "fittingRejectsLetterboxAndPreservesCoordinates()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/normalizingRotationAndMirroringTransformsPixels()",
+        "name": "normalizingRotationAndMirroringTransformsPixels()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/decodingAppliesEXIFOrientation()",
+        "name": "decodingAppliesEXIFOrientation()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/decodingLimitsLargeImagesAndRejectsInvalidData()",
+        "name": "decodingLimitsLargeImagesAndRejectsInvalidData()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/exportedResultContainsPhotoAndFooter()",
+        "name": "exportedResultContainsPhotoAndFooter()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/exportGrowsToPreserveLongUnicodeNotes()",
+        "name": "exportGrowsToPreserveLongUnicodeNotes()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/historyPersistsReplacesAndDeletesWithoutDuplicates()",
+        "name": "historyPersistsReplacesAndDeletesWithoutDuplicates()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/corruptHistoryShowsErrorWithoutOverwritingFile()",
+        "name": "corruptHistoryShowsErrorWithoutOverwritingFile()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickTests/bundledDetectorRunsRealModelOnBlankPhoto()",
+        "name": "bundledDetectorRunsRealModelOnBlankPhoto()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "StickDetectorDedupRegressionTests/realFixtureMatchesExplicitNMSAndReducesOverlappingDetections()",
+        "name": "realFixtureMatchesExplicitNMSAndReducesOverlappingDetections()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickUITests/testAutomaticRegionKeepsManualPhotoCorrections()",
+        "name": "testAutomaticRegionKeepsManualPhotoCorrections()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickUITests/testChinesePhotoCorrectionSaveReopenDelete()",
+        "name": "testChinesePhotoCorrectionSaveReopenDelete()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickUITests/testEnglishPhotoCorrectionSaveReopenDelete()",
+        "name": "testEnglishPhotoCorrectionSaveReopenDelete()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "Count_stickUITests/testHomeGuideAndCameraUnavailable()",
+        "name": "testHomeGuideAndCameraUnavailable()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "SubscriptionUITests/testFourFreeCountsThenPaywallWithHistoryStillAvailable()",
+        "name": "testFourFreeCountsThenPaywallWithHistoryStillAvailable()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "SubscriptionUITests/testLocalizedOfferAndRestoreWithoutPurchase()",
+        "name": "testLocalizedOfferAndRestoreWithoutPurchase()",
+        "result": "Passed"
+      },
+      {
+        "nodeIdentifier": "SubscriptionUITests/testPurchaseAndRelaunchSubscriptionUI()",
+        "name": "testPurchaseAndRelaunchSubscriptionUI()",
+        "result": "Passed"
+      }
+    ],
+    "environment": "Apple local StoreKit Test on signed iOS 18.5 iPhone 16 Pro Simulator; no production purchase",
+    "covers": [
+      "4 successful automatic counts across app restarts, fifth denied",
+      "Keychain storage persistence and storage-error fail-closed recovery",
+      "Reservation overspend/double debit prevention, cancelled/failed inference no debit",
+      "Historical records remain accessible after free quota exhausted",
+      "Product ID, USD2.99, monthly period and seven-day introductory offer",
+      "Purchase and transaction update fulfillment; subscription relaunch/restore",
+      "Expiration and refund revoke access; pending ask-to-buy does not unlock until approved",
+      "Cancellation, verification failure and unavailable product do not unlock",
+      "English and Chinese paywall price, trial, restore and manage control presence",
+      "Existing detection-region/manual-edit/history regressions"
+    ]
+  },
+  "postTestReview": {
+    "productionFunctionalityHashes": "Unchanged from reviewed fresh-scan fix",
+    "textOnlyChanges": "Chinese tab/action labels now 计数 / 拍照计数; localized display name CountScope. These do not affect entitlement or quota behavior. Release localized capture review is a separate asset lane."
+  },
+  "releaseReadyScope": "Implementation/monetization-code lane only; not the overall release or live submission."
+}

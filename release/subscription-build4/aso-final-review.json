@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "status": "PASS_FINAL_ASO_COPY_ASSETS_AND_MONETIZATION",
+  "verifiedAtUTC": "2026-10-25T04:26:31.203473+00:00",
+  "appId": "6826601708",
+  "bundleId": "x.Count-stick",
+  "appName": "CountScope: Photo Counter",
+  "version": "1.0",
+  "build": "4",
+  "buildId": "e240daf9-6d06-42df-9eb7-ec1687022404",
+  "versionId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+  "metadata": {
+    "path": "release/subscription-build4/metadata.json",
+    "sha256": "d8b3eb38f562a46a72074fba52a9b76031390d80697bb66972090e4f17f0c295"
+  },
+  "brief": {
+    "path": "release/subscription-build4/ASO-brief.json",
+    "sha256": "1e113b8a0ed5ff4f84fc8a30e68420b097e69b3de21a792349a526d028d47a49"
+  },
+  "copyVerification": {
+    "verifiedAtUTC": "2026-10-25T04:23:55.289031+00:00",
+    "status": "PASS_CURRENT_COPY_AND_SELECTED_BUILD",
+    "appId": "6826601708",
+    "versionId": "d0c1b249-a423-475d-892f-f53130b2eb69",
+    "bundleId": "x.Count-stick",
+    "buildId": "e240daf9-6d06-42df-9eb7-ec1687022404",
+    "build": "4",
+    "state": "PREPARE_FOR_SUBMISSION",
+    "metadataSHA256": "d8b3eb38f562a46a72074fba52a9b76031390d80697bb66972090e4f17f0c295",
+    "localizations": [
+      {
+        "locale": "en-US",
+        "infoLocalizationId": "3e63acdf-1b2a-4563-8dea-54c1b9e55823",
+        "versionLocalizationId": "8186446f-906c-44e8-a6c1-3eac203adee3",
+        "fieldsMatch": true,
+        "keywordsUTF8Bytes": 74
+      },
+      {
+        "locale": "zh-Hans",
+        "infoLocalizationId": "6725d15b-8afe-4d94-8b31-97fced8b744a",
+        "versionLocalizationId": "bae2775e-1266-43e9-89d3-7debef9b577d",
+        "fieldsMatch": true,
+        "keywordsUTF8Bytes": 76
+      }
+    ],
+    "reviewNotesMatch": true
+  },
+  "assetUploadReview": {
+    "path": "release/screenshots/build4/upload-review.json",
+    "sha256": "5e6e08ce7c4116a51c1cfceb15b6ce17a72d07a8f83ee7d0c353c31e52348400"
+  },
+  "independentVisualReview": {
+    "path": "release/screenshots/build4/independent-visual-review.json",
+    "sha256": "25fd5b0111b8a296f2887536aca6675c550d777ed4c4929f09ac847fe614bccd"
+  },
+  "independentMonetizationReview": {
+    "path": "release/subscription-build4/monetization-independent-review.json",
+    "sha256": "91e85a8bb77cd395a961a340a0738e304cf7badaefb064f8ca46c67ddbd4c51e"
+  },
+  "independentImplementationReview": {
+    "path": "release/subscription-build4/implementation-independent-review.json",
+    "sha256": "ad0242dae092298a746eda27ff90103d857ce5bfe138f16b51948046b175ee6d"
+  },
+  "website": {
+    "path": "release/subscription-build4/website-content-check.json",
+    "sha256": "5ab86f09cba3e4ebe99d2366db1cb8720cab3fddeaa37769fa7641230cde8cee"
+  },
+  "checks": [
+    "All en-US/zh-Hans AppInfo and version metadata, URLs and review notes equal intended current copy by fresh API readback.",
+    "Four free completed automatic counts and conditional seven-day introductory trial are distinct; dynamic localized StoreKit price and current-mode scope are disclosed.",
+    "Names are generic CountScope branding while current automatic capabilities are explicitly limited to visible skewer ends; no unimplemented steel-pipe, colony or general-object claim.",
+    "All twelve finalized screenshots passed root independent visual review; Apple processed images equal the approved RGB pixels at accepted dimensions.",
+    "Only known old twelve Build 3 placements were replaced; old library originals retained and no unrelated surfaces changed.",
+    "Both public CountScope support/privacy pages are published and byte-verified against the website commit."
+  ],
+  "reviewBoundary": "Operator performed upload/readback; independent root visual review and separate implementation/monetization review are bound above. This does not claim App Review submission or approval."
+}

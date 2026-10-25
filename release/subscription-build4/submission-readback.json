@@ -1,0 +1,41 @@
+{
+  "submission": {
+    "id": "1e69912e-a6a8-44f6-a202-3c67aa632d4e",
+    "attributes": {
+      "platform": "IOS",
+      "submittedDate": "2026-10-25T04:27:52.309Z",
+      "state": "WAITING_FOR_REVIEW"
+    }
+  },
+  "appVersion": {
+    "id": "d0c1b249-a423-475d-892f-f53130b2eb69",
+    "attributes": {
+      "platform": "IOS",
+      "versionString": "1.0",
+      "appStoreState": "WAITING_FOR_REVIEW",
+      "appVersionState": "WAITING_FOR_REVIEW",
+      "copyright": "2026 XM LLC",
+      "reviewType": "APP_STORE",
+      "releaseType": "AFTER_APPROVAL",
+      "earliestReleaseDate": null,
+      "usesIdfa": null,
+      "downloadable": true,
+      "createdDate": "2026-10-24T07:47:49-07:00"
+    }
+  },
+  "subscriptionVersion": {
+    "id": "cebc6a11-3f0c-4cd1-85b3-5bddfb2c2706",
+    "attributes": {
+      "version": 1,
+      "state": "WAITING_FOR_REVIEW"
+    }
+  },
+  "subscriptionGroupVersion": {
+    "id": "af7cfd17-e0dc-4bba-989c-ae22efa66db9",
+    "attributes": {
+      "version": 1,
+      "state": "WAITING_FOR_REVIEW"
+    }
+  },
+  "verifiedAtUTC": "2026-10-25T04:27:55.769539+00:00"
+}
