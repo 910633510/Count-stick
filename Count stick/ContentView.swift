@@ -40,6 +40,7 @@ struct ContentView: View {
                     VStack(alignment: .leading, spacing: 24) {
                         brandHeader
                         accessSummary
+                        categoryPicker
                         if workspace.phase == .empty && !importing {
                             emptyWorkspace
                         } else {
@@ -81,7 +82,7 @@ struct ContentView: View {
             .tabItem { Label(L10n.text("tab.history"), systemImage: "clock.arrow.circlepath") }
             .tag(1)
 
-            GuideView(access: access, showSubscription: { showSubscription = true })
+            GuideView(access: access, category: workspace.category, showSubscription: { showSubscription = true })
                 .tabItem { Label(L10n.text("tab.guide"), systemImage: "lightbulb") }
                 .tag(2)
         }
@@ -157,6 +158,11 @@ struct ContentView: View {
             let arguments = ProcessInfo.processInfo.arguments
             if let index = arguments.firstIndex(of: "--countstick-test-photo"), arguments.indices.contains(index + 1),
                let data = try? Data(contentsOf: URL(fileURLWithPath: arguments[index + 1])) {
+                if let categoryIndex = arguments.firstIndex(of: "--countscope-test-category"),
+                   arguments.indices.contains(categoryIndex + 1),
+                   let category = CountCategory(rawValue: arguments[categoryIndex + 1]) {
+                    workspace.selectCategory(category)
+                }
                 await workspace.load(data: data)
             }
             #endif
@@ -180,6 +186,22 @@ struct ContentView: View {
         }.buttonStyle(.plain).accessibilityIdentifier("subscriptionEntry")
     }
 
+    private var categoryPicker: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text(L10n.text("category.title")).font(.subheadline.weight(.semibold)).foregroundStyle(Theme.muted)
+            Picker(L10n.text("category.title"), selection: Binding(get: { workspace.category }, set: { category in
+                guard category != workspace.category else { return }
+                runReplacingIfNeeded {
+                    workspace.selectCategory(category)
+                    markerMode = .inspect
+                }
+            })) {
+                ForEach(CountCategory.allCases) { category in Text(category.title).tag(category) }
+            }.pickerStyle(.segmented).accessibilityIdentifier("countCategory")
+                .disabled(importing)
+        }
+    }
+
     private var brandHeader: some View {
         HStack(alignment: .top) {
             VStack(alignment: .leading, spacing: 5) {
@@ -187,7 +209,7 @@ struct ContentView: View {
                     .font(.system(size: 13, weight: .bold, design: .rounded))
                     .tracking(2.5)
                     .foregroundStyle(Theme.muted)
-                Text(L10n.text(workspace.image == nil ? "home.title" : "result.title"))
+                Text(workspace.image == nil ? workspace.category.text("home.title") : L10n.text("result.title"))
                     .font(.system(.largeTitle, design: .rounded, weight: .bold))
                     .foregroundStyle(Theme.ink)
             }
@@ -212,13 +234,14 @@ struct ContentView: View {
                     Spacer()
                     Image(systemName: "sparkle").font(.headline).foregroundStyle(Theme.gold).accessibilityHidden(true)
                 }
-                StickIllustration()
-                    .frame(height: 164)
-                    .accessibilityHidden(true)
+                Group {
+                    if workspace.category == .skewers { StickIllustration() }
+                    else { PipeIllustration() }
+                }.frame(height: 164).accessibilityHidden(true)
                 Text(L10n.text("home.headline"))
                     .font(.system(.title, design: .rounded, weight: .bold))
                     .fixedSize(horizontal: false, vertical: true)
-                Text(L10n.text("home.description"))
+                Text(workspace.category.text("home.description"))
                     .font(.subheadline)
                     .foregroundStyle(.white.opacity(0.76))
                     .fixedSize(horizontal: false, vertical: true)
@@ -269,7 +292,7 @@ struct ContentView: View {
                 HStack(spacing: 14) {
                     ProgressView().tint(Theme.ink)
                     VStack(alignment: .leading, spacing: 5) {
-                        Text(L10n.text("processing.title")).font(.headline)
+                        Text(workspace.category.text("processing.title")).font(.headline)
                         Text(L10n.text("processing.detail")).font(.footnote).foregroundStyle(Theme.muted)
                     }
                 }.padding(20).frame(maxWidth: .infinity, alignment: .leading)
@@ -279,7 +302,7 @@ struct ContentView: View {
             if workspace.phase == .ready {
                 countSummary
                 if workspace.automaticCount != nil {
-                    AutomaticRegionStatus(result: workspace.automaticRegion)
+                    AutomaticRegionStatus(result: workspace.automaticRegion, category: workspace.category)
                 }
             }
             if let image = workspace.image {
@@ -294,7 +317,7 @@ struct ContentView: View {
                         .accessibilityIdentifier("resultPhoto")
                     if workspace.phase == .ready {
                         HStack {
-                            Label(L10n.text("result.markers"), systemImage: "circle.fill")
+                            Label(workspace.category.text("result.markers"), systemImage: "circle.fill")
                                 .font(.caption).foregroundStyle(Theme.muted)
                             Spacer()
                             Button { showEditor = true } label: {
@@ -387,7 +410,7 @@ struct ContentView: View {
             Picker(L10n.text("correction.mode"), selection: $markerMode) {
                 ForEach(MarkerMode.allCases) { mode in Text(L10n.text(mode.key)).tag(mode) }
             }.pickerStyle(.segmented).accessibilityIdentifier("correctionMode")
-            Text(L10n.text(workspace.edits.markers.isEmpty && markerMode == .inspect ? "result.zero" : markerMode.instructionKey))
+            Text(workspace.category.text(workspace.edits.markers.isEmpty && markerMode == .inspect ? "result.zero" : markerMode.instructionKey))
                 .font(.footnote).foregroundStyle(Theme.muted).fixedSize(horizontal: false, vertical: true)
         }
     }
@@ -411,7 +434,7 @@ struct ContentView: View {
     private var shareButton: some View {
         Button {
             if let image = workspace.image {
-                shareItem = SharePayload(image: PhotoProcessing.shareImage(photo: image, markers: workspace.edits.markers, note: workspace.note))
+                shareItem = SharePayload(image: CountExport.image(photo: image, markers: workspace.edits.markers, note: workspace.note, category: workspace.category))
             }
         } label: {
             Label(L10n.text("action.share"), systemImage: "square.and.arrow.up")
@@ -459,6 +482,25 @@ private struct PrimaryButtonStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
         configuration.label.font(.body.weight(.semibold)).foregroundStyle(.white)
             .background(Theme.ink.opacity(configuration.isPressed ? 0.78 : 1), in: RoundedRectangle(cornerRadius: 17))
+    }
+}
+
+private struct PipeIllustration: View {
+    var body: some View {
+        ZStack {
+            ForEach(0..<3) { row in
+                ForEach(0..<4) { column in
+                    Circle().strokeBorder(Color(white: 0.77), lineWidth: 9)
+                        .background(Circle().fill(.black.opacity(0.28)))
+                        .frame(width: 46, height: 46)
+                        .overlay(Circle().stroke(.white.opacity(0.5), lineWidth: 1))
+                        .offset(x: CGFloat(column) * 48 - 72 + CGFloat(row % 2) * 12,
+                                y: CGFloat(row - 1) * 44)
+                }
+            }
+            Image(systemName: "viewfinder").font(.system(size: 158, weight: .ultraLight))
+                .foregroundStyle(.white.opacity(0.35))
+        }.frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 }
 
@@ -587,8 +629,9 @@ private enum AutomaticRegionPresentation {
 
 private struct AutomaticRegionStatus: View {
     let result: AutoCountRegionResult?
+    let category: CountCategory
     var body: some View {
-        Label(L10n.text(AutomaticRegionPresentation.hasOutline(result) ? "region.identified" : "region.fallback"),
+        Label(category.text(AutomaticRegionPresentation.hasOutline(result) ? "region.identified" : "region.fallback"),
               systemImage: "viewfinder")
             .font(.footnote)
             .foregroundStyle(Theme.muted)
@@ -607,11 +650,11 @@ private struct MarkerEditor: View {
     var body: some View {
         NavigationStack {
             VStack(spacing: 16) {
-                Text(L10n.count(workspace.edits.markers.count))
+                Text(workspace.category.formattedCount(workspace.edits.markers.count))
                     .font(.system(.title2, design: .rounded, weight: .bold))
                     .accessibilityIdentifier("editorResultCount")
                 if workspace.automaticCount != nil {
-                    AutomaticRegionStatus(result: workspace.automaticRegion)
+                    AutomaticRegionStatus(result: workspace.automaticRegion, category: workspace.category)
                 }
                 GeometryReader { geometry in
                     ScrollView([.horizontal, .vertical]) {
@@ -626,7 +669,7 @@ private struct MarkerEditor: View {
                 Picker(L10n.text("correction.mode"), selection: $mode) {
                     ForEach(MarkerMode.allCases) { item in Text(L10n.text(item.key)).tag(item) }
                 }.pickerStyle(.segmented).accessibilityIdentifier("editorCorrectionMode")
-                Text(L10n.text(mode.instructionKey)).font(.footnote).foregroundStyle(Theme.muted)
+                Text(workspace.category.text(mode.instructionKey)).font(.footnote).foregroundStyle(Theme.muted)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 HStack {
                     Button { zoom = zoom == 1 ? 2 : 1 } label: {
@@ -677,7 +720,8 @@ private struct HistoryView: View {
                                         } else { Image(systemName: "photo").foregroundStyle(Theme.muted) }
                                     }.frame(width: 76, height: 82).background(Theme.paper).clipShape(RoundedRectangle(cornerRadius: 13))
                                     VStack(alignment: .leading, spacing: 5) {
-                                        Text(L10n.count(record.count)).font(.system(.title3, design: .rounded, weight: .bold))
+                                        Text(record.category.formattedCount(record.count)).font(.system(.title3, design: .rounded, weight: .bold))
+                                        Text(record.category.title).font(.caption.weight(.semibold)).foregroundStyle(Theme.muted)
                                         if !record.note.isEmpty { Text(record.note).font(.subheadline).lineLimit(2) }
                                         Text(record.date.formatted(date: .abbreviated, time: .shortened))
                                             .font(.caption).foregroundStyle(Theme.muted)
@@ -713,6 +757,7 @@ private struct HistoryView: View {
 
 private struct GuideView: View {
     @ObservedObject var access: CountingAccess
+    let category: CountCategory
     let showSubscription: () -> Void
     var body: some View {
         NavigationStack {
@@ -725,10 +770,10 @@ private struct GuideView: View {
                             Image(systemName: "chevron.right")
                         }.font(.headline).padding(18).background(.white, in: RoundedRectangle(cornerRadius: 18))
                     }.accessibilityIdentifier("guideSubscription")
-                    Text(L10n.text("guide.subtitle")).font(.title3).foregroundStyle(Theme.muted)
+                    Text(category.title + " · " + L10n.text("guide.subtitle")).font(.title3).foregroundStyle(Theme.muted)
                     VStack(spacing: 22) {
-                        guideRow(number: "01", title: "guide.photo.title", body: "guide.photo.detail", symbol: "camera")
-                        guideRow(number: "02", title: "guide.review.title", body: "guide.review.detail", symbol: "hand.tap")
+                        guideRow(number: "01", title: category == .skewers ? "guide.photo.title" : "pipe.guide.photo.title", body: category == .skewers ? "guide.photo.detail" : "pipe.guide.photo.detail", symbol: "camera")
+                        guideRow(number: "02", title: "guide.review.title", body: category == .skewers ? "guide.review.detail" : "pipe.guide.review.detail", symbol: "hand.tap")
                         guideRow(number: "03", title: "guide.save.title", body: "guide.save.detail", symbol: "square.and.arrow.up")
                     }.padding(22).background(.white, in: RoundedRectangle(cornerRadius: 25))
                     VStack(alignment: .leading, spacing: 12) {

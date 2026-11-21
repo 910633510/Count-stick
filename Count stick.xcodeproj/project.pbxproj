@@ -400,7 +400,7 @@
 				DEVELOPMENT_TEAM = 5B49H2L7N4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Take a photo of your sticks or skewers to count them on this device.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Photograph skewer ends or round steel-pipe ends for on-device counting. Photos are not uploaded.";
 				INFOPLIST_KEY_CFBundleDisplayName = "CountScope";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -432,7 +432,7 @@
 				DEVELOPMENT_TEAM = 5B49H2L7N4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Take a photo of your sticks or skewers to count them on this device.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Photograph skewer ends or round steel-pipe ends for on-device counting. Photos are not uploaded.";
 				INFOPLIST_KEY_CFBundleDisplayName = "CountScope";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

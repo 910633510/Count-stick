@@ -40,7 +40,7 @@
 "mode.add.detail" = "点击照片中尚未标记的签子，添加一个标记。点错了可以撤销。";
 "mode.remove.detail" = "点击多余标记附近，移除最近的标记。放大照片可更精确地校正。";
 "note.placeholder" = "添加备注（选填）";
-"count.format" = "%d 根签";
+"count.format" = "%d 个";
 "photo.accessibility" = "带计数标记的照片";
 "marker.accessibility" = "第 %d 个标记";
 "marker.remove.hint" = "从计数中移除此标记";
@@ -92,7 +92,7 @@
 "access.retry.error" = "本次识别无法完成，请重试。";
 "subscription.title" = "CountScope Pro";
 "subscription.benefit" = "订阅期间不限次数，在本机自动识别。";
-"subscription.review" = "当前支持竹签端头计数，请逐一核对并校正结果。";
+"subscription.review" = "自动计数取决于此版本提供的识别模型。请逐一核对并校正结果。";
 "subscription.active" = "Pro 已生效";
 "subscription.active.detail" = "订阅有效期间，自动识别不限次数。";
 "subscription.monthly" = "包月订阅";
@@ -115,3 +115,27 @@
 "subscription.nothing.restore" = "当前 Apple 账户未找到有效的 CountScope 订阅。";
 "subscription.restore.error" = "暂时无法恢复购买，请检查网络和 Apple 账户后重试。";
 "subscription.terms" = "使用条款（EULA）";
+
+/* Counting categories and steel-pipe end faces. */
+"category.title" = "选择计数对象";
+"category.skewers" = "签子";
+"category.steel_pipes" = "钢管";
+"skewer.count.format" = "%d 根签";
+"pipe.home.title" = "对准端面，核对钢管。";
+"pipe.home.description" = "对准圆钢管束端头拍照，让每个外圈清晰可见，避开强反光。自动识别参考范围，每根钢管只保留一个标记，并逐一核对。";
+"pipe.processing.title" = "正在寻找钢管端面…";
+"pipe.result.markers" = "一个标记，代表一根钢管";
+"pipe.result.zero" = "未找到钢管端面。可以换张正对管束的清晰照片，或选择“添加”，逐个标记可见端面。";
+"pipe.region.identified" = "已自动标出检测端面的参考范围，也请检查整张照片是否漏标。";
+"pipe.region.fallback" = "未找到钢管端面范围，请核对照片和标记。";
+"pipe.mode.inspect.detail" = "检查是否漏标端面，或把反光多标了一次。放大照片可看得更清楚。";
+"pipe.mode.add.detail" = "点击尚未标记的钢管端面中心。外圈和内孔合为一根，不重复计数。";
+"pipe.mode.remove.detail" = "点击多余标记附近，移除最近的标记。每根钢管只留一个标记。";
+"pipe.count.format" = "%d 根钢管";
+"pipe.error.model" = "此版本暂未提供钢管识别模型，未扣除免费次数。你仍可手动标记钢管端面。";
+"pipe.error.configuration" = "钢管模型未能按已验证的配置加载，未扣除免费次数。你仍可手动计数。";
+"pipe.error.output" = "钢管模型返回了不支持的结果，未扣除免费次数。你仍可手动计数。";
+"pipe.guide.photo.detail" = "正对圆钢管束端头拍照，让管束尽量占满画面，并保留完整边缘。管口过小容易漏数；请让管口和外圈清晰可见。保持对焦和均匀光线，避开强反光、倾斜侧拍及相互遮挡。不需要手动画计数区域。";
+"pipe.guide.photo.title" = "让钢管端面正对镜头";
+"pipe.guide.review.detail" = "每个可见的圆钢管外圈端面算一根，内孔不另计。自动范围保留分开的管堆和单根管。请检查整张照片的漏标和反光误标，再按需添加或移除标记。";
+"pipe.error.detect" = "钢管计数未能完成，未扣除免费次数。请重试或手动计数。";
