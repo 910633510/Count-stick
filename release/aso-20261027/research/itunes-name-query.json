@@ -1,0 +1,1216 @@
+{
+  "fetchedAtUTC": "2026-10-27T04:12:04.864501+00:00",
+  "meaning": "Apple public iTunes Search API metadata only, not Apple Ads metrics or proof of name availability",
+  "queries": [
+    {
+      "country": "us",
+      "term": "CountScope",
+      "url": "https://itunes.apple.com/search?term=CountScope&entity=software&country=us&limit=50",
+      "resultCount": 44,
+      "literalSubstringMatches": [],
+      "results": [
+        {
+          "id": 288732372,
+          "name": "Tally Counter",
+          "url": "https://apps.apple.com/us/app/tally-counter/id288732372?uo=4"
+        },
+        {
+          "id": 1553863458,
+          "name": "Count This - Counting App",
+          "url": "https://apps.apple.com/us/app/count-this-counting-app/id1553863458?uo=4"
+        },
+        {
+          "id": 1196810823,
+          "name": "CountThings from Photos",
+          "url": "https://apps.apple.com/us/app/countthings-from-photos/id1196810823?uo=4"
+        },
+        {
+          "id": 382980702,
+          "name": "Click Counter: Tally & Reports",
+          "url": "https://apps.apple.com/us/app/click-counter-tally-reports/id382980702?uo=4"
+        },
+        {
+          "id": 986800297,
+          "name": "Counter+.",
+          "url": "https://apps.apple.com/us/app/counter/id986800297?uo=4"
+        },
+        {
+          "id": 1663170838,
+          "name": "SmartScanner-AI Measure&Count",
+          "url": "https://apps.apple.com/us/app/smartscanner-ai-measure-count/id1663170838?uo=4"
+        },
+        {
+          "id": 6449553507,
+          "name": "Counter - Tap Number Clicker",
+          "url": "https://apps.apple.com/us/app/counter-tap-number-clicker/id6449553507?uo=4"
+        },
+        {
+          "id": 478557426,
+          "name": "Counter +",
+          "url": "https://apps.apple.com/us/app/counter/id478557426?uo=4"
+        },
+        {
+          "id": 6757629507,
+          "name": "ScanMate: Count, Measure, Code",
+          "url": "https://apps.apple.com/us/app/scanmate-count-measure-code/id6757629507?uo=4"
+        },
+        {
+          "id": 957912407,
+          "name": "Tally • Quick Counter",
+          "url": "https://apps.apple.com/us/app/tally-quick-counter/id957912407?uo=4"
+        },
+        {
+          "id": 6448210628,
+          "name": "Tally Counter°",
+          "url": "https://apps.apple.com/us/app/tally-counter/id6448210628?uo=4"
+        },
+        {
+          "id": 443158370,
+          "name": "Counting 123 - Learn to count",
+          "url": "https://apps.apple.com/us/app/counting-123-learn-to-count/id443158370?uo=4"
+        },
+        {
+          "id": 1357352239,
+          "name": "Big Tap Counter: Count Things",
+          "url": "https://apps.apple.com/us/app/big-tap-counter-count-things/id1357352239?uo=4"
+        },
+        {
+          "id": 1033391299,
+          "name": "Count: A Simple Counter",
+          "url": "https://apps.apple.com/us/app/count-a-simple-counter/id1033391299?uo=4"
+        },
+        {
+          "id": 309642627,
+          "name": "Tap Tap Counter",
+          "url": "https://apps.apple.com/us/app/tap-tap-counter/id309642627?uo=4"
+        },
+        {
+          "id": 6738303085,
+          "name": "Multi Counter - Tally Counter",
+          "url": "https://apps.apple.com/us/app/multi-counter-tally-counter/id6738303085?uo=4"
+        },
+        {
+          "id": 635621421,
+          "name": "Tally Counters",
+          "url": "https://apps.apple.com/us/app/tally-counters/id635621421?uo=4"
+        },
+        {
+          "id": 432022382,
+          "name": "Tally Counter Pro",
+          "url": "https://apps.apple.com/us/app/tally-counter-pro/id432022382?uo=4"
+        },
+        {
+          "id": 1043951998,
+          "name": "Clicker - Count Anything",
+          "url": "https://apps.apple.com/us/app/clicker-count-anything/id1043951998?uo=4"
+        },
+        {
+          "id": 1348313441,
+          "name": "WBC Counter",
+          "url": "https://apps.apple.com/us/app/wbc-counter/id1348313441?uo=4"
+        },
+        {
+          "id": 558113623,
+          "name": "Clicking Counter Simple Tally",
+          "url": "https://apps.apple.com/us/app/clicking-counter-simple-tally/id558113623?uo=4"
+        },
+        {
+          "id": 1099032159,
+          "name": "Counter - Simply Count Things",
+          "url": "https://apps.apple.com/us/app/counter-simply-count-things/id1099032159?uo=4"
+        },
+        {
+          "id": 911664683,
+          "name": "Countr - Quick Count",
+          "url": "https://apps.apple.com/us/app/countr-quick-count/id911664683?uo=4"
+        },
+        {
+          "id": 1206987838,
+          "name": "Live Counts - Realtime Subscriber Counter",
+          "url": "https://apps.apple.com/us/app/live-counts-realtime-subscriber-counter/id1206987838?uo=4"
+        },
+        {
+          "id": 6443595766,
+          "name": "Count Things Object Counter",
+          "url": "https://apps.apple.com/us/app/count-things-object-counter/id6443595766?uo=4"
+        },
+        {
+          "id": 6737248223,
+          "name": "GO Count Object -Thing Counter",
+          "url": "https://apps.apple.com/us/app/go-count-object-thing-counter/id6737248223?uo=4"
+        },
+        {
+          "id": 357414746,
+          "name": "Visual Counter",
+          "url": "https://apps.apple.com/us/app/visual-counter/id357414746?uo=4"
+        },
+        {
+          "id": 1631764015,
+          "name": "Count On Me: Tally Counter",
+          "url": "https://apps.apple.com/us/app/count-on-me-tally-counter/id1631764015?uo=4"
+        },
+        {
+          "id": 967632242,
+          "name": "Tally Counter: Tap & Track",
+          "url": "https://apps.apple.com/us/app/tally-counter-tap-track/id967632242?uo=4"
+        },
+        {
+          "id": 1470846305,
+          "name": "Tally Counter - Tap Tool",
+          "url": "https://apps.apple.com/us/app/tally-counter-tap-tool/id1470846305?uo=4"
+        },
+        {
+          "id": 1520524164,
+          "name": "Smart Counter – Multi Tally",
+          "url": "https://apps.apple.com/us/app/smart-counter-multi-tally/id1520524164?uo=4"
+        },
+        {
+          "id": 970181080,
+          "name": "Crunchtime Counter",
+          "url": "https://apps.apple.com/us/app/crunchtime-counter/id970181080?uo=4"
+        },
+        {
+          "id": 1034223758,
+          "name": "Tally Counter & Habit Tracker",
+          "url": "https://apps.apple.com/us/app/tally-counter-habit-tracker/id1034223758?uo=4"
+        },
+        {
+          "id": 1215339253,
+          "name": "Planning Center Headcounts",
+          "url": "https://apps.apple.com/us/app/planning-center-headcounts/id1215339253?uo=4"
+        },
+        {
+          "id": 1539299118,
+          "name": "Tally Counter Widget",
+          "url": "https://apps.apple.com/us/app/tally-counter-widget/id1539299118?uo=4"
+        },
+        {
+          "id": 6502489882,
+          "name": "CountAnything: AI Counting App",
+          "url": "https://apps.apple.com/us/app/countanything-ai-counting-app/id6502489882?uo=4"
+        },
+        {
+          "id": 1627219849,
+          "name": "CountThings By Camera",
+          "url": "https://apps.apple.com/us/app/countthings-by-camera/id1627219849?uo=4"
+        },
+        {
+          "id": 907171874,
+          "name": "TapTo Count - Tally Counter",
+          "url": "https://apps.apple.com/us/app/tapto-count-tally-counter/id907171874?uo=4"
+        },
+        {
+          "id": 1314173899,
+          "name": "ClickCounter",
+          "url": "https://apps.apple.com/us/app/clickcounter/id1314173899?uo=4"
+        },
+        {
+          "id": 481053635,
+          "name": "Counting Bees",
+          "url": "https://apps.apple.com/us/app/counting-bees/id481053635?uo=4"
+        },
+        {
+          "id": 6450890091,
+          "name": "Tally Counter - Clicker",
+          "url": "https://apps.apple.com/us/app/tally-counter-clicker/id6450890091?uo=4"
+        },
+        {
+          "id": 6503718578,
+          "name": "Count This Counter Widget Rod",
+          "url": "https://apps.apple.com/us/app/count-this-counter-widget-rod/id6503718578?uo=4"
+        },
+        {
+          "id": 1086402904,
+          "name": "Tally - Counter and Dice",
+          "url": "https://apps.apple.com/us/app/tally-counter-and-dice/id1086402904?uo=4"
+        },
+        {
+          "id": 436003049,
+          "name": "I Can Count",
+          "url": "https://apps.apple.com/us/app/i-can-count/id436003049?uo=4"
+        }
+      ]
+    },
+    {
+      "country": "us",
+      "term": "CountFrame",
+      "url": "https://itunes.apple.com/search?term=CountFrame&entity=software&country=us&limit=50",
+      "resultCount": 46,
+      "literalSubstringMatches": [],
+      "results": [
+        {
+          "id": 288732372,
+          "name": "Tally Counter",
+          "url": "https://apps.apple.com/us/app/tally-counter/id288732372?uo=4"
+        },
+        {
+          "id": 1553863458,
+          "name": "Count This - Counting App",
+          "url": "https://apps.apple.com/us/app/count-this-counting-app/id1553863458?uo=4"
+        },
+        {
+          "id": 1179744119,
+          "name": "Frameo",
+          "url": "https://apps.apple.com/us/app/frameo/id1179744119?uo=4"
+        },
+        {
+          "id": 919998681,
+          "name": "Countdown & Count Up Timer",
+          "url": "https://apps.apple.com/us/app/countdown-count-up-timer/id919998681?uo=4"
+        },
+        {
+          "id": 1196810823,
+          "name": "CountThings from Photos",
+          "url": "https://apps.apple.com/us/app/countthings-from-photos/id1196810823?uo=4"
+        },
+        {
+          "id": 382980702,
+          "name": "Click Counter: Tally & Reports",
+          "url": "https://apps.apple.com/us/app/click-counter-tally-reports/id382980702?uo=4"
+        },
+        {
+          "id": 794889884,
+          "name": "Vivid Counter",
+          "url": "https://apps.apple.com/us/app/vivid-counter/id794889884?uo=4"
+        },
+        {
+          "id": 6449553507,
+          "name": "Counter - Tap Number Clicker",
+          "url": "https://apps.apple.com/us/app/counter-tap-number-clicker/id6449553507?uo=4"
+        },
+        {
+          "id": 1357352239,
+          "name": "Big Tap Counter: Count Things",
+          "url": "https://apps.apple.com/us/app/big-tap-counter-count-things/id1357352239?uo=4"
+        },
+        {
+          "id": 1459852771,
+          "name": "Counter≜",
+          "url": "https://apps.apple.com/us/app/counter/id1459852771?uo=4"
+        },
+        {
+          "id": 946346179,
+          "name": "Animation Desk® Draw & Animate",
+          "url": "https://apps.apple.com/us/app/animation-desk-draw-animate/id946346179?uo=4"
+        },
+        {
+          "id": 478557426,
+          "name": "Counter +",
+          "url": "https://apps.apple.com/us/app/counter/id478557426?uo=4"
+        },
+        {
+          "id": 1663170838,
+          "name": "SmartScanner-AI Measure&Count",
+          "url": "https://apps.apple.com/us/app/smartscanner-ai-measure-count/id1663170838?uo=4"
+        },
+        {
+          "id": 986800297,
+          "name": "Counter+.",
+          "url": "https://apps.apple.com/us/app/counter/id986800297?uo=4"
+        },
+        {
+          "id": 1042079784,
+          "name": "Photo Frames Editor - Framify",
+          "url": "https://apps.apple.com/us/app/photo-frames-editor-framify/id1042079784?uo=4"
+        },
+        {
+          "id": 1345658257,
+          "name": "FrameX: Frame Artwork & Photos",
+          "url": "https://apps.apple.com/us/app/framex-frame-artwork-photos/id1345658257?uo=4"
+        },
+        {
+          "id": 1445555400,
+          "name": "Meet the Numberblocks!",
+          "url": "https://apps.apple.com/us/app/meet-the-numberblocks/id1445555400?uo=4"
+        },
+        {
+          "id": 443158370,
+          "name": "Counting 123 - Learn to count",
+          "url": "https://apps.apple.com/us/app/counting-123-learn-to-count/id443158370?uo=4"
+        },
+        {
+          "id": 1099032159,
+          "name": "Counter - Simply Count Things",
+          "url": "https://apps.apple.com/us/app/counter-simply-count-things/id1099032159?uo=4"
+        },
+        {
+          "id": 6448210628,
+          "name": "Tally Counter°",
+          "url": "https://apps.apple.com/us/app/tally-counter/id6448210628?uo=4"
+        },
+        {
+          "id": 309642627,
+          "name": "Tap Tap Counter",
+          "url": "https://apps.apple.com/us/app/tap-tap-counter/id309642627?uo=4"
+        },
+        {
+          "id": 504761875,
+          "name": "WordCount Plus",
+          "url": "https://apps.apple.com/us/app/wordcount-plus/id504761875?uo=4"
+        },
+        {
+          "id": 1033391299,
+          "name": "Count: A Simple Counter",
+          "url": "https://apps.apple.com/us/app/count-a-simple-counter/id1033391299?uo=4"
+        },
+        {
+          "id": 973210199,
+          "name": "Pitch X – Pitch Counter",
+          "url": "https://apps.apple.com/us/app/pitch-x-pitch-counter/id973210199?uo=4"
+        },
+        {
+          "id": 418083871,
+          "name": "10 Frame Fill",
+          "url": "https://apps.apple.com/us/app/10-frame-fill/id418083871?uo=4"
+        },
+        {
+          "id": 6738303085,
+          "name": "Multi Counter - Tally Counter",
+          "url": "https://apps.apple.com/us/app/multi-counter-tally-counter/id6738303085?uo=4"
+        },
+        {
+          "id": 635621421,
+          "name": "Tally Counters",
+          "url": "https://apps.apple.com/us/app/tally-counters/id635621421?uo=4"
+        },
+        {
+          "id": 1571594901,
+          "name": "Aluratek Frametime",
+          "url": "https://apps.apple.com/us/app/aluratek-frametime/id1571594901?uo=4"
+        },
+        {
+          "id": 432022382,
+          "name": "Tally Counter Pro",
+          "url": "https://apps.apple.com/us/app/tally-counter-pro/id432022382?uo=4"
+        },
+        {
+          "id": 357414746,
+          "name": "Visual Counter",
+          "url": "https://apps.apple.com/us/app/visual-counter/id357414746?uo=4"
+        },
+        {
+          "id": 1627219849,
+          "name": "CountThings By Camera",
+          "url": "https://apps.apple.com/us/app/countthings-by-camera/id1627219849?uo=4"
+        },
+        {
+          "id": 6443595766,
+          "name": "Count Things Object Counter",
+          "url": "https://apps.apple.com/us/app/count-things-object-counter/id6443595766?uo=4"
+        },
+        {
+          "id": 558113623,
+          "name": "Clicking Counter Simple Tally",
+          "url": "https://apps.apple.com/us/app/clicking-counter-simple-tally/id558113623?uo=4"
+        },
+        {
+          "id": 1571454777,
+          "name": "Atatat",
+          "url": "https://apps.apple.com/us/app/atatat/id1571454777?uo=4"
+        },
+        {
+          "id": 797595725,
+          "name": "Webka: Frames For Photos",
+          "url": "https://apps.apple.com/us/app/webka-frames-for-photos/id797595725?uo=4"
+        },
+        {
+          "id": 1019068052,
+          "name": "Word Counter Tool",
+          "url": "https://apps.apple.com/us/app/word-counter-tool/id1019068052?uo=4"
+        },
+        {
+          "id": 911664683,
+          "name": "Countr - Quick Count",
+          "url": "https://apps.apple.com/us/app/countr-quick-count/id911664683?uo=4"
+        },
+        {
+          "id": 1520524164,
+          "name": "Smart Counter – Multi Tally",
+          "url": "https://apps.apple.com/us/app/smart-counter-multi-tally/id1520524164?uo=4"
+        },
+        {
+          "id": 1470846305,
+          "name": "Tally Counter - Tap Tool",
+          "url": "https://apps.apple.com/us/app/tally-counter-tap-tool/id1470846305?uo=4"
+        },
+        {
+          "id": 907171874,
+          "name": "TapTo Count - Tally Counter",
+          "url": "https://apps.apple.com/us/app/tapto-count-tally-counter/id907171874?uo=4"
+        },
+        {
+          "id": 6737248223,
+          "name": "GO Count Object -Thing Counter",
+          "url": "https://apps.apple.com/us/app/go-count-object-thing-counter/id6737248223?uo=4"
+        },
+        {
+          "id": 1309441809,
+          "name": "FlinkCounter",
+          "url": "https://apps.apple.com/us/app/flinkcounter/id1309441809?uo=4"
+        },
+        {
+          "id": 1206987838,
+          "name": "Live Counts - Realtime Subscriber Counter",
+          "url": "https://apps.apple.com/us/app/live-counts-realtime-subscriber-counter/id1206987838?uo=4"
+        },
+        {
+          "id": 1519005845,
+          "name": "People Counter",
+          "url": "https://apps.apple.com/us/app/people-counter/id1519005845?uo=4"
+        },
+        {
+          "id": 6450890091,
+          "name": "Tally Counter - Clicker",
+          "url": "https://apps.apple.com/us/app/tally-counter-clicker/id6450890091?uo=4"
+        },
+        {
+          "id": 6502489882,
+          "name": "CountAnything: AI Counting App",
+          "url": "https://apps.apple.com/us/app/countanything-ai-counting-app/id6502489882?uo=4"
+        }
+      ]
+    },
+    {
+      "country": "us",
+      "term": "数照",
+      "url": "https://itunes.apple.com/search?term=%E6%95%B0%E7%85%A7&entity=software&country=us&limit=50",
+      "resultCount": 45,
+      "literalSubstringMatches": [],
+      "results": [
+        {
+          "id": 1603931807,
+          "name": "梅花易数笔记",
+          "url": "https://apps.apple.com/us/app/%E6%A2%85%E8%8A%B1%E6%98%93%E6%95%B0%E7%AC%94%E8%AE%B0/id1603931807?uo=4"
+        },
+        {
+          "id": 494952699,
+          "name": "TimerCam - Self Timer Camera",
+          "url": "https://apps.apple.com/us/app/timercam-self-timer-camera/id494952699?uo=4"
+        },
+        {
+          "id": 6479694396,
+          "name": "彩豆数数相机-数钢筋数钢管数方木",
+          "url": "https://apps.apple.com/us/app/%E5%BD%A9%E8%B1%86%E6%95%B0%E6%95%B0%E7%9B%B8%E6%9C%BA-%E6%95%B0%E9%92%A2%E7%AD%8B%E6%95%B0%E9%92%A2%E7%AE%A1%E6%95%B0%E6%96%B9%E6%9C%A8/id6479694396?uo=4"
+        },
+        {
+          "id": 6445968985,
+          "name": "扫描仪-智能数钢管&拍照识物&水印相机",
+          "url": "https://apps.apple.com/us/app/%E6%89%AB%E6%8F%8F%E4%BB%AA-%E6%99%BA%E8%83%BD%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%8B%8D%E7%85%A7%E8%AF%86%E7%89%A9-%E6%B0%B4%E5%8D%B0%E7%9B%B8%E6%9C%BA/id6445968985?uo=4"
+        },
+        {
+          "id": 1500544448,
+          "name": "Passport Photo - PhotoAiD",
+          "url": "https://apps.apple.com/us/app/passport-photo-photoaid/id1500544448?uo=4"
+        },
+        {
+          "id": 6468940346,
+          "name": "拍照计数王-点数神器数钢管",
+          "url": "https://apps.apple.com/us/app/%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0%E7%8E%8B-%E7%82%B9%E6%95%B0%E7%A5%9E%E5%99%A8%E6%95%B0%E9%92%A2%E7%AE%A1/id6468940346?uo=4"
+        },
+        {
+          "id": 1524425268,
+          "name": "数钢管-支持数钢筋、数签子等多种物品",
+          "url": "https://apps.apple.com/us/app/%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%94%AF%E6%8C%81%E6%95%B0%E9%92%A2%E7%AD%8B-%E6%95%B0%E7%AD%BE%E5%AD%90%E7%AD%89%E5%A4%9A%E7%A7%8D%E7%89%A9%E5%93%81/id1524425268?uo=4"
+        },
+        {
+          "id": 6466392620,
+          "name": "酷美证件照-美颜神器，个性化轻松打造最美证件照片！",
+          "url": "https://apps.apple.com/us/app/%E9%85%B7%E7%BE%8E%E8%AF%81%E4%BB%B6%E7%85%A7-%E7%BE%8E%E9%A2%9C%E7%A5%9E%E5%99%A8-%E4%B8%AA%E6%80%A7%E5%8C%96%E8%BD%BB%E6%9D%BE%E6%89%93%E9%80%A0%E6%9C%80%E7%BE%8E%E8%AF%81%E4%BB%B6%E7%85%A7%E7%89%87/id6466392620?uo=4"
+        },
+        {
+          "id": 6756397162,
+          "name": "吃有数-AI拍照算热量饮食记录减肥",
+          "url": "https://apps.apple.com/us/app/%E5%90%83%E6%9C%89%E6%95%B0-ai%E6%8B%8D%E7%85%A7%E7%AE%97%E7%83%AD%E9%87%8F%E9%A5%AE%E9%A3%9F%E8%AE%B0%E5%BD%95%E5%87%8F%E8%82%A5/id6756397162?uo=4"
+        },
+        {
+          "id": 1568634122,
+          "name": "点数相机-啥都能数：数钢管、数竹签、数钢筋",
+          "url": "https://apps.apple.com/us/app/%E7%82%B9%E6%95%B0%E7%9B%B8%E6%9C%BA-%E5%95%A5%E9%83%BD%E8%83%BD%E6%95%B0-%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%95%B0%E7%AB%B9%E7%AD%BE-%E6%95%B0%E9%92%A2%E7%AD%8B/id1568634122?uo=4"
+        },
+        {
+          "id": 6444201819,
+          "name": "Quiz AI: AI Homework Helper",
+          "url": "https://apps.apple.com/us/app/quiz-ai-ai-homework-helper/id6444201819?uo=4"
+        },
+        {
+          "id": 923930941,
+          "name": "Holy Bible Daily Study Verses",
+          "url": "https://apps.apple.com/us/app/holy-bible-daily-study-verses/id923930941?uo=4"
+        },
+        {
+          "id": 6769254822,
+          "name": "FRAMED: Photo Booth & Collages",
+          "url": "https://apps.apple.com/us/app/framed-photo-booth-collages/id6769254822?uo=4"
+        },
+        {
+          "id": 6747957693,
+          "name": "Count Camera-count Anything",
+          "url": "https://apps.apple.com/us/app/count-camera-count-anything/id6747957693?uo=4"
+        },
+        {
+          "id": 6759801548,
+          "name": "Lika: Headshot Generator",
+          "url": "https://apps.apple.com/us/app/lika-headshot-generator/id6759801548?uo=4"
+        },
+        {
+          "id": 6443949151,
+          "name": "口算批改-小学数学口算天天练,计算题检查",
+          "url": "https://apps.apple.com/us/app/%E5%8F%A3%E7%AE%97%E6%89%B9%E6%94%B9-%E5%B0%8F%E5%AD%A6%E6%95%B0%E5%AD%A6%E5%8F%A3%E7%AE%97%E5%A4%A9%E5%A4%A9%E7%BB%83-%E8%AE%A1%E7%AE%97%E9%A2%98%E6%A3%80%E6%9F%A5/id6443949151?uo=4"
+        },
+        {
+          "id": 1402993049,
+          "name": "AtomicClock: NTP Time",
+          "url": "https://apps.apple.com/us/app/atomicclock-ntp-time/id1402993049?uo=4"
+        },
+        {
+          "id": 1291962681,
+          "name": "Scanner – Scan PDF, ID & Docs",
+          "url": "https://apps.apple.com/us/app/scanner-scan-pdf-id-docs/id1291962681?uo=4"
+        },
+        {
+          "id": 1271512200,
+          "name": "ilu",
+          "url": "https://apps.apple.com/us/app/ilu/id1271512200?uo=4"
+        },
+        {
+          "id": 6740869675,
+          "name": "日程速记——AI创建日程&语音转待办&拍照记日程&GTD",
+          "url": "https://apps.apple.com/us/app/%E6%97%A5%E7%A8%8B%E9%80%9F%E8%AE%B0-ai%E5%88%9B%E5%BB%BA%E6%97%A5%E7%A8%8B-%E8%AF%AD%E9%9F%B3%E8%BD%AC%E5%BE%85%E5%8A%9E-%E6%8B%8D%E7%85%A7%E8%AE%B0%E6%97%A5%E7%A8%8B-gtd/id6740869675?uo=4"
+        },
+        {
+          "id": 6745166516,
+          "name": "闪电数钢管-一键拍照扫描计数",
+          "url": "https://apps.apple.com/us/app/%E9%97%AA%E7%94%B5%E6%95%B0%E9%92%A2%E7%AE%A1-%E4%B8%80%E9%94%AE%E6%8B%8D%E7%85%A7%E6%89%AB%E6%8F%8F%E8%AE%A1%E6%95%B0/id6745166516?uo=4"
+        },
+        {
+          "id": 6478843923,
+          "name": "婚礼纪婚贝请柬手写板电子画图板黑板白板 - 万能画板",
+          "url": "https://apps.apple.com/us/app/%E5%A9%9A%E7%A4%BC%E7%BA%AA%E5%A9%9A%E8%B4%9D%E8%AF%B7%E6%9F%AC%E6%89%8B%E5%86%99%E6%9D%BF%E7%94%B5%E5%AD%90%E7%94%BB%E5%9B%BE%E6%9D%BF%E9%BB%91%E6%9D%BF%E7%99%BD%E6%9D%BF-%E4%B8%87%E8%83%BD%E7%94%BB%E6%9D%BF/id6478843923?uo=4"
+        },
+        {
+          "id": 6745508799,
+          "name": "蜂鸟血压 - 血压数据记录与追踪 AI拍照|智能识别数值",
+          "url": "https://apps.apple.com/us/app/%E8%9C%82%E9%B8%9F%E8%A1%80%E5%8E%8B-%E8%A1%80%E5%8E%8B%E6%95%B0%E6%8D%AE%E8%AE%B0%E5%BD%95%E4%B8%8E%E8%BF%BD%E8%B8%AA-ai%E6%8B%8D%E7%85%A7-%E6%99%BA%E8%83%BD%E8%AF%86%E5%88%AB%E6%95%B0%E5%80%BC/id6745508799?uo=4"
+        },
+        {
+          "id": 927287515,
+          "name": "圣经和合本中文版-新约旧约全集",
+          "url": "https://apps.apple.com/us/app/%E5%9C%A3%E7%BB%8F%E5%92%8C%E5%90%88%E6%9C%AC%E4%B8%AD%E6%96%87%E7%89%88-%E6%96%B0%E7%BA%A6%E6%97%A7%E7%BA%A6%E5%85%A8%E9%9B%86/id927287515?uo=4"
+        },
+        {
+          "id": 6772260798,
+          "name": "PregWeek: Pregnancy Tracker",
+          "url": "https://apps.apple.com/us/app/pregweek-pregnancy-tracker/id6772260798?uo=4"
+        },
+        {
+          "id": 6755717966,
+          "name": "闪电回执 - AI证件照与数码回执",
+          "url": "https://apps.apple.com/us/app/%E9%97%AA%E7%94%B5%E5%9B%9E%E6%89%A7-ai%E8%AF%81%E4%BB%B6%E7%85%A7%E4%B8%8E%E6%95%B0%E7%A0%81%E5%9B%9E%E6%89%A7/id6755717966?uo=4"
+        },
+        {
+          "id": 6748220175,
+          "name": "Simple Scanner-Measuredistance",
+          "url": "https://apps.apple.com/us/app/simple-scanner-measuredistance/id6748220175?uo=4"
+        },
+        {
+          "id": 6751564787,
+          "name": "AR Ruler-Count, Measure, Scan",
+          "url": "https://apps.apple.com/us/app/ar-ruler-count-measure-scan/id6751564787?uo=4"
+        },
+        {
+          "id": 1259742455,
+          "name": "My Card Wallet: Secure Notes",
+          "url": "https://apps.apple.com/us/app/my-card-wallet-secure-notes/id1259742455?uo=4"
+        },
+        {
+          "id": 628354358,
+          "name": "学英语-分级阅读学习口语听力单词强化记忆",
+          "url": "https://apps.apple.com/us/app/%E5%AD%A6%E8%8B%B1%E8%AF%AD-%E5%88%86%E7%BA%A7%E9%98%85%E8%AF%BB%E5%AD%A6%E4%B9%A0%E5%8F%A3%E8%AF%AD%E5%90%AC%E5%8A%9B%E5%8D%95%E8%AF%8D%E5%BC%BA%E5%8C%96%E8%AE%B0%E5%BF%86/id628354358?uo=4"
+        },
+        {
+          "id": 1634579310,
+          "name": "QuestionBank",
+          "url": "https://apps.apple.com/us/app/questionbank/id1634579310?uo=4"
+        },
+        {
+          "id": 6457209384,
+          "name": "手机扫描王-实景测量物体距离&一键统计建材数据",
+          "url": "https://apps.apple.com/us/app/%E6%89%8B%E6%9C%BA%E6%89%AB%E6%8F%8F%E7%8E%8B-%E5%AE%9E%E6%99%AF%E6%B5%8B%E9%87%8F%E7%89%A9%E4%BD%93%E8%B7%9D%E7%A6%BB-%E4%B8%80%E9%94%AE%E7%BB%9F%E8%AE%A1%E5%BB%BA%E6%9D%90%E6%95%B0%E6%8D%AE/id6457209384?uo=4"
+        },
+        {
+          "id": 6797430695,
+          "name": "CountHelper-Count Fast",
+          "url": "https://apps.apple.com/us/app/counthelper-count-fast/id6797430695?uo=4"
+        },
+        {
+          "id": 1541968246,
+          "name": "Baby games - Baby care",
+          "url": "https://apps.apple.com/us/app/baby-games-baby-care/id1541968246?uo=4"
+        },
+        {
+          "id": 6448913901,
+          "name": "全能AI - 图生视频、文生视频、AI写歌作曲、AI智能助理",
+          "url": "https://apps.apple.com/us/app/%E5%85%A8%E8%83%BDai-%E5%9B%BE%E7%94%9F%E8%A7%86%E9%A2%91-%E6%96%87%E7%94%9F%E8%A7%86%E9%A2%91-ai%E5%86%99%E6%AD%8C%E4%BD%9C%E6%9B%B2-ai%E6%99%BA%E8%83%BD%E5%8A%A9%E7%90%86/id6448913901?uo=4"
+        },
+        {
+          "id": 756603898,
+          "name": "Arabic English Audio Bible",
+          "url": "https://apps.apple.com/us/app/arabic-english-audio-bible/id756603898?uo=4"
+        },
+        {
+          "id": 1539249881,
+          "name": "Quit Smoking Gradually: Alive",
+          "url": "https://apps.apple.com/us/app/quit-smoking-gradually-alive/id1539249881?uo=4"
+        },
+        {
+          "id": 6768538016,
+          "name": "拍照计数-AI扫描计数一秒数签子",
+          "url": "https://apps.apple.com/us/app/%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0-ai%E6%89%AB%E6%8F%8F%E8%AE%A1%E6%95%B0%E4%B8%80%E7%A7%92%E6%95%B0%E7%AD%BE%E5%AD%90/id6768538016?uo=4"
+        },
+        {
+          "id": 1242153330,
+          "name": "Dogotchi: Virtual Pet",
+          "url": "https://apps.apple.com/us/app/dogotchi-virtual-pet/id1242153330?uo=4"
+        },
+        {
+          "id": 6815483578,
+          "name": "VisaTrip: Visa & Passport",
+          "url": "https://apps.apple.com/us/app/visatrip-visa-passport/id6815483578?uo=4"
+        },
+        {
+          "id": 520270198,
+          "name": "Toddlers Games: Kids Puzzle 2+",
+          "url": "https://apps.apple.com/us/app/toddlers-games-kids-puzzle-2/id520270198?uo=4"
+        },
+        {
+          "id": 1325419855,
+          "name": "小猿AI - 原小猿口算检查作业神器",
+          "url": "https://apps.apple.com/us/app/%E5%B0%8F%E7%8C%BFai-%E5%8E%9F%E5%B0%8F%E7%8C%BF%E5%8F%A3%E7%AE%97%E6%A3%80%E6%9F%A5%E4%BD%9C%E4%B8%9A%E7%A5%9E%E5%99%A8/id1325419855?uo=4"
+        },
+        {
+          "id": 6778436306,
+          "name": "Protractor Angle Meter",
+          "url": "https://apps.apple.com/us/app/protractor-angle-meter/id6778436306?uo=4"
+        },
+        {
+          "id": 1018150472,
+          "name": "Taiwan Drivers License Test",
+          "url": "https://apps.apple.com/us/app/taiwan-drivers-license-test/id1018150472?uo=4"
+        },
+        {
+          "id": 1197897091,
+          "name": "台灣駕照筆試題庫",
+          "url": "https://apps.apple.com/us/app/%E5%8F%B0%E7%81%A3%E9%A7%95%E7%85%A7%E7%AD%86%E8%A9%A6%E9%A1%8C%E5%BA%AB/id1197897091?uo=4"
+        }
+      ]
+    },
+    {
+      "country": "us",
+      "term": "点数镜",
+      "url": "https://itunes.apple.com/search?term=%E7%82%B9%E6%95%B0%E9%95%9C&entity=software&country=us&limit=50",
+      "resultCount": 4,
+      "literalSubstringMatches": [],
+      "results": [
+        {
+          "id": 1604398683,
+          "name": "RE2C Cam - Vintage Camera",
+          "url": "https://apps.apple.com/us/app/re2c-cam-vintage-camera/id1604398683?uo=4"
+        },
+        {
+          "id": 1442745225,
+          "name": "樂活眼鏡",
+          "url": "https://apps.apple.com/us/app/%E6%A8%82%E6%B4%BB%E7%9C%BC%E9%8F%A1/id1442745225?uo=4"
+        },
+        {
+          "id": 6475541129,
+          "name": "Photo HD Recovery: Restore",
+          "url": "https://apps.apple.com/us/app/photo-hd-recovery-restore/id6475541129?uo=4"
+        },
+        {
+          "id": 6767091730,
+          "name": "GoPixel – GIF & Pixel Maker",
+          "url": "https://apps.apple.com/us/app/gopixel-gif-pixel-maker/id6767091730?uo=4"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "term": "CountScope",
+      "url": "https://itunes.apple.com/search?term=CountScope&entity=software&country=cn&limit=50",
+      "resultCount": 0,
+      "literalSubstringMatches": [],
+      "results": []
+    },
+    {
+      "country": "cn",
+      "term": "CountFrame",
+      "url": "https://itunes.apple.com/search?term=CountFrame&entity=software&country=cn&limit=50",
+      "resultCount": 0,
+      "literalSubstringMatches": [],
+      "results": []
+    },
+    {
+      "country": "cn",
+      "term": "数照",
+      "url": "https://itunes.apple.com/search?term=%E6%95%B0%E7%85%A7&entity=software&country=cn&limit=50",
+      "resultCount": 48,
+      "literalSubstringMatches": [],
+      "results": [
+        {
+          "id": 1524425268,
+          "name": "数钢管-支持数钢筋、数签子等多种物品",
+          "url": "https://apps.apple.com/cn/app/%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%94%AF%E6%8C%81%E6%95%B0%E9%92%A2%E7%AD%8B-%E6%95%B0%E7%AD%BE%E5%AD%90%E7%AD%89%E5%A4%9A%E7%A7%8D%E7%89%A9%E5%93%81/id1524425268?uo=4"
+        },
+        {
+          "id": 6760588152,
+          "name": "土拨鼠证件照：护照签证照片",
+          "url": "https://apps.apple.com/cn/app/%E5%9C%9F%E6%8B%A8%E9%BC%A0%E8%AF%81%E4%BB%B6%E7%85%A7-%E6%8A%A4%E7%85%A7%E7%AD%BE%E8%AF%81%E7%85%A7%E7%89%87/id6760588152?uo=4"
+        },
+        {
+          "id": 6445968985,
+          "name": "扫描仪-智能数钢管&拍照识物&水印相机",
+          "url": "https://apps.apple.com/cn/app/%E6%89%AB%E6%8F%8F%E4%BB%AA-%E6%99%BA%E8%83%BD%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%8B%8D%E7%85%A7%E8%AF%86%E7%89%A9-%E6%B0%B4%E5%8D%B0%E7%9B%B8%E6%9C%BA/id6445968985?uo=4"
+        },
+        {
+          "id": 1478224092,
+          "name": "掌上考研-找考研真题查招录数据",
+          "url": "https://apps.apple.com/cn/app/%E6%8E%8C%E4%B8%8A%E8%80%83%E7%A0%94-%E6%89%BE%E8%80%83%E7%A0%94%E7%9C%9F%E9%A2%98%E6%9F%A5%E6%8B%9B%E5%BD%95%E6%95%B0%E6%8D%AE/id1478224092?uo=4"
+        },
+        {
+          "id": 1603931807,
+          "name": "梅花易数笔记",
+          "url": "https://apps.apple.com/cn/app/%E6%A2%85%E8%8A%B1%E6%98%93%E6%95%B0%E7%AC%94%E8%AE%B0/id1603931807?uo=4"
+        },
+        {
+          "id": 6745166516,
+          "name": "闪电数钢管-一键拍照扫描计数",
+          "url": "https://apps.apple.com/cn/app/%E9%97%AA%E7%94%B5%E6%95%B0%E9%92%A2%E7%AE%A1-%E4%B8%80%E9%94%AE%E6%8B%8D%E7%85%A7%E6%89%AB%E6%8F%8F%E8%AE%A1%E6%95%B0/id6745166516?uo=4"
+        },
+        {
+          "id": 1568634122,
+          "name": "点数相机-啥都能数：数钢管、数竹签、数钢筋",
+          "url": "https://apps.apple.com/cn/app/%E7%82%B9%E6%95%B0%E7%9B%B8%E6%9C%BA-%E5%95%A5%E9%83%BD%E8%83%BD%E6%95%B0-%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%95%B0%E7%AB%B9%E7%AD%BE-%E6%95%B0%E9%92%A2%E7%AD%8B/id1568634122?uo=4"
+        },
+        {
+          "id": 6450946474,
+          "name": "答案之书-寻找你内心的答案",
+          "url": "https://apps.apple.com/cn/app/%E7%AD%94%E6%A1%88%E4%B9%8B%E4%B9%A6-%E5%AF%BB%E6%89%BE%E4%BD%A0%E5%86%85%E5%BF%83%E7%9A%84%E7%AD%94%E6%A1%88/id6450946474?uo=4"
+        },
+        {
+          "id": 6747957693,
+          "name": "计数相机-拍照计数",
+          "url": "https://apps.apple.com/cn/app/%E8%AE%A1%E6%95%B0%E7%9B%B8%E6%9C%BA-%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0/id6747957693?uo=4"
+        },
+        {
+          "id": 6457209384,
+          "name": "手机扫描王-实景测量物体距离&一键统计建材数据",
+          "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E6%89%AB%E6%8F%8F%E7%8E%8B-%E5%AE%9E%E6%99%AF%E6%B5%8B%E9%87%8F%E7%89%A9%E4%BD%93%E8%B7%9D%E7%A6%BB-%E4%B8%80%E9%94%AE%E7%BB%9F%E8%AE%A1%E5%BB%BA%E6%9D%90%E6%95%B0%E6%8D%AE/id6457209384?uo=4"
+        },
+        {
+          "id": 6756397162,
+          "name": "吃有数-AI拍照算热量饮食记录减肥",
+          "url": "https://apps.apple.com/cn/app/%E5%90%83%E6%9C%89%E6%95%B0-ai%E6%8B%8D%E7%85%A7%E7%AE%97%E7%83%AD%E9%87%8F%E9%A5%AE%E9%A3%9F%E8%AE%B0%E5%BD%95%E5%87%8F%E8%82%A5/id6756397162?uo=4"
+        },
+        {
+          "id": 1461690800,
+          "name": "你我当年AI照片修复,照片图片变高清,图像更清晰",
+          "url": "https://apps.apple.com/cn/app/%E4%BD%A0%E6%88%91%E5%BD%93%E5%B9%B4ai%E7%85%A7%E7%89%87%E4%BF%AE%E5%A4%8D-%E7%85%A7%E7%89%87%E5%9B%BE%E7%89%87%E5%8F%98%E9%AB%98%E6%B8%85-%E5%9B%BE%E5%83%8F%E6%9B%B4%E6%B8%85%E6%99%B0/id1461690800?uo=4"
+        },
+        {
+          "id": 6797430695,
+          "name": "帮你数-拍照计数稳准快",
+          "url": "https://apps.apple.com/cn/app/%E5%B8%AE%E4%BD%A0%E6%95%B0-%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0%E7%A8%B3%E5%87%86%E5%BF%AB/id6797430695?uo=4"
+        },
+        {
+          "id": 962766004,
+          "name": "数独无穷关卡数字益智游戏",
+          "url": "https://apps.apple.com/cn/app/%E6%95%B0%E7%8B%AC%E6%97%A0%E7%A9%B7%E5%85%B3%E5%8D%A1%E6%95%B0%E5%AD%97%E7%9B%8A%E6%99%BA%E6%B8%B8%E6%88%8F/id962766004?uo=4"
+        },
+        {
+          "id": 1661917447,
+          "name": "职堆堆兼职-手机兼职赚钱找工作兼职网零工日结副业接单软件",
+          "url": "https://apps.apple.com/cn/app/%E8%81%8C%E5%A0%86%E5%A0%86%E5%85%BC%E8%81%8C-%E6%89%8B%E6%9C%BA%E5%85%BC%E8%81%8C%E8%B5%9A%E9%92%B1%E6%89%BE%E5%B7%A5%E4%BD%9C%E5%85%BC%E8%81%8C%E7%BD%91%E9%9B%B6%E5%B7%A5%E6%97%A5%E7%BB%93%E5%89%AF%E4%B8%9A%E6%8E%A5%E5%8D%95%E8%BD%AF%E4%BB%B6/id1661917447?uo=4"
+        },
+        {
+          "id": 1359490922,
+          "name": "597直聘-求职招聘找工作兼职人才网平台",
+          "url": "https://apps.apple.com/cn/app/597%E7%9B%B4%E8%81%98-%E6%B1%82%E8%81%8C%E6%8B%9B%E8%81%98%E6%89%BE%E5%B7%A5%E4%BD%9C%E5%85%BC%E8%81%8C%E4%BA%BA%E6%89%8D%E7%BD%91%E5%B9%B3%E5%8F%B0/id1359490922?uo=4"
+        },
+        {
+          "id": 6479694396,
+          "name": "彩豆数数相机-拍照计数清点钢管神器",
+          "url": "https://apps.apple.com/cn/app/%E5%BD%A9%E8%B1%86%E6%95%B0%E6%95%B0%E7%9B%B8%E6%9C%BA-%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0%E6%B8%85%E7%82%B9%E9%92%A2%E7%AE%A1%E7%A5%9E%E5%99%A8/id6479694396?uo=4"
+        },
+        {
+          "id": 6760954791,
+          "name": "nosh - AI拍照记录饮食与卡路里",
+          "url": "https://apps.apple.com/cn/app/nosh-ai%E6%8B%8D%E7%85%A7%E8%AE%B0%E5%BD%95%E9%A5%AE%E9%A3%9F%E4%B8%8E%E5%8D%A1%E8%B7%AF%E9%87%8C/id6760954791?uo=4"
+        },
+        {
+          "id": 389481236,
+          "name": "QQ同步助手-手机资料备份,换机数据恢复,骚扰拦截防护",
+          "url": "https://apps.apple.com/cn/app/qq%E5%90%8C%E6%AD%A5%E5%8A%A9%E6%89%8B-%E6%89%8B%E6%9C%BA%E8%B5%84%E6%96%99%E5%A4%87%E4%BB%BD-%E6%8D%A2%E6%9C%BA%E6%95%B0%E6%8D%AE%E6%81%A2%E5%A4%8D-%E9%AA%9A%E6%89%B0%E6%8B%A6%E6%88%AA%E9%98%B2%E6%8A%A4/id389481236?uo=4"
+        },
+        {
+          "id": 6468940346,
+          "name": "拍照计数王-点数神器数钢管",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0%E7%8E%8B-%E7%82%B9%E6%95%B0%E7%A5%9E%E5%99%A8%E6%95%B0%E9%92%A2%E7%AE%A1/id6468940346?uo=4"
+        },
+        {
+          "id": 6467118435,
+          "name": "乐拍 - 极速热门写真，秒出潮流大片",
+          "url": "https://apps.apple.com/cn/app/%E4%B9%90%E6%8B%8D-%E6%9E%81%E9%80%9F%E7%83%AD%E9%97%A8%E5%86%99%E7%9C%9F-%E7%A7%92%E5%87%BA%E6%BD%AE%E6%B5%81%E5%A4%A7%E7%89%87/id6467118435?uo=4"
+        },
+        {
+          "id": 1445293660,
+          "name": "印象证件照 - 智能制作最美证件照",
+          "url": "https://apps.apple.com/cn/app/%E5%8D%B0%E8%B1%A1%E8%AF%81%E4%BB%B6%E7%85%A7-%E6%99%BA%E8%83%BD%E5%88%B6%E4%BD%9C%E6%9C%80%E7%BE%8E%E8%AF%81%E4%BB%B6%E7%85%A7/id1445293660?uo=4"
+        },
+        {
+          "id": 1623571691,
+          "name": "360借条-手机分期贷款现金借款信用借钱平台",
+          "url": "https://apps.apple.com/cn/app/360%E5%80%9F%E6%9D%A1-%E6%89%8B%E6%9C%BA%E5%88%86%E6%9C%9F%E8%B4%B7%E6%AC%BE%E7%8E%B0%E9%87%91%E5%80%9F%E6%AC%BE%E4%BF%A1%E7%94%A8%E5%80%9F%E9%92%B1%E5%B9%B3%E5%8F%B0/id1623571691?uo=4"
+        },
+        {
+          "id": 6443949151,
+          "name": "口算出题练习-小学生数学校园口算习题打印",
+          "url": "https://apps.apple.com/cn/app/%E5%8F%A3%E7%AE%97%E5%87%BA%E9%A2%98%E7%BB%83%E4%B9%A0-%E5%B0%8F%E5%AD%A6%E7%94%9F%E6%95%B0%E5%AD%A6%E6%A0%A1%E5%9B%AD%E5%8F%A3%E7%AE%97%E4%B9%A0%E9%A2%98%E6%89%93%E5%8D%B0/id6443949151?uo=4"
+        },
+        {
+          "id": 1625047243,
+          "name": "考试宝-职业资格,大学生在线考试题库培训刷题拍照悬浮窗搜题酱",
+          "url": "https://apps.apple.com/cn/app/%E8%80%83%E8%AF%95%E5%AE%9D-%E8%81%8C%E4%B8%9A%E8%B5%84%E6%A0%BC-%E5%A4%A7%E5%AD%A6%E7%94%9F%E5%9C%A8%E7%BA%BF%E8%80%83%E8%AF%95%E9%A2%98%E5%BA%93%E5%9F%B9%E8%AE%AD%E5%88%B7%E9%A2%98%E6%8B%8D%E7%85%A7%E6%82%AC%E6%B5%AE%E7%AA%97%E6%90%9C%E9%A2%98%E9%85%B1/id1625047243?uo=4"
+        },
+        {
+          "id": 1178856715,
+          "name": "奇富借条(原360借条)-手机信用贷款小额借钱平台",
+          "url": "https://apps.apple.com/cn/app/%E5%A5%87%E5%AF%8C%E5%80%9F%E6%9D%A1-%E5%8E%9F360%E5%80%9F%E6%9D%A1-%E6%89%8B%E6%9C%BA%E4%BF%A1%E7%94%A8%E8%B4%B7%E6%AC%BE%E5%B0%8F%E9%A2%9D%E5%80%9F%E9%92%B1%E5%B9%B3%E5%8F%B0/id1178856715?uo=4"
+        },
+        {
+          "id": 6752531973,
+          "name": "证件照应用 - AI美颜、换底、正装换装、姿势发型、一寸照",
+          "url": "https://apps.apple.com/cn/app/%E8%AF%81%E4%BB%B6%E7%85%A7%E5%BA%94%E7%94%A8-ai%E7%BE%8E%E9%A2%9C-%E6%8D%A2%E5%BA%95-%E6%AD%A3%E8%A3%85%E6%8D%A2%E8%A3%85-%E5%A7%BF%E5%8A%BF%E5%8F%91%E5%9E%8B-%E4%B8%80%E5%AF%B8%E7%85%A7/id6752531973?uo=4"
+        },
+        {
+          "id": 6768538016,
+          "name": "拍照计数-AI扫描计数一秒数签子",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0-ai%E6%89%AB%E6%8F%8F%E8%AE%A1%E6%95%B0%E4%B8%80%E7%A7%92%E6%95%B0%E7%AD%BE%E5%AD%90/id6768538016?uo=4"
+        },
+        {
+          "id": 1596420055,
+          "name": "倒数321-记录每一个重要日子",
+          "url": "https://apps.apple.com/cn/app/%E5%80%92%E6%95%B0321-%E8%AE%B0%E5%BD%95%E6%AF%8F%E4%B8%80%E4%B8%AA%E9%87%8D%E8%A6%81%E6%97%A5%E5%AD%90/id1596420055?uo=4"
+        },
+        {
+          "id": 1564405385,
+          "name": "沈阳高新区招商数智云平台",
+          "url": "https://apps.apple.com/cn/app/%E6%B2%88%E9%98%B3%E9%AB%98%E6%96%B0%E5%8C%BA%E6%8B%9B%E5%95%86%E6%95%B0%E6%99%BA%E4%BA%91%E5%B9%B3%E5%8F%B0/id1564405385?uo=4"
+        },
+        {
+          "id": 596696900,
+          "name": "518熊班-找工作、技能交換一次搞定！",
+          "url": "https://apps.apple.com/cn/app/518%E7%86%8A%E7%8F%AD-%E6%89%BE%E5%B7%A5%E4%BD%9C-%E6%8A%80%E8%83%BD%E4%BA%A4%E6%8F%9B%E4%B8%80%E6%AC%A1%E6%90%9E%E5%AE%9A/id596696900?uo=4"
+        },
+        {
+          "id": 1564047089,
+          "name": "奇富周转灵-大额经营周转贷款借钱平台",
+          "url": "https://apps.apple.com/cn/app/%E5%A5%87%E5%AF%8C%E5%91%A8%E8%BD%AC%E7%81%B5-%E5%A4%A7%E9%A2%9D%E7%BB%8F%E8%90%A5%E5%91%A8%E8%BD%AC%E8%B4%B7%E6%AC%BE%E5%80%9F%E9%92%B1%E5%B9%B3%E5%8F%B0/id1564047089?uo=4"
+        },
+        {
+          "id": 906995758,
+          "name": "小猿搜题-32亿题库，作业解析全",
+          "url": "https://apps.apple.com/cn/app/%E5%B0%8F%E7%8C%BF%E6%90%9C%E9%A2%98-32%E4%BA%BF%E9%A2%98%E5%BA%93-%E4%BD%9C%E4%B8%9A%E8%A7%A3%E6%9E%90%E5%85%A8/id906995758?uo=4"
+        },
+        {
+          "id": 6466392620,
+          "name": "酷美证件照-美颜神器，个性化轻松打造最美证件照片！",
+          "url": "https://apps.apple.com/cn/app/%E9%85%B7%E7%BE%8E%E8%AF%81%E4%BB%B6%E7%85%A7-%E7%BE%8E%E9%A2%9C%E7%A5%9E%E5%99%A8-%E4%B8%AA%E6%80%A7%E5%8C%96%E8%BD%BB%E6%9D%BE%E6%89%93%E9%80%A0%E6%9C%80%E7%BE%8E%E8%AF%81%E4%BB%B6%E7%85%A7%E7%89%87/id6466392620?uo=4"
+        },
+        {
+          "id": 1191692521,
+          "name": "立达标讯-全国招投标情报与商机发现平台",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%8B%E8%BE%BE%E6%A0%87%E8%AE%AF-%E5%85%A8%E5%9B%BD%E6%8B%9B%E6%8A%95%E6%A0%87%E6%83%85%E6%8A%A5%E4%B8%8E%E5%95%86%E6%9C%BA%E5%8F%91%E7%8E%B0%E5%B9%B3%E5%8F%B0/id1191692521?uo=4"
+        },
+        {
+          "id": 6444889258,
+          "name": "找规律 - 填数字,奥数题库闯关小游戏",
+          "url": "https://apps.apple.com/cn/app/%E6%89%BE%E8%A7%84%E5%BE%8B-%E5%A1%AB%E6%95%B0%E5%AD%97-%E5%A5%A5%E6%95%B0%E9%A2%98%E5%BA%93%E9%97%AF%E5%85%B3%E5%B0%8F%E6%B8%B8%E6%88%8F/id6444889258?uo=4"
+        },
+        {
+          "id": 1606339560,
+          "name": "扫雷 - 经典版扫雷",
+          "url": "https://apps.apple.com/cn/app/%E6%89%AB%E9%9B%B7-%E7%BB%8F%E5%85%B8%E7%89%88%E6%89%AB%E9%9B%B7/id1606339560?uo=4"
+        },
+        {
+          "id": 1449949925,
+          "name": "快查-查企业查老板查风险查数据",
+          "url": "https://apps.apple.com/cn/app/%E5%BF%AB%E6%9F%A5-%E6%9F%A5%E4%BC%81%E4%B8%9A%E6%9F%A5%E8%80%81%E6%9D%BF%E6%9F%A5%E9%A3%8E%E9%99%A9%E6%9F%A5%E6%95%B0%E6%8D%AE/id1449949925?uo=4"
+        },
+        {
+          "id": 6759697473,
+          "name": "答案在这-答案之书寻找人生答案解惑·每日运势占卜",
+          "url": "https://apps.apple.com/cn/app/%E7%AD%94%E6%A1%88%E5%9C%A8%E8%BF%99-%E7%AD%94%E6%A1%88%E4%B9%8B%E4%B9%A6%E5%AF%BB%E6%89%BE%E4%BA%BA%E7%94%9F%E7%AD%94%E6%A1%88%E8%A7%A3%E6%83%91-%E6%AF%8F%E6%97%A5%E8%BF%90%E5%8A%BF%E5%8D%A0%E5%8D%9C/id6759697473?uo=4"
+        },
+        {
+          "id": 415443644,
+          "name": "前程无忧51Job-求职招聘找工作",
+          "url": "https://apps.apple.com/cn/app/%E5%89%8D%E7%A8%8B%E6%97%A0%E5%BF%A751job-%E6%B1%82%E8%81%8C%E6%8B%9B%E8%81%98%E6%89%BE%E5%B7%A5%E4%BD%9C/id415443644?uo=4"
+        },
+        {
+          "id": 1558977262,
+          "name": "数独清",
+          "url": "https://apps.apple.com/cn/app/%E6%95%B0%E7%8B%AC%E6%B8%85/id1558977262?uo=4"
+        },
+        {
+          "id": 6747462807,
+          "name": "轻卡日常-AI减肥搭子&拍照记录热量&减肥食谱&轻断食锁外卖",
+          "url": "https://apps.apple.com/cn/app/%E8%BD%BB%E5%8D%A1%E6%97%A5%E5%B8%B8-ai%E5%87%8F%E8%82%A5%E6%90%AD%E5%AD%90-%E6%8B%8D%E7%85%A7%E8%AE%B0%E5%BD%95%E7%83%AD%E9%87%8F-%E5%87%8F%E8%82%A5%E9%A3%9F%E8%B0%B1-%E8%BD%BB%E6%96%AD%E9%A3%9F%E9%94%81%E5%A4%96%E5%8D%96/id6747462807?uo=4"
+        },
+        {
+          "id": 699464685,
+          "name": "天天爱数独",
+          "url": "https://apps.apple.com/cn/app/%E5%A4%A9%E5%A4%A9%E7%88%B1%E6%95%B0%E7%8B%AC/id699464685?uo=4"
+        },
+        {
+          "id": 880575384,
+          "name": "中原找房-买卖二手房新房租房房产平台",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%AD%E5%8E%9F%E6%89%BE%E6%88%BF-%E4%B9%B0%E5%8D%96%E4%BA%8C%E6%89%8B%E6%88%BF%E6%96%B0%E6%88%BF%E7%A7%9F%E6%88%BF%E6%88%BF%E4%BA%A7%E5%B9%B3%E5%8F%B0/id880575384?uo=4"
+        },
+        {
+          "id": 1113276760,
+          "name": "稿定设计 - 电商社媒封面海报创作神器",
+          "url": "https://apps.apple.com/cn/app/%E7%A8%BF%E5%AE%9A%E8%AE%BE%E8%AE%A1-%E7%94%B5%E5%95%86%E7%A4%BE%E5%AA%92%E5%B0%81%E9%9D%A2%E6%B5%B7%E6%8A%A5%E5%88%9B%E4%BD%9C%E7%A5%9E%E5%99%A8/id1113276760?uo=4"
+        },
+        {
+          "id": 1604040767,
+          "name": "文字找茬 - 汉字找不同",
+          "url": "https://apps.apple.com/cn/app/%E6%96%87%E5%AD%97%E6%89%BE%E8%8C%AC-%E6%B1%89%E5%AD%97%E6%89%BE%E4%B8%8D%E5%90%8C/id1604040767?uo=4"
+        },
+        {
+          "id": 771635384,
+          "name": "建设通-建筑业大数据AI服务平台",
+          "url": "https://apps.apple.com/cn/app/%E5%BB%BA%E8%AE%BE%E9%80%9A-%E5%BB%BA%E7%AD%91%E4%B8%9A%E5%A4%A7%E6%95%B0%E6%8D%AEai%E6%9C%8D%E5%8A%A1%E5%B9%B3%E5%8F%B0/id771635384?uo=4"
+        },
+        {
+          "id": 1080590044,
+          "name": "吉工家-招聘找工作找兼职蓝领工人求职建筑工地招工软件",
+          "url": "https://apps.apple.com/cn/app/%E5%90%89%E5%B7%A5%E5%AE%B6-%E6%8B%9B%E8%81%98%E6%89%BE%E5%B7%A5%E4%BD%9C%E6%89%BE%E5%85%BC%E8%81%8C%E8%93%9D%E9%A2%86%E5%B7%A5%E4%BA%BA%E6%B1%82%E8%81%8C%E5%BB%BA%E7%AD%91%E5%B7%A5%E5%9C%B0%E6%8B%9B%E5%B7%A5%E8%BD%AF%E4%BB%B6/id1080590044?uo=4"
+        }
+      ]
+    },
+    {
+      "country": "cn",
+      "term": "点数镜",
+      "url": "https://itunes.apple.com/search?term=%E7%82%B9%E6%95%B0%E9%95%9C&entity=software&country=cn&limit=50",
+      "resultCount": 41,
+      "literalSubstringMatches": [],
+      "results": [
+        {
+          "id": 1568634122,
+          "name": "点数相机-啥都能数：数钢管、数竹签、数钢筋",
+          "url": "https://apps.apple.com/cn/app/%E7%82%B9%E6%95%B0%E7%9B%B8%E6%9C%BA-%E5%95%A5%E9%83%BD%E8%83%BD%E6%95%B0-%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%95%B0%E7%AB%B9%E7%AD%BE-%E6%95%B0%E9%92%A2%E7%AD%8B/id1568634122?uo=4"
+        },
+        {
+          "id": 1471269718,
+          "name": "競艇点数 手軽にレース予想を計算",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E8%89%87%E7%82%B9%E6%95%B0-%E6%89%8B%E8%BB%BD%E3%81%AB%E3%83%AC%E3%83%BC%E3%82%B9%E4%BA%88%E6%83%B3%E3%82%92%E8%A8%88%E7%AE%97/id1471269718?uo=4"
+        },
+        {
+          "id": 6747957693,
+          "name": "计数相机-拍照计数",
+          "url": "https://apps.apple.com/cn/app/%E8%AE%A1%E6%95%B0%E7%9B%B8%E6%9C%BA-%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0/id6747957693?uo=4"
+        },
+        {
+          "id": 6479694396,
+          "name": "彩豆数数相机-拍照计数清点钢管神器",
+          "url": "https://apps.apple.com/cn/app/%E5%BD%A9%E8%B1%86%E6%95%B0%E6%95%B0%E7%9B%B8%E6%9C%BA-%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0%E6%B8%85%E7%82%B9%E9%92%A2%E7%AE%A1%E7%A5%9E%E5%99%A8/id6479694396?uo=4"
+        },
+        {
+          "id": 1663170838,
+          "name": "万能扫描宝-AI测量&扫描计数",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%87%E8%83%BD%E6%89%AB%E6%8F%8F%E5%AE%9D-ai%E6%B5%8B%E9%87%8F-%E6%89%AB%E6%8F%8F%E8%AE%A1%E6%95%B0/id1663170838?uo=4"
+        },
+        {
+          "id": 6749637587,
+          "name": "点数神器：拍照计数 又快又准",
+          "url": "https://apps.apple.com/cn/app/%E7%82%B9%E6%95%B0%E7%A5%9E%E5%99%A8-%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0-%E5%8F%88%E5%BF%AB%E5%8F%88%E5%87%86/id6749637587?uo=4"
+        },
+        {
+          "id": 1524425268,
+          "name": "数钢管-支持数钢筋、数签子等多种物品",
+          "url": "https://apps.apple.com/cn/app/%E6%95%B0%E9%92%A2%E7%AE%A1-%E6%94%AF%E6%8C%81%E6%95%B0%E9%92%A2%E7%AD%8B-%E6%95%B0%E7%AD%BE%E5%AD%90%E7%AD%89%E5%A4%9A%E7%A7%8D%E7%89%A9%E5%93%81/id1524425268?uo=4"
+        },
+        {
+          "id": 1627219849,
+          "name": "精点相机",
+          "url": "https://apps.apple.com/cn/app/%E7%B2%BE%E7%82%B9%E7%9B%B8%E6%9C%BA/id1627219849?uo=4"
+        },
+        {
+          "id": 6745726513,
+          "name": "拍照计数 - AI点数相机，拍照数数软件，一秒数签子",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0-ai%E7%82%B9%E6%95%B0%E7%9B%B8%E6%9C%BA-%E6%8B%8D%E7%85%A7%E6%95%B0%E6%95%B0%E8%BD%AF%E4%BB%B6-%E4%B8%80%E7%A7%92%E6%95%B0%E7%AD%BE%E5%AD%90/id6745726513?uo=4"
+        },
+        {
+          "id": 1467148314,
+          "name": "競馬点数で予想 馬券点数のオッズを計算して購入する電卓",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E9%A6%AC%E7%82%B9%E6%95%B0%E3%81%A7%E4%BA%88%E6%83%B3-%E9%A6%AC%E5%88%B8%E7%82%B9%E6%95%B0%E3%81%AE%E3%82%AA%E3%83%83%E3%82%BA%E3%82%92%E8%A8%88%E7%AE%97%E3%81%97%E3%81%A6%E8%B3%BC%E5%85%A5%E3%81%99%E3%82%8B%E9%9B%BB%E5%8D%93/id1467148314?uo=4"
+        },
+        {
+          "id": 1470897995,
+          "name": "競輪点数 計算で稼ぐ点数計算機",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E8%BC%AA%E7%82%B9%E6%95%B0-%E8%A8%88%E7%AE%97%E3%81%A7%E7%A8%BC%E3%81%90%E7%82%B9%E6%95%B0%E8%A8%88%E7%AE%97%E6%A9%9F/id1470897995?uo=4"
+        },
+        {
+          "id": 6761401260,
+          "name": "AR测量计-随身卷尺量角器水平仪计数",
+          "url": "https://apps.apple.com/cn/app/ar%E6%B5%8B%E9%87%8F%E8%AE%A1-%E9%9A%8F%E8%BA%AB%E5%8D%B7%E5%B0%BA%E9%87%8F%E8%A7%92%E5%99%A8%E6%B0%B4%E5%B9%B3%E4%BB%AA%E8%AE%A1%E6%95%B0/id6761401260?uo=4"
+        },
+        {
+          "id": 6448898123,
+          "name": "手机扫描王:一键文件扫描、拍照计数",
+          "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E6%89%AB%E6%8F%8F%E7%8E%8B-%E4%B8%80%E9%94%AE%E6%96%87%E4%BB%B6%E6%89%AB%E6%8F%8F-%E6%8B%8D%E7%85%A7%E8%AE%A1%E6%95%B0/id6448898123?uo=4"
+        },
+        {
+          "id": 1538404477,
+          "name": "酷爱点-数钢筋数钢管数木方",
+          "url": "https://apps.apple.com/cn/app/%E9%85%B7%E7%88%B1%E7%82%B9-%E6%95%B0%E9%92%A2%E7%AD%8B%E6%95%B0%E9%92%A2%E7%AE%A1%E6%95%B0%E6%9C%A8%E6%96%B9/id1538404477?uo=4"
+        },
+        {
+          "id": 1123517992,
+          "name": "競馬予想ニュース-競馬好きの為の競馬情報アプリ",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E9%A6%AC%E4%BA%88%E6%83%B3%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9-%E7%AB%B6%E9%A6%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E7%82%BA%E3%81%AE%E7%AB%B6%E9%A6%AC%E6%83%85%E5%A0%B1%E3%82%A2%E3%83%97%E3%83%AA/id1123517992?uo=4"
+        },
+        {
+          "id": 1442745225,
+          "name": "樂活眼鏡",
+          "url": "https://apps.apple.com/cn/app/%E6%A8%82%E6%B4%BB%E7%9C%BC%E9%8F%A1/id1442745225?uo=4"
+        },
+        {
+          "id": 6449987511,
+          "name": "守卫悬崖-策略塔防对战",
+          "url": "https://apps.apple.com/cn/app/%E5%AE%88%E5%8D%AB%E6%82%AC%E5%B4%96-%E7%AD%96%E7%95%A5%E5%A1%94%E9%98%B2%E5%AF%B9%E6%88%98/id6449987511?uo=4"
+        },
+        {
+          "id": 6443758926,
+          "name": "计数王",
+          "url": "https://apps.apple.com/cn/app/%E8%AE%A1%E6%95%B0%E7%8E%8B/id6443758926?uo=4"
+        },
+        {
+          "id": 1182205819,
+          "name": "競艇予想ニュース レース情報の最新データまとめ",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E8%89%87%E4%BA%88%E6%83%B3%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9-%E3%83%AC%E3%83%BC%E3%82%B9%E6%83%85%E5%A0%B1%E3%81%AE%E6%9C%80%E6%96%B0%E3%83%87%E3%83%BC%E3%82%BF%E3%81%BE%E3%81%A8%E3%82%81/id1182205819?uo=4"
+        },
+        {
+          "id": 1107902178,
+          "name": "中友百貨會員",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%AD%E5%8F%8B%E7%99%BE%E8%B2%A8%E6%9C%83%E5%93%A1/id1107902178?uo=4"
+        },
+        {
+          "id": 1588373836,
+          "name": "pakara 競馬の予想、投票と収支管理",
+          "url": "https://apps.apple.com/cn/app/pakara-%E7%AB%B6%E9%A6%AC%E3%81%AE%E4%BA%88%E6%83%B3-%E6%8A%95%E7%A5%A8%E3%81%A8%E5%8F%8E%E6%94%AF%E7%AE%A1%E7%90%86/id1588373836?uo=4"
+        },
+        {
+          "id": 6786511636,
+          "name": "计数-计数器",
+          "url": "https://apps.apple.com/cn/app/%E8%AE%A1%E6%95%B0-%E8%AE%A1%E6%95%B0%E5%99%A8/id6786511636?uo=4"
+        },
+        {
+          "id": 1237559752,
+          "name": "5itrip旅行管家-查找飯店景點與店家優惠",
+          "url": "https://apps.apple.com/cn/app/5itrip%E6%97%85%E8%A1%8C%E7%AE%A1%E5%AE%B6-%E6%9F%A5%E6%89%BE%E9%A3%AF%E5%BA%97%E6%99%AF%E9%BB%9E%E8%88%87%E5%BA%97%E5%AE%B6%E5%84%AA%E6%83%A0/id1237559752?uo=4"
+        },
+        {
+          "id": 1571625081,
+          "name": "競艇予想【リアルタイムボート】ボートレースの舟券の情報を予想",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E8%89%87%E4%BA%88%E6%83%B3-%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E3%83%9C%E3%83%BC%E3%83%88-%E3%83%9C%E3%83%BC%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B9%E3%81%AE%E8%88%9F%E5%88%B8%E3%81%AE%E6%83%85%E5%A0%B1%E3%82%92%E4%BA%88%E6%83%B3/id1571625081?uo=4"
+        },
+        {
+          "id": 6758434780,
+          "name": "【競馬予想】重賞分析と高精度AI 競馬予想アプリ｜DX指数",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E9%A6%AC%E4%BA%88%E6%83%B3-%E9%87%8D%E8%B3%9E%E5%88%86%E6%9E%90%E3%81%A8%E9%AB%98%E7%B2%BE%E5%BA%A6ai-%E7%AB%B6%E9%A6%AC%E4%BA%88%E6%83%B3%E3%82%A2%E3%83%97%E3%83%AA-dx%E6%8C%87%E6%95%B0/id6758434780?uo=4"
+        },
+        {
+          "id": 6745166516,
+          "name": "闪电数钢管-一键拍照扫描计数",
+          "url": "https://apps.apple.com/cn/app/%E9%97%AA%E7%94%B5%E6%95%B0%E9%92%A2%E7%AE%A1-%E4%B8%80%E9%94%AE%E6%8B%8D%E7%85%A7%E6%89%AB%E6%8F%8F%E8%AE%A1%E6%95%B0/id6745166516?uo=4"
+        },
+        {
+          "id": 1560061735,
+          "name": "競艇予想 Nova-ボートレース予想で投票！競艇投資アプリ",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E8%89%87%E4%BA%88%E6%83%B3-nova-%E3%83%9C%E3%83%BC%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B9%E4%BA%88%E6%83%B3%E3%81%A7%E6%8A%95%E7%A5%A8-%E7%AB%B6%E8%89%87%E6%8A%95%E8%B3%87%E3%82%A2%E3%83%97%E3%83%AA/id1560061735?uo=4"
+        },
+        {
+          "id": 6758975612,
+          "name": "麻雀 - 点数スコア計算",
+          "url": "https://apps.apple.com/cn/app/%E9%BA%BB%E9%9B%80-%E7%82%B9%E6%95%B0%E3%82%B9%E3%82%B3%E3%82%A2%E8%A8%88%E7%AE%97/id6758975612?uo=4"
+        },
+        {
+          "id": 1181495040,
+          "name": "zero zero – 資源回收服務專家",
+          "url": "https://apps.apple.com/cn/app/zero-zero-%E8%B3%87%E6%BA%90%E5%9B%9E%E6%94%B6%E6%9C%8D%E5%8B%99%E5%B0%88%E5%AE%B6/id1181495040?uo=4"
+        },
+        {
+          "id": 1186289689,
+          "name": "ウマ娘 攻略 for ウマ娘 プリティーダービー",
+          "url": "https://apps.apple.com/cn/app/%E3%82%A6%E3%83%9E%E5%A8%98-%E6%94%BB%E7%95%A5-for-%E3%82%A6%E3%83%9E%E5%A8%98-%E3%83%97%E3%83%AA%E3%83%86%E3%82%A3%E3%83%BC%E3%83%80%E3%83%BC%E3%83%93%E3%83%BC/id1186289689?uo=4"
+        },
+        {
+          "id": 1635096639,
+          "name": "脳内競艇",
+          "url": "https://apps.apple.com/cn/app/%E8%84%B3%E5%86%85%E7%AB%B6%E8%89%87/id1635096639?uo=4"
+        },
+        {
+          "id": 1463929447,
+          "name": "競馬ラジオ 競馬の動画を見る競馬ラジオ",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E9%A6%AC%E3%83%A9%E3%82%B8%E3%82%AA-%E7%AB%B6%E9%A6%AC%E3%81%AE%E5%8B%95%E7%94%BB%E3%82%92%E8%A6%8B%E3%82%8B%E7%AB%B6%E9%A6%AC%E3%83%A9%E3%82%B8%E3%82%AA/id1463929447?uo=4"
+        },
+        {
+          "id": 6788593865,
+          "name": "月經紀錄、AI 睡眠追蹤、健檢報告、服用提醒 | 莊其穆診所",
+          "url": "https://apps.apple.com/cn/app/%E6%9C%88%E7%B6%93%E7%B4%80%E9%8C%84-ai-%E7%9D%A1%E7%9C%A0%E8%BF%BD%E8%B9%A4-%E5%81%A5%E6%AA%A2%E5%A0%B1%E5%91%8A-%E6%9C%8D%E7%94%A8%E6%8F%90%E9%86%92-%E8%8E%8A%E5%85%B6%E7%A9%86%E8%A8%BA%E6%89%80/id6788593865?uo=4"
+        },
+        {
+          "id": 6504533509,
+          "name": "sibuki 競艇、ボートレースの予想補助ツール",
+          "url": "https://apps.apple.com/cn/app/sibuki-%E7%AB%B6%E8%89%87-%E3%83%9C%E3%83%BC%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B9%E3%81%AE%E4%BA%88%E6%83%B3%E8%A3%9C%E5%8A%A9%E3%83%84%E3%83%BC%E3%83%AB/id6504533509?uo=4"
+        },
+        {
+          "id": 1466918240,
+          "name": "競艇予想の収支を管理 ボートレース投資を管理の競艇収支アプリ",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E8%89%87%E4%BA%88%E6%83%B3%E3%81%AE%E5%8F%8E%E6%94%AF%E3%82%92%E7%AE%A1%E7%90%86-%E3%83%9C%E3%83%BC%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B9%E6%8A%95%E8%B3%87%E3%82%92%E7%AE%A1%E7%90%86%E3%81%AE%E7%AB%B6%E8%89%87%E5%8F%8E%E6%94%AF%E3%82%A2%E3%83%97%E3%83%AA/id1466918240?uo=4"
+        },
+        {
+          "id": 1424839541,
+          "name": "競艇予想で稼ぐ！ボートレース投資のネット投票データ予想アプリ",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E8%89%87%E4%BA%88%E6%83%B3%E3%81%A7%E7%A8%BC%E3%81%90-%E3%83%9C%E3%83%BC%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B9%E6%8A%95%E8%B3%87%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E6%8A%95%E7%A5%A8%E3%83%87%E3%83%BC%E3%82%BF%E4%BA%88%E6%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id1424839541?uo=4"
+        },
+        {
+          "id": 6752889408,
+          "name": "手机扫描王 - 一键扫描文件、计数",
+          "url": "https://apps.apple.com/cn/app/%E6%89%8B%E6%9C%BA%E6%89%AB%E6%8F%8F%E7%8E%8B-%E4%B8%80%E9%94%AE%E6%89%AB%E6%8F%8F%E6%96%87%E4%BB%B6-%E8%AE%A1%E6%95%B0/id6752889408?uo=4"
+        },
+        {
+          "id": 1458452534,
+          "name": "競艇 予想【ブルーオーシャン】ボートレース予想の競艇アプリ",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E8%89%87-%E4%BA%88%E6%83%B3-%E3%83%96%E3%83%AB%E3%83%BC%E3%82%AA%E3%83%BC%E3%82%B7%E3%83%A3%E3%83%B3-%E3%83%9C%E3%83%BC%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B9%E4%BA%88%E6%83%B3%E3%81%AE%E7%AB%B6%E8%89%87%E3%82%A2%E3%83%97%E3%83%AA/id1458452534?uo=4"
+        },
+        {
+          "id": 1546586545,
+          "name": "中友百貨APP上架",
+          "url": "https://apps.apple.com/cn/app/%E4%B8%AD%E5%8F%8B%E7%99%BE%E8%B2%A8app%E4%B8%8A%E6%9E%B6/id1546586545?uo=4"
+        },
+        {
+          "id": 1468068450,
+          "name": "競馬コミュ 競馬好きの競馬コミュニティ",
+          "url": "https://apps.apple.com/cn/app/%E7%AB%B6%E9%A6%AC%E3%82%B3%E3%83%9F%E3%83%A5-%E7%AB%B6%E9%A6%AC%E5%A5%BD%E3%81%8D%E3%81%AE%E7%AB%B6%E9%A6%AC%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%83%86%E3%82%A3/id1468068450?uo=4"
+        },
+        {
+          "id": 6789790776,
+          "name": "拾點",
+          "url": "https://apps.apple.com/cn/app/%E6%8B%BE%E9%BB%9E/id6789790776?uo=4"
+        }
+      ]
+    }
+  ]
+}

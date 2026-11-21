@@ -1,0 +1,65 @@
+{
+  "status": "PUBLIC_DOCUMENTATION_RESEARCH_ONLY_NO_AUTHENTICATED_API_CALLS",
+  "sources": [
+    {
+      "url": "https://developer.apple.com/documentation/apple-ads-platform-api/access-overview",
+      "fetchedAtUTC": "2026-10-27T04:12:50.058902+00:00",
+      "sha256": "ba82559f0aabaa88fef493cb09446041627dbf2585334e5c6210f6491ef9fbed",
+      "privateSnapshot": "output/aso-20261027/official-docs/access-overview.md"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/apple-ads-platform-api/implementing-oauth-for-the-apple-ads-platform-api",
+      "fetchedAtUTC": "2026-10-27T04:12:50.059460+00:00",
+      "sha256": "b96245c360fda90a60568776f321ea2ab426ad90899e80951ba8665f10fc8a1c",
+      "privateSnapshot": "output/aso-20261027/official-docs/implementing-oauth-for-the-apple-ads-platform-api.md"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/apple-ads-platform-api/query-app-search-term-popularity-data",
+      "fetchedAtUTC": "2026-10-27T04:12:50.059621+00:00",
+      "sha256": "db94bedbc2a7ee492214bb4be278111fd4a9cc6b1b6f9732890822ef2b4bd451",
+      "privateSnapshot": "output/aso-20261027/official-docs/query-app-search-term-popularity-data.md"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/apple-ads-platform-api/query-phrase-suggestions",
+      "fetchedAtUTC": "2026-10-27T04:12:50.059764+00:00",
+      "sha256": "d6041d9e2998eaeca1b4ee81cadf8e90c9e74acd59cadcb432047bb8bc22205d",
+      "privateSnapshot": "output/aso-20261027/official-docs/query-phrase-suggestions.md"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/apple-ads-platform-api/query-supported-app-languages",
+      "fetchedAtUTC": "2026-10-27T04:12:50.059917+00:00",
+      "sha256": "d57b2762a463bf6ac8f83572e68fbca7468a651a2ee81a2f7ad500fe739be725",
+      "privateSnapshot": "output/aso-20261027/official-docs/query-supported-app-languages.md"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/apple-ads-platform-api/recommendationqueryrequest",
+      "fetchedAtUTC": "2026-10-27T04:12:50.060085+00:00",
+      "sha256": "431b2673d3609e7360d4656acf7338dc1c1c78e5a5fe0d4a1ad963368f4e19da",
+      "privateSnapshot": "output/aso-20261027/official-docs/recommendationqueryrequest.md"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/apple-ads-platform-api/searches-for-a-list-of-apps",
+      "fetchedAtUTC": "2026-10-27T04:12:50.060209+00:00",
+      "sha256": "46ce65a51e8376c089939c4f4a7327e77f4468f4295aa5ad59d4be5f2696ddbf",
+      "privateSnapshot": "output/aso-20261027/official-docs/searches-for-a-list-of-apps.md"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/apple-ads-platform-api/searchtermpopularityqueryrequest",
+      "fetchedAtUTC": "2026-10-27T04:12:50.060349+00:00",
+      "sha256": "fbc45427523232953c2add8646d59d95048efee824899ef8a5675ad4c31168dd",
+      "privateSnapshot": "output/aso-20261027/official-docs/searchtermpopularityqueryrequest.md"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/apple-ads-platform-api/searchtermpopularityrow",
+      "fetchedAtUTC": "2026-10-27T04:12:50.060469+00:00",
+      "sha256": "4da04a34643e5458fe3f7e164a87fae141e385aa674b89b22a59fba03a2537a4",
+      "privateSnapshot": "output/aso-20261027/official-docs/searchtermpopularityrow.md"
+    },
+    {
+      "url": "https://developer.apple.com/documentation/apple-ads-platform-api/suggestions-endpoints",
+      "fetchedAtUTC": "2026-10-27T04:12:50.060598+00:00",
+      "sha256": "39b5720ae314c216ec37000ad00f892708a99a921546ef9faed923e8e5f60e11",
+      "privateSnapshot": "output/aso-20261027/official-docs/suggestions-endpoints.md"
+    }
+  ]
+}
