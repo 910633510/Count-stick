@@ -1,0 +1,235 @@
+{
+  "status": "INDEPENDENT_REVIEW_COMPLETE_343_PASS_780_QUARANTINE",
+  "createdUTC": "2026-10-26T16:28:07.190099+00:00",
+  "reviewer": "colony_papers",
+  "images": [
+    {
+      "id": "new_maco_0343",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000343.jpg",
+      "imageSHA256": "f8907c9b143767137634355f2c9faf765b4186ccf550cdb113eb9774c03da3a8",
+      "authorXMLPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000343.xml",
+      "authorXMLSHA256": "7d45ed18d347f5f0ebc7342174c7892d935dcb75efa83b1aebb8f4dd5aba908a",
+      "authorCount": 12,
+      "authorBoxes": [
+        [
+          285,
+          408,
+          348,
+          468
+        ],
+        [
+          335,
+          377,
+          396,
+          435
+        ],
+        [
+          403,
+          398,
+          463,
+          460
+        ],
+        [
+          499,
+          396,
+          558,
+          454
+        ],
+        [
+          567,
+          383,
+          623,
+          440
+        ],
+        [
+          625,
+          393,
+          682,
+          450
+        ],
+        [
+          684,
+          385,
+          741,
+          439
+        ],
+        [
+          747,
+          396,
+          805,
+          455
+        ],
+        [
+          807,
+          389,
+          864,
+          449
+        ],
+        [
+          860,
+          376,
+          913,
+          431
+        ],
+        [
+          1131,
+          300,
+          1157,
+          327
+        ],
+        [
+          1135,
+          293,
+          1158,
+          310
+        ]
+      ],
+      "width": 1280,
+      "height": 960,
+      "sourceFamilyAssessment": "No exact SHA/RGB match to old241 or current69identity witness; prior SIFT only matches the unused source itself, with no known used family match.",
+      "modelInferencePerformed": false,
+      "status": "PASS_TRAIN_ONLY_VISUAL_CANDIDATE",
+      "independentCount": 12,
+      "materialAssessment": "Visible cylindrical metal tube bodies and hollow front mouths with metallic rim/specular surfaces.",
+      "visualCountBreakdown": {
+        "mainForegroundFronts": 10,
+        "rightRearStackedFronts": 2
+      },
+      "reviewNotes": [
+        "Viewed original and numbered author overlay before inspecting original-pixel right-rear zoom.",
+        "The two right-rear boxes correspond to upper/lower separate front mouths, not duplicate boxes on one opening.",
+        "Leftward highlights/shadows in the rear cluster do not establish a third additional opening; none added.",
+        "The rear mouths are small and blurred, so this remains a difficult training-only view, not new field-accuracy evidence."
+      ],
+      "requiredBoxCorrections": [],
+      "newSplitAllowed": [
+        "train"
+      ],
+      "finalDatasetAdmission": "Root freeze required"
+    },
+    {
+      "id": "new_maco_0780",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000780.jpg",
+      "imageSHA256": "fdfb85982c32cdebc40e21e8cbf22ed6bc1528f9d0b1b24a92903465ae7b6ca6",
+      "authorXMLPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000780.xml",
+      "authorXMLSHA256": "276dd1dd118024db14ad1f636e7ffc38441a3257adfc49cb19d722c57f9053fb",
+      "authorCount": 10,
+      "authorBoxes": [
+        [
+          118,
+          528,
+          181,
+          588
+        ],
+        [
+          188,
+          544,
+          251,
+          606
+        ],
+        [
+          259,
+          562,
+          324,
+          623
+        ],
+        [
+          320,
+          538,
+          381,
+          598
+        ],
+        [
+          382,
+          551,
+          447,
+          610
+        ],
+        [
+          448,
+          539,
+          512,
+          601
+        ],
+        [
+          511,
+          538,
+          571,
+          598
+        ],
+        [
+          575,
+          535,
+          641,
+          597
+        ],
+        [
+          672,
+          586,
+          754,
+          648
+        ],
+        [
+          814,
+          590,
+          903,
+          677
+        ]
+      ],
+      "width": 960,
+      "height": 1280,
+      "sourceFamilyAssessment": "No exact SHA/RGB match to old241 or current69identity witness; prior SIFT only matches the unused source itself, with no known used family match.",
+      "modelInferencePerformed": false,
+      "status": "QUARANTINE_MATERIAL_AND_COMPLETE_FRONT_SCOPE_UNRESOLVED",
+      "independentCount": null,
+      "materialAssessment": "Painted/rusted scaffold context is compatible with steel, but this view did not independently resolve the requested doubt about the yellow-brown foreground material. This is not a finding that it is bamboo.",
+      "reviewNotes": [
+        "Author target5 is blocked/filled, with no discernible open bore; a consistent blocked-end policy would be required before counting it as a positive.",
+        "An additional probable small scaffold opening around original pixel(701,500) is not covered by the10 foreground author boxes; whole-image supervision is therefore not accepted without further review.",
+        "No replacement count or invented corrective labels assigned. Do not include as positive or zero-target negative merely to add a second image."
+      ],
+      "additionalRegionToReview": [
+        690,
+        488,
+        714,
+        514
+      ],
+      "newSplitAllowed": [],
+      "finalDatasetAdmission": "Exclude from this round"
+    }
+  ],
+  "identityFamilyEvidencePath": "output/pipes-head-retention-20261026/data/positives/identity-family-review.json",
+  "identityFamilyEvidenceSHA256": "a9138fdfc6c9508adec0aad821d8083b58554121dc368de7bb5dadce8be8b296",
+  "reviewEvidence": [
+    {
+      "path": "output/pipes-head-retention-20261026/data/positives/review/maco-343-author-overlay.jpg",
+      "sha256": "4ea60d3bbd010efe483d98bda07ae0cbf8c5d4b48721794bca1e750480c82fb3"
+    },
+    {
+      "path": "output/pipes-head-retention-20261026/data/positives/review/maco343-far-end-original-pixel-zoom.png",
+      "sha256": "4ddebab8bda49745fd1fa1d423558ecd4311100d4d05a557972d305ac4046b1d"
+    },
+    {
+      "path": "output/pipes-head-retention-20261026/data/positives/review/maco343-independent-nearest-zoom.png",
+      "sha256": "f3d1e1a800e582699ff7ca8656ba84f174bf8bcd71799f21bf6063fc56fd6622"
+    },
+    {
+      "path": "output/pipes-head-retention-20261026/data/positives/review/maco-780-author-overlay.jpg",
+      "sha256": "f12dac106f9b4f308837520c3a3f8834b549db289cbbbf2c1623845c55cb9e55"
+    },
+    {
+      "path": "output/pipes-head-retention-20261026/data/positives/review/maco780-background-port-native.png",
+      "sha256": "d7e4adfb7634f3716052aaf3f6bc6e8ec281dc8f8cdbeaf3511725d2c2b60214"
+    }
+  ],
+  "existingDatasetOrLabelsModified": false,
+  "candidateAuthorXMLModified": false,
+  "newModelInference": false,
+  "current69FullManifestRead": false,
+  "currentFreshTestPixelsOrGTRead": false,
+  "limitations": [
+    "Material conclusions are visual QA, not metallurgical certification.",
+    "The old/current identity and classical screens exclude known matches; no available source capture IDs can prove absence of every different-view same-site relationship.",
+    "Only the proposed343 image is approved here as a train-only candidate; this review does not freeze a dataset or qualify a model."
+  ]
+}

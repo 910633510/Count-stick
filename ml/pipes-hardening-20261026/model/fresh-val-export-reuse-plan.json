@@ -1,0 +1,43 @@
+{
+  "status": "REUSE_EXISTING_APP_EXPORT_HELPER_FEASIBLE_WITH_PRE_FREEZE_PATH_STAGING",
+  "createdUTC": "2026-10-26T13:46:41.869270+00:00",
+  "helperPath": "Count stickTests/PipePreprocessingExportTests.swift",
+  "helperSHA256": "bbb0ed28a91a3358ead2f0e12bcc0b1260a7a6ea3fb2bfea5e28b7889a915812",
+  "actualTestMethod": "Count stickTests/PipePreprocessingExportTests/testExportRequestedTrainValPreprocessingFixtures",
+  "maximumRequestedImages": 100,
+  "requiredRequestStatus": "FROZEN_TRAIN_VAL_PREPROCESSING_REQUEST",
+  "requestPath": "output/pipes-20261026/preprocessing-request.json",
+  "observedExistingRequestSHA256": "ac7131925b1f90927d17eb8aca3532a768ecb4ac5f00583753ecb912cbf89157",
+  "latestPointerPath": "output/pipes-20261026/preprocessing/latest-frozen_train_val_photo.json",
+  "observedExistingLatestPointerSHA256": "32c2f2b1cd796e27cf4abca23458b1c5c369b819c562fac1c1c00509d8e6a238",
+  "criticalSourceRestriction": "resolve() requires relative paths resolving inside output/pipes-20261026/ for BOTH source manifest and requested images; symlink escapes rejected. No helper source edit is required if canonical fresh-val paths are staged before final dataset freeze.",
+  "proposedPreFreezeStaging": {
+    "destination": "output/pipes-20261026/hardening-fresh-val-source/",
+    "operation": "Byte-copy only accepted fresh-val original photos; SHA before/after must match; preserve raw source path in lineage. Root frozen TV manifest imagePath must name the staged allowed path. No test photo or label is involved.",
+    "manifest": "After final freeze, byte-copy the complete train-val-only manifest into output/pipes-20261026/hardening-source-train-val-manifest.json; SHA unchanged. The manifest can contain train rows with outside paths because only requested val rows are opened, but every row must be split train or val and testContentIncluded=false."
+  },
+  "executionAfterRootFreeze": [
+    "Assert current helper/App PhotoProcessing/PipeLetterbox hashes match approved hardening protocol; NMS is bound independently.",
+    "Create an exclusive backup directory under output/pipes-hardening-20261026/preprocessing/; byte-copy existing request and latest-frozen_train_val_photo.json, store their hashes before replacing request. Preserve old immutable export folder unchanged.",
+    "Create a new request with only fresh-val IDs, split=val, sourceManifestSHA equal to canonical frozen TV manifest; IDs are ASCII letters/digits/underscore/hyphen only;1..100 entries.",
+    "Run exactly testExportRequestedTrainValPreprocessingFixtures using a verified available iOS simulator. No model inference. Keep test log/result bundle separate.",
+    "Capture new latest pointer and immutable manifest path/SHA into the hardening output; assert exactly2 times fresh-val count records, sourceManifestSHA and current App three source hashes.",
+    "Use bind_hardening_inputs.py with the explicit new immutable manifest path; it reuses existing inspect_manifest hash/pixel/geometry checker and merges old80 inputs.",
+    "Restore old shared request/pointer bytes after the new immutable receipt has been captured; check restoration hashes. Do not overwrite or delete any immutable receipt."
+  ],
+  "expectedSourceSHA256": {
+    "PhotoProcessing": "6fb00ca644805e176dcca028ed1bef3932e80b451e77f2ea8759983d2c678b82",
+    "PipeLetterbox": "d64ce2aec5955400d2aa78e1769d4c4e54a0964fbbe2795c731c17b69192c46c",
+    "ExportHelper": "bbb0ed28a91a3358ead2f0e12bcc0b1260a7a6ea3fb2bfea5e28b7889a915812",
+    "NMS": "4542c36ee0f171571d9651c5ccbeec7744bb71e8b4cf7fd429137afd302a3fbe"
+  },
+  "effectsThisCheck": {
+    "requestReplaced": false,
+    "pointerReplaced": false,
+    "helperChanged": false,
+    "datasetChanged": false,
+    "freshTestRead": false,
+    "xcodebuildRun": false,
+    "modelInference": false
+  }
+}

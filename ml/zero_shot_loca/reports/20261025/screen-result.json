@@ -1,0 +1,704 @@
+{
+  "status": "COMPLETED_NO_EXEMPLAR_VALIDATION_SCREEN",
+  "completedAtUTC": "2026-10-25T20:33:37Z",
+  "protocolSHA256": "663e9d4e8811c64cf04745f0d2cc921e51b5ca8fbfeb9b6922c83d75e1579fbd",
+  "sourceCommit": "45433064e36e48e491b430f6126f439d77a9aa3c",
+  "weightsSHA256": "fe373e981328ce7057b9638802ded24633f8191a7b905e458f041d1ec6e0b87f",
+  "preprocessing": "Author validation pipeline: RGB tensor, resize to512x512, ImageNet mean/std. Explicit antialias=False matches torchvision0.12 tensor-resize default.",
+  "device": "mps",
+  "model": {
+    "totalParameterElements": 35482027,
+    "totalStateElementsIncludingBuffers": 35588267,
+    "stateTensorCount": 370,
+    "strictCheckpointLoad": true,
+    "allLoadedValuesEqualCheckpoint": true,
+    "zeroShot": true,
+    "learnedPrototypeSlots": 3,
+    "exemplarsProvided": 0,
+    "roiAlignGuardInstalled": true,
+    "sourceArchitectureUnchanged": true,
+    "adaptation": "Bypass CUDA/DDP runner; avoid redundant ImageNet/SwAV initialization downloads because complete checkpoint restores every tensor; useCPU/MPS device."
+  },
+  "locaZeroShot": {
+    "images": 58,
+    "MAE": 22.499908249953698,
+    "RMSE": 68.62078523180712,
+    "bias": -18.63422466146535,
+    "roundedExactCountImages": 1
+  },
+  "famnetWithExemplars": {
+    "images": 58,
+    "MAE": 35.03864523049059,
+    "RMSE": 137.1728322519136,
+    "bias": -20.089796111501496,
+    "roundedExactCountImages": 1
+  },
+  "densityBuckets": {
+    "1-20": {
+      "locaZeroShot": {
+        "images": 30,
+        "MAE": 5.566222429275513,
+        "RMSE": 9.444390945409717,
+        "bias": -0.06720229784647623,
+        "roundedExactCountImages": 0
+      },
+      "famnetWithExemplars": {
+        "images": 30,
+        "MAE": 7.212955466906229,
+        "RMSE": 9.28703042525734,
+        "bias": 4.613600420951843,
+        "roundedExactCountImages": 0
+      }
+    },
+    "21-100": {
+      "locaZeroShot": {
+        "images": 24,
+        "MAE": 12.925374448299408,
+        "RMSE": 17.10278096395325,
+        "bias": -10.457080940405527,
+        "roundedExactCountImages": 1
+      },
+      "famnetWithExemplars": {
+        "images": 24,
+        "MAE": 17.050636251767475,
+        "RMSE": 21.172016343762113,
+        "bias": 3.540981968243917,
+        "roundedExactCountImages": 1
+      }
+    },
+    "101-500": {
+      "locaZeroShot": {
+        "images": 2,
+        "MAE": 56.06723403930664,
+        "RMSE": 56.07887846500365,
+        "bias": -56.06723403930664,
+        "roundedExactCountImages": 0
+      },
+      "famnetWithExemplars": {
+        "images": 2,
+        "MAE": 24.921588897705078,
+        "RMSE": 29.563188956406478,
+        "bias": -15.902721405029297,
+        "roundedExactCountImages": 0
+      }
+    },
+    ">500": {
+      "locaZeroShot": {
+        "images": 2,
+        "MAE": 357.832275390625,
+        "RMSE": 358.55641535721253,
+        "bias": -357.832275390625,
+        "roundedExactCountImages": 0
+      },
+      "famnetWithExemplars": {
+        "images": 2,
+        "MAE": 678.3971557617188,
+        "RMSE": 733.5723712535416,
+        "bias": -678.3971557617188,
+        "roundedExactCountImages": 0
+      }
+    }
+  },
+  "secondsFor58AndNegativeControls": 5.3624072499999995,
+  "meanImageInferenceSeconds": 0.08747817029310336,
+  "processPeakRSSBytes": 2149597184,
+  "maxObservedMPSAllocatedBytes": 142354688,
+  "maxObservedMPSDriverBytes": 1813757952,
+  "memoryCaveat": "Process RSS includes checkpoint loading andCPU pilot; MPS values are observed after forwards, not guaranteed transient peaks or iPhone memory.",
+  "syntheticNegativeControls": [
+    {
+      "syntheticControl": "blank-white",
+      "truth": 0,
+      "prediction": 90.41126251220703,
+      "seconds": 0.0874414580000007,
+      "scope": "Synthetic solid image only, not real background/empty-plate acceptance."
+    },
+    {
+      "syntheticControl": "blank-gray",
+      "truth": 0,
+      "prediction": 70.43795013427734,
+      "seconds": 0.08689645800000001,
+      "scope": "Synthetic solid image only, not real background/empty-plate acceptance."
+    }
+  ],
+  "images": [
+    {
+      "image": "7649.jpg",
+      "class": "ants",
+      "truth": 19,
+      "imageSHA256": "8795cdd8aa43f3add5f31796362c8f3164479680f429f9c417f34ccb5fc5590b",
+      "famnetBaselinePrediction": 29.76506805419922,
+      "locaZeroShotPrediction": 22.214696884155273,
+      "inferenceSeconds": 0.08731441699999998
+    },
+    {
+      "image": "734.jpg",
+      "class": "ants",
+      "truth": 20,
+      "imageSHA256": "23803a6efa04845c6947c33b838687571f31c1283ccd91c686afe45facb872ab",
+      "famnetBaselinePrediction": 37.62299728393555,
+      "locaZeroShotPrediction": 21.086626052856445,
+      "inferenceSeconds": 0.0860322499999997
+    },
+    {
+      "image": "948.jpg",
+      "class": "birds",
+      "truth": 24,
+      "imageSHA256": "055c307b4c4519a7b4e3b2009a42699f444b5baf0a2048e81bd1c7fac1ce2e80",
+      "famnetBaselinePrediction": 31.706066131591797,
+      "locaZeroShotPrediction": 22.68890380859375,
+      "inferenceSeconds": 0.08653587500000004
+    },
+    {
+      "image": "949.jpg",
+      "class": "birds",
+      "truth": 1092,
+      "imageSHA256": "f73c2b3293ead6765105c4554a2b91d479da4e5902a5fb32c853121f4374ead3",
+      "famnetBaselinePrediction": 134.48687744140625,
+      "locaZeroShotPrediction": 756.9441528320312,
+      "inferenceSeconds": 0.08655137499999999
+    },
+    {
+      "image": "840.jpg",
+      "class": "books",
+      "truth": 637,
+      "imageSHA256": "8449a3edcabf1dc51f51b69c1053385c99de06e7e4f1e1e6d71dc94b4f3317da",
+      "famnetBaselinePrediction": 237.71881103515625,
+      "locaZeroShotPrediction": 256.39129638671875,
+      "inferenceSeconds": 0.08588600000000035
+    },
+    {
+      "image": "6875.jpg",
+      "class": "books",
+      "truth": 20,
+      "imageSHA256": "b62d210485b1bccabca601271e4a445acc6dd0d295646efb8ecc589495ceb4d4",
+      "famnetBaselinePrediction": 22.103607177734375,
+      "locaZeroShotPrediction": 21.654767990112305,
+      "inferenceSeconds": 0.08788762499999958
+    },
+    {
+      "image": "1999.jpg",
+      "class": "bottle caps",
+      "truth": 83,
+      "imageSHA256": "c9de0054692bcc3e7d6db4a652718f8a31c5e892c1eb8ddd6e0a68a93d4ee9fd",
+      "famnetBaselinePrediction": 127.17691802978516,
+      "locaZeroShotPrediction": 88.31716918945312,
+      "inferenceSeconds": 0.08894766600000015
+    },
+    {
+      "image": "819.jpg",
+      "class": "bottle caps",
+      "truth": 40,
+      "imageSHA256": "def2a2d86fc8718cc1b5530e7318c493975206b997902de4363986e7a73dc63b",
+      "famnetBaselinePrediction": 38.153690338134766,
+      "locaZeroShotPrediction": 26.837499618530273,
+      "inferenceSeconds": 0.08662533299999975
+    },
+    {
+      "image": "4095.jpg",
+      "class": "bullets",
+      "truth": 11,
+      "imageSHA256": "6fc59ee3e11f5dd3a3cd863e853ef3161b50423dfb01b4b63f340837c584073d",
+      "famnetBaselinePrediction": 23.47499656677246,
+      "locaZeroShotPrediction": 13.177258491516113,
+      "inferenceSeconds": 0.08961391600000024
+    },
+    {
+      "image": "4096.jpg",
+      "class": "bullets",
+      "truth": 8,
+      "imageSHA256": "ff9a90e3ad79d786aed4c92f5538d7c3694c7c5d2024c46d90195affd5ae1abd",
+      "famnetBaselinePrediction": 10.904129028320312,
+      "locaZeroShotPrediction": 8.74569034576416,
+      "inferenceSeconds": 0.08996608399999939
+    },
+    {
+      "image": "2316.jpg",
+      "class": "camels",
+      "truth": 58,
+      "imageSHA256": "fa867b76ef68cdf6bbbdbf822533f7e9f3ab8d502b326345c473069f7e7d1b94",
+      "famnetBaselinePrediction": 33.196205139160156,
+      "locaZeroShotPrediction": 64.62591552734375,
+      "inferenceSeconds": 0.0889650839999998
+    },
+    {
+      "image": "2312.jpg",
+      "class": "camels",
+      "truth": 14,
+      "imageSHA256": "99c9e2c6337330ac91a770e1ca465c56b0fbb88565efd02585e28bccf697b677",
+      "famnetBaselinePrediction": 11.014341354370117,
+      "locaZeroShotPrediction": 11.429628372192383,
+      "inferenceSeconds": 0.08806437500000008
+    },
+    {
+      "image": "2875.jpg",
+      "class": "chairs",
+      "truth": 60,
+      "imageSHA256": "0b55c0448f69392ecd716b02fd067e91e9f9e23d9d0d7dde1462aee7e0c22ef7",
+      "famnetBaselinePrediction": 72.2544174194336,
+      "locaZeroShotPrediction": 15.649946212768555,
+      "inferenceSeconds": 0.0891779589999997
+    },
+    {
+      "image": "2830.jpg",
+      "class": "chairs",
+      "truth": 62,
+      "imageSHA256": "65d2bd0f7db1d4c256c3a5f557b9a6c2e8a183bb5d9143a714080492c1f7ae50",
+      "famnetBaselinePrediction": 34.12648010253906,
+      "locaZeroShotPrediction": 28.414255142211914,
+      "inferenceSeconds": 0.08844474999999985
+    },
+    {
+      "image": "3560.jpg",
+      "class": "chicken wings",
+      "truth": 23,
+      "imageSHA256": "f8c6fdd1c77f421ae1c28de86715e2c957cdbedf66cfc7c22c33a622745be5b0",
+      "famnetBaselinePrediction": 6.0894927978515625,
+      "locaZeroShotPrediction": 18.846786499023438,
+      "inferenceSeconds": 0.08851175000000033
+    },
+    {
+      "image": "5106.jpg",
+      "class": "chicken wings",
+      "truth": 23,
+      "imageSHA256": "93174a705b14ec5a0f4daad1b0652a2a1b31d6154ed3b33ab90d16e0a99f6e61",
+      "famnetBaselinePrediction": 21.681678771972656,
+      "locaZeroShotPrediction": 14.894733428955078,
+      "inferenceSeconds": 0.08771516699999982
+    },
+    {
+      "image": "5212.jpg",
+      "class": "donuts tray",
+      "truth": 12,
+      "imageSHA256": "a5ecb974ff1cc9ed5b0cebbc6dc5597b05c591066b26586224036bb1d03b7e42",
+      "famnetBaselinePrediction": 13.010398864746094,
+      "locaZeroShotPrediction": 7.373891353607178,
+      "inferenceSeconds": 0.08826216599999981
+    },
+    {
+      "image": "5663.jpg",
+      "class": "donuts tray",
+      "truth": 12,
+      "imageSHA256": "d18aedefb1400ef5ca0933286d6e166fee6d64435f3de177008d2e42e96d0d0b",
+      "famnetBaselinePrediction": 8.803057670593262,
+      "locaZeroShotPrediction": 3.907820224761963,
+      "inferenceSeconds": 0.08851970899999984
+    },
+    {
+      "image": "569.jpg",
+      "class": "flamingos",
+      "truth": 17,
+      "imageSHA256": "b90d8abd329849901434e9b875c5ffe69e3fab149a8ee746e8cfbee62b738aab",
+      "famnetBaselinePrediction": 23.86315155029297,
+      "locaZeroShotPrediction": 14.731630325317383,
+      "inferenceSeconds": 0.0885405420000005
+    },
+    {
+      "image": "4566.jpg",
+      "class": "flamingos",
+      "truth": 37,
+      "imageSHA256": "f09f8ac2a7be3114d30396abd6af40631beac112487323806663d34d130030ff",
+      "famnetBaselinePrediction": 48.074317932128906,
+      "locaZeroShotPrediction": 37.293556213378906,
+      "inferenceSeconds": 0.08826579199999962
+    },
+    {
+      "image": "7247.jpg",
+      "class": "flower pots",
+      "truth": 18,
+      "imageSHA256": "2de644c6c697c4b6b1bb67ad801c61c3ad8c5612c9744aaff83d0166b5e24dc9",
+      "famnetBaselinePrediction": 23.038827896118164,
+      "locaZeroShotPrediction": 61.88082504272461,
+      "inferenceSeconds": 0.08756716699999956
+    },
+    {
+      "image": "7504.jpg",
+      "class": "flower pots",
+      "truth": 23,
+      "imageSHA256": "4c06d958959c82765902b277dfd153edf99a6890696d6b862ef3c4896fb735da",
+      "famnetBaselinePrediction": 42.91557312011719,
+      "locaZeroShotPrediction": 20.256040573120117,
+      "inferenceSeconds": 0.08720441699999881
+    },
+    {
+      "image": "7265.jpg",
+      "class": "flowers",
+      "truth": 42,
+      "imageSHA256": "2b8994ac41d4e548a6b61d6e86e6b164aaa084d8bc6077c65ed5ab6ffde95cb1",
+      "famnetBaselinePrediction": 62.19860076904297,
+      "locaZeroShotPrediction": 36.0926399230957,
+      "inferenceSeconds": 0.0886997909999998
+    },
+    {
+      "image": "6725.jpg",
+      "class": "flowers",
+      "truth": 20,
+      "imageSHA256": "11a6ae03206ffec6ea81a497ed446426625c1fb1067304cb661ed988273a2c06",
+      "famnetBaselinePrediction": 21.547489166259766,
+      "locaZeroShotPrediction": 12.7727632522583,
+      "inferenceSeconds": 0.08996533300000031
+    },
+    {
+      "image": "7540.jpg",
+      "class": "fresh cut",
+      "truth": 64,
+      "imageSHA256": "beab0a1441f2a4af8a856c10cfcfa1f4d9f59a1390dec17ffc586fce5cdd5af7",
+      "famnetBaselinePrediction": 81.11377716064453,
+      "locaZeroShotPrediction": 40.387237548828125,
+      "inferenceSeconds": 0.09054329199999955
+    },
+    {
+      "image": "7532.jpg",
+      "class": "fresh cut",
+      "truth": 20,
+      "imageSHA256": "435fbc8ef45b87d41e0e6c973c93db14aad687a90e61daf6a4b9d9661624a95b",
+      "famnetBaselinePrediction": 15.757479667663574,
+      "locaZeroShotPrediction": 12.995609283447266,
+      "inferenceSeconds": 0.08754479200000098
+    },
+    {
+      "image": "5911.jpg",
+      "class": "grapes",
+      "truth": 40,
+      "imageSHA256": "6541a23fc936b570223af8d99cc7b3afec3a8ce27f217fc2ac07df44a590fcf3",
+      "famnetBaselinePrediction": 18.572847366333008,
+      "locaZeroShotPrediction": 26.549198150634766,
+      "inferenceSeconds": 0.08707266699999927
+    },
+    {
+      "image": "243.jpg",
+      "class": "grapes",
+      "truth": 33,
+      "imageSHA256": "45face5bc6c8e7feddfcffce2a865442cb38212a0918cf608ce99004231deafe",
+      "famnetBaselinePrediction": 75.73651123046875,
+      "locaZeroShotPrediction": 43.20391082763672,
+      "inferenceSeconds": 0.08584733299999847
+    },
+    {
+      "image": "6979.jpg",
+      "class": "horses",
+      "truth": 11,
+      "imageSHA256": "61b7d56f569ef90693fed4bf519243b696b3d728d1d0b8037467505691ee3ad2",
+      "famnetBaselinePrediction": 15.589588165283203,
+      "locaZeroShotPrediction": 8.310745239257812,
+      "inferenceSeconds": 0.08675933299999983
+    },
+    {
+      "image": "7543.jpg",
+      "class": "horses",
+      "truth": 19,
+      "imageSHA256": "c7e3fa894237590e3653ee20704612129655d0fccf6e80a7b8edff9d774677dd",
+      "famnetBaselinePrediction": 11.286359786987305,
+      "locaZeroShotPrediction": 21.954975128173828,
+      "inferenceSeconds": 0.0851192919999999
+    },
+    {
+      "image": "4608.jpg",
+      "class": "kiwis",
+      "truth": 19,
+      "imageSHA256": "5636872b8f0ed2576d9c00713ca6369ce045e9b898f9d7ffdc9fe9359d898b40",
+      "famnetBaselinePrediction": 44.49490737915039,
+      "locaZeroShotPrediction": 23.549095153808594,
+      "inferenceSeconds": 0.08663575000000101
+    },
+    {
+      "image": "4584.jpg",
+      "class": "kiwis",
+      "truth": 10,
+      "imageSHA256": "f801fbe268c88fd50a26b836254ed886eff646be68f4ddca2500368235df759e",
+      "famnetBaselinePrediction": 12.548868179321289,
+      "locaZeroShotPrediction": 5.225802421569824,
+      "inferenceSeconds": 0.08702508300000034
+    },
+    {
+      "image": "6877.jpg",
+      "class": "milk cartons",
+      "truth": 66,
+      "imageSHA256": "50025cc59915122e56a4034a2de1557119974e09253925a9d4ffcb974f5535a0",
+      "famnetBaselinePrediction": 58.65497589111328,
+      "locaZeroShotPrediction": 51.57344055175781,
+      "inferenceSeconds": 0.08649458300000035
+    },
+    {
+      "image": "7012.jpg",
+      "class": "milk cartons",
+      "truth": 66,
+      "imageSHA256": "02f426223048c3e59bab3e92cff5df968612eae34de5f0cdf23625edbba3a54b",
+      "famnetBaselinePrediction": 66.0302734375,
+      "locaZeroShotPrediction": 36.39369201660156,
+      "inferenceSeconds": 0.08793000000000006
+    },
+    {
+      "image": "4108.jpg",
+      "class": "oyster shells",
+      "truth": 49,
+      "imageSHA256": "24b87f48392c51934beed7fedc2c97493896812c43b409b1933eec2f5cb89e2d",
+      "famnetBaselinePrediction": 13.948481559753418,
+      "locaZeroShotPrediction": 42.47090148925781,
+      "inferenceSeconds": 0.0873730419999994
+    },
+    {
+      "image": "4102.jpg",
+      "class": "oyster shells",
+      "truth": 15,
+      "imageSHA256": "ab5a66332ec8db87ec4d4ba981eaae3b78be7874dff258153e071c9d164eb7e5",
+      "famnetBaselinePrediction": 33.852943420410156,
+      "locaZeroShotPrediction": 10.836867332458496,
+      "inferenceSeconds": 0.08602420899999963
+    },
+    {
+      "image": "3981.jpg",
+      "class": "oysters",
+      "truth": 8,
+      "imageSHA256": "902aa169a24f7b4a715510845e22865020fc63bf6a22b1955ea85855e4a1b160",
+      "famnetBaselinePrediction": 4.120000839233398,
+      "locaZeroShotPrediction": 3.471733808517456,
+      "inferenceSeconds": 0.08672320800000044
+    },
+    {
+      "image": "3979.jpg",
+      "class": "oysters",
+      "truth": 9,
+      "imageSHA256": "d1fb34e3310f63f02106d5a55a018782c35d9202c39eedd11b159fd5bc96d9aa",
+      "famnetBaselinePrediction": 3.0918729305267334,
+      "locaZeroShotPrediction": 23.631946563720703,
+      "inferenceSeconds": 0.08761316699999888
+    },
+    {
+      "image": "4735.jpg",
+      "class": "peaches",
+      "truth": 13,
+      "imageSHA256": "3d8d9338fe2e72b9d505d18c024b310dc1f5e75ff6173696251d7fea8bc22a60",
+      "famnetBaselinePrediction": 6.002213478088379,
+      "locaZeroShotPrediction": 6.699362754821777,
+      "inferenceSeconds": 0.08933420800000036
+    },
+    {
+      "image": "4746.jpg",
+      "class": "peaches",
+      "truth": 39,
+      "imageSHA256": "055305ef4adc0dcf966461b3e38bc1a1e50f53eb1d836d4e5b0edaba7c39b18c",
+      "famnetBaselinePrediction": 64.77172088623047,
+      "locaZeroShotPrediction": 34.724388122558594,
+      "inferenceSeconds": 0.08772566700000084
+    },
+    {
+      "image": "6300.jpg",
+      "class": "pills",
+      "truth": 24,
+      "imageSHA256": "c25e5de2ddd99a5ef087ecbceefc8e65bf5144ac28d622fdf5157cbb7ffcabdb",
+      "famnetBaselinePrediction": 21.819446563720703,
+      "locaZeroShotPrediction": 17.40757942199707,
+      "inferenceSeconds": 0.08812916599999987
+    },
+    {
+      "image": "6302.jpg",
+      "class": "pills",
+      "truth": 58,
+      "imageSHA256": "11a0592ba04651acdf95fbb50d0af3950b442561ed02da9a46ddeab5980c4aa7",
+      "famnetBaselinePrediction": 37.67976760864258,
+      "locaZeroShotPrediction": 65.17897033691406,
+      "inferenceSeconds": 0.08901054200000047
+    },
+    {
+      "image": "3430.jpg",
+      "class": "polka dots",
+      "truth": 36,
+      "imageSHA256": "79b50121bf7aadb61f202cedae51d17ff2622b47e3aa34007c51a792436cc7e6",
+      "famnetBaselinePrediction": 36.67203140258789,
+      "locaZeroShotPrediction": 16.129302978515625,
+      "inferenceSeconds": 0.08769770799999854
+    },
+    {
+      "image": "3492.jpg",
+      "class": "polka dots",
+      "truth": 25,
+      "imageSHA256": "bc8e861d679e385fa783fb3e8c52676f651ff950d392e6165064f27ca25084fc",
+      "famnetBaselinePrediction": 48.46544647216797,
+      "locaZeroShotPrediction": 1.6420111656188965,
+      "inferenceSeconds": 0.08726145900000049
+    },
+    {
+      "image": "4139.jpg",
+      "class": "prawn crackers",
+      "truth": 8,
+      "imageSHA256": "00cd62588528673b5fa4274d8a1eb46370d933f52dfe306029866066c79e86c0",
+      "famnetBaselinePrediction": 14.356773376464844,
+      "locaZeroShotPrediction": 4.9262590408325195,
+      "inferenceSeconds": 0.08752279100000138
+    },
+    {
+      "image": "4137.jpg",
+      "class": "prawn crackers",
+      "truth": 13,
+      "imageSHA256": "5e8abe7a20c37100ce1740ef76c819a858b042b00ca3fbcc83689d50ce803554",
+      "famnetBaselinePrediction": 18.02120590209961,
+      "locaZeroShotPrediction": 9.052166938781738,
+      "inferenceSeconds": 0.08666508299999975
+    },
+    {
+      "image": "4164.jpg",
+      "class": "sausages",
+      "truth": 14,
+      "imageSHA256": "2daeb38e6534e36ed1c0c0ea4083984445bc4d29f6b31aeed382c71ce23e2ebf",
+      "famnetBaselinePrediction": 27.50811767578125,
+      "locaZeroShotPrediction": 7.734996795654297,
+      "inferenceSeconds": 0.08571904199999913
+    },
+    {
+      "image": "4167.jpg",
+      "class": "sausages",
+      "truth": 10,
+      "imageSHA256": "cf4ec2041a73860193a35c21da5b1f9513b37966eb22e4b11b337b26b5a836f9",
+      "famnetBaselinePrediction": 14.702377319335938,
+      "locaZeroShotPrediction": 17.589420318603516,
+      "inferenceSeconds": 0.08622279199999916
+    },
+    {
+      "image": "4729.jpg",
+      "class": "seagulls",
+      "truth": 23,
+      "imageSHA256": "9950dc1d1b24cf51e2ac7d1f7905334e0bb63c986b9dc9d1bd572b33e69d4cf0",
+      "famnetBaselinePrediction": 44.9837646484375,
+      "locaZeroShotPrediction": 20.291446685791016,
+      "inferenceSeconds": 0.08610058300000034
+    },
+    {
+      "image": "4721.jpg",
+      "class": "seagulls",
+      "truth": 17,
+      "imageSHA256": "aa5705b9d9c7c9241cbf7fd380008c73a0eccef820d38c6e04eb05214b778c31",
+      "famnetBaselinePrediction": 34.04608154296875,
+      "locaZeroShotPrediction": 12.32278060913086,
+      "inferenceSeconds": 0.08552995799999863
+    },
+    {
+      "image": "3870.jpg",
+      "class": "shallots",
+      "truth": 17,
+      "imageSHA256": "459ebe1246b541a733f10936cc3504661f97bc630079e60d883ccaf376e058c0",
+      "famnetBaselinePrediction": 20.898775100708008,
+      "locaZeroShotPrediction": 15.483509063720703,
+      "inferenceSeconds": 0.08499691600000148
+    },
+    {
+      "image": "3873.jpg",
+      "class": "shallots",
+      "truth": 7,
+      "imageSHA256": "16487a1051d2776c697194b62eb6fccf8d1a66d0df30636c21c79553f4da939c",
+      "famnetBaselinePrediction": 2.9343485832214355,
+      "locaZeroShotPrediction": 2.643977403640747,
+      "inferenceSeconds": 0.08583800000000075
+    },
+    {
+      "image": "6729.jpg",
+      "class": "shirts",
+      "truth": 251,
+      "imageSHA256": "c6f17cd397e4781d1dfcd32e5faa6b33413ff2973b6e116736ae4dc8f2ae2d1e",
+      "famnetBaselinePrediction": 210.17568969726562,
+      "locaZeroShotPrediction": 196.0755157470703,
+      "inferenceSeconds": 0.08733195800000004
+    },
+    {
+      "image": "7223.jpg",
+      "class": "shirts",
+      "truth": 105,
+      "imageSHA256": "42d1dda6010dda3e1f9e94fa8dc7fbf97bfaeb743c4f1ab5b5a690c949294a1a",
+      "famnetBaselinePrediction": 114.01886749267578,
+      "locaZeroShotPrediction": 47.790016174316406,
+      "inferenceSeconds": 0.08650333399999965
+    },
+    {
+      "image": "916.jpg",
+      "class": "skateboard",
+      "truth": 9,
+      "imageSHA256": "351f8cf697792c7448648331225ad77f10a147ff1ef8a008da1e07d90d8df181",
+      "famnetBaselinePrediction": 16.73300552368164,
+      "locaZeroShotPrediction": 7.402915000915527,
+      "inferenceSeconds": 0.08812566699999991
+    },
+    {
+      "image": "918.jpg",
+      "class": "skateboard",
+      "truth": 47,
+      "imageSHA256": "9ad3f5fda40c632b69ceba301d61feb541943eaa6eb564ff8fae8ff414ab7276",
+      "famnetBaselinePrediction": 43.961082458496094,
+      "locaZeroShotPrediction": 24.160531997680664,
+      "inferenceSeconds": 0.08887754199999875
+    },
+    {
+      "image": "5152.jpg",
+      "class": "toilet paper rolls",
+      "truth": 8,
+      "imageSHA256": "f1322fb4cd224d9da78158a3e7bfd147025fc45446d479c2a5e7d58afce8d6c5",
+      "famnetBaselinePrediction": 9.534473419189453,
+      "locaZeroShotPrediction": 6.13067102432251,
+      "inferenceSeconds": 0.08661991700000016
+    },
+    {
+      "image": "3672.jpg",
+      "class": "toilet paper rolls",
+      "truth": 12,
+      "imageSHA256": "0c0ae4f93e5c1b065d5d5be6a9b81f275d8be25077de2abc367586fe091fa5ae",
+      "famnetBaselinePrediction": 17.780555725097656,
+      "locaZeroShotPrediction": 9.045498847961426,
+      "inferenceSeconds": 0.08655124999999941
+    }
+  ],
+  "limitations": [
+    "Already-used class-balanced validation screen, not independent test or full benchmark.",
+    "FamNet comparison has visual exemplars; LOCA receives image only, so input conditions differ.",
+    "No automatic semantic selection guarantee in mixed-object images.",
+    "No training, no oldtest execution, no CoreML/iPhone conversion or validation, no App integration."
+  ],
+  "pairedComparison": {
+    "MAEReductionFraction": 0.3578545031651422,
+    "locaBetterImages": 35,
+    "famnetBetterImages": 23,
+    "equalErrorImages": 0,
+    "locaMedianAbsoluteError": 5.612264633178711,
+    "famnetMedianAbsoluteError": 7.709853172302246,
+    "note": "Different input conditions, already-used validation subset; not new blind-test improvement."
+  },
+  "exclusionAudit": {
+    "sourceOfficialValCount": 1286,
+    "sourceCleanValCount": 1281,
+    "actualExcludedFromOfficialVal": [
+      "1896.jpg",
+      "3477.jpg",
+      "4549.jpg",
+      "4707.jpg",
+      "4719.jpg"
+    ],
+    "densityMismatchExcluded": [
+      "3477.jpg"
+    ],
+    "crossSplitExactImageDuplicatesExcluded": [
+      "1896.jpg",
+      "4707.jpg",
+      "4549.jpg",
+      "4719.jpg"
+    ],
+    "paperKnownIssues": {
+      "7171.jpg": {
+        "inOfficialVal": false,
+        "inOfficialTest": true,
+        "inSelected58": false
+      },
+      "7611.jpg": {
+        "inOfficialVal": false,
+        "inOfficialTest": true,
+        "inSelected58": false
+      }
+    },
+    "selected58AllInFrozenCleanVal": true,
+    "officialAnnotationsRewritten": false,
+    "oldReportsRewritten": false,
+    "oldTestInferred": false
+  },
+  "assessment": "RESEARCH_CANDIDATE_ONLY_NOT_APP_READY: no boxes needed and lower paired subsetMAE, but blank-white/gray overcount90.41/70.44, worse101-500bucket, no target-category semantics, no CoreML/iPhone proof.",
+  "sourceFilesSHA256": {
+    "ml/zero_shot_loca/screen.py": "4b1024a2e319962d580157e162dbc7c662fe67c4cbffe9d43f5d74aca4a55482",
+    "ml/zero_shot_loca/predict.py": "2423b9f2da24912d323eda594b5cadd223af7cd2361e06b36c546e7838fe0c33"
+  }
+}

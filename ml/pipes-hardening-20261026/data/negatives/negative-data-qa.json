@@ -1,0 +1,112 @@
+{
+  "status": "PASS_NEGATIVE_PROPOSAL_QA_PENDING_ROOT_MERGE_FREEZE",
+  "createdUTC": "2026-10-26T13:43:02.333617+00:00",
+  "fullManifestPath": "output/pipes-hardening-20261026/data/negatives/negative-candidates.json",
+  "fullManifestSHA256": "3770944d35fba06abba6521113f1862c9647e19570440c186293c1adbd4ecce5",
+  "trainValManifestPath": "output/pipes-hardening-20261026/data/negatives/negative-train-val-candidates.json",
+  "trainValManifestSHA256": "c51c17781cacf4380b384b034b9b58f7ddd08022a6c28785cc179f69c45596e1",
+  "counts": {
+    "train": {
+      "images": 32,
+      "groups": 7,
+      "targets": 0
+    },
+    "val": {
+      "images": 2,
+      "groups": 2,
+      "targets": 0
+    },
+    "test": {
+      "images": 10,
+      "groups": 10,
+      "targets": 0
+    }
+  },
+  "sources": [
+    {
+      "source": "IJCAI2021 RebarDSC",
+      "url": "https://github.com/Armin1337/RebarDSC",
+      "paper": "https://www.ijcai.org/proceedings/2021/0172.pdf",
+      "commit": "678430339c9c61374798be7708c4a6ccecf9d9bf",
+      "availableImages": 2125,
+      "downloadedOriginalCandidates": 120,
+      "acceptedTrainingInteriorCrops": 32,
+      "fullSourcePhotosUsed": 0,
+      "note": "Published images are generally black-masked around the intended rebar bundle. Full edited parents are not included; only reviewed unmasked RGB rectangles are train-only. No source count GT reused."
+    },
+    {
+      "source": "Industrial manufacturer/distributor public photos",
+      "downloadedOriginalCandidates": 14,
+      "acceptedNaturalFullPhotos": 12,
+      "freshTestScenes": 10,
+      "freshValScenes": 2,
+      "rejected": [
+        "web-roboflow-rebar: black background removal",
+        "web-netinvest: studio product background, unused in this proposal"
+      ],
+      "sourceURLsStoredPerImage": true
+    },
+    {
+      "source": "Automation in Construction2023 steel-bar dataset",
+      "url": "https://github.com/LittleBoy1992/Steel-bar-Dataset",
+      "paper": "https://doi.org/10.1016/j.autcon.2022.104692",
+      "commit": "b45937b7ffd3a5e57d5c97bd87baeba96f164020",
+      "downloadedOriginalCandidates": 93,
+      "accepted": 0,
+      "note": "Many edited/masked source frames; no images from this source added to this bounded proposal. EveryRARmember path/size/CRC checked; original source files unchanged."
+    },
+    {
+      "source": "RebarCountDataset",
+      "url": "https://github.com/linghugoogle/RebarCountDataset",
+      "commit": "d432a551f4430fad8404a9562e61062fc22aebd8",
+      "availableImages": 250,
+      "downloadedOriginalCandidates": 96,
+      "contactReviewed": 96,
+      "uneditedContactCandidates": 3,
+      "accepted": 0,
+      "note": "93visibleblack-maskframes quarantined;3untouched-looking candidates left unused to bound current work."
+    }
+  ],
+  "downloadBudget": {
+    "githubSourceFiles": 470991163,
+    "RebarDSCSelectedCompressedMembers": 96050871,
+    "webPhotos": 7394274,
+    "officialLocal7zipTool": 1868068,
+    "sumPrimaryPayloadBytes": 576304376
+  },
+  "downloadBudgetLimit": 1500000000,
+  "budgetLimitScope": "Primary payload exactbytes plus smallmetadata/rangeheaders; wholeRebarDSC ZIP1.685GB was not downloaded. No training weights downloaded.",
+  "qa": {
+    "emptyLabelFilesAndCounts": true,
+    "all32CropsOriginalRGBPixelEquality": true,
+    "allCropSourceAndOutputSHA": true,
+    "all44ImageGeometryAndEXIF": true,
+    "trainValHasNoTestRows": true,
+    "groupFileRGBAndParentSHACrossSplitIntersectionsZero": true,
+    "oldDataChanged": false,
+    "modelInferencePerformed": false
+  },
+  "dedup": {
+    "screenPath": "output/pipes-hardening-20261026/data/negatives/group-screen.json",
+    "newCandidateParents": 323,
+    "oldFrozenAndRoundSourceViews": 1043,
+    "classicalCandidatePairs": 12147,
+    "crossOldAcceptedRegistrationEdges": 0,
+    "crossOldFlaggedSuspiciousPairs": 0,
+    "oldByteAndRGBSHAOverlapForFinalParentsAndViews": 0,
+    "oldSourceMembersScreened": 1025,
+    "note": "No detected relation is not proof of different capture sessions. Newpositive/newnegative cross-source merge QA remains root responsibility."
+  },
+  "reviewEvidence": {
+    "webNative": "ml/pipes-hardening-20261026/data/negatives/web-native-review.json",
+    "crop": "ml/pipes-hardening-20261026/data/negatives/crop-review.json",
+    "rootNativeThree": "ml/pipes-hardening-20261026/data/negatives/root-web-native-review.json"
+  },
+  "limitations": [
+    "Dataset/industrial public photos, not a prospective phone capture acceptance set.",
+    "Classical checks detected no matches to old241 views or1025 round-source corpus; unmatched does not prove independent capture sessions.",
+    "Author black-masked parent photos are excluded as full training images. Only reviewed original interior pixels are used as train-only crops.",
+    "No source author count labels are reused; zero pipe_end labels were visually assigned for this task."
+  ],
+  "nextStep": "Root independent review/positive-negative group merge and final freeze. Only then may separate operator train from TV-only manifest."
+}

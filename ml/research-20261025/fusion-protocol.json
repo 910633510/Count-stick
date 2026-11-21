@@ -1,0 +1,341 @@
+{
+  "frozenBeforeCandidateScoringUTC": "2026-10-25T20:28:19Z",
+  "scope": "EXPOSED_VALIDATION_DEVELOPMENT_ONLY",
+  "modelSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+  "manifestSHA256": "f28b0409993893f4874845c77a06207a5f98f5c620b1a5b478b733de64e1d8fa",
+  "cacheSHA256": {
+    "whole": "e7e8f7d5b60adaa80ac50565f6b81045bad4caff4b90ba0d124671128ccf83e3",
+    "tile": "6263eafa3d0768b0ab82732875a854640cbe56c892f8012c39b0f3d9959e0614"
+  },
+  "sourceSHA256": "3f4d9e3461944f11c2ac9c18a0da0c130a11bcf56e58b5f21655f6aab7dc3084",
+  "operatingConfidence": 0.3,
+  "predictionFloorForAP": 0.001,
+  "maxDetections": 1000,
+  "grid": {
+    "minimumSideAt1024": [
+      16,
+      24,
+      32
+    ],
+    "NMSIoU": [
+      0.5,
+      0.7
+    ]
+  },
+  "gatePolicy": "Strict pre-registered engineering Pareto/non-inferiority screen: improve count and macroMAE5%; keep totalTP/FN at least the better reference and totalFP no worse than the lower-FP reference; macro recall non-decreasing; per-species P/R and size recall may lose no more than2percentage points versus their stronger reference; speciesMAE tolerance1object or5%; AP drop<=1point. No gate relaxation after results.",
+  "thresholds": {
+    "countMAEMax": 14.504464285714285,
+    "macroSpeciesMAEMax": 17.15709595959596,
+    "TPMin": 5806,
+    "FPMax": 1060,
+    "FNMax": 1025,
+    "macroSpeciesRecallMin": 0.7840116136204052,
+    "AP50Min": 0.8340189387118646,
+    "AP50_95Min": 0.4045237744864434,
+    "species": {
+      "sp02": {
+        "recallMin": 0.9028758169934641,
+        "precisionMin": 0.8780933596318211,
+        "countMAEMax": 6.5
+      },
+      "sp04": {
+        "recallMin": 0.7069736842105263,
+        "precisionMin": 0.7266216216216216,
+        "countMAEMax": 6.666666666666667
+      },
+      "sp11": {
+        "recallMin": 0.9197089397089397,
+        "precisionMin": 0.8143313373253492,
+        "countMAEMax": 5.8
+      },
+      "sp13": {
+        "recallMin": 0.9194107837687604,
+        "precisionMin": 0.8366912539515279,
+        "countMAEMax": 17.833333333333332
+      },
+      "sp14": {
+        "recallMin": 0.8947005444646098,
+        "precisionMin": 0.7922481869460113,
+        "countMAEMax": 8.722222222222221
+      },
+      "sp09": {
+        "recallMin": 0.7781424148606811,
+        "precisionMin": 0.8297033618984838,
+        "countMAEMax": 17.727272727272727
+      }
+    },
+    "sizeRecallMin": {
+      "under16px": 0.7859029514757379,
+      "16to32px": 0.9194366197183098,
+      "over32px": 0.8841164658634538
+    }
+  },
+  "references": {
+    "whole": {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.3,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5197,
+      "FP": 1060,
+      "FN": 1634,
+      "precision": 0.8305897394917692,
+      "recall": 0.7607963694920217,
+      "countMAE": 25.678571428571427,
+      "countRMSE": 72.207785492385,
+      "countBias": -10.25,
+      "exactCountImages": 3,
+      "exactCountRate": 0.05357142857142857,
+      "within10PercentImages": 27,
+      "within10PercentOrOneObjectImages": 28,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 728,
+          "recall": 0.36418209104552274
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2668,
+          "recall": 0.9394366197183098
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1801,
+          "recall": 0.9041164658634538
+        }
+      },
+      "F1": 0.7941625916870416,
+      "macroSpeciesRecall": 0.7840116136204052,
+      "macroSpeciesPrecision": 0.8038619715833076,
+      "macroSpeciesMAE": 24.51582491582491,
+      "perSpecies": {
+        "sp02": {
+          "images": 10,
+          "TP": 1412,
+          "FP": 188,
+          "FN": 118,
+          "groundTruthObjects": 1530,
+          "absoluteCountError": 100,
+          "signedCountError": 70,
+          "exactCountImages": 1,
+          "precision": 0.8825,
+          "recall": 0.9228758169934641,
+          "countMAE": 10.0,
+          "countBias": 7.0
+        },
+        "sp04": {
+          "images": 6,
+          "TP": 221,
+          "FP": 75,
+          "FN": 83,
+          "groundTruthObjects": 304,
+          "absoluteCountError": 34,
+          "signedCountError": -8,
+          "exactCountImages": 1,
+          "precision": 0.7466216216216216,
+          "recall": 0.7269736842105263,
+          "countMAE": 5.666666666666667,
+          "countBias": -1.3333333333333333
+        },
+        "sp11": {
+          "images": 5,
+          "TP": 452,
+          "FP": 122,
+          "FN": 29,
+          "groundTruthObjects": 481,
+          "absoluteCountError": 93,
+          "signedCountError": 93,
+          "exactCountImages": 0,
+          "precision": 0.7874564459930313,
+          "recall": 0.9397089397089398,
+          "countMAE": 18.6,
+          "countBias": 18.6
+        },
+        "sp13": {
+          "images": 6,
+          "TP": 1626,
+          "FP": 272,
+          "FN": 173,
+          "groundTruthObjects": 1799,
+          "absoluteCountError": 101,
+          "signedCountError": 99,
+          "exactCountImages": 1,
+          "precision": 0.8566912539515279,
+          "recall": 0.9038354641467482,
+          "countMAE": 16.833333333333332,
+          "countBias": 16.5
+        },
+        "sp14": {
+          "images": 18,
+          "TP": 1008,
+          "FP": 233,
+          "FN": 94,
+          "groundTruthObjects": 1102,
+          "absoluteCountError": 139,
+          "signedCountError": 139,
+          "exactCountImages": 0,
+          "precision": 0.8122481869460113,
+          "recall": 0.9147005444646098,
+          "countMAE": 7.722222222222222,
+          "countBias": 7.722222222222222
+        },
+        "sp09": {
+          "images": 11,
+          "TP": 478,
+          "FP": 170,
+          "FN": 1137,
+          "groundTruthObjects": 1615,
+          "absoluteCountError": 971,
+          "signedCountError": -967,
+          "exactCountImages": 0,
+          "precision": 0.7376543209876543,
+          "recall": 0.2959752321981424,
+          "countMAE": 88.27272727272727,
+          "countBias": -87.9090909090909
+        }
+      },
+      "AP50": 0.7887099540560218,
+      "AP50_95": 0.40168269515364796,
+      "AP75": 0.38363987556980694,
+      "method": "Ultralytics BaseValidator matching + ap_per_class on saved predictions at IoU0.50:0.95; max1000 detections/image"
+    },
+    "tile": {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.3,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5806,
+      "FP": 1242,
+      "FN": 1025,
+      "precision": 0.8237797956867197,
+      "recall": 0.8499487629922412,
+      "countMAE": 15.267857142857142,
+      "countRMSE": 29.85410955200066,
+      "countBias": 3.875,
+      "exactCountImages": 4,
+      "exactCountRate": 0.07142857142857142,
+      "within10PercentImages": 29,
+      "within10PercentOrOneObjectImages": 29,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1611,
+          "recall": 0.8059029514757379
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2591,
+          "recall": 0.9123239436619718
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1604,
+          "recall": 0.8052208835341366
+        }
+      },
+      "F1": 0.8366597017076158,
+      "macroSpeciesRecall": 0.7771020796636195,
+      "macroSpeciesPrecision": 0.7767452123522339,
+      "macroSpeciesMAE": 18.06010101010101,
+      "perSpecies": {
+        "sp02": {
+          "images": 10,
+          "TP": 1366,
+          "FP": 155,
+          "FN": 164,
+          "groundTruthObjects": 1530,
+          "absoluteCountError": 55,
+          "signedCountError": -9,
+          "exactCountImages": 0,
+          "precision": 0.8980933596318211,
+          "recall": 0.8928104575163399,
+          "countMAE": 5.5,
+          "countBias": -0.9
+        },
+        "sp04": {
+          "images": 6,
+          "TP": 91,
+          "FP": 89,
+          "FN": 213,
+          "groundTruthObjects": 304,
+          "absoluteCountError": 124,
+          "signedCountError": -124,
+          "exactCountImages": 0,
+          "precision": 0.5055555555555555,
+          "recall": 0.2993421052631579,
+          "countMAE": 20.666666666666668,
+          "countBias": -20.666666666666668
+        },
+        "sp11": {
+          "images": 5,
+          "TP": 418,
+          "FP": 83,
+          "FN": 63,
+          "groundTruthObjects": 481,
+          "absoluteCountError": 24,
+          "signedCountError": 20,
+          "exactCountImages": 0,
+          "precision": 0.8343313373253493,
+          "recall": 0.8690228690228691,
+          "countMAE": 4.8,
+          "countBias": 4.0
+        },
+        "sp13": {
+          "images": 6,
+          "TP": 1690,
+          "FP": 381,
+          "FN": 109,
+          "groundTruthObjects": 1799,
+          "absoluteCountError": 312,
+          "signedCountError": 272,
+          "exactCountImages": 1,
+          "precision": 0.816030902945437,
+          "recall": 0.9394107837687604,
+          "countMAE": 52.0,
+          "countBias": 45.333333333333336
+        },
+        "sp14": {
+          "images": 18,
+          "TP": 952,
+          "FP": 306,
+          "FN": 150,
+          "groundTruthObjects": 1102,
+          "absoluteCountError": 156,
+          "signedCountError": 156,
+          "exactCountImages": 2,
+          "precision": 0.7567567567567568,
+          "recall": 0.8638838475499092,
+          "countMAE": 8.666666666666666,
+          "countBias": 8.666666666666666
+        },
+        "sp09": {
+          "images": 11,
+          "TP": 1289,
+          "FP": 228,
+          "FN": 326,
+          "groundTruthObjects": 1615,
+          "absoluteCountError": 184,
+          "signedCountError": -98,
+          "exactCountImages": 1,
+          "precision": 0.8497033618984838,
+          "recall": 0.7981424148606812,
+          "countMAE": 16.727272727272727,
+          "countBias": -8.909090909090908
+        }
+      },
+      "AP50": 0.8440189387118646,
+      "AP50_95": 0.4145237744864434,
+      "AP75": 0.3738411559746033,
+      "method": "Ultralytics BaseValidator matching + ap_per_class on saved predictions at IoU0.50:0.95; max1000 detections/image"
+    }
+  },
+  "oldTestInferenceAllowed": false,
+  "newExternalHoldoutInferenceAllowed": false,
+  "deploymentApproval": false,
+  "literatureRelation": "Motivated by standard full+slice prediction retention; hard size gating is an engineering variant, not strict SAHI replication."
+}

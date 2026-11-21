@@ -1,0 +1,500 @@
+{
+  "status": "ALL_96_CONTACT_REVIEWED_ONLY_3_UNEDITED_CANDIDATES_PENDING_FULLRES_AND_GROUP_QA",
+  "source": "https://github.com/linghugoogle/RebarCountDataset",
+  "selected": 96,
+  "reviewedPages": [
+    "github250-page00.jpg",
+    "github250-page01.jpg",
+    "github250-page02.jpg",
+    "github250-page03.jpg",
+    "github250-page04.jpg",
+    "github250-page05.jpg",
+    "github250-page06.jpg",
+    "github250-page07.jpg"
+  ],
+  "candidates": [
+    {
+      "index": 3,
+      "id": "github250-0492570A",
+      "reason": "No obvious artificial black mask in contact sheet; ribbed solid rebar ends visible. Need native-resolution whole-image check before final zero label."
+    },
+    {
+      "index": 44,
+      "id": "github250-6000BA04",
+      "reason": "No obvious artificial black mask in contact sheet; ribbed solid rebar ends visible. Need native-resolution whole-image check before final zero label."
+    },
+    {
+      "index": 69,
+      "id": "github250-A49FFA35",
+      "reason": "No obvious artificial black mask in contact sheet; ribbed solid rebar ends visible. Need native-resolution whole-image check before final zero label."
+    }
+  ],
+  "quarantine": [
+    {
+      "index": 0,
+      "id": "github250-000C7C0E",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 1,
+      "id": "github250-01D4FEFB",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 2,
+      "id": "github250-046F4967",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 4,
+      "id": "github250-07DD5503",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 5,
+      "id": "github250-08F7E2BB",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 6,
+      "id": "github250-09B27635",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 7,
+      "id": "github250-0E8C93E4",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 8,
+      "id": "github250-0EAC74AF",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 9,
+      "id": "github250-0EDF9500",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 10,
+      "id": "github250-1099EFCE",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 11,
+      "id": "github250-13641B22",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 12,
+      "id": "github250-147DAD30",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 13,
+      "id": "github250-1594D4CC",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 14,
+      "id": "github250-162EF44D",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 15,
+      "id": "github250-1688B30E",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 16,
+      "id": "github250-18C1A02C",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 17,
+      "id": "github250-1B82FF85",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 18,
+      "id": "github250-1DFCCF4B",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 19,
+      "id": "github250-1E0FA40B",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 20,
+      "id": "github250-1E5FB1FF",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 21,
+      "id": "github250-2338148B",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 22,
+      "id": "github250-256C1DBD",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 23,
+      "id": "github250-2798F642",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 24,
+      "id": "github250-2A7090FC",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 25,
+      "id": "github250-2E197EF1",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 26,
+      "id": "github250-2FDC9E0E",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 27,
+      "id": "github250-35346247",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 28,
+      "id": "github250-353E85DF",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 29,
+      "id": "github250-36A7E5D4",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 30,
+      "id": "github250-3794BD4B",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 31,
+      "id": "github250-38ED68D2",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 32,
+      "id": "github250-3BA38AEA",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 33,
+      "id": "github250-3BF8EE47",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 34,
+      "id": "github250-3D218F21",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 35,
+      "id": "github250-3F343E06",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 36,
+      "id": "github250-46D2A288",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 37,
+      "id": "github250-4976E3AB",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 38,
+      "id": "github250-49AD1015",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 39,
+      "id": "github250-550E6EB2",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 40,
+      "id": "github250-570D8DA2",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 41,
+      "id": "github250-5858D941",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 42,
+      "id": "github250-5BCDAEB8",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 43,
+      "id": "github250-5C94381A",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 45,
+      "id": "github250-60639D0F",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 46,
+      "id": "github250-638FA776",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 47,
+      "id": "github250-65E9CDC8",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 48,
+      "id": "github250-66D2893E",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 49,
+      "id": "github250-6B898244",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 50,
+      "id": "github250-6B91D242",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 51,
+      "id": "github250-7099AEF0",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 52,
+      "id": "github250-7421D3CD",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 53,
+      "id": "github250-8343D02C",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 54,
+      "id": "github250-881B376F",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 55,
+      "id": "github250-8A057EB9",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 56,
+      "id": "github250-8ADCAE58",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 57,
+      "id": "github250-8DA1B939",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 58,
+      "id": "github250-926A4C0C",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 59,
+      "id": "github250-9446D773",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 60,
+      "id": "github250-94DD9B86",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 61,
+      "id": "github250-9538AC60",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 62,
+      "id": "github250-95D0521E",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 63,
+      "id": "github250-97652B3F",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 64,
+      "id": "github250-98D5984B",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 65,
+      "id": "github250-9BC2B7EC",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 66,
+      "id": "github250-9F1740D8",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 67,
+      "id": "github250-A47F943C",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 68,
+      "id": "github250-A48928D0",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 70,
+      "id": "github250-ACEA2A10",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 71,
+      "id": "github250-B7DC39A4",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 72,
+      "id": "github250-B943B927",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 73,
+      "id": "github250-B9E60B56",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 74,
+      "id": "github250-BB4402AE",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 75,
+      "id": "github250-BB917D5A",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 76,
+      "id": "github250-BF5A2B05",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 77,
+      "id": "github250-C1F90358",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 78,
+      "id": "github250-C32AC471",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 79,
+      "id": "github250-C378D66B",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 80,
+      "id": "github250-C3FCD4A6",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 81,
+      "id": "github250-C911FE0A",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 82,
+      "id": "github250-C969355E",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 83,
+      "id": "github250-C99C4D23",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 84,
+      "id": "github250-CCF6E9EE",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 85,
+      "id": "github250-CD496125",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 86,
+      "id": "github250-D4C4E4DB",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 87,
+      "id": "github250-DB8345F7",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 88,
+      "id": "github250-DD6C6F82",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 89,
+      "id": "github250-E42F504E",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 90,
+      "id": "github250-E6D7C4C8",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 91,
+      "id": "github250-EB8ECF1A",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 92,
+      "id": "github250-EFE77AB2",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 93,
+      "id": "github250-F1477D62",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 94,
+      "id": "github250-F5501E38",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    },
+    {
+      "index": 95,
+      "id": "github250-F766C97D",
+      "reason": "Visible black fill/edit/hand masking in scene; exclude from natural real-negative baseline."
+    }
+  ],
+  "modelInferencePerformed": false
+}

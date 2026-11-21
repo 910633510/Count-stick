@@ -1,0 +1,20 @@
+{
+  "status": "PASS_POSITIVE_ANNOTATION_AND_PIXEL_QA_PENDING_ROOT_SPLIT",
+  "candidateManifestSHA256": "405cfccfee414035ca6d039aaa235a0b1d531f72b825c2f1122574a16f09be2a",
+  "images": 11,
+  "sampleGroups": 11,
+  "instanceBoxes": 59,
+  "fullImages": 2,
+  "explicitCountableCrops": 9,
+  "doubleVisualReview": "All11 have author-mask-assisted annotation and a separate agent visual review; Ecoli5 rejected on independent ambiguity review.",
+  "sourcePixelsUnchangedWithinSavedCrops": true,
+  "RGBPixelSHAAndByteSHAValid": true,
+  "EXIFOrientationNormal": true,
+  "coordinateBoundsAndCountsValid": true,
+  "sourceDatasetField": "Hyperspectral-derived RGB, not phone images",
+  "annotationLimitation": "Boxes and visible-instance counts only. No own pixel-accurate instance masks or microbiologist-level species adjudication claimed.",
+  "allSplitsUnassigned": true,
+  "sealedClinicalTest36Read": false,
+  "noModelPredictionsUsed": true,
+  "oldDataModified": false
+}

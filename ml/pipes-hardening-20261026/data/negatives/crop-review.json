@@ -1,0 +1,529 @@
+{
+  "status": "32_ORIGINAL_INTERIOR_CROPS_VISUALLY_REVIEWED_TRAIN_ONLY",
+  "proposalSHA256": "82d7db3355428a708dc3785be4f6982ab8c3ca6427cd47c78f9a0c1a07fac107",
+  "reviewedContactSheets": [
+    "crop-proposals-page00.jpg",
+    "crop-proposals-page01.jpg",
+    "crop-proposals-page02.jpg",
+    "crop-proposals-page03.jpg"
+  ],
+  "nativeAdditionalReview": [
+    "rebardsc-rebar_322_12MM-crop.png"
+  ],
+  "nativeNote": "Circular small piece on rebar322 is a closed metallic marker/cap on a solid bar face, not a discernible pipe lumen.",
+  "images": [
+    {
+      "id": "rebardsc-rebar_35_12MM-crop",
+      "sourceId": "rebardsc-rebar_35_12MM",
+      "sha256": "7dace5e0afc19a9610116a310d641c69a5efcf73f92ef510ca0d5d2108882e70",
+      "cropRectPixels": [
+        1044,
+        783,
+        2220,
+        1665
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_47_16MM-crop",
+      "sourceId": "rebardsc-rebar_47_16MM",
+      "sha256": "a0b6c5169bd29abfb7d67924ee4f548172b4d4859df3c000633fe1d6bed1ead2",
+      "cropRectPixels": [
+        258,
+        193,
+        548,
+        410
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_115_14MM-crop",
+      "sourceId": "rebardsc-rebar_115_14MM",
+      "sha256": "13162de1096628d88d6c61f1906f56215001110395ed69c6c5d6c67d4c182601",
+      "cropRectPixels": [
+        1044,
+        719,
+        2219,
+        1528
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_322_12MM-crop",
+      "sourceId": "rebardsc-rebar_322_12MM",
+      "sha256": "eb9e2722cc635bd058ca90603dd627a4877036806c493a0c2c93daa18cfa8717",
+      "cropRectPixels": [
+        1044,
+        783,
+        2220,
+        1665
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_442_14MM-crop",
+      "sourceId": "rebardsc-rebar_442_14MM",
+      "sha256": "618e4ea353beb274b8243a396969bad7233e66a0f85b0b1e5c3b5be319deb784",
+      "cropRectPixels": [
+        856,
+        431,
+        1819,
+        917
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_464_12MM-crop",
+      "sourceId": "rebardsc-rebar_464_12MM",
+      "sha256": "e2230b93c55624fb4fcc74bf38a1986d2178bca0e477055f1e746759d5acaa8f",
+      "cropRectPixels": [
+        1044,
+        783,
+        2220,
+        1665
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_631_18MM-crop",
+      "sourceId": "rebardsc-rebar_631_18MM",
+      "sha256": "a533e8dd948a268406435c3c68dc217f041f0963e8068a0b73d4822b400dc65a",
+      "cropRectPixels": [
+        974,
+        490,
+        2071,
+        1041
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_637_12MM-crop",
+      "sourceId": "rebardsc-rebar_637_12MM",
+      "sha256": "d0fb9b677d69cdbbe9a309fdf6ea589d86021a1082da38624e5faac878ead1a6",
+      "cropRectPixels": [
+        980,
+        672,
+        2081,
+        1427
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_686_12MM-crop",
+      "sourceId": "rebardsc-rebar_686_12MM",
+      "sha256": "4c41d650c1f28d5d1c64446b17a70b9f4dee919d0d0469bcfcfa0b1b7b0f7c9e",
+      "cropRectPixels": [
+        1044,
+        783,
+        2220,
+        1665
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_694_10MM-crop",
+      "sourceId": "rebardsc-rebar_694_10MM",
+      "sha256": "c9955d977fcb8a15fe3eb3736358434cfcf3081bb571fc1a28c22a11b62dd5a9",
+      "cropRectPixels": [
+        886,
+        615,
+        1883,
+        1307
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_786_14MM-crop",
+      "sourceId": "rebardsc-rebar_786_14MM",
+      "sha256": "634eee9d9667340cd7c7a9a2c7f56f69444e3e3e7471882735164741197c5cda",
+      "cropRectPixels": [
+        924,
+        509,
+        1963,
+        1082
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_816_16MM-crop",
+      "sourceId": "rebardsc-rebar_816_16MM",
+      "sha256": "a145f7f30ad890c34bf3c6ae5299af96d026119af43a768b3ad452fff4573144",
+      "cropRectPixels": [
+        869,
+        696,
+        1847,
+        1479
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_827_28MM-crop",
+      "sourceId": "rebardsc-rebar_827_28MM",
+      "sha256": "21fa359c69ee0d3d18b7fc0727db812f6780d935ff5d0b3808b4e0598b7edf83",
+      "cropRectPixels": [
+        906,
+        418,
+        1926,
+        888
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_888_20MM-crop",
+      "sourceId": "rebardsc-rebar_888_20MM",
+      "sha256": "a8bbe8caba02ea36e6a0995c6d555e864b063f7b199c5f2549dd756edcdbe48f",
+      "cropRectPixels": [
+        864,
+        465,
+        1837,
+        989
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_892_28MM-crop",
+      "sourceId": "rebardsc-rebar_892_28MM",
+      "sha256": "ca62b709c1d659a64cc20ee9d3a6fd9323745aabb6e0948ae0e73dc0ed225175",
+      "cropRectPixels": [
+        853,
+        526,
+        1814,
+        1119
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_922_12MM-crop",
+      "sourceId": "rebardsc-rebar_922_12MM",
+      "sha256": "3c06810ac15bb24c7a228b94633d3450d164f34dcdc6dca0d144392eb15e7bcc",
+      "cropRectPixels": [
+        978,
+        694,
+        2078,
+        1475
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_943_14MM-crop",
+      "sourceId": "rebardsc-rebar_943_14MM",
+      "sha256": "f6083145622f5f5a77f019c250542c6c9ececce4fb3b528ca6f1974c3b91f6ac",
+      "cropRectPixels": [
+        964,
+        604,
+        2049,
+        1284
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1002_12MM-crop",
+      "sourceId": "rebardsc-rebar_1002_12MM",
+      "sha256": "593b33b7b08eba70361972ffabb591864807cc478065fe8a2257c3b4ec353c4c",
+      "cropRectPixels": [
+        1044,
+        783,
+        2220,
+        1665
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1170_12MM-crop",
+      "sourceId": "rebardsc-rebar_1170_12MM",
+      "sha256": "5a40227b94600f4231770bc86136be4a27d74fb47db2f493c29cf8739cd84061",
+      "cropRectPixels": [
+        1044,
+        783,
+        2220,
+        1665
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1277_12MM-crop",
+      "sourceId": "rebardsc-rebar_1277_12MM",
+      "sha256": "08009718e8060a27effb7780c149189c36358f1a173576363cc6cf61dc5d3613",
+      "cropRectPixels": [
+        821,
+        467,
+        1744,
+        992
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1286_12MM-crop",
+      "sourceId": "rebardsc-rebar_1286_12MM",
+      "sha256": "a460c50f281a4e9932f83ee3ede18b09ae252701a3998fc56f2d32c891993630",
+      "cropRectPixels": [
+        1044,
+        783,
+        2220,
+        1665
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1291_18MM-crop",
+      "sourceId": "rebardsc-rebar_1291_18MM",
+      "sha256": "5c0845266748f58d6f36590c8d2753e4a16e002ae0fba24529b7bc4bc28fe8c3",
+      "cropRectPixels": [
+        825,
+        429,
+        1752,
+        913
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1346_10MM-crop",
+      "sourceId": "rebardsc-rebar_1346_10MM",
+      "sha256": "d5e4ff5c808a9173557206511e6a9af144a94d41c55128ee113e1c8c564cf4f7",
+      "cropRectPixels": [
+        711,
+        532,
+        1512,
+        1130
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1395_12MM-crop",
+      "sourceId": "rebardsc-rebar_1395_12MM",
+      "sha256": "4bb52b66d19e6e2af16c1b376b536e583d2f6d5c881e54bcf66f323b0c9e4221",
+      "cropRectPixels": [
+        888,
+        567,
+        1886,
+        1206
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1411_20MM-crop",
+      "sourceId": "rebardsc-rebar_1411_20MM",
+      "sha256": "270f2ca119f26a53585af9bb1d0e0ac1f763e7052b08ec6dcd866d7a53ff8811",
+      "cropRectPixels": [
+        974,
+        498,
+        2071,
+        1059
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1540_12MM-crop",
+      "sourceId": "rebardsc-rebar_1540_12MM",
+      "sha256": "470d44d1f0fc88809c7ab996e1d1c4f813540cfe8b6ebbbd4a601640a3a3ebd5",
+      "cropRectPixels": [
+        946,
+        660,
+        2010,
+        1402
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1555_12MM-crop",
+      "sourceId": "rebardsc-rebar_1555_12MM",
+      "sha256": "34ddf46226c0b31d16b0a106b04e8d447e77b1ea4d76b74579c590dd88412581",
+      "cropRectPixels": [
+        1044,
+        597,
+        2219,
+        1270
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1674_14MM-crop",
+      "sourceId": "rebardsc-rebar_1674_14MM",
+      "sha256": "95c383507c663ddd1715409167ebf4b38bc264fb04dd514f01377262064089e5",
+      "cropRectPixels": [
+        521,
+        856,
+        1107,
+        1818
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1761_20MM-crop",
+      "sourceId": "rebardsc-rebar_1761_20MM",
+      "sha256": "cb8f0dcf893e687ec9b52e415de14e33d4335ac6592409e4fc4ec4a243b76477",
+      "cropRectPixels": [
+        811,
+        582,
+        1723,
+        1236
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1809_12MM-crop",
+      "sourceId": "rebardsc-rebar_1809_12MM",
+      "sha256": "2f540bf35c17d3de05ce7fbd69188c4f226f89b40ba48be32ed87163b2663e04",
+      "cropRectPixels": [
+        783,
+        1044,
+        1665,
+        2220
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1830_14MM-crop",
+      "sourceId": "rebardsc-rebar_1830_14MM",
+      "sha256": "faad322fcdf4dd06dfc7205f01d6a2166dda083ce69c6536bf35baf72831f48e",
+      "cropRectPixels": [
+        726,
+        769,
+        1542,
+        1634
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    },
+    {
+      "id": "rebardsc-rebar_1889_28MM-crop",
+      "sourceId": "rebardsc-rebar_1889_28MM",
+      "sha256": "fa38fa70691fc358fdee35d7e2bce39c1fbab5c01e4e27c9475612fafdd5521a",
+      "cropRectPixels": [
+        697,
+        565,
+        1480,
+        1200
+      ],
+      "cropReview": "PASS",
+      "count": 0,
+      "xyxy": [],
+      "sourceHadBlackMask": true,
+      "visualEvidence": "Reviewed crop contact image: natural original metal faces/ribbed body between ends, no black overlay covering scene pixels, no visible pipe opening. Gaps/shadows and physical paint are not hollow pipe ends."
+    }
+  ],
+  "modelInferencePerformed": false
+}

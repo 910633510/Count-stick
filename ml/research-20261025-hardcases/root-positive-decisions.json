@@ -1,0 +1,69 @@
+{
+  "status": "VISUAL_REVIEW_COMPLETED_PENDING_SECOND_REVIEW",
+  "reviewer": "root Codex visual annotation",
+  "coordinateSystem": "Original 1800x1224 image pixels, xyxy, before crop translation",
+  "viewing": "Full original/proposal views plus five explicit detail crops; display brightness gain 2 for inspection only. Original and training pixels remain unchanged.",
+  "decisions": [
+    {
+      "index": 7,
+      "id": "mipro-Kpne_1",
+      "status": "ACCEPT_FULL_IMAGE",
+      "cropXYXY": null,
+      "xyxy": [[1099,20,1262,177],[871,173,1031,325],[531,348,688,496],[1093,763,1263,931],[923,812,1087,967]],
+      "count": 5,
+      "method": "All five author semantic-component boxes individually accepted after visual inspection; not newly drawn from scratch.",
+      "observation": "Five separated large round colonies. Bright rim arcs, writing and scratches are background; no other discernible colony."
+    },
+    {
+      "index": 68,
+      "id": "mipro-Kpne_4-central-crop",
+      "status": "ACCEPT_EXPLICIT_COUNTABLE_CROP",
+      "cropXYXY": [538,470,1056,1100],
+      "xyxy": [[539,499,780,722],[741,522,814,601],[817,592,1050,815],[626,889,788,1041],[920,947,1056,1089]],
+      "count": 5,
+      "method": "Manually split author component14 into a large round instance and its smaller upper-right touching neighbor; accepted components16 and18; component20 clipped to the explicit crop edge.",
+      "touchingPairs": [[0,1]],
+      "observation": "Five countable visible instances in this crop. The full image includes ambiguous merged and severely clipped upper/rim growth and is not approved as a fully labelled detection image. The right edge stops before component13 begins atx1063; final yellow colony retains most of its visible body."
+    },
+    {
+      "index": 69,
+      "id": "mipro-Spyo_4-upper-crop",
+      "status": "ACCEPT_EXPLICIT_COUNTABLE_CROP",
+      "cropXYXY": [650,100,1100,397],
+      "xyxy": [[728,142,880,280],[916,237,1059,370],[900,302,1007,395]],
+      "count": 3,
+      "method": "Accepted author component1; manually split component2 into distinguishable yellow upper-right and gray lower-left round instances. No label assigned to uncertain tiny component3 below y398 because it lies outside the explicit crop.",
+      "touchingPairs": [[1,2]],
+      "observation": "Three discernible colony bodies in the crop. Full image excluded because small material immediately below the touching pair cannot be reliably classified visually."
+    },
+    {
+      "index": 6,
+      "id": "mipro-Efae_1",
+      "status": "ACCEPT_FULL_IMAGE",
+      "cropXYXY": null,
+      "xyxy": [[861,29,956,117],[1188,246,1291,344],[403,320,503,407],[300,457,388,540],[374,471,468,552],[186,572,283,656],[570,686,666,774],[175,733,264,816],[150,866,238,952],[831,1094,923,1167],[840,1158,940,1224]],
+      "count": 11,
+      "method": "Seven author component boxes individually accepted. Manually split component4 into its two side-by-side circles and component9 into two vertically adjacent circles, with the lower visible instance clipped at the image boundary.",
+      "touchingPairs": [[3,4],[9,10]],
+      "observation": "Eleven visible colony bodies. The lower pair has separate centers and clear lateral boundaries despite the lower instance being truncated. Rim reflections, marker writing and scratches remain background."
+    },
+    {
+      "index": 65,
+      "id": "mipro-Kaer_4",
+      "status": "QUARANTINE_UNRESOLVED_INSTANCE_COUNT",
+      "xyxy": null,
+      "count": null,
+      "observation": "Large rim-connected growth, clipped bodies, overlapping low-contrast lobes and glare prevent a reliable complete instance count. Semantic components are not instance counts. Do not treat as empty or silently omit difficult areas."
+    },
+    {
+      "index": 46,
+      "id": "mipro-Paer_9",
+      "status": "QUARANTINE_UNRESOLVED_INSTANCE_COUNT",
+      "xyxy": null,
+      "count": null,
+      "observation": "The single semantic component contains overlapping gray lobes and a small yellow center; visual evidence cannot reliably distinguish one irregular colony from several merged instances. No count invented."
+    }
+  ],
+  "noModelPredictionsUsedForAnnotation": true,
+  "newClinicalTest36Read": false
+}

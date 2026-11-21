@@ -1,0 +1,71 @@
+[
+  {
+    "DOI": "10.1109/tip.2025.3588255",
+    "title": [
+      "SQLNet: Scale-Modulated Query and Localization Network for Few-Shot Class-Agnostic Counting"
+    ],
+    "container-title": [
+      "IEEE Transactions on Image Processing"
+    ],
+    "publisher": "Institute of Electrical and Electronics Engineers (IEEE)",
+    "published": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "published-online": null,
+    "published-print": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "volume": "34",
+    "page": "4631-4645",
+    "URL": "https://doi.org/10.1109/tip.2025.3588255"
+  },
+  {
+    "DOI": "10.1007/s11263-024-01990-3",
+    "title": [
+      "Focus for Free in Density-Based Counting"
+    ],
+    "container-title": [
+      "International Journal of Computer Vision"
+    ],
+    "publisher": "Springer Science and Business Media LLC",
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          9
+        ]
+      ]
+    },
+    "published-online": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          9
+        ]
+      ]
+    },
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          7
+        ]
+      ]
+    },
+    "type": "journal-article",
+    "volume": "132",
+    "page": "2600-2617",
+    "URL": "https://doi.org/10.1007/s11263-024-01990-3"
+  }
+]

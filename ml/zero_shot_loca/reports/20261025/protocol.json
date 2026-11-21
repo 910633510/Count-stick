@@ -1,0 +1,460 @@
+{
+  "frozenBeforeInferenceUTC": "2026-10-25T20:33:27Z",
+  "purpose": "Feasibility screen on already-used validation, NOT a new independent test",
+  "selection": "Two per29clean validation classes; lowest SHA256(seed|filename), no count/error-based sampling.",
+  "seedString": "CountScope-LOCA-zero-shot-validation-screen-v1",
+  "sampleCount": 58,
+  "images": [
+    {
+      "image": "7649.jpg",
+      "class": "ants",
+      "truth": 19,
+      "imageSHA256": "8795cdd8aa43f3add5f31796362c8f3164479680f429f9c417f34ccb5fc5590b",
+      "famnetBaselinePrediction": 29.76506805419922
+    },
+    {
+      "image": "734.jpg",
+      "class": "ants",
+      "truth": 20,
+      "imageSHA256": "23803a6efa04845c6947c33b838687571f31c1283ccd91c686afe45facb872ab",
+      "famnetBaselinePrediction": 37.62299728393555
+    },
+    {
+      "image": "948.jpg",
+      "class": "birds",
+      "truth": 24,
+      "imageSHA256": "055c307b4c4519a7b4e3b2009a42699f444b5baf0a2048e81bd1c7fac1ce2e80",
+      "famnetBaselinePrediction": 31.706066131591797
+    },
+    {
+      "image": "949.jpg",
+      "class": "birds",
+      "truth": 1092,
+      "imageSHA256": "f73c2b3293ead6765105c4554a2b91d479da4e5902a5fb32c853121f4374ead3",
+      "famnetBaselinePrediction": 134.48687744140625
+    },
+    {
+      "image": "840.jpg",
+      "class": "books",
+      "truth": 637,
+      "imageSHA256": "8449a3edcabf1dc51f51b69c1053385c99de06e7e4f1e1e6d71dc94b4f3317da",
+      "famnetBaselinePrediction": 237.71881103515625
+    },
+    {
+      "image": "6875.jpg",
+      "class": "books",
+      "truth": 20,
+      "imageSHA256": "b62d210485b1bccabca601271e4a445acc6dd0d295646efb8ecc589495ceb4d4",
+      "famnetBaselinePrediction": 22.103607177734375
+    },
+    {
+      "image": "1999.jpg",
+      "class": "bottle caps",
+      "truth": 83,
+      "imageSHA256": "c9de0054692bcc3e7d6db4a652718f8a31c5e892c1eb8ddd6e0a68a93d4ee9fd",
+      "famnetBaselinePrediction": 127.17691802978516
+    },
+    {
+      "image": "819.jpg",
+      "class": "bottle caps",
+      "truth": 40,
+      "imageSHA256": "def2a2d86fc8718cc1b5530e7318c493975206b997902de4363986e7a73dc63b",
+      "famnetBaselinePrediction": 38.153690338134766
+    },
+    {
+      "image": "4095.jpg",
+      "class": "bullets",
+      "truth": 11,
+      "imageSHA256": "6fc59ee3e11f5dd3a3cd863e853ef3161b50423dfb01b4b63f340837c584073d",
+      "famnetBaselinePrediction": 23.47499656677246
+    },
+    {
+      "image": "4096.jpg",
+      "class": "bullets",
+      "truth": 8,
+      "imageSHA256": "ff9a90e3ad79d786aed4c92f5538d7c3694c7c5d2024c46d90195affd5ae1abd",
+      "famnetBaselinePrediction": 10.904129028320312
+    },
+    {
+      "image": "2316.jpg",
+      "class": "camels",
+      "truth": 58,
+      "imageSHA256": "fa867b76ef68cdf6bbbdbf822533f7e9f3ab8d502b326345c473069f7e7d1b94",
+      "famnetBaselinePrediction": 33.196205139160156
+    },
+    {
+      "image": "2312.jpg",
+      "class": "camels",
+      "truth": 14,
+      "imageSHA256": "99c9e2c6337330ac91a770e1ca465c56b0fbb88565efd02585e28bccf697b677",
+      "famnetBaselinePrediction": 11.014341354370117
+    },
+    {
+      "image": "2875.jpg",
+      "class": "chairs",
+      "truth": 60,
+      "imageSHA256": "0b55c0448f69392ecd716b02fd067e91e9f9e23d9d0d7dde1462aee7e0c22ef7",
+      "famnetBaselinePrediction": 72.2544174194336
+    },
+    {
+      "image": "2830.jpg",
+      "class": "chairs",
+      "truth": 62,
+      "imageSHA256": "65d2bd0f7db1d4c256c3a5f557b9a6c2e8a183bb5d9143a714080492c1f7ae50",
+      "famnetBaselinePrediction": 34.12648010253906
+    },
+    {
+      "image": "3560.jpg",
+      "class": "chicken wings",
+      "truth": 23,
+      "imageSHA256": "f8c6fdd1c77f421ae1c28de86715e2c957cdbedf66cfc7c22c33a622745be5b0",
+      "famnetBaselinePrediction": 6.0894927978515625
+    },
+    {
+      "image": "5106.jpg",
+      "class": "chicken wings",
+      "truth": 23,
+      "imageSHA256": "93174a705b14ec5a0f4daad1b0652a2a1b31d6154ed3b33ab90d16e0a99f6e61",
+      "famnetBaselinePrediction": 21.681678771972656
+    },
+    {
+      "image": "5212.jpg",
+      "class": "donuts tray",
+      "truth": 12,
+      "imageSHA256": "a5ecb974ff1cc9ed5b0cebbc6dc5597b05c591066b26586224036bb1d03b7e42",
+      "famnetBaselinePrediction": 13.010398864746094
+    },
+    {
+      "image": "5663.jpg",
+      "class": "donuts tray",
+      "truth": 12,
+      "imageSHA256": "d18aedefb1400ef5ca0933286d6e166fee6d64435f3de177008d2e42e96d0d0b",
+      "famnetBaselinePrediction": 8.803057670593262
+    },
+    {
+      "image": "569.jpg",
+      "class": "flamingos",
+      "truth": 17,
+      "imageSHA256": "b90d8abd329849901434e9b875c5ffe69e3fab149a8ee746e8cfbee62b738aab",
+      "famnetBaselinePrediction": 23.86315155029297
+    },
+    {
+      "image": "4566.jpg",
+      "class": "flamingos",
+      "truth": 37,
+      "imageSHA256": "f09f8ac2a7be3114d30396abd6af40631beac112487323806663d34d130030ff",
+      "famnetBaselinePrediction": 48.074317932128906
+    },
+    {
+      "image": "7247.jpg",
+      "class": "flower pots",
+      "truth": 18,
+      "imageSHA256": "2de644c6c697c4b6b1bb67ad801c61c3ad8c5612c9744aaff83d0166b5e24dc9",
+      "famnetBaselinePrediction": 23.038827896118164
+    },
+    {
+      "image": "7504.jpg",
+      "class": "flower pots",
+      "truth": 23,
+      "imageSHA256": "4c06d958959c82765902b277dfd153edf99a6890696d6b862ef3c4896fb735da",
+      "famnetBaselinePrediction": 42.91557312011719
+    },
+    {
+      "image": "7265.jpg",
+      "class": "flowers",
+      "truth": 42,
+      "imageSHA256": "2b8994ac41d4e548a6b61d6e86e6b164aaa084d8bc6077c65ed5ab6ffde95cb1",
+      "famnetBaselinePrediction": 62.19860076904297
+    },
+    {
+      "image": "6725.jpg",
+      "class": "flowers",
+      "truth": 20,
+      "imageSHA256": "11a6ae03206ffec6ea81a497ed446426625c1fb1067304cb661ed988273a2c06",
+      "famnetBaselinePrediction": 21.547489166259766
+    },
+    {
+      "image": "7540.jpg",
+      "class": "fresh cut",
+      "truth": 64,
+      "imageSHA256": "beab0a1441f2a4af8a856c10cfcfa1f4d9f59a1390dec17ffc586fce5cdd5af7",
+      "famnetBaselinePrediction": 81.11377716064453
+    },
+    {
+      "image": "7532.jpg",
+      "class": "fresh cut",
+      "truth": 20,
+      "imageSHA256": "435fbc8ef45b87d41e0e6c973c93db14aad687a90e61daf6a4b9d9661624a95b",
+      "famnetBaselinePrediction": 15.757479667663574
+    },
+    {
+      "image": "5911.jpg",
+      "class": "grapes",
+      "truth": 40,
+      "imageSHA256": "6541a23fc936b570223af8d99cc7b3afec3a8ce27f217fc2ac07df44a590fcf3",
+      "famnetBaselinePrediction": 18.572847366333008
+    },
+    {
+      "image": "243.jpg",
+      "class": "grapes",
+      "truth": 33,
+      "imageSHA256": "45face5bc6c8e7feddfcffce2a865442cb38212a0918cf608ce99004231deafe",
+      "famnetBaselinePrediction": 75.73651123046875
+    },
+    {
+      "image": "6979.jpg",
+      "class": "horses",
+      "truth": 11,
+      "imageSHA256": "61b7d56f569ef90693fed4bf519243b696b3d728d1d0b8037467505691ee3ad2",
+      "famnetBaselinePrediction": 15.589588165283203
+    },
+    {
+      "image": "7543.jpg",
+      "class": "horses",
+      "truth": 19,
+      "imageSHA256": "c7e3fa894237590e3653ee20704612129655d0fccf6e80a7b8edff9d774677dd",
+      "famnetBaselinePrediction": 11.286359786987305
+    },
+    {
+      "image": "4608.jpg",
+      "class": "kiwis",
+      "truth": 19,
+      "imageSHA256": "5636872b8f0ed2576d9c00713ca6369ce045e9b898f9d7ffdc9fe9359d898b40",
+      "famnetBaselinePrediction": 44.49490737915039
+    },
+    {
+      "image": "4584.jpg",
+      "class": "kiwis",
+      "truth": 10,
+      "imageSHA256": "f801fbe268c88fd50a26b836254ed886eff646be68f4ddca2500368235df759e",
+      "famnetBaselinePrediction": 12.548868179321289
+    },
+    {
+      "image": "6877.jpg",
+      "class": "milk cartons",
+      "truth": 66,
+      "imageSHA256": "50025cc59915122e56a4034a2de1557119974e09253925a9d4ffcb974f5535a0",
+      "famnetBaselinePrediction": 58.65497589111328
+    },
+    {
+      "image": "7012.jpg",
+      "class": "milk cartons",
+      "truth": 66,
+      "imageSHA256": "02f426223048c3e59bab3e92cff5df968612eae34de5f0cdf23625edbba3a54b",
+      "famnetBaselinePrediction": 66.0302734375
+    },
+    {
+      "image": "4108.jpg",
+      "class": "oyster shells",
+      "truth": 49,
+      "imageSHA256": "24b87f48392c51934beed7fedc2c97493896812c43b409b1933eec2f5cb89e2d",
+      "famnetBaselinePrediction": 13.948481559753418
+    },
+    {
+      "image": "4102.jpg",
+      "class": "oyster shells",
+      "truth": 15,
+      "imageSHA256": "ab5a66332ec8db87ec4d4ba981eaae3b78be7874dff258153e071c9d164eb7e5",
+      "famnetBaselinePrediction": 33.852943420410156
+    },
+    {
+      "image": "3981.jpg",
+      "class": "oysters",
+      "truth": 8,
+      "imageSHA256": "902aa169a24f7b4a715510845e22865020fc63bf6a22b1955ea85855e4a1b160",
+      "famnetBaselinePrediction": 4.120000839233398
+    },
+    {
+      "image": "3979.jpg",
+      "class": "oysters",
+      "truth": 9,
+      "imageSHA256": "d1fb34e3310f63f02106d5a55a018782c35d9202c39eedd11b159fd5bc96d9aa",
+      "famnetBaselinePrediction": 3.0918729305267334
+    },
+    {
+      "image": "4735.jpg",
+      "class": "peaches",
+      "truth": 13,
+      "imageSHA256": "3d8d9338fe2e72b9d505d18c024b310dc1f5e75ff6173696251d7fea8bc22a60",
+      "famnetBaselinePrediction": 6.002213478088379
+    },
+    {
+      "image": "4746.jpg",
+      "class": "peaches",
+      "truth": 39,
+      "imageSHA256": "055305ef4adc0dcf966461b3e38bc1a1e50f53eb1d836d4e5b0edaba7c39b18c",
+      "famnetBaselinePrediction": 64.77172088623047
+    },
+    {
+      "image": "6300.jpg",
+      "class": "pills",
+      "truth": 24,
+      "imageSHA256": "c25e5de2ddd99a5ef087ecbceefc8e65bf5144ac28d622fdf5157cbb7ffcabdb",
+      "famnetBaselinePrediction": 21.819446563720703
+    },
+    {
+      "image": "6302.jpg",
+      "class": "pills",
+      "truth": 58,
+      "imageSHA256": "11a0592ba04651acdf95fbb50d0af3950b442561ed02da9a46ddeab5980c4aa7",
+      "famnetBaselinePrediction": 37.67976760864258
+    },
+    {
+      "image": "3430.jpg",
+      "class": "polka dots",
+      "truth": 36,
+      "imageSHA256": "79b50121bf7aadb61f202cedae51d17ff2622b47e3aa34007c51a792436cc7e6",
+      "famnetBaselinePrediction": 36.67203140258789
+    },
+    {
+      "image": "3492.jpg",
+      "class": "polka dots",
+      "truth": 25,
+      "imageSHA256": "bc8e861d679e385fa783fb3e8c52676f651ff950d392e6165064f27ca25084fc",
+      "famnetBaselinePrediction": 48.46544647216797
+    },
+    {
+      "image": "4139.jpg",
+      "class": "prawn crackers",
+      "truth": 8,
+      "imageSHA256": "00cd62588528673b5fa4274d8a1eb46370d933f52dfe306029866066c79e86c0",
+      "famnetBaselinePrediction": 14.356773376464844
+    },
+    {
+      "image": "4137.jpg",
+      "class": "prawn crackers",
+      "truth": 13,
+      "imageSHA256": "5e8abe7a20c37100ce1740ef76c819a858b042b00ca3fbcc83689d50ce803554",
+      "famnetBaselinePrediction": 18.02120590209961
+    },
+    {
+      "image": "4164.jpg",
+      "class": "sausages",
+      "truth": 14,
+      "imageSHA256": "2daeb38e6534e36ed1c0c0ea4083984445bc4d29f6b31aeed382c71ce23e2ebf",
+      "famnetBaselinePrediction": 27.50811767578125
+    },
+    {
+      "image": "4167.jpg",
+      "class": "sausages",
+      "truth": 10,
+      "imageSHA256": "cf4ec2041a73860193a35c21da5b1f9513b37966eb22e4b11b337b26b5a836f9",
+      "famnetBaselinePrediction": 14.702377319335938
+    },
+    {
+      "image": "4729.jpg",
+      "class": "seagulls",
+      "truth": 23,
+      "imageSHA256": "9950dc1d1b24cf51e2ac7d1f7905334e0bb63c986b9dc9d1bd572b33e69d4cf0",
+      "famnetBaselinePrediction": 44.9837646484375
+    },
+    {
+      "image": "4721.jpg",
+      "class": "seagulls",
+      "truth": 17,
+      "imageSHA256": "aa5705b9d9c7c9241cbf7fd380008c73a0eccef820d38c6e04eb05214b778c31",
+      "famnetBaselinePrediction": 34.04608154296875
+    },
+    {
+      "image": "3870.jpg",
+      "class": "shallots",
+      "truth": 17,
+      "imageSHA256": "459ebe1246b541a733f10936cc3504661f97bc630079e60d883ccaf376e058c0",
+      "famnetBaselinePrediction": 20.898775100708008
+    },
+    {
+      "image": "3873.jpg",
+      "class": "shallots",
+      "truth": 7,
+      "imageSHA256": "16487a1051d2776c697194b62eb6fccf8d1a66d0df30636c21c79553f4da939c",
+      "famnetBaselinePrediction": 2.9343485832214355
+    },
+    {
+      "image": "6729.jpg",
+      "class": "shirts",
+      "truth": 251,
+      "imageSHA256": "c6f17cd397e4781d1dfcd32e5faa6b33413ff2973b6e116736ae4dc8f2ae2d1e",
+      "famnetBaselinePrediction": 210.17568969726562
+    },
+    {
+      "image": "7223.jpg",
+      "class": "shirts",
+      "truth": 105,
+      "imageSHA256": "42d1dda6010dda3e1f9e94fa8dc7fbf97bfaeb743c4f1ab5b5a690c949294a1a",
+      "famnetBaselinePrediction": 114.01886749267578
+    },
+    {
+      "image": "916.jpg",
+      "class": "skateboard",
+      "truth": 9,
+      "imageSHA256": "351f8cf697792c7448648331225ad77f10a147ff1ef8a008da1e07d90d8df181",
+      "famnetBaselinePrediction": 16.73300552368164
+    },
+    {
+      "image": "918.jpg",
+      "class": "skateboard",
+      "truth": 47,
+      "imageSHA256": "9ad3f5fda40c632b69ceba301d61feb541943eaa6eb564ff8fae8ff414ab7276",
+      "famnetBaselinePrediction": 43.961082458496094
+    },
+    {
+      "image": "5152.jpg",
+      "class": "toilet paper rolls",
+      "truth": 8,
+      "imageSHA256": "f1322fb4cd224d9da78158a3e7bfd147025fc45446d479c2a5e7d58afce8d6c5",
+      "famnetBaselinePrediction": 9.534473419189453
+    },
+    {
+      "image": "3672.jpg",
+      "class": "toilet paper rolls",
+      "truth": 12,
+      "imageSHA256": "0c0ae4f93e5c1b065d5d5be6a9b81f275d8be25077de2abc367586fe091fa5ae",
+      "famnetBaselinePrediction": 17.780555725097656
+    }
+  ],
+  "knownPaperCorrections": {
+    "7171.jpg": {
+      "issue": "Wrong exemplar boxes noted in CountGD NeurIPS2024 section4.1",
+      "officialSplits": [
+        "test"
+      ],
+      "excludedIfInCleanVal": false
+    },
+    "7611.jpg": {
+      "issue": "Text should be yellow lego stud, not lego; CountGD NeurIPS2024 section4.1",
+      "officialSplits": [
+        "test"
+      ],
+      "excludedIfInCleanVal": false
+    }
+  },
+  "knownIssueSource": "https://proceedings.neurips.cc/paper_files/paper/2024/file/57c56985d9afe89bf78a8264c91071aa-Paper-Conference.pdf#page=6",
+  "input": "RGB image only. bboxes=None. No class text, GT exemplars, density maps or point coordinates passed to model.",
+  "groundTruthUse": "Only len(points) after/for fixed sample manifest and metric computation.",
+  "preprocessing": "Author validation pipeline: RGB tensor, resize to512x512, ImageNet mean/std. Explicit antialias=False matches torchvision0.12 tensor-resize default.",
+  "densityBuckets": {
+    "sparse": "1-20",
+    "medium": "21-100",
+    "dense": "101-500",
+    "veryDense": ">500"
+  },
+  "baselineSourceSHA256": "0f8fc4f24ad3657978ba749f5414aee4ed71909a689947f859e75b4fe6715751",
+  "comparisonCaveat": "Cached FamNet is reference-conditioned; LOCA is not. This is a practical no-box comparison, not a same-input paper leaderboard.",
+  "deviceRule": "CPU pilot first2fixed samples; MPS only if both counts differ by at most max(0.05,0.1percent CPUcount); otherwise allCPU.",
+  "noTraining": true,
+  "noOldTestRun": true,
+  "source": {
+    "repository": "https://github.com/djukicn/loca",
+    "commit": "45433064e36e48e491b430f6126f439d77a9aa3c",
+    "sourceDirectory": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/loca-20261025/source-archive/loca-45433064e36e48e491b430f6126f439d77a9aa3c",
+    "zipSHA256": "4d50b5267a83bc7e412cfae6937213b27f9cb7def159a488fe9ab559ff725a64",
+    "authenticationUsed": false
+  },
+  "checkpoint": {
+    "url": "https://drive.google.com/file/d/11-gkybBmBhQF2KZyo-c2-4IGUmor_JMu/view?usp=sharing",
+    "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/loca-20261025/checkpoints/loca_zero_shot.pt",
+    "bytes": 142474397,
+    "sha256": "fe373e981328ce7057b9638802ded24633f8191a7b905e458f041d1ec6e0b87f",
+    "authenticationUsed": false
+  }
+}

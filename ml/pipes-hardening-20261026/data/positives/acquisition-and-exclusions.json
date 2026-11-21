@@ -1,0 +1,106 @@
+{
+  "status": "BOUNDED_PUBLIC_NO_LOGIN_ACQUISITION_COMPLETE",
+  "createdUTC": "2026-10-26T14:30:41.202633+00:00",
+  "networkPayloadBytesSaved": {
+    "smallKaggleArchives": 6106266,
+    "GitHubImages": 1875670,
+    "CommonsServedThumbnails": 38169794,
+    "CommonsOriginals": 30324875
+  },
+  "limitBytes": 1000000000,
+  "metadataOverheadNote": "API/HTML/README metadata additional but totaldisk/raw acquisition remains far below1GB; extractedcopies andoverlays are notnewdownloads.",
+  "loginPerformed": false,
+  "paidDownload": false,
+  "modelInferencePerformed": false,
+  "unavailableSources": [
+    {
+      "source": "PetroPipe DOI10.34740/KAGGLE/DSV/10939352",
+      "observed": "Redirects toKaggle DeletedDatasetVersion10939352; no data recovered."
+    },
+    {
+      "source": "lyang95/PipeCounting",
+      "observed": "OfficialREADME linksDrive/Baidu; no bulkdownload undertaken becausepublicdataavailability/budget/newlowcountoverlap uncertain."
+    }
+  ],
+  "CommonsRateLimits": [
+    {
+      "id": "commons_037",
+      "error": "HTTP Error 429: Too many requests (f061ab2)",
+      "retried": false
+    },
+    {
+      "id": "commons_038",
+      "error": "HTTP Error 429: Too many requests (f061ab2)",
+      "retried": false
+    },
+    {
+      "id": "commons_100",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_102",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_120",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_122",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_144",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_148",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_154",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_157",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_158",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_159",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_160",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    },
+    {
+      "id": "commons_161",
+      "error": "HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)",
+      "retried": false
+    }
+  ],
+  "noClaimOriginalResolution": "Used960pxservedCommons thumbnails as actualannotationimages; originalrequestedfiles often429. 018/019fulloriginals downloadedbut are not thelabeledassets.",
+  "provenanceIndexes": [
+    "sources/kaggle-image-index.json",
+    "sources/github-image-index.json",
+    "sources/commons-image-index.json",
+    "sources/commons-additional-index.json"
+  ],
+  "proposal": "ml/pipes-hardening-20261026/data/positives/positive-proposal.json",
+  "totalImageArchiveNetworkPayloadBytes": 76476605
+}

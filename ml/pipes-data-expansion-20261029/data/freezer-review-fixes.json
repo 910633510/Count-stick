@@ -1,0 +1,11 @@
+{
+  "status": "PASS_REVIEW_FIXES_APPLIED_BEFORE_FREEZE",
+  "freezerSHA256": "97c7b3388051dd2eb8056760ab13b03e95d99b2f2f578bbae28553c2194c6f46",
+  "checks": [
+    "Original241fullmanifestSHA fixed",
+    "No group split dictionary overwrite",
+    "source and groupId nonempty strings",
+    "Every bbox explicitly length4 before write"
+  ],
+  "noFrozenOutputWrittenYet": true
+}

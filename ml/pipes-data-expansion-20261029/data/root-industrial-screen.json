@@ -1,0 +1,21 @@
+{
+  "status": "PUBLIC_PHOTOS_ACQUIRED_NOT_ADMITTED_THIS_TRAINING",
+  "sourcePage": "https://tecarvepipes.com/gallery/stainless-steel-pipe-tube-packaging/",
+  "downloadedImages": 40,
+  "downloadedBytes": 3761017,
+  "allFourContactSheetsViewed": true,
+  "nativeFilesViewed": [
+    1,
+    25,
+    30
+  ],
+  "admittedImages": 0,
+  "reason": "Many dense/partially occluded packing scenes, side-only views, capped pipes, and possible marketing renders. Material photo1 is a potential future dense candidate requiring complete clipped-end annotation; do not infer0 labels. Native25 shows bends and native30 wrapped/clipped rims; not used to inflate focused new positive groups.",
+  "blockedSource": {
+    "url": "https://www.roopamsteel.com/gallery.html",
+    "httpStatus": 403,
+    "bypassed": false
+  },
+  "originalImagesPreserved": true,
+  "modelInferencePerformed": false
+}

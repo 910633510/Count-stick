@@ -1,0 +1,34 @@
+{
+  "status": "ROOT_NATIVE_IMAGE_NEGATIVE_VISUAL_QA_PASSED_GROUPING_PENDING",
+  "createdUTC": "2026-10-26T13:27:12.026242+00:00",
+  "images": [
+    {
+      "id": "web-mmc",
+      "path": "output/pipes-hardening-20261026/data/negatives/raw/web/web-mmc.bin",
+      "sha256": "91fb32141127500d2c4d280eb54f4776642f8aa78576b0a083bd030c4e75a3ae",
+      "visualTargetCount": 0,
+      "reason": "Viewed full1200x725. Bright and dark rod ends have complete solid faces with visible machining/brush marks; the dark central bundle has no inner openings. Background framing presents no discernible pipe ends. Target count0.",
+      "modelInferencePerformed": false,
+      "sameSceneAuditComplete": false
+    },
+    {
+      "id": "web-pacificsteel",
+      "path": "output/pipes-hardening-20261026/data/negatives/raw/web/web-pacificsteel.bin",
+      "sha256": "d22baa572dfcf9512e51c76de2a874280efd6169dc6e0c77ed92f380a997f49e",
+      "visualTargetCount": 0,
+      "reason": "Viewed full1170x450. Rebar end faces are solid; machine rollers/axle ends are closed machine components, not stored pipe ends. No discernible steel pipe opening. Target count0.",
+      "modelInferencePerformed": false,
+      "sameSceneAuditComplete": false
+    },
+    {
+      "id": "web-metalloinvest",
+      "path": "output/pipes-hardening-20261026/data/negatives/raw/web/web-metalloinvest.bin",
+      "sha256": "2d76c4555c727d17054cf9e83863fe8d8a3bbf2a3c4fe468f02c26558b8a3149",
+      "visualTargetCount": 0,
+      "reason": "Viewed full1200x800. Individual solid discs have differing saw/brush patterns, textured surfaces and photographic depth-of-field; original concern fromthumbnailuniformity resolved as visually consistent product photograph. No pipe openings. Target count0.",
+      "modelInferencePerformed": false,
+      "sameSceneAuditComplete": false
+    }
+  ],
+  "scope": "Visual/semantic evidence fromnativeimages; not forensic certification ofimageorigin. Split and cross-source group deduplication stillrequired."
+}

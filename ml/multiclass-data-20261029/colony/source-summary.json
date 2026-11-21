@@ -1,0 +1,180 @@
+{
+  "status": "COMPLETE_BOUNDED_NEW_SOURCE_DOWNLOAD_AND_RAW_QA_NO_TRAINING",
+  "date": "2026-10-29",
+  "summary": "新增下载 46 张原始菌落照片及 40 个作者 JSON 标注：AGAR 官方 demo 40 对，其中 38 对 / 1808 框为结构合格候选，2 张整图隔离；SP-SDS 抽样 6 张仅原图、尚无计数或实例 GT。未冻结任何新 train/val/test 划分。",
+  "actualPayload": {
+    "downloadedFileCount": 7,
+    "archiveFiles": 1,
+    "separateRawPhotos": 6,
+    "photosAfterExtraction": 46,
+    "authorAnnotationJSONAfterExtraction": 40,
+    "downloadedBytes": 107444291,
+    "AGARDemoBytes": 86605404,
+    "SPSDSRawSampleBytes": 20838887,
+    "AGARExtractedFileBytes": 87346169,
+    "freeDiskGiBAtFinalCheck": 31.002,
+    "payloadScope": "Data archive and image response bodies; excludes small HTML/API provenance receipts and generated diagnostic previews."
+  },
+  "sources": [
+    {
+      "name": "AGAR official representative demo",
+      "primaryURL": "https://agar.neurosys.com/",
+      "downloadURL": "https://api.data.neurosys.com:4443/agar-public/AGAR_demo.zip",
+      "access": "Anonymous HTTP 200, complete download verified",
+      "archivePath": "output/multiclass-data-20261029/colony/archives/AGAR_demo.zip",
+      "archiveSHA256": "71113e092d241768186a5808fd0a19e2140bac904c57d64d97b4fbdc90208bb2",
+      "publishedLicenseText": "Creative Commons Attribution-NonCommercial 2.0 Generic; freely available for academic research (source website metadata).",
+      "fullDatasetAvailability": {
+        "publishedGlobalImageCount": 18000,
+        "localDownloadedImageCount": 40,
+        "currentOfficialPageRoute": "Full dataset registration form requests name, company and email. Only the demo direct file link was found in the inspected official page.",
+        "anonymousFullPartsVerified": false,
+        "fullPartNamesAndBytes": null,
+        "action": "No registration, email, login bypass or guessed private endpoints; full package sizes remain unknown."
+      },
+      "annotationKind": "Per-instance top-left xywh rectangles and image author count, not pixel masks.",
+      "candidateCount": 38,
+      "candidateBoxes": 1808,
+      "emptyPhotosDownloaded": 0,
+      "quarantines": [
+        {
+          "sampleID": 734,
+          "authorTargetCount": 54,
+          "authorOtherClassBoxes": 24,
+          "allAuthorBoxes": 78,
+          "reason": "Generic target policy unresolved. Contamination may itself be microbial growth. Keep entire image out until scope is defined; do not sum 78 silently or make the other 24 false background."
+        },
+        {
+          "sampleID": 1399,
+          "authorCount": -1,
+          "authorLabels": [],
+          "reason": "Visible dense growth, uncountable/unknown; never an empty negative."
+        }
+      ],
+      "candidateTaxonNote": "Includes C.albicans (yeast). Use microbial colonies / 菌落, not an all-bacterial claim.",
+      "visualExamples": [
+        {
+          "sampleID": 4904,
+          "count": 22,
+          "coverage": "Large and touching colonies, near-rim locations."
+        },
+        {
+          "sampleID": 14581,
+          "count": 125,
+          "coverage": "Mixed small and large colonies in 2048x2048 source."
+        }
+      ],
+      "limitations": [
+        "Four independent original/overlay spot checks do not establish exhaustive label completeness for every candidate.",
+        "40 unique sample_id and JPEG hashes are not physical-plate independence evidence.",
+        "No published demo train/val/test split or explicit plate genealogy found; cross-source/family dedupe and chosen-image full label review remain prerequisites."
+      ]
+    },
+    {
+      "name": "SP-SDS Automated Colony Counters v2",
+      "primaryURL": "https://data.mendeley.com/datasets/f8ykr3bt7y/2",
+      "access": "Anonymous public API plus original image download worked; every selected image matches published SHA256 and size.",
+      "publishedCollectionImages": 38,
+      "downloadedImages": 6,
+      "publishedSubsets": {
+        "DS1": 18,
+        "DS2": 20
+      },
+      "sampling": "3 per source subset by fixed filename hash before image inspection; seed CountScope-colony-public-20261029.",
+      "annotationKind": "No count, box or mask file found in the inspected two public folders; count and xyxy remain null.",
+      "camera": "All six EXIF: Canon EOS DIGITAL REBEL XS, 3888x2592, orientation 1. Not verified phone photos.",
+      "usefulness": "Dense streak growth, isolated small/large colonies, blur, oblique view, plate writing/reflections. Whole-image instance counts are not established.",
+      "familyStatus": "Possible DS1_17/18 and DS2_04/05 same-plate pairs; cross-DS relationship unresolved. No split and no independent plate count claimed."
+    }
+  ],
+  "otherPrimarySourceAccessResults": [
+    {
+      "name": "Dryad smartphone colony-counter comparison",
+      "primaryURL": "https://datadryad.org/dataset/doi:10.5061/dryad.ncjsxksx9",
+      "promisingFile": "Images_Samsung.zip, published 38.14 MB",
+      "actualAccess": "Normal anonymous file request returned HTTP 403. Stopped; no download or bypass.",
+      "limitations": "3.70 GB iPhone archive not downloaded. Processed application screenshot archives are not original images or manual count GT."
+    },
+    {
+      "name": "MCount 96-well E.coli dataset",
+      "primaryURL": "https://datadryad.org/dataset/doi:10.5061/dryad.2280gb62f",
+      "publishedFiles": [
+        {
+          "name": "96-well_plate.zip",
+          "displayedSize": "12.81 MB"
+        },
+        {
+          "name": "results.zip",
+          "displayedSize": "29.82 MB"
+        }
+      ],
+      "actualAccess": "Normal anonymous file requests returned HTTP 403. Stopped; no download or bypass.",
+      "modality": "Microbial 96-well plate images with per-well manual groundtruth.csv described; no instance-mask claim. Prediction CSVs would not be GT."
+    },
+    {
+      "name": "Assessing Foundation Models for Mold Colony Detection with Limited Training Data",
+      "primaryURL": "https://arxiv.org/html/2510.00561v1",
+      "actualAccess": "Primary paper states dataset available from corresponding authors upon request; no anonymous archive verified. No author contacted.",
+      "venue": "GCPR 2025 conference, not a journal."
+    },
+    {
+      "name": "Jozedu 165-plate curated dataset",
+      "primaryURL": "https://zenodo.org/records/18505210",
+      "actualAccess": "Already present from 2026-10-25 (record version resolves to 18703636); not newly downloaded or counted again."
+    }
+  ],
+  "existingSourcesNotRecountedAsNew": [
+    "Figshare 22022540 v3",
+    "Zenodo 18256864",
+    "MIPRO Zenodo 20178469",
+    "Mendeley xrbtd74pfj v3",
+    "BRUKER public samples",
+    "Zenodo 18505210 / 18703636"
+  ],
+  "artifacts": [
+    {
+      "path": "output/multiclass-data-20261029/colony/colony-candidate-index.json",
+      "sha256": "d454f70351bd5136af3b8988c6ad706420acc4ae7198310b94c63da412082500"
+    },
+    {
+      "path": "output/multiclass-data-20261029/colony/agar-data-index.json",
+      "sha256": "e15f08812c7af88d4e4c6da601d2eb3b0312cbe03beef0020787f77cfa6212f2"
+    },
+    {
+      "path": "output/multiclass-data-20261029/colony/agar-archive-audit.json",
+      "sha256": "39cd3987ac450b31f488a87e14624dd76dc8644074f94705818aab5c46695d1f"
+    },
+    {
+      "path": "output/multiclass-data-20261029/colony/spsds-unlabelled-index.json",
+      "sha256": "3ede10d8cffc5df20cc421e6124f207099f274d5eb0fa1fa506d989b2fcd6e83"
+    },
+    {
+      "path": "ml/multiclass-data-20261029/colony/independent-audit.json",
+      "sha256": "ff69f6f190f1712a1170d71806686dde8a8072b3096d35fb876b636eb3d2376b"
+    },
+    {
+      "path": "output/multiclass-data-20261029/colony/sources/download-receipts.json",
+      "sha256": "e378635e2bfbb9f340beb46a97f68444f45c3e879532b64a3b7a00e5ed7d6fa7"
+    },
+    {
+      "path": "output/multiclass-data-20261029/colony/review/spsds6-contact.jpg",
+      "sha256": "653920997ba5b5b178a952a1381edfadea663b80baabad4bb5db04671ec2af40"
+    }
+  ],
+  "remainingBeforeTraining": [
+    "Review full selected image labels for generic colony scope and completeness.",
+    "Resolve physical plate/capture families and compare with existing datasets before any split.",
+    "Keep 734/1399 quarantined; SP-SDS remains unlabeled until reliable instance policy/annotation exists.",
+    "Freeze group-based train/val/test only after the above checks; no new split was assigned in this task."
+  ],
+  "scope": {
+    "modelInferencePerformed": false,
+    "trainingPerformed": false,
+    "externalCodeExecuted": false,
+    "newSplitsCreated": false,
+    "oldFrozenDataChanged": false,
+    "appChanged": false,
+    "accountsCreated": false,
+    "emailsSent": false
+  }
+}

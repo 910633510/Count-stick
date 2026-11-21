@@ -1,0 +1,34 @@
+{
+  "module": "ml/colony/scale_fusion.py",
+  "function": "fuse_predictions",
+  "sourceSHA256": "2242728addacd1e6d97a98cc5fbfaf76e9eaf4dd2a227415d08c2f924ad1d2eb",
+  "signature": "fuse_predictions(whole, tiled, image_size, min_side_threshold=16.0, nms_iou=0.7, confidence_floor=0.001, max_detections=1000, fusion_mode=\"global_nms\", containment_ratio=0.9)",
+  "input": {
+    "whole": "dict: xyxy list[N,4] and confidence list[N] in original-image pixels",
+    "tiled": "same format, already mapped to original-image pixels and ownership filtered",
+    "image_size": "(width,height) of the actual oriented inference image"
+  },
+  "output": "same xyxy/confidence dict; one class only",
+  "APPolicy": "Retain source confidence>=0.001 for AP; apply0.3 only when scoring operating-point counts/P/R. Do not substitute confidence_floor0.3 then claim untruncated AP.",
+  "gateUnits": "predicted minimum box side times1024/max(image width,height)",
+  "exploratoryBestAggregateKwargs": {
+    "min_side_threshold": 16.0,
+    "nms_iou": 0.5,
+    "confidence_floor": 0.001,
+    "max_detections": 1000,
+    "fusion_mode": "global_nms"
+  },
+  "sourceAwareSeventhKwargs": {
+    "min_side_threshold": 16.0,
+    "nms_iou": 0.5,
+    "confidence_floor": 0.001,
+    "max_detections": 1000,
+    "fusion_mode": "cross_source_ios",
+    "containment_ratio": 0.9
+  },
+  "operatingConfidence": 0.3,
+  "deploymentApproved": false,
+  "selectedConfig": null,
+  "status": "ALL_SEVEN_INTERNAL_PROTECTION_SCREENS_FAILED",
+  "publicClaimLimit": "Do not call this a validated improvement or strict SAHI reproduction."
+}

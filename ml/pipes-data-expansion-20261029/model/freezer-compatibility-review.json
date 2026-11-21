@@ -1,0 +1,41 @@
+{
+  "status": "STATIC_SCHEMA_COMPATIBLE_TWO_PRE_FREEZE_GUARDS_RECOMMENDED",
+  "createdUTC": "2026-10-29T15:52:43.482297+00:00",
+  "freezerPath": "ml/pipes-data-expansion-20261029/data/freeze_dataset.py",
+  "reviewedFreezerSHA256": "931cbd277e77aabb4735a2d2c05991d80e1d7205e2ac9c65c0db5b4a221535d5",
+  "adapterSHA256": "2014cc2b95d2d38af2dadb0fdd0fe8cea95d225616ea5c1f6f7b244c556a429c",
+  "compatibility": {
+    "receiptStatusAndAll8KeysMatchAdapter": true,
+    "trainValOnlyHasTestContentFalseAndSealedFullHash": true,
+    "previous54RowsRemainExactlyEqual": true,
+    "previous74RowsAndExistingValTestPreserved": true,
+    "newRowsTrainOnlyNaturalUnannotatedPhotos": true,
+    "parentAndNewImageHashesAndDecodedRGBBound": true,
+    "sourceLabelGeometryWrittenDeterministically": true,
+    "planningTargetsNotEnforcedAsDatasetMinimum": true,
+    "approximately15Positive20NegativeAllowed": true
+  },
+  "findings": [
+    {
+      "id": "F1",
+      "scope": "Identity exclusion preservation",
+      "finding": "Original241-image identity pool has only a length assertion; group_splits comprehension can hide an existing cross-split group conflict.",
+      "recommendedMinimalChange": "Pin original241 manifest SHA to960005aa6c7956db8ebf5962693071e0ea01888f0d0380431437894b4fddec41 from its original root-training receipt, and assert consistent split for every duplicate group while constructing group_splits."
+    },
+    {
+      "id": "F2",
+      "scope": "Fail-before-write schema completeness",
+      "finding": "Adapter source-balanced sampling requires row.source, and YOLO label serialization requires exactly4 coordinates per box; freezer does not explicitly validate them before creating output.",
+      "recommendedMinimalChange": "Assert nonempty source/groupId strings and len(box)==4 during row validation before OUT.mkdir."
+    }
+  ],
+  "reviewScope": {
+    "freezerExecuted": false,
+    "adapterExecuted": false,
+    "proposalImagesRead": false,
+    "fullOrTestManifestRead": false,
+    "modelInference": false,
+    "sourceEdited": false
+  },
+  "nextStep": "Root can add the small guards before freezing the reviewed proposal. On explicit root freeze receipt, prepare/bind can run without new ML tests or changes to the recipe."
+}

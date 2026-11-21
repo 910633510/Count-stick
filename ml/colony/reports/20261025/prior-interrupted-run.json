@@ -1,0 +1,11 @@
+{
+  "status": "INTERRUPTED_MPS_ASSIGNMENT_ERROR",
+  "lastCompletedEpoch": 10,
+  "attemptedEpoch": 11,
+  "error": "tal.py get_box_metrics boolean indexing selection length mismatch",
+  "weightsPreserved": true,
+  "testUsed": false,
+  "successor": "colony-yolo11n-v2-cpuassign",
+  "source": "https://github.com/ultralytics/ultralytics/issues/22971",
+  "newCandidateFrom": "Original official pretrained yolo11n, not an affected research checkpoint"
+}

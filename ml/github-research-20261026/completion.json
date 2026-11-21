@@ -1,0 +1,42 @@
+{
+  "status": "RESEARCH_COMPLETE_NO_REAL_TRAINING",
+  "completedUTC": "2026-10-26T05:33:00.719255+00:00",
+  "githubRepositoriesScreened": 24,
+  "metadataSource": "Official GitHub REST API; dated snapshot",
+  "sourcePinnedToCommits": true,
+  "actualWork": [
+    "Fixed-source code review",
+    "Read-only existing train/validation scale and exposure audit",
+    "102-row analysis-only validation index",
+    "Cellpose empty-label filtering/flow/loss synthetic checks",
+    "Installed Ultralytics officialKD CPU/MPS synthetic checks"
+  ],
+  "optimizerSteps": 0,
+  "newRealImageModelInference": false,
+  "newModelWeightsDownloaded": false,
+  "trainingEnvironmentUpgraded": false,
+  "old63OrSealed36Evaluated": false,
+  "productionFilesUnchanged": 17,
+  "anchorSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+  "proposalsNotExecuted": true,
+  "reviewClarificationsIncorporated": [
+    "ROIoutside labels must be completed before whole-original-image use",
+    "SAHI low-confidence/fullpass exactconditions",
+    "old63 andsealed36usageboundary",
+    "Cellpose masks requiredforfinetuning notpretrainedeval",
+    "real-image inference distinguishedfromsyntheticsmoke"
+  ],
+  "evidence": {
+    "data-tooling.json": "728e02176b60433c6f0c17255cf35ee0bc8d6df0068b43ae06678214e767e69b",
+    "detection-training.json": "3e1881b70025d89971ead6017e985307fb927344beca4d61ab825e8ef446f992",
+    "existing-pipeline-audit.json": "4be8ef8e9cac11755b3dca5a11dc7790ee0604866b25981b6cd54f3df2ff0bcc",
+    "general-counting.json": "f634d77b4453b364c6fa71805e7f7cccd45d8f24c8ac53f29abe5dd45b8eb64e",
+    "github-metadata.json": "cc84490a4c7fc877fa3eb97b9d5fdee6abe454c508846f007331ec92b82752dd",
+    "review-detection.json": "70224307ebeaa6957d9775043d6398b533f58441c87f0d05ac2ccd36a642dd90",
+    "review-general.json": "347ae5b9864de45aeddf63ab7a801fc76a38f9f3a41a57912e2518e21b8cabfb",
+    "review-segmentation.json": "ab21f601d9aa44c800dd74748179a4833d81f36d08a07a8ef4f09fde499f3610",
+    "segmentation.json": "be1d3b8601ba70463e96c4387fbac4a0250ae8bd32a61090b63660874405b845"
+  },
+  "reportSHA256": "c513c44dd58cf8f932cd030059d38f8df49f1b1ab0de1077ecc416a8fcd12c9c",
+  "reviewIndexSHA256": "9b67e08f1cb86bd5c7959406bf9c19350dd5869cbeaa5e6a8b5cda1a7b07d091"
+}

@@ -1,0 +1,74 @@
+{
+  "status": "PREPARED_RELEASE_PARITY_FRESH_TEST_ENTRYPOINTS_NOT_EXECUTED",
+  "releaseCodeSHA256": {
+    "ml/pipes-hardening-20261026/model/release_pipe.py": "9f393efbc7045c81cbc6803338b6d0e05fd2e1953b8ae2f311424942ef7d8465",
+    "ml/pipes-hardening-20261026/model/parity_hardening.py": "c58f5635cc1b533be2b922326b32e6dc7bdbfbc54245afb06586494e34e30b96",
+    "ml/pipes-hardening-20261026/model/evaluate_fresh_test.py": "238d08a61f2bfc2c8f67ca5eb9af33a6f21289cc933f838479ac3242f023505a",
+    "Count stickTests/PipeHardeningFrozenTestExportTests.swift": "d0a0f0a04ea7ab9739b57a81c1a16f4c1725f13efd9fe4b66bc1f00232aa3693",
+    "ml/pipes-20261026/parity/native_parity_v3.swift": "b7dfde4920d731057378845bf2d30b3da58607688130c59fd64c80c45300afce",
+    "Count stick/PipeRawPostprocessor.swift": "4542c36ee0f171571d9651c5ccbeec7744bb71e8b4cf7fd429137afd302a3fbe"
+  },
+  "numericPolicy": {
+    "coordinates": "Compare boxes after identical unpadding/clipping; edge distances expressed in1024network pixels (photo-pixel difference multiplied bygain). Hungarian one-to-one matching maximizesIoU.",
+    "CPUCoreML_vs_Torch": {
+      "counts": "exact per image",
+      "minimumMatchedIoU": 0.99,
+      "maximumEdgeErrorNetworkPixels": 0.25,
+      "maximumConfidenceError": 0.002
+    },
+    "allCoreML_vs_CPUCoreML": {
+      "counts": "exact per image",
+      "minimumMatchedIoU": 0.9,
+      "maximumEdgeErrorNetworkPixels": 1.0,
+      "maximumConfidenceError": 0.02
+    },
+    "Vision_vs_directCoreML_sameComputeUnits": {
+      "counts": "exact per image",
+      "minimumMatchedIoU": 0.999,
+      "maximumEdgeErrorNetworkPixels": 0.01,
+      "maximumConfidenceError": 1e-06
+    },
+    "allObservedLabels": "pipe_end only above frozen operating threshold; padding class channels must remain zero within1e-7",
+    "inputRGB": "DirectCoreML image conversion must decode the exact1024PNG RGB bytes used byTorch; anycolor conversion/row-order difference is reported andfails exact-input gate."
+  },
+  "qualificationPolicy": {
+    "eachVariantMustPassOriginalValidationGates": true,
+    "cpuAndAllCannotRegressFromTorch": {
+      "TP": "not lower",
+      "FP": "not higher",
+      "FN": "not higher",
+      "positiveCountWAPE": "not higher,1e-12 tolerance",
+      "sceneMacroWAPE": "not higher,1e-12 tolerance",
+      "negativeFP": "0 for every negative image"
+    },
+    "noThresholdChange": true,
+    "noFallbackOrBackendSwitchToHideFailure": true
+  },
+  "oldParityPolicySHA256": "59861d73f76ad3bd21bd098d18d845d343d285352647b20880134e70780984b2",
+  "sharedNativeRunnerSHA256": "b7dfde4920d731057378845bf2d30b3da58607688130c59fd64c80c45300afce",
+  "sharedNMSSHA256": "4542c36ee0f171571d9651c5ccbeec7744bb71e8b4cf7fd429137afd302a3fbe",
+  "inputCountPolicy": "Fresh test count is supplied in root receipt and fixed in pre-test registration;1..100. Data-binding sealedFullManifestSHA binds the unseen manifest before optimization.",
+  "selectedNullPolicy": "release.selected_binding returns None before other approvals/manifest reads; export/parity/test authorize and evaluate all skip.",
+  "newFiles": [
+    "release_pipe.py",
+    "parity_hardening.py",
+    "evaluate_fresh_test.py",
+    "Count stickTests/PipeHardeningFrozenTestExportTests.swift"
+  ],
+  "syntaxValidation": "Python py_compile and Swift frontend parse passed. This is not a simulator run.",
+  "syntheticComparisonCheck": "Three unchanged numerical comparison policy branches pass exact one-box input.",
+  "executionPerformed": {
+    "training": false,
+    "coremlConversion": false,
+    "modelInference": false,
+    "freshTestRead": false,
+    "xctest": false
+  },
+  "remaining": [
+    "Root/data freeze and training",
+    "Qualified old40+freshval selected candidate; otherwise preserve fresh test",
+    "Root raw-export receipt then conversion and all-development same-pixel parity",
+    "Root fresh-test receipt and authorize; dedicated helper export then once-only fixed model test",
+    "Independent final review and root final receipt before enabling model"
+  ]
+}

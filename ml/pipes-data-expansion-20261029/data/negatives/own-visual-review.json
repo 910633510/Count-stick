@@ -1,0 +1,206 @@
+{
+  "status": "PASS_20_FULL_SOURCE_PHOTO_NEGATIVES",
+  "reviewerType": "Codex agent",
+  "images": [
+    {
+      "id": "expneg-apex",
+      "sourceSHA256": "071cd70427a756b9bbc8e944488d28f01bb5e6a2fdd449a6b5370e0687dcdbb7",
+      "canonicalSHA256": "50abc8bc47d3a413922296bd02b41da925d676869e826b83abc8f63a5e7f8275",
+      "RGBPixelSHA256": "40ddbecf23a9e3b2bf54b04e74ebccd8e3152df642ce16a96848669927a75201",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-apollo",
+      "sourceSHA256": "44d338819b6ada087b13e59c8b3dcd3c56d88e0c6fcd954578c7a5ee99935227",
+      "canonicalSHA256": "67f84ecfc2c02d1dea24164b875ee94f79bef5fdabca2603d9cb49944be7eae6",
+      "RGBPixelSHA256": "f1a52bc537cce1af848e929b088c466303cbc9aeddb593f52bd9e7fb2ed123d8",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Physical stamping, chalk, paint stripes or attached stock labels are not hollow mouths."
+    },
+    {
+      "id": "expneg-bozhong",
+      "sourceSHA256": "71224833f661f112cadbaab7684223222feb884fc7bf043096e7185a858a908f",
+      "canonicalSHA256": "f7ec966a47202a16ffb6abfe964fd665a4fa866cc1a78c8c25aa05e682b718d6",
+      "RGBPixelSHA256": "29a94b321be52752d6820f84ffff4a160d1899e8516f84115bc8a8c008ba339b",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-fsgangsu",
+      "sourceSHA256": "5acf558b7076e9f9d5bc6dfb7168d3cfb2f9a481903a1c275ef6d4a8006cc060",
+      "canonicalSHA256": "fe24c35cc4394442796fae58cbb65833fb9ee4c0c70e1f8cdeb560c8a6a356dd",
+      "RGBPixelSHA256": "b5e22c68b8b947986b669c235305aedff9ee3eb83c08faaa65da991b44294076",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-greenflag",
+      "sourceSHA256": "f1b258f21c09720ec3c1cbe84dcafdb4e4eeb03a35fe859ea3de0e16b121da81",
+      "canonicalSHA256": "9a1fa3caf05b41a09add78a51584230944f147e560355aac86f3707a4fa7759f",
+      "RGBPixelSHA256": "e7f358c8c4c0b785df34fcf331974593a22b7a6b9b7ade1ba6aa47437a34c15f",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-hhiron",
+      "sourceSHA256": "23c49adec7e2b4e3f8fe5b3bc3747b3d4a64845c21400fea83a5c6d6cbd3236c",
+      "canonicalSHA256": "c635e213c5f2aee3068b1a4ea4882a3396462b267658a0e5ef0671d60f5c5b4d",
+      "RGBPixelSHA256": "7fbc1ace03bef2a45a4700a57c70e11737effd1b50604df03930a4aec999e0c8",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-ikizler",
+      "sourceSHA256": "d2b2c126fac99c237884c4e8244c4c930c8b1869f6e6e412a4e3e2ee1a4ba820",
+      "canonicalSHA256": "c04ec1fc20a5e48969b95631a96af2bb2697e6353d7159a05afc3a225d2ada24",
+      "RGBPixelSHA256": "e0a4f9710c8dc794bc197a368fc2be881c6056d0b4c59636e25474d1cd7e6432",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-jnshagang",
+      "sourceSHA256": "bf5534b03b30eac61d159806896ce1cbb77d9a82dffab4a656b280a63b7563b5",
+      "canonicalSHA256": "557e965055ddd8bcbbcd582597a82c1d28a19f600b91ff3812c47ad8b5425517",
+      "RGBPixelSHA256": "4e45a601a07c715c7023662a0570ee746b0677cebb1b20700121b3d1782e8622",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Physical stamping, chalk, paint stripes or attached stock labels are not hollow mouths."
+    },
+    {
+      "id": "expneg-junxiong",
+      "sourceSHA256": "35227ac6068737cd7a68001c9e75e614f0f7af4feb68af7d847c829f21fbd471",
+      "canonicalSHA256": "40953566de0996d05ebadfe8b694941b3340b775871c81de52048e7db7b3c256",
+      "RGBPixelSHA256": "63b6e87afd347f3ffed83566d269a6fa43f136b25e8f68c4e0a0e6bb7a2f6fc5",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-kzmc",
+      "sourceSHA256": "98811dfafb3a8e073b6bc55870278229108aab33ec7c7cff4b999b6d84804834",
+      "canonicalSHA256": "f2dcc89607d1c1afb81e876e227a5e0366505285292057587efc106b434a40f3",
+      "RGBPixelSHA256": "adb732e5219f651e2195d9f46c83fddab13e7539f1ab9d677651d350276db403",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-liange",
+      "sourceSHA256": "3fa55e3f78bea2101525e8ca343ba924c21685af86f963c8a931d89b110d56be",
+      "canonicalSHA256": "fc99be9f7ccc473cf546bf5182f394e9fbcdd1e7faf3ca08885f6860b026bdd5",
+      "RGBPixelSHA256": "06a10296e8724ba8f14444cbebfdef88066ccbef41a04fb5c195eaa697c82c4a",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Partial source logo at upper left does not cover a pipe-end annotation or add an artificial scene background."
+    },
+    {
+      "id": "expneg-metalcare",
+      "sourceSHA256": "2d4bd89311f90206634c6f51288e28a9e2ba95d1436bdf0bb8d1045fd4eeae93",
+      "canonicalSHA256": "1b2c40a448ca6c668460265005ec6d68dad22cb7a38182cc1a54bced454b4d3a",
+      "RGBPixelSHA256": "93c00365875eeff08c1b991fb96294fa2409c7f8720a61b7768b2a4e96c6ddd2",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-punit",
+      "sourceSHA256": "e55aeb4dcdad350204c95a188873882305aad57f23aae6f45822b6239ae908d5",
+      "canonicalSHA256": "ae8c5327543fca849e77a6f8f2624eb5083dedc1f0a4d26883e0959c3663efc0",
+      "RGBPixelSHA256": "f8fcde10b71465c5f6c1e33467be5aa9abb7b195f5eccddafa6ae8ac3c0f3d00",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Bottom-left camera timestamp is a source publisher overlay, not a counting label."
+    },
+    {
+      "id": "expneg-shiraishi",
+      "sourceSHA256": "037f1d9bead7180b255610f61676bd5d139148e5f468f72ce02e0f5c46d9d429",
+      "canonicalSHA256": "3bd022253f34d9d7ecc8fd1166025fb9dd471ed7e98ed4f80fad102f8d47ad76",
+      "RGBPixelSHA256": "2794d91e91e6c6286ba1a54408b76aee78c4fc6a6c256070ba4605814a2c7a73",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-steeldynamics",
+      "sourceSHA256": "5a0a81b545bb62c3ca728151ae264e45011a6e54191d634098e85eda24661587",
+      "canonicalSHA256": "b9375caa754c9e91bd5625b29bc9011480980237998175fa0c968a83eb4dc46b",
+      "RGBPixelSHA256": "2f2d9a0813653babaaebbb8d6a91641a6b02798247590a70a63a018e555c4ac9",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-triumph",
+      "sourceSHA256": "c03fcac6c9d8432e327b0308e2d64981ac456ad11514fb8cfd39520759e1b028",
+      "canonicalSHA256": "d56663fd0cbfebffb1b5017cf63becb9ef29ded070c066e307192eb72f905a97",
+      "RGBPixelSHA256": "2b8afabc2e13ca4d474c73df6c4d63106f086e33bc5db10ab7e7faae016cf62d",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Physical stamping, chalk, paint stripes or attached stock labels are not hollow mouths."
+    },
+    {
+      "id": "expneg-yongzhang",
+      "sourceSHA256": "ab080c953750e03373d8114ca2361ae2fcde63a66e9ebbffb24070040eb5fa13",
+      "canonicalSHA256": "95f7a5dca1a45f5708e4afe03b7ed1ef8f35fa8644f56a340d7574f2a9efdf29",
+      "RGBPixelSHA256": "39283ab0d4a1f9da16d96330936769fb205b50af7027ee14f8c4c8e2057d5617",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    },
+    {
+      "id": "expneg-zelpo",
+      "sourceSHA256": "03b03f7272d441afaee23701406bad6542c804a4f1d024186954767d3a14f36c",
+      "canonicalSHA256": "282cf7e2f357e4f8f71c57bea8c532d044611f5be4fdb73cf0f1480bac34bde9",
+      "RGBPixelSHA256": "e3ccb6f184107e22af95d82c10bc6f360295406fef507246bb4acbee09c6ed70",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Physical stamping, chalk, paint stripes or attached stock labels are not hollow mouths."
+    },
+    {
+      "id": "expneg-zhongji1",
+      "sourceSHA256": "4e2f4b7870c27c9573fdfed236b516b23faa63f313270a011aac019e5fffe51a",
+      "canonicalSHA256": "5e43db53f0a44f3d052d6a4026a7a9d8e1ebfe81eda93e026ebd652533e1da7b",
+      "RGBPixelSHA256": "43361520a4c64afc083765889de7921cfdb2119008cf6b402e4e38423932d19d",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Physical stamping, chalk, paint stripes or attached stock labels are not hollow mouths."
+    },
+    {
+      "id": "expneg-zhongji2",
+      "sourceSHA256": "a42908c5996b449ee2939fb89496149559737a3efe5bca139833f45af3d5d8ef",
+      "canonicalSHA256": "a324b75c2c159b75a071982d7be662492f8fc3a2a10eb8cea7d433ca2be594b1",
+      "RGBPixelSHA256": "e2e2e085687911a3a1a64c9d24f51b7e942882a7ec7ad3c96c5527409b807713",
+      "status": "PASS_ZERO_PIPE_ENDS_AND_FULL_FRAME_PIXEL_EQUALITY",
+      "reviewer": "colony_papers",
+      "notes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "expneg-greta",
+      "reason": "Very uniform polished rendering/stock appearance, photographic origin uncertain; conservative exclusion."
+    },
+    {
+      "id": "expneg-steelhouse",
+      "reason": "Marketing render/generative appearance uncertain; conservative exclusion."
+    },
+    {
+      "id": "expneg-leren",
+      "reason": "Mostly side bodies, not current targeted solid-end coverage; not admitted byroot."
+    },
+    {
+      "id": "expneg-dajin",
+      "reason": "Not yet individually reviewed; not required to meet this focused batch."
+    }
+  ],
+  "countLabelMeaning": "Zero pipe_end only; these photos contain solid rods/billets.",
+  "detectorInferencePerformed": false
+}

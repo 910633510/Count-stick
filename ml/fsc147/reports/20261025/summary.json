@@ -1,0 +1,56 @@
+{
+  "status": "RESEARCH_BUNDLE_NO_APP_INTEGRATION",
+  "source": "https://github.com/cvlab-stonybrook/LearningToCountEverything",
+  "regressors": {
+    "baseline": {
+      "file": "FamNet-author-baseline.pth",
+      "sha256": "9fd1b35d7f9f4c1af736e4562389dd16ec2ce70a4b9c68dc61454aa631cc17c1"
+    },
+    "finetuned": {
+      "file": "FamNet-finetuned-one-epoch.pth",
+      "sha256": "7e3329ba19f1e27ce74c823f8a07902fe8ea93ff2e30fbe85b40c742ceb8e3c7"
+    }
+  },
+  "backbone": {
+    "file": "ResNet50-ImageNetV1-state_dict.pth",
+    "sha256": "38d544782c7000667454bd0844a2df9d0c8f02fe3b41051e020f588f6513275c",
+    "source": "https://download.pytorch.org/models/resnet50-19c8e357.pth",
+    "legacySourceFile": "resnet50-19c8e357.pth",
+    "legacySourceSHA256": "19c8e3572231adff6824a2da93fd67b5986919a2e65f8b6007eab4edee220097",
+    "tensorOnlyConversionVerified": true
+  },
+  "validationSelected": "original-public-baseline",
+  "input": "RGB image plus3-6example rectangles in image pixels",
+  "automaticTargetSelection": false,
+  "fineTuning": {
+    "epochs": 1,
+    "trainingImages": 3658,
+    "optimizerSteps": 3658,
+    "changedParameterValues": 466963,
+    "maxAbsoluteParameterChange": 0.00028883107006549835
+  },
+  "validation": {
+    "baselineMAE": 24.272315915165052,
+    "finetunedMAE": 25.580505016816026
+  },
+  "test": {
+    "images": 1189,
+    "MAE": 22.5439187563749,
+    "RMSE": 101.31520826034647,
+    "bias": -4.1227116861245126,
+    "roundedExactCountImages": 35,
+    "within10PercentImages": 222,
+    "state": "COMPLETED_UNSEEN_CATEGORY_TEST_WITH_EXACT_OVERLAP_REMOVED",
+    "method": "FamNet few-shot counting with dataset-provided3-6exemplar boxes; no automatic object selection and no test-time adaptation.",
+    "selected": "original-public-baseline",
+    "weightsSHA256": "9fd1b35d7f9f4c1af736e4562389dd16ec2ce70a4b9c68dc61454aa631cc17c1",
+    "testUsedForRetraining": false,
+    "testClasses": 29
+  },
+  "interpretation": "Fine-tuning did not beat the public baseline on the pre-registered validation metric. Retain the fine-tuned candidate but do not promote it. The test result belongs to the selected original baseline, not the fine-tuned candidate.",
+  "sourceFilesSHA256": {
+    "model.py": "9e1f8a0e5c889a05859c44a8bde878a116f439ca6b200fe1fce2ef64f23f2b7e",
+    "utils.py": "36ceff8d56dec1e305dcf6285427f08ff274d991bbefa5dc53b8379c95191bbd",
+    "LICENSE": "42b158869d183025cd0be54ae50e00056bac02aff845d3029ffd0afa9f79c6c5"
+  }
+}

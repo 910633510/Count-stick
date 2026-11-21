@@ -1,0 +1,1519 @@
+{
+  "status": "SCENE_SCREEN_COMPLETE_CANDIDATES_PENDING_GLOBAL_GROUP_AND_LABEL_QA",
+  "reviewedUTC": "2026-10-26T08:12:52.512670+00:00",
+  "reviewer": "root Codex visual scene screen",
+  "contactSheetsActuallyViewed": [
+    "output/pipes-20261026/data/review/round-contact-00.jpg",
+    "output/pipes-20261026/data/review/round-contact-01.jpg",
+    "output/pipes-20261026/data/review/round-contact-02.jpg",
+    "output/pipes-20261026/data/review/round-contact-03.jpg",
+    "output/pipes-20261026/data/review/round-contact-04.jpg",
+    "output/pipes-20261026/data/review/round-contact-05.jpg",
+    "output/pipes-20261026/data/review/round-contact-06.jpg"
+  ],
+  "screenedNumberRange": [
+    1,
+    350
+  ],
+  "candidateCount": 105,
+  "acceptedPerSheet": {
+    "00": [
+      1,
+      4,
+      7,
+      8,
+      12,
+      14,
+      18,
+      24,
+      25,
+      31,
+      37,
+      43,
+      47
+    ],
+    "01": [
+      51,
+      56,
+      61,
+      64,
+      65,
+      66,
+      67,
+      73,
+      78,
+      79,
+      84,
+      88,
+      92,
+      95,
+      97
+    ],
+    "02": [
+      102,
+      103,
+      108,
+      110,
+      113,
+      116,
+      120,
+      123,
+      136,
+      139,
+      144,
+      148,
+      150
+    ],
+    "03": [
+      151,
+      155,
+      163,
+      165,
+      167,
+      169,
+      170,
+      171,
+      174,
+      175,
+      180,
+      183,
+      185,
+      186,
+      190
+    ],
+    "04": [
+      203,
+      205,
+      208,
+      212,
+      214,
+      218,
+      222,
+      224,
+      227,
+      228,
+      229,
+      232,
+      235,
+      243,
+      248
+    ],
+    "05": [
+      253,
+      254,
+      257,
+      258,
+      261,
+      267,
+      273,
+      275,
+      276,
+      279,
+      283,
+      285,
+      286,
+      288,
+      297,
+      299
+    ],
+    "06": [
+      301,
+      304,
+      308,
+      309,
+      314,
+      317,
+      318,
+      319,
+      321,
+      323,
+      324,
+      325,
+      326,
+      328,
+      329,
+      333,
+      336,
+      338
+    ]
+  },
+  "acceptedCandidates": [
+    {
+      "id": "maco_round_PipeHBB00000001",
+      "number": 1,
+      "groupHint": "maco_round_scene_00000001",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000001.jpg",
+      "width": 4000,
+      "height": 1824,
+      "authorCount": 87,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000004",
+      "number": 4,
+      "groupHint": "maco_round_scene_00000004",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000004.jpg",
+      "width": 1280,
+      "height": 626,
+      "authorCount": 142,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000007",
+      "number": 7,
+      "groupHint": "maco_round_scene_00000007",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000007.jpg",
+      "width": 3968,
+      "height": 2976,
+      "authorCount": 560,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000008",
+      "number": 8,
+      "groupHint": "maco_round_scene_00000008",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000008.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 41,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000012",
+      "number": 12,
+      "groupHint": "maco_round_scene_00000012",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000012.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 120,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000014",
+      "number": 14,
+      "groupHint": "maco_round_scene_00000014",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000014.jpg",
+      "width": 714,
+      "height": 463,
+      "authorCount": 80,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000018",
+      "number": 18,
+      "groupHint": "maco_round_scene_00000018",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000018.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 214,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000024",
+      "number": 24,
+      "groupHint": "maco_round_scene_00000024",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000024.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 460,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000025",
+      "number": 25,
+      "groupHint": "maco_round_scene_00000025",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000025.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 15,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000031",
+      "number": 31,
+      "groupHint": "maco_round_scene_00000031",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000031.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 120,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000037",
+      "number": 37,
+      "groupHint": "maco_round_scene_00000037",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000037.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 130,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000043",
+      "number": 43,
+      "groupHint": "maco_round_scene_00000043",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000043.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 30,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000047",
+      "number": 47,
+      "groupHint": "maco_round_scene_00000047",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000047.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 161,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000051",
+      "number": 51,
+      "groupHint": "maco_round_scene_00000051",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000051.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 12,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000056",
+      "number": 56,
+      "groupHint": "maco_round_scene_00000056",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000056.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 97,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000061",
+      "number": 61,
+      "groupHint": "maco_round_scene_00000061",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000061.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 368,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000064",
+      "number": 64,
+      "groupHint": "maco_round_scene_00000064",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000064.jpg",
+      "width": 4160,
+      "height": 3120,
+      "authorCount": 72,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000065",
+      "number": 65,
+      "groupHint": "maco_round_scene_00000065",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000065.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 120,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000066",
+      "number": 66,
+      "groupHint": "maco_round_scene_00000066",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000066.jpg",
+      "width": 3968,
+      "height": 2976,
+      "authorCount": 70,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000067",
+      "number": 67,
+      "groupHint": "maco_round_scene_00000067",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000067.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 100,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000073",
+      "number": 73,
+      "groupHint": "maco_round_scene_00000073",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000073.jpg",
+      "width": 4096,
+      "height": 3072,
+      "authorCount": 176,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000078",
+      "number": 78,
+      "groupHint": "maco_round_scene_00000078",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000078.jpg",
+      "width": 2938,
+      "height": 2204,
+      "authorCount": 105,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000079",
+      "number": 79,
+      "groupHint": "maco_round_scene_00000079",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000079.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 12,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000084",
+      "number": 84,
+      "groupHint": "maco_round_scene_00000084",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000084.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 136,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000088",
+      "number": 88,
+      "groupHint": "maco_round_scene_00000088",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000088.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 108,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000092",
+      "number": 92,
+      "groupHint": "maco_round_scene_00000092",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000092.jpg",
+      "width": 663,
+      "height": 651,
+      "authorCount": 100,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000095",
+      "number": 95,
+      "groupHint": "maco_round_scene_00000095",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000095.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 4,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000097",
+      "number": 97,
+      "groupHint": "maco_round_scene_00000097",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000097.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 118,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000102",
+      "number": 102,
+      "groupHint": "maco_round_scene_00000102",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000102.jpg",
+      "width": 4032,
+      "height": 3024,
+      "authorCount": 130,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000103",
+      "number": 103,
+      "groupHint": "maco_round_scene_00000103",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000103.jpg",
+      "width": 818,
+      "height": 353,
+      "authorCount": 136,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000108",
+      "number": 108,
+      "groupHint": "maco_round_scene_00000108",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000108.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 88,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000110",
+      "number": 110,
+      "groupHint": "maco_round_scene_00000110",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000110.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 118,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000113",
+      "number": 113,
+      "groupHint": "maco_round_scene_00000113",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000113.jpg",
+      "width": 1280,
+      "height": 640,
+      "authorCount": 53,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000116",
+      "number": 116,
+      "groupHint": "maco_round_scene_00000116",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000116.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 285,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000120",
+      "number": 120,
+      "groupHint": "maco_round_scene_00000120",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000120.jpg",
+      "width": 2286,
+      "height": 2286,
+      "authorCount": 117,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000123",
+      "number": 123,
+      "groupHint": "maco_round_scene_00000123",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000123.jpg",
+      "width": 1280,
+      "height": 591,
+      "authorCount": 71,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000136",
+      "number": 136,
+      "groupHint": "maco_round_scene_00000136",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000136.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 68,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000139",
+      "number": 139,
+      "groupHint": "maco_round_scene_00000139",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000139.jpg",
+      "width": 3648,
+      "height": 2736,
+      "authorCount": 167,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000144",
+      "number": 144,
+      "groupHint": "maco_round_scene_00000144",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000144.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 58,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000148",
+      "number": 148,
+      "groupHint": "maco_round_scene_00000148",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000148.jpg",
+      "width": 2016,
+      "height": 4032,
+      "authorCount": 93,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000150",
+      "number": 150,
+      "groupHint": "maco_round_scene_00000150",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000150.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 389,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000151",
+      "number": 151,
+      "groupHint": "maco_round_scene_00000151",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000151.jpg",
+      "width": 1168,
+      "height": 1080,
+      "authorCount": 169,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000155",
+      "number": 155,
+      "groupHint": "maco_round_scene_00000155",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000155.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 198,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000163",
+      "number": 163,
+      "groupHint": "maco_round_scene_00000163",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000163.jpg",
+      "width": 3648,
+      "height": 2736,
+      "authorCount": 110,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000165",
+      "number": 165,
+      "groupHint": "maco_round_scene_00000165",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000165.jpg",
+      "width": 1280,
+      "height": 720,
+      "authorCount": 187,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000167",
+      "number": 167,
+      "groupHint": "maco_round_scene_00000167",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000167.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 100,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000169",
+      "number": 169,
+      "groupHint": "maco_round_scene_00000169",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000169.jpg",
+      "width": 4032,
+      "height": 3024,
+      "authorCount": 58,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000170",
+      "number": 170,
+      "groupHint": "maco_round_scene_00000170",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000170.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 233,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000171",
+      "number": 171,
+      "groupHint": "maco_round_scene_00000171",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000171.jpg",
+      "width": 3968,
+      "height": 2976,
+      "authorCount": 200,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000174",
+      "number": 174,
+      "groupHint": "maco_round_scene_00000174",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000174.jpg",
+      "width": 2976,
+      "height": 2976,
+      "authorCount": 215,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000175",
+      "number": 175,
+      "groupHint": "maco_round_scene_00000175",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000175.jpg",
+      "width": 4608,
+      "height": 2176,
+      "authorCount": 151,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000180",
+      "number": 180,
+      "groupHint": "maco_round_scene_00000180",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000180.jpg",
+      "width": 4032,
+      "height": 3024,
+      "authorCount": 111,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000183",
+      "number": 183,
+      "groupHint": "maco_round_scene_00000183",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000183.jpg",
+      "width": 4032,
+      "height": 3024,
+      "authorCount": 81,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000185",
+      "number": 185,
+      "groupHint": "maco_round_scene_00000185",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000185.jpg",
+      "width": 3456,
+      "height": 4608,
+      "authorCount": 61,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000186",
+      "number": 186,
+      "groupHint": "maco_round_scene_00000186",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000186.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 124,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000190",
+      "number": 190,
+      "groupHint": "maco_round_scene_00000190",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000190.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 94,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000203",
+      "number": 203,
+      "groupHint": "maco_round_scene_00000203",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000203.jpg",
+      "width": 4160,
+      "height": 3120,
+      "authorCount": 169,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000205",
+      "number": 205,
+      "groupHint": "maco_round_scene_00000205",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000205.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 209,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000208",
+      "number": 208,
+      "groupHint": "maco_round_scene_00000208",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000208.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 31,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000212",
+      "number": 212,
+      "groupHint": "maco_round_scene_00000212",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000212.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 99,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000214",
+      "number": 214,
+      "groupHint": "maco_round_scene_00000214",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000214.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 127,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000218",
+      "number": 218,
+      "groupHint": "maco_round_scene_00000218",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000218.jpg",
+      "width": 3120,
+      "height": 4160,
+      "authorCount": 128,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000222",
+      "number": 222,
+      "groupHint": "maco_round_scene_00000222",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000222.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 21,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000224",
+      "number": 224,
+      "groupHint": "maco_round_scene_00000224",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000224.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 104,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000227",
+      "number": 227,
+      "groupHint": "maco_round_scene_00000227",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000227.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 104,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000228",
+      "number": 228,
+      "groupHint": "maco_round_scene_00000228",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000228.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 44,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000229",
+      "number": 229,
+      "groupHint": "maco_round_scene_00000229",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000229.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 118,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000232",
+      "number": 232,
+      "groupHint": "maco_round_scene_00000232",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000232.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 96,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000235",
+      "number": 235,
+      "groupHint": "maco_round_scene_00000235",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000235.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 164,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000243",
+      "number": 243,
+      "groupHint": "maco_round_scene_00000243",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000243.jpg",
+      "width": 3395,
+      "height": 2546,
+      "authorCount": 322,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000248",
+      "number": 248,
+      "groupHint": "maco_round_scene_00000248",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000248.jpg",
+      "width": 3648,
+      "height": 2736,
+      "authorCount": 112,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000253",
+      "number": 253,
+      "groupHint": "maco_round_scene_00000253",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000253.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 74,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000254",
+      "number": 254,
+      "groupHint": "maco_round_scene_00000254",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000254.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 11,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000257",
+      "number": 257,
+      "groupHint": "maco_round_scene_00000257",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000257.jpg",
+      "width": 3000,
+      "height": 4000,
+      "authorCount": 229,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000258",
+      "number": 258,
+      "groupHint": "maco_round_scene_00000258",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000258.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 54,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000261",
+      "number": 261,
+      "groupHint": "maco_round_scene_00000261",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000261.jpg",
+      "width": 2792,
+      "height": 2094,
+      "authorCount": 70,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000267",
+      "number": 267,
+      "groupHint": "maco_round_scene_00000267",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000267.jpg",
+      "width": 712,
+      "height": 560,
+      "authorCount": 146,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000273",
+      "number": 273,
+      "groupHint": "maco_round_scene_00000273",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000273.jpg",
+      "width": 3105,
+      "height": 2329,
+      "authorCount": 57,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000275",
+      "number": 275,
+      "groupHint": "maco_round_scene_00000275",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000275.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 91,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000276",
+      "number": 276,
+      "groupHint": "maco_round_scene_00000276",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000276.jpg",
+      "width": 3648,
+      "height": 2736,
+      "authorCount": 280,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000279",
+      "number": 279,
+      "groupHint": "maco_round_scene_00000279",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000279.jpg",
+      "width": 5632,
+      "height": 4224,
+      "authorCount": 55,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000283",
+      "number": 283,
+      "groupHint": "maco_round_scene_00000283",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000283.jpg",
+      "width": 3000,
+      "height": 4000,
+      "authorCount": 93,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000285",
+      "number": 285,
+      "groupHint": "maco_round_scene_00000285",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000285.jpg",
+      "width": 960,
+      "height": 1041,
+      "authorCount": 110,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000286",
+      "number": 286,
+      "groupHint": "maco_round_scene_00000286",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000286.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 109,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000288",
+      "number": 288,
+      "groupHint": "maco_round_scene_00000288",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000288.jpg",
+      "width": 2651,
+      "height": 2651,
+      "authorCount": 74,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000297",
+      "number": 297,
+      "groupHint": "maco_round_scene_00000297",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000297.jpg",
+      "width": 2629,
+      "height": 3505,
+      "authorCount": 221,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000299",
+      "number": 299,
+      "groupHint": "maco_round_scene_00000299",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000299.jpg",
+      "width": 2656,
+      "height": 3541,
+      "authorCount": 599,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000301",
+      "number": 301,
+      "groupHint": "maco_round_scene_00000301",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000301.jpg",
+      "width": 869,
+      "height": 551,
+      "authorCount": 469,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000304",
+      "number": 304,
+      "groupHint": "maco_round_scene_00000304",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000304.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 72,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000308",
+      "number": 308,
+      "groupHint": "maco_round_scene_00000308",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000308.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 305,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000309",
+      "number": 309,
+      "groupHint": "maco_round_scene_00000309",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000309.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 127,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000314",
+      "number": 314,
+      "groupHint": "maco_round_scene_00000314",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000314.jpg",
+      "width": 2976,
+      "height": 3968,
+      "authorCount": 100,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000317",
+      "number": 317,
+      "groupHint": "maco_round_scene_00000317",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000317.jpg",
+      "width": 2736,
+      "height": 3648,
+      "authorCount": 120,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000318",
+      "number": 318,
+      "groupHint": "maco_round_scene_00000318",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000318.jpg",
+      "width": 3024,
+      "height": 4032,
+      "authorCount": 188,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000319",
+      "number": 319,
+      "groupHint": "maco_round_scene_00000319",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000319.jpg",
+      "width": 3968,
+      "height": 2976,
+      "authorCount": 136,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000321",
+      "number": 321,
+      "groupHint": "maco_round_scene_00000321",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000321.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 189,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000323",
+      "number": 323,
+      "groupHint": "maco_round_scene_00000323",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000323.jpg",
+      "width": 2237,
+      "height": 1678,
+      "authorCount": 94,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000324",
+      "number": 324,
+      "groupHint": "maco_round_scene_00000324",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000324.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 300,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000325",
+      "number": 325,
+      "groupHint": "maco_round_scene_00000325",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000325.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 540,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000326",
+      "number": 326,
+      "groupHint": "maco_round_scene_00000326",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000326.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 7,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000328",
+      "number": 328,
+      "groupHint": "maco_round_scene_00000328",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000328.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 793,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000329",
+      "number": 329,
+      "groupHint": "maco_round_scene_00000329",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000329.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 172,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000333",
+      "number": 333,
+      "groupHint": "maco_round_scene_00000333",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000333.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 328,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000336",
+      "number": 336,
+      "groupHint": "maco_round_scene_00000336",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000336.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 34,
+      "technicalIssues": []
+    },
+    {
+      "id": "maco_round_PipeHBB00000338",
+      "number": 338,
+      "groupHint": "maco_round_scene_00000338",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000338.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 100,
+      "technicalIssues": []
+    }
+  ],
+  "sameSceneSets": [
+    {
+      "numbers": [
+        6,
+        50
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same filled-end stack/factory view with rotation;50adds targetROI marker.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        14,
+        247
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same close-up pipe-end image and framing.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        54,
+        94
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same compact round bundle with a low-resolution derivative.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        128,
+        187
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same pale/white bundle photo and background.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        151,
+        193
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same circular metal bundle view at different image sizes.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        155,
+        204,
+        230
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same truck-tail pipe stack; counts198/199needauthor-scope consistency audit.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        166,
+        206
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same pipe stack and background redaction,216/217countdifference.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        183,
+        192,
+        209,
+        281
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same green-net construction backdrop and distinctive fan-shaped pipe pile;crop/view variants.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        186,
+        199
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same yellow-marked pipe rack and warehouse view.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        190,
+        313
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same two low pipe piles and framing.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        222,
+        310
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same21-pipe triangular factory rack view.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        233,
+        236
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same warehouse floor pile;118/119countdifference.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        146,
+        264
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same orange bundle/brick-wall view;90/91countdifference.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        229,
+        315
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same distinctive T-shaped multiple-bundle yard arrangement;118/121countdifference.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        273,
+        320
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same mixed open/filled ends pile,57/56countdifference.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    }
+  ],
+  "possibleSameSceneSets": [
+    {
+      "numbers": [
+        4,
+        5,
+        20,
+        29
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Yellow-rack factory capture family; do not infer independence from changedcount.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    },
+    {
+      "numbers": [
+        31,
+        72
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Similar blue/gray bundle and exterior setting;verify fullresolution.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    },
+    {
+      "numbers": [
+        52,
+        138
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Possible rotated/cropped cart-mounted145-pipe view.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    },
+    {
+      "numbers": [
+        67,
+        286
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Same-looking elevated view of ground stack and longleftsidepipes.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    },
+    {
+      "numbers": [
+        83,
+        91,
+        338
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Graywall/ground compactbundle family;91/338especiallyclose.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    },
+    {
+      "numbers": [
+        84,
+        103,
+        106,
+        267
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Warehouse two-level/rack bundle family;possiblecrop/viewvariants.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    },
+    {
+      "numbers": [
+        153,
+        256
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Similar orange compactbundle and exteriorbackground;127/128difference.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    },
+    {
+      "numbers": [
+        283,
+        296,
+        306
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Same-looking wrappedpile/rubbleyard family.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    },
+    {
+      "numbers": [
+        12,
+        311,
+        317
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Rectangular120-end bundle/construction setting;conservativecapture-familymerge pendingfullreview.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    },
+    {
+      "numbers": [
+        47,
+        219,
+        294
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Rectangular161-end bundle family;possibleviews.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    },
+    {
+      "numbers": [
+        85,
+        116,
+        162,
+        308
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Densecircular warehouse bundle family;possiblecropping/differentviews.",
+      "splitRule": "DO_NOT_SPLIT_UNTIL_RESOLVED; conservative union is acceptable"
+    }
+  ],
+  "explicitRejects": [
+    {
+      "number": 10,
+      "reason": "Visible thick black target-outline arc; needs original unmarked source."
+    },
+    {
+      "number": 50,
+      "reason": "Large hand-drawn target ROI outline."
+    },
+    {
+      "number": 269,
+      "reason": "Hand-drawn target ROI outline."
+    }
+  ],
+  "unselectedPolicy": "All other IDs remain unselected/unevaluated for this pilot, not relabeled negative or automatically judgedbad. Some are lowvisibility,materialuncertain,marked,similarviews or outside diversitybudget.",
+  "fullResolutionChecksAlreadyPerformed": [
+    1,
+    50,
+    120,
+    220
+  ],
+  "candidateLimitations": [
+    "This is scene/markup/target screening, not an independent manual recount of every authorbox.",
+    "All selected images require producer technical+overlay QA and cross-review/automatic-group union before freezing.",
+    "Visual similarity groups are conservative leakage groups, not verified physical-stack identities.",
+    "Nested distinct pipes may each count; one pipe inner/outer rim must not be double-labelled.",
+    "High-density and few-object examples deliberately retained; no modelresults used."
+  ],
+  "selectedHighlights": {
+    "highDensity": [
+      7,
+      24,
+      61,
+      116,
+      150,
+      243,
+      299,
+      301,
+      308,
+      324,
+      325,
+      328,
+      333
+    ],
+    "fewTargets": [
+      25,
+      51,
+      79,
+      95,
+      254,
+      326
+    ],
+    "multipleBundlesOrLooseEnds": [
+      102,
+      165,
+      175,
+      190,
+      205,
+      224,
+      227,
+      229,
+      235,
+      276,
+      301,
+      325,
+      329
+    ],
+    "realRopesCapsWheelsContext": [
+      24,
+      228,
+      273,
+      323
+    ]
+  },
+  "newModelInferencePerformed": false,
+  "splitAssigned": false
+}

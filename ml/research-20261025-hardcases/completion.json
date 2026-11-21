@@ -1,0 +1,64 @@
+{
+  "status": "COMPLETE_DATA_ANNOTATION_TRAINING_EVALUATION_NO_PROMOTION",
+  "completedUTC": "2026-10-26T02:29:39.634675+00:00",
+  "acceptedPositiveImages": 11,
+  "positiveBoxes": 59,
+  "positiveFullImages": 2,
+  "positiveExplicitCountableCrops": 9,
+  "acceptedRealEmptyImages": 40,
+  "quarantinedNegativeImages": 24,
+  "newTrainingImages": 41,
+  "newValidationImages": 10,
+  "totalTrainingImages": 401,
+  "totalValidationImages": 102,
+  "trainingAttempts": 2,
+  "epochsPerAttempt": 8,
+  "firstAttempt": "FAILED_MISSING_REGISTERED_CHECKPOINTS; raw8epoch training evidence retained",
+  "technicalRetry": "Same recipe; finalmodelstate bitwise identical to first finalstate; complete3/5/8checkpoints and12blends verified",
+  "candidateCount": 12,
+  "passingCandidateCount": 0,
+  "selectedConfig": null,
+  "diagnosticCandidateOnly": {
+    "epoch": 5,
+    "alpha": 1.0,
+    "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/research-20261025-hardcases/retention-savefix-v2/candidates/epoch005-alpha1.pt",
+    "sha256": "882f8f88aa52948be14ea943761ead70bee1bc5826f394735488bbdb468f5f53",
+    "trainedCheckpointSHA256": "ff72d0b44d24d86f7dc8934e067e5603f7aa1398c93f58ee86e78bcbe1445633",
+    "anchorSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+    "pipeline": "automatic4tile",
+    "confidence": 0.3
+  },
+  "hardValidationImages": 4,
+  "hardValidationObjects": 27,
+  "hardMAE": {
+    "baseline": 9.0,
+    "diagnosticCandidate": 2.75
+  },
+  "old56MAE": {
+    "baseline": 15.267857142857142,
+    "diagnosticCandidate": 15.375
+  },
+  "oldSmallTargetFN": {
+    "baseline": 388,
+    "diagnosticCandidate": 435
+  },
+  "realEmptyErrors": {
+    "baselineImages": 1,
+    "diagnosticCandidateImages": 1,
+    "validationImages": 6
+  },
+  "old63ModelRegression": "SKIPPED_NO_SELECTED_CANDIDATE",
+  "sealed36ModelInferencePerformed": false,
+  "deploymentApproved": false,
+  "productionFilesUnchanged": 17,
+  "evidence": {
+    "ml/research-20261025-hardcases/README.md": "fa58967302087d3f146086643945971dbbaea02b1ca542275a001fdaae67b7fa",
+    "ml/research-20261025-hardcases/independent-retention-review.json": "98ad908ed7e337d29229ad7798d8bc1870d15693402f56a7cba61459a31bb883",
+    "ml/research-20261025-hardcases/dataset-qa.json": "6a4c346f9e510a03fdfbcaeed9fc8be6a938f2718b6b213373e9d50fd6888099",
+    "ml/research-20261025-hardcases/split-independent-review.json": "e31e90916c284efda2c7272ff1ac62da215fc3ed47e520e86e9513c1e4267e4c",
+    "output/research-20261025-hardcases/retention-savefix-v2/selection.json": "98a6b8edbcd424c91d3eea28c656296649bb25b4baa5ed95a94cdfd925e5ce6b",
+    "output/research-20261025-hardcases/retention-savefix-v2/experiment-result.json": "a32f191e5fa7aa5912c1abb63e525cc7e26962cd31a38c7a9ab56fe2f9c89314",
+    "output/research-20261025-hardcases/retention-savefix-v2/training-complete.json": "0c72d5dd25ed4fbd817831a50dabb86dc098ef570b63971261b17f5e0f4fc4da",
+    "ml/research-20261025-hardcases/production-preservation.json": "4d61efd6e416a2c02fd0caafbcacb895ecffddf336cc72385098de8f9ffc56a8"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "torch": "2.8.0",
+  "torchvision": "0.23.0",
+  "ultralytics": "8.4.123",
+  "numpy": "2.0.2",
+  "opencv-python": "5.0.0.93",
+  "Pillow": "11.3.0",
+  "scipy": "1.13.1",
+  "scikit-learn": "1.6.1",
+  "imagehash": "4.3.2",
+  "gdown": "5.2.2",
+  "coremltools": "9.0",
+  "sourceFilesSHA256": {
+    "ml/colony/mps_compat.py": "e159d5b8da2a5f3ced4a910f75fe998741a6a993307a5a7cbec6319b0fea437c",
+    "ml/colony/prepare_dataset.py": "c6b598a4bb3c82d8e2fd2dc294e1ea8a9bde266ef20e440810126ccba368b340",
+    "ml/colony/export_coreml.py": "d07ddcec734494b15cfee18ae8734859bfeb8be4c50039498ccc2b11895ccc89",
+    "ml/colony/evaluate_pipeline.py": "630220acdb9b169761d406e2044e42af6dbd0f8b430c417e5284c65d0d0a0d6c",
+    "ml/colony/train.py": "9092622a485ac3eca3e016071a7d4b950756e569ae4dac04a5302302a9bc7400",
+    "ml/colony/download_figshare.py": "7d8c389aeeb28f5e8f786974e30e860bf6ef60efcc79984a4eb48ba0b9f7d501",
+    "ml/colony/evaluate.py": "534bb0f62b399c31d56c80d01fcc15508fabc3aac6f1f0d36495865cae3e250f"
+  }
+}

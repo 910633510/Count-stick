@@ -1,0 +1,28 @@
+{
+  "task": "Assistant-reviewed large/touching colony and real empty-plate data for retention training",
+  "annotationIdentity": "Codex visual annotations and corrections, not certified microbiologist ground truth",
+  "target": "Visually distinguishable macroscopic colony instances on agar photographs; not individual microscopic cells",
+  "positiveRules": [
+    "Inspect each accepted photograph at sufficient resolution and record the review and any corrected geometry.",
+    "Author boxes or masks may initialize proposals, but provenance must distinguish reused, accepted-after-review, corrected and newly drawn annotations.",
+    "Label all countable visible colonies in an accepted full image; do not silently omit difficult regions.",
+    "Touching colonies may have separate instances only when separate centers/boundaries are visually resolvable.",
+    "Quarantine unresolved confluent lawns or uncertain counts; do not invent instance counts or label these as background.",
+    "Explicit crops may exclude an uncertain region, but retain original-image/physical-plate grouping and crop transforms."
+  ],
+  "negativeRules": [
+    "A zero label means no visible colony in the photograph, not a microbiological sterility claim.",
+    "Inspect real plate surface, rims, glare and suspicious specks; quarantine uncertain growth.",
+    "Uncountable or clinical-negative class names alone never imply zero visible colonies.",
+    "Pure color controls supplement real empty plates and are never counted as newly collected real data."
+  ],
+  "separationRules": [
+    "Freeze image/annotation hashes and physical-plate or conservative acquisition groups before model evaluation.",
+    "Variants, crops, lighting views and near duplicates of a plate remain in the same partition.",
+    "Keep all previous frozen labels, failed experiments and model artifacts unchanged.",
+    "No prior validation/test image may enter the new training loss.",
+    "The previously reserved 36 clinical test images remain excluded from development."
+  ],
+  "acceptance": "A new candidate must improve hard-case validation and pass strict zero-regression comparisons against the actual frozen old-v2 automatic4tile/confidence0.3 baseline. Prior failed stronger-reference protocols remain preserved as separate experiments.",
+  "appModelOrStoreChangesAuthorizedByThisRound": false
+}

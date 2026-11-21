@@ -1,0 +1,113 @@
+{
+  "status": "PASS_OWN_VISUAL_REVIEW_PENDING_INDEPENDENT_QA",
+  "scope": "Exactly four additional train-only full-source photos; no resizing/cropping into separate samples, no detector outputs used.",
+  "images": [
+    {
+      "id": "dayang-1",
+      "path": "output/pipes-head-retention-20261026/data/negatives/candidates/dayang-1.webp",
+      "sha256": "67b0a3b3c300a5b97b05f82482f946b297208c1dec4c3ebcf29e3f081d69b622",
+      "reviewer": "general_counting_papers",
+      "reviewMethod": "Tool-displayed original-size complete image; no learned predictions.",
+      "pipeEndCount": 0,
+      "xyxy": [],
+      "status": "PASS_OWN_VISUAL_REVIEW",
+      "observation": "Natural close-up of unthreaded round metal bars. Visible tan/brown cut faces are continuous solids, with rough/saw-cut texture and dark mottling; blue-gray shafts have patchy surface coloration. No discernible pipe mouth. Some edge-cut faces are only partially in frame.",
+      "textureCaveat": "Dark surface chemistry cannot be identified from photograph alone.",
+      "fullResolutionReviewed": [
+        1400,
+        1050
+      ]
+    },
+    {
+      "id": "hindustan-c45",
+      "path": "output/pipes-head-retention-20261026/data/negatives/candidates/hindustan-c45.jpg",
+      "sha256": "ff4d38e5192aaa35d4d5bad779ed1a2932448c522a6da05655593cdd45ab4399",
+      "reviewer": "general_counting_papers",
+      "reviewMethod": "Tool-displayed original-size complete image; no learned predictions.",
+      "pipeEndCount": 0,
+      "xyxy": [],
+      "status": "PASS_OWN_VISUAL_REVIEW",
+      "observation": "Photographed stockpile of round metal bars with continuous red-brown cut faces, saw grooves and irregular darker patches. The dark interstitial gaps are between separate bars, not pipe interiors. No discernible pipe mouth.",
+      "textureCaveat": "Red/dark finish may include industrial paint or oxidation; do not label it chemically verified rust.",
+      "fullResolutionReviewed": [
+        1000,
+        665
+      ]
+    },
+    {
+      "id": "cjm-bar11",
+      "path": "output/pipes-head-retention-20261026/data/negatives/candidates/cjm-bar11.webp",
+      "sha256": "a3449f95a85d52f8b613ce13164c9928ce766260d2772cd8181a139a4c5cfcaf",
+      "reviewer": "general_counting_papers",
+      "reviewMethod": "Tool-displayed original-size complete image; no learned predictions.",
+      "pipeEndCount": 0,
+      "xyxy": [],
+      "status": "PASS_OWN_VISUAL_REVIEW",
+      "observation": "Warehouse scene of round steel bar bundles. Dark flat cut faces remain visibly continuous; chalk digits and circular labels occur on several faces. No discernible pipe mouth.",
+      "textureCaveat": "This is a solid-end / painted-mark confuser, not an oxide-only sample. Original available source photo is 500x500.",
+      "fullResolutionReviewed": [
+        500,
+        500
+      ]
+    },
+    {
+      "id": "zhonggongte-reserve",
+      "path": "output/pipes-head-retention-20261026/data/negatives/candidates/zhonggongte-reserve.jpg",
+      "sha256": "ca1b7c86c7ed4d7dc5e763a9d06a485d2d86982d882d1e9443a7a1f602743bd7",
+      "reviewer": "general_counting_papers",
+      "reviewMethod": "Tool-displayed original-size complete image; no learned predictions.",
+      "pipeEndCount": 0,
+      "xyxy": [],
+      "status": "PASS_OWN_VISUAL_REVIEW",
+      "observation": "Real metal-stock scene with densely stacked smooth round rods. End faces are gray to pale, continuous solid surfaces with patchy discoloration and saw markings. No discernible pipe mouth.",
+      "textureCaveat": "Only visible discoloration is claimed; oxide, paint and oil cannot be distinguished. Previously downloaded but never admitted reserve photo.",
+      "fullResolutionReviewed": [
+        750,
+        750
+      ]
+    }
+  ],
+  "notAdmitted": [
+    {
+      "id": "dayang-2",
+      "reason": "Not needed; related supplier scene and additional variants would not improve four-source bounded scope."
+    },
+    {
+      "id": "dayang-3",
+      "reason": "Same/cropped photo family as dayang-2, not an independent sample."
+    },
+    {
+      "id": "barclay-black",
+      "reason": "Reserve not selected; bright clean faces and wide banner crop less relevant to targeted texture."
+    },
+    {
+      "id": "hindustan-c55",
+      "reason": "White-background product cutout with ambiguous photographic provenance, not desired real scene."
+    },
+    {
+      "id": "hnl-round",
+      "reason": "Actual hollow tube opening visible top-right; cannot label whole photo zero."
+    },
+    {
+      "id": "jiyuan-cover",
+      "reason": "Illustrative/rendered appearance; real-camera provenance uncertain."
+    },
+    {
+      "id": "jiyuan-news23",
+      "reason": "Not selected or admitted; no full-frame zero-label review completed."
+    },
+    {
+      "id": "jiyuan-R1",
+      "reason": "Not selected or admitted; no full-frame zero-label review completed."
+    }
+  ],
+  "limitations": [
+    "No image proves metallurgical composition or surface chemistry. Product-page round steel descriptions support material scope but are supplier claims.",
+    "No camera-native/original raw file or physical-stock identity available; these are four source-photo groups, not guaranteed independent physical inventories.",
+    "Annotation is zero visible hollow round pipe ends; it is not a count of rods."
+  ],
+  "newImageNetworkBytes": 1490449,
+  "downloadLimitBytes": 30000000,
+  "sourcesReceiptPath": "output/pipes-head-retention-20261026/data/negatives/sources/download-receipts.json",
+  "sourcesReceiptSHA256": "f223e76b86a032452d60eee3cd7cf889b94eef3e867482aa3ac872dd44801836"
+}

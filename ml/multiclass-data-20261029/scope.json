@@ -1,0 +1,25 @@
+{
+  "status": "PRIORITY_DATA_ACQUISITION_IN_PROGRESS",
+  "activeCategories": [
+    "skewer_ends",
+    "bacterial_colonies"
+  ],
+  "deferredCategories": [
+    "screws_nuts",
+    "rice_grains",
+    "pills"
+  ],
+  "userPriority": "User explicitly selected existing skewers and colonies; new-class downloads stopped.",
+  "dataPolicy": [
+    "Anonymous public downloads first; no account creation or payments.",
+    "Keep raw/source labels; separate author points, boxes, semantic masks, image counts and predictions.",
+    "Do not repurpose previous frozen validation/test images as training.",
+    "Source quantity is not accepted count-ready dataset size.",
+    "Do not change app models or store state during collection."
+  ],
+  "diskPolicy": {
+    "totalAdditionalPlannedDownloadBytesMax": 1500000000,
+    "minimumFreeGiB": 20,
+    "cleanupAuthorized": false
+  }
+}

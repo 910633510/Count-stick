@@ -1,0 +1,23 @@
+{
+  "status": "PASS_INDEPENDENT_SYNTHETIC_NUMERIC_CHECKS_NO_MODEL",
+  "createdAt": "2026-10-26T09:39:02.629929+00:00",
+  "checks": [
+    "Equal count can still haveTP1FP1FN1; metrics retain both",
+    "Duplicate prediction matches oneGT once",
+    "Single negative FP rejects despite other gates passing",
+    "Scene macro is mean of per-scene totalAE/GT(.45 here), not image APE",
+    "Scene sampler mass invariant to3views versus1view, negative mass.15",
+    "NMS removes duplicate and unpadding removes padding-only box",
+    "AP library interface handles real emptyGT with perfect positive match"
+  ],
+  "codeSHA256": {
+    "ml/pipes-20261026/model/pipe_ml.py": "97977a9af601d74c86ec7cceb4ff66ee23ed82cfb3113c8dc15773f234518ef8",
+    "ml/pipes-20261026/model/train_pipe_ends.py": "bb5ed2297a0797092c4c7fa2aaba2f2cb97af3ab500d2afdb382749f84bec3db",
+    "ml/pipes-20261026/model/evaluate_pipe_ends.py": "e35e7698f4025786c45b42a85552323b0a6c752bb1d0f28e9517b8ff164cfc50"
+  },
+  "modelInferencePerformed": false,
+  "optimizerSteps": 0,
+  "imagesOpened": 0,
+  "realGTRead": false,
+  "metricsAreSyntheticOnly": true
+}

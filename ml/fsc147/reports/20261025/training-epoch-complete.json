@@ -1,0 +1,9 @@
+{
+  "status": "COMPLETE_ONE_FULL_FINE_TUNING_EPOCH",
+  "trainingImages": 3658,
+  "optimizerSteps": 3658,
+  "weights": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/training-fsc147-20261025/FamNet-finetuned-one-epoch.pth",
+  "sha256": "7e3329ba19f1e27ce74c823f8a07902fe8ea93ff2e30fbe85b40c742ceb8e3c7",
+  "originalWeightsSHA256": "9fd1b35d7f9f4c1af736e4562389dd16ec2ce70a4b9c68dc61454aa631cc17c1",
+  "handoff": "Stopped optional original evaluation after the complete weights file was saved, to apply pre-registered exact-duplicate exclusions before test."
+}

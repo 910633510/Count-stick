@@ -1,0 +1,44 @@
+{
+  "status": "COMPLETE_PRIORITY_SOURCE_COLLECTION_NOT_A_TRAINED_MODEL",
+  "verifiedAtUTC": "2026-10-29T20:02:13.775880+00:00",
+  "priority": [
+    "skewer_ends",
+    "colonies"
+  ],
+  "colony": {
+    "downloadedPhotos": 46,
+    "originalPairedJSON": 40,
+    "structuralCandidates": 38,
+    "candidateTargetBoxes": 1808,
+    "quarantinedPairedImages": 2,
+    "unlabelledRawPhotos": 6,
+    "newEmptyPlateNegatives": 0,
+    "physicalPlateGroupingComplete": false
+  },
+  "skewers": {
+    "endFaceAnnotationCandidates": 7,
+    "verifiedPointReferenceImages": 1,
+    "verifiedPointCenters": 50,
+    "completeBBoxImages": 0,
+    "benchmarkOnlyReferences": 1,
+    "trainingAdmittedImages": 0,
+    "includesAdjacentWoodDowelDomains": true
+  },
+  "dataPayloadBytes": 118255634,
+  "newModelInferencePerformed": false,
+  "trainingPerformed": false,
+  "oldFrozenDataRepurposed": false,
+  "appChanged": false,
+  "storeActionsPerformed": false,
+  "artifacts": {
+    "ml/multiclass-data-20261029/README.md": "13e876fc932bf323aaa81372139c7c5e7042130bf8ae4a9188550b90dff1dd68",
+    "ml/multiclass-data-20261029/colony/source-summary.json": "d12d243aa5f18449fa77cd75b83d4991aca1fc1ec10633c2603a1b0d364e3a38",
+    "ml/multiclass-data-20261029/colony/independent-audit.json": "ff69f6f190f1712a1170d71806686dde8a8072b3096d35fb876b636eb3d2376b",
+    "ml/multiclass-data-20261029/skewers/qa-summary.json": "073c2971aa4461bd470ab42f9a367cb6ff5b1e2a43a7a579f48db98bece04b1d",
+    "ml/multiclass-data-20261029/skewers/root-point-review.json": "19e4f071cfd5fea22597a16028c30024e4a4c7be69635031abc2eb813bf60bdd",
+    "ml/multiclass-data-20261029/skewers/root-retail-screen.json": "f6f306c96cf1e00ad1a3b6575ed7556f736552bdab1733a4fa33f3ef0afc8f84",
+    "output/multiclass-data-20261029/skewers/source-catalog.json": "83a282de3f87126ffac02e89af8acc484b84cc9bb4c7b5fe6d99da6475977a2c",
+    "output/multiclass-data-20261029/colony/colony-candidate-index.json": "d454f70351bd5136af3b8988c6ad706420acc4ae7198310b94c63da412082500",
+    "output/multiclass-data-20261029/colony/spsds-unlabelled-index.json": "3ede10d8cffc5df20cc421e6124f207099f274d5eb0fa1fa506d989b2fcd6e83"
+  }
+}

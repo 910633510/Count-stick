@@ -1,0 +1,722 @@
+{
+  "summary": {
+    "images": 63,
+    "groundTruthObjects": 11752,
+    "confidence": 0.3,
+    "nmsIoU": 0.7,
+    "matchIoU": 0.5,
+    "TP": 10796,
+    "FP": 837,
+    "FN": 956,
+    "precision": 0.928049514312731,
+    "recall": 0.9186521443158612,
+    "countMAE": 13.031746031746032,
+    "countRMSE": 20.02973979337915,
+    "countBias": -1.8888888888888888,
+    "exactCountImages": 5,
+    "exactCountRate": 0.07936507936507936,
+    "within10PercentImages": 42,
+    "trainingMedianCountBaselineMAE": 142.93650793650792,
+    "sizeRecall": {
+      "under16px": {
+        "groundTruth": 2325,
+        "truePositives": 2071,
+        "recall": 0.890752688172043
+      },
+      "16to32px": {
+        "groundTruth": 8521,
+        "truePositives": 8255,
+        "recall": 0.9687830066893557
+      },
+      "over32px": {
+        "groundTruth": 906,
+        "truePositives": 470,
+        "recall": 0.5187637969094923
+      }
+    },
+    "AP50": 0.9428682797583675,
+    "AP50_95": 0.6030594758844651,
+    "AP75": 0.7330143074909268,
+    "method": "Ultralytics BaseValidator matching + ap_per_class on saved predictions at IoU0.50:0.95; max1000 detections/image",
+    "status": "COMPLETED_UNSEEN_SPECIES_TEST",
+    "evaluationDevice": "cpu",
+    "pipeline": "automatic4tile",
+    "modelSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+    "manifestSHA256": "f28b0409993893f4874845c77a06207a5f98f5c620b1a5b478b733de64e1d8fa",
+    "testSpecies": [
+      8,
+      17,
+      21
+    ],
+    "F1": 0.9233269189651486,
+    "scope": "Frozen same-study unseen-species research test; no physical-device, phone-photo or production acceptance.",
+    "perSpecies": {
+      "sp08": {
+        "images": 12,
+        "countMAE": 25.833333333333332,
+        "truth": 368,
+        "TP": 33,
+        "FP": 25,
+        "FN": 335
+      },
+      "sp17": {
+        "images": 3,
+        "countMAE": 31.333333333333332,
+        "truth": 224,
+        "TP": 106,
+        "FP": 24,
+        "FN": 118
+      },
+      "sp21": {
+        "images": 48,
+        "countMAE": 8.6875,
+        "truth": 11160,
+        "TP": 10657,
+        "FP": 788,
+        "FN": 503
+      }
+    },
+    "within10PercentOrOneObjectImages": 43,
+    "meanAbsolutePercentageError": 0.21538788063913386,
+    "speciesMacroRecall": 0.5059388380566502,
+    "speciesObjectShare": {
+      "sp08": 0.031313818924438394,
+      "sp17": 0.01906058543226685,
+      "sp21": 0.9496255956432947
+    },
+    "generalizationAssessment": "NOT_READY_FOR_GENERAL_COLONY_DEPLOYMENT: strong aggregate detection is dominated by sp21, while sp08/sp17 have substantial missed colonies. Tiling improves overall detection but does not improve test count MAE over the frozen whole-image reference."
+  },
+  "images": [
+    {
+      "image": "sp08_img01.jpg",
+      "species": "sp08",
+      "truth": 12,
+      "predicted": 1,
+      "signedError": -11,
+      "tp": 0,
+      "fp": 1,
+      "fn": 12
+    },
+    {
+      "image": "sp08_img02.jpg",
+      "species": "sp08",
+      "truth": 12,
+      "predicted": 0,
+      "signedError": -12,
+      "tp": 0,
+      "fp": 0,
+      "fn": 12
+    },
+    {
+      "image": "sp08_img03.jpg",
+      "species": "sp08",
+      "truth": 12,
+      "predicted": 3,
+      "signedError": -9,
+      "tp": 0,
+      "fp": 3,
+      "fn": 12
+    },
+    {
+      "image": "sp08_img04.jpg",
+      "species": "sp08",
+      "truth": 12,
+      "predicted": 1,
+      "signedError": -11,
+      "tp": 0,
+      "fp": 1,
+      "fn": 12
+    },
+    {
+      "image": "sp08_img05.jpg",
+      "species": "sp08",
+      "truth": 17,
+      "predicted": 14,
+      "signedError": -3,
+      "tp": 9,
+      "fp": 5,
+      "fn": 8
+    },
+    {
+      "image": "sp08_img06.jpg",
+      "species": "sp08",
+      "truth": 17,
+      "predicted": 0,
+      "signedError": -17,
+      "tp": 0,
+      "fp": 0,
+      "fn": 17
+    },
+    {
+      "image": "sp08_img07.jpg",
+      "species": "sp08",
+      "truth": 26,
+      "predicted": 3,
+      "signedError": -23,
+      "tp": 0,
+      "fp": 3,
+      "fn": 26
+    },
+    {
+      "image": "sp08_img08.jpg",
+      "species": "sp08",
+      "truth": 33,
+      "predicted": 0,
+      "signedError": -33,
+      "tp": 0,
+      "fp": 0,
+      "fn": 33
+    },
+    {
+      "image": "sp08_img09.jpg",
+      "species": "sp08",
+      "truth": 35,
+      "predicted": 0,
+      "signedError": -35,
+      "tp": 0,
+      "fp": 0,
+      "fn": 35
+    },
+    {
+      "image": "sp08_img10.jpg",
+      "species": "sp08",
+      "truth": 57,
+      "predicted": 8,
+      "signedError": -49,
+      "tp": 3,
+      "fp": 5,
+      "fn": 54
+    },
+    {
+      "image": "sp08_img11.jpg",
+      "species": "sp08",
+      "truth": 65,
+      "predicted": 13,
+      "signedError": -52,
+      "tp": 9,
+      "fp": 4,
+      "fn": 56
+    },
+    {
+      "image": "sp08_img12.jpg",
+      "species": "sp08",
+      "truth": 70,
+      "predicted": 15,
+      "signedError": -55,
+      "tp": 12,
+      "fp": 3,
+      "fn": 58
+    },
+    {
+      "image": "sp17_img01.jpg",
+      "species": "sp17",
+      "truth": 50,
+      "predicted": 37,
+      "signedError": -13,
+      "tp": 30,
+      "fp": 7,
+      "fn": 20
+    },
+    {
+      "image": "sp17_img02.jpg",
+      "species": "sp17",
+      "truth": 52,
+      "predicted": 50,
+      "signedError": -2,
+      "tp": 46,
+      "fp": 4,
+      "fn": 6
+    },
+    {
+      "image": "sp17_img03.jpg",
+      "species": "sp17",
+      "truth": 122,
+      "predicted": 43,
+      "signedError": -79,
+      "tp": 30,
+      "fp": 13,
+      "fn": 92
+    },
+    {
+      "image": "sp21_img01.jpg",
+      "species": "sp21",
+      "truth": 3,
+      "predicted": 4,
+      "signedError": 1,
+      "tp": 1,
+      "fp": 3,
+      "fn": 2
+    },
+    {
+      "image": "sp21_img02.jpg",
+      "species": "sp21",
+      "truth": 3,
+      "predicted": 3,
+      "signedError": 0,
+      "tp": 0,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img04.jpg",
+      "species": "sp21",
+      "truth": 21,
+      "predicted": 25,
+      "signedError": 4,
+      "tp": 20,
+      "fp": 5,
+      "fn": 1
+    },
+    {
+      "image": "sp21_img05.jpg",
+      "species": "sp21",
+      "truth": 26,
+      "predicted": 26,
+      "signedError": 0,
+      "tp": 26,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "image": "sp21_img06.jpg",
+      "species": "sp21",
+      "truth": 27,
+      "predicted": 30,
+      "signedError": 3,
+      "tp": 26,
+      "fp": 4,
+      "fn": 1
+    },
+    {
+      "image": "sp21_img07.jpg",
+      "species": "sp21",
+      "truth": 42,
+      "predicted": 44,
+      "signedError": 2,
+      "tp": 42,
+      "fp": 2,
+      "fn": 0
+    },
+    {
+      "image": "sp21_img08.jpg",
+      "species": "sp21",
+      "truth": 42,
+      "predicted": 46,
+      "signedError": 4,
+      "tp": 42,
+      "fp": 4,
+      "fn": 0
+    },
+    {
+      "image": "sp21_img10.jpg",
+      "species": "sp21",
+      "truth": 53,
+      "predicted": 63,
+      "signedError": 10,
+      "tp": 50,
+      "fp": 13,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img11.jpg",
+      "species": "sp21",
+      "truth": 56,
+      "predicted": 55,
+      "signedError": -1,
+      "tp": 53,
+      "fp": 2,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img12.jpg",
+      "species": "sp21",
+      "truth": 56,
+      "predicted": 60,
+      "signedError": 4,
+      "tp": 50,
+      "fp": 10,
+      "fn": 6
+    },
+    {
+      "image": "sp21_img13.jpg",
+      "species": "sp21",
+      "truth": 61,
+      "predicted": 64,
+      "signedError": 3,
+      "tp": 60,
+      "fp": 4,
+      "fn": 1
+    },
+    {
+      "image": "sp21_img14.jpg",
+      "species": "sp21",
+      "truth": 61,
+      "predicted": 63,
+      "signedError": 2,
+      "tp": 61,
+      "fp": 2,
+      "fn": 0
+    },
+    {
+      "image": "sp21_img16.jpg",
+      "species": "sp21",
+      "truth": 89,
+      "predicted": 91,
+      "signedError": 2,
+      "tp": 89,
+      "fp": 2,
+      "fn": 0
+    },
+    {
+      "image": "sp21_img17.jpg",
+      "species": "sp21",
+      "truth": 89,
+      "predicted": 89,
+      "signedError": 0,
+      "tp": 89,
+      "fp": 0,
+      "fn": 0
+    },
+    {
+      "image": "sp21_img18.jpg",
+      "species": "sp21",
+      "truth": 89,
+      "predicted": 98,
+      "signedError": 9,
+      "tp": 88,
+      "fp": 10,
+      "fn": 1
+    },
+    {
+      "image": "sp21_img19.jpg",
+      "species": "sp21",
+      "truth": 89,
+      "predicted": 104,
+      "signedError": 15,
+      "tp": 85,
+      "fp": 19,
+      "fn": 4
+    },
+    {
+      "image": "sp21_img20.jpg",
+      "species": "sp21",
+      "truth": 91,
+      "predicted": 95,
+      "signedError": 4,
+      "tp": 90,
+      "fp": 5,
+      "fn": 1
+    },
+    {
+      "image": "sp21_img21.jpg",
+      "species": "sp21",
+      "truth": 92,
+      "predicted": 92,
+      "signedError": 0,
+      "tp": 89,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img23.jpg",
+      "species": "sp21",
+      "truth": 96,
+      "predicted": 109,
+      "signedError": 13,
+      "tp": 96,
+      "fp": 13,
+      "fn": 0
+    },
+    {
+      "image": "sp21_img24.jpg",
+      "species": "sp21",
+      "truth": 100,
+      "predicted": 108,
+      "signedError": 8,
+      "tp": 97,
+      "fp": 11,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img25.jpg",
+      "species": "sp21",
+      "truth": 145,
+      "predicted": 149,
+      "signedError": 4,
+      "tp": 142,
+      "fp": 7,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img26.jpg",
+      "species": "sp21",
+      "truth": 148,
+      "predicted": 152,
+      "signedError": 4,
+      "tp": 146,
+      "fp": 6,
+      "fn": 2
+    },
+    {
+      "image": "sp21_img27.jpg",
+      "species": "sp21",
+      "truth": 152,
+      "predicted": 150,
+      "signedError": -2,
+      "tp": 147,
+      "fp": 3,
+      "fn": 5
+    },
+    {
+      "image": "sp21_img28.jpg",
+      "species": "sp21",
+      "truth": 158,
+      "predicted": 158,
+      "signedError": 0,
+      "tp": 155,
+      "fp": 3,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img29.jpg",
+      "species": "sp21",
+      "truth": 158,
+      "predicted": 159,
+      "signedError": 1,
+      "tp": 155,
+      "fp": 4,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img30.jpg",
+      "species": "sp21",
+      "truth": 159,
+      "predicted": 161,
+      "signedError": 2,
+      "tp": 157,
+      "fp": 4,
+      "fn": 2
+    },
+    {
+      "image": "sp21_img31.jpg",
+      "species": "sp21",
+      "truth": 221,
+      "predicted": 228,
+      "signedError": 7,
+      "tp": 219,
+      "fp": 9,
+      "fn": 2
+    },
+    {
+      "image": "sp21_img32.jpg",
+      "species": "sp21",
+      "truth": 222,
+      "predicted": 239,
+      "signedError": 17,
+      "tp": 222,
+      "fp": 17,
+      "fn": 0
+    },
+    {
+      "image": "sp21_img33.jpg",
+      "species": "sp21",
+      "truth": 248,
+      "predicted": 253,
+      "signedError": 5,
+      "tp": 242,
+      "fp": 11,
+      "fn": 6
+    },
+    {
+      "image": "sp21_img34.jpg",
+      "species": "sp21",
+      "truth": 249,
+      "predicted": 253,
+      "signedError": 4,
+      "tp": 246,
+      "fp": 7,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img35.jpg",
+      "species": "sp21",
+      "truth": 249,
+      "predicted": 255,
+      "signedError": 6,
+      "tp": 247,
+      "fp": 8,
+      "fn": 2
+    },
+    {
+      "image": "sp21_img36.jpg",
+      "species": "sp21",
+      "truth": 312,
+      "predicted": 323,
+      "signedError": 11,
+      "tp": 309,
+      "fp": 14,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img37.jpg",
+      "species": "sp21",
+      "truth": 313,
+      "predicted": 326,
+      "signedError": 13,
+      "tp": 312,
+      "fp": 14,
+      "fn": 1
+    },
+    {
+      "image": "sp21_img38.jpg",
+      "species": "sp21",
+      "truth": 411,
+      "predicted": 420,
+      "signedError": 9,
+      "tp": 409,
+      "fp": 11,
+      "fn": 2
+    },
+    {
+      "image": "sp21_img39.jpg",
+      "species": "sp21",
+      "truth": 412,
+      "predicted": 425,
+      "signedError": 13,
+      "tp": 410,
+      "fp": 15,
+      "fn": 2
+    },
+    {
+      "image": "sp21_img40.jpg",
+      "species": "sp21",
+      "truth": 416,
+      "predicted": 406,
+      "signedError": -10,
+      "tp": 346,
+      "fp": 60,
+      "fn": 70
+    },
+    {
+      "image": "sp21_img41.jpg",
+      "species": "sp21",
+      "truth": 420,
+      "predicted": 442,
+      "signedError": 22,
+      "tp": 417,
+      "fp": 25,
+      "fn": 3
+    },
+    {
+      "image": "sp21_img42.jpg",
+      "species": "sp21",
+      "truth": 425,
+      "predicted": 446,
+      "signedError": 21,
+      "tp": 419,
+      "fp": 27,
+      "fn": 6
+    },
+    {
+      "image": "sp21_img43.jpg",
+      "species": "sp21",
+      "truth": 431,
+      "predicted": 441,
+      "signedError": 10,
+      "tp": 377,
+      "fp": 64,
+      "fn": 54
+    },
+    {
+      "image": "sp21_img44.jpg",
+      "species": "sp21",
+      "truth": 442,
+      "predicted": 441,
+      "signedError": -1,
+      "tp": 407,
+      "fp": 34,
+      "fn": 35
+    },
+    {
+      "image": "sp21_img45.jpg",
+      "species": "sp21",
+      "truth": 449,
+      "predicted": 464,
+      "signedError": 15,
+      "tp": 408,
+      "fp": 56,
+      "fn": 41
+    },
+    {
+      "image": "sp21_img46.jpg",
+      "species": "sp21",
+      "truth": 449,
+      "predicted": 460,
+      "signedError": 11,
+      "tp": 445,
+      "fp": 15,
+      "fn": 4
+    },
+    {
+      "image": "sp21_img47.jpg",
+      "species": "sp21",
+      "truth": 450,
+      "predicted": 467,
+      "signedError": 17,
+      "tp": 446,
+      "fp": 21,
+      "fn": 4
+    },
+    {
+      "image": "sp21_img48.jpg",
+      "species": "sp21",
+      "truth": 451,
+      "predicted": 460,
+      "signedError": 9,
+      "tp": 447,
+      "fp": 13,
+      "fn": 4
+    },
+    {
+      "image": "sp21_img49.jpg",
+      "species": "sp21",
+      "truth": 584,
+      "predicted": 620,
+      "signedError": 36,
+      "tp": 579,
+      "fp": 41,
+      "fn": 5
+    },
+    {
+      "image": "sp21_img50.jpg",
+      "species": "sp21",
+      "truth": 585,
+      "predicted": 615,
+      "signedError": 30,
+      "tp": 576,
+      "fp": 39,
+      "fn": 9
+    },
+    {
+      "image": "sp21_img51.jpg",
+      "species": "sp21",
+      "truth": 634,
+      "predicted": 609,
+      "signedError": -25,
+      "tp": 545,
+      "fp": 64,
+      "fn": 89
+    },
+    {
+      "image": "sp21_img52.jpg",
+      "species": "sp21",
+      "truth": 681,
+      "predicted": 654,
+      "signedError": -27,
+      "tp": 573,
+      "fp": 81,
+      "fn": 108
+    }
+  ],
+  "metricNote": "Clarified strict10percent versus10percent-or-one-object diagnostic labels from the same frozen predictions. No model, threshold, primary pipeline or predictions changed."
+}

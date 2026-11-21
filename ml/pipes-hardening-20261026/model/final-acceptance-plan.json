@@ -1,0 +1,78 @@
+{
+  "status": "PRETRAINING_FINAL_ACCEPTANCE_PLAN_DECLARED",
+  "createdUTC": "2026-10-26T14:34:53.539257+00:00",
+  "selectionPolicy": {
+    "developmentSources": [
+      "old40 validation",
+      "fresh validation"
+    ],
+    "eligibleCheckpoints": [
+      4,
+      8,
+      12
+    ],
+    "operatingPoint": {
+      "confidence": 0.3,
+      "nmsIoU": 0.7
+    },
+    "noOld37InCandidateSelection": true
+  },
+  "executionOrder": [
+    "Finish bounded frozen training and all3 development candidate scores. If selected=null, preserve fresh test unopened.",
+    "Freeze exactly one development-qualified checkpoint and unchanged operating point.",
+    "Pass same-pixel raw CoreML/Vision parity using unchanged production preprocessing/shared Swift NMS and existing numeric/quality policies.",
+    "Execute the new frozen physical-scene holdout once with the fixed candidate; preserve PASS or FAIL.",
+    "Only if the selected candidate passes fresh test, run one known-failure regression diagnostic on the prior37 photographs using the original74 gallery/camera App inputs and original GT.",
+    "Report complete new-test results and known-regression results together, then obtain root final release receipt before writing a usable model configuration."
+  ],
+  "knownFailureRegression": {
+    "purpose": "Known, previously exposed regression evidence; never a new independent/heldout accuracy estimate.",
+    "scope": "Original37 photographs, original74 actual-App gallery/camera inputs, original unchanged GT; one fixed new selected checkpoint, confidence.3/NMS.7.",
+    "requiredCaseComparison": [
+      {
+        "id": "negative_RebarHBB00000797",
+        "previousGT": 0,
+        "previousPredicted": 8,
+        "bothPhotoPaths": true
+      },
+      {
+        "id": "negative_RebarHBB00000996",
+        "previousGT": 0,
+        "previousPredicted": 60,
+        "bothPhotoPaths": true
+      },
+      {
+        "id": "maco_round_PipeHBB00000525",
+        "previousGT": 13,
+        "previousPredicted": 10,
+        "previousFN": 3,
+        "bothPhotoPaths": true
+      }
+    ],
+    "requiredFullMetrics": [
+      "per-image GT/predicted/TP/FP/FN/signed and absolute count error",
+      "overall precision/recall/countMAE/positiveWAPE/sceneMacroWAPE",
+      "per-size recall and scene/source/count-density breakdowns",
+      "all real-negative image counts",
+      "small-count GT<=20 per-image errors",
+      "AP50 and AP50:95"
+    ],
+    "prohibitedUses": [
+      "Switching checkpoint after the diagnostic",
+      "Changing confidence or NMS thresholds from diagnostic results",
+      "Editing labels to improve the score",
+      "Calling the exposed37 an independent new test",
+      "Reporting only fresh-test success while omitting known unresolved failures"
+    ],
+    "unresolvedPolicy": "Explicitly identify every known issue that remains, include the corresponding before/after counts and full metrics, and retain it in the final user-facing result. Root final release decision must see these results; no automatic success claim from fresh test alone.",
+    "noAutomaticAdditionalTraining": true
+  },
+  "executionThisPlan": {
+    "old37Read": false,
+    "old37Inference": false,
+    "freshTestRead": false,
+    "modelInference": false,
+    "trainingStarted": false
+  },
+  "implementationScope": "Plan only. No change to model recipe, candidate gates, original frozen files, labels, App preprocessing, or NMS."
+}

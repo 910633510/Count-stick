@@ -1,0 +1,1128 @@
+{
+  "status": "SCENE_SCREEN_COMPLETE_PENDING_FULLFRAME_QA_NOT_FOR_TRAINING",
+  "savedUTC": "2026-10-26T08:20:28.811523+00:00",
+  "reviewer": "/root/colony_papers",
+  "pagesActuallyViewed": [
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "range": [
+    701,
+    1025
+  ],
+  "acceptedCandidates": [
+    {
+      "number": 701,
+      "id": "maco_round_PipeHBB00000701",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000701.jpg",
+      "authorCount": 98,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 702,
+      "id": "maco_round_PipeHBB00000702",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000702.jpg",
+      "authorCount": 67,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 704,
+      "id": "maco_round_PipeHBB00000704",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000704.jpg",
+      "authorCount": 220,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 707,
+      "id": "maco_round_PipeHBB00000707",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000707.jpg",
+      "authorCount": 251,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 708,
+      "id": "maco_round_PipeHBB00000708",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000708.jpg",
+      "authorCount": 83,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 711,
+      "id": "maco_round_PipeHBB00000711",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000711.jpg",
+      "authorCount": 38,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 714,
+      "id": "maco_round_PipeHBB00000714",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000714.jpg",
+      "authorCount": 99,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 718,
+      "id": "maco_round_PipeHBB00000718",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000718.jpg",
+      "authorCount": 116,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 720,
+      "id": "maco_round_PipeHBB00000720",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000720.jpg",
+      "authorCount": 829,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 724,
+      "id": "maco_round_PipeHBB00000724",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000724.jpg",
+      "authorCount": 158,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 733,
+      "id": "maco_round_PipeHBB00000733",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000733.jpg",
+      "authorCount": 84,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 748,
+      "id": "maco_round_PipeHBB00000748",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000748.jpg",
+      "authorCount": 21,
+      "page": 14,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 752,
+      "id": "maco_round_PipeHBB00000752",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000752.jpg",
+      "authorCount": 147,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 753,
+      "id": "maco_round_PipeHBB00000753",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000753.jpg",
+      "authorCount": 64,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 755,
+      "id": "maco_round_PipeHBB00000755",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000755.jpg",
+      "authorCount": 81,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 758,
+      "id": "maco_round_PipeHBB00000758",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000758.jpg",
+      "authorCount": 152,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 760,
+      "id": "maco_round_PipeHBB00000760",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000760.jpg",
+      "authorCount": 151,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 762,
+      "id": "maco_round_PipeHBB00000762",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000762.jpg",
+      "authorCount": 87,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 763,
+      "id": "maco_round_PipeHBB00000763",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000763.jpg",
+      "authorCount": 225,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 769,
+      "id": "maco_round_PipeHBB00000769",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000769.jpg",
+      "authorCount": 380,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 772,
+      "id": "maco_round_PipeHBB00000772",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000772.jpg",
+      "authorCount": 106,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 773,
+      "id": "maco_round_PipeHBB00000773",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000773.jpg",
+      "authorCount": 129,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 788,
+      "id": "maco_round_PipeHBB00000788",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000788.jpg",
+      "authorCount": 98,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 791,
+      "id": "maco_round_PipeHBB00000791",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000791.jpg",
+      "authorCount": 65,
+      "page": 15,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 801,
+      "id": "maco_round_PipeHBB00000801",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000801.jpg",
+      "authorCount": 149,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 803,
+      "id": "maco_round_PipeHBB00000803",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000803.jpg",
+      "authorCount": 33,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 805,
+      "id": "maco_round_PipeHBB00000805",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000805.jpg",
+      "authorCount": 994,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 807,
+      "id": "maco_round_PipeHBB00000807",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000807.jpg",
+      "authorCount": 126,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 810,
+      "id": "maco_round_PipeHBB00000810",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000810.jpg",
+      "authorCount": 208,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 811,
+      "id": "maco_round_PipeHBB00000811",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000811.jpg",
+      "authorCount": 29,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 812,
+      "id": "maco_round_PipeHBB00000812",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000812.jpg",
+      "authorCount": 132,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 822,
+      "id": "maco_round_PipeHBB00000822",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000822.jpg",
+      "authorCount": 380,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 824,
+      "id": "maco_round_PipeHBB00000824",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000824.jpg",
+      "authorCount": 211,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 826,
+      "id": "maco_round_PipeHBB00000826",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000826.jpg",
+      "authorCount": 26,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 832,
+      "id": "maco_round_PipeHBB00000832",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000832.jpg",
+      "authorCount": 224,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 843,
+      "id": "maco_round_PipeHBB00000843",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000843.jpg",
+      "authorCount": 164,
+      "page": 16,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 853,
+      "id": "maco_round_PipeHBB00000853",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000853.jpg",
+      "authorCount": 149,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 854,
+      "id": "maco_round_PipeHBB00000854",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000854.jpg",
+      "authorCount": 114,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 855,
+      "id": "maco_round_PipeHBB00000855",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000855.jpg",
+      "authorCount": 103,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 856,
+      "id": "maco_round_PipeHBB00000856",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000856.jpg",
+      "authorCount": 199,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 858,
+      "id": "maco_round_PipeHBB00000858",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000858.jpg",
+      "authorCount": 100,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 861,
+      "id": "maco_round_PipeHBB00000861",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000861.jpg",
+      "authorCount": 395,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 863,
+      "id": "maco_round_PipeHBB00000863",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000863.jpg",
+      "authorCount": 98,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 868,
+      "id": "maco_round_PipeHBB00000868",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000868.jpg",
+      "authorCount": 437,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 878,
+      "id": "maco_round_PipeHBB00000878",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000878.jpg",
+      "authorCount": 33,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 889,
+      "id": "maco_round_PipeHBB00000889",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000889.jpg",
+      "authorCount": 179,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 894,
+      "id": "maco_round_PipeHBB00000894",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000894.jpg",
+      "authorCount": 100,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 898,
+      "id": "maco_round_PipeHBB00000898",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000898.jpg",
+      "authorCount": 585,
+      "page": 17,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 901,
+      "id": "maco_round_PipeHBB00000901",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000901.jpg",
+      "authorCount": 28,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 904,
+      "id": "maco_round_PipeHBB00000904",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000904.jpg",
+      "authorCount": 498,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 906,
+      "id": "maco_round_PipeHBB00000906",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000906.jpg",
+      "authorCount": 287,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 907,
+      "id": "maco_round_PipeHBB00000907",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000907.jpg",
+      "authorCount": 61,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 910,
+      "id": "maco_round_PipeHBB00000910",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000910.jpg",
+      "authorCount": 142,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 911,
+      "id": "maco_round_PipeHBB00000911",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000911.jpg",
+      "authorCount": 66,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 915,
+      "id": "maco_round_PipeHBB00000915",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000915.jpg",
+      "authorCount": 215,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 916,
+      "id": "maco_round_PipeHBB00000916",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000916.jpg",
+      "authorCount": 47,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 922,
+      "id": "maco_round_PipeHBB00000922",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000922.jpg",
+      "authorCount": 91,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 934,
+      "id": "maco_round_PipeHBB00000934",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000934.jpg",
+      "authorCount": 24,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 942,
+      "id": "maco_round_PipeHBB00000942",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000942.jpg",
+      "authorCount": 49,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 950,
+      "id": "maco_round_PipeHBB00000950",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000950.jpg",
+      "authorCount": 3,
+      "page": 18,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 951,
+      "id": "maco_round_PipeHBB00000951",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000951.jpg",
+      "authorCount": 86,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 952,
+      "id": "maco_round_PipeHBB00000952",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000952.jpg",
+      "authorCount": 297,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 954,
+      "id": "maco_round_PipeHBB00000954",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000954.jpg",
+      "authorCount": 319,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 957,
+      "id": "maco_round_PipeHBB00000957",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000957.jpg",
+      "authorCount": 302,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 958,
+      "id": "maco_round_PipeHBB00000958",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000958.jpg",
+      "authorCount": 80,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 960,
+      "id": "maco_round_PipeHBB00000960",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000960.jpg",
+      "authorCount": 288,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 962,
+      "id": "maco_round_PipeHBB00000962",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000962.jpg",
+      "authorCount": 182,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 965,
+      "id": "maco_round_PipeHBB00000965",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000965.jpg",
+      "authorCount": 27,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 967,
+      "id": "maco_round_PipeHBB00000967",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000967.jpg",
+      "authorCount": 160,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 976,
+      "id": "maco_round_PipeHBB00000976",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000976.jpg",
+      "authorCount": 34,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 982,
+      "id": "maco_round_PipeHBB00000982",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000982.jpg",
+      "authorCount": 99,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 992,
+      "id": "maco_round_PipeHBB00000992",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000992.jpg",
+      "authorCount": 4,
+      "page": 19,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 1002,
+      "id": "maco_round_PipeHBB00001002",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001002.jpg",
+      "authorCount": 242,
+      "page": 20,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 1004,
+      "id": "maco_round_PipeHBB00001004",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001004.jpg",
+      "authorCount": 557,
+      "page": 20,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 1005,
+      "id": "maco_round_PipeHBB00001005",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001005.jpg",
+      "authorCount": 242,
+      "page": 20,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 1008,
+      "id": "maco_round_PipeHBB00001008",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001008.jpg",
+      "authorCount": 9,
+      "page": 20,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 1011,
+      "id": "maco_round_PipeHBB00001011",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001011.jpg",
+      "authorCount": 22,
+      "page": 20,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    },
+    {
+      "number": 1018,
+      "id": "maco_round_PipeHBB00001018",
+      "sourceImagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001018.jpg",
+      "authorCount": 32,
+      "page": 20,
+      "sceneScreen": "PASS_CANDIDATE",
+      "reviewBasis": "Full-scene contact sheet visually reviewed; target is apparent circular pipe front ends, no obvious target-ROI handwriting. Not yet exhaustive bbox/reality audit.",
+      "annotationQA": "PENDING_FULLFRAME_OVERLAY_AND_GROUP_QA",
+      "isSynthetic": null,
+      "hasAnnotationOverlay": null
+    }
+  ],
+  "candidateCount": 78,
+  "sameSceneSets": [
+    {
+      "numbers": [
+        718,
+        869
+      ],
+      "confidence": "high",
+      "basis": "Same green tarp and truck-side pile arrangement."
+    },
+    {
+      "numbers": [
+        742,
+        776
+      ],
+      "confidence": "confirmed_same_capture_variant",
+      "basis": "Side-by-side native-source review shows same photograph;742 has4excess repeated boxes and a small source edit."
+    },
+    {
+      "numbers": [
+        811,
+        888
+      ],
+      "confidence": "high_pending_pair_detail",
+      "basis": "Same suspended/side-supported pipe arrangement and background; same29author targets."
+    },
+    {
+      "numbers": [
+        854,
+        941
+      ],
+      "confidence": "high_pending_pair_detail",
+      "basis": "Same triangular ground pile and surrounding stock, authorcounts114/116 differ."
+    }
+  ],
+  "conservativePossibleFamilies": [
+    {
+      "numbers": [
+        903,
+        907
+      ],
+      "basis": "Very similar61-end hex bundle and gray-floor/long-body scene; union unless disproved."
+    },
+    {
+      "numbers": [
+        4,
+        5,
+        756,
+        959,
+        1025
+      ],
+      "basis": "Blue/yellow indoor factory station family; do not assume independent capture without furtherreview."
+    },
+    {
+      "numbers": [
+        720,
+        751,
+        761,
+        771,
+        877,
+        881,
+        893
+      ],
+      "basis": "Related tall rack/tower pile scenes, possible reused source or composites; unresolved must stay together orquarantine."
+    }
+  ],
+  "quarantine": [
+    {
+      "number": 716,
+      "id": "maco_round_PipeHBB00000716",
+      "reason": "Confirmed copy-paste composite: floating pasted pipe arrays above same original foreground asimage17.",
+      "count": null
+    },
+    {
+      "number": 722,
+      "id": "maco_round_PipeHBB00000722",
+      "reason": "Blue handwritten marks/circles around individual pipe ends; preannotated source image.",
+      "count": null
+    },
+    {
+      "number": 749,
+      "id": "maco_round_PipeHBB00000749",
+      "reason": "Hand-drawn closed ROI around target bundle.",
+      "count": null
+    },
+    {
+      "number": 767,
+      "id": "maco_round_PipeHBB00000767",
+      "reason": "Possible yellow per-end annotation overlay; not accepted until source nature resolved.",
+      "count": null
+    },
+    {
+      "number": 813,
+      "id": "maco_round_PipeHBB00000813",
+      "reason": "Very dark/low-contrast scene; visible-end completeness uncertain.",
+      "count": null
+    },
+    {
+      "number": 819,
+      "id": "maco_round_PipeHBB00000819",
+      "reason": "Large source cutout/black editing around target; not accepted as clean real-photo baseline.",
+      "count": null
+    },
+    {
+      "number": 831,
+      "id": "maco_round_PipeHBB00000831",
+      "reason": "Large black source cutout; target/background provenance uncertain.",
+      "count": null
+    },
+    {
+      "number": 834,
+      "id": "maco_round_PipeHBB00000834",
+      "reason": "Large source masking/black stroke near target region.",
+      "count": null
+    },
+    {
+      "number": 851,
+      "id": "maco_round_PipeHBB00000851",
+      "reason": "Severe backlight; individual end visibility insufficient atscreen resolution.",
+      "count": null
+    },
+    {
+      "number": 864,
+      "id": "maco_round_PipeHBB00000864",
+      "reason": "Large black source cutout with inserted-looking pipe strip; possible composite.",
+      "count": null
+    },
+    {
+      "number": 866,
+      "id": "maco_round_PipeHBB00000866",
+      "reason": "End faces appear capped/solid; cannot confidently establish hollow steel-pipe target.",
+      "count": null
+    },
+    {
+      "number": 879,
+      "id": "maco_round_PipeHBB00000879",
+      "reason": "Large source cutout/background edits near multiple piles.",
+      "count": null
+    },
+    {
+      "number": 900,
+      "id": "maco_round_PipeHBB00000900",
+      "reason": "Severe backlight, mostly silhouette.",
+      "count": null
+    },
+    {
+      "number": 953,
+      "id": "maco_round_PipeHBB00000953",
+      "reason": "Filled/solid-looking faces; target-material/visible-opening interpretation uncertain.",
+      "count": null
+    },
+    {
+      "number": 977,
+      "id": "maco_round_PipeHBB00000977",
+      "reason": "Strong glare over target; cannot assure complete readable ends.",
+      "count": null
+    },
+    {
+      "number": 996,
+      "id": "maco_round_PipeHBB00000996",
+      "reason": "Hand-drawn target ROI box.",
+      "count": null
+    }
+  ],
+  "unselectedPolicy": "Other images are unreviewed/notselected, never converted to negatives. Selected candidates are not yet final training labels.",
+  "knownDefiniteSyntheticFamily": [
+    17,
+    716
+  ],
+  "squareNotInThisRound": true,
+  "modelInferencePerformed": false,
+  "splitAssigned": false
+}

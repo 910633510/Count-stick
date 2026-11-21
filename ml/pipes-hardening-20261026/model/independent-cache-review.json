@@ -1,0 +1,3428 @@
+{
+  "status": "PASS_INDEPENDENT_AUDIT_OF_ALL3_HARDENING_VALIDATION_FAILURES",
+  "createdUTC": "2026-10-26T15:43:08.680995+00:00",
+  "selectionPath": "output/pipes-hardening-20261026/model/selection.json",
+  "selectionSHA256": "f8659b52d87afc274f17892bb6339ca8eb7fcd3213e6865304cc64f24e208480",
+  "auditScriptSHA256": "efa55ba134a528549b09ef17f6c14b22de8e0042ba7ba0e1ba7e0711cc76c0af",
+  "independentEquationsSHA256": "f3ac1d0285ceb3c332da9eca86acea444a1fbf6b0377d5228c03eaedb3dfbe54",
+  "protocolSHA256": "3fe916471b553a5be65952386be345031ad6b59cd11e1fb273ce8b0f16ebb098",
+  "codeSHA256": {
+    "ml/pipes-hardening-20261026/model/pipe_hardening.py": "cd159aabda576596859ef94224e1e048da25540f8562f59d18107826c4a78ce2",
+    "ml/pipes-hardening-20261026/model/train_hardening.py": "620df2c43814bbcf335811831296b474f946e03c72308a49c6f5579398a92135",
+    "ml/pipes-hardening-20261026/model/evaluate_hardening.py": "a88f33e0b16c0e4112d49a76150c4f96e8755275d9417c2e258ff6e21886eda3",
+    "ml/pipes-hardening-20261026/model/bind_hardening_inputs.py": "e59e9523647a4021965904553270eefe7acd740f15fe5f286704888a188fe348",
+    "ml/pipes-20261026/model/pipe_ml.py": "04ee9fa982724e2d4855332b4b2a4eb362b04b7192d6d3f61aab321104bb2acb",
+    "ml/pipes-20261026/model/train_pipe_ends.py": "bb5ed2297a0797092c4c7fa2aaba2f2cb97af3ab500d2afdb382749f84bec3db",
+    "ml/pipes-20261026/model/evaluate_pipe_ends.py": "7c45d3c632c0a2beefbe55bb4177727c1b6f2807dcfeb6279b13fe1f3ec68282",
+    "ml/pipes-20261026/model/export_pipe_coreml.py": "30a9a1e8b2b473bb49fba582c71f99f5398e246fa4dcad0bed62eba6156a515e",
+    "ml/pipes-20261026/model/prepare_photos.swift": "35887d2cfa48f03ed2350d308206dea4444fbae55b507d822653a7c2546d158d",
+    "ml/pipes-20261026/model/audit_official_init.py": "9cd3362a6f333215eef1cfc09b326f733101920bdac8d07f1088d02176eb9af9",
+    "ml/pipes-20261026/model/bind_app_inputs.py": "63c0fffa5cd1da8064d60e192368e88576bab25546b6cc4783f36008267d839d",
+    "ml/colony/mps_compat.py": "e159d5b8da2a5f3ced4a910f75fe998741a6a993307a5a7cbec6319b0fea437c"
+  },
+  "recordsSHA256": "cf6f0d541fd4c5830c12e02460672088eb7b6ddbb18c66207df07917dedb1f47",
+  "inputsManifestSHA256": "5572480c468a0958903172f1d1e573648077312b4931c9c3c6e82e650e3c3f5a",
+  "oldBaselineSelectionSHA256": "9eda69afbaa72634270f86f910e7f87719bbd55a5880d6dbb000e6d4a62209f8",
+  "priorBaselineIndependentAuditSHA256": "284c5487586cf8b9ddbbf0d1db075e9a663f1f0ed7f99fb45d41e115eaf0b054",
+  "modelSHA256ByEpoch": {
+    "4": "7737285316121255539efab1157bb8335d8b42d04f6c200fd867cf6a8d539dbf",
+    "8": "f55105949202e49e88d1831f6f04fb604bfb5418bb0dae8f482c7e458ccc1035",
+    "12": "11b3dd316f740ac0d11adc33b48dcf936b981e057b009e5d601a5764e6b34880"
+  },
+  "validationPhotos": {
+    "old": 40,
+    "fresh": 7
+  },
+  "inputVariants": [
+    "gallery",
+    "camera"
+  ],
+  "rawCacheFilesRecomputed": 282,
+  "rawCacheSHA256": {
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000001.npz": "b6e8c38940bc3b25dde60416a719f4b676beedaa9ac8fae6bb6ca8482699870f",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000001.npz": "08f58bc44b0e3a4dc2747c2c1f4b2b1d2914f76dbec47ac31489550faa0563ad",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000031.npz": "e9c646dd405079b4ae23b0a129e1abcecb0edb8d4c9c7e14d41fecb5066e2eba",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000031.npz": "e9c646dd405079b4ae23b0a129e1abcecb0edb8d4c9c7e14d41fecb5066e2eba",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000065.npz": "9b302e5b42931a028c273afe0155a4c8e341e9dddb225c7052a4f3c8cfe3facf",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000065.npz": "9b302e5b42931a028c273afe0155a4c8e341e9dddb225c7052a4f3c8cfe3facf",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000078.npz": "9ae75293e167db81c89952ca82645448b4d8aa44ea2a5815e2943423e3ed5e54",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000078.npz": "b8a025624bda8a7699591d7509caeb9aed8d804bbdf9ef1ed1a5e6ed27596935",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000110.npz": "11df68270c0e613a250c503194d2b12e012b871e9ab32fdee7a4757de7e941eb",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000110.npz": "11df68270c0e613a250c503194d2b12e012b871e9ab32fdee7a4757de7e941eb",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000171.npz": "7eacca83c6cacd188ad1015ce401c11d1aecafa123867e57e0eae3e5dd90d07c",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000171.npz": "7eacca83c6cacd188ad1015ce401c11d1aecafa123867e57e0eae3e5dd90d07c",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000183.npz": "72e492a435ac7ef64c91854d7c62ee378f8c38961445754e5f1f9cd4fc7f2c9f",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000183.npz": "72e492a435ac7ef64c91854d7c62ee378f8c38961445754e5f1f9cd4fc7f2c9f",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000205.npz": "c7636890592f29b81df9e2e56588fa8a7dcdff2bc75a01ce597a0240aca596c4",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000205.npz": "c7636890592f29b81df9e2e56588fa8a7dcdff2bc75a01ce597a0240aca596c4",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000258.npz": "5c6830b154e04ca4977233404f073608d3197c1538041fffb31eb1238ea4259c",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000258.npz": "5c6830b154e04ca4977233404f073608d3197c1538041fffb31eb1238ea4259c",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000333.npz": "57b731eec8800d69576a95d82b2ff65dc3bb1792118e6a8ee50c11c6620fc74b",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000333.npz": "57b731eec8800d69576a95d82b2ff65dc3bb1792118e6a8ee50c11c6620fc74b",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000338.npz": "3650fdc5c7159908ed126b63f834e37f53e7406893e5827c57bf3fad7b22a8e6",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000338.npz": "3650fdc5c7159908ed126b63f834e37f53e7406893e5827c57bf3fad7b22a8e6",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000375.npz": "cc9b67f5fd8801fbd34ca1137442d891e84373e864af8ec1e88c78cb48048207",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000375.npz": "cc9b67f5fd8801fbd34ca1137442d891e84373e864af8ec1e88c78cb48048207",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000387.npz": "349611a212a3149fcdd649337ad89657d4c6ef0a1e72cb0d92bded42ddda8199",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000387.npz": "349611a212a3149fcdd649337ad89657d4c6ef0a1e72cb0d92bded42ddda8199",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000462.npz": "704db02de6b42b41c2b538359d466068fc5d754b42c9ed6a9b3852c334217c4b",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000462.npz": "704db02de6b42b41c2b538359d466068fc5d754b42c9ed6a9b3852c334217c4b",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000464.npz": "bdcc60166853b661f85f352c03b94c0db6b696ca1402b1a069015c8d86c1749d",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000464.npz": "bdcc60166853b661f85f352c03b94c0db6b696ca1402b1a069015c8d86c1749d",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000488.npz": "2d97d4b3ecd191bc94f9c10ce3601f550c6669221d31d2686170ab25b022d100",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000488.npz": "2d97d4b3ecd191bc94f9c10ce3601f550c6669221d31d2686170ab25b022d100",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000625.npz": "f9c943068ee1cb320a7ce8c9a8d75cb3790c131c622abcb8c00d6f1760246bee",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000625.npz": "f9c943068ee1cb320a7ce8c9a8d75cb3790c131c622abcb8c00d6f1760246bee",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000638.npz": "de34b83c44d2192f18051b8311bfe8afce5a43718d3bd16fea8cac85ae1a6421",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000638.npz": "de34b83c44d2192f18051b8311bfe8afce5a43718d3bd16fea8cac85ae1a6421",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000682.npz": "4167dc82cc902ebaca42405f047288c1c7ff46d01329bd1975fe36219e6be4c2",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000682.npz": "31b25bbcacb29b0515ec4e9fade3536781082ee893068004b39348462a7b3708",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000687.npz": "3103116f203170bee40d918a9aaa1b476f3c0f64c8afa5eacf424549cb0f0cd9",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000687.npz": "3103116f203170bee40d918a9aaa1b476f3c0f64c8afa5eacf424549cb0f0cd9",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000701.npz": "33aab9f62977601dde311f30cc13674df6aa9187c796cd97e2757dfc1ed2be9b",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000701.npz": "33aab9f62977601dde311f30cc13674df6aa9187c796cd97e2757dfc1ed2be9b",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000711.npz": "86fd31ab3d9faed4701daeac5c316dfd238fc8f56b15215f587d940f041f440c",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000711.npz": "86fd31ab3d9faed4701daeac5c316dfd238fc8f56b15215f587d940f041f440c",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000718.npz": "bf0b942b4bf12d9d0b75c8b14d42aee380cd1098560dd2209a3ea023c62b6fa6",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000718.npz": "bf0b942b4bf12d9d0b75c8b14d42aee380cd1098560dd2209a3ea023c62b6fa6",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000753.npz": "8219157106b620e8a25c5f737c1918603b7d2176e045248fff4b3b596da82dcf",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000753.npz": "8219157106b620e8a25c5f737c1918603b7d2176e045248fff4b3b596da82dcf",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000772.npz": "aae99ea3b5684322768daacf8db5259c2820183a7d3d74cffcddd4d83c567c8d",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000772.npz": "aae99ea3b5684322768daacf8db5259c2820183a7d3d74cffcddd4d83c567c8d",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000803.npz": "5ff3bd149295dd907f42caf838af5270160695ebe90c84a8ff4767edf73213d8",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000803.npz": "5ff3bd149295dd907f42caf838af5270160695ebe90c84a8ff4767edf73213d8",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000832.npz": "ff4d2889e6e4e81afb0360a7a3ee62e90faf269bebb704c5a1747b89874f27d9",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000832.npz": "ff4d2889e6e4e81afb0360a7a3ee62e90faf269bebb704c5a1747b89874f27d9",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000854.npz": "bdb7cbd579cd01621496fd037b4c840718ec80de1541d6e98ee9bf3863e0916c",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000854.npz": "bdb7cbd579cd01621496fd037b4c840718ec80de1541d6e98ee9bf3863e0916c",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000868.npz": "7d731f2e649f8b94fa1260f4e1782fc744928f40a05bcac38cb136f6f43e9bb8",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000868.npz": "7d731f2e649f8b94fa1260f4e1782fc744928f40a05bcac38cb136f6f43e9bb8",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000904.npz": "ab65329861e8b596eb1f5f443f0b9d4e571c8e4f091f1b6cd57e70002e98c406",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000904.npz": "ab65329861e8b596eb1f5f443f0b9d4e571c8e4f091f1b6cd57e70002e98c406",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000907.npz": "32cad978ffc854a41c8c50537efe0b1b88b4c8dc3f58499faeae379a3ff538f0",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000907.npz": "32cad978ffc854a41c8c50537efe0b1b88b4c8dc3f58499faeae379a3ff538f0",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000911.npz": "b96d8cf1f6e35c80562264ac60a427cd930be23fb907e480b8af45e3545d2f70",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000911.npz": "b96d8cf1f6e35c80562264ac60a427cd930be23fb907e480b8af45e3545d2f70",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/maco_round_PipeHBB00000951.npz": "49394d68750c1e11baa10b4022691c9bb7ee79ba9043a060514d585483dc4ffe",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/maco_round_PipeHBB00000951.npz": "49394d68750c1e11baa10b4022691c9bb7ee79ba9043a060514d585483dc4ffe",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/negative_IbeamHBB00000200.npz": "ca70b9c01a9000bd3d54d1c3e15561dbd614e598947124b54ba2268080350d3b",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/negative_IbeamHBB00000200.npz": "ca70b9c01a9000bd3d54d1c3e15561dbd614e598947124b54ba2268080350d3b",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/negative_IbeamHBB00000300.npz": "887abe1a40d724c7da523e3af03872b409298f00b02a43113e2794d587661f7d",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/negative_IbeamHBB00000300.npz": "887abe1a40d724c7da523e3af03872b409298f00b02a43113e2794d587661f7d",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/negative_IbeamHBB00000400.npz": "c600efebc3e99cf6403c45558d15ec25a88bf129b00ebe2e8074a15d891c0a2b",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/negative_IbeamHBB00000400.npz": "c600efebc3e99cf6403c45558d15ec25a88bf129b00ebe2e8074a15d891c0a2b",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/negative_RebarHBB00000598.npz": "284bd8b4001ac74eb355338e17d096431d836ca9dc8a48e4de88ff04ad74f0a8",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/negative_RebarHBB00000598.npz": "7c4cb471cb658f2175cf4879312f52814c1f161a4cf505097062ccad30c2e1df",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/negative_round_background_00000832.npz": "3cf7b66f0458897a1622e4ca405e8a7eae5410805f78b675b2369ce17458f4f8",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/negative_round_background_00000832.npz": "3cf7b66f0458897a1622e4ca405e8a7eae5410805f78b675b2369ce17458f4f8",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/negative_round_background_00000911.npz": "160c1e350e78d5b33579dc59db587a46610de5d9666ab9d89e438eb47194cf81",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/negative_round_background_00000911.npz": "160c1e350e78d5b33579dc59db587a46610de5d9666ab9d89e438eb47194cf81",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/negative_round_background_00000907.npz": "c331a03ba4329344bd6e78e41225890c0338947a6216be7d99234bf1814f95ac",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/negative_round_background_00000907.npz": "c331a03ba4329344bd6e78e41225890c0338947a6216be7d99234bf1814f95ac",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/kaggle_011.npz": "1e5fe3309d4daba0d9661ab6e1dbbaf034ee72ae008ed73b98bf0aa0f4f43e5a",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/kaggle_011.npz": "1e5fe3309d4daba0d9661ab6e1dbbaf034ee72ae008ed73b98bf0aa0f4f43e5a",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/commons_121.npz": "d6e0919cd3e80ee167781e88b8d62d1769cd5b33b6d0ea1bdbd2d2b9337563d5",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/commons_121.npz": "d6e0919cd3e80ee167781e88b8d62d1769cd5b33b6d0ea1bdbd2d2b9337563d5",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/new_maco_0021.npz": "5ba32a355be2af4c7c7e6da5b048ed6928170653716d2876bbbab36166779cbb",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/new_maco_0021.npz": "5ba32a355be2af4c7c7e6da5b048ed6928170653716d2876bbbab36166779cbb",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/hardneg-web-yesilyurt.npz": "70e8cf91bd0be822d8685cb47383d219eeedb4b95846362c4cd49acd9d5390e9",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/hardneg-web-yesilyurt.npz": "70e8cf91bd0be822d8685cb47383d219eeedb4b95846362c4cd49acd9d5390e9",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/hardneg-web-conaldesa.npz": "9d25a798e3a8182257ad4f172f3f5831414ae1faef08333df7bdafb2cdce1939",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/hardneg-web-conaldesa.npz": "9d25a798e3a8182257ad4f172f3f5831414ae1faef08333df7bdafb2cdce1939",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/hardneg-smooth-add-roundsbar.npz": "89d5edf357d4e25a252e69fa74ee983646528db789a1b7b5b9a582e4e79ba43e",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/hardneg-smooth-add-roundsbar.npz": "89d5edf357d4e25a252e69fa74ee983646528db789a1b7b5b9a582e4e79ba43e",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/gallery/hardneg-smooth-add-xincheng.npz": "b98515a8622123d5e6adaa0866488826d2fe90c232b58b53c8d6817aa079730c",
+    "output/pipes-hardening-20261026/model/predictions/epoch004/camera/hardneg-smooth-add-xincheng.npz": "b98515a8622123d5e6adaa0866488826d2fe90c232b58b53c8d6817aa079730c",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000001.npz": "cfbb501a2f7ae642f1fe8af9752a6b9ea2bdbd238e82956131415a2572462fbb",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000001.npz": "e8f8d6ba363ce431e724accec470be9727256865774cb466639e866c7d89609f",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000031.npz": "befacf6d4d62ff318ad13190867f00f3cf41bca902330ded490b402a204e6c28",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000031.npz": "befacf6d4d62ff318ad13190867f00f3cf41bca902330ded490b402a204e6c28",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000065.npz": "a78121cf109aa16ea1051e40521eb452de51fe3916307b404d525cbb2b669357",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000065.npz": "a78121cf109aa16ea1051e40521eb452de51fe3916307b404d525cbb2b669357",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000078.npz": "be1a13a35827a34a74d9ffa78e721c5c746ddefe0c9256e56594acb65d8225e2",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000078.npz": "ad0204c435c5766a1d21d5969e5495d89b49a54adb91a9358d0dccf421cba3e3",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000110.npz": "88a9b102ce32a64ffda5f163510103c383e7be061ee502a74b420e556c320f94",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000110.npz": "88a9b102ce32a64ffda5f163510103c383e7be061ee502a74b420e556c320f94",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000171.npz": "0bbe0021a9de12b14bf1981d290e07a5f28a2da1e20c8f730ceb3ef2b2c42915",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000171.npz": "0bbe0021a9de12b14bf1981d290e07a5f28a2da1e20c8f730ceb3ef2b2c42915",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000183.npz": "a9c4df6012312101c558ff5ea386b036e48a2a39d6448480bb0915ecd4e4fc4d",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000183.npz": "a9c4df6012312101c558ff5ea386b036e48a2a39d6448480bb0915ecd4e4fc4d",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000205.npz": "2ca7bd808b3ec917f0279e0744d54253e59e5703c5a1858281c5e5a61306a5f5",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000205.npz": "2ca7bd808b3ec917f0279e0744d54253e59e5703c5a1858281c5e5a61306a5f5",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000258.npz": "f3071406cbaec45328da7031719f86cdddb42ea17cd2ab76dd6a6dafea2bbd52",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000258.npz": "f3071406cbaec45328da7031719f86cdddb42ea17cd2ab76dd6a6dafea2bbd52",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000333.npz": "45ea88b655a63f1cb094af9bd7dc74a981ff8d6fa284b8182d80b58bc8fe2caf",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000333.npz": "45ea88b655a63f1cb094af9bd7dc74a981ff8d6fa284b8182d80b58bc8fe2caf",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000338.npz": "153d293b26dcb07e58b8202b96478fdbe1968e426c26e84335f96a1fbe47996d",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000338.npz": "153d293b26dcb07e58b8202b96478fdbe1968e426c26e84335f96a1fbe47996d",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000375.npz": "d77361d36638d06e7694d5514b77f4a603fa9408d66ab6c9568c0f034fa52eef",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000375.npz": "d77361d36638d06e7694d5514b77f4a603fa9408d66ab6c9568c0f034fa52eef",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000387.npz": "35e842c4e260fe8463cf813793b35b904a2943f23a64194fb59184175ac5a89a",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000387.npz": "35e842c4e260fe8463cf813793b35b904a2943f23a64194fb59184175ac5a89a",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000462.npz": "7329d49dd6d4f3627fe2336eaf2e3c72ea9669464bec34c0ffcd9611821cb255",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000462.npz": "7329d49dd6d4f3627fe2336eaf2e3c72ea9669464bec34c0ffcd9611821cb255",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000464.npz": "d2405519ae4e097e72a031fdf591a4bf9a7be5304490e1ab38dd53d3de8478cb",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000464.npz": "d2405519ae4e097e72a031fdf591a4bf9a7be5304490e1ab38dd53d3de8478cb",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000488.npz": "38cbe5192df8f7934cea87139acf524051ed4ab20385cf8e92d5a9e178beb111",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000488.npz": "38cbe5192df8f7934cea87139acf524051ed4ab20385cf8e92d5a9e178beb111",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000625.npz": "e15b3b3a08a03847c9f228bc0879ecbcf1b5e1878e510db45733754b68104a57",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000625.npz": "e15b3b3a08a03847c9f228bc0879ecbcf1b5e1878e510db45733754b68104a57",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000638.npz": "f27cac67b92da07a484bec13acdb614f5d50e354e736b095296e5bcfe7818dfe",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000638.npz": "f27cac67b92da07a484bec13acdb614f5d50e354e736b095296e5bcfe7818dfe",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000682.npz": "8a88ba72e3af4c09b6f1b96a457e48e9e0ea5edc9269b12c3e4a73ccc1325af2",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000682.npz": "dbbf814e89b192965858f77f099dc4dfcf5a34fab3210be3408aab612b024454",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000687.npz": "1919197ba3373b15dbac9d8e42ab1d54e30f9860dcac5b07c7d4a7872c4c5354",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000687.npz": "1919197ba3373b15dbac9d8e42ab1d54e30f9860dcac5b07c7d4a7872c4c5354",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000701.npz": "c6717a5f775b273bc89659f461b5af3b83e24b32b020e01cfd33ccdbca6ff54c",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000701.npz": "c6717a5f775b273bc89659f461b5af3b83e24b32b020e01cfd33ccdbca6ff54c",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000711.npz": "465e9ac3d419605246c359577a6fff6795f9f423e511fee1da20337a1c228575",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000711.npz": "465e9ac3d419605246c359577a6fff6795f9f423e511fee1da20337a1c228575",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000718.npz": "49e65bd6bea4d42f9b79bcdf71cf41e5d6715afc11c60f8c3232fc0c1f90c320",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000718.npz": "49e65bd6bea4d42f9b79bcdf71cf41e5d6715afc11c60f8c3232fc0c1f90c320",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000753.npz": "fc13010f7ed38711caaa0084f8b7a07189cc53db73931300a1d694bbfa18d141",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000753.npz": "fc13010f7ed38711caaa0084f8b7a07189cc53db73931300a1d694bbfa18d141",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000772.npz": "ff1e906bc737f9fc09fedbb3b56e0111896e5b167244dc22cffddaec12a3ad77",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000772.npz": "ff1e906bc737f9fc09fedbb3b56e0111896e5b167244dc22cffddaec12a3ad77",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000803.npz": "874586d7d879d6b4c02e0ba8793dffcbcd27eddc25f11be54701f04d38031c31",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000803.npz": "874586d7d879d6b4c02e0ba8793dffcbcd27eddc25f11be54701f04d38031c31",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000832.npz": "02c2fcb6cc97cf005426a0d44e24bdd71ca38c6500af88608775f8eb6b96ecdb",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000832.npz": "02c2fcb6cc97cf005426a0d44e24bdd71ca38c6500af88608775f8eb6b96ecdb",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000854.npz": "ce77d1a483640f68c98ee508a69c1a1a75b56544436e053af45f312e6479b39c",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000854.npz": "ce77d1a483640f68c98ee508a69c1a1a75b56544436e053af45f312e6479b39c",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000868.npz": "b869ee46ed0b16613288bf8ab72e0c3c8f935b364f1dab1d9f4c5303cf99a37b",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000868.npz": "b869ee46ed0b16613288bf8ab72e0c3c8f935b364f1dab1d9f4c5303cf99a37b",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000904.npz": "4b6a05ff4c76dcddf96e0dab86e93730d730412c31dafce81757c498ddb1a6f0",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000904.npz": "4b6a05ff4c76dcddf96e0dab86e93730d730412c31dafce81757c498ddb1a6f0",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000907.npz": "b45c4c9a13b4c0ed88d08e269e0f33cba743f95ee5b7b3d1a3fad62b8e1675cc",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000907.npz": "b45c4c9a13b4c0ed88d08e269e0f33cba743f95ee5b7b3d1a3fad62b8e1675cc",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000911.npz": "5e25f842184e95350ad934ef51820211301cf1d2aeb18d1150fc2d20d4807860",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000911.npz": "5e25f842184e95350ad934ef51820211301cf1d2aeb18d1150fc2d20d4807860",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/maco_round_PipeHBB00000951.npz": "29204ddb1c8149bf31a958d08c52b38aadaf3204f059eace39b12c8c37a23171",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/maco_round_PipeHBB00000951.npz": "29204ddb1c8149bf31a958d08c52b38aadaf3204f059eace39b12c8c37a23171",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/negative_IbeamHBB00000200.npz": "caf44edc30893d24b82cd0c2671d203a8362fec1164b93250ebe42d36af903c8",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/negative_IbeamHBB00000200.npz": "caf44edc30893d24b82cd0c2671d203a8362fec1164b93250ebe42d36af903c8",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/negative_IbeamHBB00000300.npz": "70e3e09d88a47cf81ad182b3044ee57399f5d9e52fd0fc5ef2adde96802c877d",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/negative_IbeamHBB00000300.npz": "70e3e09d88a47cf81ad182b3044ee57399f5d9e52fd0fc5ef2adde96802c877d",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/negative_IbeamHBB00000400.npz": "82cc74233562491edff38d8e1988e901dc1c38374b3123b8312ad8f94d1f49a8",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/negative_IbeamHBB00000400.npz": "82cc74233562491edff38d8e1988e901dc1c38374b3123b8312ad8f94d1f49a8",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/negative_RebarHBB00000598.npz": "b01f66e3a657e2a22f6b412ecbfccb17228a5bfe0b2ba48faf2532d1f4bb1abf",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/negative_RebarHBB00000598.npz": "93678efab36b908402cdb76c8715c18578c0c47b33c1efcfcbcc873220c912b1",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/negative_round_background_00000832.npz": "ac14741d4fcfa157f4e3cc4b63fbd376473b35b1fd790502859d963e527e74e8",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/negative_round_background_00000832.npz": "ac14741d4fcfa157f4e3cc4b63fbd376473b35b1fd790502859d963e527e74e8",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/negative_round_background_00000911.npz": "15c1ef2c040ae813af1ec8da858e186938e3282f8548b1bf3a1b959460e6a5ec",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/negative_round_background_00000911.npz": "15c1ef2c040ae813af1ec8da858e186938e3282f8548b1bf3a1b959460e6a5ec",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/negative_round_background_00000907.npz": "ffccd2efa751ffa0fff74a48752eba43d7b9003e8bdf8e4fb7d513e5c140b441",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/negative_round_background_00000907.npz": "ffccd2efa751ffa0fff74a48752eba43d7b9003e8bdf8e4fb7d513e5c140b441",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/kaggle_011.npz": "e5e00ff715e3dfaa24f27b62568b309c3373dc6456e21bef343af0d7de6260ef",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/kaggle_011.npz": "e5e00ff715e3dfaa24f27b62568b309c3373dc6456e21bef343af0d7de6260ef",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/commons_121.npz": "f96e926f157175f4aad6b2991b078572a3952c26b011b435d5d5076910b92cc3",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/commons_121.npz": "f96e926f157175f4aad6b2991b078572a3952c26b011b435d5d5076910b92cc3",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/new_maco_0021.npz": "88a9e8b2100ebaf00a9b457e06b48fac916d9363b0ddc977e239537500e73411",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/new_maco_0021.npz": "88a9e8b2100ebaf00a9b457e06b48fac916d9363b0ddc977e239537500e73411",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/hardneg-web-yesilyurt.npz": "ad44af7db4573df440de1829821a3cd7f0efd03fc493ec46a8d77c64324dae63",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/hardneg-web-yesilyurt.npz": "ad44af7db4573df440de1829821a3cd7f0efd03fc493ec46a8d77c64324dae63",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/hardneg-web-conaldesa.npz": "92b91ea0e2e66f0fcf8db85545f1db1c499b1306eea2f033aa80cbe5b65c185a",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/hardneg-web-conaldesa.npz": "92b91ea0e2e66f0fcf8db85545f1db1c499b1306eea2f033aa80cbe5b65c185a",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/hardneg-smooth-add-roundsbar.npz": "724f620eaedfe8628f35ed7e4d91fbf14551e9c02ddfb210c79b5eba313a0734",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/hardneg-smooth-add-roundsbar.npz": "724f620eaedfe8628f35ed7e4d91fbf14551e9c02ddfb210c79b5eba313a0734",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/gallery/hardneg-smooth-add-xincheng.npz": "1cf05c1a03d0802e9260cc1748e21947730ba440e521ae57baba77195d8aff6c",
+    "output/pipes-hardening-20261026/model/predictions/epoch008/camera/hardneg-smooth-add-xincheng.npz": "1cf05c1a03d0802e9260cc1748e21947730ba440e521ae57baba77195d8aff6c",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000001.npz": "d5a8fe43cddc2d7b379e7f2cda8eb4ac8f3be3341f6c824c314588f8e201e977",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000001.npz": "0fafbc50ec0e9b66ece2cfff21f057e3824321c8c639c644aa72b71dcbc3daba",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000031.npz": "87fa0035c6f627bd7faa96524c3fd3c90e4c9c59a0ce6c68d87e4135c05cdb06",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000031.npz": "87fa0035c6f627bd7faa96524c3fd3c90e4c9c59a0ce6c68d87e4135c05cdb06",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000065.npz": "fea384caa4b0265cedad8c13f6a5850f83bb9b0d1c2ecbc420fc6168c39a16dd",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000065.npz": "fea384caa4b0265cedad8c13f6a5850f83bb9b0d1c2ecbc420fc6168c39a16dd",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000078.npz": "d8d918e4955a730f848677395dee1b88ece77b17a646c3d5e5bf236e1ef6c13f",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000078.npz": "5cf590d55c40c2699afaf0d9d7c728865248b6c21cf53b4e5e590759472cd8bf",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000110.npz": "76836de37c8bdbd7d73dcb349252a525e7edb254976175d47a491d62c3f17b06",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000110.npz": "76836de37c8bdbd7d73dcb349252a525e7edb254976175d47a491d62c3f17b06",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000171.npz": "4bd872a286817e92e88374a737c0d35afe69c8560545be924394ce185003be04",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000171.npz": "4bd872a286817e92e88374a737c0d35afe69c8560545be924394ce185003be04",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000183.npz": "ed786d9004da2cd0a4d51789f9cad13bc1aa1e43853d2a5c7bc4c5a08c01723a",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000183.npz": "ed786d9004da2cd0a4d51789f9cad13bc1aa1e43853d2a5c7bc4c5a08c01723a",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000205.npz": "4f993065ba11b66bea9fb32c59760a15c59bb511267d8a3d919a480b47c2d04f",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000205.npz": "4f993065ba11b66bea9fb32c59760a15c59bb511267d8a3d919a480b47c2d04f",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000258.npz": "f342f2fd33d0e9e30fc1aefaeab8561a9f165346dc25fa7dd820461bcb1b6613",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000258.npz": "f342f2fd33d0e9e30fc1aefaeab8561a9f165346dc25fa7dd820461bcb1b6613",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000333.npz": "20689ef8ae172bb40b2f1d1d55ac0411bce67245c858d5f14f9be566ee2e5471",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000333.npz": "20689ef8ae172bb40b2f1d1d55ac0411bce67245c858d5f14f9be566ee2e5471",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000338.npz": "1e320d5bfe00cb82e40c3f483e97615fadfdfc1f583b8dbb567354846b97bf07",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000338.npz": "1e320d5bfe00cb82e40c3f483e97615fadfdfc1f583b8dbb567354846b97bf07",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000375.npz": "bd6c0da2d3d35265204203cba25b818c22d3f6e1dbf5cc5f0868f3d24b6fca03",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000375.npz": "bd6c0da2d3d35265204203cba25b818c22d3f6e1dbf5cc5f0868f3d24b6fca03",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000387.npz": "0a806a1f26baf518866c13d4a055c669364e06f8ff01a9322d606a1528313fcc",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000387.npz": "0a806a1f26baf518866c13d4a055c669364e06f8ff01a9322d606a1528313fcc",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000462.npz": "2d90bb189f0219d7878ee3d7351e312ce4045731015c13b33c2b0a9ecddf5933",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000462.npz": "2d90bb189f0219d7878ee3d7351e312ce4045731015c13b33c2b0a9ecddf5933",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000464.npz": "dd4cef204c8db70efdd6f37c8351862ce673063cd68ace74eccdc11f74a5e9b5",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000464.npz": "dd4cef204c8db70efdd6f37c8351862ce673063cd68ace74eccdc11f74a5e9b5",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000488.npz": "c2dc6e790d9145493fc8f90b0bbc9ddc85f9a7ed007b3b7066363e3cea260139",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000488.npz": "c2dc6e790d9145493fc8f90b0bbc9ddc85f9a7ed007b3b7066363e3cea260139",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000625.npz": "be2eb70ba0950245266271a34b51d6ac5279eeb050fdd5445b88468ae18fce27",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000625.npz": "be2eb70ba0950245266271a34b51d6ac5279eeb050fdd5445b88468ae18fce27",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000638.npz": "658a5bfc6b1c37b59666b4d817f3239ee22123b8cb704da3d1ee2f8fc4b727db",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000638.npz": "658a5bfc6b1c37b59666b4d817f3239ee22123b8cb704da3d1ee2f8fc4b727db",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000682.npz": "dfe5667e7283400d6511d348e85ecc27f16043b132b2b80524734704a6a24fd4",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000682.npz": "79aee4e22936e12c7f1ca0ab5652c4fb000586c67444d8b0744459b683357872",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000687.npz": "25dcfcba1eee0ffe8c3f359eacba678b0fd6059102c9ef8c5f770636b0222a64",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000687.npz": "25dcfcba1eee0ffe8c3f359eacba678b0fd6059102c9ef8c5f770636b0222a64",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000701.npz": "57df6327790333958ee3181cc3d66013a1d73a7526c206d7d21fcdcc112a0139",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000701.npz": "57df6327790333958ee3181cc3d66013a1d73a7526c206d7d21fcdcc112a0139",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000711.npz": "cc89f5edff437b14a3c1daaa13470560f3b446c34e6f1aa61832e96788c6d784",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000711.npz": "cc89f5edff437b14a3c1daaa13470560f3b446c34e6f1aa61832e96788c6d784",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000718.npz": "ee7578a62111c5d4a8b0d129fb1ebb60f9b4fc0e36faba5f9c2d13517733df8d",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000718.npz": "ee7578a62111c5d4a8b0d129fb1ebb60f9b4fc0e36faba5f9c2d13517733df8d",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000753.npz": "f231b43e76bfc11030c0d0fb6deacd936e9d9fce3ebda03d352c40177f06934e",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000753.npz": "f231b43e76bfc11030c0d0fb6deacd936e9d9fce3ebda03d352c40177f06934e",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000772.npz": "8128c4c8f817fcdc0df36b4ca63cae72548cea41c7934053d12afad8cc55453e",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000772.npz": "8128c4c8f817fcdc0df36b4ca63cae72548cea41c7934053d12afad8cc55453e",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000803.npz": "ac1f8d11dc09a7211b5e20aea4a41ad644eecc6bd6f63f6dcdc759a03657926b",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000803.npz": "ac1f8d11dc09a7211b5e20aea4a41ad644eecc6bd6f63f6dcdc759a03657926b",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000832.npz": "163610fefa6e53904fd8af2d1a2300f61662376e1ca8068ed36011c4c1d60f48",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000832.npz": "163610fefa6e53904fd8af2d1a2300f61662376e1ca8068ed36011c4c1d60f48",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000854.npz": "43cbde444f9332cf223a27a322dbfe8a3091587a6814fd8d5d4592b75a4a3049",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000854.npz": "43cbde444f9332cf223a27a322dbfe8a3091587a6814fd8d5d4592b75a4a3049",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000868.npz": "b6e03e59a6b99c4039c984b074e773cff715cbe13dc2011ac085b38ea8b17025",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000868.npz": "b6e03e59a6b99c4039c984b074e773cff715cbe13dc2011ac085b38ea8b17025",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000904.npz": "a0ca922a69939a78dc5df62bfffd287298b0eb32c1b6e9de3237dd3fd4538069",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000904.npz": "a0ca922a69939a78dc5df62bfffd287298b0eb32c1b6e9de3237dd3fd4538069",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000907.npz": "a5ebcd5d49f128d6e5cef9272401fd83f4fb042482119e83b4f662a497a14aca",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000907.npz": "a5ebcd5d49f128d6e5cef9272401fd83f4fb042482119e83b4f662a497a14aca",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000911.npz": "25aef5763c1a2f22beda7569b2573d647fcf29a54c522b210c52a7a08a988408",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000911.npz": "25aef5763c1a2f22beda7569b2573d647fcf29a54c522b210c52a7a08a988408",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/maco_round_PipeHBB00000951.npz": "25718b70da54b4fd0a47002028e0f6124f36fc3a31f2ad4ea14a32da9cd6e026",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/maco_round_PipeHBB00000951.npz": "25718b70da54b4fd0a47002028e0f6124f36fc3a31f2ad4ea14a32da9cd6e026",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/negative_IbeamHBB00000200.npz": "73f71787f30dc82683697f7472c7fa434e45eb8873d19f7930c3e13f8111125c",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/negative_IbeamHBB00000200.npz": "73f71787f30dc82683697f7472c7fa434e45eb8873d19f7930c3e13f8111125c",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/negative_IbeamHBB00000300.npz": "ccbf02a8c2a7f9a8599e04574d2326d0451435ec8c42fee41e47d1dd4639160c",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/negative_IbeamHBB00000300.npz": "ccbf02a8c2a7f9a8599e04574d2326d0451435ec8c42fee41e47d1dd4639160c",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/negative_IbeamHBB00000400.npz": "090d8883147f82d1e62b7b46a0e6169fc22fbec84a6a3cb0cd32f5f3049ba5bd",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/negative_IbeamHBB00000400.npz": "090d8883147f82d1e62b7b46a0e6169fc22fbec84a6a3cb0cd32f5f3049ba5bd",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/negative_RebarHBB00000598.npz": "ea26d8648ad8d9204caaa1b5bcd6ce4b91df2da8d7b69e1ce918de4e41ea30a6",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/negative_RebarHBB00000598.npz": "6a1d6188f544af4f85610957ca39c5ea87ec2b0a3b726708364db2fe6acfd738",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/negative_round_background_00000832.npz": "9b52036e23671c0c138e086c63ea4109f8135ac1182b792aa9e718bc7419ef95",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/negative_round_background_00000832.npz": "9b52036e23671c0c138e086c63ea4109f8135ac1182b792aa9e718bc7419ef95",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/negative_round_background_00000911.npz": "31509c3eb62d78b2e40a9c9e47866a35ea53d965c67deb5cfc85581e22cd80e1",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/negative_round_background_00000911.npz": "31509c3eb62d78b2e40a9c9e47866a35ea53d965c67deb5cfc85581e22cd80e1",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/negative_round_background_00000907.npz": "356e42356a32761afebc5b1c2101a6528b240a08aac7cef8282086ff027c2295",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/negative_round_background_00000907.npz": "356e42356a32761afebc5b1c2101a6528b240a08aac7cef8282086ff027c2295",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/kaggle_011.npz": "317d7a1a8b95c7dd285d23c82a1a7cb779919c289a2bbde0232de70adf349252",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/kaggle_011.npz": "317d7a1a8b95c7dd285d23c82a1a7cb779919c289a2bbde0232de70adf349252",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/commons_121.npz": "8556ea5d3cbf01194ab59ddf47ef016f916bf170b06dca4f649477c6616c000c",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/commons_121.npz": "8556ea5d3cbf01194ab59ddf47ef016f916bf170b06dca4f649477c6616c000c",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/new_maco_0021.npz": "842f76a7a202839446c8f3a94e08e9b23b7a2832ef17d85fdc2b713cbed7617d",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/new_maco_0021.npz": "842f76a7a202839446c8f3a94e08e9b23b7a2832ef17d85fdc2b713cbed7617d",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/hardneg-web-yesilyurt.npz": "792d8865c6a0ee20729d9eb53dbc62b517850f5f2c3479824349a12ffbe7d7ce",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/hardneg-web-yesilyurt.npz": "792d8865c6a0ee20729d9eb53dbc62b517850f5f2c3479824349a12ffbe7d7ce",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/hardneg-web-conaldesa.npz": "b1c053c2089db19c041052035ea3d60a7a670e85abe0eb3f00290cfa0a686c69",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/hardneg-web-conaldesa.npz": "b1c053c2089db19c041052035ea3d60a7a670e85abe0eb3f00290cfa0a686c69",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/hardneg-smooth-add-roundsbar.npz": "ca088a9f3c260794d5a27cb4915a73911201e64bd46909c8a05db529d0fff3df",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/hardneg-smooth-add-roundsbar.npz": "ca088a9f3c260794d5a27cb4915a73911201e64bd46909c8a05db529d0fff3df",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/gallery/hardneg-smooth-add-xincheng.npz": "fac6a3e9c6371250a562b795b0da55072a40e6411357f8df0704dc58344617e3",
+    "output/pipes-hardening-20261026/model/predictions/epoch012/camera/hardneg-smooth-add-xincheng.npz": "fac6a3e9c6371250a562b795b0da55072a40e6411357f8df0704dc58344617e3"
+  },
+  "operatingPoint": {
+    "confidence": 0.3,
+    "nmsIoU": 0.7
+  },
+  "candidateCount": 3,
+  "qualifiedCount": 0,
+  "selected": null,
+  "researchBestEpochNotQualified": 12,
+  "allCacheProvenanceDtypeShapeFiniteChecksPassed": true,
+  "allPerImageCountsMatchingSizesSummariesAPGatesAndRankingMatch": true,
+  "oldBaselineSummary": {
+    "gallery": {
+      "images": 40,
+      "positiveImages": 33,
+      "negativeImages": 7,
+      "GT": 4443,
+      "TP": 4300,
+      "FP": 152,
+      "FN": 143,
+      "precision": 0.9658580413297394,
+      "recall": 0.9678145397254108,
+      "positiveCountMAE": 4.454545454545454,
+      "positiveCountWAPE": 0.03308575286968265,
+      "sceneMacroWAPE": 0.03386716801166119,
+      "negativeFalsePositiveImages": 0,
+      "smallCountFailures": [],
+      "perScene": {
+        "maco_round_global_00000001": {
+          "images": 1,
+          "GT": 87,
+          "WAPE": 0.04597701149425287
+        },
+        "maco_round_global_00000031": {
+          "images": 1,
+          "GT": 120,
+          "WAPE": 0.11666666666666667
+        },
+        "maco_round_global_00000065": {
+          "images": 1,
+          "GT": 120,
+          "WAPE": 0.06666666666666667
+        },
+        "maco_round_global_00000078": {
+          "images": 1,
+          "GT": 105,
+          "WAPE": 0.047619047619047616
+        },
+        "maco_round_global_00000110": {
+          "images": 1,
+          "GT": 118,
+          "WAPE": 0.00847457627118644
+        },
+        "maco_round_global_00000171": {
+          "images": 1,
+          "GT": 200,
+          "WAPE": 0.025
+        },
+        "maco_round_global_00000183": {
+          "images": 1,
+          "GT": 81,
+          "WAPE": 0.06172839506172839
+        },
+        "maco_round_global_00000205": {
+          "images": 1,
+          "GT": 209,
+          "WAPE": 0.06698564593301436
+        },
+        "maco_round_global_00000258": {
+          "images": 1,
+          "GT": 54,
+          "WAPE": 0.018518518518518517
+        },
+        "maco_round_global_00000333": {
+          "images": 1,
+          "GT": 328,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000083": {
+          "images": 1,
+          "GT": 100,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000375": {
+          "images": 1,
+          "GT": 24,
+          "WAPE": 0.041666666666666664
+        },
+        "maco_round_global_00000387": {
+          "images": 1,
+          "GT": 267,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000462": {
+          "images": 1,
+          "GT": 291,
+          "WAPE": 0.11683848797250859
+        },
+        "maco_round_global_00000464": {
+          "images": 1,
+          "GT": 101,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000488": {
+          "images": 1,
+          "GT": 30,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000625": {
+          "images": 1,
+          "GT": 99,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000638": {
+          "images": 1,
+          "GT": 100,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000682": {
+          "images": 1,
+          "GT": 30,
+          "WAPE": 0.1
+        },
+        "maco_round_global_00000687": {
+          "images": 1,
+          "GT": 38,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000701": {
+          "images": 1,
+          "GT": 98,
+          "WAPE": 0.02040816326530612
+        },
+        "maco_round_global_00000711": {
+          "images": 1,
+          "GT": 38,
+          "WAPE": 0.07894736842105263
+        },
+        "maco_round_global_00000718": {
+          "images": 1,
+          "GT": 116,
+          "WAPE": 0.02586206896551724
+        },
+        "maco_round_global_00000753": {
+          "images": 1,
+          "GT": 64,
+          "WAPE": 0.03125
+        },
+        "maco_round_global_00000772": {
+          "images": 1,
+          "GT": 106,
+          "WAPE": 0.018867924528301886
+        },
+        "maco_round_global_00000803": {
+          "images": 1,
+          "GT": 33,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000832": {
+          "images": 1,
+          "GT": 224,
+          "WAPE": 0.004464285714285714
+        },
+        "maco_round_global_00000854": {
+          "images": 1,
+          "GT": 114,
+          "WAPE": 0.017543859649122806
+        },
+        "maco_round_global_00000868": {
+          "images": 1,
+          "GT": 437,
+          "WAPE": 0.034324942791762014
+        },
+        "maco_round_global_00000904": {
+          "images": 1,
+          "GT": 498,
+          "WAPE": 0.024096385542168676
+        },
+        "maco_round_global_00000903": {
+          "images": 1,
+          "GT": 61,
+          "WAPE": 0.01639344262295082
+        },
+        "maco_round_global_00000911": {
+          "images": 1,
+          "GT": 66,
+          "WAPE": 0.10606060606060606
+        },
+        "maco_round_global_00000951": {
+          "images": 1,
+          "GT": 86,
+          "WAPE": 0.023255813953488372
+        }
+      },
+      "sizeRecall": {
+        "under16": {
+          "GT": 69,
+          "TP": 33,
+          "FN": 36,
+          "recall": 0.4782608695652174
+        },
+        "16to32": {
+          "GT": 2188,
+          "TP": 2090,
+          "FN": 98,
+          "recall": 0.9552102376599635
+        },
+        "over32": {
+          "GT": 2186,
+          "TP": 2177,
+          "FN": 9,
+          "recall": 0.9958828911253431
+        }
+      },
+      "negativeByKind": {
+        "empty_scene": {
+          "images": 3,
+          "falsePositiveImages": 0,
+          "FP": 0
+        },
+        "non_pipe": {
+          "images": 4,
+          "falsePositiveImages": 0,
+          "FP": 0
+        }
+      },
+      "perSource": {
+        "zenodo17165968-MACO": {
+          "images": 40,
+          "GT": 4443,
+          "TP": 4300,
+          "FP": 152,
+          "FN": 143,
+          "countMAE": 3.675
+        }
+      },
+      "perCountDensity": {
+        "21to100": {
+          "images": 17,
+          "GT": 1089,
+          "TP": 1067,
+          "FP": 27,
+          "FN": 22,
+          "countMAE": 1.8235294117647058
+        },
+        "101to500": {
+          "images": 16,
+          "GT": 3354,
+          "TP": 3233,
+          "FP": 125,
+          "FN": 121,
+          "countMAE": 7.25
+        }
+      },
+      "AP50": 0.9850891969224717,
+      "AP50_95": 0.726087887823632
+    },
+    "camera": {
+      "images": 40,
+      "positiveImages": 33,
+      "negativeImages": 7,
+      "GT": 4443,
+      "TP": 4300,
+      "FP": 152,
+      "FN": 143,
+      "precision": 0.9658580413297394,
+      "recall": 0.9678145397254108,
+      "positiveCountMAE": 4.454545454545454,
+      "positiveCountWAPE": 0.03308575286968265,
+      "sceneMacroWAPE": 0.03386716801166119,
+      "negativeFalsePositiveImages": 0,
+      "smallCountFailures": [],
+      "perScene": {
+        "maco_round_global_00000001": {
+          "images": 1,
+          "GT": 87,
+          "WAPE": 0.04597701149425287
+        },
+        "maco_round_global_00000031": {
+          "images": 1,
+          "GT": 120,
+          "WAPE": 0.11666666666666667
+        },
+        "maco_round_global_00000065": {
+          "images": 1,
+          "GT": 120,
+          "WAPE": 0.06666666666666667
+        },
+        "maco_round_global_00000078": {
+          "images": 1,
+          "GT": 105,
+          "WAPE": 0.047619047619047616
+        },
+        "maco_round_global_00000110": {
+          "images": 1,
+          "GT": 118,
+          "WAPE": 0.00847457627118644
+        },
+        "maco_round_global_00000171": {
+          "images": 1,
+          "GT": 200,
+          "WAPE": 0.025
+        },
+        "maco_round_global_00000183": {
+          "images": 1,
+          "GT": 81,
+          "WAPE": 0.06172839506172839
+        },
+        "maco_round_global_00000205": {
+          "images": 1,
+          "GT": 209,
+          "WAPE": 0.06698564593301436
+        },
+        "maco_round_global_00000258": {
+          "images": 1,
+          "GT": 54,
+          "WAPE": 0.018518518518518517
+        },
+        "maco_round_global_00000333": {
+          "images": 1,
+          "GT": 328,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000083": {
+          "images": 1,
+          "GT": 100,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000375": {
+          "images": 1,
+          "GT": 24,
+          "WAPE": 0.041666666666666664
+        },
+        "maco_round_global_00000387": {
+          "images": 1,
+          "GT": 267,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000462": {
+          "images": 1,
+          "GT": 291,
+          "WAPE": 0.11683848797250859
+        },
+        "maco_round_global_00000464": {
+          "images": 1,
+          "GT": 101,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000488": {
+          "images": 1,
+          "GT": 30,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000625": {
+          "images": 1,
+          "GT": 99,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000638": {
+          "images": 1,
+          "GT": 100,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000682": {
+          "images": 1,
+          "GT": 30,
+          "WAPE": 0.1
+        },
+        "maco_round_global_00000687": {
+          "images": 1,
+          "GT": 38,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000701": {
+          "images": 1,
+          "GT": 98,
+          "WAPE": 0.02040816326530612
+        },
+        "maco_round_global_00000711": {
+          "images": 1,
+          "GT": 38,
+          "WAPE": 0.07894736842105263
+        },
+        "maco_round_global_00000718": {
+          "images": 1,
+          "GT": 116,
+          "WAPE": 0.02586206896551724
+        },
+        "maco_round_global_00000753": {
+          "images": 1,
+          "GT": 64,
+          "WAPE": 0.03125
+        },
+        "maco_round_global_00000772": {
+          "images": 1,
+          "GT": 106,
+          "WAPE": 0.018867924528301886
+        },
+        "maco_round_global_00000803": {
+          "images": 1,
+          "GT": 33,
+          "WAPE": 0.0
+        },
+        "maco_round_global_00000832": {
+          "images": 1,
+          "GT": 224,
+          "WAPE": 0.004464285714285714
+        },
+        "maco_round_global_00000854": {
+          "images": 1,
+          "GT": 114,
+          "WAPE": 0.017543859649122806
+        },
+        "maco_round_global_00000868": {
+          "images": 1,
+          "GT": 437,
+          "WAPE": 0.034324942791762014
+        },
+        "maco_round_global_00000904": {
+          "images": 1,
+          "GT": 498,
+          "WAPE": 0.024096385542168676
+        },
+        "maco_round_global_00000903": {
+          "images": 1,
+          "GT": 61,
+          "WAPE": 0.01639344262295082
+        },
+        "maco_round_global_00000911": {
+          "images": 1,
+          "GT": 66,
+          "WAPE": 0.10606060606060606
+        },
+        "maco_round_global_00000951": {
+          "images": 1,
+          "GT": 86,
+          "WAPE": 0.023255813953488372
+        }
+      },
+      "sizeRecall": {
+        "under16": {
+          "GT": 69,
+          "TP": 33,
+          "FN": 36,
+          "recall": 0.4782608695652174
+        },
+        "16to32": {
+          "GT": 2188,
+          "TP": 2090,
+          "FN": 98,
+          "recall": 0.9552102376599635
+        },
+        "over32": {
+          "GT": 2186,
+          "TP": 2177,
+          "FN": 9,
+          "recall": 0.9958828911253431
+        }
+      },
+      "negativeByKind": {
+        "empty_scene": {
+          "images": 3,
+          "falsePositiveImages": 0,
+          "FP": 0
+        },
+        "non_pipe": {
+          "images": 4,
+          "falsePositiveImages": 0,
+          "FP": 0
+        }
+      },
+      "perSource": {
+        "zenodo17165968-MACO": {
+          "images": 40,
+          "GT": 4443,
+          "TP": 4300,
+          "FP": 152,
+          "FN": 143,
+          "countMAE": 3.675
+        }
+      },
+      "perCountDensity": {
+        "21to100": {
+          "images": 17,
+          "GT": 1089,
+          "TP": 1067,
+          "FP": 27,
+          "FN": 22,
+          "countMAE": 1.8235294117647058
+        },
+        "101to500": {
+          "images": 16,
+          "GT": 3354,
+          "TP": 3233,
+          "FP": 125,
+          "FN": 121,
+          "countMAE": 7.25
+        }
+      },
+      "AP50": 0.9850955324296293,
+      "AP50_95": 0.7260382784135417
+    }
+  },
+  "candidates": [
+    {
+      "epoch": 4,
+      "status": "FAIL",
+      "variants": {
+        "gallery": {
+          "old": {
+            "summary": {
+              "images": 40,
+              "positiveImages": 33,
+              "negativeImages": 7,
+              "GT": 4443,
+              "TP": 4218,
+              "FP": 103,
+              "FN": 225,
+              "precision": 0.976162925248785,
+              "recall": 0.949358541525996,
+              "positiveCountMAE": 5.878787878787879,
+              "positiveCountWAPE": 0.04366419086203016,
+              "sceneMacroWAPE": 0.0374151370730004,
+              "negativeFalsePositiveImages": 0,
+              "smallCountFailures": [],
+              "perScene": {
+                "maco_round_global_00000001": {
+                  "images": 1,
+                  "GT": 87,
+                  "WAPE": 0.04597701149425287
+                },
+                "maco_round_global_00000031": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.008333333333333333
+                },
+                "maco_round_global_00000065": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.11666666666666667
+                },
+                "maco_round_global_00000078": {
+                  "images": 1,
+                  "GT": 105,
+                  "WAPE": 0.0380952380952381
+                },
+                "maco_round_global_00000110": {
+                  "images": 1,
+                  "GT": 118,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000171": {
+                  "images": 1,
+                  "GT": 200,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000183": {
+                  "images": 1,
+                  "GT": 81,
+                  "WAPE": 0.012345679012345678
+                },
+                "maco_round_global_00000205": {
+                  "images": 1,
+                  "GT": 209,
+                  "WAPE": 0.04784688995215311
+                },
+                "maco_round_global_00000258": {
+                  "images": 1,
+                  "GT": 54,
+                  "WAPE": 0.037037037037037035
+                },
+                "maco_round_global_00000333": {
+                  "images": 1,
+                  "GT": 328,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000083": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000375": {
+                  "images": 1,
+                  "GT": 24,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000387": {
+                  "images": 1,
+                  "GT": 267,
+                  "WAPE": 0.018726591760299626
+                },
+                "maco_round_global_00000462": {
+                  "images": 1,
+                  "GT": 291,
+                  "WAPE": 0.3539518900343643
+                },
+                "maco_round_global_00000464": {
+                  "images": 1,
+                  "GT": 101,
+                  "WAPE": 0.009900990099009901
+                },
+                "maco_round_global_00000488": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000625": {
+                  "images": 1,
+                  "GT": 99,
+                  "WAPE": 0.010101010101010102
+                },
+                "maco_round_global_00000638": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000682": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.03333333333333333
+                },
+                "maco_round_global_00000687": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.02631578947368421
+                },
+                "maco_round_global_00000701": {
+                  "images": 1,
+                  "GT": 98,
+                  "WAPE": 0.030612244897959183
+                },
+                "maco_round_global_00000711": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.15789473684210525
+                },
+                "maco_round_global_00000718": {
+                  "images": 1,
+                  "GT": 116,
+                  "WAPE": 0.017241379310344827
+                },
+                "maco_round_global_00000753": {
+                  "images": 1,
+                  "GT": 64,
+                  "WAPE": 0.03125
+                },
+                "maco_round_global_00000772": {
+                  "images": 1,
+                  "GT": 106,
+                  "WAPE": 0.009433962264150943
+                },
+                "maco_round_global_00000803": {
+                  "images": 1,
+                  "GT": 33,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000832": {
+                  "images": 1,
+                  "GT": 224,
+                  "WAPE": 0.008928571428571428
+                },
+                "maco_round_global_00000854": {
+                  "images": 1,
+                  "GT": 114,
+                  "WAPE": 0.02631578947368421
+                },
+                "maco_round_global_00000868": {
+                  "images": 1,
+                  "GT": 437,
+                  "WAPE": 0.011441647597254004
+                },
+                "maco_round_global_00000904": {
+                  "images": 1,
+                  "GT": 498,
+                  "WAPE": 0.02208835341365462
+                },
+                "maco_round_global_00000903": {
+                  "images": 1,
+                  "GT": 61,
+                  "WAPE": 0.01639344262295082
+                },
+                "maco_round_global_00000911": {
+                  "images": 1,
+                  "GT": 66,
+                  "WAPE": 0.12121212121212122
+                },
+                "maco_round_global_00000951": {
+                  "images": 1,
+                  "GT": 86,
+                  "WAPE": 0.023255813953488372
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 69,
+                  "TP": 18,
+                  "FN": 51,
+                  "recall": 0.2608695652173913
+                },
+                "16to32": {
+                  "GT": 2188,
+                  "TP": 2021,
+                  "FN": 167,
+                  "recall": 0.9236745886654479
+                },
+                "over32": {
+                  "GT": 2186,
+                  "TP": 2179,
+                  "FN": 7,
+                  "recall": 0.9967978042086002
+                }
+              },
+              "negativeByKind": {
+                "empty_scene": {
+                  "images": 3,
+                  "falsePositiveImages": 0,
+                  "FP": 0
+                },
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 0,
+                  "FP": 0
+                }
+              },
+              "perSource": {
+                "zenodo17165968-MACO": {
+                  "images": 40,
+                  "GT": 4443,
+                  "TP": 4218,
+                  "FP": 103,
+                  "FN": 225,
+                  "countMAE": 4.85
+                }
+              },
+              "perCountDensity": {
+                "21to100": {
+                  "images": 17,
+                  "GT": 1089,
+                  "TP": 1067,
+                  "FP": 20,
+                  "FN": 22,
+                  "countMAE": 1.8823529411764706
+                },
+                "101to500": {
+                  "images": 16,
+                  "GT": 3354,
+                  "TP": 3151,
+                  "FP": 83,
+                  "FN": 203,
+                  "countMAE": 10.125
+                }
+              },
+              "AP50": 0.9835338867258362,
+              "AP50_95": 0.7131296216323944
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "TP": false,
+                "FP": true,
+                "FN": false,
+                "positiveCountWAPE": false,
+                "sceneMacroWAPE": false,
+                "sizeTP/under16": false,
+                "sizeTP/16to32": false,
+                "sizeTP/over32": true,
+                "allNegativeImagesZero": true
+              }
+            }
+          },
+          "fresh": {
+            "summary": {
+              "images": 7,
+              "positiveImages": 3,
+              "negativeImages": 4,
+              "GT": 27,
+              "TP": 2,
+              "FP": 6,
+              "FN": 25,
+              "precision": 0.25,
+              "recall": 0.07407407407407407,
+              "positiveCountMAE": 8.333333333333334,
+              "positiveCountWAPE": 0.9259259259259259,
+              "sceneMacroWAPE": 0.7916666666666666,
+              "negativeFalsePositiveImages": 1,
+              "smallCountFailures": [
+                "kaggle_011",
+                "new_maco_0021"
+              ],
+              "perScene": {
+                "kaggle_original_photo_011": {
+                  "images": 1,
+                  "GT": 8,
+                  "WAPE": 0.875
+                },
+                "commons_pipes042_ubt_scene": {
+                  "images": 1,
+                  "GT": 2,
+                  "WAPE": 0.5
+                },
+                "maco_round_global_00000021": {
+                  "images": 1,
+                  "GT": 17,
+                  "WAPE": 1.0
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "16to32": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "over32": {
+                  "GT": 27,
+                  "TP": 2,
+                  "FN": 25,
+                  "recall": 0.07407407407407407
+                }
+              },
+              "negativeByKind": {
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 1,
+                  "FP": 6
+                }
+              },
+              "perSource": {
+                "kaggle_public_photo": {
+                  "images": 1,
+                  "GT": 8,
+                  "TP": 1,
+                  "FP": 0,
+                  "FN": 7,
+                  "countMAE": 7.0
+                },
+                "public-industrial-photo:https://conaldesa.com.co/v2/views/productos/producto_detalle/index.php?id=9": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.rounds-bar.com/sale-36726327-1141-1080-1084-1095-1018-cold-rolled-steel-round-bar-12mm-x-6m-14mm-15mm-16mm-19mm.html": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.yesilyurtdc.com.tr/urunler/nervurlu-demirler": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://xinchengsteel78.en.made-in-china.com/": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 6,
+                  "FN": 0,
+                  "countMAE": 6.0
+                },
+                "wikimedia_commons": {
+                  "images": 1,
+                  "GT": 2,
+                  "TP": 1,
+                  "FP": 0,
+                  "FN": 1,
+                  "countMAE": 1.0
+                },
+                "zenodo17165968-MACO-unused-scene": {
+                  "images": 1,
+                  "GT": 17,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 17,
+                  "countMAE": 17.0
+                }
+              },
+              "perCountDensity": {
+                "1to20": {
+                  "images": 3,
+                  "GT": 27,
+                  "TP": 2,
+                  "FP": 0,
+                  "FN": 25,
+                  "countMAE": 8.333333333333334
+                }
+              },
+              "AP50": 0.09747964281963621,
+              "AP50_95": 0.06176795519851226
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "precision>=.95": false,
+                "recall>=.95": false,
+                "positiveWAPE<=.05": false,
+                "sceneMacroWAPE<=.10": false,
+                "smallCountsGT<=20Error<=1": false,
+                "allNegativeImagesZero": false
+              }
+            }
+          }
+        },
+        "camera": {
+          "old": {
+            "summary": {
+              "images": 40,
+              "positiveImages": 33,
+              "negativeImages": 7,
+              "GT": 4443,
+              "TP": 4219,
+              "FP": 102,
+              "FN": 224,
+              "precision": 0.9763943531589909,
+              "recall": 0.9495836146747693,
+              "positiveCountMAE": 5.878787878787879,
+              "positiveCountWAPE": 0.04366419086203016,
+              "sceneMacroWAPE": 0.0374151370730004,
+              "negativeFalsePositiveImages": 0,
+              "smallCountFailures": [],
+              "perScene": {
+                "maco_round_global_00000001": {
+                  "images": 1,
+                  "GT": 87,
+                  "WAPE": 0.04597701149425287
+                },
+                "maco_round_global_00000031": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.008333333333333333
+                },
+                "maco_round_global_00000065": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.11666666666666667
+                },
+                "maco_round_global_00000078": {
+                  "images": 1,
+                  "GT": 105,
+                  "WAPE": 0.0380952380952381
+                },
+                "maco_round_global_00000110": {
+                  "images": 1,
+                  "GT": 118,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000171": {
+                  "images": 1,
+                  "GT": 200,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000183": {
+                  "images": 1,
+                  "GT": 81,
+                  "WAPE": 0.012345679012345678
+                },
+                "maco_round_global_00000205": {
+                  "images": 1,
+                  "GT": 209,
+                  "WAPE": 0.04784688995215311
+                },
+                "maco_round_global_00000258": {
+                  "images": 1,
+                  "GT": 54,
+                  "WAPE": 0.037037037037037035
+                },
+                "maco_round_global_00000333": {
+                  "images": 1,
+                  "GT": 328,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000083": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000375": {
+                  "images": 1,
+                  "GT": 24,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000387": {
+                  "images": 1,
+                  "GT": 267,
+                  "WAPE": 0.018726591760299626
+                },
+                "maco_round_global_00000462": {
+                  "images": 1,
+                  "GT": 291,
+                  "WAPE": 0.3539518900343643
+                },
+                "maco_round_global_00000464": {
+                  "images": 1,
+                  "GT": 101,
+                  "WAPE": 0.009900990099009901
+                },
+                "maco_round_global_00000488": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000625": {
+                  "images": 1,
+                  "GT": 99,
+                  "WAPE": 0.010101010101010102
+                },
+                "maco_round_global_00000638": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000682": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.03333333333333333
+                },
+                "maco_round_global_00000687": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.02631578947368421
+                },
+                "maco_round_global_00000701": {
+                  "images": 1,
+                  "GT": 98,
+                  "WAPE": 0.030612244897959183
+                },
+                "maco_round_global_00000711": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.15789473684210525
+                },
+                "maco_round_global_00000718": {
+                  "images": 1,
+                  "GT": 116,
+                  "WAPE": 0.017241379310344827
+                },
+                "maco_round_global_00000753": {
+                  "images": 1,
+                  "GT": 64,
+                  "WAPE": 0.03125
+                },
+                "maco_round_global_00000772": {
+                  "images": 1,
+                  "GT": 106,
+                  "WAPE": 0.009433962264150943
+                },
+                "maco_round_global_00000803": {
+                  "images": 1,
+                  "GT": 33,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000832": {
+                  "images": 1,
+                  "GT": 224,
+                  "WAPE": 0.008928571428571428
+                },
+                "maco_round_global_00000854": {
+                  "images": 1,
+                  "GT": 114,
+                  "WAPE": 0.02631578947368421
+                },
+                "maco_round_global_00000868": {
+                  "images": 1,
+                  "GT": 437,
+                  "WAPE": 0.011441647597254004
+                },
+                "maco_round_global_00000904": {
+                  "images": 1,
+                  "GT": 498,
+                  "WAPE": 0.02208835341365462
+                },
+                "maco_round_global_00000903": {
+                  "images": 1,
+                  "GT": 61,
+                  "WAPE": 0.01639344262295082
+                },
+                "maco_round_global_00000911": {
+                  "images": 1,
+                  "GT": 66,
+                  "WAPE": 0.12121212121212122
+                },
+                "maco_round_global_00000951": {
+                  "images": 1,
+                  "GT": 86,
+                  "WAPE": 0.023255813953488372
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 69,
+                  "TP": 18,
+                  "FN": 51,
+                  "recall": 0.2608695652173913
+                },
+                "16to32": {
+                  "GT": 2188,
+                  "TP": 2021,
+                  "FN": 167,
+                  "recall": 0.9236745886654479
+                },
+                "over32": {
+                  "GT": 2186,
+                  "TP": 2180,
+                  "FN": 6,
+                  "recall": 0.9972552607502287
+                }
+              },
+              "negativeByKind": {
+                "empty_scene": {
+                  "images": 3,
+                  "falsePositiveImages": 0,
+                  "FP": 0
+                },
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 0,
+                  "FP": 0
+                }
+              },
+              "perSource": {
+                "zenodo17165968-MACO": {
+                  "images": 40,
+                  "GT": 4443,
+                  "TP": 4219,
+                  "FP": 102,
+                  "FN": 224,
+                  "countMAE": 4.85
+                }
+              },
+              "perCountDensity": {
+                "21to100": {
+                  "images": 17,
+                  "GT": 1089,
+                  "TP": 1067,
+                  "FP": 20,
+                  "FN": 22,
+                  "countMAE": 1.8823529411764706
+                },
+                "101to500": {
+                  "images": 16,
+                  "GT": 3354,
+                  "TP": 3152,
+                  "FP": 82,
+                  "FN": 202,
+                  "countMAE": 10.125
+                }
+              },
+              "AP50": 0.9835397394515414,
+              "AP50_95": 0.713137895600491
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "TP": false,
+                "FP": true,
+                "FN": false,
+                "positiveCountWAPE": false,
+                "sceneMacroWAPE": false,
+                "sizeTP/under16": false,
+                "sizeTP/16to32": false,
+                "sizeTP/over32": true,
+                "allNegativeImagesZero": true
+              }
+            }
+          },
+          "fresh": {
+            "summary": {
+              "images": 7,
+              "positiveImages": 3,
+              "negativeImages": 4,
+              "GT": 27,
+              "TP": 2,
+              "FP": 6,
+              "FN": 25,
+              "precision": 0.25,
+              "recall": 0.07407407407407407,
+              "positiveCountMAE": 8.333333333333334,
+              "positiveCountWAPE": 0.9259259259259259,
+              "sceneMacroWAPE": 0.7916666666666666,
+              "negativeFalsePositiveImages": 1,
+              "smallCountFailures": [
+                "kaggle_011",
+                "new_maco_0021"
+              ],
+              "perScene": {
+                "kaggle_original_photo_011": {
+                  "images": 1,
+                  "GT": 8,
+                  "WAPE": 0.875
+                },
+                "commons_pipes042_ubt_scene": {
+                  "images": 1,
+                  "GT": 2,
+                  "WAPE": 0.5
+                },
+                "maco_round_global_00000021": {
+                  "images": 1,
+                  "GT": 17,
+                  "WAPE": 1.0
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "16to32": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "over32": {
+                  "GT": 27,
+                  "TP": 2,
+                  "FN": 25,
+                  "recall": 0.07407407407407407
+                }
+              },
+              "negativeByKind": {
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 1,
+                  "FP": 6
+                }
+              },
+              "perSource": {
+                "kaggle_public_photo": {
+                  "images": 1,
+                  "GT": 8,
+                  "TP": 1,
+                  "FP": 0,
+                  "FN": 7,
+                  "countMAE": 7.0
+                },
+                "public-industrial-photo:https://conaldesa.com.co/v2/views/productos/producto_detalle/index.php?id=9": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.rounds-bar.com/sale-36726327-1141-1080-1084-1095-1018-cold-rolled-steel-round-bar-12mm-x-6m-14mm-15mm-16mm-19mm.html": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.yesilyurtdc.com.tr/urunler/nervurlu-demirler": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://xinchengsteel78.en.made-in-china.com/": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 6,
+                  "FN": 0,
+                  "countMAE": 6.0
+                },
+                "wikimedia_commons": {
+                  "images": 1,
+                  "GT": 2,
+                  "TP": 1,
+                  "FP": 0,
+                  "FN": 1,
+                  "countMAE": 1.0
+                },
+                "zenodo17165968-MACO-unused-scene": {
+                  "images": 1,
+                  "GT": 17,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 17,
+                  "countMAE": 17.0
+                }
+              },
+              "perCountDensity": {
+                "1to20": {
+                  "images": 3,
+                  "GT": 27,
+                  "TP": 2,
+                  "FP": 0,
+                  "FN": 25,
+                  "countMAE": 8.333333333333334
+                }
+              },
+              "AP50": 0.09747964281963621,
+              "AP50_95": 0.06176795519851226
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "precision>=.95": false,
+                "recall>=.95": false,
+                "positiveWAPE<=.05": false,
+                "sceneMacroWAPE<=.10": false,
+                "smallCountsGT<=20Error<=1": false,
+                "allNegativeImagesZero": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "epoch": 8,
+      "status": "FAIL",
+      "variants": {
+        "gallery": {
+          "old": {
+            "summary": {
+              "images": 40,
+              "positiveImages": 33,
+              "negativeImages": 7,
+              "GT": 4443,
+              "TP": 4246,
+              "FP": 118,
+              "FN": 197,
+              "precision": 0.9729605866177818,
+              "recall": 0.9556605896916498,
+              "positiveCountMAE": 5.424242424242424,
+              "positiveCountWAPE": 0.04028809363042989,
+              "sceneMacroWAPE": 0.036184636591269165,
+              "negativeFalsePositiveImages": 2,
+              "smallCountFailures": [],
+              "perScene": {
+                "maco_round_global_00000001": {
+                  "images": 1,
+                  "GT": 87,
+                  "WAPE": 0.04597701149425287
+                },
+                "maco_round_global_00000031": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.06666666666666667
+                },
+                "maco_round_global_00000065": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.058333333333333334
+                },
+                "maco_round_global_00000078": {
+                  "images": 1,
+                  "GT": 105,
+                  "WAPE": 0.009523809523809525
+                },
+                "maco_round_global_00000110": {
+                  "images": 1,
+                  "GT": 118,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000171": {
+                  "images": 1,
+                  "GT": 200,
+                  "WAPE": 0.005
+                },
+                "maco_round_global_00000183": {
+                  "images": 1,
+                  "GT": 81,
+                  "WAPE": 0.06172839506172839
+                },
+                "maco_round_global_00000205": {
+                  "images": 1,
+                  "GT": 209,
+                  "WAPE": 0.0430622009569378
+                },
+                "maco_round_global_00000258": {
+                  "images": 1,
+                  "GT": 54,
+                  "WAPE": 0.018518518518518517
+                },
+                "maco_round_global_00000333": {
+                  "images": 1,
+                  "GT": 328,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000083": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000375": {
+                  "images": 1,
+                  "GT": 24,
+                  "WAPE": 0.041666666666666664
+                },
+                "maco_round_global_00000387": {
+                  "images": 1,
+                  "GT": 267,
+                  "WAPE": 0.0149812734082397
+                },
+                "maco_round_global_00000462": {
+                  "images": 1,
+                  "GT": 291,
+                  "WAPE": 0.31958762886597936
+                },
+                "maco_round_global_00000464": {
+                  "images": 1,
+                  "GT": 101,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000488": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000625": {
+                  "images": 1,
+                  "GT": 99,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000638": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000682": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.06666666666666667
+                },
+                "maco_round_global_00000687": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000701": {
+                  "images": 1,
+                  "GT": 98,
+                  "WAPE": 0.02040816326530612
+                },
+                "maco_round_global_00000711": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.13157894736842105
+                },
+                "maco_round_global_00000718": {
+                  "images": 1,
+                  "GT": 116,
+                  "WAPE": 0.008620689655172414
+                },
+                "maco_round_global_00000753": {
+                  "images": 1,
+                  "GT": 64,
+                  "WAPE": 0.03125
+                },
+                "maco_round_global_00000772": {
+                  "images": 1,
+                  "GT": 106,
+                  "WAPE": 0.009433962264150943
+                },
+                "maco_round_global_00000803": {
+                  "images": 1,
+                  "GT": 33,
+                  "WAPE": 0.030303030303030304
+                },
+                "maco_round_global_00000832": {
+                  "images": 1,
+                  "GT": 224,
+                  "WAPE": 0.004464285714285714
+                },
+                "maco_round_global_00000854": {
+                  "images": 1,
+                  "GT": 114,
+                  "WAPE": 0.02631578947368421
+                },
+                "maco_round_global_00000868": {
+                  "images": 1,
+                  "GT": 437,
+                  "WAPE": 0.011441647597254004
+                },
+                "maco_round_global_00000904": {
+                  "images": 1,
+                  "GT": 498,
+                  "WAPE": 0.024096385542168676
+                },
+                "maco_round_global_00000903": {
+                  "images": 1,
+                  "GT": 61,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000911": {
+                  "images": 1,
+                  "GT": 66,
+                  "WAPE": 0.12121212121212122
+                },
+                "maco_round_global_00000951": {
+                  "images": 1,
+                  "GT": 86,
+                  "WAPE": 0.023255813953488372
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 69,
+                  "TP": 20,
+                  "FN": 49,
+                  "recall": 0.2898550724637681
+                },
+                "16to32": {
+                  "GT": 2188,
+                  "TP": 2047,
+                  "FN": 141,
+                  "recall": 0.9355575868372943
+                },
+                "over32": {
+                  "GT": 2186,
+                  "TP": 2179,
+                  "FN": 7,
+                  "recall": 0.9967978042086002
+                }
+              },
+              "negativeByKind": {
+                "empty_scene": {
+                  "images": 3,
+                  "falsePositiveImages": 0,
+                  "FP": 0
+                },
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 2,
+                  "FP": 2
+                }
+              },
+              "perSource": {
+                "zenodo17165968-MACO": {
+                  "images": 40,
+                  "GT": 4443,
+                  "TP": 4246,
+                  "FP": 118,
+                  "FN": 197,
+                  "countMAE": 4.525
+                }
+              },
+              "perCountDensity": {
+                "21to100": {
+                  "images": 17,
+                  "GT": 1089,
+                  "TP": 1068,
+                  "FP": 22,
+                  "FN": 21,
+                  "countMAE": 1.9411764705882353
+                },
+                "101to500": {
+                  "images": 16,
+                  "GT": 3354,
+                  "TP": 3178,
+                  "FP": 94,
+                  "FN": 176,
+                  "countMAE": 9.125
+                }
+              },
+              "AP50": 0.9839243938820148,
+              "AP50_95": 0.7194392149220805
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "TP": false,
+                "FP": true,
+                "FN": false,
+                "positiveCountWAPE": false,
+                "sceneMacroWAPE": false,
+                "sizeTP/under16": false,
+                "sizeTP/16to32": false,
+                "sizeTP/over32": true,
+                "allNegativeImagesZero": false
+              }
+            }
+          },
+          "fresh": {
+            "summary": {
+              "images": 7,
+              "positiveImages": 3,
+              "negativeImages": 4,
+              "GT": 27,
+              "TP": 10,
+              "FP": 58,
+              "FN": 17,
+              "precision": 0.14705882352941177,
+              "recall": 0.37037037037037035,
+              "positiveCountMAE": 6.0,
+              "positiveCountWAPE": 0.6666666666666666,
+              "sceneMacroWAPE": 0.5,
+              "negativeFalsePositiveImages": 1,
+              "smallCountFailures": [
+                "new_maco_0021"
+              ],
+              "perScene": {
+                "kaggle_original_photo_011": {
+                  "images": 1,
+                  "GT": 8,
+                  "WAPE": 0.0
+                },
+                "commons_pipes042_ubt_scene": {
+                  "images": 1,
+                  "GT": 2,
+                  "WAPE": 0.5
+                },
+                "maco_round_global_00000021": {
+                  "images": 1,
+                  "GT": 17,
+                  "WAPE": 1.0
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "16to32": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "over32": {
+                  "GT": 27,
+                  "TP": 10,
+                  "FN": 17,
+                  "recall": 0.37037037037037035
+                }
+              },
+              "negativeByKind": {
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 1,
+                  "FP": 57
+                }
+              },
+              "perSource": {
+                "kaggle_public_photo": {
+                  "images": 1,
+                  "GT": 8,
+                  "TP": 8,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://conaldesa.com.co/v2/views/productos/producto_detalle/index.php?id=9": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.rounds-bar.com/sale-36726327-1141-1080-1084-1095-1018-cold-rolled-steel-round-bar-12mm-x-6m-14mm-15mm-16mm-19mm.html": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.yesilyurtdc.com.tr/urunler/nervurlu-demirler": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://xinchengsteel78.en.made-in-china.com/": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 57,
+                  "FN": 0,
+                  "countMAE": 57.0
+                },
+                "wikimedia_commons": {
+                  "images": 1,
+                  "GT": 2,
+                  "TP": 2,
+                  "FP": 1,
+                  "FN": 0,
+                  "countMAE": 1.0
+                },
+                "zenodo17165968-MACO-unused-scene": {
+                  "images": 1,
+                  "GT": 17,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 17,
+                  "countMAE": 17.0
+                }
+              },
+              "perCountDensity": {
+                "1to20": {
+                  "images": 3,
+                  "GT": 27,
+                  "TP": 10,
+                  "FP": 1,
+                  "FN": 17,
+                  "countMAE": 6.0
+                }
+              },
+              "AP50": 0.33916419486114835,
+              "AP50_95": 0.2280523601301121
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "precision>=.95": false,
+                "recall>=.95": false,
+                "positiveWAPE<=.05": false,
+                "sceneMacroWAPE<=.10": false,
+                "smallCountsGT<=20Error<=1": false,
+                "allNegativeImagesZero": false
+              }
+            }
+          }
+        },
+        "camera": {
+          "old": {
+            "summary": {
+              "images": 40,
+              "positiveImages": 33,
+              "negativeImages": 7,
+              "GT": 4443,
+              "TP": 4246,
+              "FP": 118,
+              "FN": 197,
+              "precision": 0.9729605866177818,
+              "recall": 0.9556605896916498,
+              "positiveCountMAE": 5.424242424242424,
+              "positiveCountWAPE": 0.04028809363042989,
+              "sceneMacroWAPE": 0.036184636591269165,
+              "negativeFalsePositiveImages": 2,
+              "smallCountFailures": [],
+              "perScene": {
+                "maco_round_global_00000001": {
+                  "images": 1,
+                  "GT": 87,
+                  "WAPE": 0.04597701149425287
+                },
+                "maco_round_global_00000031": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.06666666666666667
+                },
+                "maco_round_global_00000065": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.058333333333333334
+                },
+                "maco_round_global_00000078": {
+                  "images": 1,
+                  "GT": 105,
+                  "WAPE": 0.009523809523809525
+                },
+                "maco_round_global_00000110": {
+                  "images": 1,
+                  "GT": 118,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000171": {
+                  "images": 1,
+                  "GT": 200,
+                  "WAPE": 0.005
+                },
+                "maco_round_global_00000183": {
+                  "images": 1,
+                  "GT": 81,
+                  "WAPE": 0.06172839506172839
+                },
+                "maco_round_global_00000205": {
+                  "images": 1,
+                  "GT": 209,
+                  "WAPE": 0.0430622009569378
+                },
+                "maco_round_global_00000258": {
+                  "images": 1,
+                  "GT": 54,
+                  "WAPE": 0.018518518518518517
+                },
+                "maco_round_global_00000333": {
+                  "images": 1,
+                  "GT": 328,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000083": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000375": {
+                  "images": 1,
+                  "GT": 24,
+                  "WAPE": 0.041666666666666664
+                },
+                "maco_round_global_00000387": {
+                  "images": 1,
+                  "GT": 267,
+                  "WAPE": 0.0149812734082397
+                },
+                "maco_round_global_00000462": {
+                  "images": 1,
+                  "GT": 291,
+                  "WAPE": 0.31958762886597936
+                },
+                "maco_round_global_00000464": {
+                  "images": 1,
+                  "GT": 101,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000488": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000625": {
+                  "images": 1,
+                  "GT": 99,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000638": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000682": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.06666666666666667
+                },
+                "maco_round_global_00000687": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000701": {
+                  "images": 1,
+                  "GT": 98,
+                  "WAPE": 0.02040816326530612
+                },
+                "maco_round_global_00000711": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.13157894736842105
+                },
+                "maco_round_global_00000718": {
+                  "images": 1,
+                  "GT": 116,
+                  "WAPE": 0.008620689655172414
+                },
+                "maco_round_global_00000753": {
+                  "images": 1,
+                  "GT": 64,
+                  "WAPE": 0.03125
+                },
+                "maco_round_global_00000772": {
+                  "images": 1,
+                  "GT": 106,
+                  "WAPE": 0.009433962264150943
+                },
+                "maco_round_global_00000803": {
+                  "images": 1,
+                  "GT": 33,
+                  "WAPE": 0.030303030303030304
+                },
+                "maco_round_global_00000832": {
+                  "images": 1,
+                  "GT": 224,
+                  "WAPE": 0.004464285714285714
+                },
+                "maco_round_global_00000854": {
+                  "images": 1,
+                  "GT": 114,
+                  "WAPE": 0.02631578947368421
+                },
+                "maco_round_global_00000868": {
+                  "images": 1,
+                  "GT": 437,
+                  "WAPE": 0.011441647597254004
+                },
+                "maco_round_global_00000904": {
+                  "images": 1,
+                  "GT": 498,
+                  "WAPE": 0.024096385542168676
+                },
+                "maco_round_global_00000903": {
+                  "images": 1,
+                  "GT": 61,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000911": {
+                  "images": 1,
+                  "GT": 66,
+                  "WAPE": 0.12121212121212122
+                },
+                "maco_round_global_00000951": {
+                  "images": 1,
+                  "GT": 86,
+                  "WAPE": 0.023255813953488372
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 69,
+                  "TP": 20,
+                  "FN": 49,
+                  "recall": 0.2898550724637681
+                },
+                "16to32": {
+                  "GT": 2188,
+                  "TP": 2047,
+                  "FN": 141,
+                  "recall": 0.9355575868372943
+                },
+                "over32": {
+                  "GT": 2186,
+                  "TP": 2179,
+                  "FN": 7,
+                  "recall": 0.9967978042086002
+                }
+              },
+              "negativeByKind": {
+                "empty_scene": {
+                  "images": 3,
+                  "falsePositiveImages": 0,
+                  "FP": 0
+                },
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 2,
+                  "FP": 2
+                }
+              },
+              "perSource": {
+                "zenodo17165968-MACO": {
+                  "images": 40,
+                  "GT": 4443,
+                  "TP": 4246,
+                  "FP": 118,
+                  "FN": 197,
+                  "countMAE": 4.525
+                }
+              },
+              "perCountDensity": {
+                "21to100": {
+                  "images": 17,
+                  "GT": 1089,
+                  "TP": 1068,
+                  "FP": 22,
+                  "FN": 21,
+                  "countMAE": 1.9411764705882353
+                },
+                "101to500": {
+                  "images": 16,
+                  "GT": 3354,
+                  "TP": 3178,
+                  "FP": 94,
+                  "FN": 176,
+                  "countMAE": 9.125
+                }
+              },
+              "AP50": 0.9838476975677605,
+              "AP50_95": 0.7193558491970806
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "TP": false,
+                "FP": true,
+                "FN": false,
+                "positiveCountWAPE": false,
+                "sceneMacroWAPE": false,
+                "sizeTP/under16": false,
+                "sizeTP/16to32": false,
+                "sizeTP/over32": true,
+                "allNegativeImagesZero": false
+              }
+            }
+          },
+          "fresh": {
+            "summary": {
+              "images": 7,
+              "positiveImages": 3,
+              "negativeImages": 4,
+              "GT": 27,
+              "TP": 10,
+              "FP": 58,
+              "FN": 17,
+              "precision": 0.14705882352941177,
+              "recall": 0.37037037037037035,
+              "positiveCountMAE": 6.0,
+              "positiveCountWAPE": 0.6666666666666666,
+              "sceneMacroWAPE": 0.5,
+              "negativeFalsePositiveImages": 1,
+              "smallCountFailures": [
+                "new_maco_0021"
+              ],
+              "perScene": {
+                "kaggle_original_photo_011": {
+                  "images": 1,
+                  "GT": 8,
+                  "WAPE": 0.0
+                },
+                "commons_pipes042_ubt_scene": {
+                  "images": 1,
+                  "GT": 2,
+                  "WAPE": 0.5
+                },
+                "maco_round_global_00000021": {
+                  "images": 1,
+                  "GT": 17,
+                  "WAPE": 1.0
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "16to32": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "over32": {
+                  "GT": 27,
+                  "TP": 10,
+                  "FN": 17,
+                  "recall": 0.37037037037037035
+                }
+              },
+              "negativeByKind": {
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 1,
+                  "FP": 57
+                }
+              },
+              "perSource": {
+                "kaggle_public_photo": {
+                  "images": 1,
+                  "GT": 8,
+                  "TP": 8,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://conaldesa.com.co/v2/views/productos/producto_detalle/index.php?id=9": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.rounds-bar.com/sale-36726327-1141-1080-1084-1095-1018-cold-rolled-steel-round-bar-12mm-x-6m-14mm-15mm-16mm-19mm.html": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.yesilyurtdc.com.tr/urunler/nervurlu-demirler": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://xinchengsteel78.en.made-in-china.com/": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 57,
+                  "FN": 0,
+                  "countMAE": 57.0
+                },
+                "wikimedia_commons": {
+                  "images": 1,
+                  "GT": 2,
+                  "TP": 2,
+                  "FP": 1,
+                  "FN": 0,
+                  "countMAE": 1.0
+                },
+                "zenodo17165968-MACO-unused-scene": {
+                  "images": 1,
+                  "GT": 17,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 17,
+                  "countMAE": 17.0
+                }
+              },
+              "perCountDensity": {
+                "1to20": {
+                  "images": 3,
+                  "GT": 27,
+                  "TP": 10,
+                  "FP": 1,
+                  "FN": 17,
+                  "countMAE": 6.0
+                }
+              },
+              "AP50": 0.33916419486114835,
+              "AP50_95": 0.2280523601301121
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "precision>=.95": false,
+                "recall>=.95": false,
+                "positiveWAPE<=.05": false,
+                "sceneMacroWAPE<=.10": false,
+                "smallCountsGT<=20Error<=1": false,
+                "allNegativeImagesZero": false
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "epoch": 12,
+      "status": "FAIL",
+      "variants": {
+        "gallery": {
+          "old": {
+            "summary": {
+              "images": 40,
+              "positiveImages": 33,
+              "negativeImages": 7,
+              "GT": 4443,
+              "TP": 4262,
+              "FP": 129,
+              "FN": 181,
+              "precision": 0.9706217262582555,
+              "recall": 0.9592617600720235,
+              "positiveCountMAE": 5.121212121212121,
+              "positiveCountWAPE": 0.038037362142696374,
+              "sceneMacroWAPE": 0.033550100907520364,
+              "negativeFalsePositiveImages": 2,
+              "smallCountFailures": [],
+              "perScene": {
+                "maco_round_global_00000001": {
+                  "images": 1,
+                  "GT": 87,
+                  "WAPE": 0.04597701149425287
+                },
+                "maco_round_global_00000031": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.025
+                },
+                "maco_round_global_00000065": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.025
+                },
+                "maco_round_global_00000078": {
+                  "images": 1,
+                  "GT": 105,
+                  "WAPE": 0.0380952380952381
+                },
+                "maco_round_global_00000110": {
+                  "images": 1,
+                  "GT": 118,
+                  "WAPE": 0.00847457627118644
+                },
+                "maco_round_global_00000171": {
+                  "images": 1,
+                  "GT": 200,
+                  "WAPE": 0.02
+                },
+                "maco_round_global_00000183": {
+                  "images": 1,
+                  "GT": 81,
+                  "WAPE": 0.06172839506172839
+                },
+                "maco_round_global_00000205": {
+                  "images": 1,
+                  "GT": 209,
+                  "WAPE": 0.04784688995215311
+                },
+                "maco_round_global_00000258": {
+                  "images": 1,
+                  "GT": 54,
+                  "WAPE": 0.018518518518518517
+                },
+                "maco_round_global_00000333": {
+                  "images": 1,
+                  "GT": 328,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000083": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000375": {
+                  "images": 1,
+                  "GT": 24,
+                  "WAPE": 0.041666666666666664
+                },
+                "maco_round_global_00000387": {
+                  "images": 1,
+                  "GT": 267,
+                  "WAPE": 0.03745318352059925
+                },
+                "maco_round_global_00000462": {
+                  "images": 1,
+                  "GT": 291,
+                  "WAPE": 0.29553264604810997
+                },
+                "maco_round_global_00000464": {
+                  "images": 1,
+                  "GT": 101,
+                  "WAPE": 0.009900990099009901
+                },
+                "maco_round_global_00000488": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000625": {
+                  "images": 1,
+                  "GT": 99,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000638": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000682": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.03333333333333333
+                },
+                "maco_round_global_00000687": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.02631578947368421
+                },
+                "maco_round_global_00000701": {
+                  "images": 1,
+                  "GT": 98,
+                  "WAPE": 0.02040816326530612
+                },
+                "maco_round_global_00000711": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.15789473684210525
+                },
+                "maco_round_global_00000718": {
+                  "images": 1,
+                  "GT": 116,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000753": {
+                  "images": 1,
+                  "GT": 64,
+                  "WAPE": 0.015625
+                },
+                "maco_round_global_00000772": {
+                  "images": 1,
+                  "GT": 106,
+                  "WAPE": 0.009433962264150943
+                },
+                "maco_round_global_00000803": {
+                  "images": 1,
+                  "GT": 33,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000832": {
+                  "images": 1,
+                  "GT": 224,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000854": {
+                  "images": 1,
+                  "GT": 114,
+                  "WAPE": 0.02631578947368421
+                },
+                "maco_round_global_00000868": {
+                  "images": 1,
+                  "GT": 437,
+                  "WAPE": 0.009153318077803204
+                },
+                "maco_round_global_00000904": {
+                  "images": 1,
+                  "GT": 498,
+                  "WAPE": 0.018072289156626505
+                },
+                "maco_round_global_00000903": {
+                  "images": 1,
+                  "GT": 61,
+                  "WAPE": 0.01639344262295082
+                },
+                "maco_round_global_00000911": {
+                  "images": 1,
+                  "GT": 66,
+                  "WAPE": 0.07575757575757576
+                },
+                "maco_round_global_00000951": {
+                  "images": 1,
+                  "GT": 86,
+                  "WAPE": 0.023255813953488372
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 69,
+                  "TP": 21,
+                  "FN": 48,
+                  "recall": 0.30434782608695654
+                },
+                "16to32": {
+                  "GT": 2188,
+                  "TP": 2063,
+                  "FN": 125,
+                  "recall": 0.9428702010968921
+                },
+                "over32": {
+                  "GT": 2186,
+                  "TP": 2178,
+                  "FN": 8,
+                  "recall": 0.9963403476669717
+                }
+              },
+              "negativeByKind": {
+                "empty_scene": {
+                  "images": 3,
+                  "falsePositiveImages": 0,
+                  "FP": 0
+                },
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 2,
+                  "FP": 3
+                }
+              },
+              "perSource": {
+                "zenodo17165968-MACO": {
+                  "images": 40,
+                  "GT": 4443,
+                  "TP": 4262,
+                  "FP": 129,
+                  "FN": 181,
+                  "countMAE": 4.3
+                }
+              },
+              "perCountDensity": {
+                "21to100": {
+                  "images": 17,
+                  "GT": 1089,
+                  "TP": 1071,
+                  "FP": 24,
+                  "FN": 18,
+                  "countMAE": 1.7647058823529411
+                },
+                "101to500": {
+                  "images": 16,
+                  "GT": 3354,
+                  "TP": 3191,
+                  "FP": 102,
+                  "FN": 163,
+                  "countMAE": 8.6875
+                }
+              },
+              "AP50": 0.9839088098497367,
+              "AP50_95": 0.7306995635464911
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "TP": false,
+                "FP": true,
+                "FN": false,
+                "positiveCountWAPE": false,
+                "sceneMacroWAPE": true,
+                "sizeTP/under16": false,
+                "sizeTP/16to32": false,
+                "sizeTP/over32": true,
+                "allNegativeImagesZero": false
+              }
+            }
+          },
+          "fresh": {
+            "summary": {
+              "images": 7,
+              "positiveImages": 3,
+              "negativeImages": 4,
+              "GT": 27,
+              "TP": 10,
+              "FP": 18,
+              "FN": 17,
+              "precision": 0.35714285714285715,
+              "recall": 0.37037037037037035,
+              "positiveCountMAE": 5.666666666666667,
+              "positiveCountWAPE": 0.6296296296296297,
+              "sceneMacroWAPE": 0.3333333333333333,
+              "negativeFalsePositiveImages": 1,
+              "smallCountFailures": [
+                "new_maco_0021"
+              ],
+              "perScene": {
+                "kaggle_original_photo_011": {
+                  "images": 1,
+                  "GT": 8,
+                  "WAPE": 0.0
+                },
+                "commons_pipes042_ubt_scene": {
+                  "images": 1,
+                  "GT": 2,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000021": {
+                  "images": 1,
+                  "GT": 17,
+                  "WAPE": 1.0
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "16to32": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "over32": {
+                  "GT": 27,
+                  "TP": 10,
+                  "FN": 17,
+                  "recall": 0.37037037037037035
+                }
+              },
+              "negativeByKind": {
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 1,
+                  "FP": 18
+                }
+              },
+              "perSource": {
+                "kaggle_public_photo": {
+                  "images": 1,
+                  "GT": 8,
+                  "TP": 8,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://conaldesa.com.co/v2/views/productos/producto_detalle/index.php?id=9": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.rounds-bar.com/sale-36726327-1141-1080-1084-1095-1018-cold-rolled-steel-round-bar-12mm-x-6m-14mm-15mm-16mm-19mm.html": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.yesilyurtdc.com.tr/urunler/nervurlu-demirler": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://xinchengsteel78.en.made-in-china.com/": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 18,
+                  "FN": 0,
+                  "countMAE": 18.0
+                },
+                "wikimedia_commons": {
+                  "images": 1,
+                  "GT": 2,
+                  "TP": 2,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "zenodo17165968-MACO-unused-scene": {
+                  "images": 1,
+                  "GT": 17,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 17,
+                  "countMAE": 17.0
+                }
+              },
+              "perCountDensity": {
+                "1to20": {
+                  "images": 3,
+                  "GT": 27,
+                  "TP": 10,
+                  "FP": 0,
+                  "FN": 17,
+                  "countMAE": 5.666666666666667
+                }
+              },
+              "AP50": 0.3544278697858392,
+              "AP50_95": 0.23632747281639
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "precision>=.95": false,
+                "recall>=.95": false,
+                "positiveWAPE<=.05": false,
+                "sceneMacroWAPE<=.10": false,
+                "smallCountsGT<=20Error<=1": false,
+                "allNegativeImagesZero": false
+              }
+            }
+          }
+        },
+        "camera": {
+          "old": {
+            "summary": {
+              "images": 40,
+              "positiveImages": 33,
+              "negativeImages": 7,
+              "GT": 4443,
+              "TP": 4262,
+              "FP": 129,
+              "FN": 181,
+              "precision": 0.9706217262582555,
+              "recall": 0.9592617600720235,
+              "positiveCountMAE": 5.121212121212121,
+              "positiveCountWAPE": 0.038037362142696374,
+              "sceneMacroWAPE": 0.033550100907520364,
+              "negativeFalsePositiveImages": 2,
+              "smallCountFailures": [],
+              "perScene": {
+                "maco_round_global_00000001": {
+                  "images": 1,
+                  "GT": 87,
+                  "WAPE": 0.04597701149425287
+                },
+                "maco_round_global_00000031": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.025
+                },
+                "maco_round_global_00000065": {
+                  "images": 1,
+                  "GT": 120,
+                  "WAPE": 0.025
+                },
+                "maco_round_global_00000078": {
+                  "images": 1,
+                  "GT": 105,
+                  "WAPE": 0.0380952380952381
+                },
+                "maco_round_global_00000110": {
+                  "images": 1,
+                  "GT": 118,
+                  "WAPE": 0.00847457627118644
+                },
+                "maco_round_global_00000171": {
+                  "images": 1,
+                  "GT": 200,
+                  "WAPE": 0.02
+                },
+                "maco_round_global_00000183": {
+                  "images": 1,
+                  "GT": 81,
+                  "WAPE": 0.06172839506172839
+                },
+                "maco_round_global_00000205": {
+                  "images": 1,
+                  "GT": 209,
+                  "WAPE": 0.04784688995215311
+                },
+                "maco_round_global_00000258": {
+                  "images": 1,
+                  "GT": 54,
+                  "WAPE": 0.018518518518518517
+                },
+                "maco_round_global_00000333": {
+                  "images": 1,
+                  "GT": 328,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000083": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000375": {
+                  "images": 1,
+                  "GT": 24,
+                  "WAPE": 0.041666666666666664
+                },
+                "maco_round_global_00000387": {
+                  "images": 1,
+                  "GT": 267,
+                  "WAPE": 0.03745318352059925
+                },
+                "maco_round_global_00000462": {
+                  "images": 1,
+                  "GT": 291,
+                  "WAPE": 0.29553264604810997
+                },
+                "maco_round_global_00000464": {
+                  "images": 1,
+                  "GT": 101,
+                  "WAPE": 0.009900990099009901
+                },
+                "maco_round_global_00000488": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000625": {
+                  "images": 1,
+                  "GT": 99,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000638": {
+                  "images": 1,
+                  "GT": 100,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000682": {
+                  "images": 1,
+                  "GT": 30,
+                  "WAPE": 0.03333333333333333
+                },
+                "maco_round_global_00000687": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.02631578947368421
+                },
+                "maco_round_global_00000701": {
+                  "images": 1,
+                  "GT": 98,
+                  "WAPE": 0.02040816326530612
+                },
+                "maco_round_global_00000711": {
+                  "images": 1,
+                  "GT": 38,
+                  "WAPE": 0.15789473684210525
+                },
+                "maco_round_global_00000718": {
+                  "images": 1,
+                  "GT": 116,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000753": {
+                  "images": 1,
+                  "GT": 64,
+                  "WAPE": 0.015625
+                },
+                "maco_round_global_00000772": {
+                  "images": 1,
+                  "GT": 106,
+                  "WAPE": 0.009433962264150943
+                },
+                "maco_round_global_00000803": {
+                  "images": 1,
+                  "GT": 33,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000832": {
+                  "images": 1,
+                  "GT": 224,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000854": {
+                  "images": 1,
+                  "GT": 114,
+                  "WAPE": 0.02631578947368421
+                },
+                "maco_round_global_00000868": {
+                  "images": 1,
+                  "GT": 437,
+                  "WAPE": 0.009153318077803204
+                },
+                "maco_round_global_00000904": {
+                  "images": 1,
+                  "GT": 498,
+                  "WAPE": 0.018072289156626505
+                },
+                "maco_round_global_00000903": {
+                  "images": 1,
+                  "GT": 61,
+                  "WAPE": 0.01639344262295082
+                },
+                "maco_round_global_00000911": {
+                  "images": 1,
+                  "GT": 66,
+                  "WAPE": 0.07575757575757576
+                },
+                "maco_round_global_00000951": {
+                  "images": 1,
+                  "GT": 86,
+                  "WAPE": 0.023255813953488372
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 69,
+                  "TP": 21,
+                  "FN": 48,
+                  "recall": 0.30434782608695654
+                },
+                "16to32": {
+                  "GT": 2188,
+                  "TP": 2063,
+                  "FN": 125,
+                  "recall": 0.9428702010968921
+                },
+                "over32": {
+                  "GT": 2186,
+                  "TP": 2178,
+                  "FN": 8,
+                  "recall": 0.9963403476669717
+                }
+              },
+              "negativeByKind": {
+                "empty_scene": {
+                  "images": 3,
+                  "falsePositiveImages": 0,
+                  "FP": 0
+                },
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 2,
+                  "FP": 3
+                }
+              },
+              "perSource": {
+                "zenodo17165968-MACO": {
+                  "images": 40,
+                  "GT": 4443,
+                  "TP": 4262,
+                  "FP": 129,
+                  "FN": 181,
+                  "countMAE": 4.3
+                }
+              },
+              "perCountDensity": {
+                "21to100": {
+                  "images": 17,
+                  "GT": 1089,
+                  "TP": 1071,
+                  "FP": 24,
+                  "FN": 18,
+                  "countMAE": 1.7647058823529411
+                },
+                "101to500": {
+                  "images": 16,
+                  "GT": 3354,
+                  "TP": 3191,
+                  "FP": 102,
+                  "FN": 163,
+                  "countMAE": 8.6875
+                }
+              },
+              "AP50": 0.9838179427535075,
+              "AP50_95": 0.7306254685987456
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "TP": false,
+                "FP": true,
+                "FN": false,
+                "positiveCountWAPE": false,
+                "sceneMacroWAPE": true,
+                "sizeTP/under16": false,
+                "sizeTP/16to32": false,
+                "sizeTP/over32": true,
+                "allNegativeImagesZero": false
+              }
+            }
+          },
+          "fresh": {
+            "summary": {
+              "images": 7,
+              "positiveImages": 3,
+              "negativeImages": 4,
+              "GT": 27,
+              "TP": 10,
+              "FP": 18,
+              "FN": 17,
+              "precision": 0.35714285714285715,
+              "recall": 0.37037037037037035,
+              "positiveCountMAE": 5.666666666666667,
+              "positiveCountWAPE": 0.6296296296296297,
+              "sceneMacroWAPE": 0.3333333333333333,
+              "negativeFalsePositiveImages": 1,
+              "smallCountFailures": [
+                "new_maco_0021"
+              ],
+              "perScene": {
+                "kaggle_original_photo_011": {
+                  "images": 1,
+                  "GT": 8,
+                  "WAPE": 0.0
+                },
+                "commons_pipes042_ubt_scene": {
+                  "images": 1,
+                  "GT": 2,
+                  "WAPE": 0.0
+                },
+                "maco_round_global_00000021": {
+                  "images": 1,
+                  "GT": 17,
+                  "WAPE": 1.0
+                }
+              },
+              "sizeRecall": {
+                "under16": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "16to32": {
+                  "GT": 0,
+                  "TP": 0,
+                  "FN": 0,
+                  "recall": null
+                },
+                "over32": {
+                  "GT": 27,
+                  "TP": 10,
+                  "FN": 17,
+                  "recall": 0.37037037037037035
+                }
+              },
+              "negativeByKind": {
+                "non_pipe": {
+                  "images": 4,
+                  "falsePositiveImages": 1,
+                  "FP": 18
+                }
+              },
+              "perSource": {
+                "kaggle_public_photo": {
+                  "images": 1,
+                  "GT": 8,
+                  "TP": 8,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://conaldesa.com.co/v2/views/productos/producto_detalle/index.php?id=9": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.rounds-bar.com/sale-36726327-1141-1080-1084-1095-1018-cold-rolled-steel-round-bar-12mm-x-6m-14mm-15mm-16mm-19mm.html": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://www.yesilyurtdc.com.tr/urunler/nervurlu-demirler": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "public-industrial-photo:https://xinchengsteel78.en.made-in-china.com/": {
+                  "images": 1,
+                  "GT": 0,
+                  "TP": 0,
+                  "FP": 18,
+                  "FN": 0,
+                  "countMAE": 18.0
+                },
+                "wikimedia_commons": {
+                  "images": 1,
+                  "GT": 2,
+                  "TP": 2,
+                  "FP": 0,
+                  "FN": 0,
+                  "countMAE": 0.0
+                },
+                "zenodo17165968-MACO-unused-scene": {
+                  "images": 1,
+                  "GT": 17,
+                  "TP": 0,
+                  "FP": 0,
+                  "FN": 17,
+                  "countMAE": 17.0
+                }
+              },
+              "perCountDensity": {
+                "1to20": {
+                  "images": 3,
+                  "GT": 27,
+                  "TP": 10,
+                  "FP": 0,
+                  "FN": 17,
+                  "countMAE": 5.666666666666667
+                }
+              },
+              "AP50": 0.3544278697858392,
+              "AP50_95": 0.23632747281639
+            },
+            "gates": {
+              "status": "FAIL",
+              "checks": {
+                "precision>=.95": false,
+                "recall>=.95": false,
+                "positiveWAPE<=.05": false,
+                "sceneMacroWAPE<=.10": false,
+                "smallCountsGT<=20Error<=1": false,
+                "allNegativeImagesZero": false
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "epoch12FreshDetails": {
+    "gallery": {
+      "kaggle_011": {
+        "GT": 8,
+        "predicted": 8,
+        "TP": 8,
+        "FP": 0,
+        "FN": 0,
+        "absoluteError": 0
+      },
+      "commons_121": {
+        "GT": 2,
+        "predicted": 2,
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "absoluteError": 0
+      },
+      "new_maco_0021": {
+        "GT": 17,
+        "predicted": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 17,
+        "absoluteError": 17
+      },
+      "hardneg-web-yesilyurt": {
+        "GT": 0,
+        "predicted": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "absoluteError": 0
+      },
+      "hardneg-web-conaldesa": {
+        "GT": 0,
+        "predicted": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "absoluteError": 0
+      },
+      "hardneg-smooth-add-roundsbar": {
+        "GT": 0,
+        "predicted": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "absoluteError": 0
+      },
+      "hardneg-smooth-add-xincheng": {
+        "GT": 0,
+        "predicted": 18,
+        "TP": 0,
+        "FP": 18,
+        "FN": 0,
+        "absoluteError": 18
+      }
+    },
+    "camera": {
+      "kaggle_011": {
+        "GT": 8,
+        "predicted": 8,
+        "TP": 8,
+        "FP": 0,
+        "FN": 0,
+        "absoluteError": 0
+      },
+      "commons_121": {
+        "GT": 2,
+        "predicted": 2,
+        "TP": 2,
+        "FP": 0,
+        "FN": 0,
+        "absoluteError": 0
+      },
+      "new_maco_0021": {
+        "GT": 17,
+        "predicted": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 17,
+        "absoluteError": 17
+      },
+      "hardneg-web-yesilyurt": {
+        "GT": 0,
+        "predicted": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "absoluteError": 0
+      },
+      "hardneg-web-conaldesa": {
+        "GT": 0,
+        "predicted": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "absoluteError": 0
+      },
+      "hardneg-smooth-add-roundsbar": {
+        "GT": 0,
+        "predicted": 0,
+        "TP": 0,
+        "FP": 0,
+        "FN": 0,
+        "absoluteError": 0
+      },
+      "hardneg-smooth-add-xincheng": {
+        "GT": 0,
+        "predicted": 18,
+        "TP": 0,
+        "FP": 18,
+        "FN": 0,
+        "absoluteError": 18
+      }
+    }
+  },
+  "modelInferencePerformed": false,
+  "modelWeightsDeserialized": false,
+  "validationImageBytesHashed": true,
+  "imagePixelsDecoded": false,
+  "freshTestRead": false,
+  "old37TestRead": false,
+  "metricsOrLabelsModified": false,
+  "selectionChangedByReviewer": false,
+  "limitations": [
+    "NMS uses the same frozen CPU torchvision kernel, but unpadding/count matching/size metrics/scene metrics/AP and gates are reproduced by a separate prior-reviewed implementation.",
+    "Independent recomputation verifies arithmetic/provenance, not a new annotation exercise or a field-accuracy claim.",
+    "The old baseline metrics were already independently audited; this run recomputes all282 hardening caches and compares against that hash-bound baseline."
+  ]
+}

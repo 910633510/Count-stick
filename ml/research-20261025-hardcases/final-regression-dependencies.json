@@ -1,0 +1,16 @@
+{
+  "status": "FROZEN_LOCAL_CODE_NO_TEST_ACCESS",
+  "createdUTC": "2026-10-26T01:43:35.658667+00:00",
+  "filesSHA256": {
+    "ml/research-20261025-hardcases/evaluate_final_regression.py": "588ce742ccecbb3fa1e0959a4c468e67745c4e518d7b906a0336286625406b74",
+    "ml/research-20261025-hardcases/train_retention_savefix.py": "689b49d53b6dbc024249bb25ef98219df629a18835c9d19bae4252533dcf3c80",
+    "ml/research-20261025-hardcases/evaluate_retention_savefix.py": "6dddb1b425fc2fa5d994a579ad42d046531cffeb1a3173169252d1f90a52d491",
+    "ml/colony/train_isolate_mixture.py": "7ef8828da9bcc8581ea994c22131525ef6aed4a4db50ef11103d8aa02959c983",
+    "ml/colony/evaluate.py": "534bb0f62b399c31d56c80d01fcc15508fabc3aac6f1f0d36495865cae3e250f",
+    "ml/colony/mps_compat.py": "e159d5b8da2a5f3ced4a910f75fe998741a6a993307a5a7cbec6319b0fea437c"
+  },
+  "allowedRunDirectory": "output/research-20261025-hardcases/retention-savefix-v2",
+  "expectedInputBindingSHA256FromRoot": "f139fde6c8b0fdeef9782b1226f74f8c079530aca4964f630d5174d77ba1eac4",
+  "testDataRead": false,
+  "modelInferencePerformed": false
+}

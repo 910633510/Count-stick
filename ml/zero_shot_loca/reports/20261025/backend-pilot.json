@@ -1,0 +1,37 @@
+{
+  "chosenDevice": "mps",
+  "pilots": [
+    {
+      "image": "7649.jpg",
+      "cpuCount": 22.214698791503906,
+      "cpuSeconds": 0.7331700419999998,
+      "mpsCount": 22.214696884155273,
+      "mpsSeconds": 3.241191042,
+      "absoluteDifference": 1.9073486328125e-06,
+      "tolerance": 0.05
+    },
+    {
+      "image": "734.jpg",
+      "cpuCount": 21.086700439453125,
+      "cpuSeconds": 0.38635025,
+      "mpsCount": 21.086626052856445,
+      "mpsSeconds": 0.09386258400000003,
+      "absoluteDifference": 7.43865966796875e-05,
+      "tolerance": 0.05
+    }
+  ],
+  "elapsedSeconds": 4.570178208,
+  "model": {
+    "totalParameterElements": 35482027,
+    "totalStateElementsIncludingBuffers": 35588267,
+    "stateTensorCount": 370,
+    "strictCheckpointLoad": true,
+    "allLoadedValuesEqualCheckpoint": true,
+    "zeroShot": true,
+    "learnedPrototypeSlots": 3,
+    "exemplarsProvided": 0,
+    "roiAlignGuardInstalled": true,
+    "sourceArchitectureUnchanged": true,
+    "adaptation": "Bypass CUDA/DDP runner; avoid redundant ImageNet/SwAV initialization downloads because complete checkpoint restores every tensor; useCPU/MPS device."
+  }
+}

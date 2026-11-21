@@ -1,0 +1,80 @@
+{
+  "status": "SOURCE_TRIAGE_AND_CURATED_TRAINING_DATA_COMPLETE",
+  "rows": [
+    {
+      "source": "MACO",
+      "url": "https://zenodo.org/records/17165968",
+      "state": "ALREADY_DOWNLOADED_NOT_NEW",
+      "decision": "Avoid counting repeat download as new data; audit unused natural photos separately."
+    },
+    {
+      "source": "PipesCounting",
+      "url": "https://github.com/IvanFenster/PipesCounting",
+      "state": "UNDER_REVIEW",
+      "decision": "Mixed real/augmentation/synthetic provenance; only inspect source data, do not load unknown pretrained weights."
+    },
+    {
+      "source": "CMDPC_OBB",
+      "url": "https://www.nature.com/articles/s41597-026-07474-y",
+      "state": "EXCLUDED_FOR_THIS_RECIPE",
+      "decision": "Drilling operations/whole drill pipe objects and synthetic multiview imagery do not match front rim counting; large image count alone not a reason to train."
+    },
+    {
+      "source": "MVIT metal surface defects",
+      "url": "https://github.com/clovermini/MVIT_metal_datasets",
+      "state": "EXCLUDED_FOR_THIS_RECIPE",
+      "decision": "Pipe wall defect annotations are not visible-end count labels."
+    },
+    {
+      "source": "Sensors2022 pipe dimensions",
+      "url": "https://www.mdpi.com/1424-8220/22/12/4517",
+      "state": "PUBLIC_FILE_NOT_YET_FOUND",
+      "decision": "Promising 1-30 cross section photos; only admit if public original files available. No contacting authors."
+    },
+    {
+      "source": "YOLO construction PVC counter",
+      "url": "https://github.com/fhattat/YOLO-construction-material-counter",
+      "state": "EXCLUDED_FOR_THIS_RECIPE",
+      "decision": "PVC-specific data and external accuracy claims do not establish steel-pipe performance."
+    },
+    {
+      "source": "Public Roboflow pipes-dgsio v2 archive shared by source repository",
+      "url": "https://github.com/saktheeswaranswan/pipe-counting-dataset-link-and-weights-phd-projects",
+      "state": "ACQUIRED_AND_PARTIALLY_ADMITTED",
+      "imagesInArchive": 2189,
+      "imagesAdmitted": 9,
+      "decision": "Original-label archive retained; selected photographic steel end scenes manually reannotated or corrected; old-source duplicates, PVC, uncertain renders and incomplete-label views excluded."
+    },
+    {
+      "source": "Wikimedia Commons selected pipe photographs",
+      "url": "https://commons.wikimedia.org/",
+      "state": "ACQUIRED_AND_PARTIALLY_ADMITTED",
+      "imagesAdmitted": 4,
+      "decision": "Published resized thumbnails with metadata; not native-low-resolution captures. Individual file URLs and timestamps in positive proposal."
+    },
+    {
+      "source": "Industrial solid bar/billet product photos",
+      "state": "ACQUIRED_AND_PARTIALLY_ADMITTED",
+      "imagesDownloaded": 24,
+      "imagesAdmitted": 20,
+      "decision": "Independent Codex visual zero-end labels; full-source pixels preserved;19conservativegroups. Source-page URLs in negative proposal."
+    },
+    {
+      "source": "TeCarve packaging gallery",
+      "url": "https://tecarvepipes.com/gallery/stainless-steel-pipe-tube-packaging/",
+      "state": "ACQUIRED_NOT_ADMITTED_THIS_RUN",
+      "imagesDownloaded": 40,
+      "imagesAdmitted": 0,
+      "decision": "Dense, occluded, capped/side-only scenes and possible marketing renders do not fill this batch without further annotation."
+    }
+  ],
+  "acceptedAdditions": {
+    "positiveImages": 13,
+    "negativeImages": 20,
+    "sourceCaptureGroups": 32,
+    "positiveBoxes": 155,
+    "allTrainOnly": true,
+    "knownNativeLowResolutionPositiveAdditions": 0
+  },
+  "newDownloadPayloadBytes": 198386254
+}

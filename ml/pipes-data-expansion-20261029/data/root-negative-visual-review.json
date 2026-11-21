@@ -1,0 +1,187 @@
+{
+  "status": "PASS_ROOT_NEGATIVE_VISUAL_REVIEW_PENDING_FINAL_DUPLICATE_AUDIT",
+  "images": [
+    {
+      "id": "expneg-junxiong",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-junxiong.bin",
+      "sourceSHA256": "35227ac6068737cd7a68001c9e75e614f0f7af4feb68af7d847c829f21fbd471",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-metalcare",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-metalcare.bin",
+      "sourceSHA256": "2d4bd89311f90206634c6f51288e28a9e2ba95d1436bdf0bb8d1045fd4eeae93",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-punit",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-punit.bin",
+      "sourceSHA256": "e55aeb4dcdad350204c95a188873882305aad57f23aae6f45822b6239ae908d5",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-shiraishi",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-shiraishi.bin",
+      "sourceSHA256": "037f1d9bead7180b255610f61676bd5d139148e5f468f72ce02e0f5c46d9d429",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-fsgangsu",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-fsgangsu.bin",
+      "sourceSHA256": "5acf558b7076e9f9d5bc6dfb7168d3cfb2f9a481903a1c275ef6d4a8006cc060",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-bozhong",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-bozhong.bin",
+      "sourceSHA256": "71224833f661f112cadbaab7684223222feb884fc7bf043096e7185a858a908f",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-apollo",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-apollo.bin",
+      "sourceSHA256": "44d338819b6ada087b13e59c8b3dcd3c56d88e0c6fcd954578c7a5ee99935227",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-liange",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-liange.bin",
+      "sourceSHA256": "3fa55e3f78bea2101525e8ca343ba924c21685af86f963c8a931d89b110d56be",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-greenflag",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-greenflag.bin",
+      "sourceSHA256": "f1b258f21c09720ec3c1cbe84dcafdb4e4eeb03a35fe859ea3de0e16b121da81",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-ikizler",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-ikizler.bin",
+      "sourceSHA256": "d2b2c126fac99c237884c4e8244c4c930c8b1869f6e6e412a4e3e2ee1a4ba820",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-steeldynamics",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-steeldynamics.bin",
+      "sourceSHA256": "5a0a81b545bb62c3ca728151ae264e45011a6e54191d634098e85eda24661587",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-apex",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-apex.bin",
+      "sourceSHA256": "071cd70427a756b9bbc8e944488d28f01bb5e6a2fdd449a6b5370e0687dcdbb7",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-hhiron",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-hhiron.bin",
+      "sourceSHA256": "23c49adec7e2b4e3f8fe5b3bc3747b3d4a64845c21400fea83a5c6d6cbd3236c",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-jnshagang",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-jnshagang.bin",
+      "sourceSHA256": "bf5534b03b30eac61d159806896ce1cbb77d9a82dffab4a656b280a63b7563b5",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-kzmc",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-kzmc.bin",
+      "sourceSHA256": "98811dfafb3a8e073b6bc55870278229108aab33ec7c7cff4b999b6d84804834",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-yongzhang",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-yongzhang.bin",
+      "sourceSHA256": "ab080c953750e03373d8114ca2361ae2fcde63a66e9ebbffb24070040eb5fa13",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-zelpo",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-zelpo.bin",
+      "sourceSHA256": "03b03f7272d441afaee23701406bad6542c804a4f1d024186954767d3a14f36c",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-zhongji1",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-zhongji1.bin",
+      "sourceSHA256": "4e2f4b7870c27c9573fdfed236b516b23faa63f313270a011aac019e5fffe51a",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-zhongji2",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-zhongji2.bin",
+      "sourceSHA256": "a42908c5996b449ee2939fb89496149559737a3efe5bca139833f45af3d5d8ef",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    },
+    {
+      "id": "expneg-triumph",
+      "sourcePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-triumph.bin",
+      "sourceSHA256": "c03fcac6c9d8432e327b0308e2d64981ac456ad11514fb8cfd39520759e1b028",
+      "status": "PASS_VISUAL_ZERO_PIPE_ENDS",
+      "count": 0,
+      "reason": "Visible full solid rod/billet faces and no discernible open round pipe end; source photograph viewed independently."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "expneg-greta",
+      "reason": "Very uniform polished rendering/stock appearance, photographic origin uncertain; conservative exclusion."
+    },
+    {
+      "id": "expneg-steelhouse",
+      "reason": "Marketing render/generative appearance uncertain; conservative exclusion."
+    },
+    {
+      "id": "expneg-leren",
+      "reason": "Mostly side bodies, not current targeted solid-end coverage; not admitted byroot."
+    },
+    {
+      "id": "expneg-dajin",
+      "reason": "Not yet individually reviewed; not required to meet this focused batch."
+    }
+  ],
+  "all24ContactScreened": true,
+  "sourceFilesIndividuallyViewed": 21,
+  "scope": "Visual inspection establishes labeling decision, not forensic proof of photo origin or physical capture independence. Final classical duplicate/family grouping still required.",
+  "modelInferencePerformed": false
+}

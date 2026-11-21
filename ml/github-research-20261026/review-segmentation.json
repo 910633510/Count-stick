@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "scope": "只读复核汇总README的生物实例分割表述；没有新检索、兼容实验、模型/数据推理或README编辑。",
+  "reviewedFilesSHA256": {
+    "ml/github-research-20261026/README.md": "2f1f974c53d004f0998e026999de69841d07acba9a88f4245f3dd858b3d2d96b",
+    "ml/github-research-20261026/segmentation.json": "be1d3b8601ba70463e96c4387fbac4a0250ae8bd32a61090b63660874405b845",
+    "output/github-research-20261026/segmentation/source-branch-checks.json": "67e98a9909a46df8ff8d0c0afcfaf8c36556f7e06908b74131bd1dec6fdad8e2"
+  },
+  "checks": {
+    "cellposeDefaultMin5FilteringAccurate": true,
+    "min0RetentionAndEmptyFlowEvidenceAccurate": true,
+    "CPU_MPS_EmptyLossScopeLimitedToIsolatedArithmetic": true,
+    "fullNetworkTrainingNotClaimed": true,
+    "microSAMDefaultInteractiveSamplerVersusDecoderOnlyAccurate": true,
+    "boxesNotMisrepresentedAsInstanceMasks": true,
+    "SAM2_SAM3_TrainingMPSLimitAccurate": true,
+    "SAM3BoxOnlyDetectionNotMisrepresentedAsMaskTraining": true,
+    "automaticRuntimeDoesNotConsumeGTBoxesOrManualROI": true,
+    "trainingMaskAnnotationAssistanceSeparatedFromValidation": true,
+    "croppedTrainingViewsNotMisrepresentedAsFullPhoneImages": true,
+    "physicalGroupsAndValidationExclusionPreserved": true,
+    "CoreMLAndIPhoneAcceptanceNotClaimed": true
+  },
+  "findings": [
+    {
+      "severity": "low",
+      "blocking": false,
+      "location": "ml/github-research-20261026/README.md:19",
+      "issue": "Cellpose表格中的“需要逐实例掩膜”未显式限定微调训练，单独读该行可能被理解为预训练自动推理也要输入mask。正文已有正确区分，因此不构成实质错误。",
+      "suggestedChange": "可改为“微调训练需要逐实例掩膜；默认过滤少于5个实例的训练图”。预训练eval本身不要求手框或真值mask。"
+    }
+  ],
+  "overallConclusion": "核心能力与验证边界准确；仅一处非阻塞措辞建议。",
+  "READMEChanged": false,
+  "newResearchOrExperimentsPerformed": false,
+  "sealedDataRead": false
+}

@@ -1,0 +1,235 @@
+{
+  "status": "PASS_INDEPENDENT_RAW_INTEGRITY_GEOMETRY_SEMANTICS_WITH_QUARANTINES",
+  "archivePath": "output/multiclass-data-20261029/colony/archives/AGAR_demo.zip",
+  "archiveSHA256": "71113e092d241768186a5808fd0a19e2140bac904c57d64d97b4fbdc90208bb2",
+  "archiveBytes": 86605404,
+  "md5MatchesCapturedHTTPETag": "61d3000b0a465078216ec8900bc8c17e",
+  "numericAuditPath": "output/multiclass-data-20261029/colony/independent/numeric-review.json",
+  "numericAuditSHA256": "7a579f35c4935ecd5896b8c08d4afa9e35191f902281dbacb43fd45f98ea25e4",
+  "auditScriptSHA256": "ffb6244f697abbffb6d89168981c56c2860045377eb9dc50492a1d2324d56280",
+  "checks": {
+    "all80MemberCRCRead": true,
+    "safePathsNoSymlinkEncryptedDuplicateNames": true,
+    "extractedFilesEqualArchiveBytes": true,
+    "40JPG40JSONPaired": true,
+    "all1886RectanglesFiniteInBounds": true,
+    "unique40ImageByteHashes": true,
+    "topLeftXYWHInterpretationSupportedByVisualSamples": true,
+    "all39AuthorCountsEqualDeclaredSpeciesBoxCounts": true
+  },
+  "countSemantics": {
+    "images": 40,
+    "countableImages": 39,
+    "uncountableImages": 1,
+    "sourceAuthorTargetCountSum": 1862,
+    "allAnnotatedBoxes": 1886,
+    "contaminationBoxes": 24,
+    "trueEmptyCount0Images": 0,
+    "demoDoesNotFillRealEmptyNegativeGap": true,
+    "annotationKind": "Instance rectangles, not segmentation masks"
+  },
+  "quarantine": [
+    {
+      "sample_id": 734,
+      "reason": "54 declared E.coli target boxes plus24 Contamination boxes. Entireimage excluded until generic-colony target policy is defined.",
+      "authorTargetCount": 54,
+      "allBoxes": 78
+    },
+    {
+      "sample_id": 1399,
+      "reason": "Authorcount=-1 andlabels[], visible abundant growth. Notzero and not an emptynegative."
+    }
+  ],
+  "structurallyCleanCandidatePairs": {
+    "count": 38,
+    "targetBoxes": 1808,
+    "sampleIds": [
+      349,
+      356,
+      510,
+      518,
+      525,
+      735,
+      736,
+      971,
+      4826,
+      4904,
+      5206,
+      5207,
+      5212,
+      5270,
+      5271,
+      5308,
+      5312,
+      8386,
+      11761,
+      11764,
+      11773,
+      11884,
+      11890,
+      11924,
+      11955,
+      12028,
+      12031,
+      12033,
+      13895,
+      13938,
+      14130,
+      14380,
+      14410,
+      14512,
+      14581,
+      14618,
+      14627,
+      14684
+    ],
+    "automaticTrainingAdmission": false,
+    "samePhysicalPlateIndependenceClaimed": false
+  },
+  "visualSpotChecks": [
+    {
+      "sample_id": 734,
+      "originalAndOverlayViewed": true,
+      "observation": "Green boxes align with the larger colonies while orange boxes mark tiny separately classified contamination. The54/78 difference is explained by target semantics, not proved annotation corruption. Whole image quarantined for generic colony training; do not ignore the24 marks as background or silently count78 as author target.",
+      "disposition": "QUARANTINE_TARGET_POLICY_PENDING"
+    },
+    {
+      "sample_id": 1399,
+      "originalAndOverlayViewed": true,
+      "observation": "Abundant visible colony growth and crowding despite labels[]. The author -1 count is uncountable/unknown, demonstrably not empty.",
+      "disposition": "EXCLUDE_FROM_INSTANCE_COUNT_TRAINING_NEVER_ZERO_NEGATIVE"
+    },
+    {
+      "sample_id": 4904,
+      "originalAndOverlayViewed": true,
+      "observation": "Large pale colonies, touching/near-rim cases, and printed text; top-leftxywh boxes visually align. This is a spot check, not an exhaustive biological recount.",
+      "disposition": "STRUCTURALLY_CLEAN_COUNTABLE_CANDIDATE"
+    },
+    {
+      "sample_id": 14581,
+      "originalAndOverlayViewed": true,
+      "observation": "Mixed large pale colonies and small yellow dots in the2048px source; most displayed boxes align without a systematic coordinate offset. Low-contrast/rim boxes need full-resolution per-instance review before claiming exhaustive label completeness.",
+      "disposition": "STRUCTURALLY_CLEAN_COUNTABLE_CANDIDATE_WITH_VISUAL_LIMIT"
+    }
+  ],
+  "visualArtifacts": [
+    {
+      "sample_id": 734,
+      "path": "output/multiclass-data-20261029/colony/independent/agar-734-original-and-overlay.jpg",
+      "sha256": "0cfebec354a9b68bdbeb19c1fd221924f16f04009922cdd92a5ace6ed2c2f64d",
+      "imageAndBoxesUnmodified": true,
+      "displayScale": 0.19153225806451613
+    },
+    {
+      "sample_id": 1399,
+      "path": "output/multiclass-data-20261029/colony/independent/agar-1399-original-and-overlay.jpg",
+      "sha256": "e5886a4a56cbc81ccad9e65b8e695bad775527433884a62b179dc7a5ec573f89",
+      "imageAndBoxesUnmodified": true,
+      "displayScale": 0.20052770448548812
+    },
+    {
+      "sample_id": 4904,
+      "path": "output/multiclass-data-20261029/colony/independent/agar-4904-original-and-overlay.jpg",
+      "sha256": "2d8d655e1f411c463151f7e979429acf6533a295c6ad1ee4523a79b4f3be748f",
+      "imageAndBoxesUnmodified": true,
+      "displayScale": 0.205
+    },
+    {
+      "sample_id": 14581,
+      "path": "output/multiclass-data-20261029/colony/independent/agar-14581-original-and-overlay.jpg",
+      "sha256": "4f34f2763e2a5ec58e170a0080fa840f07450879852957c0ca0d10502300b340",
+      "imageAndBoxesUnmodified": true,
+      "displayScale": 0.37109375
+    }
+  ],
+  "SPSDS": {
+    "status": "RAW_IMAGE_BYTES_DIMENSIONS_VERIFIED_NO_GT",
+    "images": [
+      {
+        "id": "spsds-DS1_18.JPG",
+        "sha256": "1c4fd18ce1f1c62fcffe73bec5d304f345ea2e64485d33121ef5f6e091ccaa72",
+        "bytes": 3508005,
+        "size": [
+          3888,
+          2592
+        ],
+        "orientation": 1,
+        "authorAnnotationPresentLocally": false
+      },
+      {
+        "id": "spsds-DS1_17.JPG",
+        "sha256": "3bbb99a48fe7dd327e83b1529983b3e5eebb170f37ac63ab10affbdb17e5dbea",
+        "bytes": 3401493,
+        "size": [
+          3888,
+          2592
+        ],
+        "orientation": 1,
+        "authorAnnotationPresentLocally": false
+      },
+      {
+        "id": "spsds-DS1_07.JPG",
+        "sha256": "7c6c0c207faae7dd18d3e7a7e393434b530cb21820b93c331e15a6ed01032a48",
+        "bytes": 3422648,
+        "size": [
+          3888,
+          2592
+        ],
+        "orientation": 1,
+        "authorAnnotationPresentLocally": false
+      },
+      {
+        "id": "spsds-DS2_08.JPG",
+        "sha256": "a16a2542f1cb70b76c59b952c614ed0d5c69b268557dda6f23e290863e6b6cd2",
+        "bytes": 3467742,
+        "size": [
+          3888,
+          2592
+        ],
+        "orientation": 1,
+        "authorAnnotationPresentLocally": false
+      },
+      {
+        "id": "spsds-DS2_04.JPG",
+        "sha256": "e768f7233582af0c9aad21df8b8aaffb4ea659815a567533454894820d9bbcaf",
+        "bytes": 3415180,
+        "size": [
+          3888,
+          2592
+        ],
+        "orientation": 1,
+        "authorAnnotationPresentLocally": false
+      },
+      {
+        "id": "spsds-DS2_05.JPG",
+        "sha256": "96edfe8bd4c3b386dc4c30021f64109eba47d3f9ec6f6d246221cb90912c98f7",
+        "bytes": 3623819,
+        "size": [
+          3888,
+          2592
+        ],
+        "orientation": 1,
+        "authorAnnotationPresentLocally": false
+      }
+    ],
+    "count": 6,
+    "notEmptyNegativeLabels": true,
+    "trainingReadiness": "Requires independent instance annotation and grouping review; no conversion to zero boxes."
+  },
+  "dataReadiness": "38 structurallyclean paired candidates, not a frozen train dataset. Require full chosen-image label review, physical/acquisition grouping and cross-dataset duplicate checks before new splits. Six SP-SDS originals have no downloaded instance GT and cannot be treated as empty negatives.",
+  "limits": [
+    "Four original/overlay pairs were inspected; no claim of exhaustive visual recount of all40images or1886boxes.",
+    "Mixed cultures and contaminant annotations need an explicit genericcount target policy.",
+    "Condition folders and unique sample filenames do not establish independent physical plates.",
+    "No published train/val/test split or physical-plate IDs were found in the inspected demo metadata.",
+    "No model score, inference, training, previous frozen-label conversion, or source annotation edit was performed."
+  ],
+  "scope": {
+    "newModelInference": false,
+    "training": false,
+    "newTrainValTestSplit": false,
+    "oldFrozenLabelsModified": false,
+    "sourceJSONModified": false,
+    "externalDownloadedCodeExecuted": false
+  }
+}

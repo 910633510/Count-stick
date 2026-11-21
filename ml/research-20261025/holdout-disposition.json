@@ -1,0 +1,12 @@
+{
+  "status": "NOT_EVALUATED_NO_DEVELOPMENT_CANDIDATE_PASSED",
+  "checkedAtUTC": "2026-10-25T21:55:45.970639+00:00",
+  "selectionSHA256": "793b69e5af94bf0c91f77abf7df88c8faebd06c3ba9cfafdebc035222c74ba85",
+  "candidateCount": 18,
+  "passingCandidateCount": 0,
+  "testImages": 36,
+  "testIsolates": 19,
+  "newTestModelInferencePerformed": false,
+  "holdoutExecutorSkippedBeforeReadingManifest": true,
+  "futureUse": "Reserved for a future frozen candidate that passes development gates."
+}

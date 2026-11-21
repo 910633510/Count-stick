@@ -1,0 +1,990 @@
+{
+  "status": "MANUAL_POSITIVE_LABELS_PENDING_ROOT_REVIEW_AND_COMMONS_IDENTITY_SCREEN",
+  "images": [
+    {
+      "id": "rfv2_6ad309d168db",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/download_jpg.rf.5e4c3fd265a1e229cd1ddb4a3925e6c1.jpg",
+      "sourceMember": "valid/images/download_jpg.rf.5e4c3fd265a1e229cd1ddb4a3925e6c1.jpg",
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/labels/download_jpg.rf.5e4c3fd265a1e229cd1ddb4a3925e6c1.txt",
+      "sourceLabelSHA256": "c1d1fa5731fd8968de198c5192e3db332ca3d97723c74682f601491ee45fd9cf",
+      "sha256": "a17c8b7d8ce814dfff53e394a9a9ba701ffbd7858295e94cc86bd36164b4d01f",
+      "width": 640,
+      "height": 640,
+      "authorSplit": "valid",
+      "sourceStem": "download_jpg",
+      "count": 10,
+      "xyxy": [
+        [
+          0.24999999999999467,
+          259.0,
+          101.75,
+          453.0
+        ],
+        [
+          399.74999999999994,
+          323.5,
+          526.25,
+          511.5
+        ],
+        [
+          202.75000000000003,
+          345.74999999999994,
+          329.25000000000006,
+          530.25
+        ],
+        [
+          502.5,
+          426.75,
+          625.5,
+          605.25
+        ],
+        [
+          104.75000000000001,
+          472.24999999999994,
+          232.25,
+          638.75
+        ],
+        [
+          328.75,
+          480.25000000000006,
+          455.25000000000006,
+          638.75
+        ],
+        [
+          300.74999999999994,
+          206.75,
+          425.25,
+          399.25
+        ],
+        [
+          102.5,
+          226.25,
+          233.5,
+          418.75
+        ],
+        [
+          0.2499999999999991,
+          457.0,
+          61.75000000000001,
+          640.0
+        ],
+        [
+          630,
+          471,
+          640,
+          568
+        ]
+      ],
+      "annotationKinds": [
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox"
+      ],
+      "technicalIssues": [],
+      "number": 92,
+      "sourceStemVariants": 6,
+      "authorCount": 9,
+      "annotationMethod": "Full-frame visual recount by Codex agents and outer-rim review of author HBB, plus one independently confirmed right-edge clipped end. Author source label unchanged.",
+      "visualNotes": "Ten visible shiny metallic pipe end faces, including the narrow distinct right-edge mouth with its own rim and dark interior. Boundary addition identified by root and confirmed by general_counting_papers.",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "sourcePreprocessing": "Author Auto-Orient + 640x640 stretch; source camera/native resolution unknown.",
+      "nativeResolutionKnown": false,
+      "annotationQA": "PENDING_INDEPENDENT_REVIEW",
+      "modelInferencePerformed": false,
+      "split": "unassigned",
+      "subtype": "round",
+      "bucket": "positive",
+      "label": "pipe_end",
+      "groupId": "expansion20261029_rfv2_6ad309d168db",
+      "annotationBoundary": "outer_rim",
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "RGBPixelSHA256": "c76edbe3880da11f2290fda5571f631d4c94fd7998798d20784cf6a1de4525fd",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/rfv2_6ad309d168db.png",
+      "overlaySHA256": "ccbb97ea23862dde1da4dd165c3c37513e908496cca5e2fda316c038964d99d9",
+      "addedManualBoxes": [
+        [
+          630,
+          471,
+          640,
+          568
+        ]
+      ]
+    },
+    {
+      "id": "rfv2_1966920654d3",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/images-19-_jpg.rf.4b67e64278b68496114c4f6990881097.jpg",
+      "sourceMember": "train/images/images-19-_jpg.rf.4b67e64278b68496114c4f6990881097.jpg",
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/labels/images-19-_jpg.rf.4b67e64278b68496114c4f6990881097.txt",
+      "sourceLabelSHA256": "8cf3176d7758b3d0e70d315692a12d5d27accf45a5766b88a0f5cecb27242ae9",
+      "sha256": "d7b89cc619111a1cdb6c2c552e0c69df4a7296fb759cda6c41c802606006542b",
+      "width": 640,
+      "height": 640,
+      "authorSplit": "train",
+      "sourceStem": "images-19-_jpg",
+      "count": 3,
+      "xyxy": [
+        [
+          145.034342,
+          324.040512,
+          199.439304,
+          481.24351
+        ],
+        [
+          123.558705,
+          170.617992,
+          176.054712,
+          316.335843
+        ],
+        [
+          461.82072300000004,
+          132.59186,
+          520.760837,
+          224.831976
+        ]
+      ],
+      "annotationKinds": [
+        "derived_HBB_from_author_polygon",
+        "derived_HBB_from_author_polygon",
+        "derived_HBB_from_author_polygon"
+      ],
+      "technicalIssues": [],
+      "number": 112,
+      "sourceStemVariants": 1,
+      "authorCount": 3,
+      "annotationMethod": "Full-frame visual recount by Codex agents and outer-rim review of author HBB; no learned predictions.",
+      "visualNotes": "Three visible metallic long-pipe end faces; dark ground shadows and shafts are not additional targets.",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "sourcePreprocessing": "Author Auto-Orient + 640x640 stretch; source camera/native resolution unknown.",
+      "nativeResolutionKnown": false,
+      "annotationQA": "PENDING_INDEPENDENT_REVIEW",
+      "modelInferencePerformed": false,
+      "split": "unassigned",
+      "subtype": "round",
+      "bucket": "positive",
+      "label": "pipe_end",
+      "groupId": "expansion20261029_rfv2_1966920654d3",
+      "annotationBoundary": "outer_rim",
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "RGBPixelSHA256": "86218603ee69a097a3899311855586753186949fb2c4dc7a2e749065b492b892",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/rfv2_1966920654d3.png",
+      "overlaySHA256": "83693e4eeaa924bd7d6d06f6b99e4131930f28705432088a52a392cf74ee47df"
+    },
+    {
+      "id": "cmnew_004",
+      "pageId": 131751629,
+      "title": "File:Gas Well Pipes.jpg",
+      "sourceURL": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Gas_Well_Pipes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Gas_Well_Pipes.jpg/960px-Gas_Well_Pipes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Gas_Well_Pipes.jpg",
+      "sourceWidth": 3504,
+      "sourceHeight": 2255,
+      "sourceBytes": 3641289,
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2023-05-10 23:57:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Gas Well Pipes",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Gas pipelines|Global warming|Natural gas|Self-published work|Natural gas wells",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Stack of pipes waiting to be installed at a gas well.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-09-20 14:57:28",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Riding_with_Carl\" title=\"User:Riding with Carl\">Carl Young</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_004.jpg",
+      "width": 960,
+      "height": 618,
+      "bytes": 131241,
+      "sha256": "25ec9a4bfa1958c9bff0ecf63133139ac7c77f08a188e4889c32266a4b5aec96",
+      "count": 17,
+      "xyxy": [
+        [
+          0,
+          25,
+          138,
+          225
+        ],
+        [
+          185,
+          23,
+          368,
+          226
+        ],
+        [
+          479,
+          29,
+          610,
+          220
+        ],
+        [
+          576,
+          0,
+          768,
+          208
+        ],
+        [
+          732,
+          0,
+          955,
+          212
+        ],
+        [
+          0,
+          211,
+          73,
+          363
+        ],
+        [
+          52,
+          214,
+          215,
+          368
+        ],
+        [
+          271,
+          216,
+          425,
+          361
+        ],
+        [
+          416,
+          195,
+          582,
+          376
+        ],
+        [
+          558,
+          189,
+          742,
+          369
+        ],
+        [
+          740,
+          196,
+          899,
+          376
+        ],
+        [
+          853,
+          180,
+          960,
+          398
+        ],
+        [
+          80,
+          354,
+          281,
+          577
+        ],
+        [
+          503,
+          353,
+          674,
+          544
+        ],
+        [
+          587,
+          354,
+          790,
+          568
+        ],
+        [
+          707,
+          365,
+          956,
+          602
+        ],
+        [
+          919,
+          407,
+          960,
+          591
+        ]
+      ],
+      "source": "wikimedia_commons",
+      "sourceDatasetURL": "https://commons.wikimedia.org/wiki/File:Gas_Well_Pipes.jpg",
+      "annotationMethod": "Manual HBB annotation and exact full-frame pipe-end recount by general_counting_papers; no detector predictions.",
+      "annotationCoordinateSpace": "Downloaded full-frame Wikimedia thumbnail, dimensions width/height; no added crop or pixel overlay in training source.",
+      "sourcePreprocessing": "Publisher proportional thumbnail from documented original photo.",
+      "nativeResolutionKnown": true,
+      "nativeWidth": 3504,
+      "nativeHeight": 2255,
+      "visualNotes": "17 visible metal gas-well pipe end faces: five top, seven middle, five bottom including both left/right frame-clipped mouths. Original-size dark middle/right detail inspected.",
+      "annotationQA": "PENDING_INDEPENDENT_REVIEW",
+      "modelInferencePerformed": false,
+      "split": "unassigned",
+      "subtype": "round",
+      "bucket": "positive",
+      "label": "pipe_end",
+      "groupId": "expansion20261029_cmnew_004",
+      "annotationBoundary": "outer_rim",
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "RGBPixelSHA256": "65af6cbcd49a8db83112f5b1392141087322675651d82ba8a8d5f29e82262626",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_004.png",
+      "overlaySHA256": "e020d2d47723f1a22c3f2ffc6f4191a69e654d25856cf416eb288324cfa70a06"
+    },
+    {
+      "id": "cmnew_057",
+      "pageId": 69780968,
+      "title": "File:Pipe couplings on a pressure tank under construction 2.jpg",
+      "sourceURL": "https://upload.wikimedia.org/wikipedia/commons/2/20/Pipe_couplings_on_a_pressure_tank_under_construction_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Pipe_couplings_on_a_pressure_tank_under_construction_2.jpg/960px-Pipe_couplings_on_a_pressure_tank_under_construction_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Pipe_couplings_on_a_pressure_tank_under_construction_2.jpg",
+      "sourceWidth": 4925,
+      "sourceHeight": 3283,
+      "sourceBytes": 8204567,
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2018-06-07 22:15:29",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Pipe couplings on a pressure tank under construction 2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Pressure vessels|Couplings|Taken with Panasonic Lumix DMC-FZ1000|CC-Zero|Self-published work|Images by W.carter|Files with coordinates missing SDC location of creation|Rusty objects in Sweden|West Pipe Welding AB",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "58.358900",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.517968",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Pipe couplings on a pressure tank under construction at West Pipe Welding in Gåseberg industrial area, Lysekil Municipality, Sweden.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-04-25 17:43:03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_057.jpg",
+      "width": 960,
+      "height": 640,
+      "bytes": 136583,
+      "sha256": "86c339b1c3dfea1e4604eacfc71d215d834a98c5aadc223d04870cabbe7022a4",
+      "count": 2,
+      "xyxy": [
+        [
+          277,
+          295,
+          382,
+          417
+        ],
+        [
+          473,
+          148,
+          593,
+          291
+        ]
+      ],
+      "source": "wikimedia_commons",
+      "sourceDatasetURL": "https://commons.wikimedia.org/wiki/File:Pipe_couplings_on_a_pressure_tank_under_construction_2.jpg",
+      "annotationMethod": "Manual HBB annotation and exact full-frame pipe-end recount by general_counting_papers; no detector predictions.",
+      "annotationCoordinateSpace": "Downloaded full-frame Wikimedia thumbnail, dimensions width/height; no added crop or pixel overlay in training source.",
+      "sourcePreprocessing": "Publisher proportional thumbnail from documented original photo.",
+      "nativeResolutionKnown": true,
+      "nativeWidth": 4925,
+      "nativeHeight": 3283,
+      "visualNotes": "Two small round flanged pipe couplings on a pressure tank. The vessel flange bolt holes and bolts are not additional pipes.",
+      "annotationQA": "PENDING_INDEPENDENT_REVIEW",
+      "modelInferencePerformed": false,
+      "split": "unassigned",
+      "subtype": "round",
+      "bucket": "positive",
+      "label": "pipe_end",
+      "groupId": "expansion20261029_cmnew_057",
+      "annotationBoundary": "outer_rim",
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "RGBPixelSHA256": "5109f86dfaceed31364255f89a872632d012fae8208445a90287400e25a92eb5",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_057.png",
+      "overlaySHA256": "c74ff10defa03056923c73f50d0770d24c51ef06dd75fe55e0814059b0b7bb74"
+    },
+    {
+      "id": "cmnew_071",
+      "pageId": 63381032,
+      "title": "File:HK Tram tour view 德輔道西 Des Voeux Road West Sheung Wan contruction metal tube with Truck on the way October 2017 IX1.jpg",
+      "sourceURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/HK_Tram_tour_view_%E5%BE%B7%E8%BC%94%E9%81%93%E8%A5%BF_Des_Voeux_Road_West_Sheung_Wan_contruction_metal_tube_with_Truck_on_the_way_October_2017_IX1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/HK_Tram_tour_view_%E5%BE%B7%E8%BC%94%E9%81%93%E8%A5%BF_Des_Voeux_Road_West_Sheung_Wan_contruction_metal_tube_with_Truck_on_the_way_October_2017_IX1.jpg/960px-HK_Tram_tour_view_%E5%BE%B7%E8%BC%94%E9%81%93%E8%A5%BF_Des_Voeux_Road_West_Sheung_Wan_contruction_metal_tube_with_Truck_on_the_way_October_2017_IX1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:HK_Tram_tour_view_%E5%BE%B7%E8%BC%94%E9%81%93%E8%A5%BF_Des_Voeux_Road_West_Sheung_Wan_contruction_metal_tube_with_Truck_on_the_way_October_2017_IX1.jpg",
+      "sourceWidth": 2048,
+      "sourceHeight": 1368,
+      "sourceBytes": 732277,
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2017-10-15 06:48:27",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "HK Tram tour view 德輔道西 Des Voeux Road West Sheung Wan contruction metal tube with Truck on the way October 2017 IX1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Volvo FH (2001)|Self-published work|Trucks in Hong Kong|Tubes|Hong Kong photographs taken on 2017-10-14|Photographs by Anonymous Hong Kong Photographer 1|Metal pipes|Volvo cab-over-engine trucks|2017 in Des Voeux Road West, Sheung Wan|October 2017 in Des Voeux Road West",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "HK Tram tour view Central and Western District, Hong Kong",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-10-14 13:01:17",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yukamgugoam&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yukamgugoam (page does not exist)\">Yukamgugoam</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_071.jpg",
+      "width": 960,
+      "height": 641,
+      "bytes": 145692,
+      "sha256": "59047635d271496f072522f0d1cf52fac0f3ad71ac33ad29383c641a46cab9d9",
+      "count": 1,
+      "xyxy": [
+        [
+          280,
+          81,
+          539,
+          398
+        ]
+      ],
+      "source": "wikimedia_commons",
+      "sourceDatasetURL": "https://commons.wikimedia.org/wiki/File:HK_Tram_tour_view_%E5%BE%B7%E8%BC%94%E9%81%93%E8%A5%BF_Des_Voeux_Road_West_Sheung_Wan_contruction_metal_tube_with_Truck_on_the_way_October_2017_IX1.jpg",
+      "annotationMethod": "Manual HBB annotation and exact full-frame pipe-end recount by general_counting_papers; no detector predictions.",
+      "annotationCoordinateSpace": "Downloaded full-frame Wikimedia thumbnail, dimensions width/height; no added crop or pixel overlay in training source.",
+      "sourcePreprocessing": "Publisher proportional thumbnail from documented original photo.",
+      "nativeResolutionKnown": true,
+      "nativeWidth": 2048,
+      "nativeHeight": 1368,
+      "visualNotes": "One very large rust-colored metal pipe on a truck. Its near end is partly occluded by the cab; visible outer end-face extent is boxed. No second far-end count.",
+      "annotationQA": "PENDING_INDEPENDENT_REVIEW",
+      "modelInferencePerformed": false,
+      "split": "unassigned",
+      "subtype": "round",
+      "bucket": "positive",
+      "label": "pipe_end",
+      "groupId": "expansion20261029_cmnew_071",
+      "annotationBoundary": "outer_rim",
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "RGBPixelSHA256": "37034cdac9c11cdaf38d2dda8eb98f3fe107058fcba3b7b7a98d27c71f80c930",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_071.png",
+      "overlaySHA256": "594867e5f64b91395a1c1c935d8d48887d18675afb6c5ae234d9f4e3660e2659"
+    },
+    {
+      "id": "cmnew_073",
+      "pageId": 1041399,
+      "title": "File:Metal tubes stored in a yard.jpg",
+      "sourceURL": "https://upload.wikimedia.org/wikipedia/commons/8/89/Metal_tubes_stored_in_a_yard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "downloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Metal_tubes_stored_in_a_yard.jpg/960px-Metal_tubes_stored_in_a_yard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Metal_tubes_stored_in_a_yard.jpg",
+      "sourceWidth": 2886,
+      "sourceHeight": 1924,
+      "sourceBytes": 3322169,
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2006-08-11 05:00:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Metal tubes stored in a yard",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D50|Flickr images reviewed by FlickreviewR|Metal pipes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Metal tubes stored in a yard.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2006-07-26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/pgoyette/199492120/\">https://www.flickr.com/photos/pgoyette/199492120/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/pgoyette/\">Paul Goyette</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Free content licence.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_073.jpg",
+      "width": 960,
+      "height": 640,
+      "bytes": 175966,
+      "sha256": "326ac7cbb8813b3c55445eaccf1a935bbac0db99204170caf4717fc7e5091fb6",
+      "count": 29,
+      "xyxy": [
+        [
+          205,
+          322,
+          241,
+          364
+        ],
+        [
+          145,
+          380,
+          187,
+          423
+        ],
+        [
+          226,
+          355,
+          262,
+          395
+        ],
+        [
+          253,
+          354,
+          289,
+          394
+        ],
+        [
+          278,
+          335,
+          318,
+          377
+        ],
+        [
+          334,
+          323,
+          374,
+          369
+        ],
+        [
+          419,
+          317,
+          445,
+          354
+        ],
+        [
+          419,
+          375,
+          461,
+          423
+        ],
+        [
+          481,
+          332,
+          514,
+          368
+        ],
+        [
+          138,
+          445,
+          201,
+          513
+        ],
+        [
+          169,
+          469,
+          239,
+          544
+        ],
+        [
+          272,
+          428,
+          338,
+          502
+        ],
+        [
+          37,
+          553,
+          115,
+          638
+        ],
+        [
+          127,
+          533,
+          200,
+          609
+        ],
+        [
+          194,
+          536,
+          269,
+          612
+        ],
+        [
+          261,
+          529,
+          338,
+          610
+        ],
+        [
+          329,
+          526,
+          407,
+          609
+        ],
+        [
+          389,
+          560,
+          475,
+          640
+        ],
+        [
+          575,
+          302,
+          613,
+          340
+        ],
+        [
+          697,
+          289,
+          743,
+          334
+        ],
+        [
+          789,
+          428,
+          839,
+          480
+        ],
+        [
+          872,
+          530,
+          933,
+          590
+        ],
+        [
+          595,
+          471,
+          681,
+          553
+        ],
+        [
+          561,
+          532,
+          645,
+          611
+        ],
+        [
+          794,
+          489,
+          884,
+          571
+        ],
+        [
+          758,
+          571,
+          850,
+          640
+        ],
+        [
+          834,
+          573,
+          924,
+          640
+        ],
+        [
+          686,
+          614,
+          772,
+          640
+        ],
+        [
+          941,
+          523,
+          960,
+          594
+        ]
+      ],
+      "source": "wikimedia_commons",
+      "sourceDatasetURL": "https://commons.wikimedia.org/wiki/File:Metal_tubes_stored_in_a_yard.jpg",
+      "annotationMethod": "Manual HBB annotation and exact full-frame pipe-end recount by general_counting_papers; no detector predictions.",
+      "annotationCoordinateSpace": "Downloaded full-frame Wikimedia thumbnail, dimensions width/height; no added crop or pixel overlay in training source.",
+      "sourcePreprocessing": "Publisher proportional thumbnail from documented original photo.",
+      "nativeResolutionKnown": true,
+      "nativeWidth": 2886,
+      "nativeHeight": 1924,
+      "visualNotes": "29 visible round metallic tube end faces across the yard pile, including partially hidden and bottom/right-frame clipped mouths. Small dark gaps among shafts are not counted; boundary detail checked at nearest-neighbor magnification.",
+      "annotationQA": "PENDING_INDEPENDENT_REVIEW",
+      "modelInferencePerformed": false,
+      "split": "unassigned",
+      "subtype": "round",
+      "bucket": "positive",
+      "label": "pipe_end",
+      "groupId": "expansion20261029_cmnew_073",
+      "annotationBoundary": "outer_rim",
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "RGBPixelSHA256": "ab102bfda8195ef4d2e47b90d7437b5373fa79b64ffc5727af340278187e1c6d",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_073.png",
+      "overlaySHA256": "343c7bf802ff24b739b957cfb07cb99716f964ab8becad2d5c3e67822b2a4ee3"
+    }
+  ],
+  "limits": [
+    "Only six intended survivors from this owner; no claim that every downloaded image is suitable.",
+    "RF images were stretched by the publisher; do not count as native low-resolution coverage.",
+    "Commons thumbnails have known source-camera dimensions and are not native low-resolution images.",
+    "Original/source annotation files and prior datasets are unchanged."
+  ],
+  "resolvedCorrections": [
+    {
+      "id": "rfv2_6ad309d168db",
+      "countBefore": 9,
+      "countAfter": 10,
+      "addedBox": [
+        630,
+        471,
+        640,
+        568
+      ],
+      "basis": "Independent native image + nearest-neighbor crop review; rim/inner opening visible at image edge; original annotation untouched.",
+      "reportedBy": "root",
+      "confirmedBy": "general_counting_papers",
+      "priorAnnotationPath": "ml/pipes-data-expansion-20261029/data/positives/general-derived-labels.before-right-edge-qa.json",
+      "priorAnnotationSHA256": "08ddefd4f8285c38f467e400fcddb17a1188a769efd36c6fad60478f446100c2"
+    }
+  ],
+  "reviewerIdentityClarification": "The reviewers are independent Codex agents, not humans. Prior phrasing was inaccurate; counts, boxes, images, and splits are unchanged."
+}

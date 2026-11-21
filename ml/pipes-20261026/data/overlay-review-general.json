@@ -1,0 +1,517 @@
+{
+  "status": "VISUAL_OVERLAY_SCREEN_COMPLETE_WITH_EXCLUSIONS",
+  "reviewedUTC": "2026-10-26T09:29:23.457599+00:00",
+  "sceneReviewSHA256": "4795f70c17264030bac46877a9fea9474c3b7f132190624b25c8a987e443991c",
+  "candidateCountReviewed": 65,
+  "approvedCount": 61,
+  "approvedNumbers": [
+    352,
+    353,
+    355,
+    358,
+    362,
+    373,
+    375,
+    382,
+    383,
+    387,
+    391,
+    401,
+    404,
+    416,
+    419,
+    421,
+    423,
+    436,
+    437,
+    446,
+    457,
+    458,
+    462,
+    464,
+    466,
+    484,
+    488,
+    503,
+    507,
+    513,
+    518,
+    525,
+    531,
+    535,
+    537,
+    552,
+    557,
+    564,
+    567,
+    568,
+    574,
+    576,
+    579,
+    589,
+    603,
+    608,
+    611,
+    616,
+    618,
+    622,
+    625,
+    628,
+    638,
+    639,
+    654,
+    656,
+    660,
+    674,
+    676,
+    682,
+    687
+  ],
+  "approved": [
+    {
+      "number": 352,
+      "id": "maco_round_PipeHBB00000352",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 353,
+      "id": "maco_round_PipeHBB00000353",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 355,
+      "id": "maco_round_PipeHBB00000355",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 358,
+      "id": "maco_round_PipeHBB00000358",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 362,
+      "id": "maco_round_PipeHBB00000362",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 373,
+      "id": "maco_round_PipeHBB00000373",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 375,
+      "id": "maco_round_PipeHBB00000375",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 382,
+      "id": "maco_round_PipeHBB00000382",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 383,
+      "id": "maco_round_PipeHBB00000383",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 387,
+      "id": "maco_round_PipeHBB00000387",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 391,
+      "id": "maco_round_PipeHBB00000391",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 401,
+      "id": "maco_round_PipeHBB00000401",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 404,
+      "id": "maco_round_PipeHBB00000404",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 416,
+      "id": "maco_round_PipeHBB00000416",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 419,
+      "id": "maco_round_PipeHBB00000419",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 421,
+      "id": "maco_round_PipeHBB00000421",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 423,
+      "id": "maco_round_PipeHBB00000423",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 436,
+      "id": "maco_round_PipeHBB00000436",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 437,
+      "id": "maco_round_PipeHBB00000437",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 446,
+      "id": "maco_round_PipeHBB00000446",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 457,
+      "id": "maco_round_PipeHBB00000457",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 458,
+      "id": "maco_round_PipeHBB00000458",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 462,
+      "id": "maco_round_PipeHBB00000462",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 464,
+      "id": "maco_round_PipeHBB00000464",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 466,
+      "id": "maco_round_PipeHBB00000466",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 484,
+      "id": "maco_round_PipeHBB00000484",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 488,
+      "id": "maco_round_PipeHBB00000488",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 503,
+      "id": "maco_round_PipeHBB00000503",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 507,
+      "id": "maco_round_PipeHBB00000507",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 513,
+      "id": "maco_round_PipeHBB00000513",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 518,
+      "id": "maco_round_PipeHBB00000518",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 525,
+      "id": "maco_round_PipeHBB00000525",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 531,
+      "id": "maco_round_PipeHBB00000531",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 535,
+      "id": "maco_round_PipeHBB00000535",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 537,
+      "id": "maco_round_PipeHBB00000537",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 552,
+      "id": "maco_round_PipeHBB00000552",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 557,
+      "id": "maco_round_PipeHBB00000557",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 564,
+      "id": "maco_round_PipeHBB00000564",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 567,
+      "id": "maco_round_PipeHBB00000567",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 568,
+      "id": "maco_round_PipeHBB00000568",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 574,
+      "id": "maco_round_PipeHBB00000574",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 576,
+      "id": "maco_round_PipeHBB00000576",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 579,
+      "id": "maco_round_PipeHBB00000579",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 589,
+      "id": "maco_round_PipeHBB00000589",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 603,
+      "id": "maco_round_PipeHBB00000603",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 608,
+      "id": "maco_round_PipeHBB00000608",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 611,
+      "id": "maco_round_PipeHBB00000611",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 616,
+      "id": "maco_round_PipeHBB00000616",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 618,
+      "id": "maco_round_PipeHBB00000618",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 622,
+      "id": "maco_round_PipeHBB00000622",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 625,
+      "id": "maco_round_PipeHBB00000625",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 628,
+      "id": "maco_round_PipeHBB00000628",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 638,
+      "id": "maco_round_PipeHBB00000638",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 639,
+      "id": "maco_round_PipeHBB00000639",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 654,
+      "id": "maco_round_PipeHBB00000654",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 656,
+      "id": "maco_round_PipeHBB00000656",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 660,
+      "id": "maco_round_PipeHBB00000660",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 674,
+      "id": "maco_round_PipeHBB00000674",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 676,
+      "id": "maco_round_PipeHBB00000676",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 682,
+      "id": "maco_round_PipeHBB00000682",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    },
+    {
+      "number": 687,
+      "id": "maco_round_PipeHBB00000687",
+      "reviewLevel": "SCENE_AND_COARSE_BOX_COVERAGE_CHECK",
+      "annotationCountSource": "author HBB with producer documented exact-duplicate correction; not independently recounted"
+    }
+  ],
+  "quarantine": [
+    {
+      "number": 427,
+      "reason": "Opaque black stroke at upper-left lies among side-pipe/shaft area; visible secondary ends are annotated elsewhere, but without an unmarked source cannot certify that stroke does not erase another target. Quarantine uncertain target-area editing, not merely any watermark.",
+      "trainingEligible": false
+    },
+    {
+      "number": 440,
+      "reason": "Black scribble immediately behind/adjacent to left portion of pipe-end stack. It is not readable privacy text and may hide secondary pipe ends; cannot assert unmarked real-image baseline status.",
+      "trainingEligible": false
+    },
+    {
+      "number": 521,
+      "reason": "Large overlay inspected. Source labels also include a beige flexible-hose opening at lower right and a small joint/shaft region. Steel-only pipe-end material/instance scope is ambiguous; no automatic relabel/count correction.",
+      "trainingEligible": false
+    },
+    {
+      "number": 680,
+      "reason": "Large overlay inspected. Two visible round yellow end-like faces just above the lower front support beam lack boxes; they may be attached support/endcaps, but source inclusion boundary is unclear relative to other capped ends. Quarantine pending scope/coverage correction rather than invent a count.",
+      "trainingEligible": false
+    }
+  ],
+  "overlaySheetsActuallyViewed": [
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/general-00.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/general-01.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/general-02.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/general-03.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/general-04.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/general-05.jpg"
+  ],
+  "largeOverlayPairsActuallyViewed": [
+    "output/pipes-20261026/data/review/candidate-overlays/PipeHBB00000382.jpg",
+    "output/pipes-20261026/data/review/candidate-overlays/PipeHBB00000416.jpg",
+    "output/pipes-20261026/data/review/candidate-overlays/PipeHBB00000521.jpg",
+    "output/pipes-20261026/data/review/candidate-overlays/PipeHBB00000576.jpg",
+    "output/pipes-20261026/data/review/candidate-overlays/PipeHBB00000427.jpg",
+    "output/pipes-20261026/data/review/candidate-overlays/PipeHBB00000440.jpg",
+    "output/pipes-20261026/data/review/candidate-overlays/PipeHBB00000462.jpg",
+    "output/pipes-20261026/data/review/candidate-overlays/PipeHBB00000680.jpg"
+  ],
+  "coverageFindings": [
+    {
+      "number": 382,
+      "finding": "The small open end in left background is indeed boxed in the large overlay; do not falsely call it a missing annotation. Filled/capped main ends are also boxed."
+    },
+    {
+      "number": 416,
+      "finding": "Thin dark loop is physically connected to upper bundled-pipe tie/fixture, not the broad opaque freehand ROI marks found in rejected414/469/539. No obvious target-covering drawing in the large pair."
+    },
+    {
+      "number": 462,
+      "finding": "Black region above main pile is in distant equipment/background, not a visible front-end location in reviewed pixels; retain noted redaction. Main densely packed metal rims appear broadly covered."
+    },
+    {
+      "number": 576,
+      "finding": "Natural-looking complete rack retained at author1153; large overlay broadly covers main, side and lower layers including capped ends. No1000cap filtering; no claim every one of1153boxes independently recounted."
+    },
+    {
+      "number": 618,
+      "finding": "The separate loose tube at right and small upper background ends are included in the source overlay, not discarded by a single-bundle ROI."
+    },
+    {
+      "number": 687,
+      "finding": "Small secondary/background end faces at left are also shown in the overlay."
+    }
+  ],
+  "extraGroupUnions": [],
+  "groupRule": "Carry all sameSceneSets and possibleSameSceneSets from scene-review-general.json revision2 into global union, including cropped/rotated/edited variants even if excluded.",
+  "correctionsApplied": false,
+  "sourceFilesModified": false,
+  "modelInferencePerformed": false,
+  "splitAssigned": false,
+  "reviewLimits": [
+    "All65candidate paired overlay thumbnails actually inspected, with8large pairs for suspicious coverage/material/editing cases, plus prior scene original-image review. This is not an independent manual recount of every author box.",
+    "Approved means no obvious issue found at this visual screening level; producer must still validate exact boxes, duplicates, source SHA, material scope, group union and frozen split.",
+    "Dense/tiny/occluded instances retain annotation uncertainty. Report it in evaluation; do not convert author self-reported metrics into current measured accuracy.",
+    "Capped/dirt-filled/dented steel ends can be visible pipe ends; source box policy must remain one outer-end instance, not separate rim and inner hole.",
+    "No proven physical identities from contact sheets alone. Conservative possible families remain grouped until separate provenance exists."
+  ]
+}

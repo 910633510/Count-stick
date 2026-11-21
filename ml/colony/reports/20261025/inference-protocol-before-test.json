@@ -1,0 +1,23 @@
+{
+  "registeredBeforeTestUTC": "2026-10-25T18:00:13Z",
+  "modelSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+  "manifestSHA256": "f28b0409993893f4874845c77a06207a5f98f5c620b1a5b478b733de64e1d8fa",
+  "modes": [
+    "whole",
+    "automatic4tile"
+  ],
+  "grid": [
+    0.05,
+    0.1,
+    0.15,
+    0.2,
+    0.25,
+    0.3,
+    0.4,
+    0.5
+  ],
+  "geometry": "Four60%extent crops, ownership by original-image quadrant center, finalIoU0.7 NMS. Entire process automatic.",
+  "selection": "Whole-mode minimum validation countMAE (ties higher confidence) is baseline. Tiled candidate must lower countMAE by at least5%, keep precision and recall no more than2percentage-points below baseline, and keep F1 at least baseline. Choose minimumMAE eligible tile threshold; otherwise whole.",
+  "testPolicy": "No model, threshold or pipeline changes using test outcomes. Primary choice fixed before first test prediction. Also evaluate whole-image reference if tile selected.",
+  "supersedes": "First training protocol specified whole-image inference. This validation-only comparison is registered before opening test; the first protocol remains preserved."
+}

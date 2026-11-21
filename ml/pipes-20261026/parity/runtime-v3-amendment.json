@@ -1,0 +1,73 @@
+{
+  "status": "FROZEN_PIPE_RUNTIME_V3_AMENDMENT",
+  "version": 3,
+  "createdUTC": "2026-10-26T12:24:54.400845+00:00",
+  "authorization": "Root explicitly authorized same-checkpoint raw FP32 export andsharedstandardNMS after confirmedAppleNMS .70217IoU pair retained at.7.",
+  "protocolSHA256": "f8f3226d2696f11a2b3196804f9435b6088b9aae50b5cc5a5b992078f3c6cc35",
+  "selectionSHA256": "9eda69afbaa72634270f86f910e7f87719bbd55a5880d6dbb000e6d4a62209f8",
+  "modelSHA256": "48a77fd9198b23695f470b172397e918c9113238bfef2d421d8bbd431f69af12",
+  "codeSHA256": {
+    "ml/pipes-20261026/model/pipe_ml.py": "04ee9fa982724e2d4855332b4b2a4eb362b04b7192d6d3f61aab321104bb2acb",
+    "ml/pipes-20261026/model/train_pipe_ends.py": "bb5ed2297a0797092c4c7fa2aaba2f2cb97af3ab500d2afdb382749f84bec3db",
+    "ml/pipes-20261026/model/evaluate_pipe_ends.py": "7c45d3c632c0a2beefbe55bb4177727c1b6f2807dcfeb6279b13fe1f3ec68282",
+    "ml/pipes-20261026/model/export_pipe_coreml.py": "30a9a1e8b2b473bb49fba582c71f99f5398e246fa4dcad0bed62eba6156a515e",
+    "ml/pipes-20261026/model/prepare_photos.swift": "35887d2cfa48f03ed2350d308206dea4444fbae55b507d822653a7c2546d158d",
+    "ml/pipes-20261026/model/audit_official_init.py": "9cd3362a6f333215eef1cfc09b326f733101920bdac8d07f1088d02176eb9af9",
+    "ml/pipes-20261026/model/bind_app_inputs.py": "63c0fffa5cd1da8064d60e192368e88576bab25546b6cc4783f36008267d839d",
+    "ml/colony/mps_compat.py": "e159d5b8da2a5f3ced4a910f75fe998741a6a993307a5a7cbec6319b0fea437c"
+  },
+  "operatingPoint": {
+    "confidence": 0.3,
+    "nmsIoU": 0.7
+  },
+  "oldAppSourceCodeSHA256": {
+    "PhotoProcessing": "6fb00ca644805e176dcca028ed1bef3932e80b451e77f2ea8759983d2c678b82",
+    "PipeLetterbox": "e3b3f90ded0a8fa9b3e184236d1281a1af185d774f8af0ca09b5e2668df74d83",
+    "ExportHelper": "bbb0ed28a91a3358ead2f0e12bcc0b1260a7a6ea3fb2bfea5e28b7889a915812"
+  },
+  "newAppSourceCodeSHA256": {
+    "PhotoProcessing": "6fb00ca644805e176dcca028ed1bef3932e80b451e77f2ea8759983d2c678b82",
+    "PipeLetterbox": "d64ce2aec5955400d2aa78e1769d4c4e54a0964fbbe2795c731c17b69192c46c",
+    "ExportHelper": "bbb0ed28a91a3358ead2f0e12bcc0b1260a7a6ea3fb2bfea5e28b7889a915812"
+  },
+  "oldPipeDetectorSnapshotPath": "output/pipes-20261026/parity/runtime-v1-PipeDetector.swift",
+  "oldPipeDetectorSHA256": "e3b3f90ded0a8fa9b3e184236d1281a1af185d774f8af0ca09b5e2668df74d83",
+  "newPipeDetectorSHA256": "d64ce2aec5955400d2aa78e1769d4c4e54a0964fbbe2795c731c17b69192c46c",
+  "allowedChanges": [
+    "computeUnits_all_to_cpuAndNeuralEngine",
+    "coreml_raw_nms_false",
+    "shared_swift_greedy_nms"
+  ],
+  "pixelGeometryUnchanged": true,
+  "pipeLetterboxBlockSHA256": "29d1b7e297a456924e1f559b9222fc2fac2d7545d922dd6581f7a282875136cd",
+  "trainingRootReceiptSHA256": "6d90efee18a2713afa8def99ba9a1bf1a736ba8e5fa5497eed35ab7cd64854ed",
+  "exportStatusSHA256": "09165fe924ae50374d66d60f096eba9899a9bbe0b7ba4fbd589ce1118a9927e5",
+  "packageTreeSHA256": "b7b5d98f6bf94d997d23a909cbdb68d7583bf4bab7898b41f3f5a26466516618",
+  "exportID": "4ba76e57-ed1d-4d05-ae98-45e1ff4a4d56",
+  "v2parityProtocolPath": "ml/pipes-20261026/parity/protocol-v2.json",
+  "v2parityProtocolSHA256": "c5cc30bc2001488590512af847bf4d9e4e344d47cc4796a114df31bee002fc9f",
+  "originalALLStatus": "FAIL_UNSUPPORTED_MACOS_MPSGRAPH_MLIR_ABORT",
+  "evidence": [
+    "output/pipes-20261026/parity/diagnostic-all.log",
+    "output/pipes-20261026/parity/diagnostic-vision-all.log",
+    "output/pipes-20261026/parity/diagnostic-cpu-ne-score/native-results.json"
+  ],
+  "noModelThresholdDataOrQualityGateChanges": true,
+  "oldValidationInputLineage": "Existing80valPNGsexportedunderoldAppsource remain validbecausePhotoProcessingandentirePipeLetterboxblockareunchanged; no pixels/regressiondata edited.",
+  "nmsSourcePath": "Count stick/PipeRawPostprocessor.swift",
+  "nmsSourceSHA256": "4542c36ee0f171571d9651c5ccbeec7744bb71e8b4cf7fd429137afd302a3fbe",
+  "v3parityProtocolPath": "ml/pipes-20261026/parity/protocol-v3.json",
+  "v3parityProtocolSHA256": "3d40df7f2d9113a2c4eb0126369ed372a812d7936e88b893297bdfb30cd7e428",
+  "previousV2Status": "FAIL_APPLE_NMS_COUNT_NONPARITY",
+  "outputKind": "raw_yolo",
+  "outputFeatureName": "raw_detections",
+  "rawShape": [
+    1,
+    5,
+    21504
+  ],
+  "exportStatusPath": "output/pipes-20261026/model/export-raw-v3/export-status.json",
+  "priorExportStatusSHA256": "eac3763cfa7c94d63f00061639ac73940a7ea509c6ffe0066cdf50eadb9e9170",
+  "priorPackageTreeSHA256": "81c1e426f2b6409801daa9ca045ad2bca5909cb186718ae981557c7e8cb02101",
+  "schemaCorrectionBeforeAnyV3Prediction": true
+}

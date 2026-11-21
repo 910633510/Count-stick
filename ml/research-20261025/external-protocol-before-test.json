@@ -1,0 +1,27 @@
+{
+  "frozenBeforeInferenceUTC": "2026-10-25T20:54:17Z",
+  "datasetManifestSHA256": "b148c2c632486adc725acff7f923704c25f15fefedf038a148bd87c7c3524827",
+  "weightsSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+  "candidate": {
+    "min_side_threshold": 16.0,
+    "nms_iou": 0.5,
+    "confidence_floor": 0.001,
+    "max_detections": 1000,
+    "fusion_mode": "global_nms"
+  },
+  "candidateSelectionReason": "Single best aggregate old-validation candidate, fixed before external inference. It FAILED internal subgroup gates and remains non-promotable.",
+  "references": [
+    "whole image",
+    "original automatic4tile"
+  ],
+  "confidence": 0.3,
+  "predictionFloorForAP": 0.001,
+  "maxDetections": 1000,
+  "newTrainingPerformed": false,
+  "externalThresholdTuningAllowed": false,
+  "promotionRequiresInternalPass": true,
+  "internalPass": false,
+  "externalRelativeGates": "Count and macroMAE improve at least5% vs tile; TP/FN/FP no worse than tile; no species/size recall drop>2percentage-points vs stronger of whole/tile. This cannot override failed internal gates or missing phone validation.",
+  "dataScope": "Separate-study76originalimages,19species; controlled imaging, not smartphone acceptance.",
+  "fusionSourceSHA256": "2242728addacd1e6d97a98cc5fbfaf76e9eaf4dd2a227415d08c2f924ad1d2eb"
+}

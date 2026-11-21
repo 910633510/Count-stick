@@ -1,0 +1,11 @@
+{
+  "status": "PRETRAINING_ROOT_APPROVED_DATA_CONTRACT_IMPLEMENTED",
+  "commonSHA256": "cd159aabda576596859ef94224e1e048da25540f8562f59d18107826c4a78ce2",
+  "protocolProposalSHA256": "e8e7ca148a8d14b36fec5d44f47ec170948f96f5a55c6cce261d576c1305b08b",
+  "cropContractSmokePath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/pipes-hardening-20261026/model/crop-contract-smoke/report.json",
+  "cropContractSmokeSHA256": "99158cd73afb2321eb5ec749eedaab7775bfed4ff57fea8ce6a7af921f2f1596",
+  "trainingOperatorUnchangedSHA256": "620df2c43814bbcf335811831296b474f946e03c72308a49c6f5579398a92135",
+  "earlierPreflightRetained": true,
+  "trainingStarted": false,
+  "noTrainingLifecycleRerunNeeded": "Only prepare data-nature validation and proposal metadata changed; sampling/training/save nodes unchanged."
+}

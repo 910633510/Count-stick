@@ -1,0 +1,159 @@
+{
+  "status": "COMPLETED_BOUNDED_OLD_VALIDATION_QUALITATIVE_DIAGNOSIS",
+  "reviewedAtUTC": "2026-10-25T21:56:38.743Z",
+  "selection": "Within each sp04/sp09/sp13, maximum absolute cached tile count error at confidence>=0.3; filename tie-break. Deliberately selected hard cases, not prevalence estimation.",
+  "matching": "Frozen evaluator rule: maximize IoU>=0.5 match cardinality, then IoU. TP/FP/FN are relative to frozen boxes.",
+  "cases": [
+    {
+      "image": "sp04_img04.jpg",
+      "species": "sp04",
+      "figures": {
+        "overview": "output/research-20261025/qualitative/sp04_img04-overview.png",
+        "detail": "output/research-20261025/qualitative/sp04_img04-detail.png"
+      },
+      "frozenGTCount": 50,
+      "whole": {
+        "TP": 29,
+        "FP": 4,
+        "FN": 21,
+        "count": 33,
+        "countError": -17,
+        "unmatchedPredictionCenterInsideGT": 4
+      },
+      "tile": {
+        "TP": 10,
+        "FP": 6,
+        "FN": 40,
+        "count": 16,
+        "countError": -34,
+        "unmatchedPredictionCenterInsideGT": 6
+      },
+      "GTMinimumSideAtWhole1024": {
+        "medianPixels": 112.76901534856182,
+        "under16pxCount": 0
+      },
+      "metricEvidence": {
+        "tileMissedGTMoreThan10PercentMinDimensionFromBothOwnershipSeams": 26,
+        "tileGTMatchedWholeButNotTile": 20
+      },
+      "observed": [
+        "大块灰褐色区域相互贴近，轮廓不规则，部分相接处和外缘呈渐变；这里不是独立、大小一致的小圆点。",
+        "整图面板仍框住多处较大区域，切片面板仅保留少数较小目标，许多大框真值处没有对应预测；没有观察到纯白背景误检主导现象。"
+      ],
+      "inference": [
+        "符合形态、尺度与局部上下文变化共同导致漏检的模式，但仅凭已后处理缓存，不能把原因唯一归结为放大尺度、裁切上下文或所有权过滤。",
+        "6个切片未匹配预测的中心都在某个真值框内，提示定位尺度或局部拆分问题值得检查；不等于已证明6个生物学假目标。"
+      ],
+      "annotationStatus": "未证明标注错误。相接菌落如何定义独立实例，需要专家与训练标注规范共同确定；本次不改标签。",
+      "nextStep": "保留整皿大目标训练视图并补充相接、边缘渐变形态。若做分割，先建立训练专用、人工审查的实例掩膜，不把现有框直接填成掩膜。"
+    },
+    {
+      "image": "sp09_img12.jpg",
+      "species": "sp09",
+      "figures": {
+        "overview": "output/research-20261025/qualitative/sp09_img12-overview.png",
+        "detail": "output/research-20261025/qualitative/sp09_img12-detail.png"
+      },
+      "frozenGTCount": 446,
+      "whole": {
+        "TP": 26,
+        "FP": 19,
+        "FN": 420,
+        "count": 45,
+        "countError": -401,
+        "unmatchedPredictionCenterInsideGT": 18
+      },
+      "tile": {
+        "TP": 312,
+        "FP": 40,
+        "FN": 134,
+        "count": 352,
+        "countError": -94,
+        "unmatchedPredictionCenterInsideGT": 37
+      },
+      "GTMinimumSideAtWhole1024": {
+        "medianPixels": 7.456310271999999,
+        "under16pxCount": 446
+      },
+      "metricEvidence": {
+        "tileMissedGTMoreThan10PercentMinDimensionFromBothOwnershipSeams": 87,
+        "tileGTMatchedWholeButNotTile": 0
+      },
+      "observed": [
+        "大量很小的白色点状目标散布于红色培养基，左下及左右皿缘附近密集；背景有明显明暗变化。",
+        "切片找回大量整图漏掉的小点，但皿缘附近仍有成串未匹配真值框；这些错误不限于中央的切片所有权分界线。"
+      ],
+      "inference": [
+        "与细小目标在整图缩放后细节不足的假设一致，但切片同时改变尺度和上下文，不能由本例证明单一原因。",
+        "皿缘也存在已标注目标，直接屏蔽外圈可能把当前漏检变成结构性漏检。"
+      ],
+      "annotationStatus": "未证明标注遗漏或错误。相邻小亮点和反光是否一一对应独立菌落，需要逐实例复核，不做自动增删。",
+      "nextStep": "同时保留高分辨率小目标训练视图与整皿上下文，加入有真值的皿缘场景；保护小目标与皿缘召回，避免硬性外圈屏蔽。"
+    },
+    {
+      "image": "sp13_img06.jpg",
+      "species": "sp13",
+      "figures": {
+        "overview": "output/research-20261025/qualitative/sp13_img06-overview.png",
+        "detail": "output/research-20261025/qualitative/sp13_img06-detail.png",
+        "rimDetail": "output/research-20261025/qualitative/sp13_img06-rim-detail.png"
+      },
+      "frozenGTCount": 487,
+      "whole": {
+        "TP": 442,
+        "FP": 76,
+        "FN": 45,
+        "count": 518,
+        "countError": 31,
+        "unmatchedPredictionCenterInsideGT": 58
+      },
+      "tile": {
+        "TP": 472,
+        "FP": 166,
+        "FN": 15,
+        "count": 638,
+        "countError": 151,
+        "unmatchedPredictionCenterInsideGT": 110
+      },
+      "GTMinimumSideAtWhole1024": {
+        "medianPixels": 18.307034976410414,
+        "under16pxCount": 131
+      },
+      "metricEvidence": {
+        "tileMissedGTMoreThan10PercentMinDimensionFromBothOwnershipSeams": 1,
+        "tileGTMatchedWholeButNotTile": 2
+      },
+      "observed": [
+        "白色菌落常有多瓣亮部，密集区域可见较小未匹配预测叠在已匹配目标附近。",
+        "额外皿缘局部图中，沿器皿弧线排列的珠状、环状高光没有对应GT框；切片比整图在这些亮点上产生更多未匹配候选。"
+      ],
+      "inference": [
+        "110/166个切片未匹配预测的中心落在某个GT框内，支持优先检查重复框、局部拆分与框尺度偏差；不是对每个FP生物学真假的裁决。",
+        "皿缘串状高光外观与气泡或反射干扰一致，但仅凭二维照片无法验证其物理成因，也不能因此认定作者漏标。"
+      ],
+      "annotationStatus": "未证明标注错误。只能确认冻结标注没有覆盖这些皿缘候选；是否应计数需要定义与专家判断，原标签保持不变。",
+      "nextStep": "加入真实空皿、皿缘亮点与多瓣单菌落的训练负例及实例规范；若尝试去重，必须保护密集相邻真目标，不能仅降低全局NMS阈值来优化本图。"
+    }
+  ],
+  "crossCaseConclusion": "三例呈现相反需求：大而相接目标需要整体形态，小目标受益于局部细节，而高光和多瓣区域会增加候选。单一切片或全局阈值不能从这些案例获得普适改善证明。",
+  "tileBoundaryLimit": "sp04有26/40、sp09有87/134个切片未匹配GT中心远离两条中央所有权分界线（距离>图像最短边10%），所以错误并非只聚集在这些线附近。缓存已经过所有权过滤和NMS，不能追溯被拒绝的原始tile预测，也不能证明边界机制无影响。",
+  "annotationIssuesProven": [],
+  "independentVisualReview": {
+    "reviewer": "/root/general_counting_papers",
+    "figures": [
+      "sp04_img04-detail.png",
+      "sp13_img06-rim-detail.png"
+    ],
+    "status": "SUPPORTED_CONSERVATIVE_OBSERVATIONS_NO_CAUSAL_OR_LABEL_ERROR_CLAIM",
+    "modelInferenceOrNewTestAccess": false
+  },
+  "noAutomaticRelabeling": true,
+  "modelInferencePerformed": false,
+  "testDataOrPixelsRead": false,
+  "labelsModelsTrainingAndOldReportsChanged": false,
+  "provenance": "output/research-20261025/qualitative/selection-and-provenance.json",
+  "figureRecords": "output/research-20261025/qualitative/figure-records.json",
+  "generator": "ml/research-20261025/qualitative/generate.py",
+  "sourceHashesVerifiedUnchanged": true,
+  "generatorSHA256": "f26039e2d422dece00fd8c928af18cdc28958622407e40d749ddc9e9e49ac92c"
+}

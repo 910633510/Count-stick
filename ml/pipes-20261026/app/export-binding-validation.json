@@ -1,0 +1,41 @@
+{
+  "status": "PASS_APP_EXPORT_METADATA_BINDING_TESTS_NO_MODEL_AVAILABLE",
+  "generatedAt": "2026-10-26T09:18:58.474468+00:00",
+  "fields": [
+    "exportID UUID",
+    "checkpointSHA256 64hex",
+    "confidenceThreshold",
+    "iouThreshold",
+    "classLabel",
+    "inputSize"
+  ],
+  "modelMetadataKeys": [
+    "countscope.export_id",
+    "countscope.checkpoint_sha256",
+    "countscope.confidence_threshold",
+    "countscope.iou_threshold",
+    "countscope.class_label",
+    "countscope.input_size"
+  ],
+  "behavior": "PipeModelConfiguration validates schema; PipeDetector validates each value against MLModel creatorDefined metadata before creating Vision model. Missing or mismatched values fail closed.",
+  "tests": {
+    "passed": 2,
+    "resultBundle": "output/pipe-export-binding-tests.xcresult",
+    "log": "output/pipe-export-binding-tests.log",
+    "checks": [
+      "matching metadata accepted",
+      "missing metadata rejected",
+      "each of6 mismatched fields rejected",
+      "unvalidated status/wrong class/nonfinite confidence rejected"
+    ]
+  },
+  "sourceSHA256": {
+    "Count stick/PipeDetector.swift": "e3b3f90ded0a8fa9b3e184236d1281a1af185d774f8af0ca09b5e2668df74d83",
+    "Count stickTests/CountCategoryTests.swift": "d7dbb3a0339e519bc4ce7e6c324bc10b9e3cdc90b6c3e768bddcabe984ced806"
+  },
+  "limits": [
+    "No pipe model/config resource delivered or activated yet.",
+    "Actual CoreML model inference/parity and frozen-test qualification remain pending.",
+    "Earlier synthetic preprocessing manifest binds the pre-metadata-check version of PipeDetector.swift; letterbox code unchanged by this patch. Real image exports will bind the then-current compiled App source."
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "status": "12_NATURAL_FULL_VIEWS_VISUALLY_REVIEWED_ZERO_PIPE_ENDS_PENDING_FINAL_GROUP_FREEZE",
+  "sourceCount": 12,
+  "annotationMeaning": "Zero visible round-steel-pipe fronts. Solid cut rebar/round rod faces, physical paint, gaps between bars and closed machine rollers are not pipe openings.",
+  "reviews": [
+    {
+      "id": "web-yesilyurt",
+      "sha256": "6f5836cc091646c4dd6381aa80adf2cf5782ffebaf227a098da137da67e59cbf",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers"
+      ],
+      "sourcePage": "https://www.yesilyurtdc.com.tr/urunler/nervurlu-demirler",
+      "imageURL": "https://www.yesilyurtdc.com.tr/img/urunler/b/nervurlu-demir3.JPG"
+    },
+    {
+      "id": "web-lapefer",
+      "sha256": "d541880e7aac37ec3110a82d4bc1b262119b944139325789fadcbe3250b4189e",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers"
+      ],
+      "sourcePage": "https://www.lapefer.com.br/barras-e-perfis-w/barra-redonda-trefilada",
+      "imageURL": "https://www.lapefer.com.br/images/produtos/78b12da9-f73f-4556-9180-8db506e65279_redonda.jpg"
+    },
+    {
+      "id": "web-saarstahl",
+      "sha256": "ba6e7406c71017ef2e01f9c76b1fb0acb5bb30bf96ca21e9d62514aa480abdaf",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers"
+      ],
+      "sourcePage": "https://www.saarstahl.com/aktuelles/pressefotos/",
+      "imageURL": "https://www.saarstahl.com/app/uploads/sites/4/2024/03/stab_rund-300dpi.jpg"
+    },
+    {
+      "id": "web-vishal",
+      "sha256": "1cdbf2d5e69647c3c0bba99301875e18d788c440a54e509d6477c090c22c6c9b",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers"
+      ],
+      "sourcePage": "https://www.vishalsteelsuppliers.com/",
+      "imageURL": "https://static.wixstatic.com/media/19f17ffdf2224bca8f6d05ed99606530.jpg/v1/fill/w_640,h_556,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/19f17ffdf2224bca8f6d05ed99606530.jpg"
+    },
+    {
+      "id": "web-allied",
+      "sha256": "355a67fbdf7f955991dc7c6dbdedce2a6c09a67ed0b5df4098ed779d1a871e5d",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers"
+      ],
+      "sourcePage": "https://www.alliedsteel.com/mild-steel/round-bar-2/",
+      "imageURL": "https://www.alliedsteel.com/wp-content/uploads/2024/05/a91623da9cc7a3d77f6f237fb2055cda-1024x683.jpeg"
+    },
+    {
+      "id": "web-mmc",
+      "sha256": "91fb32141127500d2c4d280eb54f4776642f8aa78576b0a083bd030c4e75a3ae",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "sourcePage": "https://en.mmc-steel.ru/tumen/catalog/circle/",
+      "imageURL": "https://en.mmc-steel.ru/static/cache/gallery/18/catalog.category.photo_109.jpg"
+    },
+    {
+      "id": "web-conaldesa",
+      "sha256": "238964568081ade899920c551d8c4fc44ca8a4fdd243695d87487c9b15905b09",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers"
+      ],
+      "sourcePage": "https://conaldesa.com.co/v2/views/productos/producto_detalle/index.php?id=9",
+      "imageURL": "https://conaldesa.com.co/v2/admin/core/action/products/g1.png"
+    },
+    {
+      "id": "web-metalloinvest",
+      "sha256": "2d76c4555c727d17054cf9e83863fe8d8a3bbf2a3c4fe468f02c26558b8a3149",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "sourcePage": "https://products.metalloinvest.com/en/catalog/steel-products/bars/127550/",
+      "imageURL": "https://products.metalloinvest.com/upload/resize_cache/iblock/96c/1600_800_1/0bc64b4fb0e31d3316543328fdede603.jpg"
+    },
+    {
+      "id": "web-donswelding",
+      "sha256": "ff62b349378121db465d12ed17c09cd24a3e18076bb7ea48efec8efdfd3ee05c",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers"
+      ],
+      "sourcePage": "https://www.donsweldingwny.com/buy-steel/",
+      "imageURL": "https://www.donsweldingwny.com/buy-steel/images/products/round.webp"
+    },
+    {
+      "id": "web-pacificsteel",
+      "sha256": "d22baa572dfcf9512e51c76de2a874280efd6169dc6e0c77ed92f380a997f49e",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "sourcePage": "https://www.pacificsteel.co.nz/resources/projects/reducing-reusing-and-reimagining/",
+      "imageURL": "https://www.pacificsteel.co.nz/assets/Uploads/EAF_Image1__FillWzExNzAsNDUwXQ.jpg"
+    },
+    {
+      "id": "web-rivastahl",
+      "sha256": "5e55388dcf7cc211619b9e06b83cb21709a441b111170dc5c0e1b4b5b0ab5f4f",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": true,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers"
+      ],
+      "sourcePage": "https://www.rivastahl.com/de/zertifizierungen/riva_stahl",
+      "imageURL": "https://www.rivastahl.com/items/830/foto/1/hennigsdorf_riva_stahl_zulassungen_und_zertifizierungen_3.webp"
+    },
+    {
+      "id": "web-cftsport",
+      "sha256": "b84dfd4a9cda2e398f517c1539f26e6a9518907e00f0c3fbf5346fbca438180c",
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherWatermark": false,
+      "visualEvidence": "Full image inspected. Visible bar faces are solid, including distinct surface texture/machining marks; no discernible pipe fronts in foreground or background.",
+      "reviewers": [
+        "colony_papers"
+      ],
+      "sourcePage": "https://cfts.org.ua/articles/chto_stroyat_v_nikolaevskom_portu_5_novykh_investproektov_867",
+      "imageURL": "https://cfts.org.ua/imglib/_newimage/articles/chto_stroyat_v_nikolaevskom_portu_5_novykh_investproektov_867/73924/73929/1100.jpg"
+    }
+  ],
+  "otherCandidates": [
+    {
+      "id": "web-netinvest",
+      "status": "TRAIN_ONLY_STUDIO_PRODUCT_CANDIDATE",
+      "count": 0,
+      "reason": "Real-looking cut steel ends on white product background, not natural fresh scene."
+    },
+    {
+      "id": "web-roboflow-rebar",
+      "status": "QUARANTINE_FULL_IMAGE",
+      "reason": "Black background removal; may only be separately reviewed for training crop."
+    }
+  ],
+  "provenanceLimit": "Real means public industrial source and photographic visual evidence, not forensic authentication. Publisher-resized images are not a prospective phone capture study.",
+  "dedupEvidence": "output/pipes-hardening-20261026/data/negatives/group-screen.json; no byte, accepted SIFT, or flagged SIFT cross-old matches found for these web views.",
+  "modelInferencePerformed": false
+}

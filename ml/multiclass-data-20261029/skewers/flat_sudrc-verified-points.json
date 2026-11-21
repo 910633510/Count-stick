@@ -1,0 +1,244 @@
+{
+  "status": "VERIFIED_POINT_CENTER_REFERENCE_NOT_A_TRAINING_FREEZE",
+  "imagePath": "output/multiclass-data-20261029/skewers/raw/retail/flat_sudrc.image",
+  "imageSHA256": "f90a324def22f678cff68ee6c41e6a068f37da0135f7554c4b7617e597890bae",
+  "width": 771,
+  "height": 771,
+  "sourcePageURL": "https://www.sud-rc.fr/baguette-ronde/2358-526-baguette-ronde-10mm-en-ramin-b252510.html",
+  "sourceImageURL": "https://www.sud-rc.fr/5759-large_default/baguette-ronde-10mm-en-ramin-b252510.jpg",
+  "sourceCodeURL": "https://github.com/Mikky574/bamboo-stick-counter/blob/71dd1a3d325998c32a2d4acd7a4d44fba2faa1d4/samples/annotate_real_dataset.py",
+  "sourceCodeSHA256": "ab71048d4a6598714b14a567f8fa39d5d6c36be2586b631552857a4e49ccb805",
+  "sourceDeclaredOrigin": "manual_visual_point, single-pass; declaration copied as provenance, not assumed independently true.",
+  "points": [
+    [
+      357,
+      215
+    ],
+    [
+      420,
+      213
+    ],
+    [
+      479,
+      214
+    ],
+    [
+      264,
+      267
+    ],
+    [
+      325,
+      263
+    ],
+    [
+      389,
+      264
+    ],
+    [
+      449,
+      263
+    ],
+    [
+      507,
+      265
+    ],
+    [
+      565,
+      265
+    ],
+    [
+      170,
+      332
+    ],
+    [
+      226,
+      315
+    ],
+    [
+      296,
+      317
+    ],
+    [
+      357,
+      315
+    ],
+    [
+      417,
+      314
+    ],
+    [
+      477,
+      317
+    ],
+    [
+      535,
+      317
+    ],
+    [
+      596,
+      320
+    ],
+    [
+      211,
+      372
+    ],
+    [
+      270,
+      368
+    ],
+    [
+      329,
+      365
+    ],
+    [
+      387,
+      365
+    ],
+    [
+      445,
+      372
+    ],
+    [
+      506,
+      367
+    ],
+    [
+      565,
+      366
+    ],
+    [
+      624,
+      368
+    ],
+    [
+      175,
+      416
+    ],
+    [
+      234,
+      426
+    ],
+    [
+      292,
+      421
+    ],
+    [
+      352,
+      417
+    ],
+    [
+      412,
+      420
+    ],
+    [
+      477,
+      418
+    ],
+    [
+      537,
+      419
+    ],
+    [
+      597,
+      417
+    ],
+    [
+      198,
+      472
+    ],
+    [
+      255,
+      481
+    ],
+    [
+      315,
+      476
+    ],
+    [
+      378,
+      473
+    ],
+    [
+      442,
+      469
+    ],
+    [
+      502,
+      473
+    ],
+    [
+      568,
+      471
+    ],
+    [
+      223,
+      522
+    ],
+    [
+      290,
+      528
+    ],
+    [
+      349,
+      521
+    ],
+    [
+      409,
+      524
+    ],
+    [
+      474,
+      520
+    ],
+    [
+      533,
+      522
+    ],
+    [
+      258,
+      573
+    ],
+    [
+      319,
+      575
+    ],
+    [
+      383,
+      575
+    ],
+    [
+      442,
+      573
+    ]
+  ],
+  "sourceDeclaredCount": 50,
+  "pointGroups": [
+    3,
+    6,
+    8,
+    8,
+    8,
+    7,
+    6,
+    4
+  ],
+  "boxesAvailable": false,
+  "detectorInferencePerformed": false,
+  "admittedForTraining": false,
+  "reviewOverlayPath": "output/multiclass-data-20261029/skewers/review/flat_sudrc-source-points.png",
+  "visibleEndCount": 50,
+  "countIndependentlyReviewed": true,
+  "reviewers": [
+    "general_counting_papers (Codex agent)",
+    "root (Codex agent)"
+  ],
+  "rootReviewPath": "ml/multiclass-data-20261029/skewers/root-point-review.json",
+  "rootReviewSHA256": "19e4f071cfd5fea22597a16028c30024e4a4c7be69635031abc2eb813bf60bdd",
+  "identityScreenPath": "ml/multiclass-data-20261029/skewers/identity-screen.json",
+  "identityScreenSHA256": "fb79a0637c4366f08873780cde8feaabd04c2059cf0771584337e40143cb694b",
+  "targetDomain": "round_wooden_dowel_ends",
+  "targetPolicy": "One visible planar wooden dowel end per point. This is not a restaurant-used-skewer capture.",
+  "xyxy": null,
+  "trainingAdmission": false,
+  "boundingBoxesInferred": false
+}

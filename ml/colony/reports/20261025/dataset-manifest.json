@@ -1,0 +1,5379 @@
+{
+  "schemaVersion": 1,
+  "frozenAtUTC": "2026-10-25T17:07:37Z",
+  "seed": 20261025,
+  "sourceAnnotationSHA256": "062f08c159004e89b96f93bea05d95403b01b1fcfb73384f6eda21ba9842e12c",
+  "labelMapping": "All 24 species collapsed to one class: colony",
+  "splitUnit": "Entire bacterial species plus conservative pHash-neighbor connected components. Components too large for a15percent holdout go to training; seeded remaining components fill test/validation to15percent with at least3components each. Validation/test are unseen species; no near-similarity candidate crosses splits.",
+  "speciesGroups": {
+    "test": [
+      8,
+      17,
+      21
+    ],
+    "val": [
+      2,
+      4,
+      9,
+      11,
+      13,
+      14
+    ],
+    "train": [
+      1,
+      3,
+      5,
+      6,
+      7,
+      10,
+      12,
+      15,
+      16,
+      18,
+      19,
+      20,
+      22,
+      23,
+      24
+    ]
+  },
+  "similarityComponents": [
+    [
+      21
+    ],
+    [
+      17
+    ],
+    [
+      6,
+      10,
+      19,
+      23
+    ],
+    [
+      1,
+      3,
+      7,
+      12,
+      16
+    ],
+    [
+      8
+    ],
+    [
+      13
+    ],
+    [
+      4
+    ],
+    [
+      9
+    ],
+    [
+      2
+    ],
+    [
+      11
+    ],
+    [
+      14
+    ],
+    [
+      15
+    ],
+    [
+      24
+    ],
+    [
+      5
+    ],
+    [
+      22
+    ],
+    [
+      18
+    ],
+    [
+      20
+    ]
+  ],
+  "similarityCaveat": "pHash candidates may be distinct colonies on similar round plates; grouping is conservative, not a claim they are duplicate photos.",
+  "splits": {
+    "test": [
+      "sp08_img01.jpg",
+      "sp08_img02.jpg",
+      "sp08_img03.jpg",
+      "sp08_img04.jpg",
+      "sp08_img05.jpg",
+      "sp08_img06.jpg",
+      "sp08_img07.jpg",
+      "sp08_img08.jpg",
+      "sp08_img09.jpg",
+      "sp08_img10.jpg",
+      "sp08_img11.jpg",
+      "sp08_img12.jpg",
+      "sp17_img01.jpg",
+      "sp17_img02.jpg",
+      "sp17_img03.jpg",
+      "sp21_img01.jpg",
+      "sp21_img02.jpg",
+      "sp21_img04.jpg",
+      "sp21_img05.jpg",
+      "sp21_img06.jpg",
+      "sp21_img07.jpg",
+      "sp21_img08.jpg",
+      "sp21_img10.jpg",
+      "sp21_img11.jpg",
+      "sp21_img12.jpg",
+      "sp21_img13.jpg",
+      "sp21_img14.jpg",
+      "sp21_img16.jpg",
+      "sp21_img17.jpg",
+      "sp21_img18.jpg",
+      "sp21_img19.jpg",
+      "sp21_img20.jpg",
+      "sp21_img21.jpg",
+      "sp21_img23.jpg",
+      "sp21_img24.jpg",
+      "sp21_img25.jpg",
+      "sp21_img26.jpg",
+      "sp21_img27.jpg",
+      "sp21_img28.jpg",
+      "sp21_img29.jpg",
+      "sp21_img30.jpg",
+      "sp21_img31.jpg",
+      "sp21_img32.jpg",
+      "sp21_img33.jpg",
+      "sp21_img34.jpg",
+      "sp21_img35.jpg",
+      "sp21_img36.jpg",
+      "sp21_img37.jpg",
+      "sp21_img38.jpg",
+      "sp21_img39.jpg",
+      "sp21_img40.jpg",
+      "sp21_img41.jpg",
+      "sp21_img42.jpg",
+      "sp21_img43.jpg",
+      "sp21_img44.jpg",
+      "sp21_img45.jpg",
+      "sp21_img46.jpg",
+      "sp21_img47.jpg",
+      "sp21_img48.jpg",
+      "sp21_img49.jpg",
+      "sp21_img50.jpg",
+      "sp21_img51.jpg",
+      "sp21_img52.jpg"
+    ],
+    "val": [
+      "sp02_img01.jpg",
+      "sp02_img02.jpg",
+      "sp02_img03.jpg",
+      "sp02_img04.jpg",
+      "sp02_img05.jpg",
+      "sp02_img06.jpg",
+      "sp02_img07.jpg",
+      "sp02_img08.jpg",
+      "sp02_img09.jpg",
+      "sp02_img10.jpg",
+      "sp04_img01.jpg",
+      "sp04_img02.jpg",
+      "sp04_img03.jpg",
+      "sp04_img04.jpg",
+      "sp04_img05.jpg",
+      "sp04_img06.jpg",
+      "sp11_img01.jpg",
+      "sp11_img02.jpg",
+      "sp11_img03.jpg",
+      "sp11_img04.jpg",
+      "sp11_img05.jpg",
+      "sp13_img01.jpg",
+      "sp13_img02.jpg",
+      "sp13_img03.jpg",
+      "sp13_img04.jpg",
+      "sp13_img05.jpg",
+      "sp13_img06.jpg",
+      "sp14_img01.jpg",
+      "sp14_img02.jpg",
+      "sp14_img03.jpg",
+      "sp14_img04.jpg",
+      "sp14_img05.jpg",
+      "sp14_img06.jpg",
+      "sp14_img07.jpg",
+      "sp14_img08.jpg",
+      "sp14_img09.jpg",
+      "sp14_img10.jpg",
+      "sp14_img11.jpg",
+      "sp14_img12.jpg",
+      "sp14_img13.jpg",
+      "sp14_img14.jpg",
+      "sp14_img15.jpg",
+      "sp14_img16.jpg",
+      "sp14_img17.jpg",
+      "sp14_img18.jpg",
+      "sp09_img01.jpg",
+      "sp09_img02.jpg",
+      "sp09_img03.jpg",
+      "sp09_img04.jpg",
+      "sp09_img05.jpg",
+      "sp09_img06.jpg",
+      "sp09_img08.jpg",
+      "sp09_img09.jpg",
+      "sp09_img10.jpg",
+      "sp09_img11.jpg",
+      "sp09_img12.jpg"
+    ],
+    "train": [
+      "sp01_img01.jpg",
+      "sp01_img02.jpg",
+      "sp01_img03.jpg",
+      "sp01_img04.jpg",
+      "sp01_img05.jpg",
+      "sp01_img06.jpg",
+      "sp01_img07.jpg",
+      "sp01_img08.jpg",
+      "sp01_img09.jpg",
+      "sp01_img10.jpg",
+      "sp01_img11.jpg",
+      "sp01_img12.jpg",
+      "sp03_img01.jpg",
+      "sp03_img02.jpg",
+      "sp03_img03.jpg",
+      "sp03_img04.jpg",
+      "sp03_img05.jpg",
+      "sp03_img06.jpg",
+      "sp03_img07.jpg",
+      "sp03_img08.jpg",
+      "sp03_img09.jpg",
+      "sp03_img10.jpg",
+      "sp03_img11.jpg",
+      "sp03_img12.jpg",
+      "sp05_img01.jpg",
+      "sp05_img02.jpg",
+      "sp05_img03.jpg",
+      "sp05_img04.jpg",
+      "sp05_img05.jpg",
+      "sp05_img06.jpg",
+      "sp05_img07.jpg",
+      "sp05_img08.jpg",
+      "sp05_img09.jpg",
+      "sp05_img10.jpg",
+      "sp05_img11.jpg",
+      "sp05_img12.jpg",
+      "sp05_img13.jpg",
+      "sp05_img14.jpg",
+      "sp05_img15.jpg",
+      "sp05_img16.jpg",
+      "sp05_img17.jpg",
+      "sp05_img18.jpg",
+      "sp06_img01.jpg",
+      "sp06_img02.jpg",
+      "sp06_img03.jpg",
+      "sp06_img04.jpg",
+      "sp06_img05.jpg",
+      "sp06_img06.jpg",
+      "sp06_img07.jpg",
+      "sp06_img08.jpg",
+      "sp06_img09.jpg",
+      "sp06_img10.jpg",
+      "sp06_img11.jpg",
+      "sp06_img12.jpg",
+      "sp06_img13.jpg",
+      "sp06_img14.jpg",
+      "sp06_img15.jpg",
+      "sp06_img16.jpg",
+      "sp06_img17.jpg",
+      "sp06_img18.jpg",
+      "sp06_img19.jpg",
+      "sp06_img20.jpg",
+      "sp06_img21.jpg",
+      "sp06_img22.jpg",
+      "sp06_img23.jpg",
+      "sp06_img24.jpg",
+      "sp06_img25.jpg",
+      "sp06_img26.jpg",
+      "sp06_img27.jpg",
+      "sp06_img28.jpg",
+      "sp06_img29.jpg",
+      "sp06_img30.jpg",
+      "sp06_img31.jpg",
+      "sp06_img32.jpg",
+      "sp06_img33.jpg",
+      "sp06_img34.jpg",
+      "sp06_img35.jpg",
+      "sp07_img01.jpg",
+      "sp07_img02.jpg",
+      "sp07_img03.jpg",
+      "sp07_img04.jpg",
+      "sp07_img05.jpg",
+      "sp07_img06.jpg",
+      "sp07_img07.jpg",
+      "sp07_img08.jpg",
+      "sp07_img09.jpg",
+      "sp07_img10.jpg",
+      "sp07_img11.jpg",
+      "sp07_img12.jpg",
+      "sp10_img01.jpg",
+      "sp10_img02.jpg",
+      "sp10_img03.jpg",
+      "sp10_img04.jpg",
+      "sp10_img05.jpg",
+      "sp10_img06.jpg",
+      "sp10_img07.jpg",
+      "sp10_img08.jpg",
+      "sp10_img09.jpg",
+      "sp10_img10.jpg",
+      "sp10_img11.jpg",
+      "sp10_img12.jpg",
+      "sp10_img13.jpg",
+      "sp10_img14.jpg",
+      "sp10_img15.jpg",
+      "sp10_img16.jpg",
+      "sp10_img17.jpg",
+      "sp10_img18.jpg",
+      "sp10_img19.jpg",
+      "sp10_img20.jpg",
+      "sp10_img21.jpg",
+      "sp12_img01.jpg",
+      "sp12_img02.jpg",
+      "sp12_img03.jpg",
+      "sp12_img04.jpg",
+      "sp12_img05.jpg",
+      "sp12_img06.jpg",
+      "sp12_img07.jpg",
+      "sp12_img08.jpg",
+      "sp12_img09.jpg",
+      "sp15_img01.jpg",
+      "sp15_img02.jpg",
+      "sp15_img03.jpg",
+      "sp15_img04.jpg",
+      "sp15_img05.jpg",
+      "sp15_img06.jpg",
+      "sp15_img07.jpg",
+      "sp15_img08.jpg",
+      "sp15_img09.jpg",
+      "sp16_img01.jpg",
+      "sp16_img02.jpg",
+      "sp16_img03.jpg",
+      "sp16_img04.jpg",
+      "sp16_img05.jpg",
+      "sp16_img06.jpg",
+      "sp16_img07.jpg",
+      "sp16_img08.jpg",
+      "sp16_img09.jpg",
+      "sp16_img10.jpg",
+      "sp16_img11.jpg",
+      "sp16_img12.jpg",
+      "sp16_img13.jpg",
+      "sp16_img14.jpg",
+      "sp16_img15.jpg",
+      "sp16_img16.jpg",
+      "sp18_img01.jpg",
+      "sp18_img02.jpg",
+      "sp18_img03.jpg",
+      "sp18_img04.jpg",
+      "sp18_img05.jpg",
+      "sp18_img06.jpg",
+      "sp18_img07.jpg",
+      "sp18_img08.jpg",
+      "sp18_img09.jpg",
+      "sp18_img10.jpg",
+      "sp18_img11.jpg",
+      "sp18_img12.jpg",
+      "sp19_img01.jpg",
+      "sp19_img02.jpg",
+      "sp19_img03.jpg",
+      "sp19_img04.jpg",
+      "sp19_img05.jpg",
+      "sp19_img06.jpg",
+      "sp19_img07.jpg",
+      "sp19_img08.jpg",
+      "sp19_img09.jpg",
+      "sp19_img10.jpg",
+      "sp19_img11.jpg",
+      "sp19_img12.jpg",
+      "sp19_img13.jpg",
+      "sp19_img14.jpg",
+      "sp19_img15.jpg",
+      "sp19_img16.jpg",
+      "sp19_img17.jpg",
+      "sp19_img18.jpg",
+      "sp19_img19.jpg",
+      "sp19_img20.jpg",
+      "sp19_img21.jpg",
+      "sp19_img22.jpg",
+      "sp19_img23.jpg",
+      "sp19_img24.jpg",
+      "sp20_img01.jpg",
+      "sp20_img02.jpg",
+      "sp20_img03.jpg",
+      "sp20_img04.jpg",
+      "sp20_img05.jpg",
+      "sp20_img06.jpg",
+      "sp22_img01.jpg",
+      "sp22_img02.jpg",
+      "sp22_img03.jpg",
+      "sp22_img04.jpg",
+      "sp22_img05.jpg",
+      "sp22_img06.jpg",
+      "sp22_img07.jpg",
+      "sp22_img08.jpg",
+      "sp22_img10.jpg",
+      "sp22_img11.jpg",
+      "sp22_img12.jpg",
+      "sp22_img13.jpg",
+      "sp22_img14.jpg",
+      "sp22_img15.jpg",
+      "sp22_img16.jpg",
+      "sp22_img17.jpg",
+      "sp22_img18.jpg",
+      "sp22_img19.jpg",
+      "sp22_img20.jpg",
+      "sp22_img21.jpg",
+      "sp22_img22.jpg",
+      "sp22_img23.jpg",
+      "sp22_img24.jpg",
+      "sp23_img01.jpg",
+      "sp23_img02.jpg",
+      "sp23_img03.jpg",
+      "sp23_img04.jpg",
+      "sp23_img05.jpg",
+      "sp23_img06.jpg",
+      "sp23_img07.jpg",
+      "sp23_img08.jpg",
+      "sp23_img09.jpg",
+      "sp23_img10.jpg",
+      "sp23_img11.jpg",
+      "sp23_img12.jpg",
+      "sp23_img13.jpg",
+      "sp23_img14.jpg",
+      "sp23_img16.jpg",
+      "sp23_img17.jpg",
+      "sp23_img18.jpg",
+      "sp23_img19.jpg",
+      "sp23_img20.jpg",
+      "sp23_img21.jpg",
+      "sp23_img22.jpg",
+      "sp23_img23.jpg",
+      "sp24_img01.jpg",
+      "sp24_img02.jpg",
+      "sp24_img03.jpg",
+      "sp24_img04.jpg",
+      "sp24_img05.jpg",
+      "sp24_img06.jpg",
+      "sp24_img07.jpg",
+      "sp24_img08.jpg",
+      "sp24_img09.jpg",
+      "sp24_img10.jpg",
+      "sp24_img11.jpg",
+      "sp24_img12.jpg",
+      "sp24_img13.jpg",
+      "sp24_img14.jpg",
+      "sp24_img15.jpg",
+      "sp24_img16.jpg"
+    ]
+  },
+  "images": [
+    {
+      "id": 1,
+      "file": "sp01_img01.jpg",
+      "width": 3001,
+      "height": 2960,
+      "sha256": "5ad941ce5d49744ce365246e96ad89c9f9c4455650ade26f7f7386cd554016ea",
+      "species": 1,
+      "validBoxCount": 4
+    },
+    {
+      "id": 2,
+      "file": "sp01_img02.jpg",
+      "width": 2894,
+      "height": 2890,
+      "sha256": "d3372f55ae45d00a8dfdac4d692b7409b126183fc7bae551b15c35d0abbea09c",
+      "species": 1,
+      "validBoxCount": 4
+    },
+    {
+      "id": 3,
+      "file": "sp01_img03.jpg",
+      "width": 2867,
+      "height": 2879,
+      "sha256": "b5b2ab3a6df28bc9f963735cad73745ebd966fac8d2d40ba489eeb0dc42ad0bb",
+      "species": 1,
+      "validBoxCount": 5
+    },
+    {
+      "id": 4,
+      "file": "sp01_img04.jpg",
+      "width": 2813,
+      "height": 2804,
+      "sha256": "d24c04909ca046506c19f3a7ed747530a0e120a75400fe7e0bd64aa274cbd79f",
+      "species": 1,
+      "validBoxCount": 5
+    },
+    {
+      "id": 5,
+      "file": "sp01_img05.jpg",
+      "width": 2859,
+      "height": 2836,
+      "sha256": "080894768a8a659498d2e107e3dd1234a48e1eb779345d0bcc9d15f335d495ed",
+      "species": 1,
+      "validBoxCount": 10
+    },
+    {
+      "id": 6,
+      "file": "sp01_img06.jpg",
+      "width": 2905,
+      "height": 2886,
+      "sha256": "314aab5d4786fb31b606ceb83ef31416cda312285087c376ae755f1133cc4b53",
+      "species": 1,
+      "validBoxCount": 10
+    },
+    {
+      "id": 7,
+      "file": "sp01_img07.jpg",
+      "width": 2851,
+      "height": 2841,
+      "sha256": "60188066369221e45e648ac976de96fdb64aac1bcef38cac7487524bd85f6d46",
+      "species": 1,
+      "validBoxCount": 54
+    },
+    {
+      "id": 8,
+      "file": "sp01_img08.jpg",
+      "width": 2969,
+      "height": 2965,
+      "sha256": "503d8fcfc4ab4e5f138c30091f8ceeeef37ac79216460fec2d129f6d9c3cbb7b",
+      "species": 1,
+      "validBoxCount": 54
+    },
+    {
+      "id": 9,
+      "file": "sp01_img09.jpg",
+      "width": 2960,
+      "height": 2972,
+      "sha256": "42bf2315e0b0897a0ac3823b4be186305d99fbcbb0190852058d26a6165ef410",
+      "species": 1,
+      "validBoxCount": 55
+    },
+    {
+      "id": 10,
+      "file": "sp01_img10.jpg",
+      "width": 2866,
+      "height": 2857,
+      "sha256": "7beb8ab1d11508cb90c0dff0ff1fc7576f731536ca6fd5376b7375282b13941a",
+      "species": 1,
+      "validBoxCount": 56
+    },
+    {
+      "id": 11,
+      "file": "sp01_img11.jpg",
+      "width": 2684,
+      "height": 2691,
+      "sha256": "99a29115a2e3f131b9fd0eab64bb4fa9a683e8fc0cf42150759dcfec733bcc50",
+      "species": 1,
+      "validBoxCount": 70
+    },
+    {
+      "id": 12,
+      "file": "sp01_img12.jpg",
+      "width": 2921,
+      "height": 2938,
+      "sha256": "495483e1335f0a9194ddb781954e5a01c334f74ccf4b476ef5008c182baa1237",
+      "species": 1,
+      "validBoxCount": 70
+    },
+    {
+      "id": 13,
+      "file": "sp02_img01.jpg",
+      "width": 2869,
+      "height": 2865,
+      "sha256": "990aa3e278c647e48f4dad25a8eabfb6f613e31d0c781b4a14790c5170920fdd",
+      "species": 2,
+      "validBoxCount": 31
+    },
+    {
+      "id": 14,
+      "file": "sp02_img02.jpg",
+      "width": 2644,
+      "height": 2643,
+      "sha256": "09198f34970336c55f6ac6998a31cae38d9969f63682179bc4d2c103a6b74b48",
+      "species": 2,
+      "validBoxCount": 31
+    },
+    {
+      "id": 15,
+      "file": "sp02_img03.jpg",
+      "width": 2550,
+      "height": 2562,
+      "sha256": "f3aaf50252001e329c1d6a4c23328b4f0c5a5126890cd91d3d8923fbe987f181",
+      "species": 2,
+      "validBoxCount": 36
+    },
+    {
+      "id": 16,
+      "file": "sp02_img04.jpg",
+      "width": 2701,
+      "height": 2718,
+      "sha256": "1be3e5d0d77f1659a48296ff0f1562ebb37403ac086264880a935a3a46fd2611",
+      "species": 2,
+      "validBoxCount": 36
+    },
+    {
+      "id": 17,
+      "file": "sp02_img05.jpg",
+      "width": 2687,
+      "height": 2664,
+      "sha256": "fe8216e8e0616b47341669822e91cd729f45d1726e04b9633ef07cf2e7f2b1dc",
+      "species": 2,
+      "validBoxCount": 174
+    },
+    {
+      "id": 18,
+      "file": "sp02_img06.jpg",
+      "width": 2795,
+      "height": 2850,
+      "sha256": "9c830df55be629271f9b23979c9b4de1632941297f9efcd5f95bf91e451515bf",
+      "species": 2,
+      "validBoxCount": 180
+    },
+    {
+      "id": 19,
+      "file": "sp02_img07.jpg",
+      "width": 2781,
+      "height": 2772,
+      "sha256": "aa30608c10f156e4b6de89f6a48ae08ff69aacea297f115fa35238f032bc5a08",
+      "species": 2,
+      "validBoxCount": 222
+    },
+    {
+      "id": 20,
+      "file": "sp02_img08.jpg",
+      "width": 2727,
+      "height": 2755,
+      "sha256": "b420edc11c7de52a4feacdc3d34f0bff5df413381304cb4a3143ebbcf56ce15e",
+      "species": 2,
+      "validBoxCount": 233
+    },
+    {
+      "id": 21,
+      "file": "sp02_img09.jpg",
+      "width": 2737,
+      "height": 2729,
+      "sha256": "486b8892884ab61ae35cffdad1d3f26ba79eddccb9054de83335fafa3f4ac55b",
+      "species": 2,
+      "validBoxCount": 289
+    },
+    {
+      "id": 22,
+      "file": "sp02_img10.jpg",
+      "width": 2709,
+      "height": 2700,
+      "sha256": "15df8efc024b61b0062e2c75afbbe0cb0f548e0d119a660942be9e2fe1d1698b",
+      "species": 2,
+      "validBoxCount": 298
+    },
+    {
+      "id": 23,
+      "file": "sp03_img01.jpg",
+      "width": 2931,
+      "height": 2922,
+      "sha256": "f2a2f2b7ad6118bb5a0f50461d6f29ad016b9538f03149b27821a72898f80cf4",
+      "species": 3,
+      "validBoxCount": 2
+    },
+    {
+      "id": 24,
+      "file": "sp03_img02.jpg",
+      "width": 2819,
+      "height": 2836,
+      "sha256": "5b68170631ff09c85c994de8acbf64c8ee02fb39fe5e4ce7a8b6381c7afc9fa8",
+      "species": 3,
+      "validBoxCount": 2
+    },
+    {
+      "id": 25,
+      "file": "sp03_img03.jpg",
+      "width": 2823,
+      "height": 2850,
+      "sha256": "6d27d8f255bc488116fb2f53ae9c8cfb757e4c3d0e5ba9665c4af4def18b44ac",
+      "species": 3,
+      "validBoxCount": 5
+    },
+    {
+      "id": 26,
+      "file": "sp03_img04.jpg",
+      "width": 2924,
+      "height": 2929,
+      "sha256": "b05965ad58122fb31bf85c3d5f436a79b809724ac97a1c60f2b5056aaeaf12b7",
+      "species": 3,
+      "validBoxCount": 5
+    },
+    {
+      "id": 27,
+      "file": "sp03_img05.jpg",
+      "width": 2845,
+      "height": 2857,
+      "sha256": "31dadb29d7578d78086b9acacbdd9ab6cf854869c5bd88b6ba5d9b4f11b1684e",
+      "species": 3,
+      "validBoxCount": 7
+    },
+    {
+      "id": 28,
+      "file": "sp03_img06.jpg",
+      "width": 2878,
+      "height": 2868,
+      "sha256": "5833b34df5b1efe4ea492c65e0354c3eb05cc1aae69d54bd4f8358bb83e6d8a4",
+      "species": 3,
+      "validBoxCount": 7
+    },
+    {
+      "id": 29,
+      "file": "sp03_img07.jpg",
+      "width": 2722,
+      "height": 2723,
+      "sha256": "a4f0b907707766651b396017de342080f63ff4de860403f47dcda0e5e512286c",
+      "species": 3,
+      "validBoxCount": 19
+    },
+    {
+      "id": 30,
+      "file": "sp03_img08.jpg",
+      "width": 2991,
+      "height": 3080,
+      "sha256": "15f169d886f4b888ff79598942a1b55d7a3f1d29ee5ea5bb8188e7c5b9fb828e",
+      "species": 3,
+      "validBoxCount": 19
+    },
+    {
+      "id": 31,
+      "file": "sp03_img09.jpg",
+      "width": 2831,
+      "height": 2865,
+      "sha256": "21df7a2b02ab5d7b058edfa0423f055812fcdba50ab7dc3a3d19afb6b112a3d6",
+      "species": 3,
+      "validBoxCount": 45
+    },
+    {
+      "id": 32,
+      "file": "sp03_img10.jpg",
+      "width": 2852,
+      "height": 2836,
+      "sha256": "c915e9202dbe8cf7ac1a25c82abfc3c20663b04f5bc4c93c6b01fde190570483",
+      "species": 3,
+      "validBoxCount": 45
+    },
+    {
+      "id": 33,
+      "file": "sp03_img11.jpg",
+      "width": 2745,
+      "height": 2750,
+      "sha256": "2b42fe453cc3da9cff12eecf9ceb4dd43ae4fa3adc88faea84cf33d4008370af",
+      "species": 3,
+      "validBoxCount": 69
+    },
+    {
+      "id": 34,
+      "file": "sp03_img12.jpg",
+      "width": 2894,
+      "height": 2900,
+      "sha256": "669c118c80605fc293ce3aa420e6ff202d7f6b8fec599a632f04e9a8c8b168aa",
+      "species": 3,
+      "validBoxCount": 70
+    },
+    {
+      "id": 35,
+      "file": "sp04_img01.jpg",
+      "width": 2494,
+      "height": 2471,
+      "sha256": "e51500ca9ec5c0f5826b568febbddd1e37fbc4a18f0cbff9ba46de6f85c631bf",
+      "species": 4,
+      "validBoxCount": 41
+    },
+    {
+      "id": 36,
+      "file": "sp04_img02.jpg",
+      "width": 2427,
+      "height": 2428,
+      "sha256": "8f494de09fee76f5b357fb8d24a1303fb1ad924f41df96383ddef8199cf6d4bd",
+      "species": 4,
+      "validBoxCount": 48
+    },
+    {
+      "id": 37,
+      "file": "sp04_img03.jpg",
+      "width": 2373,
+      "height": 2385,
+      "sha256": "29637a4ba8ecc86dc057da992be1c79041f89a929ec73f2c27b6b4f9a272c5b5",
+      "species": 4,
+      "validBoxCount": 50
+    },
+    {
+      "id": 38,
+      "file": "sp04_img04.jpg",
+      "width": 2143,
+      "height": 2134,
+      "sha256": "d885179f9ee588fdae0b4c96fcceb7da3e2300b2ff1cc10af688f18452f10bd3",
+      "species": 4,
+      "validBoxCount": 50
+    },
+    {
+      "id": 39,
+      "file": "sp04_img05.jpg",
+      "width": 2279,
+      "height": 2299,
+      "sha256": "2a89785aae49655768f9fdff2753dfadcdab937c71e1e85504563e8868549504",
+      "species": 4,
+      "validBoxCount": 57
+    },
+    {
+      "id": 40,
+      "file": "sp04_img06.jpg",
+      "width": 2513,
+      "height": 2498,
+      "sha256": "0f10cf75aba6f43605c0c760c183169fa7f34c436807fb0f4f42b81bed311831",
+      "species": 4,
+      "validBoxCount": 58
+    },
+    {
+      "id": 41,
+      "file": "sp05_img01.jpg",
+      "width": 2765,
+      "height": 2766,
+      "sha256": "d7978e75938ec4f7e6829e46b2e5a445798f04e97fd06b4f59ef7e00f41d28eb",
+      "species": 5,
+      "validBoxCount": 24
+    },
+    {
+      "id": 42,
+      "file": "sp05_img02.jpg",
+      "width": 2899,
+      "height": 2890,
+      "sha256": "84cde42466d6ba01cdce46254aca8baa929537c80b58b4491bf1816da9ca870d",
+      "species": 5,
+      "validBoxCount": 24
+    },
+    {
+      "id": 43,
+      "file": "sp05_img03.jpg",
+      "width": 2666,
+      "height": 2678,
+      "sha256": "2af741e0a1322a504489061a8683c6488f2e8a4033cb9fbf7cd2f60ebe56454e",
+      "species": 5,
+      "validBoxCount": 29
+    },
+    {
+      "id": 44,
+      "file": "sp05_img04.jpg",
+      "width": 2840,
+      "height": 2852,
+      "sha256": "7fa3b00257564cba03565c10cabdfb53188500a7c1e8ce6516cd5db469cdff53",
+      "species": 5,
+      "validBoxCount": 29
+    },
+    {
+      "id": 45,
+      "file": "sp05_img05.jpg",
+      "width": 2824,
+      "height": 2831,
+      "sha256": "5458c7daf1fc593835d5fca6912992bda3d3151b7c3d280d46e902d3d8880edd",
+      "species": 5,
+      "validBoxCount": 49
+    },
+    {
+      "id": 46,
+      "file": "sp05_img06.jpg",
+      "width": 2840,
+      "height": 2852,
+      "sha256": "89ca8a4e228e19f33f669b2cc7285f3d5143080e3f898b7a0ac5eadfe5e65c60",
+      "species": 5,
+      "validBoxCount": 49
+    },
+    {
+      "id": 47,
+      "file": "sp05_img07.jpg",
+      "width": 2737,
+      "height": 2729,
+      "sha256": "73f61d77f74c0bd5c84d49ddb3fc1070fe1740e05142543f91874a26e5b47e6d",
+      "species": 5,
+      "validBoxCount": 61
+    },
+    {
+      "id": 48,
+      "file": "sp05_img08.jpg",
+      "width": 2701,
+      "height": 2707,
+      "sha256": "88b8116e6c70aa174909180b538bdcf5d6c8b252ec815d198daf46ae41102000",
+      "species": 5,
+      "validBoxCount": 61
+    },
+    {
+      "id": 49,
+      "file": "sp05_img09.jpg",
+      "width": 2716,
+      "height": 2707,
+      "sha256": "a5b7ac37ce022a80beba531ede42e67be892eea4592c926b22b4fb2dc4b39031",
+      "species": 5,
+      "validBoxCount": 61
+    },
+    {
+      "id": 50,
+      "file": "sp05_img10.jpg",
+      "width": 2733,
+      "height": 2739,
+      "sha256": "5639afb5e46ae6933290dd0c61bd91cac269984303b828c428e7c5a708fb3d6d",
+      "species": 5,
+      "validBoxCount": 61
+    },
+    {
+      "id": 51,
+      "file": "sp05_img11.jpg",
+      "width": 2888,
+      "height": 2868,
+      "sha256": "d12e90ab835e5ffff69edde49512cacbf6a6251f8ed50081ed8556779f88bdb2",
+      "species": 5,
+      "validBoxCount": 146
+    },
+    {
+      "id": 52,
+      "file": "sp05_img12.jpg",
+      "width": 2926,
+      "height": 2927,
+      "sha256": "84b892d5a7a6b6793f08399353de183451ca962daa274ab84ab8daf74c069942",
+      "species": 5,
+      "validBoxCount": 147
+    },
+    {
+      "id": 53,
+      "file": "sp05_img13.jpg",
+      "width": 2663,
+      "height": 2669,
+      "sha256": "9742ff5f216f9c52a10fcb091e50738a23baf1f2a333aaf7b264489c18d2222c",
+      "species": 5,
+      "validBoxCount": 381
+    },
+    {
+      "id": 54,
+      "file": "sp05_img14.jpg",
+      "width": 2695,
+      "height": 2691,
+      "sha256": "cc73c60b92238b03355916413631cf741cd11d58ef351ceae6eb4a94f108c45c",
+      "species": 5,
+      "validBoxCount": 386
+    },
+    {
+      "id": 55,
+      "file": "sp05_img15.jpg",
+      "width": 2776,
+      "height": 2772,
+      "sha256": "86e0e7ae337e19cde90396fc1cb01165197d694b302b7f06e20948f2ad66207c",
+      "species": 5,
+      "validBoxCount": 550
+    },
+    {
+      "id": 56,
+      "file": "sp05_img16.jpg",
+      "width": 2781,
+      "height": 2788,
+      "sha256": "2c9b511fc269bfdba41598a59735b3c92cda0dd21dcc56f75c2a1fa869c77748",
+      "species": 5,
+      "validBoxCount": 571
+    },
+    {
+      "id": 57,
+      "file": "sp05_img17.jpg",
+      "width": 2272,
+      "height": 2277,
+      "sha256": "4c8db43b45af1e394ddcf2e072d1246ff175c67946e07d3c90b885c379a0b86f",
+      "species": 5,
+      "validBoxCount": 726
+    },
+    {
+      "id": 58,
+      "file": "sp05_img18.jpg",
+      "width": 2472,
+      "height": 2499,
+      "sha256": "eccee4e6e2ef5ab5d8bcd45aeae94dc00621f45c2e051fcfc36137b89e2cf1af",
+      "species": 5,
+      "validBoxCount": 747
+    },
+    {
+      "id": 59,
+      "file": "sp06_img01.jpg",
+      "width": 2191,
+      "height": 2174,
+      "sha256": "23f4476dbb4899bdf4009b38d8ced4032e812322ef5555788107684b0fd17b70",
+      "species": 6,
+      "validBoxCount": 2
+    },
+    {
+      "id": 60,
+      "file": "sp06_img02.jpg",
+      "width": 2200,
+      "height": 2196,
+      "sha256": "d30d0e193c9c25634c77a937edef72fbfa1979530209fa361eadc1276a964b88",
+      "species": 6,
+      "validBoxCount": 2
+    },
+    {
+      "id": 61,
+      "file": "sp06_img03.jpg",
+      "width": 2448,
+      "height": 2582,
+      "sha256": "e23ecc13915e39e84fda4a6391a999da22f647e3f7bae443912507870d4eab04",
+      "species": 6,
+      "validBoxCount": 35
+    },
+    {
+      "id": 62,
+      "file": "sp06_img04.jpg",
+      "width": 2435,
+      "height": 2569,
+      "sha256": "60083eb4654309da1545e93a339484d6a1647f68e8c18b00c1de511a558d901f",
+      "species": 6,
+      "validBoxCount": 36
+    },
+    {
+      "id": 63,
+      "file": "sp06_img05.jpg",
+      "width": 2444,
+      "height": 2573,
+      "sha256": "7f034e84231ac8a9a3e3c77fb8b2a12158cb40ea663d028021ef7e72a170e744",
+      "species": 6,
+      "validBoxCount": 39
+    },
+    {
+      "id": 64,
+      "file": "sp06_img06.jpg",
+      "width": 2439,
+      "height": 2564,
+      "sha256": "403d29fd90540418160caa205ff38d198a7b1a2221849db16abd2a0cb75998ae",
+      "species": 6,
+      "validBoxCount": 40
+    },
+    {
+      "id": 65,
+      "file": "sp06_img07.jpg",
+      "width": 2196,
+      "height": 2187,
+      "sha256": "4c480ee17891144783a67f24310e1bba8e7bf8a4ce993f4fe0d5d6839c6a5ef8",
+      "species": 6,
+      "validBoxCount": 128
+    },
+    {
+      "id": 66,
+      "file": "sp06_img08.jpg",
+      "width": 2200,
+      "height": 2218,
+      "sha256": "e604bec8df1bf0cc31f1e6e3abe9d479a745c28fd43d371adfef6911c9cce383",
+      "species": 6,
+      "validBoxCount": 129
+    },
+    {
+      "id": 67,
+      "file": "sp06_img09.jpg",
+      "width": 2231,
+      "height": 2218,
+      "sha256": "c82bfcd332eef358e80d297e234c1488a3eedd78be07cca77303f9a8f325ea8c",
+      "species": 6,
+      "validBoxCount": 130
+    },
+    {
+      "id": 68,
+      "file": "sp06_img10.jpg",
+      "width": 2218,
+      "height": 2222,
+      "sha256": "aceb6c1ee26104ae659aefc59f01f6d1fca30a17278c3b6670b3f0ed67a15533",
+      "species": 6,
+      "validBoxCount": 131
+    },
+    {
+      "id": 69,
+      "file": "sp06_img11.jpg",
+      "width": 2183,
+      "height": 2191,
+      "sha256": "4af74f39e09cd9a3a59e3854cfc0b5553f19702a235cae07e00523bf757f68df",
+      "species": 6,
+      "validBoxCount": 135
+    },
+    {
+      "id": 70,
+      "file": "sp06_img12.jpg",
+      "width": 2209,
+      "height": 2200,
+      "sha256": "eb6dcd625f84125328089e34b7774866bfd77de9c36ba58abe2af66658f65ad0",
+      "species": 6,
+      "validBoxCount": 138
+    },
+    {
+      "id": 71,
+      "file": "sp06_img13.jpg",
+      "width": 2244,
+      "height": 2205,
+      "sha256": "2364e2d88b8393b10a994fd7d83440d73b666df12b0f6ae8b25333196785ef7a",
+      "species": 6,
+      "validBoxCount": 138
+    },
+    {
+      "id": 72,
+      "file": "sp06_img14.jpg",
+      "width": 2205,
+      "height": 2200,
+      "sha256": "4a90de2ba8e249b2bdfc5addf9b800a00fb87f3741a39ce44250990582843525",
+      "species": 6,
+      "validBoxCount": 138
+    },
+    {
+      "id": 73,
+      "file": "sp06_img15.jpg",
+      "width": 2231,
+      "height": 2235,
+      "sha256": "af80724d4c79c0dfef0e964abbdbafd3b810ac5ed65ae1390bc3eb02d6e818f2",
+      "species": 6,
+      "validBoxCount": 143
+    },
+    {
+      "id": 74,
+      "file": "sp06_img16.jpg",
+      "width": 2261,
+      "height": 2252,
+      "sha256": "2ac84e6b06dc8e1c8423ab2f463715e55e52ce6b56d90c8decb0f210c65a2d6c",
+      "species": 6,
+      "validBoxCount": 143
+    },
+    {
+      "id": 75,
+      "file": "sp06_img17.jpg",
+      "width": 2200,
+      "height": 2191,
+      "sha256": "603f4620e6c231224f9789117d348fd8c2f769221d5158f3df71a269561774a2",
+      "species": 6,
+      "validBoxCount": 143
+    },
+    {
+      "id": 76,
+      "file": "sp06_img18.jpg",
+      "width": 2165,
+      "height": 2178,
+      "sha256": "c1d2e6220107e553e90cc7ecdaf96a63902434b123cb13ad81dcce8008787999",
+      "species": 6,
+      "validBoxCount": 143
+    },
+    {
+      "id": 77,
+      "file": "sp06_img19.jpg",
+      "width": 2200,
+      "height": 2200,
+      "sha256": "436b75c9ac9ed8b0907b61cb7a564549590a76407bab971375561e9a7d5b4a19",
+      "species": 6,
+      "validBoxCount": 144
+    },
+    {
+      "id": 78,
+      "file": "sp06_img20.jpg",
+      "width": 2231,
+      "height": 2252,
+      "sha256": "6ad09848d83d553debcb5943895bea3602f864a2ddd58b0768070da0ede59341",
+      "species": 6,
+      "validBoxCount": 144
+    },
+    {
+      "id": 79,
+      "file": "sp06_img21.jpg",
+      "width": 2196,
+      "height": 2161,
+      "sha256": "3f9a36d68ae64f2827ef3887f16a9fb6a6499f4a9faa692563c6cfcea46ce4a0",
+      "species": 6,
+      "validBoxCount": 144
+    },
+    {
+      "id": 80,
+      "file": "sp06_img22.jpg",
+      "width": 2183,
+      "height": 2200,
+      "sha256": "2cbc487ec0980934dec426651f411ef7c020e0130a9bafa588c4161df0bdfaea",
+      "species": 6,
+      "validBoxCount": 144
+    },
+    {
+      "id": 81,
+      "file": "sp06_img23.jpg",
+      "width": 2205,
+      "height": 2218,
+      "sha256": "35edf3b43650faab4bcaf0ecac0d502b96d8f2dcbc99620c581b8aa9582dee1f",
+      "species": 6,
+      "validBoxCount": 144
+    },
+    {
+      "id": 82,
+      "file": "sp06_img24.jpg",
+      "width": 2231,
+      "height": 2235,
+      "sha256": "b3fa67ce6759c7e9064e7f10ac2303debc809bc6f618bf0bb58c566534a03932",
+      "species": 6,
+      "validBoxCount": 145
+    },
+    {
+      "id": 83,
+      "file": "sp06_img25.jpg",
+      "width": 2200,
+      "height": 2200,
+      "sha256": "65f0435cd2230694bfb93abff2b400b548cd8cd8254103e22eb9adc208ae7fd9",
+      "species": 6,
+      "validBoxCount": 145
+    },
+    {
+      "id": 84,
+      "file": "sp06_img26.jpg",
+      "width": 2209,
+      "height": 2209,
+      "sha256": "1d227ac507074f09f77140ab36538c2ec94bc85c545275e749c673c05b5c1162",
+      "species": 6,
+      "validBoxCount": 147
+    },
+    {
+      "id": 85,
+      "file": "sp06_img27.jpg",
+      "width": 2248,
+      "height": 2231,
+      "sha256": "9047310f300eedbcb1f0eb124f04da3e1619ce55f8e6b2729992a72636d44f7a",
+      "species": 6,
+      "validBoxCount": 147
+    },
+    {
+      "id": 86,
+      "file": "sp06_img28.jpg",
+      "width": 2231,
+      "height": 2213,
+      "sha256": "f5f020281500704eb72e4e09941d3c62e2e38c869c0075bf0f97103f0269623c",
+      "species": 6,
+      "validBoxCount": 147
+    },
+    {
+      "id": 87,
+      "file": "sp06_img29.jpg",
+      "width": 2866,
+      "height": 2872,
+      "sha256": "4903e87a3a607d06fe1de69040c153ffe3ea5fa7583ac3ed31f9b824e7e91d1a",
+      "species": 6,
+      "validBoxCount": 233
+    },
+    {
+      "id": 88,
+      "file": "sp06_img30.jpg",
+      "width": 2806,
+      "height": 2829,
+      "sha256": "b6d88a1675a7f645fd8e627b836b5f83ae3d601e4c2ce291a96c8256f34f1069",
+      "species": 6,
+      "validBoxCount": 255
+    },
+    {
+      "id": 89,
+      "file": "sp06_img31.jpg",
+      "width": 2666,
+      "height": 2657,
+      "sha256": "b46500601dd78342d48921bde5031647c6d6f308ea0a54948dfd8eae1aba9a0f",
+      "species": 6,
+      "validBoxCount": 310
+    },
+    {
+      "id": 90,
+      "file": "sp06_img32.jpg",
+      "width": 2448,
+      "height": 2595,
+      "sha256": "3b65ce3857c527efcec14d3ab360ab534b0e582f871e4ba145a66b25b7ec0ffe",
+      "species": 6,
+      "validBoxCount": 325
+    },
+    {
+      "id": 91,
+      "file": "sp06_img33.jpg",
+      "width": 2444,
+      "height": 2569,
+      "sha256": "3b70e2270e6227e54824dca90ff6220231ad5c617c89a8d891264ebca330a056",
+      "species": 6,
+      "validBoxCount": 333
+    },
+    {
+      "id": 92,
+      "file": "sp06_img34.jpg",
+      "width": 2444,
+      "height": 2582,
+      "sha256": "a244664e210ebfc91e0b41fd367efd664a580a40602db7857c69d53236f278bf",
+      "species": 6,
+      "validBoxCount": 405
+    },
+    {
+      "id": 93,
+      "file": "sp06_img35.jpg",
+      "width": 2439,
+      "height": 2586,
+      "sha256": "bc3c38ae3627e608e5b78fb4d3395a3828ab42ca292ffbedc31fdf66b61723ca",
+      "species": 6,
+      "validBoxCount": 408
+    },
+    {
+      "id": 94,
+      "file": "sp07_img01.jpg",
+      "width": 2888,
+      "height": 2900,
+      "sha256": "0200de4e56499147761cfe6248e1821044c8834a86d6ec1ae4258f117957d2f7",
+      "species": 7,
+      "validBoxCount": 4
+    },
+    {
+      "id": 95,
+      "file": "sp07_img02.jpg",
+      "width": 2851,
+      "height": 2857,
+      "sha256": "253cb741d1cff51bd5444c806f3b4eb09a591a54b85c67a9959c0735988e7fcc",
+      "species": 7,
+      "validBoxCount": 4
+    },
+    {
+      "id": 96,
+      "file": "sp07_img03.jpg",
+      "width": 3012,
+      "height": 2949,
+      "sha256": "1294c228d175e58ca2508643b6c4635024a9303bcb022645e5df631fa6fc314d",
+      "species": 7,
+      "validBoxCount": 8
+    },
+    {
+      "id": 97,
+      "file": "sp07_img04.jpg",
+      "width": 2958,
+      "height": 2960,
+      "sha256": "dcdb91f19c4931478eb5070ae47032a6f96f7a4d27c68e07c27aa07fe0f33b34",
+      "species": 7,
+      "validBoxCount": 8
+    },
+    {
+      "id": 98,
+      "file": "sp07_img05.jpg",
+      "width": 2845,
+      "height": 2863,
+      "sha256": "c59225e987269bace9134cc0543aea765e373200e8cc37cba8ffde02a51ec9ff",
+      "species": 7,
+      "validBoxCount": 11
+    },
+    {
+      "id": 99,
+      "file": "sp07_img06.jpg",
+      "width": 2819,
+      "height": 2804,
+      "sha256": "24b184da611478aaf417e03e6cad3599d84bb2eff8069f134c5d5dc2654b76e2",
+      "species": 7,
+      "validBoxCount": 12
+    },
+    {
+      "id": 100,
+      "file": "sp07_img07.jpg",
+      "width": 2752,
+      "height": 2779,
+      "sha256": "7240d9db4b5c37b576d145387b2676aaeaa37d2843dfe52a6c77d40a9df6ffe8",
+      "species": 7,
+      "validBoxCount": 90
+    },
+    {
+      "id": 101,
+      "file": "sp07_img08.jpg",
+      "width": 2852,
+      "height": 2843,
+      "sha256": "be028c540d1bc8f0ea2179993b248ca55c638d89dd42ea341670c68983303e61",
+      "species": 7,
+      "validBoxCount": 95
+    },
+    {
+      "id": 102,
+      "file": "sp07_img09.jpg",
+      "width": 3076,
+      "height": 3019,
+      "sha256": "5196bd3cf4a0f29e3ece98879d9f849d3aedf79263cc54268739cd2316c5651f",
+      "species": 7,
+      "validBoxCount": 158
+    },
+    {
+      "id": 103,
+      "file": "sp07_img10.jpg",
+      "width": 2996,
+      "height": 2960,
+      "sha256": "91168f265803609c41d5e80b26cf51e750beb3e5171a52b3858f5dc9659e1b7f",
+      "species": 7,
+      "validBoxCount": 162
+    },
+    {
+      "id": 104,
+      "file": "sp07_img11.jpg",
+      "width": 2937,
+      "height": 2922,
+      "sha256": "db2a9e5b004cf8f7565cd1591613d457255aca442d3b310abfeb94b4767b36da",
+      "species": 7,
+      "validBoxCount": 262
+    },
+    {
+      "id": 105,
+      "file": "sp07_img12.jpg",
+      "width": 2888,
+      "height": 2895,
+      "sha256": "335cc8245d1b05b0bb30394c690260c44f1322f740c4b7b00bd118c237ee86c0",
+      "species": 7,
+      "validBoxCount": 273
+    },
+    {
+      "id": 106,
+      "file": "sp08_img01.jpg",
+      "width": 2931,
+      "height": 2936,
+      "sha256": "62f115bd281dac7c3a1959fa9ed2466934eeecd9856d91af989e4a9769f70447",
+      "species": 8,
+      "validBoxCount": 12
+    },
+    {
+      "id": 107,
+      "file": "sp08_img02.jpg",
+      "width": 2978,
+      "height": 2986,
+      "sha256": "4ea3c68efdb529ba930628397874827227458bb0b91f1f0e9a5881330cb785d5",
+      "species": 8,
+      "validBoxCount": 12
+    },
+    {
+      "id": 108,
+      "file": "sp08_img03.jpg",
+      "width": 2803,
+      "height": 2798,
+      "sha256": "8309e6c0a69192764a3b797534e6a37d51ca087f38587c90ae649fd8eba8594f",
+      "species": 8,
+      "validBoxCount": 12
+    },
+    {
+      "id": 109,
+      "file": "sp08_img04.jpg",
+      "width": 2738,
+      "height": 2739,
+      "sha256": "d7d5bfc2ba95bc79809b38cae3fbb858a54296e245dd592501e7c2107c3505af",
+      "species": 8,
+      "validBoxCount": 12
+    },
+    {
+      "id": 110,
+      "file": "sp08_img05.jpg",
+      "width": 2739,
+      "height": 2777,
+      "sha256": "bca635d3d9d3dcf510b9b4d8b2b7b0675954b8e7839d9ab3d19820e919210c21",
+      "species": 8,
+      "validBoxCount": 17
+    },
+    {
+      "id": 111,
+      "file": "sp08_img06.jpg",
+      "width": 2754,
+      "height": 2761,
+      "sha256": "5f12f2f92c4799fdf4900dec583455159036d01314cb82270e3824f854f81972",
+      "species": 8,
+      "validBoxCount": 17
+    },
+    {
+      "id": 112,
+      "file": "sp08_img07.jpg",
+      "width": 2926,
+      "height": 2895,
+      "sha256": "4eae3bfc10091742411e4154caa07f1ddea349d386a974297cb77ef59502ea51",
+      "species": 8,
+      "validBoxCount": 26
+    },
+    {
+      "id": 113,
+      "file": "sp08_img08.jpg",
+      "width": 2786,
+      "height": 2782,
+      "sha256": "86183c1998b066418af04aad4338388778ded521fdd39c9eb933524696ff02ce",
+      "species": 8,
+      "validBoxCount": 33
+    },
+    {
+      "id": 114,
+      "file": "sp08_img09.jpg",
+      "width": 2902,
+      "height": 2908,
+      "sha256": "1dc5bfa04244a6c3391fbe84a9881cd2a9b0b96d15b97cd3596287b2770b90ce",
+      "species": 8,
+      "validBoxCount": 35
+    },
+    {
+      "id": 115,
+      "file": "sp08_img10.jpg",
+      "width": 2722,
+      "height": 2718,
+      "sha256": "3251583e88b92fd3e3703b617c3c75cc7089bf0351534c784d05b5395f58254c",
+      "species": 8,
+      "validBoxCount": 57
+    },
+    {
+      "id": 116,
+      "file": "sp08_img11.jpg",
+      "width": 2702,
+      "height": 2714,
+      "sha256": "6261be9b9b63ceb919d1a68c3dd1c0aab93c31d4f40367f2333c636e3c8c056d",
+      "species": 8,
+      "validBoxCount": 65
+    },
+    {
+      "id": 117,
+      "file": "sp08_img12.jpg",
+      "width": 2856,
+      "height": 2857,
+      "sha256": "e8e34823153de582ff71ad84d81036787d1fab4e54b0960b96d2589c39e07195",
+      "species": 8,
+      "validBoxCount": 70
+    },
+    {
+      "id": 118,
+      "file": "sp10_img01.jpg",
+      "width": 2122,
+      "height": 2144,
+      "sha256": "5d7cfad5bb058d9c343ef568d4dc2cc2b2ae82500f1ca346cd08b8a5152c3b9d",
+      "species": 10,
+      "validBoxCount": 2
+    },
+    {
+      "id": 119,
+      "file": "sp10_img02.jpg",
+      "width": 2205,
+      "height": 2187,
+      "sha256": "f5d26aade3fd703041a1904af63602d8c7556c2bc2069a6cddf794aaee870992",
+      "species": 10,
+      "validBoxCount": 2
+    },
+    {
+      "id": 120,
+      "file": "sp10_img03.jpg",
+      "width": 2205,
+      "height": 2222,
+      "sha256": "46ef3d14459c5f7066590dfba08156b05703d168e9d327e4cf913fcf22c67f7d",
+      "species": 10,
+      "validBoxCount": 2
+    },
+    {
+      "id": 121,
+      "file": "sp10_img04.jpg",
+      "width": 2174,
+      "height": 2187,
+      "sha256": "8e8959a291581581c49c7221ed93880073cf08ea2e8709d361b199d8a7c41522",
+      "species": 10,
+      "validBoxCount": 3
+    },
+    {
+      "id": 122,
+      "file": "sp10_img05.jpg",
+      "width": 2231,
+      "height": 2226,
+      "sha256": "fd759bba8e48451a04fdd60410f81092c637ade0a80595b1319c361f9791e323",
+      "species": 10,
+      "validBoxCount": 16
+    },
+    {
+      "id": 123,
+      "file": "sp10_img06.jpg",
+      "width": 2200,
+      "height": 2178,
+      "sha256": "b28b3e8fc781a8c32a89c4625ccfd6de3e1c11264416164b6a32fddf3d3e6c1e",
+      "species": 10,
+      "validBoxCount": 18
+    },
+    {
+      "id": 124,
+      "file": "sp10_img07.jpg",
+      "width": 2331,
+      "height": 2335,
+      "sha256": "b227e0a96cc3ccdfa27dc4cf9d48398a3339ccff55b25657bd98d9442af6a9e6",
+      "species": 10,
+      "validBoxCount": 51
+    },
+    {
+      "id": 125,
+      "file": "sp10_img08.jpg",
+      "width": 2170,
+      "height": 2178,
+      "sha256": "74ab168a5000829641915036e576b8e4c03c40bdd1c4f0fe3000f9f344b66d72",
+      "species": 10,
+      "validBoxCount": 51
+    },
+    {
+      "id": 126,
+      "file": "sp10_img09.jpg",
+      "width": 2339,
+      "height": 2331,
+      "sha256": "bdb46dfcb2269f04c5cadeaf11ab3119bef932d095a1c013c80d5b009a1c1e54",
+      "species": 10,
+      "validBoxCount": 51
+    },
+    {
+      "id": 127,
+      "file": "sp10_img10.jpg",
+      "width": 2200,
+      "height": 2157,
+      "sha256": "2eda5df1253ebfe039cecff5b535cb9c47048cca339b7863f103fc6fb679b0bc",
+      "species": 10,
+      "validBoxCount": 53
+    },
+    {
+      "id": 128,
+      "file": "sp10_img11.jpg",
+      "width": 2370,
+      "height": 2360,
+      "sha256": "e3f82aee169bd6ac3d1a6875a9522b5305d40e5472ca1382914b7bbbbdae29d3",
+      "species": 10,
+      "validBoxCount": 202
+    },
+    {
+      "id": 129,
+      "file": "sp10_img12.jpg",
+      "width": 2357,
+      "height": 2356,
+      "sha256": "56f9b1878ec7db2c66493183865848e401735c868cb00dcf5f1a7d46e606ea33",
+      "species": 10,
+      "validBoxCount": 204
+    },
+    {
+      "id": 130,
+      "file": "sp10_img13.jpg",
+      "width": 2400,
+      "height": 2408,
+      "sha256": "d1a7176f2dd755349070e5a1cc39c50bd64c1cda0a9bd8198abba9dc753e30b0",
+      "species": 10,
+      "validBoxCount": 230
+    },
+    {
+      "id": 131,
+      "file": "sp10_img14.jpg",
+      "width": 2191,
+      "height": 2183,
+      "sha256": "1bc14dae97be14a399d84707e606fd610ca2c6abcf541fc6743e5c521aed5aef",
+      "species": 10,
+      "validBoxCount": 280
+    },
+    {
+      "id": 132,
+      "file": "sp10_img15.jpg",
+      "width": 2231,
+      "height": 2200,
+      "sha256": "380cc102af0d552552e2a316bca99cf352c21e1b7dd3b6de8d93f2d83fc8aabe",
+      "species": 10,
+      "validBoxCount": 286
+    },
+    {
+      "id": 133,
+      "file": "sp10_img16.jpg",
+      "width": 2222,
+      "height": 2239,
+      "sha256": "d0d574de18e0960d3f9d61dfeea122f0148f0f228d4802c64efe26f0a0f5e47a",
+      "species": 10,
+      "validBoxCount": 378
+    },
+    {
+      "id": 134,
+      "file": "sp10_img17.jpg",
+      "width": 2196,
+      "height": 2205,
+      "sha256": "85b3a8e864fb2385ac0f17e5b43ddf43b85d3df8450c4f874918210c69429620",
+      "species": 10,
+      "validBoxCount": 404
+    },
+    {
+      "id": 135,
+      "file": "sp10_img18.jpg",
+      "width": 2209,
+      "height": 2244,
+      "sha256": "fb658b6c2b1e2630a1aba6935b275b7cffa290434e61bdd3d04eace0ef317b77",
+      "species": 10,
+      "validBoxCount": 425
+    },
+    {
+      "id": 136,
+      "file": "sp10_img19.jpg",
+      "width": 2200,
+      "height": 2213,
+      "sha256": "44cb00e3686362815068cdb2c8ce6c5986db542a23d082abf3a9b41077aae96d",
+      "species": 10,
+      "validBoxCount": 556
+    },
+    {
+      "id": 137,
+      "file": "sp10_img20.jpg",
+      "width": 2196,
+      "height": 2191,
+      "sha256": "f84e8ca4272b99aea1de5907bf3e9e3eeb1be6bc7dafff2f535e7f38e6760470",
+      "species": 10,
+      "validBoxCount": 572
+    },
+    {
+      "id": 138,
+      "file": "sp10_img21.jpg",
+      "width": 2231,
+      "height": 2226,
+      "sha256": "3a876a47cb48827dfa54d68dd3974169825d0d81c64e1b317c76e474260da354",
+      "species": 10,
+      "validBoxCount": 578
+    },
+    {
+      "id": 139,
+      "file": "sp11_img01.jpg",
+      "width": 2716,
+      "height": 2750,
+      "sha256": "4a328d8f259b5bfb5055b0539e6827dba7348566b3707118f8d0a71c9ade7a16",
+      "species": 11,
+      "validBoxCount": 23
+    },
+    {
+      "id": 140,
+      "file": "sp11_img02.jpg",
+      "width": 2980,
+      "height": 2917,
+      "sha256": "5c3fb71434c6bdc49e2fb591826fe58d34dd1294931c5dda6b64ae1248b16995",
+      "species": 11,
+      "validBoxCount": 27
+    },
+    {
+      "id": 141,
+      "file": "sp11_img03.jpg",
+      "width": 2812,
+      "height": 2936,
+      "sha256": "9421f63b5011a8e5590d1a210330c8f8a8244ef41be16e65362b8e6643b96973",
+      "species": 11,
+      "validBoxCount": 29
+    },
+    {
+      "id": 142,
+      "file": "sp11_img04.jpg",
+      "width": 2594,
+      "height": 2614,
+      "sha256": "47219a2c3f357a963ba68d0f4c3f09f2e3da062a808d9e78140eb70b9933dd81",
+      "species": 11,
+      "validBoxCount": 199
+    },
+    {
+      "id": 143,
+      "file": "sp11_img05.jpg",
+      "width": 2795,
+      "height": 2793,
+      "sha256": "8337f81376b552ffc26b3e46d68acc5da5da24ca4791477bcc71e8a568b6fafa",
+      "species": 11,
+      "validBoxCount": 203
+    },
+    {
+      "id": 144,
+      "file": "sp12_img01.jpg",
+      "width": 2883,
+      "height": 2836,
+      "sha256": "c13cc2add00c2910b18a19c59d0ad37d401aa82ecd6f0a6219cb9086e083f881",
+      "species": 12,
+      "validBoxCount": 9
+    },
+    {
+      "id": 145,
+      "file": "sp12_img02.jpg",
+      "width": 2781,
+      "height": 2782,
+      "sha256": "11e2579b2fbd070f8004b9b1c3b37bd1a684e26a366467d9da011962b2cff4b8",
+      "species": 12,
+      "validBoxCount": 9
+    },
+    {
+      "id": 146,
+      "file": "sp12_img03.jpg",
+      "width": 2856,
+      "height": 2868,
+      "sha256": "705787ac1bacbf44c827ee9f1a8925c2defd03a08e2b9f6f2bf0f2a44b8004fd",
+      "species": 12,
+      "validBoxCount": 12
+    },
+    {
+      "id": 147,
+      "file": "sp12_img04.jpg",
+      "width": 2926,
+      "height": 2890,
+      "sha256": "94e71b5d6b5e686e4976f73d768d29e15df2030b89091460077128e9734d8382",
+      "species": 12,
+      "validBoxCount": 13
+    },
+    {
+      "id": 148,
+      "file": "sp12_img05.jpg",
+      "width": 2760,
+      "height": 2766,
+      "sha256": "99c816e5ca732d7d5341472f99a58231255f019fbaeb9e9a322fe55f7165f0ee",
+      "species": 12,
+      "validBoxCount": 44
+    },
+    {
+      "id": 149,
+      "file": "sp12_img06.jpg",
+      "width": 2905,
+      "height": 2890,
+      "sha256": "c347450910f2bf684a74d7e5fc0bb82734f5857ab3be61d6c1701e2800299ad1",
+      "species": 12,
+      "validBoxCount": 46
+    },
+    {
+      "id": 150,
+      "file": "sp12_img07.jpg",
+      "width": 2867,
+      "height": 2831,
+      "sha256": "838225a20548983e563bd8b60c68d37edcdf15fb5fc3d3383fdbad0d6ce4a059",
+      "species": 12,
+      "validBoxCount": 88
+    },
+    {
+      "id": 151,
+      "file": "sp12_img08.jpg",
+      "width": 2881,
+      "height": 2943,
+      "sha256": "8446ba3e6e439ea65bd0c8827d01a94f90d15d1597066a8cd41c744d3234f459",
+      "species": 12,
+      "validBoxCount": 119
+    },
+    {
+      "id": 152,
+      "file": "sp12_img09.jpg",
+      "width": 2776,
+      "height": 2772,
+      "sha256": "0e5527b1ec21a26c1b49f5ea07528ee272181a819aa846f7b820cb82b4fa5371",
+      "species": 12,
+      "validBoxCount": 121
+    },
+    {
+      "id": 153,
+      "file": "sp13_img01.jpg",
+      "width": 2694,
+      "height": 2693,
+      "sha256": "fcf90bac0d2f7b56ea20b3bd9105953079461c970514c46bffe2bcb3c1b10632",
+      "species": 13,
+      "validBoxCount": 93
+    },
+    {
+      "id": 154,
+      "file": "sp13_img02.jpg",
+      "width": 2895,
+      "height": 2900,
+      "sha256": "c060852c7cfb3e22406b07eb01c37baa1fcec222954daeba6f31bbfb8de66198",
+      "species": 13,
+      "validBoxCount": 104
+    },
+    {
+      "id": 155,
+      "file": "sp13_img03.jpg",
+      "width": 2881,
+      "height": 2886,
+      "sha256": "240f36300c3ff307a388897da582bcae3c70c2f7223849ccd94f4da1ef2c3fcf",
+      "species": 13,
+      "validBoxCount": 158
+    },
+    {
+      "id": 156,
+      "file": "sp13_img04.jpg",
+      "width": 2595,
+      "height": 2439,
+      "sha256": "848e8bc3705354a0f3d4ee33086929c2b668248be100d21b7938772601a1e7e2",
+      "species": 13,
+      "validBoxCount": 473
+    },
+    {
+      "id": 157,
+      "file": "sp13_img05.jpg",
+      "width": 2590,
+      "height": 2448,
+      "sha256": "0712ac5c3ad8685a526df9b1ab055645ca75898dddcd97d0f55f2d8bde51be6f",
+      "species": 13,
+      "validBoxCount": 484
+    },
+    {
+      "id": 158,
+      "file": "sp13_img06.jpg",
+      "width": 2573,
+      "height": 2439,
+      "sha256": "0f0f4e82d9e114ce0ef0974e2a322fdea42741602d2330dd92dd592ae2b7eb5e",
+      "species": 13,
+      "validBoxCount": 487
+    },
+    {
+      "id": 159,
+      "file": "sp14_img01.jpg",
+      "width": 2374,
+      "height": 2386,
+      "sha256": "969d8d094344f41e69b8a3787daf293bb56ca997303ca31c1d6106b2d5d4edf0",
+      "species": 14,
+      "validBoxCount": 14
+    },
+    {
+      "id": 160,
+      "file": "sp14_img02.jpg",
+      "width": 2357,
+      "height": 2399,
+      "sha256": "1fc958681c3acb063e34e6f1327742661645a80dafa0be458fa7e8634d7abd6d",
+      "species": 14,
+      "validBoxCount": 14
+    },
+    {
+      "id": 161,
+      "file": "sp14_img03.jpg",
+      "width": 2374,
+      "height": 2377,
+      "sha256": "13940905c53a218207c632b8754f2c6bc2493d34e12f40290c1c74ffa2fe89c9",
+      "species": 14,
+      "validBoxCount": 14
+    },
+    {
+      "id": 162,
+      "file": "sp14_img04.jpg",
+      "width": 2418,
+      "height": 2425,
+      "sha256": "e55fa91bd7b0315c0276ba89f38beb61460ba4c3c62c183e78e7f1eb1fc192aa",
+      "species": 14,
+      "validBoxCount": 14
+    },
+    {
+      "id": 163,
+      "file": "sp14_img05.jpg",
+      "width": 2383,
+      "height": 2364,
+      "sha256": "6da082feae2dfacb8a000a67ba328f6c3561fce798b705771785d383c7d1825d",
+      "species": 14,
+      "validBoxCount": 16
+    },
+    {
+      "id": 164,
+      "file": "sp14_img06.jpg",
+      "width": 2405,
+      "height": 2403,
+      "sha256": "8d2338e698f6fde24a4e7fefbab09f41b5a2ade66008181d55b57bf2af0c6880",
+      "species": 14,
+      "validBoxCount": 16
+    },
+    {
+      "id": 165,
+      "file": "sp14_img07.jpg",
+      "width": 2396,
+      "height": 2447,
+      "sha256": "ad4993960d5b17e2a18ed89490a31b6118641f0ef79f47f6ab060f5d4d5e6913",
+      "species": 14,
+      "validBoxCount": 19
+    },
+    {
+      "id": 166,
+      "file": "sp14_img08.jpg",
+      "width": 2405,
+      "height": 2395,
+      "sha256": "4767b7b0858166c40a7f5694424baa165c6c6c2c186d393c9a7ba2df90d556c0",
+      "species": 14,
+      "validBoxCount": 19
+    },
+    {
+      "id": 167,
+      "file": "sp14_img09.jpg",
+      "width": 2405,
+      "height": 2451,
+      "sha256": "e9e6af7e72cfb6edf844bde9c2a58c67fd8aa3cca28c3279b0cc053f4b31e3ab",
+      "species": 14,
+      "validBoxCount": 24
+    },
+    {
+      "id": 168,
+      "file": "sp14_img10.jpg",
+      "width": 2413,
+      "height": 2451,
+      "sha256": "51c619ba7179635bf00f4c3be5d48f79a712e59b9bb9ef0c4e96e85e33b17057",
+      "species": 14,
+      "validBoxCount": 25
+    },
+    {
+      "id": 169,
+      "file": "sp14_img11.jpg",
+      "width": 2370,
+      "height": 2377,
+      "sha256": "6d85fc6f7a1adcf0e8c4e6766464e5ea6c0bd268172250b55f5b24fd1b965c4a",
+      "species": 14,
+      "validBoxCount": 26
+    },
+    {
+      "id": 170,
+      "file": "sp14_img12.jpg",
+      "width": 2361,
+      "height": 2373,
+      "sha256": "74253e14d5020786c5a270ff380498a4d0f6915f786c5a1e13bec73964ce2032",
+      "species": 14,
+      "validBoxCount": 26
+    },
+    {
+      "id": 171,
+      "file": "sp14_img13.jpg",
+      "width": 2243,
+      "height": 2220,
+      "sha256": "d0f92c427bf0380cde2c524adf7af5d3cfb706b384b346e34cdfdd6280ad63fe",
+      "species": 14,
+      "validBoxCount": 123
+    },
+    {
+      "id": 172,
+      "file": "sp14_img14.jpg",
+      "width": 2229,
+      "height": 2227,
+      "sha256": "2f5ec2c8ce4f5bcededc679d3bdb28b7e16f64aafe80d9bad6c74e00a230827e",
+      "species": 14,
+      "validBoxCount": 125
+    },
+    {
+      "id": 173,
+      "file": "sp14_img15.jpg",
+      "width": 2158,
+      "height": 2154,
+      "sha256": "84f2ab950f078e651af46b357710aa9803932b9079cca0dc78b5dcb075ba14c5",
+      "species": 14,
+      "validBoxCount": 141
+    },
+    {
+      "id": 174,
+      "file": "sp14_img16.jpg",
+      "width": 2373,
+      "height": 2385,
+      "sha256": "b2289f7c06fe81481b006ace709ddd46a009d2a55f0271405c7383463b9d3c83",
+      "species": 14,
+      "validBoxCount": 146
+    },
+    {
+      "id": 175,
+      "file": "sp14_img17.jpg",
+      "width": 2389,
+      "height": 2390,
+      "sha256": "9c7252f51b823277eadfb1dbebb80a79c80f25ae2d425a5db253ff3d91d7e700",
+      "species": 14,
+      "validBoxCount": 168
+    },
+    {
+      "id": 176,
+      "file": "sp14_img18.jpg",
+      "width": 2480,
+      "height": 2487,
+      "sha256": "bdad86ec032baadb0afbde4df05682f0e14628b88e1744968909691eb70543a1",
+      "species": 14,
+      "validBoxCount": 172
+    },
+    {
+      "id": 177,
+      "file": "sp15_img01.jpg",
+      "width": 2411,
+      "height": 2428,
+      "sha256": "777ea5a249727eac5bd1b7d7cbfc959f5499430085a77c534005f53688cf1899",
+      "species": 15,
+      "validBoxCount": 13
+    },
+    {
+      "id": 178,
+      "file": "sp15_img02.jpg",
+      "width": 2486,
+      "height": 2492,
+      "sha256": "6add66a1a6302551a8477069d7cba8952533c03ec9a75de839da3336d15a05ad",
+      "species": 15,
+      "validBoxCount": 19
+    },
+    {
+      "id": 179,
+      "file": "sp15_img03.jpg",
+      "width": 2325,
+      "height": 2326,
+      "sha256": "df53274a1f1e485816e1794afbb4d732e6c77e563d8c11f07df7e61bfb07e39b",
+      "species": 15,
+      "validBoxCount": 22
+    },
+    {
+      "id": 180,
+      "file": "sp15_img04.jpg",
+      "width": 2545,
+      "height": 2546,
+      "sha256": "4ca4199b482c0948785c12a0864a922f4efec3e3f64e0e6e578f9c2bc4045362",
+      "species": 15,
+      "validBoxCount": 131
+    },
+    {
+      "id": 181,
+      "file": "sp15_img05.jpg",
+      "width": 2582,
+      "height": 2605,
+      "sha256": "6966a01ebb05c705791352c483444d7071bd3afb50ae3623835334ab17bed0aa",
+      "species": 15,
+      "validBoxCount": 131
+    },
+    {
+      "id": 182,
+      "file": "sp15_img06.jpg",
+      "width": 2690,
+      "height": 2669,
+      "sha256": "672ff58f0519e57a2064b17399194b1a2d7f5b2884e676e76c35ac00a228d098",
+      "species": 15,
+      "validBoxCount": 135
+    },
+    {
+      "id": 183,
+      "file": "sp15_img07.jpg",
+      "width": 2765,
+      "height": 2723,
+      "sha256": "926847855f6b13f6bbb5bdaac9b40dae1afbd7946d8afd4d8af87393941b42e8",
+      "species": 15,
+      "validBoxCount": 137
+    },
+    {
+      "id": 184,
+      "file": "sp15_img08.jpg",
+      "width": 2766,
+      "height": 2793,
+      "sha256": "8508bac9663ccba4fa58e757b9d7ac44b871d9745d6bb69a6b37b4c87663aa7c",
+      "species": 15,
+      "validBoxCount": 137
+    },
+    {
+      "id": 185,
+      "file": "sp15_img09.jpg",
+      "width": 2663,
+      "height": 2696,
+      "sha256": "95febb60516acea113a2c78e191a997475620b346413ed924520cc16b38a8cca",
+      "species": 15,
+      "validBoxCount": 141
+    },
+    {
+      "id": 186,
+      "file": "sp16_img01.jpg",
+      "width": 2745,
+      "height": 2750,
+      "sha256": "cb85cd4271c7c5dd5bd01704252f2ea1394d616aef7e7546e2043ba1a12b26db",
+      "species": 16,
+      "validBoxCount": 3
+    },
+    {
+      "id": 187,
+      "file": "sp16_img02.jpg",
+      "width": 2835,
+      "height": 2820,
+      "sha256": "05fb305e6ca8904c545b642e56f22ae7aa2d0ed6d7ce4e5e8d3fd48ccb9d7648",
+      "species": 16,
+      "validBoxCount": 3
+    },
+    {
+      "id": 188,
+      "file": "sp16_img03.jpg",
+      "width": 2838,
+      "height": 2829,
+      "sha256": "c189ffc64a59781dfdf5b8e71da3ec04e71379b6fccc0053d4b32b4978a15952",
+      "species": 16,
+      "validBoxCount": 3
+    },
+    {
+      "id": 189,
+      "file": "sp16_img04.jpg",
+      "width": 2792,
+      "height": 2809,
+      "sha256": "620693260511b4ff5cf2921133d14ad22b57b6abc523f0bd16e3b42869a01257",
+      "species": 16,
+      "validBoxCount": 3
+    },
+    {
+      "id": 190,
+      "file": "sp16_img05.jpg",
+      "width": 2931,
+      "height": 2922,
+      "sha256": "63a3b2ae22f51a6276bb6e2ff9b41f9bca58fd6436365fdec7c43ff01f00a826",
+      "species": 16,
+      "validBoxCount": 4
+    },
+    {
+      "id": 191,
+      "file": "sp16_img06.jpg",
+      "width": 2813,
+      "height": 2825,
+      "sha256": "c193508f9a8f2dc8e88b651c4b47d7f52a223a44f7cd3f48c8a1304e3a3ac7fe",
+      "species": 16,
+      "validBoxCount": 17
+    },
+    {
+      "id": 192,
+      "file": "sp16_img07.jpg",
+      "width": 2824,
+      "height": 2831,
+      "sha256": "ccdf64588179ba3c6b9ca9b5cbbc74995f763eb83ede2f6642c70c75e877cbd9",
+      "species": 16,
+      "validBoxCount": 18
+    },
+    {
+      "id": 193,
+      "file": "sp16_img08.jpg",
+      "width": 2894,
+      "height": 2900,
+      "sha256": "cdca55e776710f0d06f0a9659bd71b645bfda31693b2ead1c0c3a60dd7d7f941",
+      "species": 16,
+      "validBoxCount": 32
+    },
+    {
+      "id": 194,
+      "file": "sp16_img09.jpg",
+      "width": 2990,
+      "height": 2976,
+      "sha256": "8c49570dbcaf0d2a1d4e037eb37b30697b74b6629ee505408f15a1894a048df3",
+      "species": 16,
+      "validBoxCount": 32
+    },
+    {
+      "id": 195,
+      "file": "sp16_img10.jpg",
+      "width": 2902,
+      "height": 2915,
+      "sha256": "1ee08bbc4cdcbbf542635a09be41142e3cb46f5b6851d86a59e6454afc964ad4",
+      "species": 16,
+      "validBoxCount": 34
+    },
+    {
+      "id": 196,
+      "file": "sp16_img11.jpg",
+      "width": 2759,
+      "height": 2786,
+      "sha256": "a1843cc42226af2a37896c67b160342d46e01b6efda428edc22180bbc2e5af89",
+      "species": 16,
+      "validBoxCount": 34
+    },
+    {
+      "id": 197,
+      "file": "sp16_img12.jpg",
+      "width": 2905,
+      "height": 2900,
+      "sha256": "dbcaa372232d622f9a6ee0ea72a0a620e2ee39c1a6c8e1058cc919407090872f",
+      "species": 16,
+      "validBoxCount": 219
+    },
+    {
+      "id": 198,
+      "file": "sp16_img13.jpg",
+      "width": 2845,
+      "height": 2841,
+      "sha256": "4bbbb18226bdd5e37e964e0a7f0cfffde29d0c2308710c1058d007b64ea0a05e",
+      "species": 16,
+      "validBoxCount": 221
+    },
+    {
+      "id": 199,
+      "file": "sp16_img14.jpg",
+      "width": 2770,
+      "height": 2755,
+      "sha256": "dddf7e7ab434d9160b2b219142ad17a43a8420aab4668c6856d0cd01020f88d3",
+      "species": 16,
+      "validBoxCount": 223
+    },
+    {
+      "id": 200,
+      "file": "sp16_img15.jpg",
+      "width": 2866,
+      "height": 2872,
+      "sha256": "bdc27271e215f9e2af68d03d9062bb731cf377ceeec6bca715619aad8b92deb9",
+      "species": 16,
+      "validBoxCount": 246
+    },
+    {
+      "id": 201,
+      "file": "sp16_img16.jpg",
+      "width": 2759,
+      "height": 2779,
+      "sha256": "c4ce72bc176e5b0c79df80a291fd455f15078a9323b37d7fc350c59023724d2a",
+      "species": 16,
+      "validBoxCount": 256
+    },
+    {
+      "id": 202,
+      "file": "sp17_img01.jpg",
+      "width": 2770,
+      "height": 2761,
+      "sha256": "73ebe1f5835cb3af389dff637e7384702d0b22ed317bf9290b9c8e8a796b2f47",
+      "species": 17,
+      "validBoxCount": 50
+    },
+    {
+      "id": 203,
+      "file": "sp17_img02.jpg",
+      "width": 2727,
+      "height": 2761,
+      "sha256": "82012698a9e2cf11e532171b82d157c8c5ce89ed668e506d8748b806b9fc7957",
+      "species": 17,
+      "validBoxCount": 52
+    },
+    {
+      "id": 204,
+      "file": "sp17_img03.jpg",
+      "width": 2766,
+      "height": 2764,
+      "sha256": "bb98cf89ee5643aa9d48a29b39aba4c01b2c2c3d7d04593e8d0c3c69ed3de2e9",
+      "species": 17,
+      "validBoxCount": 122
+    },
+    {
+      "id": 205,
+      "file": "sp18_img01.jpg",
+      "width": 2745,
+      "height": 2736,
+      "sha256": "e8a9af40a5407e33ae740d974a1af945d293f0c5af3dd1873b3e03cb1fa2c744",
+      "species": 18,
+      "validBoxCount": 15
+    },
+    {
+      "id": 206,
+      "file": "sp18_img02.jpg",
+      "width": 2967,
+      "height": 2979,
+      "sha256": "ef634af7548977635e70675660214fa430d225e655c2324caa6d477672e2cc48",
+      "species": 18,
+      "validBoxCount": 18
+    },
+    {
+      "id": 207,
+      "file": "sp18_img03.jpg",
+      "width": 2902,
+      "height": 2915,
+      "sha256": "c5390cdb21d25834896318d06352cf953a0a7188b94836b4e5529dbb68774e9d",
+      "species": 18,
+      "validBoxCount": 18
+    },
+    {
+      "id": 208,
+      "file": "sp18_img04.jpg",
+      "width": 2874,
+      "height": 2872,
+      "sha256": "61b4309b2a27c7130a6471711efbee43458b48ade4786e6fc298bcd3d705af97",
+      "species": 18,
+      "validBoxCount": 18
+    },
+    {
+      "id": 209,
+      "file": "sp18_img05.jpg",
+      "width": 3005,
+      "height": 3259,
+      "sha256": "5a157c2d1f31168f07a99e5547512be9a231f26c607e35cdc115ba7db39baea3",
+      "species": 18,
+      "validBoxCount": 25
+    },
+    {
+      "id": 210,
+      "file": "sp18_img06.jpg",
+      "width": 2745,
+      "height": 2757,
+      "sha256": "853a60b8cddf52ff9099e3510ca58ab7cddec89e2f1098a563c944bf242d8242",
+      "species": 18,
+      "validBoxCount": 25
+    },
+    {
+      "id": 211,
+      "file": "sp18_img07.jpg",
+      "width": 2856,
+      "height": 2857,
+      "sha256": "a834889c95b3a7746a4a2c4daaa11609730b6ee2a44aeb46bf8aa27cd7671935",
+      "species": 18,
+      "validBoxCount": 162
+    },
+    {
+      "id": 212,
+      "file": "sp18_img08.jpg",
+      "width": 2701,
+      "height": 2702,
+      "sha256": "41fa047255bb9620d3d4cb073049b9a875c43fb0c6f08a2f1330b53bcc924277",
+      "species": 18,
+      "validBoxCount": 163
+    },
+    {
+      "id": 213,
+      "file": "sp18_img09.jpg",
+      "width": 2888,
+      "height": 2890,
+      "sha256": "c7dfecbb21b77c5edcdba532c8d92b0a3de50afc2f3d8a62ba0786178b3ba743",
+      "species": 18,
+      "validBoxCount": 218
+    },
+    {
+      "id": 214,
+      "file": "sp18_img10.jpg",
+      "width": 2797,
+      "height": 2809,
+      "sha256": "1b4ef2341df1afa93be5ee8279655c2ad4b38de1c759bc5848dc783558344ad7",
+      "species": 18,
+      "validBoxCount": 227
+    },
+    {
+      "id": 215,
+      "file": "sp18_img11.jpg",
+      "width": 2752,
+      "height": 2786,
+      "sha256": "ba6c43a60f59e044633160485b7310cf17fab9058dda8e80a4231e8e7f9533ad",
+      "species": 18,
+      "validBoxCount": 247
+    },
+    {
+      "id": 216,
+      "file": "sp18_img12.jpg",
+      "width": 2759,
+      "height": 2772,
+      "sha256": "1e7924be5726f2c8e73b569156dc06be65dc18c7725d2665b5e8819d64718684",
+      "species": 18,
+      "validBoxCount": 247
+    },
+    {
+      "id": 217,
+      "file": "sp19_img01.jpg",
+      "width": 2378,
+      "height": 2390,
+      "sha256": "59de9cf5d6875bd42c2989a66fec8dd0496ef8af669a39eead5ee6472ae1feae",
+      "species": 19,
+      "validBoxCount": 95
+    },
+    {
+      "id": 218,
+      "file": "sp19_img02.jpg",
+      "width": 2383,
+      "height": 2373,
+      "sha256": "43de066ad4555fca91f78bee6e6791798d49e7b8b6a1c88a744a6376cfdb79f9",
+      "species": 19,
+      "validBoxCount": 100
+    },
+    {
+      "id": 219,
+      "file": "sp19_img03.jpg",
+      "width": 2170,
+      "height": 2183,
+      "sha256": "a3e3ad57d47034489e99a572777f6eb23987c5ee304ce8c3911b992da0fd82c6",
+      "species": 19,
+      "validBoxCount": 106
+    },
+    {
+      "id": 220,
+      "file": "sp19_img04.jpg",
+      "width": 2218,
+      "height": 2178,
+      "sha256": "5a67ac19284e57c12e3ac4ade97d977b9c0f9d841f672cb84367724179ab2324",
+      "species": 19,
+      "validBoxCount": 106
+    },
+    {
+      "id": 221,
+      "file": "sp19_img05.jpg",
+      "width": 2378,
+      "height": 2386,
+      "sha256": "517d5a2dd51c5e968d692904e778344cbc6472bdcb368df69ffb471e2f700bc0",
+      "species": 19,
+      "validBoxCount": 106
+    },
+    {
+      "id": 222,
+      "file": "sp19_img06.jpg",
+      "width": 2183,
+      "height": 2165,
+      "sha256": "aaead27c93c5a349d5fa601182f65e303e1483b3c01ca3e97bf2d6fc0aaa358e",
+      "species": 19,
+      "validBoxCount": 108
+    },
+    {
+      "id": 223,
+      "file": "sp19_img07.jpg",
+      "width": 2187,
+      "height": 2183,
+      "sha256": "2eea3198402c368a03ea3192b4b86211d74d929d0a96b0f59576b3a7ffa05a61",
+      "species": 19,
+      "validBoxCount": 108
+    },
+    {
+      "id": 224,
+      "file": "sp19_img08.jpg",
+      "width": 2200,
+      "height": 2213,
+      "sha256": "4c88990a7fd03158f48a594213bc8d0225cd6ba5aed23ab2fbad5b6cd69cd99d",
+      "species": 19,
+      "validBoxCount": 110
+    },
+    {
+      "id": 225,
+      "file": "sp19_img09.jpg",
+      "width": 2183,
+      "height": 2183,
+      "sha256": "ae695287f6619dca1f9be7fb07bc82f473f8059c03feba4e79e232c2ca463949",
+      "species": 19,
+      "validBoxCount": 110
+    },
+    {
+      "id": 226,
+      "file": "sp19_img10.jpg",
+      "width": 2178,
+      "height": 2191,
+      "sha256": "710281a32e5785e3ba0fade5a5bacf057ee48bfa6691ef6dcdc360af02120f1f",
+      "species": 19,
+      "validBoxCount": 111
+    },
+    {
+      "id": 227,
+      "file": "sp19_img11.jpg",
+      "width": 2157,
+      "height": 2144,
+      "sha256": "e24fd910b9fbc6272dc3ad9b9814369dd97b089d64509ff6a3592931295c498d",
+      "species": 19,
+      "validBoxCount": 111
+    },
+    {
+      "id": 228,
+      "file": "sp19_img12.jpg",
+      "width": 2183,
+      "height": 2187,
+      "sha256": "b84895eb1bb9157579fa8cbdd4645d8fbdc9b7832dbb3550acbedfda5b57823b",
+      "species": 19,
+      "validBoxCount": 113
+    },
+    {
+      "id": 229,
+      "file": "sp19_img13.jpg",
+      "width": 2191,
+      "height": 2200,
+      "sha256": "017ebda79a51bd56964c2b1072db3906b74bcc3858281621eb9283ec8b32639e",
+      "species": 19,
+      "validBoxCount": 114
+    },
+    {
+      "id": 230,
+      "file": "sp19_img14.jpg",
+      "width": 2213,
+      "height": 2183,
+      "sha256": "4a2a55780168558633e92121e3ba26bcd6d1bb77868b1f647fe6e4ba47b36a7a",
+      "species": 19,
+      "validBoxCount": 120
+    },
+    {
+      "id": 231,
+      "file": "sp19_img15.jpg",
+      "width": 2183,
+      "height": 2178,
+      "sha256": "53da51e044884fbc3b2d3aad952460c91ee3f1ff101393d837eeb5df1119ab46",
+      "species": 19,
+      "validBoxCount": 120
+    },
+    {
+      "id": 232,
+      "file": "sp19_img16.jpg",
+      "width": 2387,
+      "height": 2382,
+      "sha256": "e796801395414b208be1e1347206fddfbdcd423ae864b623c3c5074b4cb9ed24",
+      "species": 19,
+      "validBoxCount": 120
+    },
+    {
+      "id": 233,
+      "file": "sp19_img17.jpg",
+      "width": 2178,
+      "height": 2218,
+      "sha256": "540d9559cce52311d857b7fbfc5a819c085c8e2f803cbd3d45275ac1d8bde75f",
+      "species": 19,
+      "validBoxCount": 124
+    },
+    {
+      "id": 234,
+      "file": "sp19_img18.jpg",
+      "width": 2148,
+      "height": 2161,
+      "sha256": "9f122c5a88007209aedee13f6afbfa666b541fa322a04d1af2b53454f81cf739",
+      "species": 19,
+      "validBoxCount": 124
+    },
+    {
+      "id": 235,
+      "file": "sp19_img19.jpg",
+      "width": 2170,
+      "height": 2183,
+      "sha256": "a3659c1fcb2af771b67be99b48a98b7caca6cf9542fa1e6a802277a856a4d17f",
+      "species": 19,
+      "validBoxCount": 124
+    },
+    {
+      "id": 236,
+      "file": "sp19_img20.jpg",
+      "width": 2209,
+      "height": 2205,
+      "sha256": "3543c2e5b6450842a66dfe513b5d48369625216da4bc12911b62ba5224b9a50e",
+      "species": 19,
+      "validBoxCount": 125
+    },
+    {
+      "id": 237,
+      "file": "sp19_img21.jpg",
+      "width": 2191,
+      "height": 2165,
+      "sha256": "7387826d0bb4f3463ef84f3f60422f919930865863012c9f4d32d32e82ba5d13",
+      "species": 19,
+      "validBoxCount": 130
+    },
+    {
+      "id": 238,
+      "file": "sp19_img22.jpg",
+      "width": 2174,
+      "height": 2144,
+      "sha256": "9d69eb4ae1b75be04acbd2ac52dec33d204a582d6a43811035cd9fb7171454d2",
+      "species": 19,
+      "validBoxCount": 130
+    },
+    {
+      "id": 239,
+      "file": "sp19_img23.jpg",
+      "width": 2200,
+      "height": 2196,
+      "sha256": "2d445e87aecbac136465a593a20ae94ece9e118776d7d5401a9684083454e9a5",
+      "species": 19,
+      "validBoxCount": 133
+    },
+    {
+      "id": 240,
+      "file": "sp19_img24.jpg",
+      "width": 2187,
+      "height": 2196,
+      "sha256": "6542de03ebf5aef573bf72b86724040e09e5f62642099c85de0b32d1c337eec0",
+      "species": 19,
+      "validBoxCount": 134
+    },
+    {
+      "id": 241,
+      "file": "sp20_img01.jpg",
+      "width": 2659,
+      "height": 2686,
+      "sha256": "bfc98b346b025d9ff0a2e6bed65083e2d9bc12f87b26c4df4409ffa843059fef",
+      "species": 20,
+      "validBoxCount": 31
+    },
+    {
+      "id": 242,
+      "file": "sp20_img02.jpg",
+      "width": 2888,
+      "height": 2886,
+      "sha256": "6b051e37045a6a567cc3febb929f1c7d31eea2bbea4a48d295cd549d39347988",
+      "species": 20,
+      "validBoxCount": 38
+    },
+    {
+      "id": 243,
+      "file": "sp20_img03.jpg",
+      "width": 2823,
+      "height": 2843,
+      "sha256": "0411b470f2e2924fb296e81a464be3fa5fffd5048d83b4f116ac750713d7d322",
+      "species": 20,
+      "validBoxCount": 55
+    },
+    {
+      "id": 244,
+      "file": "sp20_img04.jpg",
+      "width": 2752,
+      "height": 2764,
+      "sha256": "02181b91f815d374418093882d1523d1b6047f06cc9c78f6ce1460c654824ac0",
+      "species": 20,
+      "validBoxCount": 195
+    },
+    {
+      "id": 245,
+      "file": "sp20_img05.jpg",
+      "width": 2831,
+      "height": 2850,
+      "sha256": "a8e36576e3711905362eedd4f2cb6ae8b865f27c232359de68bc17c29079e70f",
+      "species": 20,
+      "validBoxCount": 251
+    },
+    {
+      "id": 246,
+      "file": "sp20_img06.jpg",
+      "width": 2788,
+      "height": 2772,
+      "sha256": "cea45c8725e2e4fb243a1ddc4fb6cb0d49f2136903750545fbd40fe67a894d1c",
+      "species": 20,
+      "validBoxCount": 283
+    },
+    {
+      "id": 247,
+      "file": "sp21_img01.jpg",
+      "width": 2387,
+      "height": 2395,
+      "sha256": "fa25002229d32068bab6a9fa0cc72df9a1da80ee6b729fbc7e0cc59577902054",
+      "species": 21,
+      "validBoxCount": 3
+    },
+    {
+      "id": 248,
+      "file": "sp21_img02.jpg",
+      "width": 2269,
+      "height": 2264,
+      "sha256": "0b5d4273fb5e360d820231b301218db228426101ed04af6e029ccbad2b32ed07",
+      "species": 21,
+      "validBoxCount": 3
+    },
+    {
+      "id": 249,
+      "file": "sp21_img04.jpg",
+      "width": 2327,
+      "height": 2306,
+      "sha256": "5226ac32924bff6839e5b9f22e044e4b7c4f9de6a7e0502159d70ab4dd5821b7",
+      "species": 21,
+      "validBoxCount": 21
+    },
+    {
+      "id": 250,
+      "file": "sp21_img05.jpg",
+      "width": 2373,
+      "height": 2342,
+      "sha256": "07569a85ff45ca34e10f9769e395ce9ea3d5a225be6b7485681de1a545a04bf5",
+      "species": 21,
+      "validBoxCount": 26
+    },
+    {
+      "id": 251,
+      "file": "sp21_img06.jpg",
+      "width": 2276,
+      "height": 2296,
+      "sha256": "e936cece7d14ed77ed95f321feb1f55d872cf84309ca15319cf1a9ece79946ca",
+      "species": 21,
+      "validBoxCount": 27
+    },
+    {
+      "id": 252,
+      "file": "sp21_img07.jpg",
+      "width": 2294,
+      "height": 2300,
+      "sha256": "f49e73513b5d74deaa08194dc17c0df52b77919f9ba5a33761257654ccaad30d",
+      "species": 21,
+      "validBoxCount": 42
+    },
+    {
+      "id": 253,
+      "file": "sp21_img08.jpg",
+      "width": 2311,
+      "height": 2300,
+      "sha256": "a6ee988e08c477835d07abbad367d3a5903caed1173df7f91b1736f482747f3a",
+      "species": 21,
+      "validBoxCount": 42
+    },
+    {
+      "id": 254,
+      "file": "sp21_img10.jpg",
+      "width": 5583,
+      "height": 5747,
+      "sha256": "e2f87477852a8be64b8b118708c1075360a075c9d69c463bf29479dcd108eea7",
+      "species": 21,
+      "validBoxCount": 53
+    },
+    {
+      "id": 255,
+      "file": "sp21_img11.jpg",
+      "width": 5418,
+      "height": 5481,
+      "sha256": "d38571eb51361c13a468f2da3f42aaf1eaa55b412f47489734bb76ba373a7ac5",
+      "species": 21,
+      "validBoxCount": 56
+    },
+    {
+      "id": 256,
+      "file": "sp21_img12.jpg",
+      "width": 5747,
+      "height": 5801,
+      "sha256": "bbc05e0cdb1847318b2622f37c6ab9befd1c6842545ceb4fe29c34faed303704",
+      "species": 21,
+      "validBoxCount": 56
+    },
+    {
+      "id": 257,
+      "file": "sp21_img13.jpg",
+      "width": 2260,
+      "height": 2279,
+      "sha256": "4e532671526c0bcbe9ba5003b61286b85f5385dfc7209554b3e7b770b18a4e10",
+      "species": 21,
+      "validBoxCount": 61
+    },
+    {
+      "id": 258,
+      "file": "sp21_img14.jpg",
+      "width": 2305,
+      "height": 2315,
+      "sha256": "103ee49a748a1fe7aeb0698e9c6e9480de00c693ac503214e344fb5f73eaaf8a",
+      "species": 21,
+      "validBoxCount": 61
+    },
+    {
+      "id": 259,
+      "file": "sp21_img16.jpg",
+      "width": 2303,
+      "height": 2313,
+      "sha256": "02d037483eff464b4518b6d7bc56970c44ee7950930373c7d38a424a53118d26",
+      "species": 21,
+      "validBoxCount": 89
+    },
+    {
+      "id": 260,
+      "file": "sp21_img17.jpg",
+      "width": 2281,
+      "height": 2296,
+      "sha256": "55a464a0cdd67a8a631dc380a0c157659e3fd116e64b2ffa1f507fd17d589859",
+      "species": 21,
+      "validBoxCount": 89
+    },
+    {
+      "id": 261,
+      "file": "sp21_img18.jpg",
+      "width": 5526,
+      "height": 5519,
+      "sha256": "38223f9a72b7d4934e53e699b9cfe3e650b2f6dd17d5953c76e5892a68ac7f00",
+      "species": 21,
+      "validBoxCount": 89
+    },
+    {
+      "id": 262,
+      "file": "sp21_img19.jpg",
+      "width": 5833,
+      "height": 5856,
+      "sha256": "9bb770ceeabe652e37f85c456f7590cc7240ee6372f0ef97959bed261915ea1f",
+      "species": 21,
+      "validBoxCount": 89
+    },
+    {
+      "id": 263,
+      "file": "sp21_img20.jpg",
+      "width": 2309,
+      "height": 2309,
+      "sha256": "923f22381259eced0543928d6c850fac62666ca7f272fe7aa6e54743a8b8134d",
+      "species": 21,
+      "validBoxCount": 91
+    },
+    {
+      "id": 264,
+      "file": "sp21_img21.jpg",
+      "width": 2342,
+      "height": 2339,
+      "sha256": "b832a7ccfcb5151968f83a9f72dd118d22ce4aca3055698d26e3e5d01d021cef",
+      "species": 21,
+      "validBoxCount": 92
+    },
+    {
+      "id": 265,
+      "file": "sp21_img23.jpg",
+      "width": 5530,
+      "height": 5629,
+      "sha256": "92da54860b61e73c817c61d7175c53c25f1fb306ffb453ccbd181213ed19af9f",
+      "species": 21,
+      "validBoxCount": 96
+    },
+    {
+      "id": 266,
+      "file": "sp21_img24.jpg",
+      "width": 5927,
+      "height": 5968,
+      "sha256": "32bb39d85d8b34cf67ba3b7e7c4dd2a7e726cc878dc6c2b27a7cafb98c4532b2",
+      "species": 21,
+      "validBoxCount": 100
+    },
+    {
+      "id": 267,
+      "file": "sp21_img25.jpg",
+      "width": 2325,
+      "height": 2334,
+      "sha256": "6063d542560259d4340c99c6a150dad085e9bb9874a2fad590b2e1490fccdf76",
+      "species": 21,
+      "validBoxCount": 145
+    },
+    {
+      "id": 268,
+      "file": "sp21_img26.jpg",
+      "width": 2338,
+      "height": 2295,
+      "sha256": "d602a961aabadb38dda6c9e804c874f30022d81e2ad1798ddc5b5bef43aafe08",
+      "species": 21,
+      "validBoxCount": 148
+    },
+    {
+      "id": 269,
+      "file": "sp21_img27.jpg",
+      "width": 2360,
+      "height": 2328,
+      "sha256": "f0b153b293732ae4e97f33f4a4e80ecb4a065b9624126670cfcc9f457e23f5de",
+      "species": 21,
+      "validBoxCount": 152
+    },
+    {
+      "id": 270,
+      "file": "sp21_img28.jpg",
+      "width": 2320,
+      "height": 2324,
+      "sha256": "2251dae2542832068fcdc4ca2e86c7e24370a874429aae4be8af3403e077677b",
+      "species": 21,
+      "validBoxCount": 158
+    },
+    {
+      "id": 271,
+      "file": "sp21_img29.jpg",
+      "width": 2345,
+      "height": 2354,
+      "sha256": "2e668b84df5870595069b20ae21d9fcbc861768b8115d79ae9f35e97f9d1d2be",
+      "species": 21,
+      "validBoxCount": 158
+    },
+    {
+      "id": 272,
+      "file": "sp21_img30.jpg",
+      "width": 2327,
+      "height": 2307,
+      "sha256": "a42ab577fff75896864fe4a9a69c64de09dc2f3e52bae6e62f58515d0c7978b5",
+      "species": 21,
+      "validBoxCount": 159
+    },
+    {
+      "id": 273,
+      "file": "sp21_img31.jpg",
+      "width": 2299,
+      "height": 2285,
+      "sha256": "4876b40decacc198a0929c74fa189f3a88453a44c156096229dbfcbb5c8e1508",
+      "species": 21,
+      "validBoxCount": 221
+    },
+    {
+      "id": 274,
+      "file": "sp21_img32.jpg",
+      "width": 2303,
+      "height": 2274,
+      "sha256": "0f7928a7482a8fb0af25d05b4323a910250163ba8d51acbeb594b62e7897a4ac",
+      "species": 21,
+      "validBoxCount": 222
+    },
+    {
+      "id": 275,
+      "file": "sp21_img33.jpg",
+      "width": 2297,
+      "height": 2309,
+      "sha256": "8179b5a6f85806a478fd085af39c6d0eb9dc9108fbf31b7a65a142f3d6ddcfde",
+      "species": 21,
+      "validBoxCount": 248
+    },
+    {
+      "id": 276,
+      "file": "sp21_img34.jpg",
+      "width": 2295,
+      "height": 2283,
+      "sha256": "d5ca2b97bc2efe2e6066f55c9f6491909b5e3242e106d456c04b53aee675a12c",
+      "species": 21,
+      "validBoxCount": 249
+    },
+    {
+      "id": 277,
+      "file": "sp21_img35.jpg",
+      "width": 2315,
+      "height": 2303,
+      "sha256": "c27aa64e04bff049944aeca7882f22e2f8b6b173692f40e41eaf0657f35a850c",
+      "species": 21,
+      "validBoxCount": 249
+    },
+    {
+      "id": 278,
+      "file": "sp21_img36.jpg",
+      "width": 5539,
+      "height": 5552,
+      "sha256": "7c9de1d7654e13ae68ced186a237d25c69f7a4fc4fa758613af55c3cf33c649d",
+      "species": 21,
+      "validBoxCount": 312
+    },
+    {
+      "id": 279,
+      "file": "sp21_img37.jpg",
+      "width": 5848,
+      "height": 5829,
+      "sha256": "7d50746614d4c397602083f03e1080e5e92f620bd26c4036d64b456d4376faa1",
+      "species": 21,
+      "validBoxCount": 313
+    },
+    {
+      "id": 280,
+      "file": "sp21_img38.jpg",
+      "width": 5824,
+      "height": 5919,
+      "sha256": "da97c5ab1bba78d052cbe622924b0ce767d6ee025d507f8ee777d71d65e8a134",
+      "species": 21,
+      "validBoxCount": 411
+    },
+    {
+      "id": 281,
+      "file": "sp21_img39.jpg",
+      "width": 5535,
+      "height": 5504,
+      "sha256": "53b9683e31427b4ecd0bfacc174b2190e2a366f021803ecbce00ab745b2a4647",
+      "species": 21,
+      "validBoxCount": 412
+    },
+    {
+      "id": 282,
+      "file": "sp21_img40.jpg",
+      "width": 2580,
+      "height": 2585,
+      "sha256": "fda6745cedb0d03834ca9a0eb03332d235047ffa24f0affc0d874172e08fd3f1",
+      "species": 21,
+      "validBoxCount": 416
+    },
+    {
+      "id": 283,
+      "file": "sp21_img41.jpg",
+      "width": 5942,
+      "height": 5920,
+      "sha256": "e135a1fbf475498947274d87ee2c5c29f70f1f18f15b3a854012b7ec2333741d",
+      "species": 21,
+      "validBoxCount": 420
+    },
+    {
+      "id": 284,
+      "file": "sp21_img42.jpg",
+      "width": 5654,
+      "height": 5575,
+      "sha256": "156dc7475e443b66debaf5f682f99bbc676841a19c4e35b7363ba6c8668a9c63",
+      "species": 21,
+      "validBoxCount": 425
+    },
+    {
+      "id": 285,
+      "file": "sp21_img43.jpg",
+      "width": 2664,
+      "height": 2659,
+      "sha256": "fd60524bdc4ee29b7166b311602574beb630fb3b0591e721f93cba7184774301",
+      "species": 21,
+      "validBoxCount": 431
+    },
+    {
+      "id": 286,
+      "file": "sp21_img44.jpg",
+      "width": 2421,
+      "height": 2428,
+      "sha256": "f74eeacd2fea5932988c52c6d946af4af521fadf94d5b18a3e508d3022ff15d7",
+      "species": 21,
+      "validBoxCount": 442
+    },
+    {
+      "id": 287,
+      "file": "sp21_img45.jpg",
+      "width": 2668,
+      "height": 2659,
+      "sha256": "ee757ac7c88618ba3b01af8f41c0e2c4bf7dac27fdc973695b721aba47ea5f1b",
+      "species": 21,
+      "validBoxCount": 449
+    },
+    {
+      "id": 288,
+      "file": "sp21_img46.jpg",
+      "width": 2312,
+      "height": 2332,
+      "sha256": "308fff72f3c3a8c76cbcd937fb211d4ce317cc0c12e56cdaee4babea98db2e48",
+      "species": 21,
+      "validBoxCount": 449
+    },
+    {
+      "id": 289,
+      "file": "sp21_img47.jpg",
+      "width": 2312,
+      "height": 2289,
+      "sha256": "64b40bc8bff7b60c332f5936efc848281f0b9b32b399c57af4bd2554e425f0f8",
+      "species": 21,
+      "validBoxCount": 450
+    },
+    {
+      "id": 290,
+      "file": "sp21_img48.jpg",
+      "width": 2280,
+      "height": 2281,
+      "sha256": "6cf77c46c229f265a23f545226a68296a2cd75f7dc7e09d429cc334962e0c83a",
+      "species": 21,
+      "validBoxCount": 451
+    },
+    {
+      "id": 291,
+      "file": "sp21_img49.jpg",
+      "width": 2325,
+      "height": 2336,
+      "sha256": "9d97f9d8295cfa3beb617b1b378e9842d443b3ab07d29a2e3dbc6be1fe2d7b94",
+      "species": 21,
+      "validBoxCount": 584
+    },
+    {
+      "id": 292,
+      "file": "sp21_img50.jpg",
+      "width": 2326,
+      "height": 2320,
+      "sha256": "199796306be001304f17d2e6b67683c1b5a272612f41922e25eb14fded64c59a",
+      "species": 21,
+      "validBoxCount": 585
+    },
+    {
+      "id": 293,
+      "file": "sp21_img51.jpg",
+      "width": 2647,
+      "height": 2659,
+      "sha256": "afd57cac9d8c42fde86bb1e8686f40e9e807f0a835966314fae71bd65fd3ef30",
+      "species": 21,
+      "validBoxCount": 634
+    },
+    {
+      "id": 294,
+      "file": "sp21_img52.jpg",
+      "width": 2577,
+      "height": 2578,
+      "sha256": "b2e1a70388cd6a54ab99ec86ca1a69586d2493ca5f2a59884e95619f5ad8a083",
+      "species": 21,
+      "validBoxCount": 681
+    },
+    {
+      "id": 295,
+      "file": "sp22_img01.jpg",
+      "width": 2264,
+      "height": 2277,
+      "sha256": "70c202e12c961fb8445f502b66c1c5ebe7930f2186ff2df3839fcb53328868e5",
+      "species": 22,
+      "validBoxCount": 26
+    },
+    {
+      "id": 296,
+      "file": "sp22_img02.jpg",
+      "width": 2813,
+      "height": 2761,
+      "sha256": "faa9ce7f540adb2952d0fd64f228feb1fbc52a348459b53e2a3673b7199caf10",
+      "species": 22,
+      "validBoxCount": 35
+    },
+    {
+      "id": 297,
+      "file": "sp22_img03.jpg",
+      "width": 2819,
+      "height": 2815,
+      "sha256": "ce33f90aeba84e86cba961fa3825475811c1dd2d98deccf2c9d9be21cd397445",
+      "species": 22,
+      "validBoxCount": 70
+    },
+    {
+      "id": 298,
+      "file": "sp22_img04.jpg",
+      "width": 2409,
+      "height": 2425,
+      "sha256": "2cd94e1cdcce36317746146229ed9f3ed2655a7317f5ac9c76fb4f6a74ec7f73",
+      "species": 22,
+      "validBoxCount": 178
+    },
+    {
+      "id": 299,
+      "file": "sp22_img05.jpg",
+      "width": 2426,
+      "height": 2425,
+      "sha256": "ae45d9f3a9dab6799a503cb2cb08d35c940c286ab98f08c1e54d315f9f13b1a2",
+      "species": 22,
+      "validBoxCount": 181
+    },
+    {
+      "id": 300,
+      "file": "sp22_img06.jpg",
+      "width": 2400,
+      "height": 2399,
+      "sha256": "00c85da373725bc34c34d808f84e8f388d69e40614babcc701e487947e47974a",
+      "species": 22,
+      "validBoxCount": 193
+    },
+    {
+      "id": 301,
+      "file": "sp22_img07.jpg",
+      "width": 2400,
+      "height": 2412,
+      "sha256": "02a5596ad4dee4b1e3342ba829e3510b1bea4e18d83a322b76ba9af1be61f7af",
+      "species": 22,
+      "validBoxCount": 195
+    },
+    {
+      "id": 302,
+      "file": "sp22_img08.jpg",
+      "width": 2361,
+      "height": 2373,
+      "sha256": "2b80c8b8a1c88e0a9175d57ffea7d78b521ad9778c1fa961622c8c68443c50c0",
+      "species": 22,
+      "validBoxCount": 199
+    },
+    {
+      "id": 303,
+      "file": "sp22_img09.jpg",
+      "width": 2383,
+      "height": 2373,
+      "sha256": "9415d937d3379b20d95259da73d2c358d0523c240e85f583a77d115e92c3de0a",
+      "species": 22,
+      "validBoxCount": 199
+    },
+    {
+      "id": 304,
+      "file": "sp22_img10.jpg",
+      "width": 2370,
+      "height": 2390,
+      "sha256": "8905dcfc77e83aa980e67363fbc14f6c5a011d354d14eee23614fc59b38d51d3",
+      "species": 22,
+      "validBoxCount": 227
+    },
+    {
+      "id": 305,
+      "file": "sp22_img11.jpg",
+      "width": 2593,
+      "height": 2578,
+      "sha256": "15eae14cc49cd0c9d4f772aa2f509eab0d88a06013e3954f5370f93a48bd4b95",
+      "species": 22,
+      "validBoxCount": 228
+    },
+    {
+      "id": 306,
+      "file": "sp22_img12.jpg",
+      "width": 2396,
+      "height": 2390,
+      "sha256": "04a18611c407dc211421f6f4df05950ffefe47d648edbc28290e745edcbc68c2",
+      "species": 22,
+      "validBoxCount": 229
+    },
+    {
+      "id": 307,
+      "file": "sp22_img13.jpg",
+      "width": 2856,
+      "height": 2804,
+      "sha256": "e03dce2916e77411c2a1a6d790828c208f158e23f2d1bca11b09fc0d3f9257b1",
+      "species": 22,
+      "validBoxCount": 233
+    },
+    {
+      "id": 308,
+      "file": "sp22_img14.jpg",
+      "width": 2400,
+      "height": 2360,
+      "sha256": "1b6df7bda4be3934bc1d49a97c7842a4dd54e8346a9feb42030bd61c84d7c9ad",
+      "species": 22,
+      "validBoxCount": 265
+    },
+    {
+      "id": 309,
+      "file": "sp22_img15.jpg",
+      "width": 2387,
+      "height": 2386,
+      "sha256": "bac7b7035b2c18a178eff9a0aedd74aa291196daf8e91cf89991232f09e5f482",
+      "species": 22,
+      "validBoxCount": 352
+    },
+    {
+      "id": 310,
+      "file": "sp22_img16.jpg",
+      "width": 2378,
+      "height": 2382,
+      "sha256": "2349c751d0fa58503102313720f7ee558d3052e80034d1c4fef59e014fb73fec",
+      "species": 22,
+      "validBoxCount": 356
+    },
+    {
+      "id": 311,
+      "file": "sp22_img17.jpg",
+      "width": 2309,
+      "height": 2288,
+      "sha256": "4ba4f04f95100a83b327ddde3e47bce4dfcd72d0d929865e53121934cc259c4f",
+      "species": 22,
+      "validBoxCount": 385
+    },
+    {
+      "id": 312,
+      "file": "sp22_img18.jpg",
+      "width": 2690,
+      "height": 2659,
+      "sha256": "d83db4de10b39142d938111666c25169876dc7c2b5cf73ac380bef7d41bf40ca",
+      "species": 22,
+      "validBoxCount": 388
+    },
+    {
+      "id": 313,
+      "file": "sp22_img19.jpg",
+      "width": 2412,
+      "height": 2396,
+      "sha256": "268bc97c733c2ca74374fd2ffed8f61d7edaea7a11c4b12f5c45df0087b2d929",
+      "species": 22,
+      "validBoxCount": 449
+    },
+    {
+      "id": 314,
+      "file": "sp22_img20.jpg",
+      "width": 2390,
+      "height": 2396,
+      "sha256": "d3bbad5f4ef1ab46de1c168289ba7934f6bf61ca500f67476c2715d13dd40a3b",
+      "species": 22,
+      "validBoxCount": 459
+    },
+    {
+      "id": 315,
+      "file": "sp22_img21.jpg",
+      "width": 2412,
+      "height": 2391,
+      "sha256": "527f4bc5bceb6e75769837bb9480f4b9c12b809a5950fafe35786e9ee0d07b22",
+      "species": 22,
+      "validBoxCount": 479
+    },
+    {
+      "id": 316,
+      "file": "sp22_img22.jpg",
+      "width": 2403,
+      "height": 2409,
+      "sha256": "993f02b095faebfc9bc60c9e2cd907a6584d30610cdbe50512a0a2182b5c6aeb",
+      "species": 22,
+      "validBoxCount": 479
+    },
+    {
+      "id": 317,
+      "file": "sp22_img23.jpg",
+      "width": 2566,
+      "height": 2578,
+      "sha256": "dc3a7e911d7f375b73b69bf1f10a8750b4f75775709ec2c2a36ac9082c6a7b9c",
+      "species": 22,
+      "validBoxCount": 501
+    },
+    {
+      "id": 318,
+      "file": "sp22_img24.jpg",
+      "width": 2701,
+      "height": 2680,
+      "sha256": "f45ed590819c00e092f090853fa91787812de85843e35bf05f5b1e8082baab18",
+      "species": 22,
+      "validBoxCount": 508
+    },
+    {
+      "id": 319,
+      "file": "sp23_img01.jpg",
+      "width": 2690,
+      "height": 2696,
+      "sha256": "5883defb5fd843cc3f6d5e42d10d1f16337d11609cd1326f833d74aff3738a75",
+      "species": 23,
+      "validBoxCount": 23
+    },
+    {
+      "id": 320,
+      "file": "sp23_img02.jpg",
+      "width": 2604,
+      "height": 2605,
+      "sha256": "073b66635f7c6e1285691928450949340e79e64892b15e9bca4d59e4369d6008",
+      "species": 23,
+      "validBoxCount": 42
+    },
+    {
+      "id": 321,
+      "file": "sp23_img03.jpg",
+      "width": 2378,
+      "height": 2390,
+      "sha256": "5dcc5ba01f56f871b9cdff4efeaeebbcb8c3eb3fade09ceeb97ccd5b940bb6fb",
+      "species": 23,
+      "validBoxCount": 61
+    },
+    {
+      "id": 322,
+      "file": "sp23_img04.jpg",
+      "width": 2378,
+      "height": 2386,
+      "sha256": "948aff6da0d0c6177a55ad362e3c95a193b9f1790dda65472b214934ae6c462f",
+      "species": 23,
+      "validBoxCount": 61
+    },
+    {
+      "id": 323,
+      "file": "sp23_img05.jpg",
+      "width": 2926,
+      "height": 2879,
+      "sha256": "5d76987a2680216e2e8c11cae9762a5727b500ddd8f4752c8db61aeb9cba432f",
+      "species": 23,
+      "validBoxCount": 68
+    },
+    {
+      "id": 324,
+      "file": "sp23_img06.jpg",
+      "width": 2222,
+      "height": 2218,
+      "sha256": "df276c8758ce56f3c505e2b41cfd27b207a5710bdb478150a185170d5f4fb4db",
+      "species": 23,
+      "validBoxCount": 221
+    },
+    {
+      "id": 325,
+      "file": "sp23_img07.jpg",
+      "width": 2209,
+      "height": 2218,
+      "sha256": "c5faf1d8611da728d50a837485141b5fca77a6b1e5d92edfb843f5bc2fe91f20",
+      "species": 23,
+      "validBoxCount": 226
+    },
+    {
+      "id": 326,
+      "file": "sp23_img08.jpg",
+      "width": 2200,
+      "height": 2187,
+      "sha256": "eaf9b04d93eaa5d444063c126e1ca70fdfc3c7615e7a117484df01d5dcde8356",
+      "species": 23,
+      "validBoxCount": 249
+    },
+    {
+      "id": 327,
+      "file": "sp23_img09.jpg",
+      "width": 2205,
+      "height": 2196,
+      "sha256": "78b446d8c7472c8b88c350cf5a4e5120deca1cefe42e7ec9380a7a6e03607167",
+      "species": 23,
+      "validBoxCount": 252
+    },
+    {
+      "id": 328,
+      "file": "sp23_img10.jpg",
+      "width": 2178,
+      "height": 2187,
+      "sha256": "1b0f0013f2bd49a9a649577a09faaca0a41a0637f50db8cf0ebf5b302ad90f5a",
+      "species": 23,
+      "validBoxCount": 262
+    },
+    {
+      "id": 329,
+      "file": "sp23_img11.jpg",
+      "width": 2231,
+      "height": 2213,
+      "sha256": "aa3ecf88e2f06aa33f5b55902c4f4445721572c342fd9e333611f95fc7578d67",
+      "species": 23,
+      "validBoxCount": 270
+    },
+    {
+      "id": 330,
+      "file": "sp23_img12.jpg",
+      "width": 2374,
+      "height": 2364,
+      "sha256": "127d5f4c5cc1b614269fc5fe006786456180441209ec17e36143af43b1392718",
+      "species": 23,
+      "validBoxCount": 301
+    },
+    {
+      "id": 331,
+      "file": "sp23_img13.jpg",
+      "width": 2218,
+      "height": 2209,
+      "sha256": "81a28fe790cce9273b2c693cc9324161cf3d684e5c743411a2cf087fafe88e3f",
+      "species": 23,
+      "validBoxCount": 306
+    },
+    {
+      "id": 332,
+      "file": "sp23_img14.jpg",
+      "width": 2231,
+      "height": 2213,
+      "sha256": "38f3e1da158fbb97c4976b0e27783c3680043c2ab3ebb1fa9755f1b587614081",
+      "species": 23,
+      "validBoxCount": 307
+    },
+    {
+      "id": 333,
+      "file": "sp23_img15.jpg",
+      "width": 2370,
+      "height": 2385,
+      "sha256": "52df422c03d6571ecfb6b46b95566bb766ebcef85f25131e17de71f0cdf7cb9c",
+      "species": 23,
+      "validBoxCount": 309
+    },
+    {
+      "id": 334,
+      "file": "sp23_img16.jpg",
+      "width": 2378,
+      "height": 2373,
+      "sha256": "5b0e0875381a5f04210ec1c6e2858d61da31f2062b7ecff2a8e9b59fdd3c1396",
+      "species": 23,
+      "validBoxCount": 356
+    },
+    {
+      "id": 335,
+      "file": "sp23_img17.jpg",
+      "width": 2378,
+      "height": 2364,
+      "sha256": "e703564d8a038571b6c4773cda2e32f89c536bcfd2b45c3bf921ee7756531d58",
+      "species": 23,
+      "validBoxCount": 358
+    },
+    {
+      "id": 336,
+      "file": "sp23_img18.jpg",
+      "width": 2679,
+      "height": 2686,
+      "sha256": "ba0d8efa6cf8c1816345da99985c60476e4605f603a3b90e97bb6523f0841f60",
+      "species": 23,
+      "validBoxCount": 463
+    },
+    {
+      "id": 337,
+      "file": "sp23_img19.jpg",
+      "width": 2582,
+      "height": 2535,
+      "sha256": "78b0e45f6978b48cd60426832bc157773ea75afca3c74d5f81a6e6343c8c2302",
+      "species": 23,
+      "validBoxCount": 470
+    },
+    {
+      "id": 338,
+      "file": "sp23_img20.jpg",
+      "width": 2187,
+      "height": 2200,
+      "sha256": "d6c4d49f9f0fa5cb2c4954d1169f8e38d2c9026a37096fc39776f432ea4d39b3",
+      "species": 23,
+      "validBoxCount": 609
+    },
+    {
+      "id": 339,
+      "file": "sp23_img21.jpg",
+      "width": 2205,
+      "height": 2191,
+      "sha256": "016c25cab0a19107b4d846d36b04f2374e6285ba895070a45938a33d810cd008",
+      "species": 23,
+      "validBoxCount": 612
+    },
+    {
+      "id": 340,
+      "file": "sp23_img22.jpg",
+      "width": 2792,
+      "height": 2793,
+      "sha256": "48ae506ee848e413acd2a56563dba5259e9fd6f35d70b759b0b8fc253eb64a7e",
+      "species": 23,
+      "validBoxCount": 620
+    },
+    {
+      "id": 341,
+      "file": "sp23_img23.jpg",
+      "width": 2781,
+      "height": 2766,
+      "sha256": "8b5714b7d00fcc1cc143eb665efaa3faa31cee2fcffa58aa1e9ee4f5f3f7b3ea",
+      "species": 23,
+      "validBoxCount": 621
+    },
+    {
+      "id": 342,
+      "file": "sp24_img01.jpg",
+      "width": 2947,
+      "height": 2938,
+      "sha256": "e88f47165823d4c21c75f07492f4ea2923d164d8fc4f4bd6625e9ac936c4192a",
+      "species": 24,
+      "validBoxCount": 4
+    },
+    {
+      "id": 343,
+      "file": "sp24_img02.jpg",
+      "width": 2947,
+      "height": 2890,
+      "sha256": "510f6672f42960e92aafe7aef12080a22262ce1941f09092c7a57a2f15865f00",
+      "species": 24,
+      "validBoxCount": 4
+    },
+    {
+      "id": 344,
+      "file": "sp24_img03.jpg",
+      "width": 2977,
+      "height": 3072,
+      "sha256": "2485da9b398aa8d11928e7b37aa6fdb4ff466a9313ee5fd7561cf598fe2d74e3",
+      "species": 24,
+      "validBoxCount": 5
+    },
+    {
+      "id": 345,
+      "file": "sp24_img04.jpg",
+      "width": 2912,
+      "height": 2929,
+      "sha256": "efa8159e2e8d3fd75367344b0be873e84dc3337dbda8b08a4ff5e5618ec16b0a",
+      "species": 24,
+      "validBoxCount": 5
+    },
+    {
+      "id": 346,
+      "file": "sp24_img05.jpg",
+      "width": 2931,
+      "height": 2929,
+      "sha256": "4a43d0e78a4f3604fe38a059b6e3514e347bdaef84f58f0acc8c73a3110c1555",
+      "species": 24,
+      "validBoxCount": 21
+    },
+    {
+      "id": 347,
+      "file": "sp24_img06.jpg",
+      "width": 2845,
+      "height": 2865,
+      "sha256": "8529f8d5a27e1a6e90d69cbf0ee68ee94889b52ee4d4a4410938af3d33ffee87",
+      "species": 24,
+      "validBoxCount": 22
+    },
+    {
+      "id": 348,
+      "file": "sp24_img07.jpg",
+      "width": 2953,
+      "height": 2933,
+      "sha256": "8ae40c74787ef16214b4e66125d6a62a18f02f16c3c9855d9533b7b3ef22e68a",
+      "species": 24,
+      "validBoxCount": 37
+    },
+    {
+      "id": 349,
+      "file": "sp24_img08.jpg",
+      "width": 2985,
+      "height": 2976,
+      "sha256": "87d91056a7c0d09f005d796bf3cf407db2ba33bfbd30575844aca52e8204cb5d",
+      "species": 24,
+      "validBoxCount": 37
+    },
+    {
+      "id": 350,
+      "file": "sp24_img09.jpg",
+      "width": 2917,
+      "height": 2986,
+      "sha256": "148559b9c347625105ec9e0d72f67cc8ba6975ff3e3ca5919604328e3eef5012",
+      "species": 24,
+      "validBoxCount": 38
+    },
+    {
+      "id": 351,
+      "file": "sp24_img10.jpg",
+      "width": 2895,
+      "height": 2900,
+      "sha256": "2185d5d79d7f1e546196084314e5349cdaddbe561722027751a4d413ea6f5bb4",
+      "species": 24,
+      "validBoxCount": 40
+    },
+    {
+      "id": 352,
+      "file": "sp24_img11.jpg",
+      "width": 2952,
+      "height": 3015,
+      "sha256": "a2096caca98b9711dece953915e74534c9890d731f865e7568a49a7e789be1ae",
+      "species": 24,
+      "validBoxCount": 90
+    },
+    {
+      "id": 353,
+      "file": "sp24_img12.jpg",
+      "width": 2823,
+      "height": 2857,
+      "sha256": "2eae798b66a86f1214981174a511c50ff9d23521cf5c1852c74e600320e90d64",
+      "species": 24,
+      "validBoxCount": 90
+    },
+    {
+      "id": 354,
+      "file": "sp24_img13.jpg",
+      "width": 2934,
+      "height": 3051,
+      "sha256": "6e5b74f5c96b1eb89e19934c47799b72a101286983743f562c7826a7b0eb53ba",
+      "species": 24,
+      "validBoxCount": 91
+    },
+    {
+      "id": 355,
+      "file": "sp24_img14.jpg",
+      "width": 3060,
+      "height": 2960,
+      "sha256": "16967eb9a3eefdab99b889d6207e268edc953b6fd85548b8d295a183aefb0bcb",
+      "species": 24,
+      "validBoxCount": 91
+    },
+    {
+      "id": 356,
+      "file": "sp24_img15.jpg",
+      "width": 3114,
+      "height": 3024,
+      "sha256": "3bac1b8bc3fdbc60e81eab24b5e762340e24fe3c05f23e0a54d2038197cbb875",
+      "species": 24,
+      "validBoxCount": 105
+    },
+    {
+      "id": 357,
+      "file": "sp24_img16.jpg",
+      "width": 2905,
+      "height": 2863,
+      "sha256": "96f2a475e8fab9d0b8fe76b93adb3c4ec44fa306664b7a7ad1c75055430ededc",
+      "species": 24,
+      "validBoxCount": 107
+    },
+    {
+      "id": 358,
+      "file": "sp09_img01.jpg",
+      "width": 2931,
+      "height": 2917,
+      "sha256": "bb24776509d5d4e7de0b37797160672f2dce7ff39b5349e93c28a7abb95a86fe",
+      "species": 9,
+      "validBoxCount": 3
+    },
+    {
+      "id": 359,
+      "file": "sp09_img02.jpg",
+      "width": 2765,
+      "height": 2782,
+      "sha256": "34eac695ccea011af7e928d9e99faef69007ca2d4e15f776a36b9d4dafdf3730",
+      "species": 9,
+      "validBoxCount": 3
+    },
+    {
+      "id": 360,
+      "file": "sp09_img03.jpg",
+      "width": 2872,
+      "height": 2884,
+      "sha256": "1851b4c5ca3477606bfe55954896c54b4c8294c81047f72d7225c64754a313af",
+      "species": 9,
+      "validBoxCount": 9
+    },
+    {
+      "id": 361,
+      "file": "sp09_img04.jpg",
+      "width": 3039,
+      "height": 2981,
+      "sha256": "270038a77e7250ba5930645e37e8265ecbda609932ddd311a6dbc9aba165873e",
+      "species": 9,
+      "validBoxCount": 9
+    },
+    {
+      "id": 362,
+      "file": "sp09_img05.jpg",
+      "width": 2813,
+      "height": 2815,
+      "sha256": "6b6a0df54e9447ca9aaea0b65dda8d195676d07e30c5430bbee2a2b68605cdd3",
+      "species": 9,
+      "validBoxCount": 86
+    },
+    {
+      "id": 363,
+      "file": "sp09_img06.jpg",
+      "width": 2733,
+      "height": 2745,
+      "sha256": "782398be951aa396bdcdbed8525c36a44d77ee32965874d4d8d691e0539e6304",
+      "species": 9,
+      "validBoxCount": 88
+    },
+    {
+      "id": 364,
+      "file": "sp09_img07.jpg",
+      "width": 2674,
+      "height": 2696,
+      "sha256": "7a8314e68aa265e6753c7a3902d1d5d85cf67ad52e914410929ef6af3623ffb1",
+      "species": 9,
+      "validBoxCount": 160
+    },
+    {
+      "id": 365,
+      "file": "sp09_img08.jpg",
+      "width": 2786,
+      "height": 2782,
+      "sha256": "34216d612c771e95b9b3b2bcfd8dbd69aec5ae40ad39a4ce4eda1e2a5ee4bb5f",
+      "species": 9,
+      "validBoxCount": 163
+    },
+    {
+      "id": 366,
+      "file": "sp09_img09.jpg",
+      "width": 2819,
+      "height": 2809,
+      "sha256": "7f7dedb5a1fb0bc8ed2d30fade23ea5a4f1dfbc76fc2f357d582866cde7f36d3",
+      "species": 9,
+      "validBoxCount": 182
+    },
+    {
+      "id": 367,
+      "file": "sp09_img10.jpg",
+      "width": 2786,
+      "height": 2793,
+      "sha256": "bd05d491cc2f8fff53618aa0ef3acb0b8290a51d1aa7a8c636b0fc8cdf3217f9",
+      "species": 9,
+      "validBoxCount": 185
+    },
+    {
+      "id": 368,
+      "file": "sp09_img11.jpg",
+      "width": 2899,
+      "height": 2906,
+      "sha256": "bf782c257b2af999e34dd27c6bf1a10eb8800115ded359c816f8b6845bd23a84",
+      "species": 9,
+      "validBoxCount": 441
+    },
+    {
+      "id": 369,
+      "file": "sp09_img12.jpg",
+      "width": 2883,
+      "height": 2884,
+      "sha256": "9c738e07be0896589bf62a31156c3be3f72bdfedb93ecfb1f4ebd4db1ff7891e",
+      "species": 9,
+      "validBoxCount": 446
+    }
+  ],
+  "quarantinedImages": [
+    "sp22_img09.jpg",
+    "sp23_img15.jpg",
+    "sp09_img07.jpg"
+  ],
+  "invalidAnnotations": [
+    {
+      "annotationId": 41642,
+      "imageId": 303,
+      "file": "sp22_img09.jpg",
+      "bbox": [
+        1365,
+        822,
+        8,
+        0
+      ]
+    },
+    {
+      "annotationId": 50085,
+      "imageId": 333,
+      "file": "sp23_img15.jpg",
+      "bbox": [
+        521,
+        1855,
+        1,
+        0
+      ]
+    },
+    {
+      "annotationId": 55448,
+      "imageId": 364,
+      "file": "sp09_img07.jpg",
+      "bbox": [
+        2552,
+        1634,
+        2,
+        0
+      ]
+    }
+  ],
+  "duplicateBoxes": [],
+  "clippedOutOfImageBoxes": [
+    {
+      "annotationId": 2254,
+      "file": "sp04_img01.jpg",
+      "original": [
+        594,
+        1951,
+        529,
+        529
+      ],
+      "clipped": [
+        594,
+        1951,
+        529,
+        520
+      ]
+    },
+    {
+      "annotationId": 8958,
+      "file": "sp06_img22.jpg",
+      "original": [
+        -7,
+        1014,
+        33,
+        41
+      ],
+      "clipped": [
+        0,
+        1014,
+        26,
+        41
+      ]
+    },
+    {
+      "annotationId": 9686,
+      "file": "sp06_img27.jpg",
+      "original": [
+        1017,
+        -7,
+        37,
+        33
+      ],
+      "clipped": [
+        1017,
+        0,
+        37,
+        26
+      ]
+    },
+    {
+      "annotationId": 9815,
+      "file": "sp06_img28.jpg",
+      "original": [
+        1094,
+        -2,
+        29,
+        28
+      ],
+      "clipped": [
+        1094,
+        0,
+        29,
+        26
+      ]
+    },
+    {
+      "annotationId": 19262,
+      "file": "sp13_img04.jpg",
+      "original": [
+        1281,
+        -9,
+        74,
+        45
+      ],
+      "clipped": [
+        1281,
+        0,
+        74,
+        36
+      ]
+    },
+    {
+      "annotationId": 20974,
+      "file": "sp14_img13.jpg",
+      "original": [
+        1137,
+        -20,
+        118,
+        104
+      ],
+      "clipped": [
+        1137,
+        0,
+        118,
+        84
+      ]
+    },
+    {
+      "annotationId": 21187,
+      "file": "sp14_img15.jpg",
+      "original": [
+        990,
+        -8,
+        87,
+        73
+      ],
+      "clipped": [
+        990,
+        0,
+        87,
+        65
+      ]
+    },
+    {
+      "annotationId": 21655,
+      "file": "sp14_img18.jpg",
+      "original": [
+        1122,
+        2416,
+        75,
+        84
+      ],
+      "clipped": [
+        1122,
+        2416,
+        75,
+        71
+      ]
+    },
+    {
+      "annotationId": 21759,
+      "file": "sp14_img18.jpg",
+      "original": [
+        995,
+        2410,
+        79,
+        81
+      ],
+      "clipped": [
+        995,
+        2410,
+        79,
+        77
+      ]
+    },
+    {
+      "annotationId": 25849,
+      "file": "sp19_img03.jpg",
+      "original": [
+        984,
+        2119,
+        81,
+        70
+      ],
+      "clipped": [
+        984,
+        2119,
+        81,
+        64
+      ]
+    },
+    {
+      "annotationId": 25863,
+      "file": "sp19_img03.jpg",
+      "original": [
+        2135,
+        1126,
+        40,
+        47
+      ],
+      "clipped": [
+        2135,
+        1126,
+        35,
+        47
+      ]
+    },
+    {
+      "annotationId": 25879,
+      "file": "sp19_img03.jpg",
+      "original": [
+        2120,
+        933,
+        55,
+        92
+      ],
+      "clipped": [
+        2120,
+        933,
+        50,
+        92
+      ]
+    },
+    {
+      "annotationId": 25937,
+      "file": "sp19_img04.jpg",
+      "original": [
+        1122,
+        -14,
+        87,
+        117
+      ],
+      "clipped": [
+        1122,
+        0,
+        87,
+        103
+      ]
+    },
+    {
+      "annotationId": 25957,
+      "file": "sp19_img04.jpg",
+      "original": [
+        2096,
+        933,
+        123,
+        89
+      ],
+      "clipped": [
+        2096,
+        933,
+        122,
+        89
+      ]
+    },
+    {
+      "annotationId": 26007,
+      "file": "sp19_img04.jpg",
+      "original": [
+        1100,
+        2092,
+        72,
+        94
+      ],
+      "clipped": [
+        1100,
+        2092,
+        72,
+        86
+      ]
+    },
+    {
+      "annotationId": 26360,
+      "file": "sp19_img08.jpg",
+      "original": [
+        -18,
+        1046,
+        63,
+        85
+      ],
+      "clipped": [
+        0,
+        1046,
+        45,
+        85
+      ]
+    },
+    {
+      "annotationId": 26566,
+      "file": "sp19_img09.jpg",
+      "original": [
+        -17,
+        1157,
+        84,
+        79
+      ],
+      "clipped": [
+        0,
+        1157,
+        67,
+        79
+      ]
+    },
+    {
+      "annotationId": 26567,
+      "file": "sp19_img09.jpg",
+      "original": [
+        -10,
+        1001,
+        162,
+        111
+      ],
+      "clipped": [
+        0,
+        1001,
+        152,
+        111
+      ]
+    },
+    {
+      "annotationId": 26571,
+      "file": "sp19_img09.jpg",
+      "original": [
+        -6,
+        885,
+        77,
+        82
+      ],
+      "clipped": [
+        0,
+        885,
+        71,
+        82
+      ]
+    },
+    {
+      "annotationId": 26669,
+      "file": "sp19_img10.jpg",
+      "original": [
+        -7,
+        979,
+        75,
+        89
+      ],
+      "clipped": [
+        0,
+        979,
+        68,
+        89
+      ]
+    },
+    {
+      "annotationId": 26679,
+      "file": "sp19_img10.jpg",
+      "original": [
+        1001,
+        2132,
+        79,
+        62
+      ],
+      "clipped": [
+        1001,
+        2132,
+        79,
+        59
+      ]
+    },
+    {
+      "annotationId": 26826,
+      "file": "sp19_img12.jpg",
+      "original": [
+        1065,
+        2108,
+        94,
+        84
+      ],
+      "clipped": [
+        1065,
+        2108,
+        94,
+        79
+      ]
+    },
+    {
+      "annotationId": 27035,
+      "file": "sp19_img14.jpg",
+      "original": [
+        913,
+        2124,
+        74,
+        70
+      ],
+      "clipped": [
+        913,
+        2124,
+        74,
+        59
+      ]
+    },
+    {
+      "annotationId": 27606,
+      "file": "sp19_img18.jpg",
+      "original": [
+        994,
+        -4,
+        72,
+        62
+      ],
+      "clipped": [
+        994,
+        0,
+        72,
+        58
+      ]
+    },
+    {
+      "annotationId": 27680,
+      "file": "sp19_img19.jpg",
+      "original": [
+        2074,
+        1063,
+        102,
+        78
+      ],
+      "clipped": [
+        2074,
+        1063,
+        96,
+        78
+      ]
+    },
+    {
+      "annotationId": 27887,
+      "file": "sp19_img21.jpg",
+      "original": [
+        -5,
+        1022,
+        131,
+        100
+      ],
+      "clipped": [
+        0,
+        1022,
+        126,
+        100
+      ]
+    },
+    {
+      "annotationId": 28060,
+      "file": "sp19_img22.jpg",
+      "original": [
+        947,
+        2096,
+        72,
+        61
+      ],
+      "clipped": [
+        947,
+        2096,
+        72,
+        48
+      ]
+    },
+    {
+      "annotationId": 28134,
+      "file": "sp19_img22.jpg",
+      "original": [
+        1055,
+        -2,
+        62,
+        83
+      ],
+      "clipped": [
+        1055,
+        0,
+        62,
+        81
+      ]
+    },
+    {
+      "annotationId": 29649,
+      "file": "sp21_img13.jpg",
+      "original": [
+        -4,
+        1289,
+        52,
+        58
+      ],
+      "clipped": [
+        0,
+        1289,
+        48,
+        58
+      ]
+    }
+  ],
+  "nearDuplicatePairs": [
+    {
+      "imageA": "sp01_img02.jpg",
+      "imageB": "sp07_img11.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp01_img02.jpg",
+      "imageB": "sp16_img06.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp01_img04.jpg",
+      "imageB": "sp07_img05.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp01_img06.jpg",
+      "imageB": "sp01_img09.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp01_img06.jpg",
+      "imageB": "sp16_img10.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp01_img09.jpg",
+      "imageB": "sp07_img07.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp01_img09.jpg",
+      "imageB": "sp16_img10.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp03_img02.jpg",
+      "imageB": "sp07_img02.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img01.jpg",
+      "imageB": "sp23_img14.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img09.jpg",
+      "imageB": "sp06_img26.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp06_img09.jpg",
+      "imageB": "sp06_img27.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp06_img09.jpg",
+      "imageB": "sp23_img14.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img10.jpg",
+      "imageB": "sp23_img14.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img12.jpg",
+      "imageB": "sp06_img15.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp06_img12.jpg",
+      "imageB": "sp06_img28.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp06_img12.jpg",
+      "imageB": "sp23_img07.jpg",
+      "distance": 2,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img12.jpg",
+      "imageB": "sp23_img14.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img13.jpg",
+      "imageB": "sp06_img15.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp06_img13.jpg",
+      "imageB": "sp06_img28.jpg",
+      "distance": 2,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp06_img13.jpg",
+      "imageB": "sp23_img07.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img13.jpg",
+      "imageB": "sp23_img14.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img15.jpg",
+      "imageB": "sp06_img28.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp06_img15.jpg",
+      "imageB": "sp19_img08.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img15.jpg",
+      "imageB": "sp23_img07.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img15.jpg",
+      "imageB": "sp23_img14.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img17.jpg",
+      "imageB": "sp06_img26.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp06_img21.jpg",
+      "imageB": "sp06_img28.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp06_img21.jpg",
+      "imageB": "sp10_img04.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img26.jpg",
+      "imageB": "sp06_img27.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp06_img28.jpg",
+      "imageB": "sp10_img21.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img28.jpg",
+      "imageB": "sp23_img07.jpg",
+      "distance": 2,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp06_img28.jpg",
+      "imageB": "sp23_img14.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp07_img07.jpg",
+      "imageB": "sp16_img10.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp08_img03.jpg",
+      "imageB": "sp08_img05.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp10_img11.jpg",
+      "imageB": "sp23_img04.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp10_img15.jpg",
+      "imageB": "sp19_img07.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp10_img15.jpg",
+      "imageB": "sp19_img08.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp10_img15.jpg",
+      "imageB": "sp23_img08.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp10_img15.jpg",
+      "imageB": "sp23_img11.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp10_img21.jpg",
+      "imageB": "sp19_img14.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp10_img21.jpg",
+      "imageB": "sp23_img07.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp10_img21.jpg",
+      "imageB": "sp23_img11.jpg",
+      "distance": 2,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp12_img01.jpg",
+      "imageB": "sp12_img04.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp12_img01.jpg",
+      "imageB": "sp12_img06.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp12_img01.jpg",
+      "imageB": "sp12_img07.jpg",
+      "distance": 2,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp12_img05.jpg",
+      "imageB": "sp12_img09.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp12_img05.jpg",
+      "imageB": "sp16_img04.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp12_img06.jpg",
+      "imageB": "sp12_img07.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp12_img09.jpg",
+      "imageB": "sp16_img04.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp12_img09.jpg",
+      "imageB": "sp16_img08.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp14_img04.jpg",
+      "imageB": "sp14_img06.jpg",
+      "distance": 2,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp14_img04.jpg",
+      "imageB": "sp14_img08.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp14_img06.jpg",
+      "imageB": "sp14_img08.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp16_img10.jpg",
+      "imageB": "sp16_img15.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp19_img04.jpg",
+      "imageB": "sp23_img07.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp19_img14.jpg",
+      "imageB": "sp23_img07.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp19_img14.jpg",
+      "imageB": "sp23_img11.jpg",
+      "distance": 4,
+      "sameSpecies": false
+    },
+    {
+      "imageA": "sp23_img04.jpg",
+      "imageB": "sp23_img15.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp24_img02.jpg",
+      "imageB": "sp24_img08.jpg",
+      "distance": 0,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp24_img09.jpg",
+      "imageB": "sp24_img11.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp09_img03.jpg",
+      "imageB": "sp09_img05.jpg",
+      "distance": 4,
+      "sameSpecies": true
+    },
+    {
+      "imageA": "sp09_img04.jpg",
+      "imageB": "sp09_img07.jpg",
+      "distance": 2,
+      "sameSpecies": true
+    }
+  ],
+  "exifOrientationNormalizations": [
+    {
+      "file": "sp06_img03.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2582,
+        2448
+      ],
+      "displaySize": [
+        2448,
+        2582
+      ]
+    },
+    {
+      "file": "sp06_img04.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2569,
+        2435
+      ],
+      "displaySize": [
+        2435,
+        2569
+      ]
+    },
+    {
+      "file": "sp06_img05.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2573,
+        2444
+      ],
+      "displaySize": [
+        2444,
+        2573
+      ]
+    },
+    {
+      "file": "sp06_img06.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2564,
+        2439
+      ],
+      "displaySize": [
+        2439,
+        2564
+      ]
+    },
+    {
+      "file": "sp06_img11.jpg",
+      "orientation": 8,
+      "storedSize": [
+        2191,
+        2183
+      ],
+      "displaySize": [
+        2183,
+        2191
+      ]
+    },
+    {
+      "file": "sp06_img23.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2218,
+        2205
+      ],
+      "displaySize": [
+        2205,
+        2218
+      ]
+    },
+    {
+      "file": "sp06_img32.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2595,
+        2448
+      ],
+      "displaySize": [
+        2448,
+        2595
+      ]
+    },
+    {
+      "file": "sp06_img33.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2569,
+        2444
+      ],
+      "displaySize": [
+        2444,
+        2569
+      ]
+    },
+    {
+      "file": "sp06_img34.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2582,
+        2444
+      ],
+      "displaySize": [
+        2444,
+        2582
+      ]
+    },
+    {
+      "file": "sp06_img35.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2586,
+        2439
+      ],
+      "displaySize": [
+        2439,
+        2586
+      ]
+    },
+    {
+      "file": "sp10_img07.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2335,
+        2331
+      ],
+      "displaySize": [
+        2331,
+        2335
+      ]
+    },
+    {
+      "file": "sp10_img08.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2178,
+        2170
+      ],
+      "displaySize": [
+        2170,
+        2178
+      ]
+    },
+    {
+      "file": "sp10_img09.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2331,
+        2339
+      ],
+      "displaySize": [
+        2339,
+        2331
+      ]
+    },
+    {
+      "file": "sp10_img11.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2360,
+        2370
+      ],
+      "displaySize": [
+        2370,
+        2360
+      ]
+    },
+    {
+      "file": "sp10_img12.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2356,
+        2357
+      ],
+      "displaySize": [
+        2357,
+        2356
+      ]
+    },
+    {
+      "file": "sp10_img13.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2408,
+        2400
+      ],
+      "displaySize": [
+        2400,
+        2408
+      ]
+    },
+    {
+      "file": "sp10_img16.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2239,
+        2222
+      ],
+      "displaySize": [
+        2222,
+        2239
+      ]
+    },
+    {
+      "file": "sp10_img17.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2205,
+        2196
+      ],
+      "displaySize": [
+        2196,
+        2205
+      ]
+    },
+    {
+      "file": "sp10_img18.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2244,
+        2209
+      ],
+      "displaySize": [
+        2209,
+        2244
+      ]
+    },
+    {
+      "file": "sp14_img01.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2386,
+        2374
+      ],
+      "displaySize": [
+        2374,
+        2386
+      ]
+    },
+    {
+      "file": "sp14_img02.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2399,
+        2357
+      ],
+      "displaySize": [
+        2357,
+        2399
+      ]
+    },
+    {
+      "file": "sp14_img03.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2377,
+        2374
+      ],
+      "displaySize": [
+        2374,
+        2377
+      ]
+    },
+    {
+      "file": "sp14_img04.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2425,
+        2418
+      ],
+      "displaySize": [
+        2418,
+        2425
+      ]
+    },
+    {
+      "file": "sp14_img05.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2364,
+        2383
+      ],
+      "displaySize": [
+        2383,
+        2364
+      ]
+    },
+    {
+      "file": "sp14_img06.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2403,
+        2405
+      ],
+      "displaySize": [
+        2405,
+        2403
+      ]
+    },
+    {
+      "file": "sp14_img07.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2447,
+        2396
+      ],
+      "displaySize": [
+        2396,
+        2447
+      ]
+    },
+    {
+      "file": "sp14_img08.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2395,
+        2405
+      ],
+      "displaySize": [
+        2405,
+        2395
+      ]
+    },
+    {
+      "file": "sp14_img09.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2451,
+        2405
+      ],
+      "displaySize": [
+        2405,
+        2451
+      ]
+    },
+    {
+      "file": "sp14_img10.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2451,
+        2413
+      ],
+      "displaySize": [
+        2413,
+        2451
+      ]
+    },
+    {
+      "file": "sp14_img11.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2377,
+        2370
+      ],
+      "displaySize": [
+        2370,
+        2377
+      ]
+    },
+    {
+      "file": "sp14_img12.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2373,
+        2361
+      ],
+      "displaySize": [
+        2361,
+        2373
+      ]
+    },
+    {
+      "file": "sp19_img01.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2390,
+        2378
+      ],
+      "displaySize": [
+        2378,
+        2390
+      ]
+    },
+    {
+      "file": "sp19_img02.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2373,
+        2383
+      ],
+      "displaySize": [
+        2383,
+        2373
+      ]
+    },
+    {
+      "file": "sp19_img05.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2386,
+        2378
+      ],
+      "displaySize": [
+        2378,
+        2386
+      ]
+    },
+    {
+      "file": "sp19_img11.jpg",
+      "orientation": 3,
+      "storedSize": [
+        2157,
+        2144
+      ],
+      "displaySize": [
+        2157,
+        2144
+      ]
+    },
+    {
+      "file": "sp19_img16.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2382,
+        2387
+      ],
+      "displaySize": [
+        2387,
+        2382
+      ]
+    },
+    {
+      "file": "sp19_img23.jpg",
+      "orientation": 3,
+      "storedSize": [
+        2200,
+        2196
+      ],
+      "displaySize": [
+        2200,
+        2196
+      ]
+    },
+    {
+      "file": "sp19_img24.jpg",
+      "orientation": 3,
+      "storedSize": [
+        2187,
+        2196
+      ],
+      "displaySize": [
+        2187,
+        2196
+      ]
+    },
+    {
+      "file": "sp21_img01.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2395,
+        2387
+      ],
+      "displaySize": [
+        2387,
+        2395
+      ]
+    },
+    {
+      "file": "sp22_img04.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2425,
+        2409
+      ],
+      "displaySize": [
+        2409,
+        2425
+      ]
+    },
+    {
+      "file": "sp22_img05.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2425,
+        2426
+      ],
+      "displaySize": [
+        2426,
+        2425
+      ]
+    },
+    {
+      "file": "sp22_img06.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2399,
+        2400
+      ],
+      "displaySize": [
+        2400,
+        2399
+      ]
+    },
+    {
+      "file": "sp22_img07.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2412,
+        2400
+      ],
+      "displaySize": [
+        2400,
+        2412
+      ]
+    },
+    {
+      "file": "sp22_img08.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2373,
+        2361
+      ],
+      "displaySize": [
+        2361,
+        2373
+      ]
+    },
+    {
+      "file": "sp22_img09.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2373,
+        2383
+      ],
+      "displaySize": [
+        2383,
+        2373
+      ]
+    },
+    {
+      "file": "sp22_img10.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2390,
+        2370
+      ],
+      "displaySize": [
+        2370,
+        2390
+      ]
+    },
+    {
+      "file": "sp22_img12.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2390,
+        2396
+      ],
+      "displaySize": [
+        2396,
+        2390
+      ]
+    },
+    {
+      "file": "sp22_img14.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2360,
+        2400
+      ],
+      "displaySize": [
+        2400,
+        2360
+      ]
+    },
+    {
+      "file": "sp22_img15.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2386,
+        2387
+      ],
+      "displaySize": [
+        2387,
+        2386
+      ]
+    },
+    {
+      "file": "sp22_img16.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2382,
+        2378
+      ],
+      "displaySize": [
+        2378,
+        2382
+      ]
+    },
+    {
+      "file": "sp23_img03.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2390,
+        2378
+      ],
+      "displaySize": [
+        2378,
+        2390
+      ]
+    },
+    {
+      "file": "sp23_img04.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2386,
+        2378
+      ],
+      "displaySize": [
+        2378,
+        2386
+      ]
+    },
+    {
+      "file": "sp23_img12.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2364,
+        2374
+      ],
+      "displaySize": [
+        2374,
+        2364
+      ]
+    },
+    {
+      "file": "sp23_img13.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2209,
+        2218
+      ],
+      "displaySize": [
+        2218,
+        2209
+      ]
+    },
+    {
+      "file": "sp23_img15.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2385,
+        2370
+      ],
+      "displaySize": [
+        2370,
+        2385
+      ]
+    },
+    {
+      "file": "sp23_img16.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2373,
+        2378
+      ],
+      "displaySize": [
+        2378,
+        2373
+      ]
+    },
+    {
+      "file": "sp23_img17.jpg",
+      "orientation": 6,
+      "storedSize": [
+        2364,
+        2378
+      ],
+      "displaySize": [
+        2378,
+        2364
+      ]
+    }
+  ],
+  "counts": {
+    "test": {
+      "images": 63,
+      "boxes": 11752
+    },
+    "val": {
+      "images": 56,
+      "boxes": 6831
+    },
+    "train": {
+      "images": 247,
+      "boxes": 37611
+    }
+  }
+}

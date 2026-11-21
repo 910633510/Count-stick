@@ -1,0 +1,56 @@
+{
+  "status": "PASS_APP_REGRESSION_AND_FAIL_CLOSED_RELEASE_BOUNDARY",
+  "createdUTC": "2026-10-26T17:36:33.162670+00:00",
+  "protectedFiles": [
+    {
+      "path": "Count stick/StickDetector.swift",
+      "sha256": "6fb00ca644805e176dcca028ed1bef3932e80b451e77f2ea8759983d2c678b82",
+      "unchanged": true
+    },
+    {
+      "path": "Count stick/AutoCountRegion.swift",
+      "sha256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+      "unchanged": true
+    },
+    {
+      "path": "Count stick/CountingAccess.swift",
+      "sha256": "6958354ca014772eae3c52806b425e745bab2540ad7f4433ff8f051e86b01ff1",
+      "unchanged": true
+    },
+    {
+      "path": "Count stick/best.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+      "sha256": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+      "unchanged": true
+    },
+    {
+      "path": "Count stick/best.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+      "sha256": "21717eef227d96f45419d0b5730fa4114e6877f4a6548a71efe641fc23240090",
+      "unchanged": true
+    },
+    {
+      "path": "Count stick/best.mlpackage/Manifest.json",
+      "sha256": "069d7e3b5c970ac6b017cdc8921bfc2deb0da721c98b71009b80c7de3521832d",
+      "unchanged": true
+    }
+  ],
+  "steelPipeAutomaticModelEnabled": false,
+  "reason": "All supervised candidates failed frozen accuracy/non-regression qualification. No model/config copied to App.",
+  "functionalTests": {
+    "status": "PASS",
+    "executedXCTest": 20,
+    "executedSwiftTesting": 26,
+    "failures": 0,
+    "resultBundle": "output/pipe-final-functional-tests.xcresult",
+    "log": "output/pipe-final-functional-tests.log",
+    "scope": "Category/history/preprocessing/accounting and existing model/region logic. The actual pipe-model tests and dataset exporters were intentionally excluded, not counted as passes."
+  },
+  "realPipeModelTests": "NOT_RUN_NO_VALIDATED_MODEL",
+  "storeKitTransactionTests": "NOT_RERUN_EXISTING_IOS26_5_ENVIRONMENT_FAILURE",
+  "physicalDeviceTested": false,
+  "appStoreUploaded": false,
+  "appStoreSubmitted": false,
+  "gitDiffCheck": "PASS",
+  "new20TestRecognitionRun": false,
+  "latestSelectionPath": "output/pipes-head-retention-20261026/model/selection.json",
+  "latestSelectionSHA256": "d78abcdd21be0726b4ecfdf45ac20d7fb0cff08d496526cf971b06e2b72981a3"
+}

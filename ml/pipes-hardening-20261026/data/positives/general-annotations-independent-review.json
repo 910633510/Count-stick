@@ -1,0 +1,441 @@
+{
+  "status": "PASS_11_IMAGES_27_BOXES_AFTER_ONE_OUTER_RIM_REFINEMENT",
+  "createdUTC": "2026-10-26T14:41:49.040490+00:00",
+  "inputManifestPath": "ml/pipes-hardening-20261026/data/positives/general-manual-annotations.json",
+  "inputManifestSHA256": "1f304f756ff631fba1e4591b2f8e921876e03c66f4363025c4a3ff6aa6344bf4",
+  "reviewer": "colony_papers",
+  "reviewSequence": "All11downloaded originals viewed before numbered overlays; then all11overlays checked. Commons125native crop and revised overlay additionally checked. No model outputs used.",
+  "images": [
+    {
+      "id": "commons_018",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_018.jpg",
+      "imageSHA256": "0697e89f4d30f14e92b8a3d6f2ffaf739f98288514cf7237b62f89d5381179ff",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/commons_018.jpg",
+      "overlaySHA256": "29973a68203cf6e71caec2bba89ea6f5ec0019f3f10afd4187f8162513de2e71",
+      "width": 960,
+      "height": 611,
+      "independentCount": 1,
+      "annotatedCount": 1,
+      "xyxyReviewed": [
+        [
+          705,
+          53,
+          811,
+          217
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "Single rusty open mouth at upper right. The other pipes show side walls only; no additional discernible front. Same-pile relation with019 visually consistent.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "commons_assortment_rusty_pipes_capture"
+    },
+    {
+      "id": "commons_019",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_019.jpg",
+      "imageSHA256": "dcde104c0dc700ea654e10dad36a687adade940a993d7047c81ce891f3a682d4",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/commons_019.jpg",
+      "overlaySHA256": "4e31027ebeeb567b14193c74a9a0da357ed9dc85d11aa3072d0a700ecb1c0ca6",
+      "width": 960,
+      "height": 640,
+      "independentCount": 1,
+      "annotatedCount": 1,
+      "xyxyReviewed": [
+        [
+          663,
+          133,
+          900,
+          454
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "Closer view of the same upper-right rusty front; count1. Full visible outer annulus covered by the single box.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "commons_assortment_rusty_pipes_capture"
+    },
+    {
+      "id": "commons_082",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_082.jpg",
+      "imageSHA256": "aae27a4e21b96b8bf2edec5763dc8d22397dcc8c7b1709c3aab4e9efca8e8be0",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/commons_082.jpg",
+      "overlaySHA256": "564174086118a35e4529bcfd46f322adc5fdde3a5fac166dfc1c9d096778b751",
+      "width": 960,
+      "height": 720,
+      "independentCount": 2,
+      "annotatedCount": 2,
+      "xyxyReviewed": [
+        [
+          109,
+          547,
+          148,
+          615
+        ],
+        [
+          132,
+          558,
+          174,
+          630
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "Two distinct overlapping front mouths at left foreground. The far-right rims belong to these same two shafts and are not counted again; lifting loop and connected buried pipeline are not extra fronts.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "commons_norderney_pipeworks_2025"
+    },
+    {
+      "id": "commons_091",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_091.jpg",
+      "imageSHA256": "29cacfae8b5e6f33b9c756a6e4065b4c37f7e09bdfcd32de119824a175b10ed2",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/commons_091.jpg",
+      "overlaySHA256": "a4dfec038be1760ec8d74e49617da72435615fdbc27f64eeb38b3e229ecd1710",
+      "width": 960,
+      "height": 640,
+      "independentCount": 1,
+      "annotatedCount": 1,
+      "xyxyReviewed": [
+        [
+          582,
+          331,
+          651,
+          410
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "One exposed front mouth at discharge pipe, partly occluded by its attached flap. Flap and chain are not additional pipes.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "commons_norderney_pipeworks_2025"
+    },
+    {
+      "id": "commons_121",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_121.jpg",
+      "imageSHA256": "60709bad69318c387abadd913752990c935a86e7e291b03217c36f5ad5bcef90",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/commons_121.jpg",
+      "overlaySHA256": "a5e491e0841f9ad2f5f1279e08040b0dd18a1e1ea16ce1fd1adaae428ff9c773",
+      "width": 960,
+      "height": 540,
+      "independentCount": 2,
+      "annotatedCount": 2,
+      "xyxyReviewed": [
+        [
+          344,
+          331,
+          432,
+          483
+        ],
+        [
+          647,
+          364,
+          756,
+          480
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "Two separate front mouths of rusty metal sections. Intermediate/rear flanges and bolt holes are not additional fronts.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "commons_pipes042_ubt_scene"
+    },
+    {
+      "id": "commons_124",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_124.jpg",
+      "imageSHA256": "14af99cab8fb618ced692743484a6aa6e2b965315dd6fde7cef2cabb104f041a",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/commons_124.jpg",
+      "overlaySHA256": "8943fc42450e8a1d83837b23ecf522c832cff55c4bd932076169f85017faec53",
+      "width": 960,
+      "height": 640,
+      "independentCount": 1,
+      "annotatedCount": 1,
+      "xyxyReviewed": [
+        [
+          765,
+          89,
+          847,
+          142
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "Only the upright pipe top has a visible opening. The drilled side hole and clamp do not count. Horizontal-pipe mouth is hidden from this angle.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "commons_hollandarod_mooring_pipes"
+    },
+    {
+      "id": "commons_125",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_125.jpg",
+      "imageSHA256": "56c177454483b013cce8c0c91137b41df4ff0bf30d6b31510486b83228e9ea12",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/commons_125.jpg",
+      "overlaySHA256": "e15015391db83a12afc1167cab66c42f0b011996b1dfd243509d06ce6d70e1d0",
+      "width": 960,
+      "height": 1324,
+      "independentCount": 2,
+      "annotatedCount": 2,
+      "xyxyReviewed": [
+        [
+          153,
+          243,
+          335,
+          329
+        ],
+        [
+          432,
+          803,
+          613,
+          950
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "Upright top and horizontal mouth are distinct visible openings. Rear upright extends beyond frame. Mouth2bbox was tightened to exclude separate clamp bolt/side wall; revised overlay independently rechecked.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "commons_hollandarod_mooring_pipes"
+    },
+    {
+      "id": "commons_129",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_129.jpg",
+      "imageSHA256": "372eb3c031242d300a53dc569aeccfe9e59c34e8e79f3039fc6dd8a432715ee3",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/commons_129.jpg",
+      "overlaySHA256": "9f279415665a5a6462f49673d89b549a754b38f7cfe839369c8490822a783421",
+      "width": 960,
+      "height": 640,
+      "independentCount": 1,
+      "annotatedCount": 1,
+      "xyxyReviewed": [
+        [
+          590,
+          313,
+          804,
+          548
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "One encrusted/rusted metal pipe front. Outer-rim box follows the visible mouth rather than the whole shaft or attached gravel.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "commons_furilden_rusty_pipe"
+    },
+    {
+      "id": "commons_133",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_133.jpg",
+      "imageSHA256": "f828aa08b8f2f4d41aa392cff20a9bd92ad104251a0da866bd53e408273145f7",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/commons_133.jpg",
+      "overlaySHA256": "35e708089e6e9963c198dc2772b81b03cb3092abe53b2e1324ff39c27b94bca2",
+      "width": 960,
+      "height": 640,
+      "independentCount": 3,
+      "annotatedCount": 3,
+      "xyxyReviewed": [
+        [
+          232,
+          326,
+          291,
+          393
+        ],
+        [
+          286,
+          264,
+          349,
+          336
+        ],
+        [
+          327,
+          215,
+          379,
+          271
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "Three separate rusty cut-metal tube mouths. Background support members, valve components and clamps show no extra discernible pipe front.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "commons_rusty_tubes_259086707"
+    },
+    {
+      "id": "commons_145",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_145.jpg",
+      "imageSHA256": "e36698727b0cb3adfb280a0c1491b33974a80207be9b103e2a86bbf5318ed5ea",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/commons_145.jpg",
+      "overlaySHA256": "f3dc4c5fe311c9b9ce5276e5c7428da6808f08201ababb5c89a2c124c3120f24",
+      "width": 960,
+      "height": 784,
+      "independentCount": 1,
+      "annotatedCount": 1,
+      "xyxyReviewed": [
+        [
+          80,
+          67,
+          888,
+          745
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "One thick torch-cut metal pipe front; exposed cut wall, slag and internal surfaces belong to that one instance.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "commons_torch_cut_pipe"
+    },
+    {
+      "id": "github_005",
+      "status": "PASS_INDEPENDENT_VISUAL_COUNT_AND_OUTER_RIM_REVIEW",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/github-originals/github_005.jpg",
+      "imageSHA256": "973d9ee99a45caf95e082fe5c866dd8b2e917023c2762494a30ddbe8cdc69516",
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/general-annotations/github_005.jpg",
+      "overlaySHA256": "e970c1de9832c0426a547f8a8379f9847435d7a5bddb0675b934bcf8cd5e0f85",
+      "width": 870,
+      "height": 580,
+      "independentCount": 12,
+      "annotatedCount": 12,
+      "xyxyReviewed": [
+        [
+          0,
+          26,
+          209,
+          236
+        ],
+        [
+          0,
+          172,
+          147,
+          343
+        ],
+        [
+          0,
+          350,
+          130,
+          523
+        ],
+        [
+          169,
+          174,
+          350,
+          352
+        ],
+        [
+          127,
+          339,
+          306,
+          505
+        ],
+        [
+          330,
+          138,
+          540,
+          345
+        ],
+        [
+          297,
+          300,
+          477,
+          472
+        ],
+        [
+          473,
+          272,
+          662,
+          457
+        ],
+        [
+          576,
+          109,
+          755,
+          289
+        ],
+        [
+          645,
+          266,
+          796,
+          427
+        ],
+        [
+          769,
+          143,
+          870,
+          334
+        ],
+        [
+          801,
+          306,
+          870,
+          477
+        ]
+      ],
+      "materialAssessment": "Visible round metal pipe/tube front(s), no solid-bar or plastic-only target identified.",
+      "notes": "Twelve visible metal pipe fronts, including all left/right clipped mouths. Lower rectangular channels are outside the round-pipe class. Occluded faces remain separately discernible.",
+      "missingDiscernibleFrontsFound": false,
+      "duplicateInstancesFound": false,
+      "unresolvedCorrections": [],
+      "groupIdRetained": "github_pipeCountingUNITN_pipe1_stock_scene"
+    }
+  ],
+  "confirmedCount": 27,
+  "resolvedCorrection": {
+    "id": "commons_125",
+    "boxIndexZeroBased": 1,
+    "before": [
+      432,
+      790,
+      627,
+      986
+    ],
+    "after": [
+      432,
+      803,
+      613,
+      950
+    ],
+    "countBeforeAfter": [
+      2,
+      2
+    ],
+    "reason": "Original box included the separate lower clamp bolt/side wall; revised HBB better follows the pipe-mouth outer rim.",
+    "appliedBy": "general_counting_papers",
+    "sourceImagePixelsChanged": false,
+    "ownerCorrectionReceipt": "ml/pipes-hardening-20261026/data/positives/manual-rim-correction.json"
+  },
+  "sameFamilyPairsConfirmedConservative": [
+    [
+      "commons_018",
+      "commons_019"
+    ],
+    [
+      "commons_082",
+      "commons_091"
+    ],
+    [
+      "commons_124",
+      "commons_125"
+    ]
+  ],
+  "quarantines": [],
+  "modelInferencePerformed": false,
+  "sourceLabelsChangedByThisReviewer": false,
+  "sourceImagesChanged": false,
+  "finalSplitAdmissionByThisReviewer": false,
+  "limitations": [
+    "Commons review covers downloaded960pxwide thumbnails, not larger originalURLs.",
+    "Counts cover discernible pipe fronts; hidden ends, drilled side holes, flange holes, lifting eyes and reverse ends of the same pipe are not added.",
+    "Final source-family cross-dataset isolation and train/val/fresh-test freeze remain root/grouping reviewer responsibility."
+  ]
+}

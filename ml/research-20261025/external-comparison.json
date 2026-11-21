@@ -1,0 +1,3016 @@
+{
+  "status": "EXTERNAL_COMPARISON_COMPLETED_NO_PROMOTION",
+  "finishedAtUTC": "2026-10-25T20:54:50Z",
+  "protocolSHA256": "cc1e9922f4e6c6fa451e5bdc91738b448e2caf7a87a90b9709ccb58e46b18558",
+  "datasetManifestSHA256": "b148c2c632486adc725acff7f923704c25f15fefedf038a148bd87c7c3524827",
+  "metrics": {
+    "whole": {
+      "images": 76,
+      "species": 19,
+      "GT": 4486,
+      "TP": 1241,
+      "FP": 1377,
+      "FN": 3245,
+      "precision": 0.474025974025974,
+      "recall": 0.27663843067320554,
+      "F1": 0.34938063063063063,
+      "countMAE": 24.710526315789473,
+      "countRMSE": 48.74342060864809,
+      "countBias": -24.57894736842105,
+      "exactCountImages": 8,
+      "macroSpeciesRecall": 0.29271510057647265,
+      "macroSpeciesPrecision": 0.493318578252106,
+      "macroSpeciesMAE": 24.710526315789473,
+      "AP50": 0.20561504449649778,
+      "AP50_95": 0.0585456617650707,
+      "perSpecies": {
+        "aba": {
+          "images": 4,
+          "GT": 101,
+          "TP": 0,
+          "FP": 0,
+          "FN": 101,
+          "precision": 0.0,
+          "recall": 0.0,
+          "countMAE": 25.25
+        },
+        "bce": {
+          "images": 4,
+          "GT": 68,
+          "TP": 2,
+          "FP": 53,
+          "FN": 66,
+          "precision": 0.03636363636363636,
+          "recall": 0.029411764705882353,
+          "countMAE": 3.25
+        },
+        "bcp": {
+          "images": 4,
+          "GT": 298,
+          "TP": 10,
+          "FP": 2,
+          "FN": 288,
+          "precision": 0.8333333333333334,
+          "recall": 0.03355704697986577,
+          "countMAE": 71.5
+        },
+        "cst": {
+          "images": 4,
+          "GT": 173,
+          "TP": 161,
+          "FP": 11,
+          "FN": 12,
+          "precision": 0.936046511627907,
+          "recall": 0.930635838150289,
+          "countMAE": 0.75
+        },
+        "eca": {
+          "images": 4,
+          "GT": 273,
+          "TP": 64,
+          "FP": 193,
+          "FN": 209,
+          "precision": 0.2490272373540856,
+          "recall": 0.23443223443223443,
+          "countMAE": 5.5
+        },
+        "eco": {
+          "images": 4,
+          "GT": 174,
+          "TP": 161,
+          "FP": 9,
+          "FN": 13,
+          "precision": 0.9470588235294117,
+          "recall": 0.9252873563218391,
+          "countMAE": 1.0
+        },
+        "efa": {
+          "images": 4,
+          "GT": 262,
+          "TP": 107,
+          "FP": 138,
+          "FN": 155,
+          "precision": 0.43673469387755104,
+          "recall": 0.4083969465648855,
+          "countMAE": 4.25
+        },
+        "enc": {
+          "images": 4,
+          "GT": 152,
+          "TP": 0,
+          "FP": 0,
+          "FN": 152,
+          "precision": 0.0,
+          "recall": 0.0,
+          "countMAE": 38.0
+        },
+        "kpn": {
+          "images": 4,
+          "GT": 85,
+          "TP": 13,
+          "FP": 1,
+          "FN": 72,
+          "precision": 0.9285714285714286,
+          "recall": 0.15294117647058825,
+          "countMAE": 17.75
+        },
+        "mmo": {
+          "images": 4,
+          "GT": 539,
+          "TP": 0,
+          "FP": 0,
+          "FN": 539,
+          "precision": 0.0,
+          "recall": 0.0,
+          "countMAE": 134.75
+        },
+        "ppu": {
+          "images": 4,
+          "GT": 309,
+          "TP": 271,
+          "FP": 31,
+          "FN": 38,
+          "precision": 0.8973509933774835,
+          "recall": 0.8770226537216829,
+          "countMAE": 1.75
+        },
+        "sag": {
+          "images": 4,
+          "GT": 472,
+          "TP": 8,
+          "FP": 432,
+          "FN": 464,
+          "precision": 0.01818181818181818,
+          "recall": 0.01694915254237288,
+          "countMAE": 8.0
+        },
+        "sau": {
+          "images": 4,
+          "GT": 270,
+          "TP": 237,
+          "FP": 27,
+          "FN": 33,
+          "precision": 0.8977272727272727,
+          "recall": 0.8777777777777778,
+          "countMAE": 1.5
+        },
+        "sep": {
+          "images": 4,
+          "GT": 98,
+          "TP": 47,
+          "FP": 49,
+          "FN": 51,
+          "precision": 0.4895833333333333,
+          "recall": 0.47959183673469385,
+          "countMAE": 1.0
+        },
+        "ses": {
+          "images": 4,
+          "GT": 248,
+          "TP": 123,
+          "FP": 16,
+          "FN": 125,
+          "precision": 0.8848920863309353,
+          "recall": 0.4959677419354839,
+          "countMAE": 27.25
+        },
+        "sma": {
+          "images": 4,
+          "GT": 400,
+          "TP": 36,
+          "FP": 8,
+          "FN": 364,
+          "precision": 0.8181818181818182,
+          "recall": 0.09,
+          "countMAE": 89.0
+        },
+        "spn": {
+          "images": 4,
+          "GT": 158,
+          "TP": 0,
+          "FP": 126,
+          "FN": 158,
+          "precision": 0.0,
+          "recall": 0.0,
+          "countMAE": 8.0
+        },
+        "spy": {
+          "images": 4,
+          "GT": 302,
+          "TP": 0,
+          "FP": 281,
+          "FN": 302,
+          "precision": 0.0,
+          "recall": 0.0,
+          "countMAE": 5.25
+        },
+        "stm": {
+          "images": 4,
+          "GT": 104,
+          "TP": 1,
+          "FP": 0,
+          "FN": 103,
+          "precision": 1.0,
+          "recall": 0.009615384615384616,
+          "countMAE": 25.75
+        }
+      },
+      "sizeRecall": {
+        "under16px": {
+          "GT": 1960,
+          "TP": 384,
+          "recall": 0.19591836734693877
+        },
+        "16to32px": {
+          "GT": 2108,
+          "TP": 666,
+          "recall": 0.3159392789373814
+        },
+        "over32px": {
+          "GT": 418,
+          "TP": 191,
+          "recall": 0.4569377990430622
+        }
+      }
+    },
+    "tile": {
+      "images": 76,
+      "species": 19,
+      "GT": 4486,
+      "TP": 1655,
+      "FP": 1313,
+      "FN": 2831,
+      "precision": 0.5576145552560647,
+      "recall": 0.3689255461435577,
+      "F1": 0.44405688221089346,
+      "countMAE": 22.55263157894737,
+      "countRMSE": 45.90235632066696,
+      "countBias": -19.973684210526315,
+      "exactCountImages": 7,
+      "macroSpeciesRecall": 0.3978056842306843,
+      "macroSpeciesPrecision": 0.6279682534371819,
+      "macroSpeciesMAE": 22.55263157894737,
+      "AP50": 0.32768661362922513,
+      "AP50_95": 0.11047018256862287,
+      "perSpecies": {
+        "aba": {
+          "images": 4,
+          "GT": 101,
+          "TP": 5,
+          "FP": 1,
+          "FN": 96,
+          "precision": 0.8333333333333334,
+          "recall": 0.04950495049504951,
+          "countMAE": 23.75
+        },
+        "bce": {
+          "images": 4,
+          "GT": 68,
+          "TP": 13,
+          "FP": 44,
+          "FN": 55,
+          "precision": 0.22807017543859648,
+          "recall": 0.19117647058823528,
+          "countMAE": 3.25
+        },
+        "bcp": {
+          "images": 4,
+          "GT": 298,
+          "TP": 35,
+          "FP": 15,
+          "FN": 263,
+          "precision": 0.7,
+          "recall": 0.1174496644295302,
+          "countMAE": 62.0
+        },
+        "cst": {
+          "images": 4,
+          "GT": 173,
+          "TP": 170,
+          "FP": 5,
+          "FN": 3,
+          "precision": 0.9714285714285714,
+          "recall": 0.9826589595375722,
+          "countMAE": 0.5
+        },
+        "eca": {
+          "images": 4,
+          "GT": 273,
+          "TP": 69,
+          "FP": 210,
+          "FN": 204,
+          "precision": 0.24731182795698925,
+          "recall": 0.25274725274725274,
+          "countMAE": 1.5
+        },
+        "eco": {
+          "images": 4,
+          "GT": 174,
+          "TP": 163,
+          "FP": 5,
+          "FN": 11,
+          "precision": 0.9702380952380952,
+          "recall": 0.9367816091954023,
+          "countMAE": 2.0
+        },
+        "efa": {
+          "images": 4,
+          "GT": 262,
+          "TP": 193,
+          "FP": 72,
+          "FN": 69,
+          "precision": 0.7283018867924528,
+          "recall": 0.7366412213740458,
+          "countMAE": 4.25
+        },
+        "enc": {
+          "images": 4,
+          "GT": 152,
+          "TP": 2,
+          "FP": 0,
+          "FN": 150,
+          "precision": 1.0,
+          "recall": 0.013157894736842105,
+          "countMAE": 37.5
+        },
+        "kpn": {
+          "images": 4,
+          "GT": 85,
+          "TP": 30,
+          "FP": 3,
+          "FN": 55,
+          "precision": 0.9090909090909091,
+          "recall": 0.35294117647058826,
+          "countMAE": 13.0
+        },
+        "mmo": {
+          "images": 4,
+          "GT": 539,
+          "TP": 0,
+          "FP": 0,
+          "FN": 539,
+          "precision": 0.0,
+          "recall": 0.0,
+          "countMAE": 134.75
+        },
+        "ppu": {
+          "images": 4,
+          "GT": 309,
+          "TP": 272,
+          "FP": 23,
+          "FN": 37,
+          "precision": 0.9220338983050848,
+          "recall": 0.8802588996763754,
+          "countMAE": 3.5
+        },
+        "sag": {
+          "images": 4,
+          "GT": 472,
+          "TP": 90,
+          "FP": 438,
+          "FN": 382,
+          "precision": 0.17045454545454544,
+          "recall": 0.1906779661016949,
+          "countMAE": 15.0
+        },
+        "sau": {
+          "images": 4,
+          "GT": 270,
+          "TP": 256,
+          "FP": 14,
+          "FN": 14,
+          "precision": 0.9481481481481482,
+          "recall": 0.9481481481481482,
+          "countMAE": 1.0
+        },
+        "sep": {
+          "images": 4,
+          "GT": 98,
+          "TP": 63,
+          "FP": 39,
+          "FN": 35,
+          "precision": 0.6176470588235294,
+          "recall": 0.6428571428571429,
+          "countMAE": 1.5
+        },
+        "ses": {
+          "images": 4,
+          "GT": 248,
+          "TP": 159,
+          "FP": 22,
+          "FN": 89,
+          "precision": 0.8784530386740331,
+          "recall": 0.6411290322580645,
+          "countMAE": 16.75
+        },
+        "sma": {
+          "images": 4,
+          "GT": 400,
+          "TP": 75,
+          "FP": 20,
+          "FN": 325,
+          "precision": 0.7894736842105263,
+          "recall": 0.1875,
+          "countMAE": 76.25
+        },
+        "spn": {
+          "images": 4,
+          "GT": 158,
+          "TP": 3,
+          "FP": 108,
+          "FN": 155,
+          "precision": 0.02702702702702703,
+          "recall": 0.0189873417721519,
+          "countMAE": 11.75
+        },
+        "spy": {
+          "images": 4,
+          "GT": 302,
+          "TP": 21,
+          "FP": 291,
+          "FN": 281,
+          "precision": 0.0673076923076923,
+          "recall": 0.0695364238410596,
+          "countMAE": 4.0
+        },
+        "stm": {
+          "images": 4,
+          "GT": 104,
+          "TP": 36,
+          "FP": 3,
+          "FN": 68,
+          "precision": 0.9230769230769231,
+          "recall": 0.34615384615384615,
+          "countMAE": 16.25
+        }
+      },
+      "sizeRecall": {
+        "under16px": {
+          "GT": 1960,
+          "TP": 616,
+          "recall": 0.3142857142857143
+        },
+        "16to32px": {
+          "GT": 2108,
+          "TP": 806,
+          "recall": 0.38235294117647056
+        },
+        "over32px": {
+          "GT": 418,
+          "TP": 233,
+          "recall": 0.5574162679425837
+        }
+      }
+    },
+    "fusion": {
+      "images": 76,
+      "species": 19,
+      "GT": 4486,
+      "TP": 1417,
+      "FP": 1305,
+      "FN": 3069,
+      "precision": 0.5205731080088171,
+      "recall": 0.3158716005349978,
+      "F1": 0.3931742508324084,
+      "countMAE": 25.289473684210527,
+      "countRMSE": 49.13568753435413,
+      "countBias": -23.210526315789473,
+      "exactCountImages": 7,
+      "macroSpeciesRecall": 0.3230627696966981,
+      "macroSpeciesPrecision": 0.5256507414158046,
+      "macroSpeciesMAE": 25.289473684210527,
+      "AP50": 0.24142074393055868,
+      "AP50_95": 0.0639615433292941,
+      "perSpecies": {
+        "aba": {
+          "images": 4,
+          "GT": 101,
+          "TP": 0,
+          "FP": 0,
+          "FN": 101,
+          "precision": 0.0,
+          "recall": 0.0,
+          "countMAE": 25.25
+        },
+        "bce": {
+          "images": 4,
+          "GT": 68,
+          "TP": 2,
+          "FP": 51,
+          "FN": 66,
+          "precision": 0.03773584905660377,
+          "recall": 0.029411764705882353,
+          "countMAE": 3.75
+        },
+        "bcp": {
+          "images": 4,
+          "GT": 298,
+          "TP": 10,
+          "FP": 2,
+          "FN": 288,
+          "precision": 0.8333333333333334,
+          "recall": 0.03355704697986577,
+          "countMAE": 71.5
+        },
+        "cst": {
+          "images": 4,
+          "GT": 173,
+          "TP": 162,
+          "FP": 5,
+          "FN": 11,
+          "precision": 0.9700598802395209,
+          "recall": 0.9364161849710982,
+          "countMAE": 2.0
+        },
+        "eca": {
+          "images": 4,
+          "GT": 273,
+          "TP": 66,
+          "FP": 186,
+          "FN": 207,
+          "precision": 0.2619047619047619,
+          "recall": 0.24175824175824176,
+          "countMAE": 5.25
+        },
+        "eco": {
+          "images": 4,
+          "GT": 174,
+          "TP": 160,
+          "FP": 8,
+          "FN": 14,
+          "precision": 0.9523809523809523,
+          "recall": 0.9195402298850575,
+          "countMAE": 1.5
+        },
+        "efa": {
+          "images": 4,
+          "GT": 262,
+          "TP": 182,
+          "FP": 71,
+          "FN": 80,
+          "precision": 0.7193675889328063,
+          "recall": 0.6946564885496184,
+          "countMAE": 2.25
+        },
+        "enc": {
+          "images": 4,
+          "GT": 152,
+          "TP": 0,
+          "FP": 0,
+          "FN": 152,
+          "precision": 0.0,
+          "recall": 0.0,
+          "countMAE": 38.0
+        },
+        "kpn": {
+          "images": 4,
+          "GT": 85,
+          "TP": 13,
+          "FP": 1,
+          "FN": 72,
+          "precision": 0.9285714285714286,
+          "recall": 0.15294117647058825,
+          "countMAE": 17.75
+        },
+        "mmo": {
+          "images": 4,
+          "GT": 539,
+          "TP": 0,
+          "FP": 0,
+          "FN": 539,
+          "precision": 0.0,
+          "recall": 0.0,
+          "countMAE": 134.75
+        },
+        "ppu": {
+          "images": 4,
+          "GT": 309,
+          "TP": 273,
+          "FP": 24,
+          "FN": 36,
+          "precision": 0.9191919191919192,
+          "recall": 0.883495145631068,
+          "countMAE": 3.0
+        },
+        "sag": {
+          "images": 4,
+          "GT": 472,
+          "TP": 77,
+          "FP": 455,
+          "FN": 395,
+          "precision": 0.14473684210526316,
+          "recall": 0.163135593220339,
+          "countMAE": 19.0
+        },
+        "sau": {
+          "images": 4,
+          "GT": 270,
+          "TP": 234,
+          "FP": 26,
+          "FN": 36,
+          "precision": 0.9,
+          "recall": 0.8666666666666667,
+          "countMAE": 2.5
+        },
+        "sep": {
+          "images": 4,
+          "GT": 98,
+          "TP": 52,
+          "FP": 42,
+          "FN": 46,
+          "precision": 0.5531914893617021,
+          "recall": 0.5306122448979592,
+          "countMAE": 1.0
+        },
+        "ses": {
+          "images": 4,
+          "GT": 248,
+          "TP": 129,
+          "FP": 17,
+          "FN": 119,
+          "precision": 0.8835616438356164,
+          "recall": 0.5201612903225806,
+          "countMAE": 25.5
+        },
+        "sma": {
+          "images": 4,
+          "GT": 400,
+          "TP": 36,
+          "FP": 8,
+          "FN": 364,
+          "precision": 0.8181818181818182,
+          "recall": 0.09,
+          "countMAE": 89.0
+        },
+        "spn": {
+          "images": 4,
+          "GT": 158,
+          "TP": 0,
+          "FP": 122,
+          "FN": 158,
+          "precision": 0.0,
+          "recall": 0.0,
+          "countMAE": 9.0
+        },
+        "spy": {
+          "images": 4,
+          "GT": 302,
+          "TP": 20,
+          "FP": 287,
+          "FN": 282,
+          "precision": 0.06514657980456026,
+          "recall": 0.06622516556291391,
+          "countMAE": 3.75
+        },
+        "stm": {
+          "images": 4,
+          "GT": 104,
+          "TP": 1,
+          "FP": 0,
+          "FN": 103,
+          "precision": 1.0,
+          "recall": 0.009615384615384616,
+          "countMAE": 25.75
+        }
+      },
+      "sizeRecall": {
+        "under16px": {
+          "GT": 1960,
+          "TP": 559,
+          "recall": 0.28520408163265304
+        },
+        "16to32px": {
+          "GT": 2108,
+          "TP": 667,
+          "recall": 0.3164136622390892
+        },
+        "over32px": {
+          "GT": 418,
+          "TP": 191,
+          "recall": 0.4569377990430622
+        }
+      }
+    }
+  },
+  "checks": {
+    "countMAE": false,
+    "macroMAE": false,
+    "TP": false,
+    "FP": true,
+    "FN": false,
+    "recall.aba": false,
+    "recall.bce": false,
+    "recall.bcp": false,
+    "recall.cst": false,
+    "recall.eca": true,
+    "recall.eco": true,
+    "recall.efa": false,
+    "recall.enc": true,
+    "recall.kpn": false,
+    "recall.mmo": true,
+    "recall.ppu": true,
+    "recall.sag": false,
+    "recall.sau": false,
+    "recall.sep": false,
+    "recall.ses": false,
+    "recall.sma": false,
+    "recall.spn": true,
+    "recall.spy": true,
+    "recall.stm": false,
+    "sizeRecall.under16px": false,
+    "sizeRecall.16to32px": false,
+    "sizeRecall.over32px": false
+  },
+  "externalRelativeGatePassed": false,
+  "internalGatePassed": false,
+  "deploymentApproved": false,
+  "futureUseOfThisCohort": "Regression only; now exposed",
+  "images": {
+    "whole": [
+      {
+        "image": "aba_08.jpg",
+        "species": "aba",
+        "truth": 28,
+        "predicted": 0,
+        "error": -28,
+        "TP": 0,
+        "FP": 0,
+        "FN": 28
+      },
+      {
+        "image": "aba_05.jpg",
+        "species": "aba",
+        "truth": 31,
+        "predicted": 0,
+        "error": -31,
+        "TP": 0,
+        "FP": 0,
+        "FN": 31
+      },
+      {
+        "image": "aba_46.jpg",
+        "species": "aba",
+        "truth": 25,
+        "predicted": 0,
+        "error": -25,
+        "TP": 0,
+        "FP": 0,
+        "FN": 25
+      },
+      {
+        "image": "aba_44.jpg",
+        "species": "aba",
+        "truth": 17,
+        "predicted": 0,
+        "error": -17,
+        "TP": 0,
+        "FP": 0,
+        "FN": 17
+      },
+      {
+        "image": "bce_21.jpg",
+        "species": "bce",
+        "truth": 19,
+        "predicted": 18,
+        "error": -1,
+        "TP": 0,
+        "FP": 18,
+        "FN": 19
+      },
+      {
+        "image": "bce_30.jpg",
+        "species": "bce",
+        "truth": 15,
+        "predicted": 11,
+        "error": -4,
+        "TP": 0,
+        "FP": 11,
+        "FN": 15
+      },
+      {
+        "image": "bce_48.jpg",
+        "species": "bce",
+        "truth": 23,
+        "predicted": 16,
+        "error": -7,
+        "TP": 2,
+        "FP": 14,
+        "FN": 21
+      },
+      {
+        "image": "bce_03.jpg",
+        "species": "bce",
+        "truth": 11,
+        "predicted": 10,
+        "error": -1,
+        "TP": 0,
+        "FP": 10,
+        "FN": 11
+      },
+      {
+        "image": "bcp_39.jpg",
+        "species": "bcp",
+        "truth": 129,
+        "predicted": 11,
+        "error": -118,
+        "TP": 9,
+        "FP": 2,
+        "FN": 120
+      },
+      {
+        "image": "bcp_18.jpg",
+        "species": "bcp",
+        "truth": 119,
+        "predicted": 0,
+        "error": -119,
+        "TP": 0,
+        "FP": 0,
+        "FN": 119
+      },
+      {
+        "image": "bcp_27.jpg",
+        "species": "bcp",
+        "truth": 41,
+        "predicted": 1,
+        "error": -40,
+        "TP": 1,
+        "FP": 0,
+        "FN": 40
+      },
+      {
+        "image": "bcp_04.jpg",
+        "species": "bcp",
+        "truth": 9,
+        "predicted": 0,
+        "error": -9,
+        "TP": 0,
+        "FP": 0,
+        "FN": 9
+      },
+      {
+        "image": "cst_23.jpg",
+        "species": "cst",
+        "truth": 42,
+        "predicted": 43,
+        "error": 1,
+        "TP": 42,
+        "FP": 1,
+        "FN": 0
+      },
+      {
+        "image": "cst_08.jpg",
+        "species": "cst",
+        "truth": 14,
+        "predicted": 13,
+        "error": -1,
+        "TP": 13,
+        "FP": 0,
+        "FN": 1
+      },
+      {
+        "image": "cst_13.jpg",
+        "species": "cst",
+        "truth": 14,
+        "predicted": 14,
+        "error": 0,
+        "TP": 13,
+        "FP": 1,
+        "FN": 1
+      },
+      {
+        "image": "cst_26.jpg",
+        "species": "cst",
+        "truth": 103,
+        "predicted": 102,
+        "error": -1,
+        "TP": 93,
+        "FP": 9,
+        "FN": 10
+      },
+      {
+        "image": "eca_25.jpg",
+        "species": "eca",
+        "truth": 103,
+        "predicted": 89,
+        "error": -14,
+        "TP": 28,
+        "FP": 61,
+        "FN": 75
+      },
+      {
+        "image": "eca_03.jpg",
+        "species": "eca",
+        "truth": 9,
+        "predicted": 12,
+        "error": 3,
+        "TP": 0,
+        "FP": 12,
+        "FN": 9
+      },
+      {
+        "image": "eca_31.jpg",
+        "species": "eca",
+        "truth": 117,
+        "predicted": 113,
+        "error": -4,
+        "TP": 30,
+        "FP": 83,
+        "FN": 87
+      },
+      {
+        "image": "eca_16.jpg",
+        "species": "eca",
+        "truth": 44,
+        "predicted": 43,
+        "error": -1,
+        "TP": 6,
+        "FP": 37,
+        "FN": 38
+      },
+      {
+        "image": "eco_29.jpg",
+        "species": "eco",
+        "truth": 44,
+        "predicted": 44,
+        "error": 0,
+        "TP": 42,
+        "FP": 2,
+        "FN": 2
+      },
+      {
+        "image": "eco_20.jpg",
+        "species": "eco",
+        "truth": 32,
+        "predicted": 32,
+        "error": 0,
+        "TP": 31,
+        "FP": 1,
+        "FN": 1
+      },
+      {
+        "image": "eco_19.jpg",
+        "species": "eco",
+        "truth": 47,
+        "predicted": 45,
+        "error": -2,
+        "TP": 41,
+        "FP": 4,
+        "FN": 6
+      },
+      {
+        "image": "eco_17.jpg",
+        "species": "eco",
+        "truth": 51,
+        "predicted": 49,
+        "error": -2,
+        "TP": 47,
+        "FP": 2,
+        "FN": 4
+      },
+      {
+        "image": "efa_46.jpg",
+        "species": "efa",
+        "truth": 105,
+        "predicted": 95,
+        "error": -10,
+        "TP": 62,
+        "FP": 33,
+        "FN": 43
+      },
+      {
+        "image": "efa_48.jpg",
+        "species": "efa",
+        "truth": 92,
+        "predicted": 87,
+        "error": -5,
+        "TP": 39,
+        "FP": 48,
+        "FN": 53
+      },
+      {
+        "image": "efa_23.jpg",
+        "species": "efa",
+        "truth": 39,
+        "predicted": 37,
+        "error": -2,
+        "TP": 1,
+        "FP": 36,
+        "FN": 38
+      },
+      {
+        "image": "efa_02.jpg",
+        "species": "efa",
+        "truth": 26,
+        "predicted": 26,
+        "error": 0,
+        "TP": 5,
+        "FP": 21,
+        "FN": 21
+      },
+      {
+        "image": "enc_13.jpg",
+        "species": "enc",
+        "truth": 76,
+        "predicted": 0,
+        "error": -76,
+        "TP": 0,
+        "FP": 0,
+        "FN": 76
+      },
+      {
+        "image": "enc_04.jpg",
+        "species": "enc",
+        "truth": 8,
+        "predicted": 0,
+        "error": -8,
+        "TP": 0,
+        "FP": 0,
+        "FN": 8
+      },
+      {
+        "image": "enc_14.jpg",
+        "species": "enc",
+        "truth": 15,
+        "predicted": 0,
+        "error": -15,
+        "TP": 0,
+        "FP": 0,
+        "FN": 15
+      },
+      {
+        "image": "enc_19.jpg",
+        "species": "enc",
+        "truth": 53,
+        "predicted": 0,
+        "error": -53,
+        "TP": 0,
+        "FP": 0,
+        "FN": 53
+      },
+      {
+        "image": "kpn_22.jpg",
+        "species": "kpn",
+        "truth": 34,
+        "predicted": 0,
+        "error": -34,
+        "TP": 0,
+        "FP": 0,
+        "FN": 34
+      },
+      {
+        "image": "kpn_07.jpg",
+        "species": "kpn",
+        "truth": 6,
+        "predicted": 2,
+        "error": -4,
+        "TP": 2,
+        "FP": 0,
+        "FN": 4
+      },
+      {
+        "image": "kpn_03.jpg",
+        "species": "kpn",
+        "truth": 27,
+        "predicted": 12,
+        "error": -15,
+        "TP": 11,
+        "FP": 1,
+        "FN": 16
+      },
+      {
+        "image": "kpn_44.jpg",
+        "species": "kpn",
+        "truth": 18,
+        "predicted": 0,
+        "error": -18,
+        "TP": 0,
+        "FP": 0,
+        "FN": 18
+      },
+      {
+        "image": "mmo_03.jpg",
+        "species": "mmo",
+        "truth": 108,
+        "predicted": 0,
+        "error": -108,
+        "TP": 0,
+        "FP": 0,
+        "FN": 108
+      },
+      {
+        "image": "mmo_10.jpg",
+        "species": "mmo",
+        "truth": 88,
+        "predicted": 0,
+        "error": -88,
+        "TP": 0,
+        "FP": 0,
+        "FN": 88
+      },
+      {
+        "image": "mmo_07.jpg",
+        "species": "mmo",
+        "truth": 178,
+        "predicted": 0,
+        "error": -178,
+        "TP": 0,
+        "FP": 0,
+        "FN": 178
+      },
+      {
+        "image": "mmo_38.jpg",
+        "species": "mmo",
+        "truth": 165,
+        "predicted": 0,
+        "error": -165,
+        "TP": 0,
+        "FP": 0,
+        "FN": 165
+      },
+      {
+        "image": "ppu_01.jpg",
+        "species": "ppu",
+        "truth": 44,
+        "predicted": 41,
+        "error": -3,
+        "TP": 37,
+        "FP": 4,
+        "FN": 7
+      },
+      {
+        "image": "ppu_12.jpg",
+        "species": "ppu",
+        "truth": 40,
+        "predicted": 40,
+        "error": 0,
+        "TP": 40,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "image": "ppu_29.jpg",
+        "species": "ppu",
+        "truth": 175,
+        "predicted": 172,
+        "error": -3,
+        "TP": 148,
+        "FP": 24,
+        "FN": 27
+      },
+      {
+        "image": "ppu_21.jpg",
+        "species": "ppu",
+        "truth": 50,
+        "predicted": 49,
+        "error": -1,
+        "TP": 46,
+        "FP": 3,
+        "FN": 4
+      },
+      {
+        "image": "sag_09.jpg",
+        "species": "sag",
+        "truth": 72,
+        "predicted": 70,
+        "error": -2,
+        "TP": 1,
+        "FP": 69,
+        "FN": 71
+      },
+      {
+        "image": "sag_24.jpg",
+        "species": "sag",
+        "truth": 260,
+        "predicted": 235,
+        "error": -25,
+        "TP": 6,
+        "FP": 229,
+        "FN": 254
+      },
+      {
+        "image": "sag_45.jpg",
+        "species": "sag",
+        "truth": 35,
+        "predicted": 31,
+        "error": -4,
+        "TP": 0,
+        "FP": 31,
+        "FN": 35
+      },
+      {
+        "image": "sag_07.jpg",
+        "species": "sag",
+        "truth": 105,
+        "predicted": 104,
+        "error": -1,
+        "TP": 1,
+        "FP": 103,
+        "FN": 104
+      },
+      {
+        "image": "sau_30.jpg",
+        "species": "sau",
+        "truth": 64,
+        "predicted": 63,
+        "error": -1,
+        "TP": 58,
+        "FP": 5,
+        "FN": 6
+      },
+      {
+        "image": "sau_36.jpg",
+        "species": "sau",
+        "truth": 73,
+        "predicted": 73,
+        "error": 0,
+        "TP": 73,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "image": "sau_50.jpg",
+        "species": "sau",
+        "truth": 79,
+        "predicted": 75,
+        "error": -4,
+        "TP": 63,
+        "FP": 12,
+        "FN": 16
+      },
+      {
+        "image": "sau_26.jpg",
+        "species": "sau",
+        "truth": 54,
+        "predicted": 53,
+        "error": -1,
+        "TP": 43,
+        "FP": 10,
+        "FN": 11
+      },
+      {
+        "image": "sep_16.jpg",
+        "species": "sep",
+        "truth": 18,
+        "predicted": 17,
+        "error": -1,
+        "TP": 8,
+        "FP": 9,
+        "FN": 10
+      },
+      {
+        "image": "sep_23.jpg",
+        "species": "sep",
+        "truth": 12,
+        "predicted": 12,
+        "error": 0,
+        "TP": 0,
+        "FP": 12,
+        "FN": 12
+      },
+      {
+        "image": "sep_14.jpg",
+        "species": "sep",
+        "truth": 52,
+        "predicted": 50,
+        "error": -2,
+        "TP": 37,
+        "FP": 13,
+        "FN": 15
+      },
+      {
+        "image": "sep_09.jpg",
+        "species": "sep",
+        "truth": 16,
+        "predicted": 17,
+        "error": 1,
+        "TP": 2,
+        "FP": 15,
+        "FN": 14
+      },
+      {
+        "image": "ses_32.jpg",
+        "species": "ses",
+        "truth": 74,
+        "predicted": 38,
+        "error": -36,
+        "TP": 32,
+        "FP": 6,
+        "FN": 42
+      },
+      {
+        "image": "ses_44.jpg",
+        "species": "ses",
+        "truth": 116,
+        "predicted": 51,
+        "error": -65,
+        "TP": 43,
+        "FP": 8,
+        "FN": 73
+      },
+      {
+        "image": "ses_05.jpg",
+        "species": "ses",
+        "truth": 28,
+        "predicted": 24,
+        "error": -4,
+        "TP": 23,
+        "FP": 1,
+        "FN": 5
+      },
+      {
+        "image": "ses_06.jpg",
+        "species": "ses",
+        "truth": 30,
+        "predicted": 26,
+        "error": -4,
+        "TP": 25,
+        "FP": 1,
+        "FN": 5
+      },
+      {
+        "image": "sma_02.jpg",
+        "species": "sma",
+        "truth": 37,
+        "predicted": 12,
+        "error": -25,
+        "TP": 12,
+        "FP": 0,
+        "FN": 25
+      },
+      {
+        "image": "sma_36.jpg",
+        "species": "sma",
+        "truth": 79,
+        "predicted": 0,
+        "error": -79,
+        "TP": 0,
+        "FP": 0,
+        "FN": 79
+      },
+      {
+        "image": "sma_46.jpg",
+        "species": "sma",
+        "truth": 199,
+        "predicted": 0,
+        "error": -199,
+        "TP": 0,
+        "FP": 0,
+        "FN": 199
+      },
+      {
+        "image": "sma_14.jpg",
+        "species": "sma",
+        "truth": 85,
+        "predicted": 32,
+        "error": -53,
+        "TP": 24,
+        "FP": 8,
+        "FN": 61
+      },
+      {
+        "image": "spn_43.jpg",
+        "species": "spn",
+        "truth": 43,
+        "predicted": 36,
+        "error": -7,
+        "TP": 0,
+        "FP": 36,
+        "FN": 43
+      },
+      {
+        "image": "spn_38.jpg",
+        "species": "spn",
+        "truth": 16,
+        "predicted": 16,
+        "error": 0,
+        "TP": 0,
+        "FP": 16,
+        "FN": 16
+      },
+      {
+        "image": "spn_42.jpg",
+        "species": "spn",
+        "truth": 50,
+        "predicted": 43,
+        "error": -7,
+        "TP": 0,
+        "FP": 43,
+        "FN": 50
+      },
+      {
+        "image": "spn_49.jpg",
+        "species": "spn",
+        "truth": 49,
+        "predicted": 31,
+        "error": -18,
+        "TP": 0,
+        "FP": 31,
+        "FN": 49
+      },
+      {
+        "image": "spy_26.jpg",
+        "species": "spy",
+        "truth": 166,
+        "predicted": 154,
+        "error": -12,
+        "TP": 0,
+        "FP": 154,
+        "FN": 166
+      },
+      {
+        "image": "spy_36.jpg",
+        "species": "spy",
+        "truth": 61,
+        "predicted": 59,
+        "error": -2,
+        "TP": 0,
+        "FP": 59,
+        "FN": 61
+      },
+      {
+        "image": "spy_41.jpg",
+        "species": "spy",
+        "truth": 18,
+        "predicted": 15,
+        "error": -3,
+        "TP": 0,
+        "FP": 15,
+        "FN": 18
+      },
+      {
+        "image": "spy_30.jpg",
+        "species": "spy",
+        "truth": 57,
+        "predicted": 53,
+        "error": -4,
+        "TP": 0,
+        "FP": 53,
+        "FN": 57
+      },
+      {
+        "image": "stm_33.jpg",
+        "species": "stm",
+        "truth": 31,
+        "predicted": 0,
+        "error": -31,
+        "TP": 0,
+        "FP": 0,
+        "FN": 31
+      },
+      {
+        "image": "stm_40.jpg",
+        "species": "stm",
+        "truth": 24,
+        "predicted": 0,
+        "error": -24,
+        "TP": 0,
+        "FP": 0,
+        "FN": 24
+      },
+      {
+        "image": "stm_42.jpg",
+        "species": "stm",
+        "truth": 23,
+        "predicted": 0,
+        "error": -23,
+        "TP": 0,
+        "FP": 0,
+        "FN": 23
+      },
+      {
+        "image": "stm_48.jpg",
+        "species": "stm",
+        "truth": 26,
+        "predicted": 1,
+        "error": -25,
+        "TP": 1,
+        "FP": 0,
+        "FN": 25
+      }
+    ],
+    "tile": [
+      {
+        "image": "aba_08.jpg",
+        "species": "aba",
+        "truth": 28,
+        "predicted": 1,
+        "error": -27,
+        "TP": 0,
+        "FP": 1,
+        "FN": 28
+      },
+      {
+        "image": "aba_05.jpg",
+        "species": "aba",
+        "truth": 31,
+        "predicted": 5,
+        "error": -26,
+        "TP": 5,
+        "FP": 0,
+        "FN": 26
+      },
+      {
+        "image": "aba_46.jpg",
+        "species": "aba",
+        "truth": 25,
+        "predicted": 0,
+        "error": -25,
+        "TP": 0,
+        "FP": 0,
+        "FN": 25
+      },
+      {
+        "image": "aba_44.jpg",
+        "species": "aba",
+        "truth": 17,
+        "predicted": 0,
+        "error": -17,
+        "TP": 0,
+        "FP": 0,
+        "FN": 17
+      },
+      {
+        "image": "bce_21.jpg",
+        "species": "bce",
+        "truth": 19,
+        "predicted": 18,
+        "error": -1,
+        "TP": 0,
+        "FP": 18,
+        "FN": 19
+      },
+      {
+        "image": "bce_30.jpg",
+        "species": "bce",
+        "truth": 15,
+        "predicted": 10,
+        "error": -5,
+        "TP": 0,
+        "FP": 10,
+        "FN": 15
+      },
+      {
+        "image": "bce_48.jpg",
+        "species": "bce",
+        "truth": 23,
+        "predicted": 17,
+        "error": -6,
+        "TP": 13,
+        "FP": 4,
+        "FN": 10
+      },
+      {
+        "image": "bce_03.jpg",
+        "species": "bce",
+        "truth": 11,
+        "predicted": 12,
+        "error": 1,
+        "TP": 0,
+        "FP": 12,
+        "FN": 11
+      },
+      {
+        "image": "bcp_39.jpg",
+        "species": "bcp",
+        "truth": 129,
+        "predicted": 38,
+        "error": -91,
+        "TP": 25,
+        "FP": 13,
+        "FN": 104
+      },
+      {
+        "image": "bcp_18.jpg",
+        "species": "bcp",
+        "truth": 119,
+        "predicted": 0,
+        "error": -119,
+        "TP": 0,
+        "FP": 0,
+        "FN": 119
+      },
+      {
+        "image": "bcp_27.jpg",
+        "species": "bcp",
+        "truth": 41,
+        "predicted": 12,
+        "error": -29,
+        "TP": 10,
+        "FP": 2,
+        "FN": 31
+      },
+      {
+        "image": "bcp_04.jpg",
+        "species": "bcp",
+        "truth": 9,
+        "predicted": 0,
+        "error": -9,
+        "TP": 0,
+        "FP": 0,
+        "FN": 9
+      },
+      {
+        "image": "cst_23.jpg",
+        "species": "cst",
+        "truth": 42,
+        "predicted": 43,
+        "error": 1,
+        "TP": 42,
+        "FP": 1,
+        "FN": 0
+      },
+      {
+        "image": "cst_08.jpg",
+        "species": "cst",
+        "truth": 14,
+        "predicted": 15,
+        "error": 1,
+        "TP": 14,
+        "FP": 1,
+        "FN": 0
+      },
+      {
+        "image": "cst_13.jpg",
+        "species": "cst",
+        "truth": 14,
+        "predicted": 14,
+        "error": 0,
+        "TP": 14,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "image": "cst_26.jpg",
+        "species": "cst",
+        "truth": 103,
+        "predicted": 103,
+        "error": 0,
+        "TP": 100,
+        "FP": 3,
+        "FN": 3
+      },
+      {
+        "image": "eca_25.jpg",
+        "species": "eca",
+        "truth": 103,
+        "predicted": 104,
+        "error": 1,
+        "TP": 49,
+        "FP": 55,
+        "FN": 54
+      },
+      {
+        "image": "eca_03.jpg",
+        "species": "eca",
+        "truth": 9,
+        "predicted": 11,
+        "error": 2,
+        "TP": 0,
+        "FP": 11,
+        "FN": 9
+      },
+      {
+        "image": "eca_31.jpg",
+        "species": "eca",
+        "truth": 117,
+        "predicted": 117,
+        "error": 0,
+        "TP": 12,
+        "FP": 105,
+        "FN": 105
+      },
+      {
+        "image": "eca_16.jpg",
+        "species": "eca",
+        "truth": 44,
+        "predicted": 47,
+        "error": 3,
+        "TP": 8,
+        "FP": 39,
+        "FN": 36
+      },
+      {
+        "image": "eco_29.jpg",
+        "species": "eco",
+        "truth": 44,
+        "predicted": 45,
+        "error": 1,
+        "TP": 44,
+        "FP": 1,
+        "FN": 0
+      },
+      {
+        "image": "eco_20.jpg",
+        "species": "eco",
+        "truth": 32,
+        "predicted": 31,
+        "error": -1,
+        "TP": 30,
+        "FP": 1,
+        "FN": 2
+      },
+      {
+        "image": "eco_19.jpg",
+        "species": "eco",
+        "truth": 47,
+        "predicted": 43,
+        "error": -4,
+        "TP": 40,
+        "FP": 3,
+        "FN": 7
+      },
+      {
+        "image": "eco_17.jpg",
+        "species": "eco",
+        "truth": 51,
+        "predicted": 49,
+        "error": -2,
+        "TP": 49,
+        "FP": 0,
+        "FN": 2
+      },
+      {
+        "image": "efa_46.jpg",
+        "species": "efa",
+        "truth": 105,
+        "predicted": 101,
+        "error": -4,
+        "TP": 96,
+        "FP": 5,
+        "FN": 9
+      },
+      {
+        "image": "efa_48.jpg",
+        "species": "efa",
+        "truth": 92,
+        "predicted": 89,
+        "error": -3,
+        "TP": 77,
+        "FP": 12,
+        "FN": 15
+      },
+      {
+        "image": "efa_23.jpg",
+        "species": "efa",
+        "truth": 39,
+        "predicted": 42,
+        "error": 3,
+        "TP": 10,
+        "FP": 32,
+        "FN": 29
+      },
+      {
+        "image": "efa_02.jpg",
+        "species": "efa",
+        "truth": 26,
+        "predicted": 33,
+        "error": 7,
+        "TP": 10,
+        "FP": 23,
+        "FN": 16
+      },
+      {
+        "image": "enc_13.jpg",
+        "species": "enc",
+        "truth": 76,
+        "predicted": 2,
+        "error": -74,
+        "TP": 2,
+        "FP": 0,
+        "FN": 74
+      },
+      {
+        "image": "enc_04.jpg",
+        "species": "enc",
+        "truth": 8,
+        "predicted": 0,
+        "error": -8,
+        "TP": 0,
+        "FP": 0,
+        "FN": 8
+      },
+      {
+        "image": "enc_14.jpg",
+        "species": "enc",
+        "truth": 15,
+        "predicted": 0,
+        "error": -15,
+        "TP": 0,
+        "FP": 0,
+        "FN": 15
+      },
+      {
+        "image": "enc_19.jpg",
+        "species": "enc",
+        "truth": 53,
+        "predicted": 0,
+        "error": -53,
+        "TP": 0,
+        "FP": 0,
+        "FN": 53
+      },
+      {
+        "image": "kpn_22.jpg",
+        "species": "kpn",
+        "truth": 34,
+        "predicted": 15,
+        "error": -19,
+        "TP": 14,
+        "FP": 1,
+        "FN": 20
+      },
+      {
+        "image": "kpn_07.jpg",
+        "species": "kpn",
+        "truth": 6,
+        "predicted": 2,
+        "error": -4,
+        "TP": 2,
+        "FP": 0,
+        "FN": 4
+      },
+      {
+        "image": "kpn_03.jpg",
+        "species": "kpn",
+        "truth": 27,
+        "predicted": 13,
+        "error": -14,
+        "TP": 12,
+        "FP": 1,
+        "FN": 15
+      },
+      {
+        "image": "kpn_44.jpg",
+        "species": "kpn",
+        "truth": 18,
+        "predicted": 3,
+        "error": -15,
+        "TP": 2,
+        "FP": 1,
+        "FN": 16
+      },
+      {
+        "image": "mmo_03.jpg",
+        "species": "mmo",
+        "truth": 108,
+        "predicted": 0,
+        "error": -108,
+        "TP": 0,
+        "FP": 0,
+        "FN": 108
+      },
+      {
+        "image": "mmo_10.jpg",
+        "species": "mmo",
+        "truth": 88,
+        "predicted": 0,
+        "error": -88,
+        "TP": 0,
+        "FP": 0,
+        "FN": 88
+      },
+      {
+        "image": "mmo_07.jpg",
+        "species": "mmo",
+        "truth": 178,
+        "predicted": 0,
+        "error": -178,
+        "TP": 0,
+        "FP": 0,
+        "FN": 178
+      },
+      {
+        "image": "mmo_38.jpg",
+        "species": "mmo",
+        "truth": 165,
+        "predicted": 0,
+        "error": -165,
+        "TP": 0,
+        "FP": 0,
+        "FN": 165
+      },
+      {
+        "image": "ppu_01.jpg",
+        "species": "ppu",
+        "truth": 44,
+        "predicted": 41,
+        "error": -3,
+        "TP": 38,
+        "FP": 3,
+        "FN": 6
+      },
+      {
+        "image": "ppu_12.jpg",
+        "species": "ppu",
+        "truth": 40,
+        "predicted": 40,
+        "error": 0,
+        "TP": 40,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "image": "ppu_29.jpg",
+        "species": "ppu",
+        "truth": 175,
+        "predicted": 167,
+        "error": -8,
+        "TP": 150,
+        "FP": 17,
+        "FN": 25
+      },
+      {
+        "image": "ppu_21.jpg",
+        "species": "ppu",
+        "truth": 50,
+        "predicted": 47,
+        "error": -3,
+        "TP": 44,
+        "FP": 3,
+        "FN": 6
+      },
+      {
+        "image": "sag_09.jpg",
+        "species": "sag",
+        "truth": 72,
+        "predicted": 70,
+        "error": -2,
+        "TP": 0,
+        "FP": 70,
+        "FN": 72
+      },
+      {
+        "image": "sag_24.jpg",
+        "species": "sag",
+        "truth": 260,
+        "predicted": 317,
+        "error": 57,
+        "TP": 87,
+        "FP": 230,
+        "FN": 173
+      },
+      {
+        "image": "sag_45.jpg",
+        "species": "sag",
+        "truth": 35,
+        "predicted": 35,
+        "error": 0,
+        "TP": 2,
+        "FP": 33,
+        "FN": 33
+      },
+      {
+        "image": "sag_07.jpg",
+        "species": "sag",
+        "truth": 105,
+        "predicted": 106,
+        "error": 1,
+        "TP": 1,
+        "FP": 105,
+        "FN": 104
+      },
+      {
+        "image": "sau_30.jpg",
+        "species": "sau",
+        "truth": 64,
+        "predicted": 62,
+        "error": -2,
+        "TP": 58,
+        "FP": 4,
+        "FN": 6
+      },
+      {
+        "image": "sau_36.jpg",
+        "species": "sau",
+        "truth": 73,
+        "predicted": 73,
+        "error": 0,
+        "TP": 70,
+        "FP": 3,
+        "FN": 3
+      },
+      {
+        "image": "sau_50.jpg",
+        "species": "sau",
+        "truth": 79,
+        "predicted": 80,
+        "error": 1,
+        "TP": 74,
+        "FP": 6,
+        "FN": 5
+      },
+      {
+        "image": "sau_26.jpg",
+        "species": "sau",
+        "truth": 54,
+        "predicted": 55,
+        "error": 1,
+        "TP": 54,
+        "FP": 1,
+        "FN": 0
+      },
+      {
+        "image": "sep_16.jpg",
+        "species": "sep",
+        "truth": 18,
+        "predicted": 17,
+        "error": -1,
+        "TP": 9,
+        "FP": 8,
+        "FN": 9
+      },
+      {
+        "image": "sep_23.jpg",
+        "species": "sep",
+        "truth": 12,
+        "predicted": 13,
+        "error": 1,
+        "TP": 9,
+        "FP": 4,
+        "FN": 3
+      },
+      {
+        "image": "sep_14.jpg",
+        "species": "sep",
+        "truth": 52,
+        "predicted": 54,
+        "error": 2,
+        "TP": 39,
+        "FP": 15,
+        "FN": 13
+      },
+      {
+        "image": "sep_09.jpg",
+        "species": "sep",
+        "truth": 16,
+        "predicted": 18,
+        "error": 2,
+        "TP": 6,
+        "FP": 12,
+        "FN": 10
+      },
+      {
+        "image": "ses_32.jpg",
+        "species": "ses",
+        "truth": 74,
+        "predicted": 53,
+        "error": -21,
+        "TP": 45,
+        "FP": 8,
+        "FN": 29
+      },
+      {
+        "image": "ses_44.jpg",
+        "species": "ses",
+        "truth": 116,
+        "predicted": 76,
+        "error": -40,
+        "TP": 62,
+        "FP": 14,
+        "FN": 54
+      },
+      {
+        "image": "ses_05.jpg",
+        "species": "ses",
+        "truth": 28,
+        "predicted": 25,
+        "error": -3,
+        "TP": 25,
+        "FP": 0,
+        "FN": 3
+      },
+      {
+        "image": "ses_06.jpg",
+        "species": "ses",
+        "truth": 30,
+        "predicted": 27,
+        "error": -3,
+        "TP": 27,
+        "FP": 0,
+        "FN": 3
+      },
+      {
+        "image": "sma_02.jpg",
+        "species": "sma",
+        "truth": 37,
+        "predicted": 22,
+        "error": -15,
+        "TP": 20,
+        "FP": 2,
+        "FN": 17
+      },
+      {
+        "image": "sma_36.jpg",
+        "species": "sma",
+        "truth": 79,
+        "predicted": 12,
+        "error": -67,
+        "TP": 9,
+        "FP": 3,
+        "FN": 70
+      },
+      {
+        "image": "sma_46.jpg",
+        "species": "sma",
+        "truth": 199,
+        "predicted": 18,
+        "error": -181,
+        "TP": 16,
+        "FP": 2,
+        "FN": 183
+      },
+      {
+        "image": "sma_14.jpg",
+        "species": "sma",
+        "truth": 85,
+        "predicted": 43,
+        "error": -42,
+        "TP": 30,
+        "FP": 13,
+        "FN": 55
+      },
+      {
+        "image": "spn_43.jpg",
+        "species": "spn",
+        "truth": 43,
+        "predicted": 34,
+        "error": -9,
+        "TP": 0,
+        "FP": 34,
+        "FN": 43
+      },
+      {
+        "image": "spn_38.jpg",
+        "species": "spn",
+        "truth": 16,
+        "predicted": 9,
+        "error": -7,
+        "TP": 3,
+        "FP": 6,
+        "FN": 13
+      },
+      {
+        "image": "spn_42.jpg",
+        "species": "spn",
+        "truth": 50,
+        "predicted": 41,
+        "error": -9,
+        "TP": 0,
+        "FP": 41,
+        "FN": 50
+      },
+      {
+        "image": "spn_49.jpg",
+        "species": "spn",
+        "truth": 49,
+        "predicted": 27,
+        "error": -22,
+        "TP": 0,
+        "FP": 27,
+        "FN": 49
+      },
+      {
+        "image": "spy_26.jpg",
+        "species": "spy",
+        "truth": 166,
+        "predicted": 179,
+        "error": 13,
+        "TP": 19,
+        "FP": 160,
+        "FN": 147
+      },
+      {
+        "image": "spy_36.jpg",
+        "species": "spy",
+        "truth": 61,
+        "predicted": 61,
+        "error": 0,
+        "TP": 1,
+        "FP": 60,
+        "FN": 60
+      },
+      {
+        "image": "spy_41.jpg",
+        "species": "spy",
+        "truth": 18,
+        "predicted": 17,
+        "error": -1,
+        "TP": 0,
+        "FP": 17,
+        "FN": 18
+      },
+      {
+        "image": "spy_30.jpg",
+        "species": "spy",
+        "truth": 57,
+        "predicted": 55,
+        "error": -2,
+        "TP": 1,
+        "FP": 54,
+        "FN": 56
+      },
+      {
+        "image": "stm_33.jpg",
+        "species": "stm",
+        "truth": 31,
+        "predicted": 14,
+        "error": -17,
+        "TP": 12,
+        "FP": 2,
+        "FN": 19
+      },
+      {
+        "image": "stm_40.jpg",
+        "species": "stm",
+        "truth": 24,
+        "predicted": 8,
+        "error": -16,
+        "TP": 8,
+        "FP": 0,
+        "FN": 16
+      },
+      {
+        "image": "stm_42.jpg",
+        "species": "stm",
+        "truth": 23,
+        "predicted": 8,
+        "error": -15,
+        "TP": 7,
+        "FP": 1,
+        "FN": 16
+      },
+      {
+        "image": "stm_48.jpg",
+        "species": "stm",
+        "truth": 26,
+        "predicted": 9,
+        "error": -17,
+        "TP": 9,
+        "FP": 0,
+        "FN": 17
+      }
+    ],
+    "fusion": [
+      {
+        "image": "aba_08.jpg",
+        "species": "aba",
+        "truth": 28,
+        "predicted": 0,
+        "error": -28,
+        "TP": 0,
+        "FP": 0,
+        "FN": 28
+      },
+      {
+        "image": "aba_05.jpg",
+        "species": "aba",
+        "truth": 31,
+        "predicted": 0,
+        "error": -31,
+        "TP": 0,
+        "FP": 0,
+        "FN": 31
+      },
+      {
+        "image": "aba_46.jpg",
+        "species": "aba",
+        "truth": 25,
+        "predicted": 0,
+        "error": -25,
+        "TP": 0,
+        "FP": 0,
+        "FN": 25
+      },
+      {
+        "image": "aba_44.jpg",
+        "species": "aba",
+        "truth": 17,
+        "predicted": 0,
+        "error": -17,
+        "TP": 0,
+        "FP": 0,
+        "FN": 17
+      },
+      {
+        "image": "bce_21.jpg",
+        "species": "bce",
+        "truth": 19,
+        "predicted": 17,
+        "error": -2,
+        "TP": 0,
+        "FP": 17,
+        "FN": 19
+      },
+      {
+        "image": "bce_30.jpg",
+        "species": "bce",
+        "truth": 15,
+        "predicted": 11,
+        "error": -4,
+        "TP": 0,
+        "FP": 11,
+        "FN": 15
+      },
+      {
+        "image": "bce_48.jpg",
+        "species": "bce",
+        "truth": 23,
+        "predicted": 15,
+        "error": -8,
+        "TP": 2,
+        "FP": 13,
+        "FN": 21
+      },
+      {
+        "image": "bce_03.jpg",
+        "species": "bce",
+        "truth": 11,
+        "predicted": 10,
+        "error": -1,
+        "TP": 0,
+        "FP": 10,
+        "FN": 11
+      },
+      {
+        "image": "bcp_39.jpg",
+        "species": "bcp",
+        "truth": 129,
+        "predicted": 11,
+        "error": -118,
+        "TP": 9,
+        "FP": 2,
+        "FN": 120
+      },
+      {
+        "image": "bcp_18.jpg",
+        "species": "bcp",
+        "truth": 119,
+        "predicted": 0,
+        "error": -119,
+        "TP": 0,
+        "FP": 0,
+        "FN": 119
+      },
+      {
+        "image": "bcp_27.jpg",
+        "species": "bcp",
+        "truth": 41,
+        "predicted": 1,
+        "error": -40,
+        "TP": 1,
+        "FP": 0,
+        "FN": 40
+      },
+      {
+        "image": "bcp_04.jpg",
+        "species": "bcp",
+        "truth": 9,
+        "predicted": 0,
+        "error": -9,
+        "TP": 0,
+        "FP": 0,
+        "FN": 9
+      },
+      {
+        "image": "cst_23.jpg",
+        "species": "cst",
+        "truth": 42,
+        "predicted": 43,
+        "error": 1,
+        "TP": 42,
+        "FP": 1,
+        "FN": 0
+      },
+      {
+        "image": "cst_08.jpg",
+        "species": "cst",
+        "truth": 14,
+        "predicted": 13,
+        "error": -1,
+        "TP": 13,
+        "FP": 0,
+        "FN": 1
+      },
+      {
+        "image": "cst_13.jpg",
+        "species": "cst",
+        "truth": 14,
+        "predicted": 14,
+        "error": 0,
+        "TP": 13,
+        "FP": 1,
+        "FN": 1
+      },
+      {
+        "image": "cst_26.jpg",
+        "species": "cst",
+        "truth": 103,
+        "predicted": 97,
+        "error": -6,
+        "TP": 94,
+        "FP": 3,
+        "FN": 9
+      },
+      {
+        "image": "eca_25.jpg",
+        "species": "eca",
+        "truth": 103,
+        "predicted": 96,
+        "error": -7,
+        "TP": 43,
+        "FP": 53,
+        "FN": 60
+      },
+      {
+        "image": "eca_03.jpg",
+        "species": "eca",
+        "truth": 9,
+        "predicted": 9,
+        "error": 0,
+        "TP": 0,
+        "FP": 9,
+        "FN": 9
+      },
+      {
+        "image": "eca_31.jpg",
+        "species": "eca",
+        "truth": 117,
+        "predicted": 104,
+        "error": -13,
+        "TP": 15,
+        "FP": 89,
+        "FN": 102
+      },
+      {
+        "image": "eca_16.jpg",
+        "species": "eca",
+        "truth": 44,
+        "predicted": 43,
+        "error": -1,
+        "TP": 8,
+        "FP": 35,
+        "FN": 36
+      },
+      {
+        "image": "eco_29.jpg",
+        "species": "eco",
+        "truth": 44,
+        "predicted": 44,
+        "error": 0,
+        "TP": 42,
+        "FP": 2,
+        "FN": 2
+      },
+      {
+        "image": "eco_20.jpg",
+        "species": "eco",
+        "truth": 32,
+        "predicted": 31,
+        "error": -1,
+        "TP": 30,
+        "FP": 1,
+        "FN": 2
+      },
+      {
+        "image": "eco_19.jpg",
+        "species": "eco",
+        "truth": 47,
+        "predicted": 44,
+        "error": -3,
+        "TP": 41,
+        "FP": 3,
+        "FN": 6
+      },
+      {
+        "image": "eco_17.jpg",
+        "species": "eco",
+        "truth": 51,
+        "predicted": 49,
+        "error": -2,
+        "TP": 47,
+        "FP": 2,
+        "FN": 4
+      },
+      {
+        "image": "efa_46.jpg",
+        "species": "efa",
+        "truth": 105,
+        "predicted": 101,
+        "error": -4,
+        "TP": 95,
+        "FP": 6,
+        "FN": 10
+      },
+      {
+        "image": "efa_48.jpg",
+        "species": "efa",
+        "truth": 92,
+        "predicted": 88,
+        "error": -4,
+        "TP": 74,
+        "FP": 14,
+        "FN": 18
+      },
+      {
+        "image": "efa_23.jpg",
+        "species": "efa",
+        "truth": 39,
+        "predicted": 38,
+        "error": -1,
+        "TP": 8,
+        "FP": 30,
+        "FN": 31
+      },
+      {
+        "image": "efa_02.jpg",
+        "species": "efa",
+        "truth": 26,
+        "predicted": 26,
+        "error": 0,
+        "TP": 5,
+        "FP": 21,
+        "FN": 21
+      },
+      {
+        "image": "enc_13.jpg",
+        "species": "enc",
+        "truth": 76,
+        "predicted": 0,
+        "error": -76,
+        "TP": 0,
+        "FP": 0,
+        "FN": 76
+      },
+      {
+        "image": "enc_04.jpg",
+        "species": "enc",
+        "truth": 8,
+        "predicted": 0,
+        "error": -8,
+        "TP": 0,
+        "FP": 0,
+        "FN": 8
+      },
+      {
+        "image": "enc_14.jpg",
+        "species": "enc",
+        "truth": 15,
+        "predicted": 0,
+        "error": -15,
+        "TP": 0,
+        "FP": 0,
+        "FN": 15
+      },
+      {
+        "image": "enc_19.jpg",
+        "species": "enc",
+        "truth": 53,
+        "predicted": 0,
+        "error": -53,
+        "TP": 0,
+        "FP": 0,
+        "FN": 53
+      },
+      {
+        "image": "kpn_22.jpg",
+        "species": "kpn",
+        "truth": 34,
+        "predicted": 0,
+        "error": -34,
+        "TP": 0,
+        "FP": 0,
+        "FN": 34
+      },
+      {
+        "image": "kpn_07.jpg",
+        "species": "kpn",
+        "truth": 6,
+        "predicted": 2,
+        "error": -4,
+        "TP": 2,
+        "FP": 0,
+        "FN": 4
+      },
+      {
+        "image": "kpn_03.jpg",
+        "species": "kpn",
+        "truth": 27,
+        "predicted": 12,
+        "error": -15,
+        "TP": 11,
+        "FP": 1,
+        "FN": 16
+      },
+      {
+        "image": "kpn_44.jpg",
+        "species": "kpn",
+        "truth": 18,
+        "predicted": 0,
+        "error": -18,
+        "TP": 0,
+        "FP": 0,
+        "FN": 18
+      },
+      {
+        "image": "mmo_03.jpg",
+        "species": "mmo",
+        "truth": 108,
+        "predicted": 0,
+        "error": -108,
+        "TP": 0,
+        "FP": 0,
+        "FN": 108
+      },
+      {
+        "image": "mmo_10.jpg",
+        "species": "mmo",
+        "truth": 88,
+        "predicted": 0,
+        "error": -88,
+        "TP": 0,
+        "FP": 0,
+        "FN": 88
+      },
+      {
+        "image": "mmo_07.jpg",
+        "species": "mmo",
+        "truth": 178,
+        "predicted": 0,
+        "error": -178,
+        "TP": 0,
+        "FP": 0,
+        "FN": 178
+      },
+      {
+        "image": "mmo_38.jpg",
+        "species": "mmo",
+        "truth": 165,
+        "predicted": 0,
+        "error": -165,
+        "TP": 0,
+        "FP": 0,
+        "FN": 165
+      },
+      {
+        "image": "ppu_01.jpg",
+        "species": "ppu",
+        "truth": 44,
+        "predicted": 40,
+        "error": -4,
+        "TP": 36,
+        "FP": 4,
+        "FN": 8
+      },
+      {
+        "image": "ppu_12.jpg",
+        "species": "ppu",
+        "truth": 40,
+        "predicted": 40,
+        "error": 0,
+        "TP": 40,
+        "FP": 0,
+        "FN": 0
+      },
+      {
+        "image": "ppu_29.jpg",
+        "species": "ppu",
+        "truth": 175,
+        "predicted": 169,
+        "error": -6,
+        "TP": 151,
+        "FP": 18,
+        "FN": 24
+      },
+      {
+        "image": "ppu_21.jpg",
+        "species": "ppu",
+        "truth": 50,
+        "predicted": 48,
+        "error": -2,
+        "TP": 46,
+        "FP": 2,
+        "FN": 4
+      },
+      {
+        "image": "sag_09.jpg",
+        "species": "sag",
+        "truth": 72,
+        "predicted": 68,
+        "error": -4,
+        "TP": 0,
+        "FP": 68,
+        "FN": 72
+      },
+      {
+        "image": "sag_24.jpg",
+        "species": "sag",
+        "truth": 260,
+        "predicted": 328,
+        "error": 68,
+        "TP": 74,
+        "FP": 254,
+        "FN": 186
+      },
+      {
+        "image": "sag_45.jpg",
+        "species": "sag",
+        "truth": 35,
+        "predicted": 34,
+        "error": -1,
+        "TP": 2,
+        "FP": 32,
+        "FN": 33
+      },
+      {
+        "image": "sag_07.jpg",
+        "species": "sag",
+        "truth": 105,
+        "predicted": 102,
+        "error": -3,
+        "TP": 1,
+        "FP": 101,
+        "FN": 104
+      },
+      {
+        "image": "sau_30.jpg",
+        "species": "sau",
+        "truth": 64,
+        "predicted": 62,
+        "error": -2,
+        "TP": 57,
+        "FP": 5,
+        "FN": 7
+      },
+      {
+        "image": "sau_36.jpg",
+        "species": "sau",
+        "truth": 73,
+        "predicted": 72,
+        "error": -1,
+        "TP": 72,
+        "FP": 0,
+        "FN": 1
+      },
+      {
+        "image": "sau_50.jpg",
+        "species": "sau",
+        "truth": 79,
+        "predicted": 74,
+        "error": -5,
+        "TP": 63,
+        "FP": 11,
+        "FN": 16
+      },
+      {
+        "image": "sau_26.jpg",
+        "species": "sau",
+        "truth": 54,
+        "predicted": 52,
+        "error": -2,
+        "TP": 42,
+        "FP": 10,
+        "FN": 12
+      },
+      {
+        "image": "sep_16.jpg",
+        "species": "sep",
+        "truth": 18,
+        "predicted": 17,
+        "error": -1,
+        "TP": 8,
+        "FP": 9,
+        "FN": 10
+      },
+      {
+        "image": "sep_23.jpg",
+        "species": "sep",
+        "truth": 12,
+        "predicted": 12,
+        "error": 0,
+        "TP": 1,
+        "FP": 11,
+        "FN": 11
+      },
+      {
+        "image": "sep_14.jpg",
+        "species": "sep",
+        "truth": 52,
+        "predicted": 50,
+        "error": -2,
+        "TP": 41,
+        "FP": 9,
+        "FN": 11
+      },
+      {
+        "image": "sep_09.jpg",
+        "species": "sep",
+        "truth": 16,
+        "predicted": 15,
+        "error": -1,
+        "TP": 2,
+        "FP": 13,
+        "FN": 14
+      },
+      {
+        "image": "ses_32.jpg",
+        "species": "ses",
+        "truth": 74,
+        "predicted": 36,
+        "error": -38,
+        "TP": 29,
+        "FP": 7,
+        "FN": 45
+      },
+      {
+        "image": "ses_44.jpg",
+        "species": "ses",
+        "truth": 116,
+        "predicted": 62,
+        "error": -54,
+        "TP": 52,
+        "FP": 10,
+        "FN": 64
+      },
+      {
+        "image": "ses_05.jpg",
+        "species": "ses",
+        "truth": 28,
+        "predicted": 23,
+        "error": -5,
+        "TP": 23,
+        "FP": 0,
+        "FN": 5
+      },
+      {
+        "image": "ses_06.jpg",
+        "species": "ses",
+        "truth": 30,
+        "predicted": 25,
+        "error": -5,
+        "TP": 25,
+        "FP": 0,
+        "FN": 5
+      },
+      {
+        "image": "sma_02.jpg",
+        "species": "sma",
+        "truth": 37,
+        "predicted": 12,
+        "error": -25,
+        "TP": 12,
+        "FP": 0,
+        "FN": 25
+      },
+      {
+        "image": "sma_36.jpg",
+        "species": "sma",
+        "truth": 79,
+        "predicted": 0,
+        "error": -79,
+        "TP": 0,
+        "FP": 0,
+        "FN": 79
+      },
+      {
+        "image": "sma_46.jpg",
+        "species": "sma",
+        "truth": 199,
+        "predicted": 0,
+        "error": -199,
+        "TP": 0,
+        "FP": 0,
+        "FN": 199
+      },
+      {
+        "image": "sma_14.jpg",
+        "species": "sma",
+        "truth": 85,
+        "predicted": 32,
+        "error": -53,
+        "TP": 24,
+        "FP": 8,
+        "FN": 61
+      },
+      {
+        "image": "spn_43.jpg",
+        "species": "spn",
+        "truth": 43,
+        "predicted": 35,
+        "error": -8,
+        "TP": 0,
+        "FP": 35,
+        "FN": 43
+      },
+      {
+        "image": "spn_38.jpg",
+        "species": "spn",
+        "truth": 16,
+        "predicted": 16,
+        "error": 0,
+        "TP": 0,
+        "FP": 16,
+        "FN": 16
+      },
+      {
+        "image": "spn_42.jpg",
+        "species": "spn",
+        "truth": 50,
+        "predicted": 42,
+        "error": -8,
+        "TP": 0,
+        "FP": 42,
+        "FN": 50
+      },
+      {
+        "image": "spn_49.jpg",
+        "species": "spn",
+        "truth": 49,
+        "predicted": 29,
+        "error": -20,
+        "TP": 0,
+        "FP": 29,
+        "FN": 49
+      },
+      {
+        "image": "spy_26.jpg",
+        "species": "spy",
+        "truth": 166,
+        "predicted": 176,
+        "error": 10,
+        "TP": 18,
+        "FP": 158,
+        "FN": 148
+      },
+      {
+        "image": "spy_36.jpg",
+        "species": "spy",
+        "truth": 61,
+        "predicted": 60,
+        "error": -1,
+        "TP": 1,
+        "FP": 59,
+        "FN": 60
+      },
+      {
+        "image": "spy_41.jpg",
+        "species": "spy",
+        "truth": 18,
+        "predicted": 15,
+        "error": -3,
+        "TP": 0,
+        "FP": 15,
+        "FN": 18
+      },
+      {
+        "image": "spy_30.jpg",
+        "species": "spy",
+        "truth": 57,
+        "predicted": 56,
+        "error": -1,
+        "TP": 1,
+        "FP": 55,
+        "FN": 56
+      },
+      {
+        "image": "stm_33.jpg",
+        "species": "stm",
+        "truth": 31,
+        "predicted": 0,
+        "error": -31,
+        "TP": 0,
+        "FP": 0,
+        "FN": 31
+      },
+      {
+        "image": "stm_40.jpg",
+        "species": "stm",
+        "truth": 24,
+        "predicted": 0,
+        "error": -24,
+        "TP": 0,
+        "FP": 0,
+        "FN": 24
+      },
+      {
+        "image": "stm_42.jpg",
+        "species": "stm",
+        "truth": 23,
+        "predicted": 0,
+        "error": -23,
+        "TP": 0,
+        "FP": 0,
+        "FN": 23
+      },
+      {
+        "image": "stm_48.jpg",
+        "species": "stm",
+        "truth": 26,
+        "predicted": 1,
+        "error": -25,
+        "TP": 1,
+        "FP": 0,
+        "FN": 25
+      }
+    ]
+  }
+}

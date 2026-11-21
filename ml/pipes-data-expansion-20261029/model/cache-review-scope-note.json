@@ -1,0 +1,11 @@
+{
+  "status": "DOCUMENTED_PREEXECUTION_SCOPE_NARROWING",
+  "preparationScriptSHA256": "86644d607dc72b6cd03a676f991c1389e7e6718a0bd573bb01ec183540ec64c4",
+  "executedScriptSHA256": "80af510c2f24357ce70a7a02520b0698616f9ed05221325f89700c8dc89885f4",
+  "change": "Independent cache reviewer did not open modelweight bytes. Compared registered checkpoint SHA among completion/selection/cache metadata instead. Operator separately reloaded and verified actual owntrained checkpoint bytes.",
+  "metricEquationsOrParametersChanged": false,
+  "realAuditAttempts": 1,
+  "realAuditFailureBeforeSuccess": false,
+  "selectionSHA256": "eab63a14fea55403feae01db88cb6e6dc7bf434272f163513973f4726524342a",
+  "finalReportSHA256": "840e2f5eb7edf6c8ffcb0af21b2c54193db043f0f561c43ca0dbffdba213d31d"
+}

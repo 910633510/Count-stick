@@ -1,0 +1,48 @@
+{
+  "status": "PASS_ROOT_DATA_EXPANSION_FREEZE",
+  "createdUTC": "2026-10-29T16:05:19.165092+00:00",
+  "addedViews": 33,
+  "addedPositiveViews": 13,
+  "addedNegativeViews": 20,
+  "addedObjects": 155,
+  "addedGroups": 32,
+  "previous74RowsAnd54DevelopmentRowsUnchanged": true,
+  "same7FreshValAnd20FreshTestRows": true,
+  "sourceReviewBindings": {
+    "ml/pipes-data-expansion-20261029/data/root-approved-new-images.json": "f6a8e2eba5a5ec76d9ea1a2a40ba4419da51004f7afe472d0814a3a5aeb24025",
+    "ml/pipes-data-expansion-20261029/data/positives/general-derived-labels.json": "3d27653843892406acf919f61d63e5ed3d3401ea4bbccc2d8778552789bbf58d",
+    "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+    "ml/pipes-data-expansion-20261029/data/root-general-positive-review.json": "5580aebfcd099c47c402ccab7329b3be49216163f247a8082ba879589b76f33e",
+    "ml/pipes-data-expansion-20261029/data/positives/root-annotations-independent-review.json": "d7610eb20cbd169af791cacb2f4ca105beccb91c81cc3a8ca055179de7b05cc2",
+    "ml/pipes-data-expansion-20261029/data/positives/rfv2-duplicate-screen.json": "c70a92db6ce0e3e97a39ed8b5cfc9eeab18096bd15563e4cd72cf6902364ed4f",
+    "ml/pipes-data-expansion-20261029/data/positives/commons-duplicate-screen.json": "0787ae1a8e6e498a7ab3c01a31c0203d2c9cca5a2af660f9b58ddd4597f1e0a0",
+    "output/pipes-data-expansion-20261029/data/positives/positive-proposal.json": "fbb5c9657a3a25506f1732cc72cd150bfa0550d37d2135f8c1fa411a8d465597",
+    "ml/pipes-data-expansion-20261029/data/positives/dataset-qa.json": "436e2be20d1ce367ed650d8bbb0a0e6145ef48200cb78f0b5ffcbf80e4fe9459",
+    "ml/pipes-data-expansion-20261029/data/root-negative-visual-review.json": "87580808df306a9fe10eee1e929ca6f88220f7a2f0ffcb14654a514b3f0e5f11",
+    "ml/pipes-data-expansion-20261029/data/negatives/own-visual-review.json": "d93970fa352f01e9dc5f015f6dd1bc99813258e871424d37134915739596a123",
+    "output/pipes-data-expansion-20261029/data/negatives/identity-audit.json": "2b4c43780d0aaa2815b914690b5b29c86614061af9dcf79671472b70b86cba75",
+    "output/pipes-data-expansion-20261029/data/negatives/sources/download-receipts.json": "57131bf0e9bf6f30974da623fe542f0ddb757b4ec47183d3655f0019f6fdda52",
+    "output/pipes-data-expansion-20261029/data/negatives/negative-proposal.json": "15f776830034a367adcfac31049719065336d8fb14a459348cbb4128ec795d03",
+    "ml/pipes-data-expansion-20261029/data/negatives/dataset-qa.json": "775cbd092df3187d825eb17199db25968a56d80a41f2fde4fae45bbd166a08e2"
+  },
+  "manifestSHA256": "010f991c6df0a632acfe80771a2b177a35a5f4341fe37fbc08eeab8390c47959",
+  "trainValManifestSHA256": "f96542f18371b2fa4ebf2cfb3126a0a6d000c0ea8861145d15f35084cb5ade61",
+  "summary": {
+    "train": {
+      "images": 80,
+      "objects": 187,
+      "groups": 51
+    },
+    "val": {
+      "images": 7,
+      "objects": 27,
+      "groups": 7
+    },
+    "test": {
+      "images": 20,
+      "objects": 53,
+      "groups": 20
+    }
+  },
+  "trainingPerformed": false
+}

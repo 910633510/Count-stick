@@ -1,0 +1,58 @@
+{
+  "status": "PASS_PROPOSAL_FILE_PIXEL_LABEL_AND_GROUP_QA_PENDING_ROOT_FREEZE",
+  "fullManifestSHA256": "d8509daeb04593cf95db058c99052de1da684e75e761e6f9ee0d5376118a7b43",
+  "trainValManifestSHA256": "6396529586b548790e4ba7e0dfec84be0b403fdfaafa17dc8f4427f989b56489",
+  "views": 241,
+  "positiveImages": 223,
+  "positiveBoxes": 35218,
+  "nonPipeFullPhotos": 11,
+  "realBackgroundCrops": 7,
+  "positiveGroups": {
+    "train": 148,
+    "val": 33,
+    "test": 33
+  },
+  "totalGroups": {
+    "train": 150,
+    "val": 35,
+    "test": 34
+  },
+  "counts": {
+    "train": {
+      "pipe_positive": 156,
+      "pipe_negative": 8
+    },
+    "val": {
+      "pipe_positive": 33,
+      "pipe_negative": 7
+    },
+    "test": {
+      "pipe_positive": 34,
+      "pipe_negative": 3
+    }
+  },
+  "all241ByteAndPixelHashesVerified": true,
+  "allEXIFAndDimensionsVerified": true,
+  "all7CropPixelsEqualSource": true,
+  "everyZeroLabelExplicitRealNegative": true,
+  "trainValContainsNoTestImagesOrGT": true,
+  "negativeSourceVisualReview": "12 source photographs viewed; Rebar1 excluded for orange markup.11approved nonpipe photographs use conservative5familygroups;7GT-freebackgroundcrops visuallyconfirmed andinheritparentgroup.",
+  "dataNatureLimit": "Source plus visual screening only, not forensic authenticity or metallurgy certification.",
+  "annotationLimit": "Published authorHBB technicallyvalidated andfullframecoarsecoverage reviewed; notindependent exhaustive recount.",
+  "unknownEditedVariantHypothesisCorrectedAndPreserved": true,
+  "squareIncluded": false,
+  "sourceRawImagesOrXMLModified": false,
+  "learnedModelInferencePerformed": false,
+  "trainingPerformed": false,
+  "issues": [],
+  "allYOLOPixelRoundtripsUnder1eMinus6Px": true,
+  "roundtripTolerancePx": 1e-06,
+  "duplicateCorrectionsInsideFinalPositiveSubset": [
+    {
+      "id": "maco_round_PipeHBB00000720",
+      "before": 829,
+      "after": 828
+    }
+  ],
+  "removedDuplicateBoxesInsideFinalSubset": 1
+}

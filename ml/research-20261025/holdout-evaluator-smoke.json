@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Empty GT and prediction arrays are accepted",
+    "Two predicted and two true objects do not imply correct localization",
+    "Hungarian IoU matching yields TP1 FP1 FN1 despite countMAE0"
+  ],
+  "modelRun": false,
+  "realTestImagesOrGTRead": false,
+  "evaluatorSHA256": "c0cc269f316566ea35099137a10afdd6c631ac76443220da25b1a0ba45c86c54",
+  "observed": {
+    "TP": 1,
+    "FP": 1,
+    "FN": 1,
+    "countMAE": 0.0,
+    "precision": 0.5,
+    "recall": 0.5
+  }
+}

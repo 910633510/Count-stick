@@ -1,0 +1,25 @@
+{
+  "frozenBeforeTestUTC": "2026-10-25T18:43:59Z",
+  "selected": "original-public-baseline",
+  "weights": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/datasets/fsc147/author-code/FamNet_Save1.pth",
+  "weightsSHA256": "9fd1b35d7f9f4c1af736e4562389dd16ec2ce70a4b9c68dc61454aa631cc17c1",
+  "baselineValidation": {
+    "images": 1281,
+    "MAE": 24.272315915165052,
+    "RMSE": 70.94232071064165,
+    "bias": -8.434928420742073,
+    "roundedExactCountImages": 34,
+    "within10PercentImages": 218
+  },
+  "fineTunedValidation": {
+    "images": 1281,
+    "MAE": 25.580505016816026,
+    "RMSE": 77.30178909980137,
+    "bias": -17.102157440993302,
+    "roundedExactCountImages": 56,
+    "within10PercentImages": 198
+  },
+  "trainingImages": 3658,
+  "fineTunedEpochs": 1,
+  "evaluationSplitSHA256": "6262a40af99be15433a927dc2fe844c5fe5d769a1afac7dc28e7989c611930d0"
+}

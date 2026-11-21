@@ -1,0 +1,66 @@
+{
+  "status": "COMPLETE_DATA_ADDITION_AND_12_EPOCH_TRAINING_NO_QUALIFIED_MODEL",
+  "verifiedAtUTC": "2026-10-29T16:38:05.848732+00:00",
+  "addedTrainingViews": 33,
+  "positiveViews": 13,
+  "negativeViews": 20,
+  "positiveBoxes": 155,
+  "conservativeSourceCaptureGroups": 32,
+  "knownNativeLowResolutionPositiveAdditions": 0,
+  "trainingImages": 244,
+  "validationImages": 47,
+  "trainingEpochs": 12,
+  "actualConsumedImages": 3840,
+  "allNewViewsActuallySampled": true,
+  "trainingSeconds": 621.1977431774139,
+  "qualifiedCandidates": 0,
+  "selected": null,
+  "independentCachesRecomputed": 282,
+  "protectedFiles": [
+    {
+      "path": "Count stick/StickDetector.swift",
+      "sha256": "6fb00ca644805e176dcca028ed1bef3932e80b451e77f2ea8759983d2c678b82",
+      "unchanged": true
+    },
+    {
+      "path": "Count stick/AutoCountRegion.swift",
+      "sha256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+      "unchanged": true
+    },
+    {
+      "path": "Count stick/CountingAccess.swift",
+      "sha256": "6958354ca014772eae3c52806b425e745bab2540ad7f4433ff8f051e86b01ff1",
+      "unchanged": true
+    },
+    {
+      "path": "Count stick/best.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+      "sha256": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+      "unchanged": true
+    },
+    {
+      "path": "Count stick/best.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+      "sha256": "21717eef227d96f45419d0b5730fa4114e6877f4a6548a71efe641fc23240090",
+      "unchanged": true
+    },
+    {
+      "path": "Count stick/best.mlpackage/Manifest.json",
+      "sha256": "069d7e3b5c970ac6b017cdc8921bfc2deb0da721c98b71009b80c7de3521832d",
+      "unchanged": true
+    }
+  ],
+  "automaticPipeModelEnabled": false,
+  "CoreMLExportPerformed": false,
+  "appStoreActionsPerformed": false,
+  "newModelTestHoldoutEvaluationPerformed": false,
+  "sealed20Use": "Classical identity-only duplicate exclusion, never training or recognition evaluation.",
+  "extraTrainingBeyond12Performed": false,
+  "artifacts": {
+    "output/pipes-data-expansion-20261029/model/experiment-result.json": "032bdfa4232aa408908c3bc42070aa9a15ab53b06dfeb73feff2ca059d2b8665",
+    "output/pipes-data-expansion-20261029/model/selection.json": "eab63a14fea55403feae01db88cb6e6dc7bf434272f163513973f4726524342a",
+    "output/pipes-data-expansion-20261029/model/training-complete.json": "b8ef8f3cdc5497825b040edf5d2f135927a509a2fe94ec2192a4de4e10824f53",
+    "output/pipes-data-expansion-20261029/model/root-training-receipt.json": "8446215bb188ffac7f0c3c743d82dbc095d7327e9932225b457a40c10d292b15",
+    "ml/pipes-data-expansion-20261029/model/independent-cache-review.json": "840e2f5eb7edf6c8ffcb0af21b2c54193db043f0f561c43ca0dbffdba213d31d",
+    "ml/pipes-data-expansion-20261029/data/root-freeze-qa.json": "a976b1e120e8ab6f89b138bc22085917782a73642b9e779c2c21425d218a23c7",
+    "ml/pipes-data-expansion-20261029/data/freeze-independent-review.json": "b0291c12fe2a87ba2b937b7818738233b56660aed3a70e871632b840f0c68673"
+  }
+}

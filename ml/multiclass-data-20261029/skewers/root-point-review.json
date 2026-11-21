@@ -1,0 +1,28 @@
+{
+  "status": "PASS_ROOT_INDEPENDENT_VISUAL_50_POINT_COVERAGE",
+  "imageId": "flat_sudrc",
+  "imagePath": "output/multiclass-data-20261029/skewers/raw/retail/flat_sudrc.image",
+  "imageSHA256": "f90a324def22f678cff68ee6c41e6a068f37da0135f7554c4b7617e597890bae",
+  "overlayPath": "output/multiclass-data-20261029/skewers/review/flat_sudrc-source-points.png",
+  "overlaySHA256": "7ee4508d4d0484903cb1feb183b39a6518e49bea18d62c14d3a7b689c3c5ab1b",
+  "visibleEndCount": 50,
+  "rowsFromTop": [
+    3,
+    6,
+    8,
+    8,
+    8,
+    7,
+    6,
+    4
+  ],
+  "pointsOnePerVisibleEnd": true,
+  "scope": "Wooden round dowel product photo, not restaurant skewer capture; original and numbered overlay inspected byCodex. Source staticpoints, no learned prediction.",
+  "annotationType": "point_centers_only_not_full_instance_boxes",
+  "trainingAdmission": false,
+  "newModelInferencePerformed": false,
+  "limitations": [
+    "One product view; no dataset-scale accuracyclaim.",
+    "Requires source-family duplicate check and declared target policy before anytraining; no all-object boxes inferred frompointsize."
+  ]
+}

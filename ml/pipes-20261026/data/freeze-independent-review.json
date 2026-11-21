@@ -1,0 +1,75 @@
+{
+  "status": "PASS_FROZEN_MANIFEST_EQUIVALENCE_METADATA_ONLY",
+  "createdUTC": "2026-10-26T10:46:10.524618+00:00",
+  "inputs": {
+    "proposal": {
+      "path": "output/pipes-20261026/data/proposal/all-splits-manifest.json",
+      "sha256": "d8509daeb04593cf95db058c99052de1da684e75e761e6f9ee0d5376118a7b43"
+    },
+    "full": {
+      "path": "output/datasets/pipe-ends-maco-v1/manifest.json",
+      "sha256": "960005aa6c7956db8ebf5962693071e0ea01888f0d0380431437894b4fddec41"
+    },
+    "trainVal": {
+      "path": "output/datasets/pipe-ends-maco-v1/train-val-manifest.json",
+      "sha256": "505d0a3de3424b75d53632e5349453d9e9f82faf2d831778f07f6be5a4072476"
+    }
+  },
+  "counts": {
+    "train": {
+      "positive": 156,
+      "negative": 8,
+      "groups": 150,
+      "positiveGroups": 148,
+      "targets": 25713
+    },
+    "val": {
+      "positive": 33,
+      "negative": 7,
+      "groups": 35,
+      "positiveGroups": 33,
+      "targets": 4443
+    },
+    "test": {
+      "positive": 34,
+      "negative": 3,
+      "groups": 34,
+      "positiveGroups": 33,
+      "targets": 5062
+    }
+  },
+  "rowChanges": {
+    "subtype": 223,
+    "sourceBucket": 241,
+    "sourceSubtype": 223,
+    "bucket": 241
+  },
+  "checks": {
+    "rowIdentityAndOrderUnchanged": true,
+    "onlyDeclaredRowNormalizations": true,
+    "allOtherRowFieldsExactEquality": true,
+    "allOtherProposalTopFieldsEqual": true,
+    "trainValExactlyFullSubset": true,
+    "trainValHasNoTestRows": true,
+    "globalGroupCrossSplitIntersectionZero": true,
+    "fileSHAAndRGBSHACrossSplitIntersectionZero": true,
+    "sourceImageSHACrossSplitIntersectionZero": true,
+    "atLeast10PositiveValAndTestGroups": true,
+    "inputBytesUnchangedAfterAudit": true
+  },
+  "witness": {
+    "path": "ml/pipes-20261026/data/frozen-identity-witness.json",
+    "sha256": "b4fbb47a4a0be6a150acb2d335d59b0d380d28829cea38d6a4d410a06fd2d5d0"
+  },
+  "scope": {
+    "readJSONManifests": true,
+    "readImageOrLabelFiles": false,
+    "readModelWeights": false,
+    "modelInferencePerformed": false,
+    "modifiedFrozenFiles": false
+  },
+  "limitations": [
+    "This is a manifest-equivalence audit. Image bytes, pixel hashes and source label content were not recomputed in this pass; their recorded values are unchanged from the previously reviewed proposal.",
+    "Scene families use conservative visual and registration grouping; identity metadata does not establish independent capture sessions."
+  ]
+}

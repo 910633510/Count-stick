@@ -1,0 +1,37 @@
+{
+  "status": "PASS_GENERAL_COUNTING_CLAIMS",
+  "reviewedUTC": "2026-10-26T05:25:54Z",
+  "reviewer": "general_counting_papers independent read-only review",
+  "reviewedFile": "ml/github-research-20261026/README.md",
+  "reviewedFileSHA256": "2f1f974c53d004f0998e026999de69841d07acba9a88f4245f3dd858b3d2d96b",
+  "evidence": [
+    "ml/github-research-20261026/general-counting.json",
+    "ml/github-research-20261026/github-metadata.json"
+  ],
+  "evidenceSHA256": {
+    "general-counting.json": "f634d77b4453b364c6fa71805e7f7cccd45d8f24c8ac53f29abe5dd45b8eb64e",
+    "github-metadata.json": "cc84490a4c7fc877fa3eb97b9d5fdee6abe454c508846f007331ec92b82752dd"
+  },
+  "scope": [
+    "High-star foundations versus low-star specialist counting implementations",
+    "CountGD++ positive/negative text competition and demo/paperpipeline distinction",
+    "DAVE zero-shot frequent-cluster rule and >500predicted-candidate verificationbypass",
+    "LOCA densitysum and objectcount zero-denominator risks",
+    "DINOv2/v3 feature-backbone role rather than a ready instancecounter"
+  ],
+  "checks": {
+    "starNumbersMatchOfficialSnapshot": true,
+    "nicheReposNotMisrepresentedAsHighStar": true,
+    "GroundingDINOTrainingTODOQualifiedToInspectedOfficialRepo": true,
+    "CountGDPlusPlusNegativeTextAndDemoLimitStatementsSupported": true,
+    "DAVEFrequentClusterAndDenseBypassStatementsSupported": true,
+    "LOCAZeroSafeRequirementSupported": true,
+    "DINOBaseBackboneRoleAndUnverifiedAppReadinessCorrect": true,
+    "generalResearchRelativeLinksExist": true,
+    "noClaimOfNewCountingAccuracyOrPhoneAcceptance": true
+  },
+  "findings": [],
+  "optionalClarityNote": "数据诊断段“未运行新模型”可更明确写为“未在这些真实图片上运行新的模型推理”，避免与前文合成前向/反向接口检查混淆；不影响本次通用计数结论。",
+  "READMEEdited": false,
+  "newResearchOrExperimentsPerformed": false
+}

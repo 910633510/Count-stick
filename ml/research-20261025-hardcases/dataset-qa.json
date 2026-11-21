@@ -1,0 +1,33 @@
+{
+  "status": "PASS_FROZEN_ANNOTATIONS_AND_GROUP_BOUNDARY_QA",
+  "manifestSHA256": "2d45c24b8a20e445cb75d024bf5161c2c979a51359059a860d06fa98ff7bda37",
+  "images": 51,
+  "positiveBoxes": 59,
+  "counts": {
+    "train": {
+      "hard_positive": 7,
+      "empty_negative": 34
+    },
+    "val": {
+      "hard_positive": 4,
+      "empty_negative": 6
+    }
+  },
+  "conservativeGroups": 15,
+  "allSourceByteAndPixelHashesVerified": true,
+  "allExplicitCropPixelsAndCoordinateTransformsVerified": true,
+  "allDimensionsEXIFAndFiniteBoundsVerified": true,
+  "globalGroupTrainValOverlap": 0,
+  "exactSHAOverlapWithOld369AndClinical185": 0,
+  "positiveVisualReview": "All11accepted samples independently reviewed byroot andcolony_papers; Ecoli5 disagreement quarantined.",
+  "negativeVisualReview": "All64candidates reviewed bynegative agent;40accepted,24quarantined;root independently viewed8accepted images acrossall4conservativegroups.",
+  "rootNegativeSampleReceipt": "output/research-20261025-hardcases/root-negative-review-selection.json",
+  "zeroModelInferenceBeforeFreeze": true,
+  "testContentUsedForTrainingOrSelection": false,
+  "limitations": [
+    "Small research pilot; no microbiologist consensus.",
+    "Most positives are explicit countable crops of hyperspectral-derived RGB rather than ordinary phone capture.",
+    "Exact hashes do not exclude all re-encoded/near-duplicate sources.",
+    "No patient fields imported."
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "status": "PLANNED_SELECTION_ONLY_NOT_MATERIALIZED",
+  "plan": "output/scale-matched-20261026/planned-selection.json",
+  "sourceRecordsSHA256": "77096e662e22dd7ba292a4aed47c756e08999c797ca9f35c9571923990a712aa",
+  "resumption": "Implement conservative geometry + exact mass-conservation tests, then materialize only train-derived eligible views. Current file is a plan, not an accepted training dataset.",
+  "oldDataChanged": false,
+  "validationOrTestImageFilesOpened": false,
+  "trained": false
+}

@@ -1,0 +1,201 @@
+{
+  "status": "DEFERRED_METADATA_ONLY_USER_PRIORITIZED_SKEWERS_AND_COLONIES",
+  "createdUTC": "2026-10-29T19:21:07.401829+00:00",
+  "shortlist": [
+    {
+      "name": "ScrewCount",
+      "category": "loose_screws_and_nuts",
+      "primaryURLs": [
+        "https://github.com/industoai/ScrewCount",
+        "https://huggingface.co/datasets/industoai/ScrewCount",
+        "https://www.scitepress.org/Papers/2026/142363/142363.pdf"
+      ],
+      "publicMetadataAccess": "Anonymous HF API200; data/annotations,data/density_maps,data/images directories verified. No file payload downloaded.",
+      "imageCountPublisherClaim": 1200,
+      "publisherSplitClaim": {
+        "train": 1000,
+        "test": 200
+      },
+      "countCaveat": "HF card claims1000train/200test, while GitHub directory illustration ends sample196train/sample38val and card layout also saystrain/val. Actual image file count/split not audited;196/38 must not be treated as verified actual counts.",
+      "annotation": "Per-object centre points, density maps, and up to6 exemplar boxes per image. Exemplar boxes are not full-instance detection boxes. XML annotations described by authors.",
+      "publishedResolution": [
+        3024,
+        4032
+      ],
+      "publishedTotalBytesApprox": 67200000000,
+      "fileCountVerified": null,
+      "examples": {
+        "publisherDescribes": "Small/medium/large white and black screws/nuts, overlapping dense layouts often hundreds per image.",
+        "samplePixelsInspected": false
+      },
+      "fit": "Most directly count-oriented industrial candidate; point-supervised/few-shot counting fits better than direct supervised YOLO boxes without additional annotation.",
+      "productionPreference": "Research-only/deferred source selection; publisher metadata declares noncommercial terms, with inconsistent card metadata. No user authorization request or training performed."
+    },
+    {
+      "name": "MVTec Screws",
+      "category": "loose_screws_and_nuts",
+      "primaryURLs": [
+        "https://www.mvtec.com/research-teaching/datasets/mvtec-screws",
+        "https://www.mvtec.com/research-teaching/datasets/mvtec-screws/downloads"
+      ],
+      "publisherDownloadURL": "https://www.mydrive.ch/shares/151421/f58e201bb75ba7a9e482927c7e0dedf0/download/480604798-1779864527/mvtec_screws_v1.1.tar.gz",
+      "publicMetadataAccess": "Official anonymous dataset/download pages accessed; published file link observed, archive not fetched.",
+      "imageCountPublisherClaim": 384,
+      "objectAnnotationsPublisherClaim": 4426,
+      "categoriesPublisherClaim": 13,
+      "annotation": "All objects annotated with oriented bounding boxes and category.",
+      "archiveFilesPublisherListed": 1,
+      "archiveName": "mvtec_screws_v1.1.tar.gz",
+      "publishedArchiveSize": "1.3 GB",
+      "archiveExactBytesVerified": null,
+      "examples": {
+        "publisherDescribes": "Multiple loose screw/nut types on wooden background.",
+        "officialPreviewURL": "https://www.mvtec.com/fileadmin/_processed_/3/c/csm_teaser_image_dataset_screws_0aa53cf3fc.webp",
+        "samplePixelsInspected": false
+      },
+      "fit": "Real multi-object OBB counting/detection reference, unlike single-object SortScrews or surface-defect-only data. Not necessarily dense hundreds-per-scene coverage.",
+      "productionPreference": "Research comparison only; official source explicitly restricts commercial use. Not preferred as app training source."
+    },
+    {
+      "name": "Rice-Variety-Classification-System-Dataset scene subset",
+      "category": "rice_grains",
+      "primaryURLs": [
+        "https://data.mendeley.com/datasets/jcgmmpbv6g/1",
+        "https://doi.org/10.17632/jcgmmpbv6g.1"
+      ],
+      "imageCountPublisherClaim": 407,
+      "averageInstancesPublisherClaim": 70,
+      "annotation": "Manually annotated per-grain instance segmentation for YOLOv8; multiple grains on trays in controlled imaging chamber.",
+      "archiveFilesPublisherListed": 1,
+      "archiveName": "Rice Grain Dataset.zip",
+      "publishedArchiveSize": "1.27 GB",
+      "archiveExactBytesVerified": null,
+      "publicMetadataAccess": "Official landing page accessible without login and file/size publicly listed. Tried public API version URL returned404; actual archive retrieval not tested; no credential flow attempted.",
+      "examples": {
+        "publisherDescribes": "Approximately70 individually labelled rice grains per high-resolution tray photo, uniform background and lighting.",
+        "samplePixelsInspected": false
+      },
+      "fit": "Use only407 original multi-grain segmentation images. The separate9000train+900val single-grain crop images are classification derivatives, not9900 independent counting scenes. Overlap/occlusion coverage still needs sample review.",
+      "countTrainingReadiness": "Promising geometry-labelled counting source, pending anonymous file and annotation verification."
+    },
+    {
+      "name": "MEDISEG",
+      "category": "visible_pill_objects",
+      "primaryURLs": [
+        "https://github.com/williamcwi/MEDISEG",
+        "https://doi.org/10.25383/city.28574786",
+        "https://arxiv.org/abs/2603.10825",
+        "https://api.figshare.com/v2/articles/28574786"
+      ],
+      "imageCountPublisherPaperClaim": 8262,
+      "pillTypesPublisherClaim": 32,
+      "annotation": "COCO per-instance segmentation polygons, bounding boxes and class labels;3-Pills and32-Pills core subsets.",
+      "publicMetadataAccess": "Official Figshare API anonymous200 with public files metadata; browser landing403 did not require/lead to account or workaround. No archive downloaded.",
+      "files": [
+        {
+          "id": 52926545,
+          "name": "MEDISEG.tar.gz",
+          "size": 439343024,
+          "download_url": "https://ndownloader.figshare.com/files/52926545"
+        },
+        {
+          "id": 64481325,
+          "name": "MEDISEG-Deploy.tar.gz",
+          "size": 7927050,
+          "download_url": "https://ndownloader.figshare.com/files/64481325"
+        }
+      ],
+      "coreImageCountArchiveVerified": false,
+      "examples": {
+        "publisherDescribes": "Single and multiple pill photos, overlapping pills, cluttered dosette boxes, varied lighting/backgrounds.",
+        "samplePixelsInspected": false
+      },
+      "fit": "Potential visible-object instance counting dataset. MEDISEG-Deploy is an evaluation/support/query extension; preserve declared partitions and do not silently turn query images into training.",
+      "scope": "Object counting research only; does not validate drug identification, dose decisions or clinical diagnosis."
+    }
+  ],
+  "excludedOrDifferentTask": [
+    {
+      "name": "GrainBench_Public",
+      "source": "https://huggingface.co/datasets/27Group/GrainBench_Public",
+      "reason": "596 rice/bean photographs with verified integer totals (10–395), but no per-instance points/boxes/masks shown in inspected card; count-only benchmark is not interchangeable with localization ground truth."
+    },
+    {
+      "name": "GrainSet / GrainSpace",
+      "source": "https://grainnet.github.io/GrainSet.html",
+      "reason": "Large single-kernel quality/classification collections; image count is not a crowded scene-count training count."
+    },
+    {
+      "name": "ePillID",
+      "source": "https://arxiv.org/abs/2005.14288",
+      "reason": "Fine-grained pill identification/reference images; not a cluttered many-pill instance counting dataset."
+    },
+    {
+      "name": "Kvasir Capsule",
+      "source": "https://datasets.simula.no/kvasir-capsule/",
+      "reason": "Capsule-endoscopy frames of anatomical/pathological findings, not photographs of pills to count."
+    },
+    {
+      "name": "WEEE Disassembly Screw Dataset",
+      "source": "https://vcl.iti.gr/dataset/weee-disassembly-screw-dataset/",
+      "reason": "945 images/4414 COCO screw instances, but mounted screw heads in devices (1–16/image), distinct from loose screw/nut piles; useful alternate mounted-fastener task, not used to inflate loose-pile coverage."
+    }
+  ],
+  "existingFSC147ReuseOnly": {
+    "sourceSplitPath": "output/datasets/fsc147/annotations/Train_Test_Val_FSC_147.json",
+    "sourceSplitSHA256": "e281e2d9118cd9ae6f5a2852006b6a24e7a7ea5605d9a6e0fa946dcf93308271",
+    "sourceClassesSHA256": "ba1bc6c6a21875919625adb851eaee1aab0ad1f88ecf64d017bebda891b5815e",
+    "officialTrainImages": 3659,
+    "trainOnlyRelevantClasses": {
+      "coins": 58,
+      "nuts": 53,
+      "coffee beans": 55,
+      "kidney beans": 54,
+      "screws": 1,
+      "rice bags": 2,
+      "nails": 1
+    },
+    "notes": [
+      "Already downloaded; not newly acquired data.",
+      "nuts semantics not visually verified; do not assume metal nuts. rice bags are packages, not loose grains.",
+      "Official class-split val/test images remain outside training; no test images or GT were repurposed."
+    ]
+  },
+  "acquisitionSummary": {
+    "persistedMetadataBytes": 80506,
+    "newDatasetImagesDownloaded": 0,
+    "newDatasetAnnotationPayloadsDownloaded": 0,
+    "newArchivesDownloaded": 0,
+    "remoteCodeOrWeightsExecuted": false,
+    "trainingPerformed": false,
+    "accountsPaymentEmailUsed": false,
+    "cleanupPerformed": false,
+    "smallSampleLimitBytes": 100000000,
+    "storageObservedGiB": 31.31,
+    "storageNote": "Root clarified35GB was an observed free-space value rather than a hard floor. No cleanup was performed; user priority changed before image sampling."
+  },
+  "evidenceFiles": [
+    {
+      "path": "output/multiclass-data-20261029/new-classes/metadata/fetch-receipt.json",
+      "sha256": "fc417e487ce1683130dffdd1df4a5d43d30757c8f5d2c5c109ae444414fc8329"
+    },
+    {
+      "path": "output/multiclass-data-20261029/new-classes/metadata/mediseg-article.json",
+      "sha256": "32016b6a9b641a16205f3ef80652b7e7c7c36fcba3e7529f03058dec8e264dfa"
+    },
+    {
+      "path": "output/multiclass-data-20261029/new-classes/metadata/mediseg-readme.md",
+      "sha256": "226347093bcf63a9e52075e90c7ab5797c5ec9b6388d355a7491edf9376c3220"
+    },
+    {
+      "path": "output/multiclass-data-20261029/new-classes/metadata/mvtec-page.html",
+      "sha256": "7f53a787b3cb5f8615a4d4d1108d96ba4ed99b316c2baf8fc703481221fd850c"
+    },
+    {
+      "path": "output/multiclass-data-20261029/new-classes/metadata/screwcount-tree.json",
+      "sha256": "103a89b346bf35571325f1ebab9f06c5b1747e3e65aeca27ce008e059ae5f4a0"
+    }
+  ],
+  "remainingVerification": "Actual archive file counts, image/annotation examples and grouping/split quality are unverified; resume only if these classes become priority.",
+  "nextAction": "No further new-class exploration/download/training. Stand by for independent skewer/colony data QA."
+}

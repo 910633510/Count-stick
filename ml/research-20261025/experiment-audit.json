@@ -1,0 +1,320 @@
+{
+  "status": "COMPLETE_READ_ONLY_AUDIT_AND_PRE_REGISTERED_OPTIMIZATION_PLAN",
+  "createdAtUTC": "2026-10-25T20:24:39Z",
+  "sourceFilesSHA256": {
+    "ml/colony/evaluate_pipeline.py": "630220acdb9b169761d406e2044e42af6dbd0f8b430c417e5284c65d0d0a0d6c",
+    "ml/colony/train.py": "9092622a485ac3eca3e016071a7d4b950756e569ae4dac04a5302302a9bc7400",
+    "ml/colony/evaluate.py": "534bb0f62b399c31d56c80d01fcc15508fabc3aac6f1f0d36495865cae3e250f",
+    "ml/fsc147/experiment.py": "b8ce398396bb285090995323e0c0c9767991f7d121d912e6aeab886994f20e01",
+    "ml/colony/reports/20261025/summary.json": "f9edf46ea4bbeb4025698b9df35fb78c41bf21b122a776b9d00c6407300b0b5b",
+    "ml/colony/reports/20261025/validation-selection-before-test.json": "8ce571edce6481356d41b33f36c56c23e897eecc52cba910dddd72623e1b091c",
+    "ml/fsc147/reports/20261025/selection-before-test.json": "9b844d5f4f3accc0b6ff39ad424123a024aabf5df0dfc518461e08052fc389c2"
+  },
+  "newTrainingPerformed": false,
+  "newModelInferencePerformed": false,
+  "appModelOrDataChanged": false,
+  "oldTestStatus": "EXPOSED_REGRESSION_ONLY: colony63 and FSC1189 have been viewed and cannot be re-labelled as new blind tests.",
+  "findings": [
+    {
+      "id": "COLONY_AGGREGATION_DOMINANCE",
+      "evidence": {
+        "testObjectShareSp21": 0.9496255956432947,
+        "testImagesSp21": 48,
+        "testImagesTotal": 63,
+        "microRecall": 0.9186521443158612,
+        "macroSpeciesRecall": 0.5059388380566502,
+        "perSpeciesRecall": {
+          "sp08": 0.08967391304347826,
+          "sp17": 0.4732142857142857,
+          "sp21": 0.9549283154121864
+        }
+      },
+      "conclusion": "One species contributes94.96% of objects. Micro AP/P/R hide very weak recall for the other morphologies; object-weighted scores are not whole-image counting accuracy."
+    },
+    {
+      "id": "TILE_SCALE_REGRESSION_ALREADY_VISIBLE_ON_VALIDATION",
+      "evidence": {
+        "valWholeLargeTP": 1801,
+        "valTileLargeTP": 1604,
+        "valLargeGT": 1992,
+        "valWholeSmallTP": 728,
+        "valTileSmallTP": 1611,
+        "valSmallGT": 1999,
+        "valWholeMacroRecall": 0.7840116136204051,
+        "valTileMacroRecall": 0.7771020796636197,
+        "sp04WholeRecall": 0.7269736842105263,
+        "sp04TileRecall": 0.2993421052631579,
+        "sp04WholeMAE": 5.666666666666667,
+        "sp04TileMAE": 20.666666666666668,
+        "sp09WholeMAE": 88.27272727272727,
+        "sp09TileMAE": 16.727272727272727,
+        "sp13WholeMAE": 16.833333333333332,
+        "sp13TileMAE": 52.0
+      },
+      "conclusion": "Old selection checked aggregate P/R/F1 and mean countMAE but not per-species or scale-group non-inferiority. A large-object loss was visible before test, even while the aggregate gate passed."
+    },
+    {
+      "id": "COUNT_ERROR_CANCELLATION",
+      "evidence": {
+        "tileTP": 10796,
+        "tileFP": 837,
+        "tileFN": 956,
+        "wholeTP": 10760,
+        "wholeFP": 1085,
+        "wholeFN": 992,
+        "tileMAE": 13.031746031746032,
+        "wholeMAE": 11.634920634920634,
+        "tileMacroSpeciesMAE": 21.951388888888886,
+        "wholeMacroSpeciesMAE": 11.548611111111112
+      },
+      "conclusion": "For each image predicted-minus-truth equals FP-minus-FN. Fewer combined detection errors do not guarantee lower absolute count error; cancellations change. Neither MAE alone nor micro AP alone is an adequate promotion gate."
+    },
+    {
+      "id": "TRAIN_SCALE_AND_SPECIES_IMBALANCE",
+      "evidence": {
+        "trainImages": 247,
+        "trainBoxes": 37611,
+        "trainSpecies": 15,
+        "valSpecies": 6,
+        "trainLargest3SpeciesObjectShare": 0.50214033128606,
+        "trainGTMinSideAbove32pxShare": 0.14905213900188774,
+        "validationGTMinSideAbove32pxShare": 0.2916117698726394,
+        "trainMedianMinSide1024": 18.87557632,
+        "train99thMinSide1024": 63.54743275520004,
+        "sp04ValMedianMinSide1024": 107.31819531766722
+      },
+      "conclusion": "Uniform image sampling and a single collapsed colony class do not balance morphologies/scales. Large/faint training examples exist but are a minority. Scale and morphology shift is plausible; size alone is not proven as the sole cause."
+    },
+    {
+      "id": "FAMNET_OUTPUT_CONTRACTION",
+      "evidence": {
+        "baselineValMAE": 24.272315915165052,
+        "finetunedValMAE": 25.580505016816026,
+        "baselineBias": -8.434928420742073,
+        "finetunedBias": -17.102157440993302,
+        "countBins": [
+          {
+            "range": "1-20",
+            "images": 516,
+            "baselineMAE": 9.825929139589155,
+            "finetunedMAE": 6.488624963764996
+          },
+          {
+            "range": "21-100",
+            "images": 566,
+            "baselineMAE": 15.214078475118948,
+            "finetunedMAE": 15.731813826009157
+          },
+          {
+            "range": "101-300",
+            "images": 161,
+            "baselineMAE": 43.039513510946904,
+            "finetunedMAE": 56.52682482085613
+          },
+          {
+            "range": ">300",
+            "images": 38,
+            "baselineMAE": 275.845451555754,
+            "finetunedMAE": 300.40713219893604
+          }
+        ]
+      },
+      "conclusion": "The measured effect is a stronger undercount bias: low-count queries improve, medium/high-count queries worsen. Pixel-mean density MSE versus count objective, frozen representation, count imbalance and short fine-tuning are plausible causes requiring ablation, not established single-cause explanations."
+    },
+    {
+      "id": "AUTOMATIC_SELECTION_REQUIREMENT",
+      "evidence": "FamNet sample() consumes3-6 supplied exemplar rectangles; the model does not generate them.",
+      "conclusion": "More epochs do not remove that input dependency. Treat reference-free/text-guided methods as a separate architecture track; do not substitute ground-truth exemplar boxes while claiming automatic counting."
+    },
+    {
+      "id": "CHECKPOINT_AND_BACKEND_COMPARABILITY",
+      "evidence": {
+        "trainingPeakMAP50_95": 0.40314,
+        "finalReloadReportedMAP50_95": 0.3124563793515308,
+        "FP32CoreMLWholeCountDeltas": [
+          0,
+          0,
+          6
+        ],
+        "FP32CoreMLSelectedTileCountDeltas": [
+          0,
+          0,
+          0
+        ]
+      },
+      "conclusion": "Training-time validation and final reload/backend reports differ. This does not prove a particular bug. Freeze weightSHA, fixed1024letterbox, FP32, batch and NMS settings when comparing; resolve on validation before claiming export parity. Three Mac photos do not establish iPhone acceptance."
+    }
+  ],
+  "nextExperiment": {
+    "id": "COLONY_SCALE_FUSION_DEVELOPMENT_V1",
+    "status": "AUTHORIZED_FOR_NEW_CODE_AND_CACHED_VALIDATION_ONLY_BY_PARENT",
+    "basis": "Preserving full-image predictions alongside slicing is motivated by SAHI; the size gate below is an engineering variant, not a literal paper replication.",
+    "modelWeightsFrozen": true,
+    "input": "Existing whole/tiled validation prediction caches only; no old-test or new-external-test inference.",
+    "runtimeFeaturesAllowed": [
+      "predicted box geometry",
+      "predicted confidence",
+      "image width/height"
+    ],
+    "runtimeFeaturesForbidden": [
+      "ground-truth count",
+      "ground-truth box size",
+      "species ID or filename",
+      "test outcome"
+    ],
+    "grid": {
+      "operatingConfidence": [
+        0.3
+      ],
+      "minSideThresholdAt1024": [
+        16,
+        24,
+        32
+      ],
+      "crossScaleNMSIoU": [
+        0.5,
+        0.7
+      ]
+    },
+    "fusion": "Retain whole-image boxes whose predicted minimum side is at least the cutoff and tile boxes below the cutoff, both measured in full-image1024units. Merge by NMS. This hard split can create size-disagreement gaps/duplicates; record failures rather than expanding the grid after seeing results.",
+    "cost": "A deployed version needs1whole+4tile forward passes per image; cache experiment measures postprocessing only and makes no latency claim.",
+    "mandatoryReporting": [
+      "TP/FP/FN/P/R/F1",
+      "countMAE/RMSE/bias/exact counts",
+      "speciesMacroRecall and speciesMacroMAE",
+      "per-species metrics",
+      "under16/16to32/over32 recall",
+      "AP50/AP50-95 from complete low-confidence prediction pools"
+    ],
+    "gates": "The accompanying fusion protocol will numerically freeze improvement and non-inferiority gates before any candidate is scored. No threshold relaxation if all candidates fail."
+  },
+  "nextTrainingAblationsIfFusionInsufficient": [
+    {
+      "name": "species-balanced image sampling",
+      "change": "Train-only sampler weights approximately inverse images-per-species, normalized and capped0.5to3.0; same epoch-step count/seed/checkpoint rules.",
+      "reason": "15train species vary6to35images; avoid dense/common appearance dominance.",
+      "limit": "Does not create missing diffuse morphology or prove transfer to unseen species."
+    },
+    {
+      "name": "scale-balanced training views",
+      "change": "Preserve full plates plus bounded train-only crops targeting small-object detail; split by original plate/species before crops. Count cropped partial objects consistently and preserve full-plate large examples.",
+      "limit": "Need to report total effective training steps; not compare a5x-expanded training corpus to a shorter baseline as an architecture-only gain."
+    },
+    {
+      "name": "count-aware FamNet loss",
+      "change": "Train/validation-only ablation of original densityMSE plus calibrated count residual; fix the coefficient from train-only gradient/loss scales before tuning. Stratify by count bins and report tail errors.",
+      "limit": "Reference-box input remains; this is secondary if the product requires automatic target selection."
+    }
+  ],
+  "fairValidationPlan": {
+    "knownData": "Existing train/val may support development, bounded calibration and sensitivity checks. Previously opened colony63/FSC1189 may only be labelled regression/known benchmarks. Do not recycle them into new-blind claims.",
+    "newExternalHoldout": {
+      "acquire": "Independent source/capture batches, preferably different lab/camera; reserve original images before any model inference. Root owns acquisition.",
+      "initialCoverageTarget": "Plan approximately100unique plates/scenes with enough large/diffuse, small/dense and empty/background-negative groups; this is a practical coverage target, not a power guarantee.",
+      "grouping": "All photographs/crops/rotations/background variants of one physical plate or acquisition batch stay together. Compare source hashes and near-duplicates against all current data.",
+      "annotation": "Freeze reviewed boxes/counts and any uncertainty masks before predictions; two-person or independent review where feasible. Never alter masks after seeing errors.",
+      "conditions": "Record camera, illumination, density/morphology and specimen/source metadata when available. Do not treat many views of one plate as independent specimens."
+    },
+    "promotionGate": "Lock model/config/code/source hashes before new-holdout inference. Require paired improvement in countMAE and species/morphology-macro metrics without materially losing TP or increasing FP in any protected scale group; group-bootstrap CIs by plate/batch, not individual correlated photos. If evidence is insufficient, keep development-only status.",
+    "deploymentGate": "Separate CoreML/iPhone numerical and sustained runtime verification; do not update the submitted app based on cached-val gains alone."
+  },
+  "completedDevelopmentExperiment": {
+    "status": "NO_CANDIDATE_PASSED_SEVEN_FROZEN_SCREENS",
+    "candidateCount": 7,
+    "oldTestOrExternalHoldoutInferred": false,
+    "noGatesRelaxed": true,
+    "bestAggregateCandidateId": "side16-nms0.5",
+    "bestAggregateCandidateMetrics": {
+      "TP": 5987,
+      "FP": 860,
+      "FN": 844,
+      "precision": 0.8743975463706732,
+      "recall": 0.8764456155760504,
+      "countMAE": 11.535714285714286,
+      "macroSpeciesMAE": 12.815993265993265,
+      "macroSpeciesRecall": 0.8604274965722104,
+      "AP50": 0.8716566930979809,
+      "AP50_95": 0.43076369726560915
+    },
+    "bestCandidateFailedChecks": [
+      "recall.sp04",
+      "countMAE.sp04",
+      "countMAE.sp11",
+      "recall.sp13",
+      "countMAE.sp13",
+      "countMAE.sp09"
+    ],
+    "additionalSourceAwareCandidate": {
+      "metrics": {
+        "TP": 6032,
+        "FP": 1242,
+        "FN": 799,
+        "countMAE": 14.303571428571429,
+        "macroSpeciesMAE": 15.854377104377107,
+        "macroSpeciesRecall": 0.8699142246022223
+      },
+      "failedChecks": [
+        "FP",
+        "countMAE.sp02",
+        "precision.sp11",
+        "countMAE.sp11",
+        "recall.sp13",
+        "precision.sp13",
+        "countMAE.sp13",
+        "precision.sp14",
+        "countMAE.sp14"
+      ]
+    },
+    "boundaryAudit": {
+      "16": {
+        "confirmedBaselineTPWithoutAnyRetainedIoUCoverage": 121,
+        "reasonCounts": {
+          "tile_only_large_filtered": 65,
+          "whole_only_small_filtered": 6,
+          "double_branch_size_disagreement": 50
+        },
+        "speciesCounts": {
+          "sp02": 25,
+          "sp04": 9,
+          "sp11": 8,
+          "sp13": 68,
+          "sp14": 6,
+          "sp09": 5
+        }
+      },
+      "24": {
+        "confirmedBaselineTPWithoutAnyRetainedIoUCoverage": 146,
+        "reasonCounts": {
+          "tile_only_large_filtered": 37,
+          "whole_only_small_filtered": 50,
+          "double_branch_size_disagreement": 59
+        },
+        "speciesCounts": {
+          "sp02": 49,
+          "sp04": 9,
+          "sp11": 15,
+          "sp13": 50,
+          "sp14": 20,
+          "sp09": 3
+        }
+      },
+      "32": {
+        "confirmedBaselineTPWithoutAnyRetainedIoUCoverage": 188,
+        "reasonCounts": {
+          "whole_only_small_filtered": 140,
+          "tile_only_large_filtered": 24,
+          "double_branch_size_disagreement": 24
+        },
+        "speciesCounts": {
+          "sp02": 69,
+          "sp04": 9,
+          "sp11": 35,
+          "sp13": 26,
+          "sp14": 46,
+          "sp09": 3
+        }
+      }
+    },
+    "conclusion": "Averages improved but protection failures remain; development evidence only, no model promotion."
+  }
+}

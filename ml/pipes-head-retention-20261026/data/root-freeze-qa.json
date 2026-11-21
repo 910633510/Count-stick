@@ -1,0 +1,46 @@
+{
+  "status": "PASS_ROOT_HEAD_RETENTION_DATA_FREEZE",
+  "createdUTC": "2026-10-26T16:55:39.042106+00:00",
+  "fullManifestPath": "output/datasets/pipe-ends-head-retention-v1/manifest.json",
+  "fullManifestSHA256": "de4c153b89e48d9b4b6fe06ace680070e5a55dd4fab00b66a8180ad836621078",
+  "trainValManifestPath": "output/datasets/pipe-ends-head-retention-v1/train-val-manifest.json",
+  "trainValManifestSHA256": "b7185c895ed9c1d695d486a5b0dc3fbd9725510afbbb95c4b74b3eaea1e11393",
+  "summary": {
+    "train": {
+      "images": 47,
+      "positiveImages": 9,
+      "negativeImages": 38,
+      "objects": 32,
+      "groups": 19
+    },
+    "val": {
+      "images": 7,
+      "positiveImages": 3,
+      "negativeImages": 4,
+      "objects": 27,
+      "groups": 7
+    },
+    "test": {
+      "images": 20,
+      "positiveImages": 10,
+      "negativeImages": 10,
+      "objects": 53,
+      "groups": 20
+    }
+  },
+  "original69RowsUnchanged": true,
+  "original49DevelopmentRowsUnchanged": true,
+  "same7FreshValidationRows": true,
+  "same20FreshTestRows": true,
+  "only5NaturalTrainViewsAdded": true,
+  "noNewExactFilePixelGroupOverlap": true,
+  "sourceReviewBindings": {
+    "ml/pipes-head-retention-20261026/data/positives/independent-maco-review.json": "5c87866d42bb66ea0746d593ba973c31018d0bf8965eb6a2a9efe7e5966a07c2",
+    "ml/pipes-head-retention-20261026/data/negatives/dataset-qa.json": "0165a325f4b346a5f488bf6629e35f4c7a76308c81d8778c16e4a4aa74e0c9be",
+    "ml/pipes-head-retention-20261026/data/negatives/independent-visual-review.json": "df2e70d95f14f9a75beabb4bfd5c2c5a4e37c7a0713ee020eef3dbbfdbb68438",
+    "output/pipes-head-retention-20261026/data/negatives/negative-candidates.json": "ada7572a024d452bfa585bd06a99e7bed28015c7791f31fff48fd0f953ed5805",
+    "output/datasets/pipe-ends-hardening-v1/manifest.json": "a4d64c40cf66779541d9edcdd0284c79712dcf4b465449129dfd2a40804eda50",
+    "output/datasets/pipe-ends-hardening-v1/train-val-manifest.json": "680de25252f1d9cf91f335b0bdea6b42e18a9fbfe6d4db74ef0cbb41f65d29e8"
+  },
+  "newTrainingPerformed": false
+}

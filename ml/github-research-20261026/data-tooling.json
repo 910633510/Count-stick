@@ -1,0 +1,94 @@
+{
+  "status": "SOURCE_REVIEW_AND_LOCAL_INDEX_COMPLETE",
+  "repos": [
+    {
+      "requested": "roboflow/supervision",
+      "full_name": "roboflow/supervision",
+      "url": "https://github.com/roboflow/supervision",
+      "stars": 51366,
+      "forks": 4879,
+      "archived": false,
+      "default_branch": "develop",
+      "pushed_at": "2026-10-25T23:33:31Z",
+      "updated_at": "2026-10-26T03:58:45Z",
+      "latest_sha": "b651cca2f8154bb23a9253c6f6f2a65b1ac10b5c",
+      "latest_commit_date": "2026-10-24T22:52:07Z",
+      "description": "We write your reusable computer vision tools. 💜",
+      "metadata_url": "https://api.github.com/repos/roboflow/supervision",
+      "role": "Inference orchestration and postprocessing, not a trainable counter",
+      "findings": [
+        "InferenceSlicer exposes explicit pixel slice/overlap sizes and NMS/NMM with IoU/IoS.",
+        "This slicer code runs the slice callbacks and merges them; it does not automatically add a separate full-image model prediction.",
+        "Single-image and batch callback contracts differ; shared accelerator should start with batching and thread_workers=1.",
+        "Changing NMS/NMM/IoS can remove true touching colonies; requires fixed same-image regression."
+      ]
+    },
+    {
+      "requested": "voxel51/fiftyone",
+      "full_name": "voxel51/fiftyone",
+      "url": "https://github.com/voxel51/fiftyone",
+      "stars": 11229,
+      "forks": 843,
+      "archived": false,
+      "default_branch": "main",
+      "pushed_at": "2026-10-26T01:32:34Z",
+      "updated_at": "2026-10-25T15:56:13Z",
+      "latest_sha": "aacfc8182fc5353296b5edd7475e63335fedb5cb",
+      "latest_commit_date": "2026-10-17T20:49:57Z",
+      "description": "Refine high-quality datasets and visual AI models",
+      "metadata_url": "https://api.github.com/repos/voxel51/fiftyone",
+      "role": "Dataset/error review and sampling, not a replacement counting model",
+      "findings": [
+        "evaluate_detections plus eval_key stores sample/object TP/FP/FN and matching information for inspection.",
+        "to_evaluation_patches and saved views can expose glare false positives and small-object false negatives.",
+        "Native COCO matching is not the project frozen Hungarian operating matcher. Import the frozen metrics as custom fields; do not silently replace acceptance semantics.",
+        "A102-row validation review index was exported without installing FiftyOne or starting a database; validation examples are tagged analysis-only and must not enter training."
+      ]
+    }
+  ],
+  "sourceFiles": [
+    {
+      "repo": "voxel51/fiftyone",
+      "commit": "aacfc8182fc5353296b5edd7475e63335fedb5cb",
+      "path": "docs/source/user_guide/evaluation/detections.rst",
+      "url": "https://github.com/voxel51/fiftyone/blob/aacfc8182fc5353296b5edd7475e63335fedb5cb/docs/source/user_guide/evaluation/detections.rst",
+      "local": "output/github-research-20261026/data-tooling/fiftyone/docs/source/user_guide/evaluation/detections.rst",
+      "sha256": "da3cdc92eebfb0a3d4198f90576d8299a4d13a1ba3c612ae5097a11de2f7dc26"
+    },
+    {
+      "repo": "voxel51/fiftyone",
+      "commit": "aacfc8182fc5353296b5edd7475e63335fedb5cb",
+      "path": "docs/source/user_guide/evaluation/advanced.rst",
+      "url": "https://github.com/voxel51/fiftyone/blob/aacfc8182fc5353296b5edd7475e63335fedb5cb/docs/source/user_guide/evaluation/advanced.rst",
+      "local": "output/github-research-20261026/data-tooling/fiftyone/docs/source/user_guide/evaluation/advanced.rst",
+      "sha256": "31ea521252b0e659b2be9cfade24f3d51c647c98b4490a7b7b4afb10dab0f22c"
+    },
+    {
+      "repo": "voxel51/fiftyone",
+      "commit": "aacfc8182fc5353296b5edd7475e63335fedb5cb",
+      "path": "fiftyone/utils/eval/detection.py",
+      "url": "https://github.com/voxel51/fiftyone/blob/aacfc8182fc5353296b5edd7475e63335fedb5cb/fiftyone/utils/eval/detection.py",
+      "local": "output/github-research-20261026/data-tooling/fiftyone/fiftyone/utils/eval/detection.py",
+      "sha256": "a29d5344e92e7db2527db47aadfffee8596040e495af43c891d754c5e2fb2733"
+    },
+    {
+      "repo": "roboflow/supervision",
+      "commit": "b651cca2f8154bb23a9253c6f6f2a65b1ac10b5c",
+      "path": "src/supervision/detection/tools/inference_slicer.py",
+      "url": "https://github.com/roboflow/supervision/blob/b651cca2f8154bb23a9253c6f6f2a65b1ac10b5c/src/supervision/detection/tools/inference_slicer.py",
+      "local": "output/github-research-20261026/data-tooling/supervision/src/supervision/detection/tools/inference_slicer.py",
+      "sha256": "6703462e4866ad43e054f2d9fa7a72652ddf542c391fc6b1ac7463fa34326f43"
+    },
+    {
+      "repo": "roboflow/supervision",
+      "commit": "b651cca2f8154bb23a9253c6f6f2a65b1ac10b5c",
+      "path": "docs/detection/tools/inference_slicer.md",
+      "url": "https://github.com/roboflow/supervision/blob/b651cca2f8154bb23a9253c6f6f2a65b1ac10b5c/docs/detection/tools/inference_slicer.md",
+      "local": "output/github-research-20261026/data-tooling/supervision/docs/detection/tools/inference_slicer.md",
+      "sha256": "115554dbdc65f12209549b56b508a99edc944a3feb1247ed4d8db4d904194041"
+    }
+  ],
+  "localReviewIndex": "ml/github-research-20261026/validation-review-index.jsonl",
+  "newInferenceOrTraining": false,
+  "environmentChanged": false
+}

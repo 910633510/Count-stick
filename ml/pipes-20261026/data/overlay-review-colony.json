@@ -1,0 +1,829 @@
+{
+  "status": "PASS_SCENE_AND_AUTHOR_HBB_COVERAGE_SCREEN_WITH_EXCLUSIONS",
+  "reviewedUTC": "2026-10-26T09:41:25.579418+00:00",
+  "reviewer": "/root/colony_papers",
+  "sourceSceneReview": "ml/pipes-20261026/data/scene-review-colony.json",
+  "overlaySheetsActuallyViewed": [
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/colony-00.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/colony-01.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/colony-02.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/colony-03.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/colony-04.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/colony-05.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/colony-06.jpg"
+  ],
+  "largePairedPanelsActuallyViewed": [
+    752,
+    878,
+    898
+  ],
+  "additionalNativePairReview": [
+    [
+      17,
+      716
+    ],
+    [
+      742,
+      776
+    ],
+    [
+      104,
+      657
+    ],
+    [
+      576,
+      751
+    ],
+    [
+      639,
+      1005
+    ],
+    [
+      866,
+      962
+    ]
+  ],
+  "reviewedCandidates": 78,
+  "approvedNumbers": [
+    701,
+    702,
+    704,
+    707,
+    708,
+    711,
+    714,
+    718,
+    720,
+    724,
+    733,
+    752,
+    753,
+    755,
+    758,
+    760,
+    762,
+    763,
+    769,
+    772,
+    773,
+    788,
+    791,
+    801,
+    803,
+    805,
+    807,
+    810,
+    811,
+    812,
+    822,
+    824,
+    832,
+    843,
+    854,
+    855,
+    856,
+    858,
+    861,
+    863,
+    868,
+    878,
+    889,
+    894,
+    901,
+    904,
+    906,
+    907,
+    910,
+    911,
+    915,
+    916,
+    922,
+    934,
+    942,
+    950,
+    951,
+    952,
+    954,
+    958,
+    960,
+    962,
+    967,
+    982,
+    992,
+    1002,
+    1004,
+    1005,
+    1011
+  ],
+  "approvedCount": 69,
+  "quarantine": [
+    {
+      "number": 748,
+      "reason": "Bent/elbow fitting assembly and clamps; countingone front per physical straightpipe is ambiguous in thisframe.",
+      "count": null
+    },
+    {
+      "number": 826,
+      "reason": "Visible black sourceediting outside mainbundle may coversecondary ends; clean original unavailable.",
+      "count": null
+    },
+    {
+      "number": 853,
+      "reason": "Visible black sourceediting in upper/background regions; edited-object scope unresolved.",
+      "count": null
+    },
+    {
+      "number": 898,
+      "reason": "Native fullpanel shows red/yellow/blue handdrawn countticks inside many openings; also a capped-end subpile. Not clean unmarked source.",
+      "count": null
+    },
+    {
+      "number": 957,
+      "reason": "Black sourceediting near lower-left separate pipe area; cannot confirm no secondary end was removed.",
+      "count": null
+    },
+    {
+      "number": 965,
+      "reason": "Large black sourceediting behind target; original scope unresolved.",
+      "count": null
+    },
+    {
+      "number": 976,
+      "reason": "Several black count-like/source marks over distant left pile; exclude clean-real baseline.",
+      "count": null
+    },
+    {
+      "number": 1008,
+      "reason": "Large bell/socket gray tubes; steel versus plastic/cast/concrete scope cannot be confidently established visually.",
+      "count": null
+    },
+    {
+      "number": 1018,
+      "reason": "Large black sourceediting near upper/left pipes; clean target scope unresolved.",
+      "count": null
+    }
+  ],
+  "approved": [
+    {
+      "number": 701,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 702,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 704,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 707,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 708,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 711,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 714,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 718,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 720,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 724,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 733,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 752,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 753,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 755,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 758,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 760,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 762,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 763,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 769,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 772,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 773,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 788,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 791,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 801,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 803,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 805,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 807,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 810,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 811,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 812,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 822,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 824,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 832,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 843,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 854,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 855,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 856,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 858,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 861,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 863,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 868,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 878,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 889,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 894,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 901,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 904,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 906,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 907,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 910,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 911,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 915,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 916,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 922,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 934,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 942,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 950,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 951,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 952,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 954,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 958,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 960,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 962,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 967,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 982,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 992,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 1002,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 1004,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 1005,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    },
+    {
+      "number": 1011,
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "basis": "AuthorHBB retained after technicalvalidation, visualscene/target check andfullframe coverage overlay screen; notindependent exhaustive recount."
+    }
+  ],
+  "resolvedDetails": [
+    {
+      "number": 752,
+      "observation": "Large pairedpanel shows rear left structures as scaffoldhardware/jacks ratherthan clearly countable pipe mouths; mainhollow posts have boxes. No confirmed missing full pipe-end found."
+    },
+    {
+      "number": 878,
+      "observation": "Upperright secondary pipe ends are indeed boxed. Dirt-plugged steelpipe cutfaces retained wherepipe wall/body/rim is discernible; notclassified as rebar from coloralone."
+    },
+    {
+      "number": 962,
+      "observation": "Paired866/962 shows samepipe bundles capped/uncapped;962 has visibleopenings andis accepted,866 remainsoutsideopen-endedcore."
+    }
+  ],
+  "additionalSameSceneSets": [
+    {
+      "numbers": [
+        866,
+        962
+      ],
+      "reason": "Samepipe bundles/capture family withcaps on/off, observedin pairedphotos."
+    },
+    {
+      "numbers": [
+        639,
+        1005
+      ],
+      "reason": "Same stack/capture family; changedvisiblecount246/242 doesnot establish independence."
+    }
+  ],
+  "limits": [
+    "Photographic reality means visualconsistency+publicsource provenance, not forensic authenticity proof.",
+    "All78frames wereviewed inoverlays; onlyspecified panels wereopenedlarger. Didnot independentlyrecount everyoriginal authorbox.",
+    "Remaining sourceannotation uncertainty andsmall dense targets mustbe retained inmodelreport limitations.",
+    "A lightwatermark/phone timestamp isnot treated as object annotation; visible handcountmarks/ROI/sourceobject editing areexcluded.",
+    "No modelprediction wasused toselect orchange labels."
+  ],
+  "sourceImagesOrXMLModified": false,
+  "modelInferencePerformed": false,
+  "splitAssigned": false
+}

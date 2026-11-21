@@ -1,0 +1,10 @@
+{
+  "status": "PENDING_ROOT_DATA_FREEZE_DO_NOT_EXECUTE",
+  "manifestPath": null,
+  "manifestSHA256": null,
+  "parentTrainValManifestSHA256": "b7185c895ed9c1d695d486a5b0dc3fbd9725510afbbb95c4b74b3eaea1e11393",
+  "sealedFullManifestSHA256": null,
+  "qaReportPath": null,
+  "qaReportSHA256": null,
+  "scope": "Explicit new frozen train-val manifest with unchanged prior54 rows and natural train-only additions. No prior manifest fallback."
+}

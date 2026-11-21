@@ -1,0 +1,26 @@
+{
+  "status": "MANUAL_BOUNDARY_CORRECTION_AGREED_AFTER_PIXEL_ZOOM_REVIEW",
+  "id": "commons_125",
+  "boxIndexZeroBased": 1,
+  "oldXYXY": [
+    432,
+    790,
+    627,
+    986
+  ],
+  "newXYXY": [
+    432,
+    803,
+    613,
+    950
+  ],
+  "countUnchanged": 2,
+  "reason": "Exclude separateclamp bolt andsidewall; tightvisibleouterpipeendrim.",
+  "reviewers": [
+    "general_counting_papers",
+    "colony_papers"
+  ],
+  "evidence": "output/pipes-hardening-20261026/data/positives/review/commons125-rim-zoom.png",
+  "sourceImageSHA256": "56c177454483b013cce8c0c91137b41df4ff0bf30d6b31510486b83228e9ea12",
+  "modelPredictionsUsed": false
+}
