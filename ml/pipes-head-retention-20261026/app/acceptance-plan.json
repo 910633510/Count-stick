@@ -1,0 +1,160 @@
+{
+  "status": "LOCAL_APP_ACCEPTANCE_PLAN_READY_NO_MODEL_ENABLED",
+  "createdUTC": "2026-10-26T17:11:02.443358+00:00",
+  "scope": "Read-only inventory and future minimal local acceptance. No production/test source edits, model packaging, model inference, build, XCTest or ASC operation performed by this task.",
+  "currentEvidence": {
+    "sourceAndResourceInspection": "App has the separate raw pipe detector, category routing/history/export and bilingual UI. PipeEnds model and validated configuration remain absent.",
+    "confirmedAbsentPaths": [
+      "Count stick/PipeEnds.mlpackage",
+      "Count stick/PipeEnds.json",
+      "output/pipes-20261026/app/real-model-test-fixtures.json"
+    ],
+    "runtimeGate": "Compiled PipeEnds.mlmodelc plus PipeEnds.json with status VALIDATED_COREML_EXPORT; matching exportID/checkpointSHA256/class/1024 input/confidence/IoU metadata; raw_detections shape [1,5,21504]; Float32 parsing via unchanged shared NMS.",
+    "failureBehavior": "Missing model throws unavailableModel. Existing bilingual error explicitly says no free count used and offers manual marking. Category router never calls the skewer detector as a pipe fallback.",
+    "quotaInvariant": "Successful automatic result, including zero, consumes one use. Model/decode failure and manual edits consume none. Four free uses, seven-day trial and US$2.99 monthly subscription are not changed.",
+    "protectedOldFilesAllByteIdentical": true,
+    "protectedOldFileSHA256": {
+      "Count stick/StickDetector.swift": "6fb00ca644805e176dcca028ed1bef3932e80b451e77f2ea8759983d2c678b82",
+      "Count stick/AutoCountRegion.swift": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+      "Count stick/CountingAccess.swift": "6958354ca014772eae3c52806b425e745bab2540ad7f4433ff8f051e86b01ff1",
+      "Count stick/best.mlpackage/Data/com.apple.CoreML/model.mlmodel": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+      "Count stick/best.mlpackage/Data/com.apple.CoreML/weights/weight.bin": "21717eef227d96f45419d0b5730fa4114e6877f4a6548a71efe641fc23240090",
+      "Count stick/best.mlpackage/Manifest.json": "069d7e3b5c970ac6b017cdc8921bfc2deb0da721c98b71009b80c7de3521832d"
+    },
+    "currentSourceSHA256": {
+      "Count stick/PipeDetector.swift": "d64ce2aec5955400d2aa78e1769d4c4e54a0964fbbe2795c731c17b69192c46c",
+      "Count stick/PipeRawPostprocessor.swift": "4542c36ee0f171571d9651c5ccbeec7744bb71e8b4cf7fd429137afd302a3fbe",
+      "Count stick/CountCategory.swift": "d46c68403884e3e01ae31f9b1abf908a56d3aac84f8d392b85851b186f26294e",
+      "Count stick/CountWorkspace.swift": "b14f1d1b53dcc9c18b1d763aecf3322c664de59d1cc5b664415784a7fcdc8a8d",
+      "Count stick/ContentView.swift": "8bbab8667bd7cb922ad76a25ab10cd39fd44dfb3cebc755458cacfebb5e76910",
+      "Count stick/en.lproj/Localizable.strings": "c91ab90ee19116b975bbb73ab4590fb7b3a006acab858f507d838eec077e6262",
+      "Count stick/zh-Hans.lproj/Localizable.strings": "ed5c35a6d6939d35e8417f50685cddf1f4ca3ab3ae888440d78ea7401f602dae",
+      "Count stickTests/PipePreprocessingExportTests.swift": "bbb0ed28a91a3358ead2f0e12bcc0b1260a7a6ea3fb2bfea5e28b7889a915812"
+    },
+    "testSourceSHA256": {
+      "Count stickTests/PipeRealModelTests.swift": "1c27627acfa6b7eb3c36acf74305b8fbf63348b641839b268ad4428ee7da2f69",
+      "Count stickTests/CountCategoryTests.swift": "d7dbb3a0339e519bc4ce7e6c324bc10b9e3cdc90b6c3e768bddcabe984ced806",
+      "Count stickTests/CountingAccessTests.swift": "455d51204f6373bb879e3fb48cf57342e4503b9cb5b91ffc6fec912889ad6e2e",
+      "Count stickTests/AutomaticRegionHistoryTests.swift": "c628c31a477f354d849c88d50063c41596c630cfb17040566dcc20da78c531d9",
+      "Count stickTests/StickDetectorDedupRegressionTests.swift": "242d8ba04ff1033ee0b37f2516cfbd1cfb5e9e9c2ffed6932c40f9f52a533cdf",
+      "Count stickUITests/CountCategoryUITests.swift": "755bcd918b4efe652697fa9486736a633de84aa72c7134113198917c84801f7f",
+      "Count stickUITests/Count_stickUITests.swift": "d5284b29f6152a0a9f9a003b457ca5d967212b6b76e62d52b7a4740a43d5ec1f"
+    },
+    "historicalEvidenceCaveat": "ml/pipes-20261026/app/implementation-validation.json is the initial implementation snapshot; its recognized-object model contract predates raw-v3. Its tests/build are historical, not a current qualified-model acceptance.",
+    "actualTestsRunNow": false
+  },
+  "ifNoQualifiedModel": [
+    "Leave PipeEnds model/config absent; retain all experiment failures and selection=null evidence. Do not package an unqualified checkpoint or create a VALIDATED status by hand.",
+    "Deliver the existing source changes and training/data evidence with an explicit distinction between UI/manual workflow readiness and unavailable automatic steel-pipe recognition.",
+    "Do not call missing-resource XCTSkip a passing real-model result. No need to repeat model-dependent tests that cannot execute.",
+    "User-facing wording: 已完成钢管数据整理和训练尝试，App 的钢管模式、手动修正和记录功能已准备好；自动识别模型仍未达到验收标准，因此尚未启用。"
+  ],
+  "ifQualifiedModelPasses": [
+    {
+      "step": 1,
+      "owner": "root + model agent",
+      "action": "Require the fixed selected checkpoint, independent validation/test acceptance, actual raw CoreML/Vision parity and final validated export/config receipt. Keep the selected operating thresholds and shared NMS unchanged."
+    },
+    {
+      "step": 2,
+      "owner": "app integrator",
+      "action": "Copy only the approved raw PipeEnds.mlpackage and matching PipeEnds.json into the synchronized App group. Verify package tree/config hashes and exportID/checkpointSHA256 metadata, then ensure the built bundle contains PipeEnds.mlmodelc and config."
+    },
+    {
+      "step": 3,
+      "owner": "app integrator",
+      "action": "Write output/pipes-20261026/app/real-model-test-fixtures.json using already approved validation images only, never held-out test images. Include a small-pipe positive, an ordinary positive and a real solid-rod negative if available; derive expected centers/counts from the approved same-pixel parity reference for both gallery and camera routes.",
+      "fixtureSchema": {
+        "status": "QUALIFIED_PIPE_MODEL_E2E_FIXTURES",
+        "modelSHA256": "final checkpoint SHA",
+        "exportID": "final export UUID",
+        "testContentIncluded": false,
+        "images": [
+          {
+            "id": "validation id",
+            "split": "val",
+            "imagePath": "repo-relative output/pipes-20261026/... approved source",
+            "sha256": "source image SHA",
+            "expectations": [
+              {
+                "variant": "gallery or camera",
+                "count": "expected retained detections",
+                "centers": "[[normalized x, normalized y], ...]"
+              }
+            ]
+          }
+        ]
+      },
+      "fixtureInterpretation": "This checks integration agreement, not new accuracy. Do not invent expected outputs, silently change annotations, or move held-out test content into fixtures."
+    },
+    {
+      "step": 4,
+      "owner": "app integrator",
+      "action": "Run exactly the existing two PipeRealModelTests with the final bundled model. Require both tests to execute and pass, zero skipped. They verify real gallery/camera count/center mapping, auto-region retaining all ends, one debit on success and no debit on decode failure."
+    },
+    {
+      "step": 5,
+      "owner": "app integrator",
+      "action": "Run focused CountCategoryTests, CountingAccessTests and original region/history/dedup regression suite once. Use a signed simulator test run so Keychain is meaningful. Do not rerun the known failing StoreKit transaction environment tests."
+    },
+    {
+      "step": 6,
+      "owner": "app integrator",
+      "action": "Run existing bilingual unsaved-mode-switch UI test plus original English/Chinese photo edit-save-reopen-delete checks. Separately inspect a real pipe result with the Debug actual-photo/category hook in both languages: correct count/markers, edit/save/history/export category and round-pipe guide title/detail; save screenshots.",
+      "existingUITestLimit": "CountCategoryUITests currently checks the skewer result and category switch only. It does not assert a real pipe result or the pipe guide title. Keep those actual-model result/title checks explicit; do not overclaim existing coverage.",
+      "debugLaunchArguments": [
+        "--countstick-test-photo",
+        "<approved validation image path>",
+        "--countscope-test-category",
+        "steel_pipes",
+        "--countscope-test-ledger",
+        "<fresh isolated UUID>"
+      ],
+      "guideTitles": {
+        "en": "Face the pipe ends toward the camera",
+        "zh-Hans": "让钢管端面正对镜头"
+      }
+    },
+    {
+      "step": 7,
+      "owner": "root",
+      "action": "Perform final incremental unsigned Release device-target build and protected-source/model/localization checks. This is compilation evidence, not physical-camera/device-performance acceptance or App Store submission."
+    }
+  ],
+  "existingTestInventory": {
+    "realModel": "Count stickTests/PipeRealModelTests.swift: 2 tests; skips until approved model/config/fixture exist.",
+    "categoryAndFailure": "Count stickTests/CountCategoryTests.swift: legacy history decoding, routing, failure/retry/zero charging, missing-model manual path, async generation/reservation isolation, pipe history/export, union region, letterbox and metadata rejection.",
+    "quota": "Count stickTests/CountingAccessTests.swift: 8 tests for four-use persistence, cancellation, errors and zero-count semantics.",
+    "legacy": "AutomaticRegionHistoryTests.swift and StickDetectorDedupRegressionTests.swift retain prior skewer/region checks.",
+    "bilingualUI": "CountCategoryUITests/testModeSwitchConfirmsUnsavedResultInBothLanguages; Count_stickUITests/testEnglishPhotoCorrectionSaveReopenDelete; Count_stickUITests/testChinesePhotoCorrectionSaveReopenDelete."
+  },
+  "futureCommandTemplate": [
+    "xcodebuild",
+    "test",
+    "-project",
+    "Count stick.xcodeproj",
+    "-scheme",
+    "Count stick",
+    "-destination",
+    "platform=iOS Simulator,id=<available QA simulator>",
+    "-derivedDataPath",
+    "output/pipe-app-qualified-derived",
+    "-resultBundlePath",
+    "output/pipe-app-qualified-tests.xcresult",
+    "-parallel-testing-enabled",
+    "NO",
+    "-only-testing:Count stickTests/PipeRealModelTests",
+    "-only-testing:Count stickTests/CountCategoryTests",
+    "-only-testing:Count stickTests/CountingAccessTests",
+    "-only-testing:Count stickTests/AutomaticRegionHistoryTests",
+    "-only-testing:Count stickTests/StickDetectorDedupRegressionTests"
+  ],
+  "acceptanceReportMustSeparate": [
+    "Model qualification and generalization metrics",
+    "Same-pixel Torch/CoreML/Vision parity",
+    "Actual bundled-model App XCTest execution with 0 skipped",
+    "Bilingual UI screenshot review",
+    "Unsigned device-target build",
+    "Not performed: physical device/camera performance, ASC submission or production subscription transaction"
+  ]
+}

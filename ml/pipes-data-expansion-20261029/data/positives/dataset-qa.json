@@ -1,0 +1,126 @@
+{
+  "status": "PASS_13_TRAIN_ONLY_POSITIVE_IMAGES_155_BOXES_READY_FOR_ROOT_FREEZE",
+  "generatedUTC": "2026-10-29T16:02:12.046770+00:00",
+  "proposalPath": "output/pipes-data-expansion-20261029/data/positives/positive-proposal.json",
+  "proposalSHA256": "fbb5c9657a3a25506f1732cc72cd150bfa0550d37d2135f8c1fa411a8d465597",
+  "images": [
+    {
+      "id": "rfv2_6ad309d168db",
+      "count": 10,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 0
+    },
+    {
+      "id": "rfv2_1966920654d3",
+      "count": 3,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 3.999997488790541e-08
+    },
+    {
+      "id": "cmnew_004",
+      "count": 17,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 4.800006081495667e-08
+    },
+    {
+      "id": "cmnew_057",
+      "count": 2,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 3.200000264769187e-08
+    },
+    {
+      "id": "cmnew_071",
+      "count": 1,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 1.6000058167264797e-08
+    },
+    {
+      "id": "cmnew_073",
+      "count": 29,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 4.800006081495667e-08
+    },
+    {
+      "id": "rfv2_92e41e389e96",
+      "count": 20,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 0
+    },
+    {
+      "id": "rfv2_37c98b79839c",
+      "count": 20,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 1.4210854715202004e-14
+    },
+    {
+      "id": "rfv2_3eb645339840",
+      "count": 10,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 0
+    },
+    {
+      "id": "rfv2_ce82e64f9b1b",
+      "count": 18,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 5.684341886080802e-14
+    },
+    {
+      "id": "rfv2_433a33158ae6",
+      "count": 4,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 0
+    },
+    {
+      "id": "rfv2_78c18919ddc0",
+      "count": 7,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 0
+    },
+    {
+      "id": "rfv2_7b4a4900cabc",
+      "count": 14,
+      "status": "PASS_IMAGE_LABEL_REVIEW_BINDINGS",
+      "labelRoundTripMaxErrorPixels": 0
+    }
+  ],
+  "summary": {
+    "acceptedImages": 13,
+    "provisionalCaptureSourceGroups": 13,
+    "pipeEnds": 155,
+    "realEnvironmentalOrStackPhotos": 10,
+    "photographicWhiteBackgroundProducts": 3,
+    "knownNativeUnder512Images": 0,
+    "nativeResolutionUnknownImages": 9,
+    "newTransformsApplied": 0
+  },
+  "reviewBindings": {
+    "ml/pipes-data-expansion-20261029/data/positives/general-derived-labels.json": "3d27653843892406acf919f61d63e5ed3d3401ea4bbccc2d8778552789bbf58d",
+    "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+    "ml/pipes-data-expansion-20261029/data/root-general-positive-review.json": "5580aebfcd099c47c402ccab7329b3be49216163f247a8082ba879589b76f33e",
+    "ml/pipes-data-expansion-20261029/data/positives/root-annotations-independent-review.json": "d7610eb20cbd169af791cacb2f4ca105beccb91c81cc3a8ca055179de7b05cc2",
+    "ml/pipes-data-expansion-20261029/data/positives/rfv2-duplicate-screen.json": "c70a92db6ce0e3e97a39ed8b5cfc9eeab18096bd15563e4cd72cf6902364ed4f",
+    "ml/pipes-data-expansion-20261029/data/positives/commons-duplicate-screen.json": "0787ae1a8e6e498a7ab3c01a31c0203d2c9cca5a2af660f9b58ddd4597f1e0a0"
+  },
+  "reviewerIdentity": "Two independent Codex agents (root and general_counting_papers), not human annotators.",
+  "labelSourcePreservation": "Source author annotations and prior315 datasets untouched. Corrected HBBs are separate derived files.",
+  "protectedExistingManifestSHA256": {
+    "output/datasets/pipe-ends-maco-v1/manifest.json": "960005aa6c7956db8ebf5962693071e0ea01888f0d0380431437894b4fddec41",
+    "output/datasets/pipe-ends-head-retention-v1/manifest.json": "de4c153b89e48d9b4b6fe06ace680070e5a55dd4fab00b66a8180ad836621078",
+    "output/datasets/pipe-ends-maco-v1/train-val-manifest.json": "505d0a3de3424b75d53632e5349453d9e9f82faf2d831778f07f6be5a4072476",
+    "output/datasets/pipe-ends-head-retention-v1/train-val-manifest.json": "b7185c895ed9c1d695d486a5b0dc3fbd9725510afbbb95c4b74b3eaea1e11393"
+  },
+  "acceptedClassicalDuplicateFlags": 0,
+  "datasetSourceDataBytesDownloaded": 186644440,
+  "initialLimitBytes": 1000000000,
+  "metadataRequestsAdditional": "Public metadata/HTML responses are small and archived; no large extra archive, model or duplicate-format download.",
+  "noModelInference": true,
+  "noTraining": true,
+  "noTestPromotionOrSplitChange": true,
+  "limitations": [
+    "All thirteen photos are train-only; the prior315 and sealed20 test labels/splits remain unchanged.",
+    "Publisher640-stretched images and Commons resized thumbnails are not represented as known native-low-resolution capture.",
+    "Source author labels are archived unchanged; final training labels are separate derived files.",
+    "Classical duplicate nonmatches plus metadata review are exclusion evidence, not proof of physical-scene independence."
+  ],
+  "coverageGap": "No newly verified native<512 capture: RF source-native dimensions are unknown; Commons files are proportional thumbnails of larger photographs. Material/scene and edge-count coverage expanded, native-low-resolution gap remains."
+}

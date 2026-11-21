@@ -1,0 +1,100 @@
+{
+  "status": "ROOT_PUBLIC_PHOTO_SCREEN_COMPLETE_NO_TRAINING_ADMISSION",
+  "downloadedImages": 11,
+  "downloadedBytes": 1573485,
+  "contactSheetsViewed": [
+    "contact-00.jpg",
+    "contact-01.jpg"
+  ],
+  "images": [
+    {
+      "id": "root_candidate_01",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-01.bin",
+      "sha256": "8a047068d6a470eb293ee5b6458f33c191cfb6723edddbbf7b04178c81150ab6",
+      "sourcePage": "https://cibowares.com/products/7-flat-bamboo-skewers",
+      "decision": "EXCLUDE_SIDE_VIEW_OR_PRODUCT_DIAGRAM",
+      "annotationAvailable": false
+    },
+    {
+      "id": "root_candidate_02",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-02.bin",
+      "sha256": "c28f405435a509eb9453d53ba14db52bd85d132af4382682faf4a68a5af9f594",
+      "sourcePage": "https://cibowares.com/products/7-flat-bamboo-skewers",
+      "decision": "EXCLUDE_SIDE_VIEW_OR_PRODUCT_DIAGRAM",
+      "annotationAvailable": false
+    },
+    {
+      "id": "root_candidate_03",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-03.bin",
+      "sha256": "067d5fbbed3102d29aa124f61821f3c149ae83d948ca3763d20cf990a578f37a",
+      "sourcePage": "https://cibowares.com/products/7-flat-bamboo-skewers",
+      "decision": "EXCLUDE_SIDE_VIEW_OR_PRODUCT_DIAGRAM",
+      "annotationAvailable": false
+    },
+    {
+      "id": "root_candidate_04",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-04.bin",
+      "sha256": "0bb72dcc1b870f7cb39f13d37321a2e6b74f192f720cd7773f7ed509bb471fc8",
+      "sourcePage": "https://cibowares.com/products/7-flat-bamboo-skewers",
+      "decision": "EXCLUDE_SIDE_VIEW_OR_PRODUCT_DIAGRAM",
+      "annotationAvailable": false
+    },
+    {
+      "id": "root_candidate_05",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-05.bin",
+      "sha256": "e4923b23c3c986e7fe22682e6ccfeebdd63720bd1cf109e36558ad4610b07801",
+      "sourcePage": "https://cibowares.com/products/7-flat-bamboo-skewers",
+      "decision": "EXCLUDE_SIDE_VIEW_OR_PRODUCT_DIAGRAM",
+      "annotationAvailable": false
+    },
+    {
+      "id": "root_candidate_06",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-06.bin",
+      "sha256": "54f0b361994a63e5d6039fb2952924e37715a8701b81e63e4cd45483b3bdcb42",
+      "sourcePage": "https://cibowares.com/products/7-flat-bamboo-skewers",
+      "decision": "EXCLUDE_SIDE_VIEW_OR_PRODUCT_DIAGRAM",
+      "annotationAvailable": false
+    },
+    {
+      "id": "root_candidate_07",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-07.bin",
+      "sha256": "e4923b23c3c986e7fe22682e6ccfeebdd63720bd1cf109e36558ad4610b07801",
+      "sourcePage": "https://cibowares.com/products/7-flat-bamboo-skewers",
+      "decision": "DUPLICATE_VIEW_OF_5_NOT_NEW_SOURCE_GROUP",
+      "annotationAvailable": false
+    },
+    {
+      "id": "root_candidate_08",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-08.bin",
+      "sha256": "8b48a602ce4f7c89ec79eca4eb5fde161ed03d9997b7ec24ee6d83afa4ff35af",
+      "sourcePage": "https://lynnscakeandcandy.com/products/bamboo-skewers-6-100-pkg",
+      "decision": "AUXILIARY_OBLIQUE_TIP_STACK_NOT_INDEPENDENT_FRONTAL_SCENE",
+      "annotationAvailable": false
+    },
+    {
+      "id": "root_candidate_09",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-09.bin",
+      "sha256": "6a6e2bc5844d4f646d1e80f4c3130374a7136885e52112e635b247755fe53531",
+      "sourcePage": "https://lynnscakeandcandy.com/products/bamboo-skewers-6-100-pkg",
+      "decision": "UNLABELLED_END_CLUSTER_CANDIDATE_SAME_LYNN_SOURCE_FAMILY",
+      "annotationAvailable": false
+    },
+    {
+      "id": "root_candidate_10",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-10.bin",
+      "sha256": "25263459768927ceecc97956a94d925bcbe12159e18003a84b96bf72368e0178",
+      "sourcePage": "https://lynnscakeandcandy.com/products/bamboo-skewers-6-100-pkg",
+      "decision": "EXCLUDE_SIDE_VIEW_OR_PRODUCT_DIAGRAM",
+      "annotationAvailable": false
+    },
+    {
+      "id": "root_candidate_11",
+      "path": "output/multiclass-data-20261029/root-skewer-candidates/candidate-11.bin",
+      "sha256": "50622ed24a34c4a49c07997a29491a48da795b3dc22e01fcaf3dd31c6e6ea542",
+      "sourcePage": "https://www.everfulwholesale.com/products/long-thick-bamboo-skewers-for-bbq-disposable-sticks-evfpjy6ky6",
+      "decision": "UNLABELLED_THICK_ENDS_CANDIDATE_MARKETING_TEXT_NOT_GT",
+      "annotationAvailable": false
+    }
+  ],
+  "policy": "No package count is a visual count label. No new boxes or counts inferred. Adjacent product photos are not restaurant scenes."
+}

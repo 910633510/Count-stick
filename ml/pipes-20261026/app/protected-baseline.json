@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "path": "Count stick/StickDetector.swift",
+      "sha256": "6fb00ca644805e176dcca028ed1bef3932e80b451e77f2ea8759983d2c678b82",
+      "headSHA256": "6fb00ca644805e176dcca028ed1bef3932e80b451e77f2ea8759983d2c678b82",
+      "unchangedFromHEAD": true
+    },
+    {
+      "path": "Count stick/AutoCountRegion.swift",
+      "sha256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+      "headSHA256": "e8e17cf3fbb2e3f399ba0452ca72ec022faf685b0b9a1bee3ed98bbbce141112",
+      "unchangedFromHEAD": true
+    },
+    {
+      "path": "Count stick/CountingAccess.swift",
+      "sha256": "6958354ca014772eae3c52806b425e745bab2540ad7f4433ff8f051e86b01ff1",
+      "headSHA256": "6958354ca014772eae3c52806b425e745bab2540ad7f4433ff8f051e86b01ff1",
+      "unchangedFromHEAD": true
+    },
+    {
+      "path": "Count stick/best.mlpackage/Data/com.apple.CoreML/model.mlmodel",
+      "sha256": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+      "headSHA256": "7bd815cb1515e3de8a9439e84424f7955e0b58a4ad08ae4ccb7f677ca39d66ad",
+      "unchangedFromHEAD": true
+    },
+    {
+      "path": "Count stick/best.mlpackage/Data/com.apple.CoreML/weights/weight.bin",
+      "sha256": "21717eef227d96f45419d0b5730fa4114e6877f4a6548a71efe641fc23240090",
+      "headSHA256": "21717eef227d96f45419d0b5730fa4114e6877f4a6548a71efe641fc23240090",
+      "unchangedFromHEAD": true
+    },
+    {
+      "path": "Count stick/best.mlpackage/Manifest.json",
+      "sha256": "069d7e3b5c970ac6b017cdc8921bfc2deb0da721c98b71009b80c7de3521832d",
+      "headSHA256": "069d7e3b5c970ac6b017cdc8921bfc2deb0da721c98b71009b80c7de3521832d",
+      "unchangedFromHEAD": true
+    }
+  ]
+}

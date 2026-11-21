@@ -1,0 +1,34 @@
+{
+  "taskStatus": "COMPLETE_RESEARCH_AND_BOUNDED_EXPERIMENTS",
+  "completedAtUTC": "2026-10-25T21:59:46.324989+00:00",
+  "deploymentApproved": false,
+  "appProductionSourceFilesVerifiedUnchanged": 17,
+  "newDatasetImages": 185,
+  "mixedTrainImages": 360,
+  "mixedValidationImages": 92,
+  "trainingEpochs": 8,
+  "trainingExecution": "Recovered after terminal reporting callback exception; no retraining; independent audit passed",
+  "candidateCount": 18,
+  "passingCandidateCount": 0,
+  "selectedConfig": null,
+  "lowestDevelopmentMacroCandidateOnly": {
+    "epoch": 8,
+    "pipeline": "automatic4tile",
+    "confidence": 0.3,
+    "modelSHA256": "1259e439e0bd53ffdaec8de010e15a497781429f52a07fa4baaa67fbc4233b82"
+  },
+  "macroMAE": {
+    "baseline": 15.306366294524189,
+    "diagnosticCandidate": 13.305533404217615
+  },
+  "newTestModelInferencePerformed": false,
+  "reservedHoldoutImages": 36,
+  "evidence": {
+    "ml/research-20261025/README.md": "0d94feb51bea83b4587baab5937a226afd0850efa47dbd5b78b74e55e34c6417",
+    "ml/research-20261025/mixed-independent-review.json": "593bceca6e61033cbeaa8f25c3dde53df905e296cee60380e36d033d77b7acd9",
+    "ml/research-20261025/holdout-disposition.json": "79d0b50073ebb05d1fb71bd9c2990dc2ccef5e02dd0ac436d402465e42128a8e",
+    "output/research-20261025/mixed-training/selection.json": "793b69e5af94bf0c91f77abf7df88c8faebd06c3ba9cfafdebc035222c74ba85",
+    "output/research-20261025/mixed-training/experiment-result.json": "b9d1dd1331a3b8aaa6dce2f7164490c8eb301ca3674ce9ee755b351917ad5396",
+    "output/research-20261025/mixed-training/training-complete.json": "26812ea4ae0ac65235009f5dcdb7ed11f36ac6b441b33fd3d6830f7fa1561e65"
+  }
+}

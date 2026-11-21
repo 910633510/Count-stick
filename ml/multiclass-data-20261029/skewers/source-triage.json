@@ -1,0 +1,38 @@
+{
+  "status": "FOCUSED_SEARCH_COMPLETE_ANONYMOUS_LARGE_END_FACE_DATASET_NOT_FOUND",
+  "sources": [
+    {
+      "source": "IEEE MobileNetV3 CBAM Bamboo Stick Counting",
+      "url": "https://ieee-dataport.org/documents/mobilenetv3-cbam-bamboo-stick-counting",
+      "result": "Not downloaded; existing2026-10-23/24 access audit requires login+subscription; no payment or workaround attempted.817.8MB also exceeds this500MB acquisition budget.",
+      "currentTurnDataDownloaded": false
+    },
+    {
+      "source": "Roboflow Stick Count with Palte /kaoqian_plus",
+      "result": "Prior root source review found whole-food side-view labels, not bundle cross-section count data. No redundant download."
+    },
+    {
+      "source": "Harvard food skewering-location dataset",
+      "url": "https://doi.org/10.7910/DVN/GHV7XZ",
+      "result": "Food bite-acquisition annotations, wrong target; not downloaded."
+    },
+    {
+      "source": "Kaggle toothpick/chopstick/skewer/bamboo searches",
+      "result": "No end-count image/point/box set established. Results include tiny tabular chopstick datasets, restaurant waste, food classes or a single bamboo screenshot; none promoted."
+    },
+    {
+      "source": "Public GitHub bamboo/toothpick counters",
+      "result": "Code-only projects or side-view examples. Mikky has one reused old holdout picture plus source scripts; no packaged large public training set. 50 static points extracted asdataand independently reviewed; other model proposals were not treated as GT."
+    },
+    {
+      "source": "VTC-Bench",
+      "url": "https://huggingface.co/datasets/zzzhu/VTC-Bench",
+      "result": "One focused607x645 bamboo-end benchmark photo downloaded. Author whole-image answer169 retained as metadata only; preservebenchmarkrole, noautomatictraining."
+    },
+    {
+      "source": "Commons + supplier originals",
+      "result": "Small newly acquired unannotated end-face/adjacent-domain candidates. Closed-container, side-view, existing fixture and uncertain rendered-style images are explicitly excluded/quarantined."
+    }
+  ],
+  "nextUsefulStep": "Declare whether wood-dowel and decorated-toothpick end faces belong in the same category, then annotate full instances in the retainednew photos. Keep prospective capture/source groups isolated and collect actual restaurant bundle photos for domain coverage. No automatedtraining datasetwasfabricated."
+}

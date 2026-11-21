@@ -1,0 +1,139 @@
+{
+  "status": "CLASSICAL_SCREEN_COMPLETE_REQUIRES_FAMILY_REVIEW",
+  "newImages": [
+    {
+      "id": "cmnew_004",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_004.jpg",
+      "sha256": "25ec9a4bfa1958c9bff0ecf63133139ac7c77f08a188e4889c32266a4b5aec96",
+      "RGBPixelSHA256": "65af6cbcd49a8db83112f5b1392141087322675651d82ba8a8d5f29e82262626",
+      "width": 960,
+      "height": 618
+    },
+    {
+      "id": "cmnew_057",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_057.jpg",
+      "sha256": "86c339b1c3dfea1e4604eacfc71d215d834a98c5aadc223d04870cabbe7022a4",
+      "RGBPixelSHA256": "5109f86dfaceed31364255f89a872632d012fae8208445a90287400e25a92eb5",
+      "width": 960,
+      "height": 640
+    },
+    {
+      "id": "cmnew_071",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_071.jpg",
+      "sha256": "59047635d271496f072522f0d1cf52fac0f3ad71ac33ad29383c641a46cab9d9",
+      "RGBPixelSHA256": "37034cdac9c11cdaf38d2dda8eb98f3fe107058fcba3b7b7a98d27c71f80c930",
+      "width": 960,
+      "height": 641
+    },
+    {
+      "id": "cmnew_073",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_073.jpg",
+      "sha256": "326ac7cbb8813b3c55445eaccf1a935bbac0db99204170caf4717fc7e5091fb6",
+      "RGBPixelSHA256": "ab102bfda8195ef4d2e47b90d7437b5373fa79b64ffc5727af340278187e1c6d",
+      "width": 960,
+      "height": 640
+    }
+  ],
+  "comparisonRows": 1126,
+  "existingUsed315": 315,
+  "referencePoolRows": 1117,
+  "newProposedRFReferences": 9,
+  "pairs": 4504,
+  "method": "Exact file and uprightRGB SHA256; all-pairs SIFT500 at720px and mirrored SIFT500, ratio0.72, unique descriptor matches, RANSAC3px; pHash. Mirror features computed once per image, not repeatedly.",
+  "flaggedPairs": [],
+  "exactMatches": [],
+  "newPairs": [
+    {
+      "a": "cmnew_004",
+      "b": "cmnew_057",
+      "hashDistance": 22,
+      "matches": 7,
+      "inliers": 0,
+      "ratio": 0,
+      "coverageA": 0,
+      "coverageB": 0,
+      "flip": false,
+      "strongMatch": false,
+      "suspicious": false
+    },
+    {
+      "a": "cmnew_004",
+      "b": "cmnew_071",
+      "hashDistance": 34,
+      "matches": 9,
+      "inliers": 0,
+      "ratio": 0,
+      "coverageA": 0,
+      "coverageB": 0,
+      "flip": false,
+      "strongMatch": false,
+      "suspicious": false
+    },
+    {
+      "a": "cmnew_004",
+      "b": "cmnew_073",
+      "hashDistance": 28,
+      "matches": 12,
+      "inliers": 4,
+      "ratio": 0.3333333333333333,
+      "coverageA": 0.350449098055766,
+      "coverageB": 0.29592410184361245,
+      "flip": true,
+      "strongMatch": false,
+      "suspicious": false
+    },
+    {
+      "a": "cmnew_057",
+      "b": "cmnew_071",
+      "hashDistance": 22,
+      "matches": 2,
+      "inliers": 0,
+      "ratio": 0,
+      "coverageA": 0,
+      "coverageB": 0,
+      "flip": false,
+      "strongMatch": false,
+      "suspicious": false
+    },
+    {
+      "a": "cmnew_057",
+      "b": "cmnew_073",
+      "hashDistance": 28,
+      "matches": 6,
+      "inliers": 0,
+      "ratio": 0,
+      "coverageA": 0,
+      "coverageB": 0,
+      "flip": false,
+      "strongMatch": false,
+      "suspicious": false
+    },
+    {
+      "a": "cmnew_071",
+      "b": "cmnew_073",
+      "hashDistance": 32,
+      "matches": 8,
+      "inliers": 0,
+      "ratio": 0,
+      "coverageA": 0,
+      "coverageB": 0,
+      "flip": false,
+      "strongMatch": false,
+      "suspicious": false
+    }
+  ],
+  "oldReferenceManifestBindings": {
+    "output/datasets/pipe-ends-maco-v1/manifest.json": "960005aa6c7956db8ebf5962693071e0ea01888f0d0380431437894b4fddec41",
+    "output/datasets/pipe-ends-head-retention-v1/manifest.json": "de4c153b89e48d9b4b6fe06ace680070e5a55dd4fab00b66a8180ad836621078",
+    "output/datasets/pipe-ends-maco-v1/train-val-manifest.json": "505d0a3de3424b75d53632e5349453d9e9f82faf2d831778f07f6be5a4072476",
+    "output/datasets/pipe-ends-head-retention-v1/train-val-manifest.json": "b7185c895ed9c1d695d486a5b0dc3fbd9725510afbbb95c4b74b3eaea1e11393"
+  },
+  "sourceFamilyMetadataReview": {
+    "commonAuthorOnly": "CM057 shares author W.carter with some old photos, but capture2018-04-25 is distinct from old2012/2017/2020 dates and other locations/subjects.",
+    "sameCaptureDateFound": false,
+    "sameOldCommonsPageIdFound": false,
+    "limits": "Metadata+classical exclusions do not prove physical independence."
+  },
+  "modelInferencePerformed": false,
+  "testBoundary": "Existing sealed20 used only for automatic identity exclusion. No displayed test pixels, count/bbox access, learned inference, training or selection metrics."
+}

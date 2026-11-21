@@ -1,0 +1,175 @@
+{
+  "status": "ROOT_MANUAL_AND_OVERLAY_QA_COMPLETE_PENDING_INDEPENDENT_AND_GROUP_QA",
+  "createdUTC": "2026-10-26T13:42:00.588769+00:00",
+  "images": [
+    {
+      "id": "commons_012",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_012.jpg",
+      "width": 960,
+      "height": 639,
+      "sha256": "f43e42189e6e3f181f0feb3a8cbf08790b9c3762ab87f70ddcf6b98327e8842f",
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:412_DSP_WaterSupply_054_-_DPLA_-_9f9e304a1c7368d2c21f269931011e6c.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/8/87/412_DSP_WaterSupply_054_-_DPLA_-_9f9e304a1c7368d2c21f269931011e6c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceThumbnailURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/412_DSP_WaterSupply_054_-_DPLA_-_9f9e304a1c7368d2c21f269931011e6c.jpg/960px-412_DSP_WaterSupply_054_-_DPLA_-_9f9e304a1c7368d2c21f269931011e6c.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "annotationMethod": "Root manually counted visible front ends and drew outer-rim HBB fromoriginal-source960px thumbnails; no model predictions. Flange bolt holes and far end seen through the samepipe are not extra instances.",
+      "xyxy": [
+        [
+          453,
+          201,
+          728,
+          499
+        ],
+        [
+          700,
+          194,
+          896,
+          449
+        ],
+        [
+          860,
+          207,
+          960,
+          405
+        ]
+      ],
+      "count": 3,
+      "annotationStatus": "ROOT_FULL_DOWNLOADED_IMAGE_AND_NUMBERED_OVERLAY_VISUALLY_REVIEWED",
+      "modelInferencePerformed": false,
+      "split": null,
+      "sameSceneAuditComplete": false,
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/root-annotations/commons_012.jpg",
+      "overlaySHA256": "f121e9433efe7ef1b6fce2cc48f4c35f137eb2ee2257f8167e397f179d1cd66d",
+      "manualCountConfirmed": true,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "commons_041",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_041.jpg",
+      "width": 960,
+      "height": 1005,
+      "sha256": "297489197cbdb48dbcbeea09e4fbd10628345b7f7da55ea067e0e68c9a766eb1",
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Dry_Pipe_Supply_Main.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/d/db/Dry_Pipe_Supply_Main.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceThumbnailURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Dry_Pipe_Supply_Main.jpg/960px-Dry_Pipe_Supply_Main.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "annotationMethod": "Root manually counted visible front ends and drew outer-rim HBB fromoriginal-source960px thumbnails; no model predictions. Flange bolt holes and far end seen through the samepipe are not extra instances.",
+      "xyxy": [
+        [
+          10,
+          13,
+          960,
+          997
+        ]
+      ],
+      "count": 1,
+      "annotationStatus": "ROOT_FULL_DOWNLOADED_IMAGE_AND_NUMBERED_OVERLAY_VISUALLY_REVIEWED",
+      "modelInferencePerformed": false,
+      "split": null,
+      "sameSceneAuditComplete": false,
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/root-annotations/commons_041.jpg",
+      "overlaySHA256": "e6adf4769bca506aaa9e31377c85d4b7a743fd57dead5042462b71fb3231342f",
+      "manualCountConfirmed": true,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "commons_059",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_059.jpg",
+      "width": 960,
+      "height": 640,
+      "sha256": "ea438e2b90f72554bb04ea287e5b400ef6cf1f2b275ca3fe68fe5161bbcf2901",
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Haltern_am_See,_Silbersee_III,_Rohre_--_2021_--_4533.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Haltern_am_See%2C_Silbersee_III%2C_Rohre_--_2021_--_4533.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceThumbnailURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Haltern_am_See%2C_Silbersee_III%2C_Rohre_--_2021_--_4533.jpg/960px-Haltern_am_See%2C_Silbersee_III%2C_Rohre_--_2021_--_4533.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "annotationMethod": "Root manually counted visible front ends and drew outer-rim HBB fromoriginal-source960px thumbnails; no model predictions. Flange bolt holes and far end seen through the samepipe are not extra instances.",
+      "xyxy": [
+        [
+          34,
+          155,
+          99,
+          280
+        ],
+        [
+          145,
+          139,
+          213,
+          270
+        ],
+        [
+          198,
+          121,
+          286,
+          277
+        ],
+        [
+          311,
+          108,
+          412,
+          281
+        ],
+        [
+          360,
+          88,
+          546,
+          445
+        ],
+        [
+          479,
+          77,
+          823,
+          547
+        ]
+      ],
+      "count": 6,
+      "annotationStatus": "ROOT_FULL_DOWNLOADED_IMAGE_AND_NUMBERED_OVERLAY_VISUALLY_REVIEWED",
+      "modelInferencePerformed": false,
+      "split": null,
+      "sameSceneAuditComplete": false,
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/root-annotations/commons_059.jpg",
+      "overlaySHA256": "e82c338e71f4cb77cf8e904fc4af85b81a71454771cb7d59b880179656b3c785",
+      "manualCountConfirmed": true,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "commons_069",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_069.jpg",
+      "width": 960,
+      "height": 643,
+      "sha256": "ae921a68d5b74762bb3f1d337adc3ece5dabb5f17d6ef64b2cc64ff9a293b6e1",
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Large_steel_tubes,_Etobicoke,_Ontario.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Large_steel_tubes%2C_Etobicoke%2C_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceThumbnailURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Large_steel_tubes%2C_Etobicoke%2C_Ontario.jpg/960px-Large_steel_tubes%2C_Etobicoke%2C_Ontario.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "annotationMethod": "Root manually counted visible front ends and drew outer-rim HBB fromoriginal-source960px thumbnails; no model predictions. Flange bolt holes and far end seen through the samepipe are not extra instances.",
+      "xyxy": [
+        [
+          0,
+          91,
+          284,
+          517
+        ],
+        [
+          275,
+          97,
+          710,
+          535
+        ],
+        [
+          703,
+          112,
+          960,
+          544
+        ]
+      ],
+      "count": 3,
+      "annotationStatus": "ROOT_FULL_DOWNLOADED_IMAGE_AND_NUMBERED_OVERLAY_VISUALLY_REVIEWED",
+      "modelInferencePerformed": false,
+      "split": null,
+      "sameSceneAuditComplete": false,
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/root-annotations/commons_069.jpg",
+      "overlaySHA256": "f359800450591cdc86dcd1ffbe5399a938607fde3a01636193250fc5a230f40b",
+      "manualCountConfirmed": true,
+      "finalTrainingAdmission": false
+    }
+  ],
+  "totalManualBoxes": 13,
+  "sourceResolution": "Downloaded Commons thumbnails are960px wide; sourceoriginals are larger but notused. No claimoforiginal-full-resolution pixels.",
+  "overlayReviewedUTC": "2026-10-26T13:43:23.828738+00:00"
+}

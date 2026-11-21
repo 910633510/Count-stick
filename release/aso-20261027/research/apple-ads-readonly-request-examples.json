@@ -1,0 +1,192 @@
+{
+  "apiBase": "https://api.ads.apple.com",
+  "status": "DOCUMENTATION_DERIVED_REQUEST_EXAMPLES_NOT_LIVE_RESULTS",
+  "contextHeader": "X-AP-Context: adAccountId=<verified ad account id>",
+  "requests": [
+    {
+      "name": "identity",
+      "method": "GET",
+      "path": "/v1/me",
+      "contextRequired": false
+    },
+    {
+      "name": "accessible_accounts",
+      "method": "GET",
+      "path": "/v1/acls",
+      "contextRequired": false
+    },
+    {
+      "name": "owned_apps",
+      "method": "GET",
+      "path": "/v1/search/apps?returnOwnedApps=true"
+    },
+    {
+      "name": "app_details",
+      "method": "GET",
+      "path": "/v1/apps/6826601708"
+    },
+    {
+      "name": "keyword_suggestions_US",
+      "method": "POST",
+      "path": "/v1/suggestions/keywords/query",
+      "body": {
+        "filters": [
+          {
+            "field": "promotedObjectId",
+            "operator": "EQUALS",
+            "value": [
+              "6826601708"
+            ]
+          },
+          {
+            "field": "promotedObjectType",
+            "operator": "EQUALS",
+            "value": [
+              "APPSTORE_APP"
+            ]
+          },
+          {
+            "field": "countriesOrRegions",
+            "operator": "IN",
+            "value": [
+              "US"
+            ]
+          },
+          {
+            "field": "terms",
+            "operator": "IN",
+            "value": [
+              "photo counter",
+              "object counter",
+              "count objects",
+              "count things",
+              "tally counter",
+              "skewer counter"
+            ]
+          }
+        ],
+        "sorting": [
+          {
+            "field": "popularity",
+            "order": "DESC"
+          }
+        ],
+        "pagination": {
+          "offset": 0,
+          "pageSize": 20
+        }
+      }
+    },
+    {
+      "name": "phrase_lookup_unspecified_market",
+      "method": "POST",
+      "path": "/v1/suggestions/phrases/query",
+      "body": {
+        "filters": [
+          {
+            "field": "queryType",
+            "operator": "EQUALS",
+            "value": [
+              "SEARCH"
+            ]
+          },
+          {
+            "field": "phrase",
+            "operator": "IN",
+            "value": [
+              "photo counter",
+              "object counter",
+              "count objects",
+              "count things",
+              "tally counter",
+              "skewer counter",
+              "拍照计数",
+              "数签子",
+              "计数器",
+              "CountScope"
+            ]
+          }
+        ],
+        "pagination": {
+          "offset": 0,
+          "pageSize": 20
+        }
+      },
+      "caveat": "Phrase endpoint does not document a country filter; do not label scores as US/CN-specific."
+    },
+    {
+      "name": "weekly_market_popularity_US",
+      "method": "POST",
+      "path": "/v1/insights/apps/search-term-popularity/query",
+      "body": {
+        "fields": [
+          "rankInGenre",
+          "searchPopularityInGenre",
+          "searchPopularity1to100",
+          "searchPopularity1to5"
+        ],
+        "filters": [
+          {
+            "field": "countryOrRegion",
+            "operator": "EQUALS",
+            "value": "US"
+          },
+          {
+            "field": "genre",
+            "operator": "EQUALS",
+            "value": "PRODUCTIVITY_UTILITIES"
+          },
+          {
+            "field": "searchTerm",
+            "operator": "IN",
+            "value": [
+              "photo counter",
+              "object counter",
+              "count objects",
+              "count things",
+              "tally counter",
+              "skewer counter"
+            ]
+          }
+        ],
+        "timeRange": {
+          "start": "2026-10-18",
+          "end": "2026-10-24",
+          "granularity": "WEEKLY_SUN_SAT"
+        },
+        "sorting": [
+          {
+            "field": "searchPopularity1to100",
+            "order": "DESC"
+          }
+        ],
+        "pagination": {
+          "offset": 0,
+          "pageSize": 100
+        }
+      }
+    },
+    {
+      "name": "advertising_languages",
+      "method": "POST",
+      "path": "/v1/metadata/apps/supported-languages/query",
+      "body": {
+        "filters": [
+          {
+            "field": "countryCode",
+            "operator": "IN",
+            "value": [
+              "US",
+              "CN"
+            ]
+          }
+        ],
+        "pagination": {
+          "offset": 0,
+          "pageSize": 100
+        }
+      },
+      "caveat": "Ad-supported language mapping is not App Store organic indexing coverage."
+    }
+  ]
+}

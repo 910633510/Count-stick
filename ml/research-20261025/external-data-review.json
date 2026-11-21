@@ -1,0 +1,95 @@
+{
+  "status": "PASS_EXTERNAL_DATA_QA_NO_COUNTER_INFERENCE",
+  "reviewedAtUTC": "2026-10-25T20:51:14.756329+00:00",
+  "role": "Independent read-only acquisition and annotation reviewer",
+  "reviewedScript": "ml/research-20261025/acquire_external_colonies.py",
+  "scriptSHA256": "9e34cf9bad79c8fbb8a405dc96c950fa7c33332312c6b61488ed9a11c7c6d35f",
+  "sourceRecord": "https://zenodo.org/records/18256864",
+  "sourcePaper": "https://www.nature.com/articles/s41597-026-07095-5",
+  "sourceArchivesUsed": [
+    "images.zip",
+    "label.zip"
+  ],
+  "augmentationArchivesExcluded": [
+    "images_agu.zip",
+    "label_agu.zip"
+  ],
+  "selectionProtocolSHA256": "6c75f380f5ee58c6a7029271cbe76ca81bef86fe4831bd2e95aa6454c6d5de9e",
+  "manifestSHA256": "b148c2c632486adc725acff7f923704c25f15fefedf038a148bd87c7c3524827",
+  "cohort": {
+    "images": 76,
+    "species": 19,
+    "imagesPerSpecies": 4,
+    "originalSamplingFrame": 950,
+    "sourceImagesPerSpecies": 50,
+    "selectionRecomputedExactly": true,
+    "sampleReplacementPerformed": false
+  },
+  "checks": {
+    "rangeRequestsBoundedAndRequire206": true,
+    "contentRangeAndByteCountChecked": true,
+    "deflateOrStoredMethodsOnly": true,
+    "encryptedEntriesRejected": true,
+    "all152PayloadCRCAndLengthChecks": true,
+    "localFlatFilenamesCanonicalNoSymlink": true,
+    "allImageDecodesAndXMLDimensionsAgree": true,
+    "allEXIFOrientationOneOrAbsent": true,
+    "allXMLFilenamesMatch": true,
+    "allObjectLabelsMatchSpeciesFolder": true,
+    "allBoxesFinitePositiveWithinImage": true,
+    "noExactDuplicateBoxes": true,
+    "allManifestHashesCoordinatesAndCountsMatchIndependentRead": true,
+    "allImageSHAsUnique": true,
+    "noExactRawSHAOverlapWith369OldColonyImages": true,
+    "noExactRawSHAOverlapWith6146FSCImages": true,
+    "headerNamesFlagsAndMethodsSpotChecked": true,
+    "greaterThan4GiBOffsetIndependentlyChecked": true,
+    "threeLabelmeXMLCoordinateMappingsChecked": true,
+    "sixFixedSampleOverviewsAndCloseupsVisuallyInspected": true,
+    "all76COCOXMLCoordinateCategoryPerfectMatching": true
+  },
+  "coordinateConvention": {
+    "sourceComparison": "Three paired Labelme rectangle exports match Pascal VOC coordinates after integer truncation, with less than1pixel difference. No ad-hoc minus-one conversion or geometry correction was applied.",
+    "comparisonDetails": "output/research-20261025/external-review/remote-header-and-format-check.json"
+  },
+  "visualAssessment": {
+    "sampleSelection": "Fixed selected-cohort indices0,16,32,48,64,75; not selected by model predictions or annotation counts.",
+    "finding": "Boxes align with visible target neighborhoods in the inspected full frames and closeups; no whole-image rotation, scale or file-pair misregistration identified. Some source boxes follow colony core/extent conventions; biological boundary completeness was not independently re-annotated.",
+    "detailsDirectory": "output/research-20261025/external-review"
+  },
+  "crossFormatImageCheck": {
+    "matchingDecodedPixels": "Two of three Labelme embedded images exactly equal their downloaded counterparts.",
+    "thirdImage": "Same4056x3040frame with re-encoding differences: pixelMAE1.29/255, PSNR43.30dB, classical feature registration scale~1 and translation below0.1original pixel. No geometry change detected.",
+    "note": "This was a classical image/coordinate check, not detector/counter inference."
+  },
+  "nonBlockingImplementationNotes": [
+    "The operator does not itself compare the variable local-header filename to the central entry; independent header checks matched on normal and over4GiB offsets. Adding that assertion is a future defensive improvement, not a detected cohort error.",
+    "Bounded raw extraction writes selected basenames rather than extracting archive paths; no executable attachments were run."
+  ],
+  "limitations": [
+    "Whole remote archive MD5 was not checked: only selected entry CRCs and local SHA256 identities are verified.",
+    "Exact SHA overlap checks do not rule out resized/re-encoded/similar scenes or unknown foundation-model pretraining overlap.",
+    "This is a separate controlled-imaging study, not a phone field test or evidence that all19taxa are unseen in prior training.",
+    "Distinct photos may share strains or physical plates within the external study.",
+    "Visual QA samples annotation alignment; it does not establish object-by-object semantic completeness or pixel-mask ground truth."
+  ],
+  "guardrails": {
+    "detectorOrCounterInferencePerformed": false,
+    "imagesOrLabelsModified": false,
+    "fusionParametersSelectedOrSuggestedFromThisCohort": false,
+    "groundTruthCountsOrMorphologyDistributionSentToTuningLane": false
+  },
+  "dataStatistics": "Counts and box geometry were computed for validity and manifest consistency; detailed GT is retained only in the local QA directory and was not supplied for parameter selection.",
+  "issues": [],
+  "cocoCrosscheck": {
+    "rootCrosscheck": "output/datasets/colony-external-zenodo18256864-v1/annotation-crosscheck.json",
+    "rootCrosscheckStatus": "PASS_COCO_XML_COUNTS_AND_MATCHED_COORDINATES",
+    "independentReview": "output/research-20261025/external-review/independent-coco-check.json",
+    "independentMethod": "Independent adjacency-based augmenting-path perfect matching. Each matched XML-COCO pair must share category and have every xyxy coordinate within 1px; no lexicographic or annotation-order assumption. No counter inference.",
+    "sourceCOCOSHA256": "f65fb496425d9b65f4bf823e819dbf46a943a11963efdfee15881a961814b838",
+    "rootCrosscheckSHA256": "803c404ad59acb6c661f94efea60438d7ee025d1b47434ff544acacf5df26b60",
+    "imagesIndependentlyChecked": 76,
+    "maximumCoordinateDifferencePx": 1.0,
+    "notes": "The prior failed ordering diagnostic is retained. That diagnostic reflects a comparison-order assumption, not evidence of a data correction; no input data was altered."
+  }
+}

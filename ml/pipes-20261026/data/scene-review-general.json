@@ -1,0 +1,1733 @@
+{
+  "status": "SCENE_SCREEN_COMPLETE_CANDIDATES_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+  "reviewedUTC": "2026-10-26T08:46:20.627991+00:00",
+  "reviewer": "general_counting_papers independent visual scene review",
+  "screenedNumberRange": [
+    351,
+    700
+  ],
+  "contactSheetsActuallyViewed": [
+    "output/pipes-20261026/data/review/round-contact-07.jpg",
+    "output/pipes-20261026/data/review/round-contact-08.jpg",
+    "output/pipes-20261026/data/review/round-contact-09.jpg",
+    "output/pipes-20261026/data/review/round-contact-10.jpg",
+    "output/pipes-20261026/data/review/round-contact-11.jpg",
+    "output/pipes-20261026/data/review/round-contact-12.jpg",
+    "output/pipes-20261026/data/review/round-contact-13.jpg"
+  ],
+  "expandedSheetsActuallyViewed": [
+    "output/pipes-20261026/data/review/general-expanded/page-07-0.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-07-1.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-08-0.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-08-1.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-09-0.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-09-1.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-10-0.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-10-1.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-11-0.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-11-1.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-12-0.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-12-1.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-13-0.jpg",
+    "output/pipes-20261026/data/review/general-expanded/page-13-1.jpg"
+  ],
+  "originalImagesActuallyViewed": [
+    498,
+    594,
+    406,
+    505,
+    449,
+    576,
+    640,
+    666,
+    527,
+    534,
+    529,
+    655,
+    382,
+    410,
+    686,
+    511,
+    512,
+    476,
+    553,
+    589,
+    462,
+    451,
+    473,
+    556,
+    564,
+    567,
+    628,
+    638,
+    692
+  ],
+  "candidateCount": 65,
+  "acceptedPerSheet": {
+    "07": [
+      352,
+      353,
+      355,
+      358,
+      362,
+      373,
+      375,
+      382,
+      383,
+      387,
+      391
+    ],
+    "08": [
+      401,
+      404,
+      416,
+      419,
+      421,
+      423,
+      427,
+      436,
+      437,
+      440,
+      446
+    ],
+    "09": [
+      457,
+      458,
+      462,
+      464,
+      466,
+      484,
+      488
+    ],
+    "10": [
+      503,
+      507,
+      513,
+      518,
+      521,
+      525,
+      531,
+      535,
+      537
+    ],
+    "11": [
+      552,
+      557,
+      564,
+      567,
+      568,
+      574,
+      576,
+      579,
+      589
+    ],
+    "12": [
+      603,
+      608,
+      611,
+      616,
+      618,
+      622,
+      625,
+      628,
+      638,
+      639
+    ],
+    "13": [
+      654,
+      656,
+      660,
+      674,
+      676,
+      680,
+      682,
+      687
+    ]
+  },
+  "acceptedCandidates": [
+    {
+      "id": "maco_round_PipeHBB00000352",
+      "number": 352,
+      "groupHint": "maco_round_scene_00000352",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000352.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 100,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000353",
+      "number": 353,
+      "groupHint": "maco_round_scene_00000353",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000353.jpg",
+      "width": 3456,
+      "height": 4608,
+      "authorCount": 128,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000355",
+      "number": 355,
+      "groupHint": "maco_round_scene_00000355",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000355.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 852,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "High-density natural-looking factory stack, author852; scene duplicate671; not rejected for capacity."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000358",
+      "number": 358,
+      "groupHint": "maco_round_scene_00000358",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000358.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 49,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Phone watermark outside target region."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000362",
+      "number": 362,
+      "groupHint": "maco_round_scene_00000362",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000362.jpg",
+      "width": 829,
+      "height": 807,
+      "authorCount": 91,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Same circular bundle as458/467/493; keep together, not independent images."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000373",
+      "number": 373,
+      "groupHint": "maco_round_scene_00000373",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000373.jpg",
+      "width": 1237,
+      "height": 749,
+      "authorCount": 282,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Phone watermark outside ends; rotated/cropped view, mixed clean and plugged ends."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000375",
+      "number": 375,
+      "groupHint": "maco_round_scene_00000375",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000375.jpg",
+      "width": 734,
+      "height": 280,
+      "authorCount": 24,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000382",
+      "number": 382,
+      "groupHint": "maco_round_scene_00000382",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000382.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 29,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Original inspected: muddy/capped steel ends, not plastic; label-scope QA must include visible plugged ends consistently."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000383",
+      "number": 383,
+      "groupHint": "maco_round_scene_00000383",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000383.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 24,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000387",
+      "number": 387,
+      "groupHint": "maco_round_scene_00000387",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000387.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 267,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Phone watermark, green scaffold backdrop; full-frame background should be checked for additional unlabelled ends."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000391",
+      "number": 391,
+      "groupHint": "maco_round_scene_00000391",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000391.jpg",
+      "width": 973,
+      "height": 562,
+      "authorCount": 95,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-07.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-07-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000401",
+      "number": 401,
+      "groupHint": "maco_round_scene_00000401",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000401.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 98,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000404",
+      "number": 404,
+      "groupHint": "maco_round_scene_00000404",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000404.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 217,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000416",
+      "number": 416,
+      "groupHint": "maco_round_scene_00000416",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000416.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 105,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Phone watermark outside target."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000419",
+      "number": 419,
+      "groupHint": "maco_round_scene_00000419",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000419.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 51,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000421",
+      "number": 421,
+      "groupHint": "maco_round_scene_00000421",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000421.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 109,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000423",
+      "number": 423,
+      "groupHint": "maco_round_scene_00000423",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000423.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 40,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000427",
+      "number": 427,
+      "groupHint": "maco_round_scene_00000427",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000427.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 96,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Small black redaction at far-left upper background; not clearly on the selected front bundle; producer must inspect for erased secondary targets."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000436",
+      "number": 436,
+      "groupHint": "maco_round_scene_00000436",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000436.jpg",
+      "width": 4032,
+      "height": 3024,
+      "authorCount": 224,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000437",
+      "number": 437,
+      "groupHint": "maco_round_scene_00000437",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000437.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 112,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000440",
+      "number": 440,
+      "groupHint": "maco_round_scene_00000440",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000440.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 139,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Black redaction behind left portion of the pile, away from clearly visible front rims; producer must inspect whether background target ends were erased."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000446",
+      "number": 446,
+      "groupHint": "maco_round_scene_00000446",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000446.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 98,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-08.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-08-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000457",
+      "number": 457,
+      "groupHint": "maco_round_scene_00000457",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000457.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 67,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Multiple loose staggered ends with real physical occlusion; no automatic area crop assumed."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-09.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-09-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000458",
+      "number": 458,
+      "groupHint": "maco_round_scene_00000458",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000458.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 91,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-09.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-09-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000462",
+      "number": 462,
+      "groupHint": "maco_round_scene_00000462",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000462.jpg",
+      "width": 1024,
+      "height": 768,
+      "authorCount": 291,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Original inspected: steel-like metallic end rims; black background stroke above pile outside visible ends."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-09.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-09-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000464",
+      "number": 464,
+      "groupHint": "maco_round_scene_00000464",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000464.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 101,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Ordinary phone watermark at lower left."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-09.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-09-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000466",
+      "number": 466,
+      "groupHint": "maco_round_scene_00000466",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000466.jpg",
+      "width": 1440,
+      "height": 1080,
+      "authorCount": 91,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-09.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-09-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000484",
+      "number": 484,
+      "groupHint": "maco_round_scene_00000484",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000484.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 97,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Phone watermark."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-09.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-09-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000488",
+      "number": 488,
+      "groupHint": "maco_round_scene_00000488",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000488.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 30,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-09.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-09-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000503",
+      "number": 503,
+      "groupHint": "maco_round_scene_00000503",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000503.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 728,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "High-density blue rack, author728, same scene652 author732; must audit difference/crop scope."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-10.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-10-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000507",
+      "number": 507,
+      "groupHint": "maco_round_scene_00000507",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000507.jpg",
+      "width": 1751,
+      "height": 1313,
+      "authorCount": 117,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Truck pile with real road/vehicle context; no identity data needed."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-10.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-10-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000513",
+      "number": 513,
+      "groupHint": "maco_round_scene_00000513",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000513.jpg",
+      "width": 3024,
+      "height": 4032,
+      "authorCount": 61,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-10.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-10-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000518",
+      "number": 518,
+      "groupHint": "maco_round_scene_00000518",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000518.jpg",
+      "width": 4000,
+      "height": 3000,
+      "authorCount": 23,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-10.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-10-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000521",
+      "number": 521,
+      "groupHint": "maco_round_scene_00000521",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000521.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 12,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Few-target construction scene; one dark corrugated pipe at left is background, producer must verify class/annotation boundary."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-10.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-10-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000525",
+      "number": 525,
+      "groupHint": "maco_round_scene_00000525",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000525.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 13,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Rotated view, ordinary phone watermark."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-10.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-10-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000531",
+      "number": 531,
+      "groupHint": "maco_round_scene_00000531",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000531.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 28,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-10.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-10-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000535",
+      "number": 535,
+      "groupHint": "maco_round_scene_00000535",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000535.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 178,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-10.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-10-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000537",
+      "number": 537,
+      "groupHint": "maco_round_scene_00000537",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000537.jpg",
+      "width": 3566,
+      "height": 2674,
+      "authorCount": 90,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-10.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-10-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000552",
+      "number": 552,
+      "groupHint": "maco_round_scene_00000552",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000552.jpg",
+      "width": 1056,
+      "height": 736,
+      "authorCount": 98,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Scene material/shape clear; capped and misshapen steel ends remain distinct objects."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-11.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-11-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000557",
+      "number": 557,
+      "groupHint": "maco_round_scene_00000557",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000557.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 62,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-11.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-11-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000564",
+      "number": 564,
+      "groupHint": "maco_round_scene_00000564",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000564.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 298,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Original inspected: three supported steel bundles, real person at edge; phone watermark."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-11.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-11-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000567",
+      "number": 567,
+      "groupHint": "maco_round_scene_00000567",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000567.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 303,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Original inspected: large real steel stack with several plugged ends."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-11.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-11-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000568",
+      "number": 568,
+      "groupHint": "maco_round_scene_00000568",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000568.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 99,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-11.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-11-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000574",
+      "number": 574,
+      "groupHint": "maco_round_scene_00000574",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000574.jpg",
+      "width": 3000,
+      "height": 4000,
+      "authorCount": 11,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-11.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-11-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000576",
+      "number": 576,
+      "groupHint": "maco_round_scene_00000576",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000576.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 1153,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Original inspected: full natural-looking rack, author1153. 686 is a crop of upper/left portion; original1153 retained to test capacity, not removed for >1000. Dense instance QA is still required."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-11.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-11-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000579",
+      "number": 579,
+      "groupHint": "maco_round_scene_00000579",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000579.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 7,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Few rusty long tubes with real sunlight/shadow."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-11.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-11-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000589",
+      "number": 589,
+      "groupHint": "maco_round_scene_00000589",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000589.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 243,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Original inspected: galvanized textured steel with real debris/corrosion; dense oblique bundle."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-11.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-11-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000603",
+      "number": 603,
+      "groupHint": "maco_round_scene_00000603",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000603.jpg",
+      "width": 2321,
+      "height": 3095,
+      "authorCount": 87,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Blue material paint across some ends, no clear drawn target ROI; producer should retain original paint appearance."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-12.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-12-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000608",
+      "number": 608,
+      "groupHint": "maco_round_scene_00000608",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000608.jpg",
+      "width": 3000,
+      "height": 4000,
+      "authorCount": 101,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible timestamp outside main pipe region."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-12.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-12-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000611",
+      "number": 611,
+      "groupHint": "maco_round_scene_00000611",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000611.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 210,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-12.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-12-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000616",
+      "number": 616,
+      "groupHint": "maco_round_scene_00000616",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000616.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 95,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-12.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-12-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000618",
+      "number": 618,
+      "groupHint": "maco_round_scene_00000618",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000618.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 72,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-12.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-12-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000622",
+      "number": 622,
+      "groupHint": "maco_round_scene_00000054",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000622.jpg",
+      "width": 1280,
+      "height": 1280,
+      "authorCount": 91,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Yellow paint around rims/shafts appears to be industrial coating, not confidently distinguishable as metadata at thumbnail alone; producer should verify original before use."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-12.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-12-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000625",
+      "number": 625,
+      "groupHint": "maco_round_scene_00000625",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000625.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 99,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Real person/cloth at image edge, no identity needed."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-12.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-12-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000628",
+      "number": 628,
+      "groupHint": "maco_round_scene_00000628",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000628.jpg",
+      "width": 960,
+      "height": 1280,
+      "authorCount": 100,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Original inspected: worn steel with dents/caps/glare; small bright spot in one hole cannot be distinguished from reflection, not treated as a second object."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-12.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-12-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000638",
+      "number": 638,
+      "groupHint": "maco_round_scene_00000638",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000638.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 100,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Original inspected: steel ends partly filled with dirt, boundary remains visible; consistent outer-rim annotation required."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-12.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-12-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000639",
+      "number": 639,
+      "groupHint": "maco_round_scene_00000639",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000639.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 246,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Two physically offset pipe layers; retain both."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-12.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-12-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000654",
+      "number": 654,
+      "groupHint": "maco_round_scene_00000654",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000654.jpg",
+      "width": 1155,
+      "height": 663,
+      "authorCount": 98,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-13.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-13-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000656",
+      "number": 656,
+      "groupHint": "maco_round_scene_00000656",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000656.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 99,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-13.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-13-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000660",
+      "number": 660,
+      "groupHint": "maco_round_scene_00000660",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000660.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 137,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-13.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-13-0.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000674",
+      "number": 674,
+      "groupHint": "maco_round_scene_00000674",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000674.jpg",
+      "width": 798,
+      "height": 956,
+      "authorCount": 27,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Rusty steel bundle with transparent wrapping covering a few openings; still outer-rim targets if visible."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-13.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-13-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000676",
+      "number": 676,
+      "groupHint": "maco_round_scene_00000676",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000676.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 79,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Phone watermark outside main ends."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-13.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-13-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000680",
+      "number": 680,
+      "groupHint": "maco_round_scene_00000680",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000680.jpg",
+      "width": 1280,
+      "height": 960,
+      "authorCount": 25,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Yellow-painted steel support assembly with hollow ends; author box scope must exclude rectangular support holes."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-13.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-13-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000682",
+      "number": 682,
+      "groupHint": "maco_round_scene_00000682",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000682.jpg",
+      "width": 3016,
+      "height": 4032,
+      "authorCount": 30,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Factory tubes with some capped ends and water reflection."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-13.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-13-1.jpg"
+      ]
+    },
+    {
+      "id": "maco_round_PipeHBB00000687",
+      "number": 687,
+      "groupHint": "maco_round_scene_00000687",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000687.jpg",
+      "width": 4608,
+      "height": 3456,
+      "authorCount": 38,
+      "technicalIssues": [],
+      "sceneScreen": "CANDIDATE_PENDING_GLOBAL_GROUP_AND_BOX_QA",
+      "reviewNotes": [
+        "Visible round steel-like end faces; no obvious target ROI drawing or synthetic paste in the reviewed scene view."
+      ],
+      "reviewEvidence": [
+        "output/pipes-20261026/data/review/round-contact-13.jpg",
+        "output/pipes-20261026/data/review/general-expanded/page-13-1.jpg"
+      ]
+    }
+  ],
+  "sameSceneSets": [
+    {
+      "numbers": [
+        355,
+        671
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same 852-end factory block, matching framing/shape.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        362,
+        458,
+        467,
+        493
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same 91-end orange/rust circular bundle, gray wall at left and red truck at right; crop/view variants.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        374,
+        398
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same triangular pile on orange dirt, same white sheet at upper left.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        417,
+        547
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same red pipe pile across lot, mountain/cloud background, counts467/466 differ.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        468,
+        543
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same blue-sided truck red-covered pile; crop/redaction variants, counts101/100.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        498,
+        594,
+        688
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same green factory area/foreground and differing rear pipe content. Evident edited family, but no authenticated original to determine insertion versus deletion direction; quarantine all variants.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        503,
+        652
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same blue rack and branching pipe stack;728/732 author counts differ.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        568,
+        590
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Same front irregular rusty pile on large round stones, crop/view variant.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        576,
+        686
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Original full rack and crop: matching wooden/metal crossbars, clogged ends, central white material and green cloth. Original images actually compared.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        104,
+        657
+      ],
+      "confidence": "high_visual_similarity",
+      "reason": "Actual registered-family08 view: exact stock photo alignment; lower-left pipe content differs versus black redaction. Edited family; no confirmed original.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    }
+  ],
+  "possibleSameSceneSets": [
+    {
+      "numbers": [
+        409,
+        474,
+        566,
+        576,
+        686
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Dense scaffold-rack views may be crops/views from same capture family; only576/686 directly confirmed, others require original comparison.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        529,
+        655
+      ],
+      "confidence": "conservative_capture_family",
+      "reason": "Same type of threaded steel sleeves on same cracked/tree-shadow concrete setting, rearranged12 versus8 pieces.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        446,
+        550,
+        654
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Very similar yellow/rust compact pile and end distribution; verify whether cropped/rotated variants.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        382,
+        664
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Similar low muddy stack and nearby left stack/boots; may be full scene versus cropped main pile.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        422,
+        592
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Similar circular dense factory bundle and flooring; check rotated/cropped view.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        443,
+        694
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Similar large compact bundle and exterior construction setting,167/166 count difference.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        519,
+        675
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Similar galvanized square-profile bundle and shaft perspective; possible source/crop variants.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        363,
+        542
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Similar rotated/cropped compact steel bundle near ground/wall; source identity unresolved.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    },
+    {
+      "numbers": [
+        552,
+        656
+      ],
+      "confidence": "conservative_possible_family",
+      "reason": "Similar irregular capped-end bundle at apartment construction site; possible different capture of same pile.",
+      "splitRule": "KEEP_TOGETHER_UNLESS_SEPARATE_ORIGIN_PROVEN"
+    }
+  ],
+  "quarantine": [
+    {
+      "number": 351,
+      "id": "maco_round_PipeHBB00000351",
+      "reason": "At expanded resolution black stroke covers an upper-left pipe end, beyond ordinary background redaction.",
+      "trainingEligible": false
+    },
+    {
+      "number": 403,
+      "id": "maco_round_PipeHBB00000403",
+      "reason": "Black tubes with longitudinal blue stripe appear like polymer water piping; steel material is unverified. Quarantine material scope.",
+      "trainingEligible": false
+    },
+    {
+      "number": 405,
+      "id": "maco_round_PipeHBB00000405",
+      "reason": "Predominantly labelled/capped filled circular faces; target material/scope unclear for round steel pipe-end pilot.",
+      "trainingEligible": false
+    },
+    {
+      "number": 406,
+      "id": "maco_round_PipeHBB00000406",
+      "reason": "Original shows smooth orange buried conduit, plausible plastic; steel material unverified.",
+      "trainingEligible": false
+    },
+    {
+      "number": 410,
+      "id": "maco_round_PipeHBB00000410",
+      "reason": "Original shows smooth gray thick-walled tubing; metallic material not established, quarantine rather than infer steel.",
+      "trainingEligible": false
+    },
+    {
+      "number": 414,
+      "id": "maco_round_PipeHBB00000414",
+      "reason": "Visible hand-drawn black target ROI circle.",
+      "trainingEligible": false
+    },
+    {
+      "number": 449,
+      "id": "maco_round_PipeHBB00000449",
+      "reason": "Original gray pipe walls have fibrous/frayed appearance, material not verified as steel.",
+      "trainingEligible": false
+    },
+    {
+      "number": 451,
+      "id": "maco_round_PipeHBB00000451",
+      "reason": "Original reveals black drawn patch over upper central pipe end; target-covering annotation.",
+      "trainingEligible": false
+    },
+    {
+      "number": 454,
+      "id": "maco_round_PipeHBB00000454",
+      "reason": "Expanded view shows black strokes over secondary pipe ends at lower right; full-scene target completeness cannot be assumed.",
+      "trainingEligible": false
+    },
+    {
+      "number": 455,
+      "id": "maco_round_PipeHBB00000455",
+      "reason": "Expanded view shows multiple black strokes on side/background pipe end positions, not simply privacy text.",
+      "trainingEligible": false
+    },
+    {
+      "number": 469,
+      "id": "maco_round_PipeHBB00000469",
+      "reason": "Visible hand-drawn target ROI circle.",
+      "trainingEligible": false
+    },
+    {
+      "number": 473,
+      "id": "maco_round_PipeHBB00000473",
+      "reason": "Original large white nested pipes and plastic-stock backdrop; apparent polymer product, steel unverified.",
+      "trainingEligible": false
+    },
+    {
+      "number": 476,
+      "id": "maco_round_PipeHBB00000476",
+      "reason": "Original markings include PVC-U; non-steel material.",
+      "trainingEligible": false
+    },
+    {
+      "number": 498,
+      "id": "maco_round_PipeHBB00000498",
+      "reason": "Compared originals498/594 show an unmistakably same-source edited family with different rear pipe-end content. Without an unedited source, cannot establish whether rear ends were pasted in498 or removed from594. Unknown edited variant, possible composite; all family members excluded from unmarked real baseline.",
+      "trainingEligible": false
+    },
+    {
+      "number": 505,
+      "id": "maco_round_PipeHBB00000505",
+      "reason": "Original white printed smooth tubes appear polymer, no steel verification.",
+      "trainingEligible": false
+    },
+    {
+      "number": 511,
+      "id": "maco_round_PipeHBB00000511",
+      "reason": "Original visible PVC-U markings and white polymer walls; non-steel.",
+      "trainingEligible": false
+    },
+    {
+      "number": 512,
+      "id": "maco_round_PipeHBB00000512",
+      "reason": "Original white wrapped factory tubes appear polymer; steel material not established.",
+      "trainingEligible": false
+    },
+    {
+      "number": 527,
+      "id": "maco_round_PipeHBB00000527",
+      "reason": "Original wrapped white tubes with smooth cream polymer walls; steel unverified.",
+      "trainingEligible": false
+    },
+    {
+      "number": 529,
+      "id": "maco_round_PipeHBB00000529",
+      "reason": "Original clearly shows threaded steel coupling sleeves, rather than unambiguous long pipe ends; excluded pending explicit target-class scope decision.",
+      "trainingEligible": false
+    },
+    {
+      "number": 534,
+      "id": "maco_round_PipeHBB00000534",
+      "reason": "Original black patch directly covers one threaded sleeve opening.",
+      "trainingEligible": false
+    },
+    {
+      "number": 539,
+      "id": "maco_round_PipeHBB00000539",
+      "reason": "Visible hand-drawn black target ROI outline.",
+      "trainingEligible": false
+    },
+    {
+      "number": 553,
+      "id": "maco_round_PipeHBB00000553",
+      "reason": "Original rack product card explicitly states PVC-U electrical conduit; non-steel.",
+      "trainingEligible": false
+    },
+    {
+      "number": 556,
+      "id": "maco_round_PipeHBB00000556",
+      "reason": "Original contains several clearly square openings intermingled with round pipes; author class/box scope needs a dedicated mixed-shape audit before inclusion.",
+      "trainingEligible": false
+    },
+    {
+      "number": 584,
+      "id": "maco_round_PipeHBB00000584",
+      "reason": "Expanded view shows black stroke in lower foreground among other pipes; possible erased secondary target; unmarked original/scope audit needed.",
+      "trainingEligible": false
+    },
+    {
+      "number": 587,
+      "id": "maco_round_PipeHBB00000587",
+      "reason": "Large nested pale pipes look polymer; steel material not verified.",
+      "trainingEligible": false
+    },
+    {
+      "number": 612,
+      "id": "maco_round_PipeHBB00000612",
+      "reason": "Expanded view shows large black region across top/left of pipe bundle, cutting target area.",
+      "trainingEligible": false
+    },
+    {
+      "number": 626,
+      "id": "maco_round_PipeHBB00000626",
+      "reason": "Dark white nested tube stock, steel material unverified; insufficient lighting for confident material scene screen.",
+      "trainingEligible": false
+    },
+    {
+      "number": 640,
+      "id": "maco_round_PipeHBB00000640",
+      "reason": "Original high-density main truck pile looks natural, but black paint covers secondary pipe ends at lower right. Rejection is target-covering markup, not1391GT/capacity.",
+      "trainingEligible": false
+    },
+    {
+      "number": 655,
+      "id": "maco_round_PipeHBB00000655",
+      "reason": "Threaded steel coupling pieces; retain only as separate research candidate if class scope explicitly includes coupling sleeves, grouped with529.",
+      "trainingEligible": false
+    },
+    {
+      "number": 658,
+      "id": "maco_round_PipeHBB00000658",
+      "reason": "Expanded view shows black patch over side stack/end region at lower right.",
+      "trainingEligible": false
+    },
+    {
+      "number": 666,
+      "id": "maco_round_PipeHBB00000666",
+      "reason": "Original visible PVC-U package text, white plastic conduit; non-steel.",
+      "trainingEligible": false
+    },
+    {
+      "number": 692,
+      "id": "maco_round_PipeHBB00000692",
+      "reason": "Original visible PVC-U text and white polymer tubes; non-steel.",
+      "trainingEligible": false
+    },
+    {
+      "number": 594,
+      "id": "maco_round_PipeHBB00000594",
+      "reason": "Same-source edited family498/594/688; no authenticated unedited original, editing direction uncertain.",
+      "trainingEligible": false
+    },
+    {
+      "number": 688,
+      "id": "maco_round_PipeHBB00000688",
+      "reason": "Same-source edited family498/594/688; no authenticated unedited original, editing direction uncertain.",
+      "trainingEligible": false
+    },
+    {
+      "number": 657,
+      "id": "maco_round_PipeHBB00000657",
+      "reason": "Registered family08 actually viewed:104/657 share exact scene but lower-left pipe-end content is blacked out in104 versus visible in657. Without original, cannot certify657 as unedited or independent. Quarantine edited family pending original source.",
+      "trainingEligible": false
+    }
+  ],
+  "unselectedPolicy": "Every other ID is unselected for this pilot, not a negative image and not necessarily invalid. Do not infer approval from lack of an explicit quarantine entry.",
+  "warnings": [
+    "MACO round includes explicit PVC-U, other uncertain materials, target-covered images, crops and synthetic augmentation. Directory name Steel pipe is not a verified per-image steel-material label.",
+    "All accepted entries are scene-screen candidates, not approved annotations. Author counts are carried as provenance, not independent manual recounts.",
+    "Original long shafts/capped/dented steel ends are preserved as candidates with a consistent outer-rim count policy required.",
+    "Possible same-scene groups are conservative leakage groups, not confirmed physical identities.",
+    "No fixed1000cap used; author1153 image576 retained as a candidate pending dense box QA.",
+    "Phone/stock watermarks and non-target redactions are explicitly noted rather than automatically called target ROI.",
+    "Root/data-agent candidates must undergo the same material/markup check; this report does not approve the entire1025-image source."
+  ],
+  "sourceAssignmentSHA256": "34202336cbd07afd57c7744c58552d9abe797a7edd7103ee49dd5f2de06ed2ee",
+  "splitAssigned": false,
+  "modelInferencePerformed": false,
+  "rawImagesOrLabelsModified": false,
+  "additionalEvidenceViewed": [
+    "output/pipes-20261026/data/review/registered-families/family-08.jpg"
+  ],
+  "revision": 2,
+  "revisionUTC": "2026-10-26T09:08:29.696704+00:00",
+  "revisionNote": "Producer rightly distinguished observed edited-family differences from unproven edit direction. Preserve initial report, remove657 and quarantine whole498/594/688 family. No GT/metrics/model feedback used."
+}

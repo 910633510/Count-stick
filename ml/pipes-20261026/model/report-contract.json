@@ -1,0 +1,46 @@
+{
+  "status": "REQUIRED_REPORT_FIELDS_BEFORE_ANY_VALIDATED_CONFIG",
+  "testReport": {
+    "status": "PASS_PIPE_FROZEN_GROUP_HOLDOUT",
+    "modelSHA256": "selectedcheckpointsha",
+    "selectionSHA256": "frozen selection.jsonsha",
+    "protocolSHA256": "frozen protocolsha",
+    "operatingPoint": {
+      "confidence": "selected",
+      "nmsIoU": "selected"
+    },
+    "inputVariants": [
+      "gallery",
+      "camera"
+    ],
+    "qualification": "P/R>=.95,positiveWAPE<=.05,scene-groupmacroWAPE<=.10,GT<=20absError<=1,eachrealnegative0; samefixedcandidate, no test-basedswitching"
+  },
+  "parityReport": {
+    "status": "PASS_PIPE_TORCH_COREML_VISION_PARITY",
+    "modelSHA256": "selectedcheckpointsha",
+    "selectionSHA256": "frozen selectionsha",
+    "protocolSHA256": "frozen protocolsha",
+    "operatingPoint": {
+      "confidence": "selected",
+      "nmsIoU": "selected"
+    },
+    "inputVariants": [
+      "gallery",
+      "camera"
+    ],
+    "exportID": "sameUUIDasmetadata",
+    "packageTreeSHA256": "actualPipeEnds.mlpackage treedigest",
+    "inputManifestBindings": {
+      "gallery": {
+        "path": "actualAppinputmanifest",
+        "sha256": "actualsha"
+      },
+      "camera": {
+        "path": "actualAppinputmanifest",
+        "sha256": "actualsha"
+      }
+    },
+    "scope": "MustreportactualsameRGB Torch/CoreML/Vision label/box/count comparisons,threshold-near differences andfull2048\u21921024Apppath; no label changes."
+  },
+  "finalRootReceipt": "APPROVED_VALIDATED_PIPE_MODEL_AFTER_TEST_AND_PARITY bindsreportfiles/hash/exportstatus/package/selection; exporter never infers approval fromconversion success."
+}

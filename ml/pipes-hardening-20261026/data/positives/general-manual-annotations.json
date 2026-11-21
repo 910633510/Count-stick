@@ -1,0 +1,1304 @@
+{
+  "status": "MANUAL_AND_OVERLAY_QA_COMPLETE_PENDING_INDEPENDENT_FINAL_RECEIPT",
+  "createdUTC": "2026-10-26T14:11:57.294066+00:00",
+  "images": [
+    {
+      "id": "commons_018",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_018.jpg",
+      "width": 960,
+      "height": 611,
+      "sha256": "0697e89f4d30f14e92b8a3d6f2ffaf739f98288514cf7237b62f89d5381179ff",
+      "xyxy": [
+        [
+          705,
+          53,
+          811,
+          217
+        ]
+      ],
+      "count": 1,
+      "groupId": "commons_assortment_rusty_pipes_capture",
+      "source": "wikimedia_commons",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "One front-facing cut end; all other visible tubes are side walls. Same physical pile/capture family as019.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Assortment_of_rusty_pipes_3.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/2/23/Assortment_of_rusty_pipes_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Assortment_of_rusty_pipes_3.jpg/960px-Assortment_of_rusty_pipes_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceResolution": "Commons served thumbnail actually used; do not claim originalfullresolution",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2017-05-28 13:43:53",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Assortment of rusty pipes 3",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-FZ1000|Self-published work|Images by W.carter|Files with coordinates missing SDC location of creation|Rusty objects in Sweden|West Pipe Welding AB|Rusty pipes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "58.359429",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.518372",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "An assortment of slightly rusty pipes at a pipe welding firm in Gåseberg industrial area, Lysekil Municipality, Sweden.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-03 15:14:21",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "commons_019",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_019.jpg",
+      "width": 960,
+      "height": 640,
+      "sha256": "dcde104c0dc700ea654e10dad36a687adade940a993d7047c81ce891f3a682d4",
+      "xyxy": [
+        [
+          663,
+          133,
+          900,
+          454
+        ]
+      ],
+      "count": 1,
+      "groupId": "commons_assortment_rusty_pipes_capture",
+      "source": "wikimedia_commons",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "Closer view of same single open end/pile as018; not an independent scene.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Assortment_of_rusty_pipes_4.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/7/70/Assortment_of_rusty_pipes_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Assortment_of_rusty_pipes_4.jpg/960px-Assortment_of_rusty_pipes_4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceResolution": "Commons served thumbnail actually used; do not claim originalfullresolution",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2017-05-28 13:44:02",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Assortment of rusty pipes 4",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-FZ1000|CC-Zero|Self-published work|Images by W.carter|Files with coordinates missing SDC location of creation|Sweden photographs taken on 2017-03-03|Rusty objects in Sweden|West Pipe Welding AB|Rusty pipes|Reused images by W.carter",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "58.359429",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.518372",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "An assortment of slightly rusty pipes at a pipe welding firm in Gåseberg industrial area, Lysekil Municipality, Sweden.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-03-03 15:11:41",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "commons_082",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_082.jpg",
+      "width": 960,
+      "height": 720,
+      "sha256": "aae27a4e21b96b8bf2edec5763dc8d22397dcc8c7b1709c3aab4e9efca8e8be0",
+      "xyxy": [
+        [
+          109,
+          547,
+          148,
+          615
+        ],
+        [
+          132,
+          558,
+          174,
+          630
+        ]
+      ],
+      "count": 2,
+      "groupId": "commons_norderney_pipeworks_2025",
+      "source": "wikimedia_commons",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "Two overlapping open ends at foreground left. Distant attached pipeline has no discernible open mouth; do not count shafts or the rear lips of the same two pipes twice.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Norderney,_Strandaufsp%C3%BClung_--_2025_--_091626.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Norderney%2C_Strandaufsp%C3%BClung_--_2025_--_091626.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Norderney%2C_Strandaufsp%C3%BClung_--_2025_--_091626.jpg/960px-Norderney%2C_Strandaufsp%C3%BClung_--_2025_--_091626.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceResolution": "Commons served thumbnail actually used; do not claim originalfullresolution",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2025-09-01 16:50:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Norderney, Strandaufspülung -- 2025 -- 091626",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Images with annotations|Photographs with aspect ratio of 4:3|Self-published work|Objects with inscriptions in German needing translation|Exposure time 1/800 sec|Pipes (transport)|Photographs by Dietmar Rabich/Quality images|Information field template with formatting|Changes of XRay's photographs of the recent weeks|Images by XRay (flat list)|Uploaded with LrMediaWiki|Vehicles in Norderney|Tracked excavators in Lower Saxony|Land vehicles in Landkreis Aurich|Photographs by Dietmar Rabich/Quality images of land vehicles|Mud disposal areas in Germany|Pipes in Lower Saxony|Land vehicles in Germany photographed in 2025|Metal pipes|Clouds and blue sky in Landkreis Aurich|Clouds in Germany in August 2025|Photographs by Dietmar Rabich/Landscape photography|Clouds in Lower Saxony in 2025|Photographs by Dietmar Rabich/Automotive photography|Photographs by Dietmar Rabich/Norderney|Structures in Germany photographed in 2025|F-number f/2.4|Taken with Samsung Galaxy S23|Photographs by Dietmar Rabich/Year/2025|Lens focal length 7 mm|Rusty pipes|Tire marks on sand|Photographs by Dietmar Rabich/Quality images of construction sites|Photographs by Dietmar Rabich/Quality images of coasts|Photographs by Dietmar Rabich/Quality images of oceans and seas|Photographs by Dietmar Rabich/Quality images of Lower Saxony|Photographs by Dietmar Rabich/Quality images of World Heritage Sites|ISO speed rating 32|Caterpillar 323|Strandaufspülung auf Norderney 2025|Norderney photographs taken on 2025-08-29|Transport of sand in Germany|Photographs by Dietmar Rabich/Quality images of pipes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "53.708137",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "7.137401",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Pipe laying during <a href=\"https://en.wikipedia.org/wiki/Beach_nourishment\" class=\"extiw\" title=\"en:Beach nourishment\">beach nourishment</a>, beach nourishment at western head of the island, <a href=\"https://en.wikipedia.org/wiki/Norderney\" class=\"extiw\" title=\"en:Norderney\">Norderney</a>, <a href=\"https://en.wikipedia.org/wiki/Lower_Saxony\" class=\"extiw\" title=\"en:Lower Saxony\">Lower Saxony</a>, Germany",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 29 August 2025, 09:16",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographer and mathematician\">Dietmar Rabich</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table class=\"layouttemplate navigation-not-searchable\" style=\"margin:.25em;padding:.25em .5em;background-color:var(--background-color-base,#ffffff);color:inherit;border:1px solid var(--background-color-disabled,#eeeeee)\" data-nosnippet=\"\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/40px-Flag_of_Germany.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"14\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/60px-Flag_of_Germany.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1000\" data-file-height=\"600\"></span></span>\n</td>\n<td>Dieser Text und viele andere auch sind ebenso in deutscher Sprache verfügbar. Um diese sehen zu können, wähle bitte auf dieser Webseite die Spracheinstellung „Deutsch“.\n</td></tr></tbody></table><div style=\"clear:both;border:1px solid var(--background-color-disabled,#eeeeee);margin:.25em;padding:.25em .5em;background-color:var(--background-color-base,#ffffff);color:inherit;font-size:90%;\" class=\"searchaux\" data-nosnippet=\"\">\n<figure class=\"mw-halign-right\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:HSSection_sign.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/HSSection_sign.svg/120px-HSSection_sign.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"100\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/HSSection_sign.svg/250px-HSSection_sign.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"156\" data-file-height=\"156\"></a><figcaption></figcaption></figure><figure class=\"mw-halign-right\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Cc_by-sa_(1).svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cc_by-sa_%281%29.svg/120px-Cc_by-sa_%281%29.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"35\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cc_by-sa_%281%29.svg/250px-Cc_by-sa_%281%29.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"120\" data-file-height=\"42\"></a><figcaption></figcaption></figure><div><b>I. Licence</b></div>\n<div style=\"margin-top:0.5em;\">This photograph is protected by copyright law. However, it may be used for free by anyone, provided it is used in accordance with the license <b>Creative Commons License <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed\">“Attribution-ShareAlike 4.0 International”</a></b> (CC BY-SA 4.0). These include, among other things, the naming of the author and the license, as well as the setting of a link to the license text or its complete imprint. The attribution should be done as follows:</div>\n<div style=\"margin-top:0.5em; text-align:center;\"><i><a href=\"//commons.wikimedia.org/wiki/User:XRay\" title=\"User:XRay\">Dietmar Rabich</a> / <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a> / <span class=\"plainlinks noprint\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/File:Norderney,_Strandaufsp%C3%BClung_--_2025_--_091626.jpg\" href=\"https://commons.wikimedia.org/wiki/File:Norderney,_Strandaufsp%C3%BClung_--_2025_--_091626.jpg\">“Norderney, Strandaufspülung -- 2025 -- 091626”</a></span> / <span class=\"plainlinks noprint\"><a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a></span></i></div>\n<div style=\"margin-top:0.5em;\">Please read the text of the license carefully before using the photograph. If you do not agree with the conditions of the license or if you do not understand these conditions, please refrain from using the photo. If you have any questions regarding the license or the reuse of the image, please contact me before using it. If you do not comply with the terms of the license, you do not acquire any right to use the image. If you need another license to use, please contact the author <b>before</b> using.</div>\n<div style=\"margin-top:0.5em;\">For informations about the licence see section <a class=\"mw-selflink-fragment\" href=\"#ImgLic\">Licensing</a> or as <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">human-readable summary</a> or as <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">full licence text</a> at Creative Commons. In addition to the above, a link to the source - so this page with the descriptions and license terms - is appreciated. More information or examples of use can be found at <a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">re-use (with example file)</a>. The <a rel=\"nofollow\" class=\"external text\" href=\"https://lizenzhinweisgenerator.de/?lang=en&amp;url=https://commons.wikimedia.org/wiki/File:Norderney,_Strandaufsp%C3%BClung_--_2025_--_091626.jpg\">Attribution Generator</a> is helpful in licensing matters.</div>\n<div style=\"margin:0.5em auto 1em;text-align:center;\" class=\"plainlinks\"><span class=\"plainlinks\"><a rel=\"nofollow\" class=\"external text\" href=\"https://lizenzhinweisgenerator.de/?lang=en&amp;url=https://commons.wikimedia.org/wiki/File:Norderney,_Strandaufsp%C3%BClung_--_2025_--_091626.jpg\"><span class=\"submit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-secondary ui-button-blue\" role=\"button\"><span class=\"ui-button-text\">Generate License <b>Attribution</b></span><span class=\"ui-button-icon-secondary ui-icon ui-icon-extlink\"> </span></span></a></span></div>\n<div style=\"margin-top:0.5em;\">As an alternative to the Creative Commons License <i>CC BY-SA 4.0</i>, the <i><a href=\"https://en.wikipedia.org/wiki/Free_Art_License\" class=\"extiw\" title=\"en:Free Art License\">Free Art License</a></i> (<a rel=\"nofollow\" class=\"external text\" href=\"http://artlibre.org/licence/lal/en/\">from version 1.3</a>) may also be used.</div>\n<div style=\"margin-top:0.75em;\"><b>II. Fairness</b></div>\n<div style=\"margin-top:0.5em;\">From printed materials and other tangible products that use that work, the user is asked to send a copy to the author as thank you. However, this is not a condition for the use of the photo, but a voluntary service. The mailing address can be requested via the contact options.</div>\n<div style=\"margin-top:0.5em;\">Please note that the author had quite considerable effort to draw up this file. Thus, it is only fair to comply with the conditions of <a href=\"https://en.wikipedia.org/wiki/Free_license\" class=\"extiw\" title=\"en:Free license\">free licenses</a> listed here. In the case of violation of the license conditions, the rights granted hereunder will expire automatically.</div>\n<div style=\"margin-top:0.75em; clear: both;\"><b>III. Disclaimer</b></div>\n<div style=\"margin-top:0.5em;\">Please note that the rights granted under the license apply exclusively to the photograph itself, but not to the rights of third parties — such as copyrights or property rights in the object depicted or the personal rights of any individuals who may be depicted. (See <a href=\"//commons.wikimedia.org/wiki/Commons:L\" class=\"mw-redirect\" title=\"Commons:L\">licences</a> and <a href=\"//commons.wikimedia.org/wiki/Commons:SOSUMI\" class=\"mw-redirect\" title=\"Commons:SOSUMI\">non-copyright restrictions</a>.) I do not grant any warranty that the subsequent use of the photograph is legally possible concerning the object or person shown in the photograph. You are responsible to check and respect these rights in the publication in the respective medium or country.</div>\n<div style=\"margin-top:0.5em;\">The author is not responsible for the accuracy of the information contained herein (description, title, etc.). Likewise, the author assumes no liability for further use. Please note the <a href=\"//commons.wikimedia.org/wiki/Commons:General_disclaimer\" title=\"Commons:General disclaimer\">general disclaimer</a> and please read <a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">reusing content outside Wikimedia</a> too.</div>\n<div style=\"margin-top:0.75em;\"><b>IV. Contact</b></div>\n<div style=\"margin-top:0.5em;\"><b><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span> <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/XRay\" title=\"Special:EmailUser/XRay\">E-mail to the author</a></b> or the <a href=\"//commons.wikimedia.org/wiki/User_talk:XRay\" title=\"User talk:XRay\">author's talk page</a> <small>or the <a rel=\"nofollow\" class=\"external text\" href=\"http://www.rabich.de/\">author's website</a></small></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<b><a href=\"//commons.wikimedia.org/wiki/User:XRay\" title=\"User:XRay\">Dietmar Rabich</a></b>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "commons_091",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_091.jpg",
+      "width": 960,
+      "height": 640,
+      "sha256": "29cacfae8b5e6f33b9c756a6e4065b4c37f7e09bdfcd32de119824a175b10ed2",
+      "xyxy": [
+        [
+          582,
+          331,
+          651,
+          410
+        ]
+      ],
+      "count": 1,
+      "groupId": "commons_norderney_pipeworks_2025",
+      "source": "wikimedia_commons",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "One visible front mouth, partly covered by attached flap. Flap itself is not a separate target; samebeach capture family as082.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Norderney,_Strandaufsp%C3%BClung_--_2025_--_9558.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/2/27/Norderney%2C_Strandaufsp%C3%BClung_--_2025_--_9558.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Norderney%2C_Strandaufsp%C3%BClung_--_2025_--_9558.jpg/960px-Norderney%2C_Strandaufsp%C3%BClung_--_2025_--_9558.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceResolution": "Commons served thumbnail actually used; do not claim originalfullresolution",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2025-09-01 13:36:17",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Norderney, Strandaufspülung -- 2025 -- 9558",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Photographs with aspect ratio of 3:2|ISO speed rating 100|Self-published work|Exposure time 1/250 sec|Pipes (transport)|Photographs by Dietmar Rabich/Quality images|Information field template with formatting|F-number f/8|Images by XRay (flat list)|Uploaded with LrMediaWiki|Lens focal length 105 mm|Mud disposal areas in Germany|Pipes in Lower Saxony|Overcast in Lower Saxony|Metal pipes|Photographs by Dietmar Rabich/Landscape photography|Photographs by Dietmar Rabich/Norderney|Photographs by Dietmar Rabich/Year/2025|Rusty pipes|Photographs by Dietmar Rabich/Quality images of construction sites|Photographs by Dietmar Rabich/Quality images of coasts|Photographs by Dietmar Rabich/Quality images of oceans and seas|Photographs by Dietmar Rabich/Quality images of Lower Saxony|Photographs by Dietmar Rabich/Quality images of World Heritage Sites|Taken with Canon EOS 5D Mark IV and Canon EF 24-105mm F4L IS II USM|Strandaufspülung auf Norderney 2025|Norderney photographs taken on 2025-08-28|Transport of sand in Germany|Photographs by Dietmar Rabich/Quality images of pipes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "53.708137",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "7.137401",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Pipe to the Western head of the island, <a href=\"https://en.wikipedia.org/wiki/Beach_nourishment\" class=\"extiw\" title=\"en:Beach nourishment\">beach nourishment</a> at western head of the island, <a href=\"https://en.wikipedia.org/wiki/Norderney\" class=\"extiw\" title=\"en:Norderney\">Norderney</a>, <a href=\"https://en.wikipedia.org/wiki/Lower_Saxony\" class=\"extiw\" title=\"en:Lower Saxony\">Lower Saxony</a>, Germany",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "Taken on 28 August 2025, 13:30",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<bdi><a href=\"https://www.wikidata.org/wiki/Q34788025\" class=\"extiw\" title=\"d:Q34788025\"><span title=\"German photographer and mathematician\">Dietmar Rabich</span></a></bdi>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "<table class=\"layouttemplate navigation-not-searchable\" style=\"margin:.25em;padding:.25em .5em;background-color:var(--background-color-base,#ffffff);color:inherit;border:1px solid var(--background-color-disabled,#eeeeee)\" data-nosnippet=\"\">\n<tbody><tr>\n<td><span typeof=\"mw:File\"><span><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/40px-Flag_of_Germany.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"14\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/60px-Flag_of_Germany.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"1000\" data-file-height=\"600\"></span></span>\n</td>\n<td>Dieser Text und viele andere auch sind ebenso in deutscher Sprache verfügbar. Um diese sehen zu können, wähle bitte auf dieser Webseite die Spracheinstellung „Deutsch“.\n</td></tr></tbody></table><div style=\"clear:both;border:1px solid var(--background-color-disabled,#eeeeee);margin:.25em;padding:.25em .5em;background-color:var(--background-color-base,#ffffff);color:inherit;font-size:90%;\" class=\"searchaux\" data-nosnippet=\"\">\n<figure class=\"mw-halign-right\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:HSSection_sign.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/HSSection_sign.svg/120px-HSSection_sign.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"100\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/HSSection_sign.svg/250px-HSSection_sign.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"156\" data-file-height=\"156\"></a><figcaption></figcaption></figure><figure class=\"mw-halign-right\" typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Cc_by-sa_(1).svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cc_by-sa_%281%29.svg/120px-Cc_by-sa_%281%29.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"100\" height=\"35\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Cc_by-sa_%281%29.svg/250px-Cc_by-sa_%281%29.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"120\" data-file-height=\"42\"></a><figcaption></figcaption></figure><div><b>I. Licence</b></div>\n<div style=\"margin-top:0.5em;\">This photograph is protected by copyright law. However, it may be used for free by anyone, provided it is used in accordance with the license <b>Creative Commons License <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed\">“Attribution-ShareAlike 4.0 International”</a></b> (CC BY-SA 4.0). These include, among other things, the naming of the author and the license, as well as the setting of a link to the license text or its complete imprint. The attribution should be done as follows:</div>\n<div style=\"margin-top:0.5em; text-align:center;\"><i><a href=\"//commons.wikimedia.org/wiki/User:XRay\" title=\"User:XRay\">Dietmar Rabich</a> / <a href=\"//commons.wikimedia.org/wiki/Main_Page\" title=\"Main Page\">Wikimedia Commons</a> / <span class=\"plainlinks noprint\"><a class=\"external text\" data-mw-original-href=\"//commons.wikimedia.org/wiki/File:Norderney,_Strandaufsp%C3%BClung_--_2025_--_9558.jpg\" href=\"https://commons.wikimedia.org/wiki/File:Norderney,_Strandaufsp%C3%BClung_--_2025_--_9558.jpg\">“Norderney, Strandaufspülung -- 2025 -- 9558”</a></span> / <span class=\"plainlinks noprint\"><a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a></span></i></div>\n<div style=\"margin-top:0.5em;\">Please read the text of the license carefully before using the photograph. If you do not agree with the conditions of the license or if you do not understand these conditions, please refrain from using the photo. If you have any questions regarding the license or the reuse of the image, please contact me before using it. If you do not comply with the terms of the license, you do not acquire any right to use the image. If you need another license to use, please contact the author <b>before</b> using.</div>\n<div style=\"margin-top:0.5em;\">For informations about the licence see section <a class=\"mw-selflink-fragment\" href=\"#ImgLic\">Licensing</a> or as <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">human-readable summary</a> or as <a rel=\"nofollow\" class=\"external text\" href=\"https://creativecommons.org/licenses/by-sa/4.0/legalcode\">full licence text</a> at Creative Commons. In addition to the above, a link to the source - so this page with the descriptions and license terms - is appreciated. More information or examples of use can be found at <a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">re-use (with example file)</a>. The <a rel=\"nofollow\" class=\"external text\" href=\"https://lizenzhinweisgenerator.de/?lang=en&amp;url=https://commons.wikimedia.org/wiki/File:Norderney,_Strandaufsp%C3%BClung_--_2025_--_9558.jpg\">Attribution Generator</a> is helpful in licensing matters.</div>\n<div style=\"margin:0.5em auto 1em;text-align:center;\" class=\"plainlinks\"><span class=\"plainlinks\"><a rel=\"nofollow\" class=\"external text\" href=\"https://lizenzhinweisgenerator.de/?lang=en&amp;url=https://commons.wikimedia.org/wiki/File:Norderney,_Strandaufsp%C3%BClung_--_2025_--_9558.jpg\"><span class=\"submit ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-secondary ui-button-blue\" role=\"button\"><span class=\"ui-button-text\">Generate License <b>Attribution</b></span><span class=\"ui-button-icon-secondary ui-icon ui-icon-extlink\"> </span></span></a></span></div>\n<div style=\"margin-top:0.5em;\">As an alternative to the Creative Commons License <i>CC BY-SA 4.0</i>, the <i><a href=\"https://en.wikipedia.org/wiki/Free_Art_License\" class=\"extiw\" title=\"en:Free Art License\">Free Art License</a></i> (<a rel=\"nofollow\" class=\"external text\" href=\"http://artlibre.org/licence/lal/en/\">from version 1.3</a>) may also be used.</div>\n<div style=\"margin-top:0.75em;\"><b>II. Fairness</b></div>\n<div style=\"margin-top:0.5em;\">From printed materials and other tangible products that use that work, the user is asked to send a copy to the author as thank you. However, this is not a condition for the use of the photo, but a voluntary service. The mailing address can be requested via the contact options.</div>\n<div style=\"margin-top:0.5em;\">Please note that the author had quite considerable effort to draw up this file. Thus, it is only fair to comply with the conditions of <a href=\"https://en.wikipedia.org/wiki/Free_license\" class=\"extiw\" title=\"en:Free license\">free licenses</a> listed here. In the case of violation of the license conditions, the rights granted hereunder will expire automatically.</div>\n<div style=\"margin-top:0.75em; clear: both;\"><b>III. Disclaimer</b></div>\n<div style=\"margin-top:0.5em;\">Please note that the rights granted under the license apply exclusively to the photograph itself, but not to the rights of third parties — such as copyrights or property rights in the object depicted or the personal rights of any individuals who may be depicted. (See <a href=\"//commons.wikimedia.org/wiki/Commons:L\" class=\"mw-redirect\" title=\"Commons:L\">licences</a> and <a href=\"//commons.wikimedia.org/wiki/Commons:SOSUMI\" class=\"mw-redirect\" title=\"Commons:SOSUMI\">non-copyright restrictions</a>.) I do not grant any warranty that the subsequent use of the photograph is legally possible concerning the object or person shown in the photograph. You are responsible to check and respect these rights in the publication in the respective medium or country.</div>\n<div style=\"margin-top:0.5em;\">The author is not responsible for the accuracy of the information contained herein (description, title, etc.). Likewise, the author assumes no liability for further use. Please note the <a href=\"//commons.wikimedia.org/wiki/Commons:General_disclaimer\" title=\"Commons:General disclaimer\">general disclaimer</a> and please read <a href=\"//commons.wikimedia.org/wiki/Commons:Reusing_content_outside_Wikimedia\" title=\"Commons:Reusing content outside Wikimedia\">reusing content outside Wikimedia</a> too.</div>\n<div style=\"margin-top:0.75em;\"><b>IV. Contact</b></div>\n<div style=\"margin-top:0.5em;\"><b><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:UserIconMail.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/40px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"24\" height=\"24\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/UserIconMail.svg/60px-UserIconMail.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"700\" data-file-height=\"700\"></a></span> <a href=\"//commons.wikimedia.org/wiki/Special:EmailUser/XRay\" title=\"Special:EmailUser/XRay\">E-mail to the author</a></b> or the <a href=\"//commons.wikimedia.org/wiki/User_talk:XRay\" title=\"User talk:XRay\">author's talk page</a> <small>or the <a rel=\"nofollow\" class=\"external text\" href=\"http://www.rabich.de/\">author's website</a></small></div></div>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Attribution": {
+          "value": "<b><a href=\"//commons.wikimedia.org/wiki/User:XRay\" title=\"User:XRay\">Dietmar Rabich</a></b>",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "commons_121",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_121.jpg",
+      "width": 960,
+      "height": 540,
+      "sha256": "60709bad69318c387abadd913752990c935a86e7e291b03217c36f5ad5bcef90",
+      "xyxy": [
+        [
+          344,
+          331,
+          432,
+          483
+        ],
+        [
+          647,
+          364,
+          756,
+          480
+        ]
+      ],
+      "count": 2,
+      "groupId": "commons_pipes042_ubt_scene",
+      "source": "wikimedia_commons",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "Two separate rusty round pipe sections with visible front openings; rear flange rings and bolt holes not counted separately.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Pipes_042_(ubt).JPG",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Pipes_042_%28ubt%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Pipes_042_%28ubt%29.JPG/960px-Pipes_042_%28ubt%29.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceResolution": "Commons served thumbnail actually used; do not claim originalfullresolution",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2012-07-15 21:58:57",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Pipes 042 (ubt)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Flanges|Taken with Canon PowerShot A560|Photographs by tsca|Photographs taken on 2011-05-01|Rusty pipes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Rusty pipe connections / joints",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2011-05-01 14:00:20",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "Photograph by <a href=\"//commons.wikimedia.org/wiki/User:Tsca\" title=\"User:Tsca\">Tomasz Sienicki</a> (<span class=\"int-own-work\" lang=\"en\">Own work</span>)",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<b><a href=\"//commons.wikimedia.org/wiki/User:Tsca\" title=\"User:Tsca\">Tomasz Sienicki</a></b> <span style=\"color:grey\"><i>[user: <a href=\"//commons.wikimedia.org/wiki/User:Tsca\" title=\"User:Tsca\">tsca</a>, mail: tomasz.sienicki at gmail.com]</i></span>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 3.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 3.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/3.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-3.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "commons_124",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_124.jpg",
+      "width": 960,
+      "height": 640,
+      "sha256": "14af99cab8fb618ced692743484a6aa6e2b965315dd6fde7cef2cabb104f041a",
+      "xyxy": [
+        [
+          765,
+          89,
+          847,
+          142
+        ]
+      ],
+      "count": 1,
+      "groupId": "commons_hollandarod_mooring_pipes",
+      "source": "wikimedia_commons",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "One visible open vertical pipe top. Small side drilled hole and clamp are not pipe ends; adjacent horizontal mouth occluded from this angle.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Ropes_on_a_pipe_in_Holl%C3%A4ndar%C3%B6d.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/8/87/Ropes_on_a_pipe_in_Holl%C3%A4ndar%C3%B6d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Ropes_on_a_pipe_in_Holl%C3%A4ndar%C3%B6d.jpg/960px-Ropes_on_a_pipe_in_Holl%C3%A4ndar%C3%B6d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceResolution": "Commons served thumbnail actually used; do not claim originalfullresolution",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2021-05-07 16:03:33",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Ropes on a pipe in Holländaröd",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-FZ1000|Self-published work|Ropes in Sweden|Images by W.carter|Holländaröd|Files with coordinates missing SDC location of creation|Damaged rope|Frayed ropes|Rusty pipes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "58.372931",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.446531",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Bits of old ropes on a scaffolding pipe in Holländaröd, Lysekil Municipality, Sweden.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-05-09 16:51:03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "commons_125",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_125.jpg",
+      "width": 960,
+      "height": 1324,
+      "sha256": "56c177454483b013cce8c0c91137b41df4ff0bf30d6b31510486b83228e9ea12",
+      "xyxy": [
+        [
+          153,
+          243,
+          335,
+          329
+        ],
+        [
+          432,
+          803,
+          613,
+          950
+        ]
+      ],
+      "count": 2,
+      "groupId": "commons_hollandarod_mooring_pipes",
+      "source": "wikimedia_commons",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "Two visible openings: upright post top and horizontal pipe end near clamp. Rear upright extends beyond frame, no visible end. Same physical mooring assembly as124. Independent review tightened mouth2to outerrim, excluding separateclamp bolt/side wall.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Ropes_on_two_joined_pipes_in_Holl%C3%A4ndar%C3%B6d.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/1/12/Ropes_on_two_joined_pipes_in_Holl%C3%A4ndar%C3%B6d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Ropes_on_two_joined_pipes_in_Holl%C3%A4ndar%C3%B6d.jpg/960px-Ropes_on_two_joined_pipes_in_Holl%C3%A4ndar%C3%B6d.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceResolution": "Commons served thumbnail actually used; do not claim originalfullresolution",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2021-05-07 16:07:28",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Ropes on two joined pipes in Holländaröd",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Panasonic Lumix DMC-FZ1000|Self-published work|Ropes in Sweden|Images by W.carter|Holländaröd|Files with coordinates missing SDC location of creation|Damaged rope|Frayed ropes|Rusty pipes|Images by W.carter, my own favorites",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "58.372931",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.446531",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Bits of old ropes on two old joined scaffolding pipes in Holländaröd, Lysekil Municipality, Sweden.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2020-05-09 16:50:24",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "commons_129",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_129.jpg",
+      "width": 960,
+      "height": 640,
+      "sha256": "372eb3c031242d300a53dc569aeccfe9e59c34e8e79f3039fc6dd8a432715ee3",
+      "xyxy": [
+        [
+          590,
+          313,
+          804,
+          548
+        ]
+      ],
+      "count": 1,
+      "groupId": "commons_furilden_rusty_pipe",
+      "source": "wikimedia_commons",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "One encrusted metal pipe cut end; box encloses the visible irregular outer rim, not the whole shaft.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Rusty_pipe_by_the_pier_on_Furilden.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/3/37/Rusty_pipe_by_the_pier_on_Furilden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Rusty_pipe_by_the_pier_on_Furilden.jpg/960px-Rusty_pipe_by_the_pier_on_Furilden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceResolution": "Commons served thumbnail actually used; do not claim originalfullresolution",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2021-08-21 09:39:47",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Rusty pipe by the pier on Furilden",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Self-published work|Images by W.carter|May 2012 in Gotland|Files with coordinates missing SDC location of creation|2012 in Rute, Gotland|Rusty pipes|Piren, Furillen",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "57.759522",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "19.004937",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Rusty pipe by the pier in the factory area at the old abandoned limestone quarry on Furilden, Gotland, Sweden.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2012-05-06 11:56:59",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "commons_133",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_133.jpg",
+      "width": 960,
+      "height": 640,
+      "sha256": "f828aa08b8f2f4d41aa392cff20a9bd92ad104251a0da866bd53e408273145f7",
+      "xyxy": [
+        [
+          232,
+          326,
+          291,
+          393
+        ],
+        [
+          286,
+          264,
+          349,
+          336
+        ],
+        [
+          327,
+          215,
+          379,
+          271
+        ]
+      ],
+      "count": 3,
+      "groupId": "commons_rusty_tubes_259086707",
+      "source": "wikimedia_commons",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "Three cut metal tube mouths attached to industrial structure. Background beams and clamps are not mouths.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Rusty_tubes_(259086707).jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Rusty_tubes_%28259086707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Rusty_tubes_%28259086707%29.jpg/960px-Rusty_tubes_%28259086707%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceResolution": "Commons served thumbnail actually used; do not claim originalfullresolution",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2013-09-28 18:08:26",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Rusty tubes (259086707)",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Construction materials in Germany|Germany photographs taken on 2006-10-02|Landschaftspark Duisburg-Nord|Flickr images reviewed by File Upload Bot (Magnus Manske)|October 2006 in Duisburg|Files with coordinates missing SDC location of creation (51° N, 6° E)|Files from Till Krech Flickr stream|Rusty pipes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "51.480741",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "6.779937",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Rusty tubes in North Duisburg Landscape Park",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2006-10-02 23:50",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<p><a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/extranoise/259086707/\">rusty tubes</a>\n</p>\n<ul><li>Uploaded by <a href=\"//commons.wikimedia.org/wiki/User:Perumalism\" title=\"User:Perumalism\">perumalism</a></li></ul>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/10508943@N00\">Till Krech</a> from Berlin, Germany",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "commons_145",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_145.jpg",
+      "width": 960,
+      "height": 784,
+      "sha256": "e36698727b0cb3adfb280a0c1491b33974a80207be9b103e2a86bbf5318ed5ea",
+      "xyxy": [
+        [
+          80,
+          67,
+          888,
+          745
+        ]
+      ],
+      "count": 1,
+      "groupId": "commons_torch_cut_pipe",
+      "source": "wikimedia_commons",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "One torch-cut thick steel pipe face with slag/debris; inner opening and outer cut wall are one instance.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://commons.wikimedia.org/wiki/File:Torch-cut_pipe.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Torch-cut_pipe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/Torch-cut_pipe.jpg/960px-Torch-cut_pipe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceResolution": "Commons served thumbnail actually used; do not claim originalfullresolution",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2017-05-30 10:36:07",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Torch-cut pipe",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "CC-Zero|Self-published work|Cutting torches|Images by W.carter|Files with coordinates missing SDC location of creation|Rusty objects in Sweden|West Pipe Welding AB|Rusty pipes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "quality",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "58.359429",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.518372",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "A torch-cut iron pipe at a pipe welding firm in Gåseberg industrial area, Lysekil Municipality, Sweden. Metal molten by the torch is visible inside the pipe. The pipe is approximately 20–25 cm (7.9–9.8 in) in diameter.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-04-29 16:06:55",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "github_005",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/github-originals/github_005.jpg",
+      "width": 870,
+      "height": 580,
+      "sha256": "973d9ee99a45caf95e082fe5c866dd8b2e917023c2762494a30ddbe8cdc69516",
+      "xyxy": [
+        [
+          0,
+          26,
+          209,
+          236
+        ],
+        [
+          0,
+          172,
+          147,
+          343
+        ],
+        [
+          0,
+          350,
+          130,
+          523
+        ],
+        [
+          169,
+          174,
+          350,
+          352
+        ],
+        [
+          127,
+          339,
+          306,
+          505
+        ],
+        [
+          330,
+          138,
+          540,
+          345
+        ],
+        [
+          297,
+          300,
+          477,
+          472
+        ],
+        [
+          473,
+          272,
+          662,
+          457
+        ],
+        [
+          576,
+          109,
+          755,
+          289
+        ],
+        [
+          645,
+          266,
+          796,
+          427
+        ],
+        [
+          769,
+          143,
+          870,
+          334
+        ],
+        [
+          801,
+          306,
+          870,
+          477
+        ]
+      ],
+      "count": 12,
+      "groupId": "github_pipeCountingUNITN_pipe1_stock_scene",
+      "source": "github_public_photo",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationMethod": "Manual visual count and outer-rim HBB coordinates byassistant, no learned model proposals; numbered overlay inspection pending independentreview.",
+      "reviewNotes": "Twelve visible steel pipe front faces, including cropped faces along left/right image edges; no extra instance for internal shading. Real photographic black-and-white source, not inference output.",
+      "annotationQA": "PENDING_DUAL_REVIEW",
+      "split": null,
+      "sourcePageURL": "https://github.com/MattiaCarolo/PipeCountingUNITN",
+      "sourceDownloadURL": "https://raw.githubusercontent.com/MattiaCarolo/PipeCountingUNITN/a33117410675b18e95b5ad88f184109d92d2f7e2/data/pipe1.jpg",
+      "sourceCommit": "a33117410675b18e95b5ad88f184109d92d2f7e2",
+      "sourceMember": "data/pipe1.jpg"
+    }
+  ],
+  "manualCount": 27,
+  "modelInferencePerformed": false,
+  "sourceModified": false,
+  "splitAssigned": false,
+  "overlayReviewedUTC": "2026-10-26T14:24:39.966410+00:00",
+  "overlayReview": "All11 sourcephotos andnumbered HBB overlays actually viewed; counts1/1/2/1/2/1/2/1/3/1/12 checked. Independentreview stillrequired.",
+  "correctionUTC": "2026-10-26T14:37:54.423372+00:00"
+}

@@ -1,6 +1,8 @@
 # CountScope
 
-A native iPhone and iPad photo-counting app. The current automatic mode counts visible bamboo/skewer ends; users review and correct the markers and save local records. Other object-recognition categories are not implemented in this release. The app includes English and Simplified Chinese interfaces.
+A native iPhone and iPad photo-counting app. The current automatic mode counts visible bamboo/skewer ends; users review and correct the markers and save local records. This checkout adds a steel-pipe workspace, category-aware history and manual correction. Automatic steel-pipe recognition remains disabled because the trained candidates did not pass accuracy and regression checks; no unqualified pipe model is bundled. The app includes English and Simplified Chinese interfaces.
+
+The steel-pipe workspace is separate from Build 4. See the [latest pipe training results](ml/pipes-data-expansion-20261029/README.md), [skewer and colony data audit](ml/multiclass-data-20261029/README.md), and [ASO draft](release/aso-20261027/ASO-review.md). These are local development and research results.
 
 ## Features
 
@@ -9,6 +11,7 @@ A native iPhone and iPad photo-counting app. The current automatic mode counts v
 - Automatically estimated bundle regions, with conservative local text/background filtering and visible outlines; no manual region selection.
 - Add/remove markers, undo corrections and inspect the photo in a larger editor.
 - Manually saved history with notes, reopen/delete, and system sharing of a marked image.
+- Skewer/steel-pipe category selection, backward-compatible history, and category-aware export captions. Missing pipe model resources fail without consuming a free count; manual marking remains available.
 - Four free completed automatic counts per device, persisted in the device-only Keychain. Failed or canceled processing, corrections and reopened history do not consume a count.
 - CountScope Pro monthly subscription: an Apple-eligible 7-day free trial, then US$2.99/month in the USA; other storefronts use Apple-localized prices. Active subscribers have unlimited automatic counts.
 - StoreKit 2 verified purchases, restoration, expiration/refund handling, and subscription management.

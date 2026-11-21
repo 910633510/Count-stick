@@ -1,0 +1,28 @@
+{
+  "status": "SOURCE_PRE_REVIEW_COMPLETE_OPERATOR_AND_RESULTS_NOT_AUDITED",
+  "recordedUTC": "2026-10-26T06:22:09Z",
+  "taskSteering": "User requested steel-pipe App feature; review stopped before operator approval/inference/results.",
+  "reviewScope": {
+    "newModelInference": false,
+    "training": false,
+    "old63OrSealed36GTRead": false,
+    "operatorEdited": false
+  },
+  "primarySource": "output/github-research-20261026/detection/obss__sahi/sources",
+  "sourceCommit": "b5a153ee7bcb1fd84a7b868575ff14131e7423ce",
+  "confirmedFindings": [
+    "get_sliced_prediction switches conf<0.1 toNMS/IOU unless force_postprocess_type=True; directpostprocess classes bypassthatwrapper but must pinactualtype/metric/backend.",
+    "Operatingconf0.3 mustfilterbeforeNMM; APfloor0.001 needsseparate merge because uniongeometry changeswithlow-scoreboxes.",
+    "NMM mergesbboxunion and retainsmaxscore; nonemptyinput retainsa prediction. IsolatedemptyplateFP generallycannot disappear throughNMS/NMM; this mustnotrelaxemptygate.",
+    "SAHI auto backend selectsTorchvisionwhenMPSavailable evenifdetectorinferenceCPU; explicitly pinbackend.",
+    "Legacybaseline mustkeepfloat32tileoffsets,row/colorder,originalcenterownership andtorchvisionNMS semantics;SAHI>=matchboundary/tiehandling isnotinterchangeable."
+  ],
+  "toyNoncommutativity": "A=[0,0,10,10],score.9 andB=[5,0,15,10],score.1 atIOS.5:operatingprefilterleavesA;rawfloorNMMunions15x10whilemaxscorestays.9.",
+  "pending": [
+    "Frozenoperator/protocol/sourcehash review",
+    "Actual102val/control cachegeometry/provenance/cap checks",
+    "Exactlegacybaselineparity",
+    "IndependentFP/FN/MAE/AP/group/gate/selection audit"
+  ],
+  "noPreRegistrationApprovalIssued": true
+}

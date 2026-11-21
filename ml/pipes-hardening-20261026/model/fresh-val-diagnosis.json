@@ -1,0 +1,2942 @@
+{
+  "status": "READ_ONLY_FRESH_VAL_DIAGNOSIS_CACHE_ONLY",
+  "createdUTC": "2026-10-26T15:45:10.815299+00:00",
+  "selectionSHA256": "f8659b52d87afc274f17892bb6339ca8eb7fcd3213e6865304cc64f24e208480",
+  "scope": [
+    "new_maco_0021",
+    "hardneg-smooth-add-xincheng"
+  ],
+  "images": {
+    "new_maco_0021": {
+      "sourceSize": [
+        200,
+        200
+      ],
+      "photoSize": [
+        200,
+        200
+      ],
+      "GT": 17,
+      "geometry": {
+        "gain": 5.12,
+        "resizedWidth": 1024,
+        "resizedHeight": 1024,
+        "left": 0,
+        "top": 0,
+        "sourceWidth": 200,
+        "sourceHeight": 200,
+        "size": 1024
+      },
+      "sourceAndWhitelistAliasBytesIdentical": true,
+      "bothVariantsNetworkPNGBytesIdentical": true,
+      "groundTruthNetworkXYXY": [
+        [
+          30.72,
+          409.6,
+          76.8,
+          476.16
+        ],
+        [
+          81.92,
+          409.6,
+          138.24,
+          481.28000000000003
+        ],
+        [
+          133.12,
+          404.48,
+          189.44,
+          481.28000000000003
+        ],
+        [
+          199.68,
+          414.72,
+          250.88,
+          476.16
+        ],
+        [
+          256.0,
+          419.84000000000003,
+          307.2,
+          481.28000000000003
+        ],
+        [
+          312.32,
+          419.84000000000003,
+          363.52,
+          476.16
+        ],
+        [
+          368.64,
+          414.72,
+          414.72,
+          460.8
+        ],
+        [
+          419.84000000000003,
+          419.84000000000003,
+          465.92,
+          481.28000000000003
+        ],
+        [
+          471.04,
+          419.84000000000003,
+          522.24,
+          481.28000000000003
+        ],
+        [
+          532.48,
+          430.08,
+          573.44,
+          481.28000000000003
+        ],
+        [
+          583.6800000000001,
+          435.2,
+          629.76,
+          481.28000000000003
+        ],
+        [
+          634.88,
+          424.96000000000004,
+          680.96,
+          481.28000000000003
+        ],
+        [
+          686.08,
+          430.08,
+          737.28,
+          481.28000000000003
+        ],
+        [
+          742.4,
+          440.32,
+          793.6,
+          491.52
+        ],
+        [
+          808.96,
+          435.2,
+          855.04,
+          486.40000000000003
+        ],
+        [
+          860.16,
+          440.32,
+          916.48,
+          496.64
+        ],
+        [
+          921.6,
+          440.32,
+          972.8000000000001,
+          496.64
+        ]
+      ],
+      "networkImageSHA256": "d965119bb525a24aafe1783d847592b0574f740cf7048d9747f0f0853e391e46",
+      "networkPaths": {
+        "gallery": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/pipes-20261026/preprocessing/train-val-BD53061D-86B9-4AE2-A668-9A4B3166E42A/new_maco_0021-imageio-import-network.png",
+        "camera": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/pipes-20261026/preprocessing/train-val-BD53061D-86B9-4AE2-A668-9A4B3166E42A/new_maco_0021-camera-normalized-network.png"
+      }
+    },
+    "hardneg-smooth-add-xincheng": {
+      "sourceSize": [
+        1000,
+        1000
+      ],
+      "photoSize": [
+        1000,
+        1000
+      ],
+      "GT": 0,
+      "geometry": {
+        "gain": 1.024,
+        "resizedWidth": 1024,
+        "resizedHeight": 1024,
+        "left": 0,
+        "top": 0,
+        "sourceWidth": 1000,
+        "sourceHeight": 1000,
+        "size": 1024
+      },
+      "sourceAndWhitelistAliasBytesIdentical": true,
+      "bothVariantsNetworkPNGBytesIdentical": true,
+      "groundTruthNetworkXYXY": [],
+      "networkImageSHA256": "01bed354a2cbe56d7c60ffeaf33e4d09b54407bef208084e1acbfadf526498f4",
+      "networkPaths": {
+        "gallery": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/pipes-20261026/preprocessing/train-val-BD53061D-86B9-4AE2-A668-9A4B3166E42A/hardneg-smooth-add-xincheng-imageio-import-network.png",
+        "camera": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/pipes-20261026/preprocessing/train-val-BD53061D-86B9-4AE2-A668-9A4B3166E42A/hardneg-smooth-add-xincheng-camera-normalized-network.png"
+      }
+    }
+  },
+  "epochs": {
+    "4": {
+      "new_maco_0021": {
+        "bothVariantRawArraysBitIdentical": true,
+        "variants": {
+          "gallery": {
+            "retainedRawAboveCacheFloor": 8102,
+            "maximumRawConfidence": 0.0120081827044487,
+            "rawAboveOperatingThreshold": 0,
+            "postNMSOperatingCount": 0,
+            "postNMSScores": [],
+            "postNMSNetworkXYXY": [],
+            "rawNPZSHA256": "5ba32a355be2af4c7c7e6da5b048ed6928170653716d2876bbbab36166779cbb",
+            "perGT": [
+              {
+                "GTIndex": 1,
+                "bestRetainedRawIoU": 0.32603549356061146,
+                "confidenceOfBestIoUBox": 0.003788933390751481,
+                "rawBoxesIoUAtLeastHalf": 0,
+                "bestConfidenceAtIoUHalf": null,
+                "boxAtBestConfidenceIoUHalf": null,
+                "bestConfidenceAtIoUQuarter": 0.003788933390751481
+              },
+              {
+                "GTIndex": 2,
+                "bestRetainedRawIoU": 0.7641800917329832,
+                "confidenceOfBestIoUBox": 0.002550497418269515,
+                "rawBoxesIoUAtLeastHalf": 5,
+                "bestConfidenceAtIoUHalf": 0.002550497418269515,
+                "boxAtBestConfidenceIoUHalf": [
+                  76.53952026367188,
+                  412.75994873046875,
+                  142.0811767578125,
+                  475.3704833984375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002550497418269515
+              },
+              {
+                "GTIndex": 3,
+                "bestRetainedRawIoU": 0.6372689122476374,
+                "confidenceOfBestIoUBox": 0.0014370455173775554,
+                "rawBoxesIoUAtLeastHalf": 9,
+                "bestConfidenceAtIoUHalf": 0.00432608462870121,
+                "boxAtBestConfidenceIoUHalf": [
+                  137.49395751953125,
+                  416.13323974609375,
+                  194.41583251953125,
+                  469.10845947265625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.00432608462870121
+              },
+              {
+                "GTIndex": 4,
+                "bestRetainedRawIoU": 0.855027996637314,
+                "confidenceOfBestIoUBox": 0.003035379806533456,
+                "rawBoxesIoUAtLeastHalf": 13,
+                "bestConfidenceAtIoUHalf": 0.005645561031997204,
+                "boxAtBestConfidenceIoUHalf": [
+                  197.64596557617188,
+                  417.415771484375,
+                  256.65203857421875,
+                  474.9842529296875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.005645561031997204
+              },
+              {
+                "GTIndex": 5,
+                "bestRetainedRawIoU": 0.5963186109194589,
+                "confidenceOfBestIoUBox": 0.0030302973464131355,
+                "rawBoxesIoUAtLeastHalf": 3,
+                "bestConfidenceAtIoUHalf": 0.0030302973464131355,
+                "boxAtBestConfidenceIoUHalf": [
+                  245.10182189941406,
+                  421.6964111328125,
+                  313.4683837890625,
+                  495.13592529296875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0030302973464131355
+              },
+              {
+                "GTIndex": 6,
+                "bestRetainedRawIoU": 0.9335410495408013,
+                "confidenceOfBestIoUBox": 0.004797723609954119,
+                "rawBoxesIoUAtLeastHalf": 11,
+                "bestConfidenceAtIoUHalf": 0.004797723609954119,
+                "boxAtBestConfidenceIoUHalf": [
+                  311.4359130859375,
+                  420.118408203125,
+                  365.4412841796875,
+                  475.52978515625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004797723609954119
+              },
+              {
+                "GTIndex": 7,
+                "bestRetainedRawIoU": 0.7883025545550559,
+                "confidenceOfBestIoUBox": 0.002444325014948845,
+                "rawBoxesIoUAtLeastHalf": 10,
+                "bestConfidenceAtIoUHalf": 0.0028915174771100283,
+                "boxAtBestConfidenceIoUHalf": [
+                  360.1688232421875,
+                  415.8640441894531,
+                  414.05181884765625,
+                  462.4141540527344
+                ],
+                "bestConfidenceAtIoUQuarter": 0.003016698407009244
+              },
+              {
+                "GTIndex": 8,
+                "bestRetainedRawIoU": 0.7790672945291501,
+                "confidenceOfBestIoUBox": 0.00118983571883291,
+                "rawBoxesIoUAtLeastHalf": 16,
+                "bestConfidenceAtIoUHalf": 0.004522230476140976,
+                "boxAtBestConfidenceIoUHalf": [
+                  414.3204345703125,
+                  428.67919921875,
+                  466.161376953125,
+                  479.54791259765625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004522230476140976
+              },
+              {
+                "GTIndex": 9,
+                "bestRetainedRawIoU": 0.8467997804848068,
+                "confidenceOfBestIoUBox": 0.002054545097053051,
+                "rawBoxesIoUAtLeastHalf": 12,
+                "bestConfidenceAtIoUHalf": 0.0032959417439997196,
+                "boxAtBestConfidenceIoUHalf": [
+                  469.1075439453125,
+                  426.4130859375,
+                  522.80224609375,
+                  475.1458740234375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0032959417439997196
+              },
+              {
+                "GTIndex": 10,
+                "bestRetainedRawIoU": 0.7834646063610687,
+                "confidenceOfBestIoUBox": 0.0030042072758078575,
+                "rawBoxesIoUAtLeastHalf": 18,
+                "bestConfidenceAtIoUHalf": 0.0120081827044487,
+                "boxAtBestConfidenceIoUHalf": [
+                  526.4296875,
+                  431.19061279296875,
+                  577.708984375,
+                  479.77630615234375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0120081827044487
+              },
+              {
+                "GTIndex": 11,
+                "bestRetainedRawIoU": 0.8384898995317066,
+                "confidenceOfBestIoUBox": 0.0010975028853863478,
+                "rawBoxesIoUAtLeastHalf": 14,
+                "bestConfidenceAtIoUHalf": 0.00782046839594841,
+                "boxAtBestConfidenceIoUHalf": [
+                  573.6580810546875,
+                  433.4282531738281,
+                  630.26123046875,
+                  484.2688293457031
+                ],
+                "bestConfidenceAtIoUQuarter": 0.00782046839594841
+              },
+              {
+                "GTIndex": 12,
+                "bestRetainedRawIoU": 0.8456376497692201,
+                "confidenceOfBestIoUBox": 0.003097964683547616,
+                "rawBoxesIoUAtLeastHalf": 15,
+                "bestConfidenceAtIoUHalf": 0.010236483067274094,
+                "boxAtBestConfidenceIoUHalf": [
+                  636.2069702148438,
+                  431.14324951171875,
+                  684.9988403320312,
+                  479.49591064453125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.010236483067274094
+              },
+              {
+                "GTIndex": 13,
+                "bestRetainedRawIoU": 0.8421141297500501,
+                "confidenceOfBestIoUBox": 0.0021733699832111597,
+                "rawBoxesIoUAtLeastHalf": 15,
+                "bestConfidenceAtIoUHalf": 0.007964191026985645,
+                "boxAtBestConfidenceIoUHalf": [
+                  687.9531860351562,
+                  435.9259033203125,
+                  736.3654174804688,
+                  481.843017578125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.007964191026985645
+              },
+              {
+                "GTIndex": 14,
+                "bestRetainedRawIoU": 0.912285700890393,
+                "confidenceOfBestIoUBox": 0.006914363242685795,
+                "rawBoxesIoUAtLeastHalf": 12,
+                "bestConfidenceAtIoUHalf": 0.006914363242685795,
+                "boxAtBestConfidenceIoUHalf": [
+                  742.4586791992188,
+                  442.6231689453125,
+                  792.9386596679688,
+                  493.1878662109375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.006914363242685795
+              },
+              {
+                "GTIndex": 15,
+                "bestRetainedRawIoU": 0.813501113519351,
+                "confidenceOfBestIoUBox": 0.002794913249090314,
+                "rawBoxesIoUAtLeastHalf": 13,
+                "bestConfidenceAtIoUHalf": 0.006295892875641584,
+                "boxAtBestConfidenceIoUHalf": [
+                  806.543212890625,
+                  436.61224365234375,
+                  862.1966552734375,
+                  488.90997314453125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.006295892875641584
+              },
+              {
+                "GTIndex": 16,
+                "bestRetainedRawIoU": 0.8613965756135112,
+                "confidenceOfBestIoUBox": 0.0024712299928069115,
+                "rawBoxesIoUAtLeastHalf": 10,
+                "bestConfidenceAtIoUHalf": 0.002725247060880065,
+                "boxAtBestConfidenceIoUHalf": [
+                  861.2623901367188,
+                  437.70245361328125,
+                  913.3859252929688,
+                  493.79779052734375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002725247060880065
+              },
+              {
+                "GTIndex": 17,
+                "bestRetainedRawIoU": 0.8459783895139499,
+                "confidenceOfBestIoUBox": 0.0012771422043442726,
+                "rawBoxesIoUAtLeastHalf": 6,
+                "bestConfidenceAtIoUHalf": 0.004175172187387943,
+                "boxAtBestConfidenceIoUHalf": [
+                  905.959228515625,
+                  437.58294677734375,
+                  981.9228515625,
+                  503.01080322265625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004175172187387943
+              }
+            ],
+            "GTWithRetainedRawIoUHalf": 16,
+            "GTWithMatchingRawAtOperatingThreshold": 0,
+            "matchingConfidenceMedian": 0.004659977043047547,
+            "matchingConfidenceRange": [
+              0.002550497418269515,
+              0.0120081827044487
+            ]
+          },
+          "camera": {
+            "retainedRawAboveCacheFloor": 8102,
+            "maximumRawConfidence": 0.0120081827044487,
+            "rawAboveOperatingThreshold": 0,
+            "postNMSOperatingCount": 0,
+            "postNMSScores": [],
+            "postNMSNetworkXYXY": [],
+            "rawNPZSHA256": "5ba32a355be2af4c7c7e6da5b048ed6928170653716d2876bbbab36166779cbb",
+            "perGT": [
+              {
+                "GTIndex": 1,
+                "bestRetainedRawIoU": 0.32603549356061146,
+                "confidenceOfBestIoUBox": 0.003788933390751481,
+                "rawBoxesIoUAtLeastHalf": 0,
+                "bestConfidenceAtIoUHalf": null,
+                "boxAtBestConfidenceIoUHalf": null,
+                "bestConfidenceAtIoUQuarter": 0.003788933390751481
+              },
+              {
+                "GTIndex": 2,
+                "bestRetainedRawIoU": 0.7641800917329832,
+                "confidenceOfBestIoUBox": 0.002550497418269515,
+                "rawBoxesIoUAtLeastHalf": 5,
+                "bestConfidenceAtIoUHalf": 0.002550497418269515,
+                "boxAtBestConfidenceIoUHalf": [
+                  76.53952026367188,
+                  412.75994873046875,
+                  142.0811767578125,
+                  475.3704833984375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002550497418269515
+              },
+              {
+                "GTIndex": 3,
+                "bestRetainedRawIoU": 0.6372689122476374,
+                "confidenceOfBestIoUBox": 0.0014370455173775554,
+                "rawBoxesIoUAtLeastHalf": 9,
+                "bestConfidenceAtIoUHalf": 0.00432608462870121,
+                "boxAtBestConfidenceIoUHalf": [
+                  137.49395751953125,
+                  416.13323974609375,
+                  194.41583251953125,
+                  469.10845947265625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.00432608462870121
+              },
+              {
+                "GTIndex": 4,
+                "bestRetainedRawIoU": 0.855027996637314,
+                "confidenceOfBestIoUBox": 0.003035379806533456,
+                "rawBoxesIoUAtLeastHalf": 13,
+                "bestConfidenceAtIoUHalf": 0.005645561031997204,
+                "boxAtBestConfidenceIoUHalf": [
+                  197.64596557617188,
+                  417.415771484375,
+                  256.65203857421875,
+                  474.9842529296875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.005645561031997204
+              },
+              {
+                "GTIndex": 5,
+                "bestRetainedRawIoU": 0.5963186109194589,
+                "confidenceOfBestIoUBox": 0.0030302973464131355,
+                "rawBoxesIoUAtLeastHalf": 3,
+                "bestConfidenceAtIoUHalf": 0.0030302973464131355,
+                "boxAtBestConfidenceIoUHalf": [
+                  245.10182189941406,
+                  421.6964111328125,
+                  313.4683837890625,
+                  495.13592529296875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0030302973464131355
+              },
+              {
+                "GTIndex": 6,
+                "bestRetainedRawIoU": 0.9335410495408013,
+                "confidenceOfBestIoUBox": 0.004797723609954119,
+                "rawBoxesIoUAtLeastHalf": 11,
+                "bestConfidenceAtIoUHalf": 0.004797723609954119,
+                "boxAtBestConfidenceIoUHalf": [
+                  311.4359130859375,
+                  420.118408203125,
+                  365.4412841796875,
+                  475.52978515625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004797723609954119
+              },
+              {
+                "GTIndex": 7,
+                "bestRetainedRawIoU": 0.7883025545550559,
+                "confidenceOfBestIoUBox": 0.002444325014948845,
+                "rawBoxesIoUAtLeastHalf": 10,
+                "bestConfidenceAtIoUHalf": 0.0028915174771100283,
+                "boxAtBestConfidenceIoUHalf": [
+                  360.1688232421875,
+                  415.8640441894531,
+                  414.05181884765625,
+                  462.4141540527344
+                ],
+                "bestConfidenceAtIoUQuarter": 0.003016698407009244
+              },
+              {
+                "GTIndex": 8,
+                "bestRetainedRawIoU": 0.7790672945291501,
+                "confidenceOfBestIoUBox": 0.00118983571883291,
+                "rawBoxesIoUAtLeastHalf": 16,
+                "bestConfidenceAtIoUHalf": 0.004522230476140976,
+                "boxAtBestConfidenceIoUHalf": [
+                  414.3204345703125,
+                  428.67919921875,
+                  466.161376953125,
+                  479.54791259765625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004522230476140976
+              },
+              {
+                "GTIndex": 9,
+                "bestRetainedRawIoU": 0.8467997804848068,
+                "confidenceOfBestIoUBox": 0.002054545097053051,
+                "rawBoxesIoUAtLeastHalf": 12,
+                "bestConfidenceAtIoUHalf": 0.0032959417439997196,
+                "boxAtBestConfidenceIoUHalf": [
+                  469.1075439453125,
+                  426.4130859375,
+                  522.80224609375,
+                  475.1458740234375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0032959417439997196
+              },
+              {
+                "GTIndex": 10,
+                "bestRetainedRawIoU": 0.7834646063610687,
+                "confidenceOfBestIoUBox": 0.0030042072758078575,
+                "rawBoxesIoUAtLeastHalf": 18,
+                "bestConfidenceAtIoUHalf": 0.0120081827044487,
+                "boxAtBestConfidenceIoUHalf": [
+                  526.4296875,
+                  431.19061279296875,
+                  577.708984375,
+                  479.77630615234375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0120081827044487
+              },
+              {
+                "GTIndex": 11,
+                "bestRetainedRawIoU": 0.8384898995317066,
+                "confidenceOfBestIoUBox": 0.0010975028853863478,
+                "rawBoxesIoUAtLeastHalf": 14,
+                "bestConfidenceAtIoUHalf": 0.00782046839594841,
+                "boxAtBestConfidenceIoUHalf": [
+                  573.6580810546875,
+                  433.4282531738281,
+                  630.26123046875,
+                  484.2688293457031
+                ],
+                "bestConfidenceAtIoUQuarter": 0.00782046839594841
+              },
+              {
+                "GTIndex": 12,
+                "bestRetainedRawIoU": 0.8456376497692201,
+                "confidenceOfBestIoUBox": 0.003097964683547616,
+                "rawBoxesIoUAtLeastHalf": 15,
+                "bestConfidenceAtIoUHalf": 0.010236483067274094,
+                "boxAtBestConfidenceIoUHalf": [
+                  636.2069702148438,
+                  431.14324951171875,
+                  684.9988403320312,
+                  479.49591064453125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.010236483067274094
+              },
+              {
+                "GTIndex": 13,
+                "bestRetainedRawIoU": 0.8421141297500501,
+                "confidenceOfBestIoUBox": 0.0021733699832111597,
+                "rawBoxesIoUAtLeastHalf": 15,
+                "bestConfidenceAtIoUHalf": 0.007964191026985645,
+                "boxAtBestConfidenceIoUHalf": [
+                  687.9531860351562,
+                  435.9259033203125,
+                  736.3654174804688,
+                  481.843017578125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.007964191026985645
+              },
+              {
+                "GTIndex": 14,
+                "bestRetainedRawIoU": 0.912285700890393,
+                "confidenceOfBestIoUBox": 0.006914363242685795,
+                "rawBoxesIoUAtLeastHalf": 12,
+                "bestConfidenceAtIoUHalf": 0.006914363242685795,
+                "boxAtBestConfidenceIoUHalf": [
+                  742.4586791992188,
+                  442.6231689453125,
+                  792.9386596679688,
+                  493.1878662109375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.006914363242685795
+              },
+              {
+                "GTIndex": 15,
+                "bestRetainedRawIoU": 0.813501113519351,
+                "confidenceOfBestIoUBox": 0.002794913249090314,
+                "rawBoxesIoUAtLeastHalf": 13,
+                "bestConfidenceAtIoUHalf": 0.006295892875641584,
+                "boxAtBestConfidenceIoUHalf": [
+                  806.543212890625,
+                  436.61224365234375,
+                  862.1966552734375,
+                  488.90997314453125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.006295892875641584
+              },
+              {
+                "GTIndex": 16,
+                "bestRetainedRawIoU": 0.8613965756135112,
+                "confidenceOfBestIoUBox": 0.0024712299928069115,
+                "rawBoxesIoUAtLeastHalf": 10,
+                "bestConfidenceAtIoUHalf": 0.002725247060880065,
+                "boxAtBestConfidenceIoUHalf": [
+                  861.2623901367188,
+                  437.70245361328125,
+                  913.3859252929688,
+                  493.79779052734375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002725247060880065
+              },
+              {
+                "GTIndex": 17,
+                "bestRetainedRawIoU": 0.8459783895139499,
+                "confidenceOfBestIoUBox": 0.0012771422043442726,
+                "rawBoxesIoUAtLeastHalf": 6,
+                "bestConfidenceAtIoUHalf": 0.004175172187387943,
+                "boxAtBestConfidenceIoUHalf": [
+                  905.959228515625,
+                  437.58294677734375,
+                  981.9228515625,
+                  503.01080322265625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004175172187387943
+              }
+            ],
+            "GTWithRetainedRawIoUHalf": 16,
+            "GTWithMatchingRawAtOperatingThreshold": 0,
+            "matchingConfidenceMedian": 0.004659977043047547,
+            "matchingConfidenceRange": [
+              0.002550497418269515,
+              0.0120081827044487
+            ]
+          }
+        },
+        "modelSHA256": "7737285316121255539efab1157bb8335d8b42d04f6c200fd867cf6a8d539dbf"
+      },
+      "hardneg-smooth-add-xincheng": {
+        "bothVariantRawArraysBitIdentical": true,
+        "variants": {
+          "gallery": {
+            "retainedRawAboveCacheFloor": 6692,
+            "maximumRawConfidence": 0.5481389164924622,
+            "rawAboveOperatingThreshold": 13,
+            "postNMSOperatingCount": 6,
+            "postNMSScores": [
+              0.5481389164924622,
+              0.4933825135231018,
+              0.3826219439506531,
+              0.3734146058559418,
+              0.35805195569992065,
+              0.34158018231391907
+            ],
+            "postNMSNetworkXYXY": [
+              [
+                839.8231201171875,
+                367.7640380859375,
+                913.4415283203125,
+                442.057373046875
+              ],
+              [
+                724.4241333007812,
+                557.4491577148438,
+                792.9391479492188,
+                629.4380493164062
+              ],
+              [
+                411.7208251953125,
+                496.1312255859375,
+                492.907470703125,
+                568.884033203125
+              ],
+              [
+                661.214599609375,
+                689.4486083984375,
+                731.336181640625,
+                758.014892578125
+              ],
+              [
+                685.0012817382812,
+                627.5538940429688,
+                759.4299926757812,
+                696.5208129882812
+              ],
+              [
+                611.68017578125,
+                577.2353515625,
+                685.03076171875,
+                646.828857421875
+              ]
+            ],
+            "rawNPZSHA256": "b98515a8622123d5e6adaa0866488826d2fe90c232b58b53c8d6817aa079730c"
+          },
+          "camera": {
+            "retainedRawAboveCacheFloor": 6692,
+            "maximumRawConfidence": 0.5481389164924622,
+            "rawAboveOperatingThreshold": 13,
+            "postNMSOperatingCount": 6,
+            "postNMSScores": [
+              0.5481389164924622,
+              0.4933825135231018,
+              0.3826219439506531,
+              0.3734146058559418,
+              0.35805195569992065,
+              0.34158018231391907
+            ],
+            "postNMSNetworkXYXY": [
+              [
+                839.8231201171875,
+                367.7640380859375,
+                913.4415283203125,
+                442.057373046875
+              ],
+              [
+                724.4241333007812,
+                557.4491577148438,
+                792.9391479492188,
+                629.4380493164062
+              ],
+              [
+                411.7208251953125,
+                496.1312255859375,
+                492.907470703125,
+                568.884033203125
+              ],
+              [
+                661.214599609375,
+                689.4486083984375,
+                731.336181640625,
+                758.014892578125
+              ],
+              [
+                685.0012817382812,
+                627.5538940429688,
+                759.4299926757812,
+                696.5208129882812
+              ],
+              [
+                611.68017578125,
+                577.2353515625,
+                685.03076171875,
+                646.828857421875
+              ]
+            ],
+            "rawNPZSHA256": "b98515a8622123d5e6adaa0866488826d2fe90c232b58b53c8d6817aa079730c"
+          }
+        },
+        "modelSHA256": "7737285316121255539efab1157bb8335d8b42d04f6c200fd867cf6a8d539dbf"
+      },
+      "cacheBindingSHA256": "e4fcc357f19d4df3536219685158f6b4ae0daa8c03d0f0792edef419fdc1faf7"
+    },
+    "8": {
+      "new_maco_0021": {
+        "bothVariantRawArraysBitIdentical": true,
+        "variants": {
+          "gallery": {
+            "retainedRawAboveCacheFloor": 7384,
+            "maximumRawConfidence": 0.012284598313272,
+            "rawAboveOperatingThreshold": 0,
+            "postNMSOperatingCount": 0,
+            "postNMSScores": [],
+            "postNMSNetworkXYXY": [],
+            "rawNPZSHA256": "88a9e8b2100ebaf00a9b457e06b48fac916d9363b0ddc977e239537500e73411",
+            "perGT": [
+              {
+                "GTIndex": 1,
+                "bestRetainedRawIoU": 0.3275822667520962,
+                "confidenceOfBestIoUBox": 0.00375906890258193,
+                "rawBoxesIoUAtLeastHalf": 0,
+                "bestConfidenceAtIoUHalf": null,
+                "boxAtBestConfidenceIoUHalf": null,
+                "bestConfidenceAtIoUQuarter": 0.00375906890258193
+              },
+              {
+                "GTIndex": 2,
+                "bestRetainedRawIoU": 0.7967380410115865,
+                "confidenceOfBestIoUBox": 0.002065483946353197,
+                "rawBoxesIoUAtLeastHalf": 4,
+                "bestConfidenceAtIoUHalf": 0.0022257843520492315,
+                "boxAtBestConfidenceIoUHalf": [
+                  71.65345764160156,
+                  410.54107666015625,
+                  140.90235900878906,
+                  475.80255126953125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0024243963416665792
+              },
+              {
+                "GTIndex": 3,
+                "bestRetainedRawIoU": 0.7588609704655517,
+                "confidenceOfBestIoUBox": 0.0022905454970896244,
+                "rawBoxesIoUAtLeastHalf": 7,
+                "bestConfidenceAtIoUHalf": 0.0029410349670797586,
+                "boxAtBestConfidenceIoUHalf": [
+                  137.2268829345703,
+                  414.53057861328125,
+                  195.75755310058594,
+                  471.20135498046875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0029410349670797586
+              },
+              {
+                "GTIndex": 4,
+                "bestRetainedRawIoU": 0.8667495003526191,
+                "confidenceOfBestIoUBox": 0.002734461100772023,
+                "rawBoxesIoUAtLeastHalf": 11,
+                "bestConfidenceAtIoUHalf": 0.004563056863844395,
+                "boxAtBestConfidenceIoUHalf": [
+                  197.90176391601562,
+                  416.8254089355469,
+                  256.4613342285156,
+                  475.3816833496094
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004563056863844395
+              },
+              {
+                "GTIndex": 5,
+                "bestRetainedRawIoU": 0.5650146656449598,
+                "confidenceOfBestIoUBox": 0.002050538547337055,
+                "rawBoxesIoUAtLeastHalf": 2,
+                "bestConfidenceAtIoUHalf": 0.002576397033408284,
+                "boxAtBestConfidenceIoUHalf": [
+                  241.4726104736328,
+                  419.7880859375,
+                  314.88922119140625,
+                  499.8013916015625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002576397033408284
+              },
+              {
+                "GTIndex": 6,
+                "bestRetainedRawIoU": 0.9140807278733105,
+                "confidenceOfBestIoUBox": 0.0026814292650669813,
+                "rawBoxesIoUAtLeastHalf": 7,
+                "bestConfidenceAtIoUHalf": 0.00296552455984056,
+                "boxAtBestConfidenceIoUHalf": [
+                  309.92913818359375,
+                  417.6356201171875,
+                  365.64605712890625,
+                  480.0589599609375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.00296552455984056
+              },
+              {
+                "GTIndex": 7,
+                "bestRetainedRawIoU": 0.6565305662066693,
+                "confidenceOfBestIoUBox": 0.0010529657592996955,
+                "rawBoxesIoUAtLeastHalf": 6,
+                "bestConfidenceAtIoUHalf": 0.0021709753200411797,
+                "boxAtBestConfidenceIoUHalf": [
+                  358.203857421875,
+                  413.91961669921875,
+                  415.60382080078125,
+                  481.20733642578125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0027266754768788815
+              },
+              {
+                "GTIndex": 8,
+                "bestRetainedRawIoU": 0.7373740104157478,
+                "confidenceOfBestIoUBox": 0.0015285501722246408,
+                "rawBoxesIoUAtLeastHalf": 11,
+                "bestConfidenceAtIoUHalf": 0.002930958056822419,
+                "boxAtBestConfidenceIoUHalf": [
+                  395.6796569824219,
+                  409.650390625,
+                  468.1432189941406,
+                  486.669921875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002930958056822419
+              },
+              {
+                "GTIndex": 9,
+                "bestRetainedRawIoU": 0.8751056772181882,
+                "confidenceOfBestIoUBox": 0.001928586047142744,
+                "rawBoxesIoUAtLeastHalf": 7,
+                "bestConfidenceAtIoUHalf": 0.0022953355219215155,
+                "boxAtBestConfidenceIoUHalf": [
+                  469.31170654296875,
+                  424.8260192871094,
+                  521.6050415039062,
+                  476.6091003417969
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0028499881736934185
+              },
+              {
+                "GTIndex": 10,
+                "bestRetainedRawIoU": 0.7898050443747294,
+                "confidenceOfBestIoUBox": 0.002269187942147255,
+                "rawBoxesIoUAtLeastHalf": 16,
+                "bestConfidenceAtIoUHalf": 0.006344071589410305,
+                "boxAtBestConfidenceIoUHalf": [
+                  526.63037109375,
+                  430.7657470703125,
+                  577.67529296875,
+                  479.63250732421875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.006344071589410305
+              },
+              {
+                "GTIndex": 11,
+                "bestRetainedRawIoU": 0.8250846142596135,
+                "confidenceOfBestIoUBox": 0.001004568999633193,
+                "rawBoxesIoUAtLeastHalf": 12,
+                "bestConfidenceAtIoUHalf": 0.004964929539710283,
+                "boxAtBestConfidenceIoUHalf": [
+                  573.0323486328125,
+                  432.169921875,
+                  630.0594482421875,
+                  484.4830322265625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004964929539710283
+              },
+              {
+                "GTIndex": 12,
+                "bestRetainedRawIoU": 0.8610271783967467,
+                "confidenceOfBestIoUBox": 0.0029853330925107002,
+                "rawBoxesIoUAtLeastHalf": 14,
+                "bestConfidenceAtIoUHalf": 0.00430541206151247,
+                "boxAtBestConfidenceIoUHalf": [
+                  635.8843383789062,
+                  429.9466552734375,
+                  685.1879272460938,
+                  479.7327880859375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.00430541206151247
+              },
+              {
+                "GTIndex": 13,
+                "bestRetainedRawIoU": 0.8439839495391848,
+                "confidenceOfBestIoUBox": 0.0010619006352499127,
+                "rawBoxesIoUAtLeastHalf": 13,
+                "bestConfidenceAtIoUHalf": 0.005990889389067888,
+                "boxAtBestConfidenceIoUHalf": [
+                  687.432861328125,
+                  435.4132995605469,
+                  736.6260986328125,
+                  484.8808288574219
+                ],
+                "bestConfidenceAtIoUQuarter": 0.005990889389067888
+              },
+              {
+                "GTIndex": 14,
+                "bestRetainedRawIoU": 0.8724810313785086,
+                "confidenceOfBestIoUBox": 0.003180608619004488,
+                "rawBoxesIoUAtLeastHalf": 10,
+                "bestConfidenceAtIoUHalf": 0.003842680947855115,
+                "boxAtBestConfidenceIoUHalf": [
+                  740.9002685546875,
+                  441.43133544921875,
+                  792.8665771484375,
+                  495.9014892578125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.003842680947855115
+              },
+              {
+                "GTIndex": 15,
+                "bestRetainedRawIoU": 0.822060550045952,
+                "confidenceOfBestIoUBox": 0.0024157152511179447,
+                "rawBoxesIoUAtLeastHalf": 8,
+                "bestConfidenceAtIoUHalf": 0.004916373640298843,
+                "boxAtBestConfidenceIoUHalf": [
+                  806.525634765625,
+                  436.24664306640625,
+                  861.580078125,
+                  489.38421630859375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004916373640298843
+              },
+              {
+                "GTIndex": 16,
+                "bestRetainedRawIoU": 0.9008772856193822,
+                "confidenceOfBestIoUBox": 0.001837719464674592,
+                "rawBoxesIoUAtLeastHalf": 4,
+                "bestConfidenceAtIoUHalf": 0.002219647401943803,
+                "boxAtBestConfidenceIoUHalf": [
+                  860.7297973632812,
+                  437.46533203125,
+                  913.9404907226562,
+                  497.66864013671875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002219647401943803
+              },
+              {
+                "GTIndex": 17,
+                "bestRetainedRawIoU": 0.8563328697312341,
+                "confidenceOfBestIoUBox": 0.0011655199341475964,
+                "rawBoxesIoUAtLeastHalf": 5,
+                "bestConfidenceAtIoUHalf": 0.0031805147882550955,
+                "boxAtBestConfidenceIoUHalf": [
+                  902.9239501953125,
+                  436.42864990234375,
+                  983.7781982421875,
+                  505.69610595703125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0031805147882550955
+              }
+            ],
+            "GTWithRetainedRawIoUHalf": 16,
+            "GTWithMatchingRawAtOperatingThreshold": 0,
+            "matchingConfidenceMedian": 0.0030730196740478277,
+            "matchingConfidenceRange": [
+              0.0021709753200411797,
+              0.006344071589410305
+            ]
+          },
+          "camera": {
+            "retainedRawAboveCacheFloor": 7384,
+            "maximumRawConfidence": 0.012284598313272,
+            "rawAboveOperatingThreshold": 0,
+            "postNMSOperatingCount": 0,
+            "postNMSScores": [],
+            "postNMSNetworkXYXY": [],
+            "rawNPZSHA256": "88a9e8b2100ebaf00a9b457e06b48fac916d9363b0ddc977e239537500e73411",
+            "perGT": [
+              {
+                "GTIndex": 1,
+                "bestRetainedRawIoU": 0.3275822667520962,
+                "confidenceOfBestIoUBox": 0.00375906890258193,
+                "rawBoxesIoUAtLeastHalf": 0,
+                "bestConfidenceAtIoUHalf": null,
+                "boxAtBestConfidenceIoUHalf": null,
+                "bestConfidenceAtIoUQuarter": 0.00375906890258193
+              },
+              {
+                "GTIndex": 2,
+                "bestRetainedRawIoU": 0.7967380410115865,
+                "confidenceOfBestIoUBox": 0.002065483946353197,
+                "rawBoxesIoUAtLeastHalf": 4,
+                "bestConfidenceAtIoUHalf": 0.0022257843520492315,
+                "boxAtBestConfidenceIoUHalf": [
+                  71.65345764160156,
+                  410.54107666015625,
+                  140.90235900878906,
+                  475.80255126953125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0024243963416665792
+              },
+              {
+                "GTIndex": 3,
+                "bestRetainedRawIoU": 0.7588609704655517,
+                "confidenceOfBestIoUBox": 0.0022905454970896244,
+                "rawBoxesIoUAtLeastHalf": 7,
+                "bestConfidenceAtIoUHalf": 0.0029410349670797586,
+                "boxAtBestConfidenceIoUHalf": [
+                  137.2268829345703,
+                  414.53057861328125,
+                  195.75755310058594,
+                  471.20135498046875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0029410349670797586
+              },
+              {
+                "GTIndex": 4,
+                "bestRetainedRawIoU": 0.8667495003526191,
+                "confidenceOfBestIoUBox": 0.002734461100772023,
+                "rawBoxesIoUAtLeastHalf": 11,
+                "bestConfidenceAtIoUHalf": 0.004563056863844395,
+                "boxAtBestConfidenceIoUHalf": [
+                  197.90176391601562,
+                  416.8254089355469,
+                  256.4613342285156,
+                  475.3816833496094
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004563056863844395
+              },
+              {
+                "GTIndex": 5,
+                "bestRetainedRawIoU": 0.5650146656449598,
+                "confidenceOfBestIoUBox": 0.002050538547337055,
+                "rawBoxesIoUAtLeastHalf": 2,
+                "bestConfidenceAtIoUHalf": 0.002576397033408284,
+                "boxAtBestConfidenceIoUHalf": [
+                  241.4726104736328,
+                  419.7880859375,
+                  314.88922119140625,
+                  499.8013916015625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002576397033408284
+              },
+              {
+                "GTIndex": 6,
+                "bestRetainedRawIoU": 0.9140807278733105,
+                "confidenceOfBestIoUBox": 0.0026814292650669813,
+                "rawBoxesIoUAtLeastHalf": 7,
+                "bestConfidenceAtIoUHalf": 0.00296552455984056,
+                "boxAtBestConfidenceIoUHalf": [
+                  309.92913818359375,
+                  417.6356201171875,
+                  365.64605712890625,
+                  480.0589599609375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.00296552455984056
+              },
+              {
+                "GTIndex": 7,
+                "bestRetainedRawIoU": 0.6565305662066693,
+                "confidenceOfBestIoUBox": 0.0010529657592996955,
+                "rawBoxesIoUAtLeastHalf": 6,
+                "bestConfidenceAtIoUHalf": 0.0021709753200411797,
+                "boxAtBestConfidenceIoUHalf": [
+                  358.203857421875,
+                  413.91961669921875,
+                  415.60382080078125,
+                  481.20733642578125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0027266754768788815
+              },
+              {
+                "GTIndex": 8,
+                "bestRetainedRawIoU": 0.7373740104157478,
+                "confidenceOfBestIoUBox": 0.0015285501722246408,
+                "rawBoxesIoUAtLeastHalf": 11,
+                "bestConfidenceAtIoUHalf": 0.002930958056822419,
+                "boxAtBestConfidenceIoUHalf": [
+                  395.6796569824219,
+                  409.650390625,
+                  468.1432189941406,
+                  486.669921875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002930958056822419
+              },
+              {
+                "GTIndex": 9,
+                "bestRetainedRawIoU": 0.8751056772181882,
+                "confidenceOfBestIoUBox": 0.001928586047142744,
+                "rawBoxesIoUAtLeastHalf": 7,
+                "bestConfidenceAtIoUHalf": 0.0022953355219215155,
+                "boxAtBestConfidenceIoUHalf": [
+                  469.31170654296875,
+                  424.8260192871094,
+                  521.6050415039062,
+                  476.6091003417969
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0028499881736934185
+              },
+              {
+                "GTIndex": 10,
+                "bestRetainedRawIoU": 0.7898050443747294,
+                "confidenceOfBestIoUBox": 0.002269187942147255,
+                "rawBoxesIoUAtLeastHalf": 16,
+                "bestConfidenceAtIoUHalf": 0.006344071589410305,
+                "boxAtBestConfidenceIoUHalf": [
+                  526.63037109375,
+                  430.7657470703125,
+                  577.67529296875,
+                  479.63250732421875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.006344071589410305
+              },
+              {
+                "GTIndex": 11,
+                "bestRetainedRawIoU": 0.8250846142596135,
+                "confidenceOfBestIoUBox": 0.001004568999633193,
+                "rawBoxesIoUAtLeastHalf": 12,
+                "bestConfidenceAtIoUHalf": 0.004964929539710283,
+                "boxAtBestConfidenceIoUHalf": [
+                  573.0323486328125,
+                  432.169921875,
+                  630.0594482421875,
+                  484.4830322265625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004964929539710283
+              },
+              {
+                "GTIndex": 12,
+                "bestRetainedRawIoU": 0.8610271783967467,
+                "confidenceOfBestIoUBox": 0.0029853330925107002,
+                "rawBoxesIoUAtLeastHalf": 14,
+                "bestConfidenceAtIoUHalf": 0.00430541206151247,
+                "boxAtBestConfidenceIoUHalf": [
+                  635.8843383789062,
+                  429.9466552734375,
+                  685.1879272460938,
+                  479.7327880859375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.00430541206151247
+              },
+              {
+                "GTIndex": 13,
+                "bestRetainedRawIoU": 0.8439839495391848,
+                "confidenceOfBestIoUBox": 0.0010619006352499127,
+                "rawBoxesIoUAtLeastHalf": 13,
+                "bestConfidenceAtIoUHalf": 0.005990889389067888,
+                "boxAtBestConfidenceIoUHalf": [
+                  687.432861328125,
+                  435.4132995605469,
+                  736.6260986328125,
+                  484.8808288574219
+                ],
+                "bestConfidenceAtIoUQuarter": 0.005990889389067888
+              },
+              {
+                "GTIndex": 14,
+                "bestRetainedRawIoU": 0.8724810313785086,
+                "confidenceOfBestIoUBox": 0.003180608619004488,
+                "rawBoxesIoUAtLeastHalf": 10,
+                "bestConfidenceAtIoUHalf": 0.003842680947855115,
+                "boxAtBestConfidenceIoUHalf": [
+                  740.9002685546875,
+                  441.43133544921875,
+                  792.8665771484375,
+                  495.9014892578125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.003842680947855115
+              },
+              {
+                "GTIndex": 15,
+                "bestRetainedRawIoU": 0.822060550045952,
+                "confidenceOfBestIoUBox": 0.0024157152511179447,
+                "rawBoxesIoUAtLeastHalf": 8,
+                "bestConfidenceAtIoUHalf": 0.004916373640298843,
+                "boxAtBestConfidenceIoUHalf": [
+                  806.525634765625,
+                  436.24664306640625,
+                  861.580078125,
+                  489.38421630859375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004916373640298843
+              },
+              {
+                "GTIndex": 16,
+                "bestRetainedRawIoU": 0.9008772856193822,
+                "confidenceOfBestIoUBox": 0.001837719464674592,
+                "rawBoxesIoUAtLeastHalf": 4,
+                "bestConfidenceAtIoUHalf": 0.002219647401943803,
+                "boxAtBestConfidenceIoUHalf": [
+                  860.7297973632812,
+                  437.46533203125,
+                  913.9404907226562,
+                  497.66864013671875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002219647401943803
+              },
+              {
+                "GTIndex": 17,
+                "bestRetainedRawIoU": 0.8563328697312341,
+                "confidenceOfBestIoUBox": 0.0011655199341475964,
+                "rawBoxesIoUAtLeastHalf": 5,
+                "bestConfidenceAtIoUHalf": 0.0031805147882550955,
+                "boxAtBestConfidenceIoUHalf": [
+                  902.9239501953125,
+                  436.42864990234375,
+                  983.7781982421875,
+                  505.69610595703125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0031805147882550955
+              }
+            ],
+            "GTWithRetainedRawIoUHalf": 16,
+            "GTWithMatchingRawAtOperatingThreshold": 0,
+            "matchingConfidenceMedian": 0.0030730196740478277,
+            "matchingConfidenceRange": [
+              0.0021709753200411797,
+              0.006344071589410305
+            ]
+          }
+        },
+        "modelSHA256": "f55105949202e49e88d1831f6f04fb604bfb5418bb0dae8f482c7e458ccc1035"
+      },
+      "hardneg-smooth-add-xincheng": {
+        "bothVariantRawArraysBitIdentical": true,
+        "variants": {
+          "gallery": {
+            "retainedRawAboveCacheFloor": 6414,
+            "maximumRawConfidence": 0.8494904637336731,
+            "rawAboveOperatingThreshold": 235,
+            "postNMSOperatingCount": 57,
+            "postNMSScores": [
+              0.8494904637336731,
+              0.8139657974243164,
+              0.8039724230766296,
+              0.7989203929901123,
+              0.7447234392166138,
+              0.7385779023170471,
+              0.7191028594970703,
+              0.7157866954803467,
+              0.702225923538208,
+              0.6983149647712708,
+              0.6767522096633911,
+              0.6748877167701721,
+              0.6700722575187683,
+              0.6634005904197693,
+              0.6575930714607239,
+              0.6456108093261719,
+              0.6379302740097046,
+              0.6332273483276367,
+              0.6311557292938232,
+              0.6294671893119812,
+              0.6223828792572021,
+              0.6063675284385681,
+              0.60197514295578,
+              0.5768694877624512,
+              0.5755455493927002,
+              0.5622521042823792,
+              0.5553127527236938,
+              0.5432026386260986,
+              0.5430301427841187,
+              0.5358301997184753,
+              0.4896705448627472,
+              0.47627538442611694,
+              0.47284090518951416,
+              0.47115352749824524,
+              0.46949562430381775,
+              0.4480738937854767,
+              0.4469336271286011,
+              0.4346945285797119,
+              0.4296542704105377,
+              0.40987950563430786,
+              0.4008065164089203,
+              0.3978141248226166,
+              0.3943270742893219,
+              0.3903074562549591,
+              0.3715990483760834,
+              0.3691469430923462,
+              0.3668472468852997,
+              0.36076879501342773,
+              0.3535284399986267,
+              0.3465828001499176,
+              0.34237539768218994,
+              0.34035176038742065,
+              0.33918237686157227,
+              0.33436378836631775,
+              0.3158958852291107,
+              0.31542202830314636,
+              0.31062036752700806
+            ],
+            "postNMSNetworkXYXY": [
+              [
+                840.630615234375,
+                367.5873718261719,
+                912.8243408203125,
+                441.5234069824219
+              ],
+              [
+                724.36767578125,
+                556.9415283203125,
+                792.99658203125,
+                629.1348876953125
+              ],
+              [
+                685.6839599609375,
+                626.9533081054688,
+                760.4591064453125,
+                696.8422241210938
+              ],
+              [
+                661.3634033203125,
+                688.57177734375,
+                731.6190185546875,
+                757.9320068359375
+              ],
+              [
+                667.7321166992188,
+                761.8069458007812,
+                739.7128295898438,
+                824.0559692382812
+              ],
+              [
+                766.5819091796875,
+                499.0954284667969,
+                836.8687744140625,
+                571.44482421875
+              ],
+              [
+                911.5338134765625,
+                361.35223388671875,
+                981.3177490234375,
+                432.64007568359375
+              ],
+              [
+                636.9662475585938,
+                452.17071533203125,
+                713.3604125976562,
+                525.0294799804688
+              ],
+              [
+                974.8790283203125,
+                358.2501525878906,
+                1024.073974609375,
+                431.6283264160156
+              ],
+              [
+                611.6943969726562,
+                578.70068359375,
+                684.2394409179688,
+                646.997314453125
+              ],
+              [
+                588.676513671875,
+                653.5679931640625,
+                662.17431640625,
+                722.6925048828125
+              ],
+              [
+                518.0411376953125,
+                358.9683532714844,
+                601.2509765625,
+                438.7356872558594
+              ],
+              [
+                570.2894287109375,
+                500.61651611328125,
+                646.2623291015625,
+                572.0744018554688
+              ],
+              [
+                412.37371826171875,
+                496.6124267578125,
+                492.18597412109375,
+                568.5125732421875
+              ],
+              [
+                572.0429077148438,
+                728.287841796875,
+                646.6713256835938,
+                791.208251953125
+              ],
+              [
+                494.3751525878906,
+                500.64276123046875,
+                571.6456298828125,
+                572.7763061523438
+              ],
+              [
+                807.8671875,
+                437.83294677734375,
+                881.101806640625,
+                506.18707275390625
+              ],
+              [
+                519.3287353515625,
+                672.7428588867188,
+                591.6009521484375,
+                746.6572875976562
+              ],
+              [
+                535.90283203125,
+                438.69122314453125,
+                615.718505859375,
+                511.6988525390625
+              ],
+              [
+                932.2659912109375,
+                420.1756591796875,
+                1003.1929931640625,
+                494.6478271484375
+              ],
+              [
+                545.3043212890625,
+                572.861083984375,
+                617.6041259765625,
+                646.690185546875
+              ],
+              [
+                791.4053955078125,
+                786.3395385742188,
+                857.5194091796875,
+                851.7095336914062
+              ],
+              [
+                135.10693359375,
+                502.2767028808594,
+                223.827392578125,
+                585.8929443359375
+              ],
+              [
+                328.5911865234375,
+                493.66064453125,
+                414.278564453125,
+                571.9005126953125
+              ],
+              [
+                378.947265625,
+                429.7276916503906,
+                465.68798828125,
+                510.3930969238281
+              ],
+              [
+                597.0521240234375,
+                390.01263427734375,
+                677.2032470703125,
+                467.59490966796875
+              ],
+              [
+                761.7915649414062,
+                612.7739868164062,
+                830.5805053710938,
+                680.8693237304688
+              ],
+              [
+                488.2796325683594,
+                614.56591796875,
+                558.9088134765625,
+                685.141357421875
+              ],
+              [
+                4.908226013183594,
+                706.8695068359375,
+                96.36670684814453,
+                781.468017578125
+              ],
+              [
+                638.0838623046875,
+                519.0008544921875,
+                709.1676025390625,
+                588.5333251953125
+              ],
+              [
+                728.8690185546875,
+                677.411376953125,
+                795.0804443359375,
+                745.150146484375
+              ],
+              [
+                463.31707763671875,
+                431.6959228515625,
+                537.5536499023438,
+                508.5455322265625
+              ],
+              [
+                799.42236328125,
+                556.5391845703125,
+                867.4697265625,
+                625.3446044921875
+              ],
+              [
+                824.279052734375,
+                725.52294921875,
+                890.6005859375,
+                790.8309326171875
+              ],
+              [
+                888.8388671875,
+                721.03369140625,
+                952.142333984375,
+                781.201171875
+              ],
+              [
+                231.93260192871094,
+                501.46331787109375,
+                316.80517578125,
+                581.2251586914062
+              ],
+              [
+                280.114501953125,
+                556.771728515625,
+                366.3416748046875,
+                631.8836669921875
+              ],
+              [
+                240.64144897460938,
+                618.0147705078125,
+                324.3614196777344,
+                690.1549072265625
+              ],
+              [
+                794.0712890625,
+                665.9228515625,
+                862.07958984375,
+                733.98388671875
+              ],
+              [
+                870.4585571289062,
+                422.7835693359375,
+                935.4443969726562,
+                492.602783203125
+              ],
+              [
+                60.367305755615234,
+                771.6322021484375,
+                146.71585083007812,
+                848.633056640625
+              ],
+              [
+                507.88629150390625,
+                787.138916015625,
+                578.0086059570312,
+                856.0390625
+              ],
+              [
+                184.97372436523438,
+                561.626220703125,
+                274.1805114746094,
+                633.3446044921875
+              ],
+              [
+                726.3487548828125,
+                795.5577392578125,
+                794.9486083984375,
+                861.1224365234375
+              ],
+              [
+                949.82470703125,
+                713.75,
+                1013.83251953125,
+                772.9013671875
+              ],
+              [
+                913.818359375,
+                771.021484375,
+                981.708251953125,
+                836.9990234375
+              ],
+              [
+                99.09465789794922,
+                570.1153564453125,
+                181.99505615234375,
+                648.695556640625
+              ],
+              [
+                3.43585205078125,
+                570.5279541015625,
+                94.97332000732422,
+                656.6553955078125
+              ],
+              [
+                361.9722900390625,
+                801.868896484375,
+                435.399169921875,
+                870.29052734375
+              ],
+              [
+                45.642791748046875,
+                638.7294921875,
+                134.6170654296875,
+                712.108154296875
+              ],
+              [
+                152.58078002929688,
+                756.5498046875,
+                236.712646484375,
+                826.36083984375
+              ],
+              [
+                461.701904296875,
+                686.20751953125,
+                519.5177612304688,
+                756.5604248046875
+              ],
+              [
+                100.45755767822266,
+                702.9632568359375,
+                184.76138305664062,
+                779.6116943359375
+              ],
+              [
+                755.34716796875,
+                733.8214111328125,
+                823.1239013671875,
+                799.2359619140625
+              ],
+              [
+                182.59213256835938,
+                429.3114318847656,
+                272.37054443359375,
+                511.2729187011719
+              ],
+              [
+                847.601806640625,
+                773.54248046875,
+                912.567626953125,
+                835.265380859375
+              ],
+              [
+                89.45693969726562,
+                432.1798095703125,
+                181.65435791015625,
+                519.200439453125
+              ]
+            ],
+            "rawNPZSHA256": "1cf05c1a03d0802e9260cc1748e21947730ba440e521ae57baba77195d8aff6c"
+          },
+          "camera": {
+            "retainedRawAboveCacheFloor": 6414,
+            "maximumRawConfidence": 0.8494904637336731,
+            "rawAboveOperatingThreshold": 235,
+            "postNMSOperatingCount": 57,
+            "postNMSScores": [
+              0.8494904637336731,
+              0.8139657974243164,
+              0.8039724230766296,
+              0.7989203929901123,
+              0.7447234392166138,
+              0.7385779023170471,
+              0.7191028594970703,
+              0.7157866954803467,
+              0.702225923538208,
+              0.6983149647712708,
+              0.6767522096633911,
+              0.6748877167701721,
+              0.6700722575187683,
+              0.6634005904197693,
+              0.6575930714607239,
+              0.6456108093261719,
+              0.6379302740097046,
+              0.6332273483276367,
+              0.6311557292938232,
+              0.6294671893119812,
+              0.6223828792572021,
+              0.6063675284385681,
+              0.60197514295578,
+              0.5768694877624512,
+              0.5755455493927002,
+              0.5622521042823792,
+              0.5553127527236938,
+              0.5432026386260986,
+              0.5430301427841187,
+              0.5358301997184753,
+              0.4896705448627472,
+              0.47627538442611694,
+              0.47284090518951416,
+              0.47115352749824524,
+              0.46949562430381775,
+              0.4480738937854767,
+              0.4469336271286011,
+              0.4346945285797119,
+              0.4296542704105377,
+              0.40987950563430786,
+              0.4008065164089203,
+              0.3978141248226166,
+              0.3943270742893219,
+              0.3903074562549591,
+              0.3715990483760834,
+              0.3691469430923462,
+              0.3668472468852997,
+              0.36076879501342773,
+              0.3535284399986267,
+              0.3465828001499176,
+              0.34237539768218994,
+              0.34035176038742065,
+              0.33918237686157227,
+              0.33436378836631775,
+              0.3158958852291107,
+              0.31542202830314636,
+              0.31062036752700806
+            ],
+            "postNMSNetworkXYXY": [
+              [
+                840.630615234375,
+                367.5873718261719,
+                912.8243408203125,
+                441.5234069824219
+              ],
+              [
+                724.36767578125,
+                556.9415283203125,
+                792.99658203125,
+                629.1348876953125
+              ],
+              [
+                685.6839599609375,
+                626.9533081054688,
+                760.4591064453125,
+                696.8422241210938
+              ],
+              [
+                661.3634033203125,
+                688.57177734375,
+                731.6190185546875,
+                757.9320068359375
+              ],
+              [
+                667.7321166992188,
+                761.8069458007812,
+                739.7128295898438,
+                824.0559692382812
+              ],
+              [
+                766.5819091796875,
+                499.0954284667969,
+                836.8687744140625,
+                571.44482421875
+              ],
+              [
+                911.5338134765625,
+                361.35223388671875,
+                981.3177490234375,
+                432.64007568359375
+              ],
+              [
+                636.9662475585938,
+                452.17071533203125,
+                713.3604125976562,
+                525.0294799804688
+              ],
+              [
+                974.8790283203125,
+                358.2501525878906,
+                1024.073974609375,
+                431.6283264160156
+              ],
+              [
+                611.6943969726562,
+                578.70068359375,
+                684.2394409179688,
+                646.997314453125
+              ],
+              [
+                588.676513671875,
+                653.5679931640625,
+                662.17431640625,
+                722.6925048828125
+              ],
+              [
+                518.0411376953125,
+                358.9683532714844,
+                601.2509765625,
+                438.7356872558594
+              ],
+              [
+                570.2894287109375,
+                500.61651611328125,
+                646.2623291015625,
+                572.0744018554688
+              ],
+              [
+                412.37371826171875,
+                496.6124267578125,
+                492.18597412109375,
+                568.5125732421875
+              ],
+              [
+                572.0429077148438,
+                728.287841796875,
+                646.6713256835938,
+                791.208251953125
+              ],
+              [
+                494.3751525878906,
+                500.64276123046875,
+                571.6456298828125,
+                572.7763061523438
+              ],
+              [
+                807.8671875,
+                437.83294677734375,
+                881.101806640625,
+                506.18707275390625
+              ],
+              [
+                519.3287353515625,
+                672.7428588867188,
+                591.6009521484375,
+                746.6572875976562
+              ],
+              [
+                535.90283203125,
+                438.69122314453125,
+                615.718505859375,
+                511.6988525390625
+              ],
+              [
+                932.2659912109375,
+                420.1756591796875,
+                1003.1929931640625,
+                494.6478271484375
+              ],
+              [
+                545.3043212890625,
+                572.861083984375,
+                617.6041259765625,
+                646.690185546875
+              ],
+              [
+                791.4053955078125,
+                786.3395385742188,
+                857.5194091796875,
+                851.7095336914062
+              ],
+              [
+                135.10693359375,
+                502.2767028808594,
+                223.827392578125,
+                585.8929443359375
+              ],
+              [
+                328.5911865234375,
+                493.66064453125,
+                414.278564453125,
+                571.9005126953125
+              ],
+              [
+                378.947265625,
+                429.7276916503906,
+                465.68798828125,
+                510.3930969238281
+              ],
+              [
+                597.0521240234375,
+                390.01263427734375,
+                677.2032470703125,
+                467.59490966796875
+              ],
+              [
+                761.7915649414062,
+                612.7739868164062,
+                830.5805053710938,
+                680.8693237304688
+              ],
+              [
+                488.2796325683594,
+                614.56591796875,
+                558.9088134765625,
+                685.141357421875
+              ],
+              [
+                4.908226013183594,
+                706.8695068359375,
+                96.36670684814453,
+                781.468017578125
+              ],
+              [
+                638.0838623046875,
+                519.0008544921875,
+                709.1676025390625,
+                588.5333251953125
+              ],
+              [
+                728.8690185546875,
+                677.411376953125,
+                795.0804443359375,
+                745.150146484375
+              ],
+              [
+                463.31707763671875,
+                431.6959228515625,
+                537.5536499023438,
+                508.5455322265625
+              ],
+              [
+                799.42236328125,
+                556.5391845703125,
+                867.4697265625,
+                625.3446044921875
+              ],
+              [
+                824.279052734375,
+                725.52294921875,
+                890.6005859375,
+                790.8309326171875
+              ],
+              [
+                888.8388671875,
+                721.03369140625,
+                952.142333984375,
+                781.201171875
+              ],
+              [
+                231.93260192871094,
+                501.46331787109375,
+                316.80517578125,
+                581.2251586914062
+              ],
+              [
+                280.114501953125,
+                556.771728515625,
+                366.3416748046875,
+                631.8836669921875
+              ],
+              [
+                240.64144897460938,
+                618.0147705078125,
+                324.3614196777344,
+                690.1549072265625
+              ],
+              [
+                794.0712890625,
+                665.9228515625,
+                862.07958984375,
+                733.98388671875
+              ],
+              [
+                870.4585571289062,
+                422.7835693359375,
+                935.4443969726562,
+                492.602783203125
+              ],
+              [
+                60.367305755615234,
+                771.6322021484375,
+                146.71585083007812,
+                848.633056640625
+              ],
+              [
+                507.88629150390625,
+                787.138916015625,
+                578.0086059570312,
+                856.0390625
+              ],
+              [
+                184.97372436523438,
+                561.626220703125,
+                274.1805114746094,
+                633.3446044921875
+              ],
+              [
+                726.3487548828125,
+                795.5577392578125,
+                794.9486083984375,
+                861.1224365234375
+              ],
+              [
+                949.82470703125,
+                713.75,
+                1013.83251953125,
+                772.9013671875
+              ],
+              [
+                913.818359375,
+                771.021484375,
+                981.708251953125,
+                836.9990234375
+              ],
+              [
+                99.09465789794922,
+                570.1153564453125,
+                181.99505615234375,
+                648.695556640625
+              ],
+              [
+                3.43585205078125,
+                570.5279541015625,
+                94.97332000732422,
+                656.6553955078125
+              ],
+              [
+                361.9722900390625,
+                801.868896484375,
+                435.399169921875,
+                870.29052734375
+              ],
+              [
+                45.642791748046875,
+                638.7294921875,
+                134.6170654296875,
+                712.108154296875
+              ],
+              [
+                152.58078002929688,
+                756.5498046875,
+                236.712646484375,
+                826.36083984375
+              ],
+              [
+                461.701904296875,
+                686.20751953125,
+                519.5177612304688,
+                756.5604248046875
+              ],
+              [
+                100.45755767822266,
+                702.9632568359375,
+                184.76138305664062,
+                779.6116943359375
+              ],
+              [
+                755.34716796875,
+                733.8214111328125,
+                823.1239013671875,
+                799.2359619140625
+              ],
+              [
+                182.59213256835938,
+                429.3114318847656,
+                272.37054443359375,
+                511.2729187011719
+              ],
+              [
+                847.601806640625,
+                773.54248046875,
+                912.567626953125,
+                835.265380859375
+              ],
+              [
+                89.45693969726562,
+                432.1798095703125,
+                181.65435791015625,
+                519.200439453125
+              ]
+            ],
+            "rawNPZSHA256": "1cf05c1a03d0802e9260cc1748e21947730ba440e521ae57baba77195d8aff6c"
+          }
+        },
+        "modelSHA256": "f55105949202e49e88d1831f6f04fb604bfb5418bb0dae8f482c7e458ccc1035"
+      },
+      "cacheBindingSHA256": "ddda1926fc439b97c0717e08c86b46736b258179fdcea9a456986aed69aef543"
+    },
+    "12": {
+      "new_maco_0021": {
+        "bothVariantRawArraysBitIdentical": true,
+        "variants": {
+          "gallery": {
+            "retainedRawAboveCacheFloor": 6295,
+            "maximumRawConfidence": 0.012298139743506908,
+            "rawAboveOperatingThreshold": 0,
+            "postNMSOperatingCount": 0,
+            "postNMSScores": [],
+            "postNMSNetworkXYXY": [],
+            "rawNPZSHA256": "842f76a7a202839446c8f3a94e08e9b23b7a2832ef17d85fdc2b713cbed7617d",
+            "perGT": [
+              {
+                "GTIndex": 1,
+                "bestRetainedRawIoU": 0.3156492996759057,
+                "confidenceOfBestIoUBox": 0.0022042214404791594,
+                "rawBoxesIoUAtLeastHalf": 0,
+                "bestConfidenceAtIoUHalf": null,
+                "boxAtBestConfidenceIoUHalf": null,
+                "bestConfidenceAtIoUQuarter": 0.0023651663213968277
+              },
+              {
+                "GTIndex": 2,
+                "bestRetainedRawIoU": 0.6230212281311434,
+                "confidenceOfBestIoUBox": 0.0017672107787802815,
+                "rawBoxesIoUAtLeastHalf": 2,
+                "bestConfidenceAtIoUHalf": 0.0018313828622922301,
+                "boxAtBestConfidenceIoUHalf": [
+                  53.60360336303711,
+                  405.3246154785156,
+                  142.51455688476562,
+                  488.4407653808594
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0018397473031654954
+              },
+              {
+                "GTIndex": 3,
+                "bestRetainedRawIoU": 0.7726149778022228,
+                "confidenceOfBestIoUBox": 0.0016500548226758838,
+                "rawBoxesIoUAtLeastHalf": 4,
+                "bestConfidenceAtIoUHalf": 0.0023008007556200027,
+                "boxAtBestConfidenceIoUHalf": [
+                  135.93026733398438,
+                  411.93280029296875,
+                  195.48959350585938,
+                  478.33416748046875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004878087900578976
+              },
+              {
+                "GTIndex": 4,
+                "bestRetainedRawIoU": 0.8719409927202046,
+                "confidenceOfBestIoUBox": 0.002679642289876938,
+                "rawBoxesIoUAtLeastHalf": 6,
+                "bestConfidenceAtIoUHalf": 0.00318294670432806,
+                "boxAtBestConfidenceIoUHalf": [
+                  197.37396240234375,
+                  415.300048828125,
+                  257.2554931640625,
+                  478.588134765625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.00318294670432806
+              },
+              {
+                "GTIndex": 5,
+                "bestRetainedRawIoU": 0.517208128141027,
+                "confidenceOfBestIoUBox": 0.0018233315786346793,
+                "rawBoxesIoUAtLeastHalf": 1,
+                "bestConfidenceAtIoUHalf": 0.0018233315786346793,
+                "boxAtBestConfidenceIoUHalf": [
+                  235.7806396484375,
+                  421.19427490234375,
+                  304.694580078125,
+                  500.09161376953125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0022650042083114386
+              },
+              {
+                "GTIndex": 6,
+                "bestRetainedRawIoU": 0.7206370577165154,
+                "confidenceOfBestIoUBox": 0.002011273056268692,
+                "rawBoxesIoUAtLeastHalf": 3,
+                "bestConfidenceAtIoUHalf": 0.002179123926907778,
+                "boxAtBestConfidenceIoUHalf": [
+                  305.67535400390625,
+                  414.65081787109375,
+                  365.73675537109375,
+                  490.69415283203125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002179123926907778
+              },
+              {
+                "GTIndex": 7,
+                "bestRetainedRawIoU": 0.419400011463513,
+                "confidenceOfBestIoUBox": 0.0018875397508963943,
+                "rawBoxesIoUAtLeastHalf": 0,
+                "bestConfidenceAtIoUHalf": null,
+                "boxAtBestConfidenceIoUHalf": null,
+                "bestConfidenceAtIoUQuarter": 0.0024805807042866945
+              },
+              {
+                "GTIndex": 8,
+                "bestRetainedRawIoU": 0.7148764559343382,
+                "confidenceOfBestIoUBox": 0.0010034091537818313,
+                "rawBoxesIoUAtLeastHalf": 5,
+                "bestConfidenceAtIoUHalf": 0.002053613541647792,
+                "boxAtBestConfidenceIoUHalf": [
+                  396.06640625,
+                  422.2413330078125,
+                  466.87933349609375,
+                  486.0767822265625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0024799553211778402
+              },
+              {
+                "GTIndex": 9,
+                "bestRetainedRawIoU": 0.8167845890246761,
+                "confidenceOfBestIoUBox": 0.0018125259084627032,
+                "rawBoxesIoUAtLeastHalf": 5,
+                "bestConfidenceAtIoUHalf": 0.0018125259084627032,
+                "boxAtBestConfidenceIoUHalf": [
+                  464.57940673828125,
+                  421.7236328125,
+                  522.2606201171875,
+                  484.7742919921875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0018125259084627032
+              },
+              {
+                "GTIndex": 10,
+                "bestRetainedRawIoU": 0.7756802839352295,
+                "confidenceOfBestIoUBox": 0.0016985152615234256,
+                "rawBoxesIoUAtLeastHalf": 14,
+                "bestConfidenceAtIoUHalf": 0.0033151896204799414,
+                "boxAtBestConfidenceIoUHalf": [
+                  526.6015014648438,
+                  430.75677490234375,
+                  577.6062622070312,
+                  479.17791748046875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0033151896204799414
+              },
+              {
+                "GTIndex": 11,
+                "bestRetainedRawIoU": 0.8559528202695726,
+                "confidenceOfBestIoUBox": 0.0010303098242729902,
+                "rawBoxesIoUAtLeastHalf": 8,
+                "bestConfidenceAtIoUHalf": 0.0028439697343856096,
+                "boxAtBestConfidenceIoUHalf": [
+                  571.558837890625,
+                  429.1583557128906,
+                  629.99658203125,
+                  484.8271789550781
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0028439697343856096
+              },
+              {
+                "GTIndex": 12,
+                "bestRetainedRawIoU": 0.8540419210943709,
+                "confidenceOfBestIoUBox": 0.002246781252324581,
+                "rawBoxesIoUAtLeastHalf": 10,
+                "bestConfidenceAtIoUHalf": 0.0028489460237324238,
+                "boxAtBestConfidenceIoUHalf": [
+                  635.203125,
+                  429.36224365234375,
+                  684.810302734375,
+                  479.16241455078125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0028489460237324238
+              },
+              {
+                "GTIndex": 13,
+                "bestRetainedRawIoU": 0.8321025919038,
+                "confidenceOfBestIoUBox": 0.0012647188268601894,
+                "rawBoxesIoUAtLeastHalf": 9,
+                "bestConfidenceAtIoUHalf": 0.0033597860019654036,
+                "boxAtBestConfidenceIoUHalf": [
+                  686.9678955078125,
+                  434.86529541015625,
+                  736.4166259765625,
+                  486.32672119140625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0033597860019654036
+              },
+              {
+                "GTIndex": 14,
+                "bestRetainedRawIoU": 0.7825466708141555,
+                "confidenceOfBestIoUBox": 0.0027169848326593637,
+                "rawBoxesIoUAtLeastHalf": 5,
+                "bestConfidenceAtIoUHalf": 0.0027169848326593637,
+                "boxAtBestConfidenceIoUHalf": [
+                  739.6868286132812,
+                  440.54241943359375,
+                  793.4439086914062,
+                  502.03790283203125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0027169848326593637
+              },
+              {
+                "GTIndex": 15,
+                "bestRetainedRawIoU": 0.8402352262312803,
+                "confidenceOfBestIoUBox": 0.0019617071375250816,
+                "rawBoxesIoUAtLeastHalf": 4,
+                "bestConfidenceAtIoUHalf": 0.0031041044276207685,
+                "boxAtBestConfidenceIoUHalf": [
+                  805.769775390625,
+                  435.44659423828125,
+                  861.4296875,
+                  490.02484130859375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0031041044276207685
+              },
+              {
+                "GTIndex": 16,
+                "bestRetainedRawIoU": 0.7221089651784369,
+                "confidenceOfBestIoUBox": 0.0018906883196905255,
+                "rawBoxesIoUAtLeastHalf": 3,
+                "bestConfidenceAtIoUHalf": 0.0018906883196905255,
+                "boxAtBestConfidenceIoUHalf": [
+                  857.482666015625,
+                  435.7684631347656,
+                  914.93896484375,
+                  508.6173400878906
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0018906883196905255
+              },
+              {
+                "GTIndex": 17,
+                "bestRetainedRawIoU": 0.8004884325983546,
+                "confidenceOfBestIoUBox": 0.0012962000910192728,
+                "rawBoxesIoUAtLeastHalf": 2,
+                "bestConfidenceAtIoUHalf": 0.0012962000910192728,
+                "boxAtBestConfidenceIoUHalf": [
+                  917.0255126953125,
+                  441.88189697265625,
+                  970.4385986328125,
+                  492.9761962890625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0026100468821823597
+              }
+            ],
+            "GTWithRetainedRawIoUHalf": 15,
+            "GTWithMatchingRawAtOperatingThreshold": 0,
+            "matchingConfidenceMedian": 0.0023008007556200027,
+            "matchingConfidenceRange": [
+              0.0012962000910192728,
+              0.0033597860019654036
+            ]
+          },
+          "camera": {
+            "retainedRawAboveCacheFloor": 6295,
+            "maximumRawConfidence": 0.012298139743506908,
+            "rawAboveOperatingThreshold": 0,
+            "postNMSOperatingCount": 0,
+            "postNMSScores": [],
+            "postNMSNetworkXYXY": [],
+            "rawNPZSHA256": "842f76a7a202839446c8f3a94e08e9b23b7a2832ef17d85fdc2b713cbed7617d",
+            "perGT": [
+              {
+                "GTIndex": 1,
+                "bestRetainedRawIoU": 0.3156492996759057,
+                "confidenceOfBestIoUBox": 0.0022042214404791594,
+                "rawBoxesIoUAtLeastHalf": 0,
+                "bestConfidenceAtIoUHalf": null,
+                "boxAtBestConfidenceIoUHalf": null,
+                "bestConfidenceAtIoUQuarter": 0.0023651663213968277
+              },
+              {
+                "GTIndex": 2,
+                "bestRetainedRawIoU": 0.6230212281311434,
+                "confidenceOfBestIoUBox": 0.0017672107787802815,
+                "rawBoxesIoUAtLeastHalf": 2,
+                "bestConfidenceAtIoUHalf": 0.0018313828622922301,
+                "boxAtBestConfidenceIoUHalf": [
+                  53.60360336303711,
+                  405.3246154785156,
+                  142.51455688476562,
+                  488.4407653808594
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0018397473031654954
+              },
+              {
+                "GTIndex": 3,
+                "bestRetainedRawIoU": 0.7726149778022228,
+                "confidenceOfBestIoUBox": 0.0016500548226758838,
+                "rawBoxesIoUAtLeastHalf": 4,
+                "bestConfidenceAtIoUHalf": 0.0023008007556200027,
+                "boxAtBestConfidenceIoUHalf": [
+                  135.93026733398438,
+                  411.93280029296875,
+                  195.48959350585938,
+                  478.33416748046875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.004878087900578976
+              },
+              {
+                "GTIndex": 4,
+                "bestRetainedRawIoU": 0.8719409927202046,
+                "confidenceOfBestIoUBox": 0.002679642289876938,
+                "rawBoxesIoUAtLeastHalf": 6,
+                "bestConfidenceAtIoUHalf": 0.00318294670432806,
+                "boxAtBestConfidenceIoUHalf": [
+                  197.37396240234375,
+                  415.300048828125,
+                  257.2554931640625,
+                  478.588134765625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.00318294670432806
+              },
+              {
+                "GTIndex": 5,
+                "bestRetainedRawIoU": 0.517208128141027,
+                "confidenceOfBestIoUBox": 0.0018233315786346793,
+                "rawBoxesIoUAtLeastHalf": 1,
+                "bestConfidenceAtIoUHalf": 0.0018233315786346793,
+                "boxAtBestConfidenceIoUHalf": [
+                  235.7806396484375,
+                  421.19427490234375,
+                  304.694580078125,
+                  500.09161376953125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0022650042083114386
+              },
+              {
+                "GTIndex": 6,
+                "bestRetainedRawIoU": 0.7206370577165154,
+                "confidenceOfBestIoUBox": 0.002011273056268692,
+                "rawBoxesIoUAtLeastHalf": 3,
+                "bestConfidenceAtIoUHalf": 0.002179123926907778,
+                "boxAtBestConfidenceIoUHalf": [
+                  305.67535400390625,
+                  414.65081787109375,
+                  365.73675537109375,
+                  490.69415283203125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.002179123926907778
+              },
+              {
+                "GTIndex": 7,
+                "bestRetainedRawIoU": 0.419400011463513,
+                "confidenceOfBestIoUBox": 0.0018875397508963943,
+                "rawBoxesIoUAtLeastHalf": 0,
+                "bestConfidenceAtIoUHalf": null,
+                "boxAtBestConfidenceIoUHalf": null,
+                "bestConfidenceAtIoUQuarter": 0.0024805807042866945
+              },
+              {
+                "GTIndex": 8,
+                "bestRetainedRawIoU": 0.7148764559343382,
+                "confidenceOfBestIoUBox": 0.0010034091537818313,
+                "rawBoxesIoUAtLeastHalf": 5,
+                "bestConfidenceAtIoUHalf": 0.002053613541647792,
+                "boxAtBestConfidenceIoUHalf": [
+                  396.06640625,
+                  422.2413330078125,
+                  466.87933349609375,
+                  486.0767822265625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0024799553211778402
+              },
+              {
+                "GTIndex": 9,
+                "bestRetainedRawIoU": 0.8167845890246761,
+                "confidenceOfBestIoUBox": 0.0018125259084627032,
+                "rawBoxesIoUAtLeastHalf": 5,
+                "bestConfidenceAtIoUHalf": 0.0018125259084627032,
+                "boxAtBestConfidenceIoUHalf": [
+                  464.57940673828125,
+                  421.7236328125,
+                  522.2606201171875,
+                  484.7742919921875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0018125259084627032
+              },
+              {
+                "GTIndex": 10,
+                "bestRetainedRawIoU": 0.7756802839352295,
+                "confidenceOfBestIoUBox": 0.0016985152615234256,
+                "rawBoxesIoUAtLeastHalf": 14,
+                "bestConfidenceAtIoUHalf": 0.0033151896204799414,
+                "boxAtBestConfidenceIoUHalf": [
+                  526.6015014648438,
+                  430.75677490234375,
+                  577.6062622070312,
+                  479.17791748046875
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0033151896204799414
+              },
+              {
+                "GTIndex": 11,
+                "bestRetainedRawIoU": 0.8559528202695726,
+                "confidenceOfBestIoUBox": 0.0010303098242729902,
+                "rawBoxesIoUAtLeastHalf": 8,
+                "bestConfidenceAtIoUHalf": 0.0028439697343856096,
+                "boxAtBestConfidenceIoUHalf": [
+                  571.558837890625,
+                  429.1583557128906,
+                  629.99658203125,
+                  484.8271789550781
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0028439697343856096
+              },
+              {
+                "GTIndex": 12,
+                "bestRetainedRawIoU": 0.8540419210943709,
+                "confidenceOfBestIoUBox": 0.002246781252324581,
+                "rawBoxesIoUAtLeastHalf": 10,
+                "bestConfidenceAtIoUHalf": 0.0028489460237324238,
+                "boxAtBestConfidenceIoUHalf": [
+                  635.203125,
+                  429.36224365234375,
+                  684.810302734375,
+                  479.16241455078125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0028489460237324238
+              },
+              {
+                "GTIndex": 13,
+                "bestRetainedRawIoU": 0.8321025919038,
+                "confidenceOfBestIoUBox": 0.0012647188268601894,
+                "rawBoxesIoUAtLeastHalf": 9,
+                "bestConfidenceAtIoUHalf": 0.0033597860019654036,
+                "boxAtBestConfidenceIoUHalf": [
+                  686.9678955078125,
+                  434.86529541015625,
+                  736.4166259765625,
+                  486.32672119140625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0033597860019654036
+              },
+              {
+                "GTIndex": 14,
+                "bestRetainedRawIoU": 0.7825466708141555,
+                "confidenceOfBestIoUBox": 0.0027169848326593637,
+                "rawBoxesIoUAtLeastHalf": 5,
+                "bestConfidenceAtIoUHalf": 0.0027169848326593637,
+                "boxAtBestConfidenceIoUHalf": [
+                  739.6868286132812,
+                  440.54241943359375,
+                  793.4439086914062,
+                  502.03790283203125
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0027169848326593637
+              },
+              {
+                "GTIndex": 15,
+                "bestRetainedRawIoU": 0.8402352262312803,
+                "confidenceOfBestIoUBox": 0.0019617071375250816,
+                "rawBoxesIoUAtLeastHalf": 4,
+                "bestConfidenceAtIoUHalf": 0.0031041044276207685,
+                "boxAtBestConfidenceIoUHalf": [
+                  805.769775390625,
+                  435.44659423828125,
+                  861.4296875,
+                  490.02484130859375
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0031041044276207685
+              },
+              {
+                "GTIndex": 16,
+                "bestRetainedRawIoU": 0.7221089651784369,
+                "confidenceOfBestIoUBox": 0.0018906883196905255,
+                "rawBoxesIoUAtLeastHalf": 3,
+                "bestConfidenceAtIoUHalf": 0.0018906883196905255,
+                "boxAtBestConfidenceIoUHalf": [
+                  857.482666015625,
+                  435.7684631347656,
+                  914.93896484375,
+                  508.6173400878906
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0018906883196905255
+              },
+              {
+                "GTIndex": 17,
+                "bestRetainedRawIoU": 0.8004884325983546,
+                "confidenceOfBestIoUBox": 0.0012962000910192728,
+                "rawBoxesIoUAtLeastHalf": 2,
+                "bestConfidenceAtIoUHalf": 0.0012962000910192728,
+                "boxAtBestConfidenceIoUHalf": [
+                  917.0255126953125,
+                  441.88189697265625,
+                  970.4385986328125,
+                  492.9761962890625
+                ],
+                "bestConfidenceAtIoUQuarter": 0.0026100468821823597
+              }
+            ],
+            "GTWithRetainedRawIoUHalf": 15,
+            "GTWithMatchingRawAtOperatingThreshold": 0,
+            "matchingConfidenceMedian": 0.0023008007556200027,
+            "matchingConfidenceRange": [
+              0.0012962000910192728,
+              0.0033597860019654036
+            ]
+          }
+        },
+        "modelSHA256": "11b3dd316f740ac0d11adc33b48dcf936b981e057b009e5d601a5764e6b34880"
+      },
+      "hardneg-smooth-add-xincheng": {
+        "bothVariantRawArraysBitIdentical": true,
+        "variants": {
+          "gallery": {
+            "retainedRawAboveCacheFloor": 6174,
+            "maximumRawConfidence": 0.6034146547317505,
+            "rawAboveOperatingThreshold": 37,
+            "postNMSOperatingCount": 18,
+            "postNMSScores": [
+              0.6034146547317505,
+              0.5808624625205994,
+              0.509941041469574,
+              0.5023837089538574,
+              0.5011692643165588,
+              0.44268131256103516,
+              0.4198991656303406,
+              0.4103064239025116,
+              0.40882590413093567,
+              0.3977886736392975,
+              0.36912599205970764,
+              0.3456173241138458,
+              0.3441152572631836,
+              0.3163791000843048,
+              0.31326034665107727,
+              0.31275564432144165,
+              0.30191048979759216,
+              0.30087384581565857
+            ],
+            "postNMSNetworkXYXY": [
+              [
+                840.7144775390625,
+                367.46441650390625,
+                912.8726806640625,
+                441.73956298828125
+              ],
+              [
+                724.5390625,
+                556.5427856445312,
+                793.13037109375,
+                629.1615600585938
+              ],
+              [
+                686.030029296875,
+                626.6253662109375,
+                760.583740234375,
+                697.1209716796875
+              ],
+              [
+                667.8524169921875,
+                760.8069458007812,
+                739.7266845703125,
+                824.0249633789062
+              ],
+              [
+                661.5799560546875,
+                688.9588623046875,
+                731.3465576171875,
+                757.8375244140625
+              ],
+              [
+                572.6346435546875,
+                727.8921508789062,
+                646.71142578125,
+                791.1470336914062
+              ],
+              [
+                637.5406494140625,
+                451.679931640625,
+                713.5877685546875,
+                525.2417602539062
+              ],
+              [
+                412.64031982421875,
+                496.2673034667969,
+                492.56463623046875,
+                568.75439453125
+              ],
+              [
+                611.614990234375,
+                577.6162109375,
+                684.3525390625,
+                647.1885986328125
+              ],
+              [
+                932.4856567382812,
+                419.68218994140625,
+                1003.6201782226562,
+                495.0516357421875
+              ],
+              [
+                808.18115234375,
+                436.56805419921875,
+                882.4404296875,
+                509.09478759765625
+              ],
+              [
+                911.7587890625,
+                361.4652404785156,
+                981.5390625,
+                432.8647766113281
+              ],
+              [
+                518.9115600585938,
+                672.1722412109375,
+                591.5598754882812,
+                746.7076416015625
+              ],
+              [
+                570.595703125,
+                500.6337890625,
+                646.0096435546875,
+                571.8306884765625
+              ],
+              [
+                535.853271484375,
+                437.65106201171875,
+                615.7962646484375,
+                511.79217529296875
+              ],
+              [
+                545.47119140625,
+                571.8825073242188,
+                617.448486328125,
+                646.7697143554688
+              ],
+              [
+                824.2747802734375,
+                725.6329956054688,
+                890.5628662109375,
+                791.0056762695312
+              ],
+              [
+                791.308837890625,
+                785.9537353515625,
+                857.56396484375,
+                851.4544677734375
+              ]
+            ],
+            "rawNPZSHA256": "fac6a3e9c6371250a562b795b0da55072a40e6411357f8df0704dc58344617e3"
+          },
+          "camera": {
+            "retainedRawAboveCacheFloor": 6174,
+            "maximumRawConfidence": 0.6034146547317505,
+            "rawAboveOperatingThreshold": 37,
+            "postNMSOperatingCount": 18,
+            "postNMSScores": [
+              0.6034146547317505,
+              0.5808624625205994,
+              0.509941041469574,
+              0.5023837089538574,
+              0.5011692643165588,
+              0.44268131256103516,
+              0.4198991656303406,
+              0.4103064239025116,
+              0.40882590413093567,
+              0.3977886736392975,
+              0.36912599205970764,
+              0.3456173241138458,
+              0.3441152572631836,
+              0.3163791000843048,
+              0.31326034665107727,
+              0.31275564432144165,
+              0.30191048979759216,
+              0.30087384581565857
+            ],
+            "postNMSNetworkXYXY": [
+              [
+                840.7144775390625,
+                367.46441650390625,
+                912.8726806640625,
+                441.73956298828125
+              ],
+              [
+                724.5390625,
+                556.5427856445312,
+                793.13037109375,
+                629.1615600585938
+              ],
+              [
+                686.030029296875,
+                626.6253662109375,
+                760.583740234375,
+                697.1209716796875
+              ],
+              [
+                667.8524169921875,
+                760.8069458007812,
+                739.7266845703125,
+                824.0249633789062
+              ],
+              [
+                661.5799560546875,
+                688.9588623046875,
+                731.3465576171875,
+                757.8375244140625
+              ],
+              [
+                572.6346435546875,
+                727.8921508789062,
+                646.71142578125,
+                791.1470336914062
+              ],
+              [
+                637.5406494140625,
+                451.679931640625,
+                713.5877685546875,
+                525.2417602539062
+              ],
+              [
+                412.64031982421875,
+                496.2673034667969,
+                492.56463623046875,
+                568.75439453125
+              ],
+              [
+                611.614990234375,
+                577.6162109375,
+                684.3525390625,
+                647.1885986328125
+              ],
+              [
+                932.4856567382812,
+                419.68218994140625,
+                1003.6201782226562,
+                495.0516357421875
+              ],
+              [
+                808.18115234375,
+                436.56805419921875,
+                882.4404296875,
+                509.09478759765625
+              ],
+              [
+                911.7587890625,
+                361.4652404785156,
+                981.5390625,
+                432.8647766113281
+              ],
+              [
+                518.9115600585938,
+                672.1722412109375,
+                591.5598754882812,
+                746.7076416015625
+              ],
+              [
+                570.595703125,
+                500.6337890625,
+                646.0096435546875,
+                571.8306884765625
+              ],
+              [
+                535.853271484375,
+                437.65106201171875,
+                615.7962646484375,
+                511.79217529296875
+              ],
+              [
+                545.47119140625,
+                571.8825073242188,
+                617.448486328125,
+                646.7697143554688
+              ],
+              [
+                824.2747802734375,
+                725.6329956054688,
+                890.5628662109375,
+                791.0056762695312
+              ],
+              [
+                791.308837890625,
+                785.9537353515625,
+                857.56396484375,
+                851.4544677734375
+              ]
+            ],
+            "rawNPZSHA256": "fac6a3e9c6371250a562b795b0da55072a40e6411357f8df0704dc58344617e3"
+          }
+        },
+        "modelSHA256": "11b3dd316f740ac0d11adc33b48dcf936b981e057b009e5d601a5764e6b34880"
+      },
+      "cacheBindingSHA256": "d67a0e96762a3a72550f859ea6f64eb9860b6faf01fb429785e3bcd87086cb5d"
+    }
+  },
+  "newModelInference": false,
+  "thresholdsChanged": false,
+  "labelsChanged": false,
+  "testAccessed": false,
+  "cacheFloor": 0.001,
+  "fixedOperatingPoint": {
+    "confidence": 0.3,
+    "nmsIoU": 0.7
+  },
+  "limitations": [
+    "Rawcache contains onlyscores>=.001; cannot conclude absence of geometricproposals belowthisfloor.",
+    "No threshold sweep, new predictions, relabeling or fresh-test access performed.",
+    "Bicubic/UIKit versus OpenCV resizing differences are already measured ininputmanifest; thisdiagnosis doesnot establish a causalresizeeffect withoutadditionalinference."
+  ],
+  "wiringCheck": "PASS:bothsourcealiasesbyte-identicaltooriginals; upright/networkSHAandsizescorrect;zeroletterboxpadding;GTscaledby5.12and1.024respectivelymatchesvisiblefaces;all3modelcacheweights/input/recordbindingsmatched;bothAppvariantsidenticalPNGsandrawarrays.",
+  "conclusion": {
+    "new_maco_0021": "Classification/confidence failure on a correctly wiredlow-resolutionphoto. Originalfaces~8-14pixels; upsampling200\u21921024doesnotrestoremissingdetail. Geometry-alignedrawboxesexistnear15-16of17GTbutremainfarbelowfixed.3. NooperatingproposalexistsbeforeNMS,sozero isnotanNMSorcoordinatebug.",
+    "hardneg-smooth-add-xincheng": "Semantic false positives on visibleflat solidsteelbarfaces. GT0consistentwithphoto; manyface-localizedscoreswellabove.3. Same failureonbothApppaths; notdisplaymappingorlabelswap.",
+    "notEstablished": "No causalattributionamongrepresentation,data balance,lossorresizing isproved bycache-onlyinspection. UIKit/OpenCVpixel differencesareknownbutnoalteredinputinferenceperformed."
+  },
+  "visualEvidence": {
+    "rawAndNetworkImagesActuallyViewed": true,
+    "epoch12DiagnosticOverlaysActuallyViewed": true,
+    "macoOverlay": "output/pipes-hardening-20261026/diagnostics/fresh-val/new_maco_0021-epoch12-overlay.png",
+    "xinchengOverlay": "output/pipes-hardening-20261026/diagnostics/fresh-val/hardneg-smooth-add-xincheng-epoch12-overlay.png",
+    "overlayLegend": "MACOgreen=unchangedGT,cyan=highestconfidencecachedrawboxwithIoU>=.5; Xinchengred=fixed.3/.7postNMSFP. Theseoverlaysarenotnewlabels."
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "status": "INDEPENDENT_VISUAL_REVIEW_COMPLETED",
+  "reviewer": "/root",
+  "reviewMethod": "Actually viewed all eight rendered draft crops; no detector outputs or new clinical test used.",
+  "accepted": [
+    {
+      "index": 84,
+      "count": 3
+    },
+    {
+      "index": 19,
+      "count": 6
+    },
+    {
+      "index": 18,
+      "count": 4
+    },
+    {
+      "index": 45,
+      "count": 5
+    },
+    {
+      "index": 10,
+      "count": 8
+    },
+    {
+      "index": 67,
+      "count": 7
+    },
+    {
+      "index": 48,
+      "count": 2
+    }
+  ],
+  "rejected": [
+    {
+      "index": 105,
+      "status": "QUARANTINE_UNRESOLVED_INSTANCE_COUNT",
+      "count": null,
+      "reason": "Independent reviewer cannot confirm exactly three instances: the large wavy right-hand body has multiple bright centers and may be several confluent colonies; the left clipped bright arc is also ambiguous. This is unresolved instance interpretation, not a proven author semantic-annotation error. Original draft retained; no count assigned for training."
+    }
+  ],
+  "partialBoundaryRule": "Accepted edge truncations are documented; discernible instance bodies/centers remain. No uncertain source regions are silently unlabeled within accepted crops."
+}

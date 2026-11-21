@@ -1,0 +1,82 @@
+{
+  "status": "FROZEN_RUNTIME_V3_RAW_NMS_TECHNICAL_REPLACEMENT_SAME_TOLERANCES",
+  "createdUTC": "2026-10-26T12:24:54.399909+00:00",
+  "scope": "All80frozenvalidation App inputs (40photos xgallery/camera), no testimages. PyTorch reference is selected frozen CPU raw-cache operating output.",
+  "selectionSHA256": "9eda69afbaa72634270f86f910e7f87719bbd55a5880d6dbb000e6d4a62209f8",
+  "modelSHA256": "48a77fd9198b23695f470b172397e918c9113238bfef2d421d8bbd431f69af12",
+  "operatingPoint": {
+    "confidence": 0.3,
+    "nmsIoU": 0.7
+  },
+  "numericPolicy": {
+    "coordinates": "Compare boxes after identical unpadding/clipping; edge distances expressed in1024network pixels (photo-pixel difference multiplied bygain). Hungarian one-to-one matching maximizesIoU.",
+    "CPUCoreML_vs_Torch": {
+      "counts": "exact per image",
+      "minimumMatchedIoU": 0.99,
+      "maximumEdgeErrorNetworkPixels": 0.25,
+      "maximumConfidenceError": 0.002
+    },
+    "allCoreML_vs_CPUCoreML": {
+      "counts": "exact per image",
+      "minimumMatchedIoU": 0.9,
+      "maximumEdgeErrorNetworkPixels": 1.0,
+      "maximumConfidenceError": 0.02
+    },
+    "Vision_vs_directCoreML_sameComputeUnits": {
+      "counts": "exact per image",
+      "minimumMatchedIoU": 0.999,
+      "maximumEdgeErrorNetworkPixels": 0.01,
+      "maximumConfidenceError": 1e-06
+    },
+    "allObservedLabels": "pipe_end only above frozen operating threshold; padding class channels must remain zero within1e-7",
+    "inputRGB": "DirectCoreML image conversion must decode the exact1024PNG RGB bytes used byTorch; anycolor conversion/row-order difference is reported andfails exact-input gate."
+  },
+  "qualificationPolicy": {
+    "eachVariantMustPassOriginalValidationGates": true,
+    "cpuAndAllCannotRegressFromTorch": {
+      "TP": "not lower",
+      "FP": "not higher",
+      "FN": "not higher",
+      "positiveCountWAPE": "not higher,1e-12 tolerance",
+      "sceneMacroWAPE": "not higher,1e-12 tolerance",
+      "negativeFP": "0 for every negative image"
+    },
+    "noThresholdChange": true,
+    "noFallbackOrBackendSwitchToHideFailure": true
+  },
+  "requiredModes": [
+    "CoreML.cpuOnly",
+    "CoreML.cpuAndNeuralEngine",
+    "Vision.cpuOnly",
+    "Vision.cpuAndNeuralEngine"
+  ],
+  "resultStatus": "PASS_PIPE_TORCH_COREML_VISION_PARITY only ifeverybinding/numeric/label/qualificationgatepasses",
+  "reportBindings": [
+    "modelSHA256",
+    "selectionSHA256",
+    "protocolSHA256(training)",
+    "operatingPoint",
+    "inputVariants",
+    "exportID",
+    "packageTreeSHA256",
+    "inputManifestBindings",
+    "parityProtocolSHA256",
+    "runnerSHA256"
+  ],
+  "limits": [
+    "MacCoreML/Vision is not iPhone performance or physical-camera acceptance. NativeApp actualmodel end-to-end testing followsartifactqualification.",
+    "Currentvalidation hasnoGT<=20positiveimage andlimitedunder16pxobjects; perfectparitycannotrepairthesecoverage gaps.",
+    "NoCoreMLpredictionsseenwhenfreezing tolerances. Failedparityretained; alteringthesecriteriaafterobservingresults isnot allowed inthisround."
+  ],
+  "version": 3,
+  "originalParityProtocolSHA256": "59861d73f76ad3bd21bd098d18d845d343d285352647b20880134e70780984b2",
+  "originalALLStatus": "FAIL_UNSUPPORTED_MACOS_MPSGRAPH_MLIR_ABORT",
+  "runtimeChannelMapping": {
+    "all": "cpuAndNeuralEngine"
+  },
+  "note": "Only backendchannel changes and correctVision objectconfidence mapping; allnumeric/count/qualificationthresholds from original remain byte-equivalent in numericPolicy/qualificationPolicy.",
+  "previousV2Status": "FAIL_APPLE_NMS_COUNT_NONPARITY",
+  "postprocessing": "SharedSwiftFloat32 exactgreedyNMS on raw [1,5,21504], pixelxywh,score>=.3,IoU>.7. NoAppleNMS; NMS beforeunpad/clamp.",
+  "nmsSourcePath": "Count stick/PipeRawPostprocessor.swift",
+  "nmsSourceSHA256": "4542c36ee0f171571d9651c5ccbeec7744bb71e8b4cf7fd429137afd302a3fbe"
+}

@@ -1,0 +1,802 @@
+{
+  "status": "PASS_FINAL_AUDIT_MODEL_CANDIDATES_ALL_FAILED",
+  "reviewer": "general_counting_papers independent child agent",
+  "reviewedUTC": "2026-10-25T21:58:09Z",
+  "scope": {
+    "readOnlyReview": true,
+    "modelInferenceOrTrainingExecuted": false,
+    "newTestImagesOpened": false,
+    "newTestGroundTruthRead": false,
+    "operatorFilesModified": false,
+    "reviewOutputOnly": "ml/research-20261025/mixed-independent-review.json"
+  },
+  "inputSHA256": {
+    "ml/research-20261025/prepare_isolate_mixture.py": "5efd48035f24058295a2a3592abb25cc4e6ed3ffa72d71a5d8cd6fa2a5732d0a",
+    "ml/research-20261025/acquire_external_colonies.py": "9e34cf9bad79c8fbb8a405dc96c950fa7c33332312c6b61488ed9a11c7c6d35f",
+    "output/datasets/colony-mixed-isolate-v1/selection-before-acquisition.json": "0be29c66ddaaa004d0f0c532ba8af1970ff374b6bd17b76a9bcc25adcb53cc9c",
+    "output/research-20261025/isolate-records.json": "cb12c85dc2c248c634efde04b12d8557fe07fa41eca174015f9f7da4893773ca",
+    "ml/colony/train_isolate_mixture.py": "7ef8828da9bcc8581ea994c22131525ef6aed4a4db50ef11103d8aa02959c983",
+    "ml/research-20261025/evaluate_isolate_holdout.py": "28649f690df754106156239066c283a80cae858ec4b8269fa6da85e3b2fa784d",
+    "output/research-20261025/mixed-training/operator-training-start.py": "06e0d1fbc1e0b6a599367145847cb2c0cccdc4d6db46e364ac1bcae428ba887b",
+    "output/research-20261025/mixed-training/operator-baseline-scoring.py": "9554f1f879f8f1b41f25981d8d4006a21c87ff632569b24b9a732d9ff8be30e7",
+    "output/research-20261025/mixed-training/protocol.json": "523c1882a4dfaff23fc6e6ff03f257771c51c2ae067e3dc5f5d18820ec2e8a65",
+    "output/research-20261025/mixed-training/evaluation-definitions.json": "e360abdeb1d700a02c9c85dca25655f92963c3c349ccb459c54c6e83239e7d60",
+    "output/research-20261025/mixed-training/data-binding.json": "9f5f4b6b23d80a34212827b8b2463ba1227fb27638f61d0f8d65b9138c644d0f",
+    "output/research-20261025/mixed-training/records.json": "f1fd3bc6634948bfdfa0d1e45248c758158e4d5dcd5424792c6beda0ffe60b70",
+    "output/research-20261025/mixed-training/dataloader-binding.json": "92180a0695c162e62e84525e16f4c81c2a248c448052da449eddec622ac4931c",
+    "output/research-20261025/mixed-training/sampler-smoke.json": "ffd3782c05f858847bf3234cfc77b9b8f265f03013d630ce2aa73f7aa16af49f",
+    "output/research-20261025/mixed-training/baseline-binding.json": "c35dd0c7e7503f6f0d9d3d6d759a22f5cf693d4db0062d45269538a64c411151",
+    "output/research-20261025/mixed-training/baseline-binding.provenance.json": "95bd94d08486b19068799de63846e386d295dda22358334ce735ad57633cfac1",
+    "output/research-20261025/mixed-training/sampling-field-semantics.json": "29ad98ce16b64ab0140366c6a9c2b25abc894ab440807659b2de0fa6e1aae41e",
+    "ml/research-20261025/holdout-evaluator-smoke.json": "71ac4f905a1f5b18ad9dd9c84a241611045167e98cb3a081415329608e3abc1b",
+    "output/research-20261025/mixed-training/selection.json": "793b69e5af94bf0c91f77abf7df88c8faebd06c3ba9cfafdebc035222c74ba85",
+    "output/research-20261025/mixed-training/training-complete.json": "26812ea4ae0ac65235009f5dcdb7ed11f36ac6b441b33fd3d6830f7fa1561e65",
+    "output/research-20261025/mixed-training/terminal-callback-recovery.json": "6864df9e80e5ad9e6c234fe2eeecb56175b56874e56a248ab82efb30b50fd2a4",
+    "output/research-20261025/mixed-training/run/results.csv": "0b522c33fa719030a06e0509fae4467eb16f38fc70fef32d42b8475a434e1dd7",
+    "output/research-20261025/mixed-training/train.log": "c57e5e140e06f8b2f0240ebb4b02208df738aa069b5d43bb0a9d0954bd754305",
+    "output/research-20261025/mixed-training/terminal-callback-smoke.json": "186d1c1be7b39c530019831fdd230ec1f277666a1fad7c23538261b716189f83",
+    "output/research-20261025/mixed-training/experiment-result.json": "b9d1dd1331a3b8aaa6dce2f7164490c8eb301ca3674ce9ee755b351917ad5396"
+  },
+  "splitProtocol": {
+    "status": "PASS_RECOMPUTED_FROM_IDENTITY_ONLY",
+    "method": "Independent SHA256(seed|isolate) ranking within species after subtracting isolates exposed by old76 filenames; test=first, val=second, all remaining=train; image ranking uses SHA256(seed|image), one train image/up to two val/test images. Recomputed records exactly match frozen selection.",
+    "images": {
+      "train": 113,
+      "val": 36,
+      "test": 36
+    },
+    "isolates": {
+      "train": 113,
+      "val": 19,
+      "test": 19
+    },
+    "speciesPerSplit": 19,
+    "exposedIsolatesFromOld76": 57,
+    "intersectionWithOld76": {
+      "train": 57,
+      "val": 0,
+      "test": 0
+    },
+    "allSplitIsolateIntersectionsEmpty": true,
+    "selectionUsesTargetsOrModelPredictions": false
+  },
+  "preparationCodeReview": {
+    "status": "PASS_STATIC_NO_MATERIAL_FINDING",
+    "originalArchivesOnly": true,
+    "boundedHTTPRangeRequires206AndExactContentRangeAndLength": true,
+    "zipMemberNameAndCompressionAndSizeAndCRCCHecked": true,
+    "checksImageDecodeRGBEXIFDimensions": true,
+    "checksFiniteInBoundsPositiveAreaCOCOAndDuplicateBoxes": true,
+    "checksYOLOCoordinateRoundTrip": true,
+    "checksCrossSplitExactSHAAndOldFigshareSHA": true,
+    "xmlCrosscheck": "One identity-hash-selected image per species; exact cardinality and bipartite coordinate matching with <=1px rounding tolerance. No target-based sample replacement.",
+    "trainValExport": "Whitelist split in (train,val) before writing images list, with full manifest represented only by its SHA256.",
+    "oldDataWrites": "No old dataset paths are written; reused originals copied as bytes to new paths; old76 manifest/protocol hashes checked unchanged."
+  },
+  "pending": [],
+  "limitations": [
+    "Isolate-disjoint does not establish capture-session or plate-disjoint.",
+    "Per-member CRC and SHA checked, full remote ZIP MD5 not checked.",
+    "Raw-byte SHA does not exclude re-encoded duplicates or unknown model pretraining overlap.",
+    "Static sampler wiring alone does not prove actual sampling; require loader or consumed-batch evidence.",
+    "A per-subgroup one-TP rounding allowance accompanies the 2percentage-point recall tolerance; it is not a strict pure2pp gate for small groups.",
+    "Actual post-augmentation loss-box exposure is not measured.",
+    "This review does not validate future candidate results or authorize App replacement.",
+    "All8 completed training epochs were independently replayed; the original process still ended with a documented terminal reporting exception."
+  ],
+  "samplerExpectedMassAudit": {
+    "status": "EXPECTED_POLICY_ONLY_OPERATOR_PENDING",
+    "oldTrainImages": 247,
+    "oldTrainSpecies": 15,
+    "newTrainImages": 113,
+    "newTrainSpecies": 19,
+    "formula": "weight(image)=0.5/(number_of_species_within_source * number_of_images_in_source_species_group)",
+    "totalWeightOldSource": 0.5,
+    "totalWeightNewSource": 0.5,
+    "perSpeciesWeightOldSource": 0.03333333333333333,
+    "perSpeciesWeightNewSource": 0.02631578947368421,
+    "note": "Weighted replacement sampling balances probability mass in expectation, not exact epoch counts; actual loader-consumed IDs must be audited. It may omit some images in an epoch and repeat rare-group images."
+  },
+  "validationBalanceAudit": {
+    "oldValImages": 56,
+    "oldValSpecies": 6,
+    "newValImages": 36,
+    "newValSpecies": 19,
+    "newSpeciesWithOneValImage": [
+      "eco",
+      "ses"
+    ],
+    "otherNewSpeciesValImages": 2,
+    "recommendation": "For source balance, average per-species metrics within source, then average sources equally. Flat averaging across all25species assigns19/25weight to the newsource."
+  },
+  "preparedDataReview": {
+    "status": "PASS_TRAIN_VAL_VERIFIED_TEST_CONTENT_UNOPENED",
+    "trainValSHA256": "3c55eb76f092f0bda29e14248da2d99be09b9189700cbd44e100a71fc1f097a5",
+    "sealedFullManifestSHA256": "96069c2c6f0741a21c48e3da13bb3e94fefd29477cdfea1e481cb23b35c43bd0",
+    "readyStatus": "READY_TRAIN_VAL_ONLY_NO_TEST_CONTENT",
+    "trainImages": 113,
+    "valImages": 36,
+    "all149IdentityRecordsMatchFrozenSelection": true,
+    "all149ImageAndLabelHashesVerified": true,
+    "all149LabelsRoundTripToTrainValManifestBoxes": true,
+    "trainValExportContainsOnlyTrainVal": true,
+    "newTestImagesOrGroundTruthRead": false,
+    "producerIndependent185ImageAuditStatus": "PASS_INDEPENDENT_PREPARATION_CHECK",
+    "producerFullCohortIntegritySummaryAcceptedWithoutOpeningTest": {
+      "selectionUsesOnlyIdentityHashes": true,
+      "trainValTestIsolateIntersectionsZero": true,
+      "testAndValVsOldExposedIsolatesIntersectionZero": true,
+      "sameRawSHAAcrossSplitsZero": true,
+      "sameRawSHAVsOldFigshareZero": true,
+      "originalArchiveOnly": true,
+      "allImageSizeCRCDecodeEXIFDimensionsAndCoordinatesValid": true,
+      "allYOLOLabelsPixelRoundTripVerified": true,
+      "xmlCOCOPerfectMatchingPassed": true,
+      "old76ManifestAndProtocolUnchanged": true
+    }
+  },
+  "meaningOfPass": "Independent audit of experiment integrity and reported failure passed. No model passes development gates; selectedConfig=null. New holdout must remain unopened.",
+  "operatorReview": {
+    "status": "PASS",
+    "evidence": "ml/colony/train_isolate_mixture.py",
+    "sampler": {
+      "weightFormulaVerifiedForAll360TrainImages": true,
+      "formula": "1/(2 * species_count_in_source * image_count_in_source_species_group)",
+      "actualLoader": "MixtureTrainer.get_dataloader returns InfiniteDataLoader(sampler=AuditedWeightedSampler,shuffle=False); model.train(trainer=MixtureTrainer) actually selects this class.",
+      "consumption": "preprocess_batch records actual im_file IDs; prefetch draws not consumed are excluded. Full observed prefix compared with generated draws every completed epoch.",
+      "syntheticLoaderSmokeSamples": 100000,
+      "independentlyReplayedEpochs": [
+        {
+          "epoch": 1,
+          "consumedImages": 360,
+          "sourceImageCounts": {
+            "figshare22022540v3": 184,
+            "zenodo18256864-clinical-originals": 176
+          },
+          "independentSeededReplayMatches": true,
+          "reportSHA256": "11640aa0663d9006a5f83dda909da41d979ece44cee57bf60f96734ba51c418b"
+        },
+        {
+          "epoch": 2,
+          "consumedImages": 360,
+          "sourceImageCounts": {
+            "figshare22022540v3": 186,
+            "zenodo18256864-clinical-originals": 174
+          },
+          "independentSeededReplayMatches": true,
+          "reportSHA256": "5fdc9bd77160b54a194ccc75dbdcfd16118ef6cf207f5657740941a6aad31a6c"
+        },
+        {
+          "epoch": 3,
+          "consumedImages": 360,
+          "sourceImageCounts": {
+            "zenodo18256864-clinical-originals": 183,
+            "figshare22022540v3": 177
+          },
+          "independentSeededReplayMatches": true,
+          "reportSHA256": "f645696a6896d184cb3ee56ac9d2fb75e0d74201d1029a000859106887514c13"
+        },
+        {
+          "epoch": 4,
+          "consumedImages": 360,
+          "sourceImageCounts": {
+            "zenodo18256864-clinical-originals": 176,
+            "figshare22022540v3": 184
+          },
+          "independentSeededReplayMatches": true,
+          "reportSHA256": "7394c1eb729e131a54e25af8973d06faed444693c4bf304d31be46b448073412"
+        },
+        {
+          "epoch": 5,
+          "consumedImages": 360,
+          "sourceImageCounts": {
+            "zenodo18256864-clinical-originals": 183,
+            "figshare22022540v3": 177
+          },
+          "independentSeededReplayMatches": true,
+          "reportSHA256": "9cf74461b7ed49fd87efa07a5c5676cc5c593ababdc4b1c0557a1bd59b038eea"
+        },
+        {
+          "epoch": 6,
+          "consumedImages": 360,
+          "sourceImageCounts": {
+            "zenodo18256864-clinical-originals": 191,
+            "figshare22022540v3": 169
+          },
+          "independentSeededReplayMatches": true,
+          "reportSHA256": "3110b3a0f414314ea59c835e3094f471c8acad25b87389e1a7d6c35dd5bfad62"
+        },
+        {
+          "epoch": 7,
+          "consumedImages": 360,
+          "sourceImageCounts": {
+            "zenodo18256864-clinical-originals": 175,
+            "figshare22022540v3": 185
+          },
+          "independentSeededReplayMatches": true,
+          "reportSHA256": "826046b8d2e1287b3b3cccc20c655b223a2708153fe098016fed1c36c454c072"
+        },
+        {
+          "epoch": 8,
+          "consumedImages": 360,
+          "sourceImageCounts": {
+            "figshare22022540v3": 193,
+            "zenodo18256864-clinical-originals": 167
+          },
+          "independentSeededReplayMatches": true,
+          "reportSHA256": "99838cc45dd4042e93d4e17cde05e94fd8639f0f5272c5eda18bd6939207a79a"
+        }
+      ],
+      "samplingWithReplacement": true,
+      "notExactHalfEachEpoch": true
+    },
+    "configuration": {
+      "allFrozenTrainConfigFieldsEqualActualRunArgs": true,
+      "initialWeightsSHAStillEqualsProtocol": true,
+      "trainingFunctionsASTUnchangedFromStartSnapshot": false,
+      "evalFunctionsASTUnchangedFromBaselineScoringSnapshotExceptAdditionalProvenanceFieldsInFinalSelection": true,
+      "dataYamlKeys": [
+        "path",
+        "train",
+        "val",
+        "names"
+      ],
+      "newTestPathInTrainingOrValidationInputs": false,
+      "mixedRecords": {
+        "train": 360,
+        "val": 92
+      },
+      "recordsSHAEqualsFrozenBinding": true,
+      "trainingSourceChangesAfterExecution": "Only terminal audit callback return guard; original training snapshot retained. Full evaluation added afterward; selection records all code/protocol hashes."
+    },
+    "selection": {
+      "checkpointEpochs": [
+        3,
+        5,
+        8
+      ],
+      "modelSelectionUsesTrainingBestCheckpoint": false,
+      "candidateConfigurations": 18,
+      "validationOnly": true,
+      "wholeAndTileThresholds": [
+        0.2,
+        0.3,
+        0.4
+      ],
+      "primaryAggregation": "mean_sources(mean_species(mean_images(abs(predicted_count-GT_count))))",
+      "baseline6ConfigurationsCountsAndMacroAggregationIndependentlyRecomputed": true,
+      "selectedBaseline": {
+        "pipeline": "automatic4tile",
+        "confidence": 0.3,
+        "primaryMacroMAE": 15.306366294524189,
+        "imageMAE": 13.98913043478261,
+        "oldSourceSpeciesMacroMAE": 18.06010101010101,
+        "newSourceSpeciesMacroMAE": 12.552631578947368
+      },
+      "protectedReference": "Per source/species and per source/size, max TP of initial whole/tile at frozen baseline confidence. These are separate groupings, not source/species/size joint cells.",
+      "frozenGatesImplementationMatches": true,
+      "gates": [
+        "primary macro MAE <=95% baseline",
+        "each source species-macro MAE <=105% baseline",
+        "each source image MAE <= baseline + max(0.5,5%)",
+        "each source P/R drop <=1percentage point; F1 no drop",
+        "each source FP <= baseline + max(2,ceil(1%GT))",
+        "each source/species precision drop <=2percentage points",
+        "each source/species and source/size TP >= stronger baseline TP -0.02*GT -1",
+        "white/gray/black operating counts all zero"
+      ],
+      "zeroGTSizeGroupsSkipped": true,
+      "allCandidatesFailBehavior": "selectedConfig=null; FAIL preserved",
+      "tieBreakingMatchesDefinitions": true
+    },
+    "blankControls": {
+      "syntheticPixelsIndependentlyChecked": {
+        "white": 255,
+        "gray": 127,
+        "black": 0
+      },
+      "shape": [
+        1024,
+        1024
+      ],
+      "RGB": true,
+      "normalInferencePath": true,
+      "uniformImageSpecialCasePresent": false,
+      "allSixBaselineConfigurationsZeroOnAllThreeControls": true,
+      "candidateNegativeResultsNotYetAssessed": false,
+      "controlsNotAddedToPositiveImageMAEOrAP": true,
+      "all18CandidatesZeroOnAllThreeControls": true
+    },
+    "newTestIsolation": {
+      "clinicalInput": "train-val-manifest.json only",
+      "operatorDoesNotLoadFullClinicalManifest": true,
+      "trainingAndScoringRecordsAssertTrainOrVal": true,
+      "oldTestPixelsOrPredictionsUsedForSelection": false,
+      "reviewerOpenedNewTestGTOrImages": false
+    }
+  },
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "medium_reporting",
+      "originalStatus": "FAIL_WORDING",
+      "location": "train_isolate_mixture.py:audit_epoch; protocol samplingCaveat",
+      "finding": "sourceSpeciesBoxExposures sums original annotation counts for sampled images, not post-augmentation boxes used by the loss.",
+      "resolution": "Append-only sampling-field-semantics.json preserves frozen protocol and historical numeric values, explicitly labels these as pre-augmentation sampledOriginalGTBoxCounts. No training or gate change.",
+      "status": "RESOLVED_BY_EXPLICIT_CORRECTION"
+    },
+    {
+      "id": "R2",
+      "severity": "high_preinference_runtime",
+      "originalStatus": "FAIL_HOLDOUT_SCHEMA",
+      "location": "evaluate_isolate_holdout.py:score/main",
+      "finding": "Full preparation manifest has no source field; first holdout scoring would KeyError after inference.",
+      "resolution": "Root added fixed source metadata while preserving split=test, and validates schema before inference marker. Confirmed by static reread without test access.",
+      "status": "RESOLVED"
+    },
+    {
+      "id": "R3",
+      "severity": "low_edge_case",
+      "location": "evaluate_isolate_holdout.py:empty GT schema",
+      "finding": "np.asarray([]).shape=(0,) differs from (0,4); legitimate zero-target image should not fail only due array representation.",
+      "status": "RESOLVED",
+      "actualDatasetHitKnown": false,
+      "resolution": "Root normalized xyxy through reshape(-1,4) before shape validation. Static reread confirms legitimate empty target arrays are accepted."
+    },
+    {
+      "id": "R4",
+      "severity": "medium_terminal_reporting",
+      "originalStatus": "ORIGINAL_TRAIN_PROCESS_FAILED_AFTER8EPOCHS",
+      "finding": "Final validation callback set epoch8, leading reporting callback to demand nonexistent ninth training epoch.",
+      "resolution": "Documented recovery only after independent CSV/sampling/checkpoint/optimizer-step validation. No retraining. Guard only permits known terminal state and smoke confirms missing real epochs still fail.",
+      "status": "RESOLVED_BY_AUDITED_RECOVERY"
+    }
+  ],
+  "holdoutStaticReview": {
+    "status": "PASS_STATIC_WITH_RESOLVED_FINDINGS",
+    "selectedConfigNullEarlyReturnBeforeAnyHoldoutManifestImageLabelRead": true,
+    "requiresDevelopmentSelectionAndIndependentReviewPASS": true,
+    "fixedSelectedModelAndConfidenceOnly": true,
+    "oldWholeAndTileAtFrozenBaselineConfidence": true,
+    "noHoldoutThresholdOrCheckpointSearch": true,
+    "testSplitRemainsTest": true,
+    "sourceMetadataAddedWithoutChangingGT": true,
+    "fullManifestAndImageLabelHashesCheckedBeforeInference": true,
+    "openedMarkerPreventsSecondIndependentRun": true,
+    "negativeControlMeaning": "Inherited eligibility from frozen development PASS, not rerun in holdout; now explicitly documented.",
+    "notAnExternalStudyOrPhoneTest": true,
+    "reviewerExecutedHoldout": false,
+    "emptyGTShapeHandled": true,
+    "syntheticScorerSmokeEvidence": "ml/research-20261025/holdout-evaluator-smoke.json",
+    "requiresFinalCandidateAuditPASS": true
+  },
+  "finalCandidateAudit": {
+    "status": "PASS_AUDIT_OF_FAIL_NO_CANDIDATE_PASSES",
+    "meaning": "Audit correctness passed; all18 actual model configurations failed frozen development gates. No model is approved.",
+    "all18ValidationScoresIndependentlyRecomputedFromCaches": true,
+    "APRecomputedWithInstalledLibraryFromSavedDetections": true,
+    "allGateDetailsAndFailuresRecomputed": true,
+    "individualScoreFilesEqualSelectionEntries": true,
+    "candidateCount": 18,
+    "passingCandidateCount": 0,
+    "selectedConfig": null,
+    "selectionSHA256": "793b69e5af94bf0c91f77abf7df88c8faebd06c3ba9cfafdebc035222c74ba85",
+    "selectionStatus": "FAIL_NO_CANDIDATE_PASSES",
+    "allSelectionInputHashesVerified": true,
+    "baselineRankingRecomputed": true,
+    "cacheAudit": [
+      {
+        "epoch": 0,
+        "pipeline": "whole",
+        "cacheSHA256": "96578c0dd856d6fa58ebf8a97370690913615b285e223b42c57b9eb46a78942f",
+        "modelSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+        "validationImages": 92,
+        "allMetricsAndAPRecomputed": true
+      },
+      {
+        "epoch": 0,
+        "pipeline": "automatic4tile",
+        "cacheSHA256": "701e36c7a730703c63d2834600cb40ace4fac3016ccefa80f69898d108f2e2bb",
+        "modelSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+        "validationImages": 92,
+        "allMetricsAndAPRecomputed": true
+      },
+      {
+        "epoch": 3,
+        "pipeline": "whole",
+        "cacheSHA256": "73349da62d7b0eb36fbe2f2f22c0aaa9f4d632b8fd667c463989f185aeb2af85",
+        "modelSHA256": "087074888d34afb0274714c46db0b15deb2eed9e2bf7b0801ac2052a4857f1c5",
+        "validationImages": 92,
+        "allMetricsAndAPRecomputed": true
+      },
+      {
+        "epoch": 3,
+        "pipeline": "automatic4tile",
+        "cacheSHA256": "f9362561bbd3794647ff2945e8cf2dd1261cd07fd7b5987adb3faf89aab425c0",
+        "modelSHA256": "087074888d34afb0274714c46db0b15deb2eed9e2bf7b0801ac2052a4857f1c5",
+        "validationImages": 92,
+        "allMetricsAndAPRecomputed": true
+      },
+      {
+        "epoch": 5,
+        "pipeline": "whole",
+        "cacheSHA256": "a68fa39f8d13372c7fb25e9b65baf1b304d907a00d087b0579b078ce25d7de3c",
+        "modelSHA256": "f12c64117ba880519cd0e9f12e2d40b2827351e2125f9478580c43d568bf74dd",
+        "validationImages": 92,
+        "allMetricsAndAPRecomputed": true
+      },
+      {
+        "epoch": 5,
+        "pipeline": "automatic4tile",
+        "cacheSHA256": "76681143d3f8e1d7076b79f6c55125bbf5697e11866bf439b4c37bcfbc2bc033",
+        "modelSHA256": "f12c64117ba880519cd0e9f12e2d40b2827351e2125f9478580c43d568bf74dd",
+        "validationImages": 92,
+        "allMetricsAndAPRecomputed": true
+      },
+      {
+        "epoch": 8,
+        "pipeline": "whole",
+        "cacheSHA256": "14f58c57ee8a33f58e7f07fc1ab11178ca2e2ac98d307bed0fa0564393da74f7",
+        "modelSHA256": "1259e439e0bd53ffdaec8de010e15a497781429f52a07fa4baaa67fbc4233b82",
+        "validationImages": 92,
+        "allMetricsAndAPRecomputed": true
+      },
+      {
+        "epoch": 8,
+        "pipeline": "automatic4tile",
+        "cacheSHA256": "0307ddbea3ab295bb5c6ff46466b2cfaf0338d8445afad6d93cc73748e039d3b",
+        "modelSHA256": "1259e439e0bd53ffdaec8de010e15a497781429f52a07fa4baaa67fbc4233b82",
+        "validationImages": 92,
+        "allMetricsAndAPRecomputed": true
+      }
+    ],
+    "candidates": [
+      {
+        "epoch": 3,
+        "pipeline": "whole",
+        "confidence": 0.2,
+        "primaryMacroMAE": 23.22641768562821,
+        "gateStatus": "FAIL",
+        "failedGateCount": 19,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 3,
+        "pipeline": "whole",
+        "confidence": 0.3,
+        "primaryMacroMAE": 16.581375155059366,
+        "gateStatus": "FAIL",
+        "failedGateCount": 15,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 3,
+        "pipeline": "whole",
+        "confidence": 0.4,
+        "primaryMacroMAE": 17.631113769271664,
+        "gateStatus": "FAIL",
+        "failedGateCount": 15,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 3,
+        "pipeline": "automatic4tile",
+        "confidence": 0.2,
+        "primaryMacroMAE": 25.319763423710793,
+        "gateStatus": "FAIL",
+        "failedGateCount": 20,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 3,
+        "pipeline": "automatic4tile",
+        "confidence": 0.3,
+        "primaryMacroMAE": 16.51320662768031,
+        "gateStatus": "FAIL",
+        "failedGateCount": 22,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 3,
+        "pipeline": "automatic4tile",
+        "confidence": 0.4,
+        "primaryMacroMAE": 16.58198653198653,
+        "gateStatus": "FAIL",
+        "failedGateCount": 18,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 5,
+        "pipeline": "whole",
+        "confidence": 0.2,
+        "primaryMacroMAE": 18.488295233032076,
+        "gateStatus": "FAIL",
+        "failedGateCount": 17,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 5,
+        "pipeline": "whole",
+        "confidence": 0.3,
+        "primaryMacroMAE": 13.456472620946306,
+        "gateStatus": "FAIL",
+        "failedGateCount": 12,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 5,
+        "pipeline": "whole",
+        "confidence": 0.4,
+        "primaryMacroMAE": 14.589314194577355,
+        "gateStatus": "FAIL",
+        "failedGateCount": 12,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 5,
+        "pipeline": "automatic4tile",
+        "confidence": 0.2,
+        "primaryMacroMAE": 20.88969962785752,
+        "gateStatus": "FAIL",
+        "failedGateCount": 21,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 5,
+        "pipeline": "automatic4tile",
+        "confidence": 0.3,
+        "primaryMacroMAE": 14.103282828282829,
+        "gateStatus": "FAIL",
+        "failedGateCount": 22,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 5,
+        "pipeline": "automatic4tile",
+        "confidence": 0.4,
+        "primaryMacroMAE": 14.128584086478824,
+        "gateStatus": "FAIL",
+        "failedGateCount": 16,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 8,
+        "pipeline": "whole",
+        "confidence": 0.2,
+        "primaryMacroMAE": 18.50934786461102,
+        "gateStatus": "FAIL",
+        "failedGateCount": 15,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 8,
+        "pipeline": "whole",
+        "confidence": 0.3,
+        "primaryMacroMAE": 14.237502215133793,
+        "gateStatus": "FAIL",
+        "failedGateCount": 11,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 8,
+        "pipeline": "whole",
+        "confidence": 0.4,
+        "primaryMacroMAE": 14.256738437001594,
+        "gateStatus": "FAIL",
+        "failedGateCount": 11,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 8,
+        "pipeline": "automatic4tile",
+        "confidence": 0.2,
+        "primaryMacroMAE": 19.503198653198652,
+        "gateStatus": "FAIL",
+        "failedGateCount": 19,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 8,
+        "pipeline": "automatic4tile",
+        "confidence": 0.3,
+        "primaryMacroMAE": 13.305533404217615,
+        "gateStatus": "FAIL",
+        "failedGateCount": 19,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      },
+      {
+        "epoch": 8,
+        "pipeline": "automatic4tile",
+        "confidence": 0.4,
+        "primaryMacroMAE": 13.946827928406874,
+        "gateStatus": "FAIL",
+        "failedGateCount": 15,
+        "negativeCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        }
+      }
+    ],
+    "lowestMacroMAECandidate": {
+      "epoch": 8,
+      "pipeline": "automatic4tile",
+      "confidence": 0.3,
+      "primaryMacroMAE": 13.305533404217615,
+      "gateStatus": "FAIL",
+      "failedGateCount": 19,
+      "negativeCounts": {
+        "white": 0,
+        "gray": 0,
+        "black": 0
+      },
+      "relativeMacroMAEReduction": 0.13071899965064648,
+      "failedGates": [
+        "figshare22022540v3/speciesMacroCountMAE",
+        "figshare22022540v3/imageCountMAE",
+        "figshare22022540v3/precision",
+        "figshare22022540v3/F1",
+        "figshare22022540v3/FP",
+        "figshare22022540v3/sp04/recallTP",
+        "figshare22022540v3/sp04/precision",
+        "figshare22022540v3/sp09/recallTP",
+        "figshare22022540v3/sp09/precision",
+        "figshare22022540v3/sp11/recallTP",
+        "figshare22022540v3/sp13/precision",
+        "figshare22022540v3/sp14/recallTP",
+        "figshare22022540v3/sp14/precision",
+        "figshare22022540v3/under16px/recallTP",
+        "figshare22022540v3/16to32px/recallTP",
+        "figshare22022540v3/over32px/recallTP",
+        "zenodo18256864-clinical-originals/kpn/precision",
+        "zenodo18256864-clinical-originals/ppu/recallTP",
+        "zenodo18256864-clinical-originals/sma/precision"
+      ]
+    },
+    "holdoutShouldRemainUnopened": true,
+    "newTestImagesOrGTRead": false,
+    "modelInferencePerformedByReviewer": false,
+    "holdoutOpenedMarkerAbsentAtReview": true
+  },
+  "trainingCompletionAudit": {
+    "status": "PASS_RECOVERED_TERMINAL_REPORTING_FAILURE",
+    "CSVHasExactlyEpochs1Through8": true,
+    "samplingAudits": 8,
+    "actualConsumedImageIdsIndependentlyReplayed": 2880,
+    "allConsumedIDsFromTrainingSet": true,
+    "failureLogHashAndFinalEvalStackVerified": true,
+    "originalProcessExitedCleanly": false,
+    "failure": "Terminal final_eval on_fit_epoch_end after all8training epochs used t.epoch=8 and no new consumed images; callback asserted (8,0).",
+    "fixASTDiff": "Only terminal return guard inserted in train.audit_epoch: e==epochs AND all0..epochs-1 already reported AND terminal observed list empty. Real training epoch coverage assertions unchanged.",
+    "terminalGuardSyntheticBoundarySmoke": "output/research-20261025/mixed-training/terminal-callback-smoke.json",
+    "optimizerStepMethod": "Installed trainer warmup_iterations=round(1*90)=90;720batch iterations, nbs/batch=4, warmup rounded interpolation then accumulation; simulated exact step cadence matches checkpointoptimizer state. No model inference or optimization run by reviewer.",
+    "checkpoints": [
+      {
+        "epoch": 3,
+        "internalZeroBasedEpoch": 2,
+        "SHA256": "087074888d34afb0274714c46db0b15deb2eed9e2bf7b0801ac2052a4857f1c5",
+        "allFloatingModelValuesFinite": true,
+        "optimizerSteps": 88,
+        "expectedOptimizerStepsRecomputedFromInstalledTrainer": true,
+        "metadataProtocolAndDataBindingMatch": true
+      },
+      {
+        "epoch": 5,
+        "internalZeroBasedEpoch": 4,
+        "SHA256": "f12c64117ba880519cd0e9f12e2d40b2827351e2125f9478580c43d568bf74dd",
+        "allFloatingModelValuesFinite": true,
+        "optimizerSteps": 133,
+        "expectedOptimizerStepsRecomputedFromInstalledTrainer": true,
+        "metadataProtocolAndDataBindingMatch": true
+      },
+      {
+        "epoch": 8,
+        "internalZeroBasedEpoch": 7,
+        "SHA256": "1259e439e0bd53ffdaec8de010e15a497781429f52a07fa4baaa67fbc4233b82",
+        "allFloatingModelValuesFinite": true,
+        "optimizerSteps": 201,
+        "expectedOptimizerStepsRecomputedFromInstalledTrainer": true,
+        "metadataProtocolAndDataBindingMatch": true
+      }
+    ],
+    "noAdditionalOptimizationEvidence": "All checkpoint internal epochs and optimizer steps exactly match original8epoch cadence; original failure log and source snapshot preserved; fix affects reporting guard only; no training rerun was used to create completion record.",
+    "recoverySHA256": "6864df9e80e5ad9e6c234fe2eeecb56175b56874e56a248ab82efb30b50fd2a4",
+    "completionSHA256": "26812ea4ae0ac65235009f5dcdb7ed11f36ac6b441b33fd3d6830f7fa1561e65",
+    "warnings": {
+      "train.log": {
+        "NMS_time_limit": 33,
+        "WARNING": 33,
+        "SHA256": "c57e5e140e06f8b2f0240ebb4b02208df738aa069b5d43bb0a9d0954bd754305"
+      },
+      "baseline.log": {
+        "NMS_time_limit": 0,
+        "WARNING": 0,
+        "SHA256": "6cdaf05ccac84a709f574bdb1814cb50fc51d50fc63b5294b53c839ea0ac2ee3"
+      },
+      "precache.log": {
+        "NMS_time_limit": 0,
+        "WARNING": 0,
+        "SHA256": "498822fb1975480e7c7efcce1d6aec6749d43ff80c098046138e03be333f3197"
+      },
+      "precache8.log": {
+        "NMS_time_limit": 0,
+        "WARNING": 0,
+        "SHA256": "45d8b827c561602dd702ee37b74c7c92f453942dec59638854fbaecf6efc52a3"
+      },
+      "evaluate.log": {
+        "NMS_time_limit": 0,
+        "WARNING": 0,
+        "SHA256": "873aee12ac7e08345692e869bf298580db03281a2ed4eaa1c89830d6939b8fa9"
+      }
+    },
+    "warningMeaning": "MPS in-training validation NMS timeouts are diagnostic limitations. Fixed checkpoint selection and recomputed final scores use separate CPU caches, whose fourlogs contain zero warnings."
+  }
+}

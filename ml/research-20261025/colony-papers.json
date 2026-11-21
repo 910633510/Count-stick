@@ -1,0 +1,179 @@
+{
+  "status": "READ_ONLY_RESEARCH_COMPLETE_NO_MODEL_OR_DATA_MUTATION",
+  "researchedOn": "2026-10-25",
+  "timezone": "America/New_York",
+  "scope": "Colony and biological-image methods relevant to CountScope's large/faint colony misses and scale tradeoffs",
+  "readingBasis": "Focused reading of publisher article text, methods/results excerpts, author repositories and official documentation. Publisher PDF endpoints were checked but the web reader hit cookie redirects; no local PDF downloads are claimed.",
+  "venuePolicy": "Nature Methods papers are the top-journal core. ICIP is a conference. Scientific Reports is an application-journal supplement, not interchangeable with Nature or Nature Methods. No journal impact-factor or ranking claims are made.",
+  "papers": [
+    {
+      "id": "cellpose2",
+      "title": "Cellpose 2.0: how to train your own model",
+      "authors": ["Marius Pachitariu", "Carsen Stringer"],
+      "venue": "Nature Methods",
+      "publicationType": "peer-reviewed journal article",
+      "published": "2022-11-07",
+      "volumePages": "19, 1634-1641",
+      "doi": "10.1038/s41592-022-01663-4",
+      "article": "https://www.nature.com/articles/s41592-022-01663-4",
+      "publisherPDF": "https://www.nature.com/articles/s41592-022-01663-4.pdf",
+      "officialCode": "https://github.com/MouseLand/cellpose/tree/main/paper/2.0",
+      "dataDomain": "Cellular microscopy; TissueNet, LiveCell and Cellpose instance-mask datasets",
+      "keyIdea": "Different annotation styles and image domains can require different models; targeted human-in-the-loop corrections can adapt a pretrained segmenter efficiently.",
+      "relevance": "Audit whether large diffuse colonies and small sharp colonies have consistent object/boundary definitions, and balance morphology coverage instead of relying on object-weighted aggregate scores.",
+      "currentDataFit": "Our boxes allow detection/count checks, but supervised Cellpose training needs genuine instance masks. Filled rectangles are not substitute mask ground truth.",
+      "doNotClaim": "Its small annotation-budget results on specific microscopy datasets do not guarantee equivalent CFU performance or labeling effort.",
+      "proposedUse": "After a small zero-shot probe, curate training-only masks for underrepresented morphology groups and refine a pretrained model; keep validation/test labels independent."
+    },
+    {
+      "id": "cellpose3",
+      "title": "Cellpose3: one-click image restoration for improved cellular segmentation",
+      "authors": ["Carsen Stringer", "Marius Pachitariu"],
+      "venue": "Nature Methods",
+      "publicationType": "peer-reviewed journal article",
+      "published": "2025-02-12",
+      "volumePages": "22, 592-599",
+      "doi": "10.1038/s41592-025-02595-5",
+      "article": "https://www.nature.com/articles/s41592-025-02595-5",
+      "publisherPDF": "https://www.nature.com/articles/s41592-025-02595-5.pdf",
+      "officialCode": "https://github.com/MouseLand/cellpose/tree/main/paper/3.0",
+      "officialDocs": "https://cellpose.readthedocs.io/en/v3.1.1.1/restore.html",
+      "dataDomain": "Noisy, blurry and undersampled microscopy images; diverse cellular/nuclear datasets",
+      "keyIdea": "Train restoration for a downstream segmentation objective with perceptual similarity, rather than optimizing pixel reconstruction alone.",
+      "relevance": "Useful hypothesis for faint boundaries, but apparent image sharpening is not evidence of correct colony counts.",
+      "currentDataFit": "Pretrained restoration can be tested without new labels. Reproducing its training needs appropriate masks and reference images; current boxes cannot establish mask quality.",
+      "doNotClaim": "The paper's microscopy results and hallucination analysis do not prove safe restoration or accurate CFU separation on RGB agar photographs.",
+      "proposedUse": "Compare raw input against one conservative pretrained-restoration branch on validation; measure extra false positives as well as rescued true positives. Preserve original pixels and provenance."
+    },
+    {
+      "id": "omnipose",
+      "title": "Omnipose: a high-precision morphology-independent solution for bacterial cell segmentation",
+      "authors": ["Kevin J. Cutler", "and colleagues"],
+      "venue": "Nature Methods",
+      "publicationType": "peer-reviewed journal article",
+      "published": "2022-10-17",
+      "volumePages": "19, 1438-1448",
+      "doi": "10.1038/s41592-022-01639-4",
+      "article": "https://www.nature.com/articles/s41592-022-01639-4",
+      "publisherPDF": "https://www.nature.com/articles/s41592-022-01639-4.pdf",
+      "officialCode": "https://github.com/kevinjohncutler/omnipose",
+      "dataDomain": "Individual bacterial cells in phase-contrast/fluorescence microscopy; elongated and branched morphologies",
+      "keyIdea": "A distance-field-gradient representation improves segmentation across difficult cell shapes.",
+      "relevance": "Supports treating morphology variation as a representation/data problem, not simply increasing tile count.",
+      "currentDataFit": "Mask-based training would require new verified instance masks. A pretrained probe can be scored as counts/boxes, but not as mask AP with our existing labels.",
+      "doNotClaim": "A microscopic bacterial cell is not a macroscopic colony-forming unit; directly counting its predicted masks on a plate may count texture within a colony.",
+      "proposedUse": "Consider only after morphology-balanced mask annotation or a bounded validation probe; do not assume the bacterial preset is already a colony counter."
+    },
+    {
+      "id": "cellsam",
+      "title": "CellSAM: a foundation model for cell segmentation",
+      "authors": ["Markus Marks", "Uriah Israel", "and colleagues"],
+      "venue": "Nature Methods",
+      "publicationType": "peer-reviewed journal article",
+      "published": "2025-12-08",
+      "volumePages": "22, 2585-2593",
+      "doi": "10.1038/s41592-025-02879-w",
+      "article": "https://www.nature.com/articles/s41592-025-02879-w",
+      "publisherPDF": "https://www.nature.com/articles/s41592-025-02879-w.pdf",
+      "officialCode": "https://github.com/vanvalenlab/cellSAM",
+      "implementationSource": "https://github.com/vanvalenlab/cellSAM/blob/master/cellSAM/model.py",
+      "dataDomain": "Mammalian cells, yeast and bacteria across cellular imaging modalities",
+      "keyIdea": "CellFinder automatically proposes object boxes that prompt SAM to produce instance masks.",
+      "relevance": "Architecture matches the desire for automatic proposal/region selection and offers a route to training-mask assistance.",
+      "currentDataFit": "Existing TRAIN boxes can prompt candidate masks for correction. Feeding TEST truth boxes would already supply object locations/counts and cannot demonstrate automatic counting.",
+      "doNotClaim": "CellSAM has not been demonstrated here on agar colonies or on-device. Its published full training used multiple A100 GPUs; local full replication is inappropriate.",
+      "proposedUse": "Optional pretrained CPU probe or training-only annotation teacher. Official inspected API documents CPU/CUDA, not an established MPS path."
+    },
+    {
+      "id": "sahi",
+      "title": "Slicing Aided Hyper Inference and Fine-Tuning for Small Object Detection",
+      "authors": ["Fatih Cagatay Akyon", "Sinan Onur Altinuc", "Alptekin Temizel"],
+      "venue": "IEEE International Conference on Image Processing (ICIP)",
+      "publicationType": "peer-reviewed conference paper; not a journal",
+      "year": 2022,
+      "doi": "10.1109/ICIP46576.2022.9897990",
+      "article": "https://ieeexplore.ieee.org/abstract/document/9897990",
+      "authorPreprintPDF": "https://arxiv.org/pdf/2202.06934",
+      "officialCode": "https://github.com/obss/sahi",
+      "implementationSource": "https://github.com/obss/sahi/blob/main/sahi/predict.py",
+      "officialGuide": "https://github.com/obss/sahi/blob/main/docs/guides/sliced-inference.md",
+      "dataDomain": "Small aerial objects in VisDrone and xView",
+      "keyIdea": "Preserve small-object resolution with overlapping slices and merge predictions; official implementation also retains a full-image pass for large targets.",
+      "relevance": "Current four-tile-only policy loses large-colony recall. The missing whole-image branch is directly testable with existing predictions and labels.",
+      "currentDataFit": "Directly compatible with bounding-box/count annotations; no new masks or detector retraining required for the first ablation.",
+      "doNotClaim": "Reported aerial AP gains are not colony counting accuracy. Aggressive IoS/NMM merging can combine distinct adjacent colonies.",
+      "proposedUse": "Compare conservative full+tile IoU fusion and a limited scale-gated variant against both baselines; select on validation with count, TP/FP/FN and size/species gates."
+    },
+    {
+      "id": "colony-sahi-2026",
+      "title": "Overcoming resolution constraints in automated colony counting via a high-performance deep learning framework using SAHI",
+      "authors": ["Sercan Külcü", "Duygu Balpetek Külcü"],
+      "venue": "Scientific Reports",
+      "publicationType": "peer-reviewed application journal article; supporting domain evidence, not Nature Methods/Nature",
+      "published": "2026-06-01",
+      "volumeArticle": "16, 24516",
+      "doi": "10.1038/s41598-026-55724-1",
+      "article": "https://www.nature.com/articles/s41598-026-55724-1",
+      "publisherPDF": "https://www.nature.com/articles/s41598-026-55724-1_reference.pdf",
+      "bibliographicRecord": "https://api.crossref.org/works/10.1038/s41598-026-55724-1",
+      "codeStatus": "No article-specific repository was verified; upstream SAHI is available.",
+      "dataDomain": "The same public 24-species colony dataset family used in our experiment",
+      "keyIdea": "Native-resolution640px tiles with20percent overlap for training/inference outperform aggressively resized plates in the authors' experiment.",
+      "relevance": "Supports scale preservation and train/inference scale consistency, but does not directly solve our large diffuse morphologies.",
+      "currentDataFit": "Uses boxes. Any derived crops must remain grouped with their source physical plate before splitting.",
+      "doNotClaim": "Their24-class original-image split and our unseen-species single-class split differ. Their reported96.9percent mAP is not a CountScope replication or count-correctness target.",
+      "proposedUse": "Use as a secondary scale-training ablation reference, retaining full-plate exposure and checking per-morphology counts rather than copying its headline score."
+    }
+  ],
+  "notCountedAsVerifiedTopJournal": [
+    {
+      "title": "Cellpose-SAM: superhuman generalization for cellular segmentation",
+      "status": "The official Cellpose repository still cites a bioRxiv paper; no journal version was verified in this pass. Do not confuse it with CellSAM, the Nature Methods2025 paper.",
+      "officialRepository": "https://github.com/MouseLand/cellpose",
+      "preprint": "https://www.biorxiv.org/content/10.1101/2025.04.28.651001v1.full"
+    }
+  ],
+  "localFeasibility": {
+    "hardwareContext": "M5 Pro,24GB from parent; no timing or memory benchmark was run by this reviewer",
+    "firstChoice": "Existing-detector whole+tile fusion: reuse cached predictions or current lightweight model; avoid another large training job until ablation evidence exists.",
+    "cellpose3": "Official3.1.1.1 docs expose an MPS option. Version3.1.1 release notes route mask postprocessing to CPU on Mac and use float32 in a flow step. Pin an isolated environment and verify CPU/MPS outputs before a batch.",
+    "cellposeSources": [
+      "https://cellpose.readthedocs.io/en/v3.1.1.1/installation.html",
+      "https://cellpose.readthedocs.io/en/v3.1.1.1/api.html",
+      "https://github.com/MouseLand/cellpose/releases/tag/v3.1.1"
+    ],
+    "omnipose": "Current official2.0 README advertises MPS and tests Python3.10-3.12; the existing training environment is Python3.9, so do not silently upgrade it in place.",
+    "omniposeSource": "https://github.com/kevinjohncutler/omnipose/blob/main/README.rst",
+    "cellsam": "Full paper training is beyond this workstation plan. Pretrained CPU inference may be probed, but neither MPS nor iPhone/CoreML performance is established."
+  },
+  "proposedExperimentOrder": [
+    {
+      "priority": 1,
+      "hypothesis": "Full-image detections recover large targets that the fixed crop-only policy drops.",
+      "action": "Pre-register a small full+tile fusion ablation with a conservative IoU merger and one scale-aware candidate. Tune only on validation. Keep original whole and four-tile outputs for exact comparison.",
+      "gate": "Require countMAE improvement plus no material TP regression, inspect FP/FN by size and species, and report macro-species metrics alongside micro totals.",
+      "cost": "Low; bounding boxes are sufficient."
+    },
+    {
+      "priority": 2,
+      "hypothesis": "Canonical-scale segmentation or task-aware restoration could recover low-contrast boundaries.",
+      "action": "Bounded pretrained Cellpose3 probe on representative validation images at training-derived size settings; optionally compare raw and restored input. Do not use test truth boxes to guide inference.",
+      "gate": "Available labels support count/box checks only; mask quality needs new audited masks. Reject extra false cells and split colonies, even if images look cleaner.",
+      "cost": "Medium; isolate dependency/runtime checks."
+    },
+    {
+      "priority": 3,
+      "hypothesis": "Data diversity and annotation-style consistency matter more than repeating the same dominant morphology.",
+      "action": "Create a small training-only, morphology-balanced mask set through proposal-and-correction, explicitly defining diffuse edges and touching-colony treatment. Then fine-tune a suitable small segmentation model.",
+      "gate": "Use genuinely new acquisition groups for final evaluation; do not rewrite historical test labels or present the already-open63-image set as fresh blind validation.",
+      "cost": "Requires new segmentation supervision; no such labels were produced here."
+    }
+  ],
+  "importantNonClaims": [
+    "Microscopic single-cell segmentation is not automatically macroscopic colony counting.",
+    "A high micro AP score dominated by one phenotype cannot establish general-colony reliability.",
+    "Paper metrics from other splits, classes, imaging systems and hardware are not our measured accuracy or speed.",
+    "Old63-image test results can be regression evidence after method development, but not a newly independent test.",
+    "No App Store, production model, training dataset or dependency environment was changed by this research lane."
+  ]
+}

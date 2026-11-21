@@ -1,0 +1,40 @@
+{
+  "status": "IMPLEMENTED_PREFLIGHT_PASS_DATA_AND_ROOT_APPROVAL_PENDING",
+  "proposalSHA256": "c3e50430601b94c2e598b32ceb150355229372e8521b979fcb1b78a66224b41f",
+  "codeSHA256": {
+    "ml/pipes-hardening-20261026/model/pipe_hardening.py": "9973a3d5c21e4dde860067ed87f3c1677cd9cd58a97e39e576c569c3a658aaec",
+    "ml/pipes-hardening-20261026/model/train_hardening.py": "620df2c43814bbcf335811831296b474f946e03c72308a49c6f5579398a92135",
+    "ml/pipes-hardening-20261026/model/evaluate_hardening.py": "78a41ec66464292f39315e557725c117bb81b443a33faf2d700c0038c2622ddb",
+    "ml/pipes-hardening-20261026/model/bind_hardening_inputs.py": "cbe21e7be488b1707729f3038e0764fb71023694e86a1271071142941428380a",
+    "ml/pipes-20261026/model/pipe_ml.py": "04ee9fa982724e2d4855332b4b2a4eb362b04b7192d6d3f61aab321104bb2acb",
+    "ml/pipes-20261026/model/train_pipe_ends.py": "bb5ed2297a0797092c4c7fa2aaba2f2cb97af3ab500d2afdb382749f84bec3db",
+    "ml/pipes-20261026/model/evaluate_pipe_ends.py": "7c45d3c632c0a2beefbe55bb4177727c1b6f2807dcfeb6279b13fe1f3ec68282",
+    "ml/pipes-20261026/model/export_pipe_coreml.py": "30a9a1e8b2b473bb49fba582c71f99f5398e246fa4dcad0bed62eba6156a515e",
+    "ml/pipes-20261026/model/prepare_photos.swift": "35887d2cfa48f03ed2350d308206dea4444fbae55b507d822653a7c2546d158d",
+    "ml/pipes-20261026/model/audit_official_init.py": "9cd3362a6f333215eef1cfc09b326f733101920bdac8d07f1088d02176eb9af9",
+    "ml/pipes-20261026/model/bind_app_inputs.py": "63c0fffa5cd1da8064d60e192368e88576bab25546b6cc4783f36008267d839d",
+    "ml/colony/mps_compat.py": "e159d5b8da2a5f3ced4a910f75fe998741a6a993307a5a7cbec6319b0fea437c"
+  },
+  "samplerAndSaveLifecycleSmokePath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/pipes-hardening-20261026/model/smoke-v2/smoke-report.json",
+  "samplerAndSaveLifecycleSmokeSHA256": "fc159b7da2db9d892747f13eb7843f6668f2618829244a30c50c638c6c5e5784",
+  "oldBaselineSelfGatePASS": true,
+  "installedUltralyticsVersion": "8.4.123",
+  "localTrainerFreezeSupport": {
+    "freezeSetup": "# Freeze layers\n        freeze_list = (\n            self.args.freeze\n            if isinstance(self.args.freeze, list)\n            else range(self.args.freeze)\n            if isinstance(self.args.freeze, int)\n            else []\n        )\n        always_freeze_names = [\".dfl\"]  # always freeze these layers\n        freeze_layer_names = [f\"model.{x}.\" for x in freeze_list] + always_freeze_names\n        if isinstance(unwrap_model(self.model), DistillationModel):\n            freeze_layer_names.append(\"teacher_model.\")\n        self.freeze_layer_names = freeze_layer_names\n        for k, v in self.model.named_parameters():\n            # v.register_hook(lambda x: torch.nan_to_num(x))  # NaN to 0 (commented for erratic training results)\n            if any(x in k for x in freeze_layer_names):\n                LOGGER.info(f\"Freezing layer '{k}'\")\n                v.requires_grad = False\n            elif not v.requires_grad and v.dtype.is_floating_point:  # only floating point Tensor can require gradients\n                LOGGER.warning(\n                    f\"setting 'requires_grad=True' for frozen layer '{k}'. \"\n                    \"See ultralytics.engine.trainer for customization of frozen layers.\"\n                )\n                v.requires_grad = True\n        if not any(v.requires_grad for v in self.model.parameters()):\n            raise RuntimeError(\n                f\"'freeze={self.args.freeze}' froze the entire model with no trainable parameters left. \"\n                f\"Reduce 'freeze' or pass a list of specific layer indices.\"\n            )\n\n        ",
+    "modelTrain": "    def _model_train(self):\n        \"\"\"Set model in training mode.\"\"\"\n        self.model.train()\n        # Freeze BN stat\n        for n, m in self.model.named_modules():\n            if any(filter(lambda f: f in n, self.freeze_layer_names)) and isinstance(m, nn.BatchNorm2d):\n                m.eval()\n",
+    "saveReturnsBoolean": true
+  },
+  "KDDecision": "No KD this round. Existing teacher fails hard negatives; replay plus small LR and restricted early-backbone adaptation limits variables. This is not a guaranteed unseen-retention claim.",
+  "smokeHarnessCorrection": "First synthetic harness did not replicate BaseTrainer unfreeze of nonfrozen checkpoint parameters and stopped before optimizer construction/save. Preserved smoke/smoke-failure.json. smoke-v2 replicated installed setup and passed actual sampler + three save\u2192callback\u2192reload lifecycles; zero optimizer steps or forwards.",
+  "postSmokeChange": "Only common prepare/receipt guard was added after smoke; training/sampling/save operator hash remains identical.",
+  "expectedRuntime": "Approximately 12\u201318 minutes training at320 draws/epoch, based on prior20epoch/164draw run819sec, plusCPUvalidation. Hardware contention may vary.",
+  "newTrainingStarted": false,
+  "newDataRead": false,
+  "testAccessed": false,
+  "nextCommands": [
+    "train_hardening.py prepare --manifest <root-frozen-train-val-manifest>",
+    "bind_hardening_inputs.py <actualAppfreshval-export-manifest>",
+    "train_hardening.py train --receipt <root-signed-receipt>",
+    "evaluate_hardening.py select"
+  ]
+}

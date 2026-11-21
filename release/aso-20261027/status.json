@@ -1,0 +1,31 @@
+{
+  "createdAtUTC": "2026-10-27T04:20:19.480992+00:00",
+  "status": "ASO_DRAFT_READY_PENDING_REVIEW_QUEUE_DECISION",
+  "target": {
+    "appId": "6826601708",
+    "bundleId": "x.Count-stick",
+    "version": "1.0",
+    "build": "4",
+    "storeState": "WAITING_FOR_REVIEW"
+  },
+  "research": "LIVE_APPLE_ADS_QUERY_COMPLETED_WITH_SPARSE_DATA_AND_TARGET_SUGGESTION_ERROR",
+  "copyReview": "DRAFT_PASS",
+  "screenshots": "PASS_RETAINED_12_LIVE_PIXEL_MATCHES",
+  "skillUpdate": "PASS_VALIDATOR_AND_INDEPENDENT_REVIEW",
+  "metadataApplied": false,
+  "reviewWithdrawn": false,
+  "newReviewSubmitted": false,
+  "campaignsCreated": false,
+  "pricingChanged": false,
+  "pendingUserDecision": "Keep current review and apply to next editable version, or withdraw current submission and apply/resubmit.",
+  "artifacts": {
+    "metadata-candidate.json": "d61372e3f5eef41aef58b78e218e9cb47a99466ac192801c07a9c15b080ffd88",
+    "metadata-diff.json": "07cd805d0997a7bc046740b2e1bbbd8b18c54dd0cb801abdd557ebfc9641418a",
+    "apple-ads-evidence.json": "15a297131f8e339d17573ee543c0a10865265b3391d3a9edcf51e58ec11d064d",
+    "independent-copy-review.json": "92fcad160a7c904aa269366cdcbabb876247c72c0315c1561d15eb16c02cda08",
+    "screenshot-retention-review.json": "36cb702225b198dceac1e537b34a0b3c4eaf563d488f3b188713c5d893d51fc8",
+    "skill-independent-review.json": "8bf5bb1686619090b1da61b08bd3af63c3cbc01b11358434421032f57768c5c7",
+    "/Users/xue/.codex/skills/app-store-connect-release/SKILL.md": "ff5def0334229477ee8662bb5311d557a3bfc0a99363bd008cb3fc25aea53f1b",
+    "/Users/xue/.codex/skills/app-store-connect-release/references/apple-ads-aso.md": "90b05996c5a78cff3e67bb2649d928b5cd100332080e2c036fd619794a8dfa31"
+  }
+}

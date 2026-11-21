@@ -1,0 +1,20 @@
+{
+  "status": "PREPARED_SYNTAX_AND_READINESS_GUARDS_PASS_NOT_EXECUTED_ON_REAL_RUN",
+  "createdUTC": "2026-10-29T16:25:28.677708+00:00",
+  "auditScriptPath": "ml/pipes-data-expansion-20261029/model/review_cached_validation.py",
+  "auditScriptSHA256": "86644d607dc72b6cd03a676f991c1389e7e6718a0bd573bb01ec183540ec64c4",
+  "independentEquationPath": "ml/pipes-20261026/model/review_frozen_test.py",
+  "independentEquationSHA256": "f3ac1d0285ceb3c332da9eca86acea444a1fbf6b0377d5228c03eaedb3dfbe54",
+  "syntheticReadinessChecks": [
+    "malformed-parent-selection-hash",
+    "missing-completed-selection",
+    "incomplete-282-cache-set"
+  ],
+  "realRawCachesOpened": false,
+  "realMetricsComputed": false,
+  "modelLoadedOrRun": false,
+  "testGTOrPixelsRead": false,
+  "boundFilesModified": false,
+  "executionPrerequisite": "Parent readiness notification supplies completed selection.json SHA256; selection must contain3fixed candidates and all282cache+sidecar files/scores must exist before numeric imports or scoring.",
+  "commandTemplate": "output/training-venv/bin/python ml/pipes-data-expansion-20261029/model/review_cached_validation.py --selection-sha256 <completed-selection-sha256>"
+}

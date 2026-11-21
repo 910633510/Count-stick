@@ -1,0 +1,1224 @@
+{
+  "status": "PASS_FINAL_AUDIT_SAVEFIX_CANDIDATES_ALL_FAILED",
+  "reviewedUTC": "2026-10-26T02:24:21Z",
+  "reviewer": "general_counting_papers independent agent",
+  "scope": {
+    "readOnlyOperatorReview": true,
+    "operatorOrProtocolModified": false,
+    "optimizerOrCandidateInferenceExecutedByReviewer": false,
+    "new36PixelsOrGTRead": false,
+    "old63PixelsOrGTRead": false,
+    "meaning": "Implementation, existing zero-step smoke evidence, and frozen data-contract review only; not model quality acceptance."
+  },
+  "inputSHA256": {
+    "ml/research-20261025-hardcases/train_retention.py": "13e9a7112fa0131e9a09df00082158ab8433b39f4dcb40bd3390c57c39232a3e",
+    "ml/research-20261025-hardcases/evaluate_retention.py": "c0873d2fdfa1429192044eb994ccdb4e3ed3da78a737060a6de0c519a9c7d63f",
+    "ml/research-20261025-hardcases/smoke_retention.py": "cb3221c887702a24656da6b5978d5c4cfc2a6e16ff20c054f3453902a545ad38",
+    "ml/research-20261025-hardcases/smoke_trainer_setup.py": "29dfeaafea3680f376cc75154e0b8497d548d628016312fa871251be70f3b3f3",
+    "output/research-20261025-hardcases/retention/protocol.json": "d43421c55ebeca9d772aced3cd0940b71a84e236a1704d926f252b4e62e05a1a",
+    "output/research-20261025-hardcases/retention/smoke.json": "566b408a832b59454f4034e2b98cee9ac3bd45e4d11eee40625d0e313d974422",
+    "output/research-20261025-hardcases/retention/trainer-wiring-smoke.json": "a0f3eaff893ca7a543b8f9ea2fec7eab646cbbb88cd359df963484c2369bc6fa",
+    "output/research-20261025-hardcases/retention/gates-smoke.json": "0d25d2daa8cad3b451fa71b9dd550260a7c9ae93e1fdfbfbff7889062a987fee",
+    "output/research-20261025-hardcases/retention/global-group-safety-amendment.json": "ab544649088a5b7c68fcccd9cec9f8f702f7a01ba99ecda7927f72df23adda77",
+    "output/datasets/colony-hardcases-retention-v1/manifest.json": "2d45c24b8a20e445cb75d024bf5161c2c979a51359059a860d06fa98ff7bda37",
+    "ml/research-20261025-hardcases/dataset-qa.json": "6a4c346f9e510a03fdfbcaeed9fc8be6a938f2718b6b213373e9d50fd6888099",
+    "output/research-20261025-hardcases/retention/data-binding.json": "eba6651c1c7722213b835dc1c5308f9dc87cf908559dbdf89336b8abd68b81e4",
+    "output/research-20261025-hardcases/retention/records.json": "b975a3109e6e10928cbc328076a352bc3c8b43560644a0dc48d48508a5fb5fd7",
+    "output/research-20261025-hardcases/retention/dataset/data.yaml": "6c4df8605d7a971cbe70eaa4448892221c421dcc191dfd75e343b73c70bf7997",
+    "output/research-20261025-hardcases/retention/hash-guard-smoke.json": "6d7287cb776758dc826b70cee7f7be9930cb3a553881697b114d252babe81bb3",
+    "output/research-20261025-hardcases/retention/prepare-compatibility-fixes.json": "c230993059a0dcb4c94a8043bcfb67db859ba279a4090926db0069dcd7768841",
+    "ml/research-20261025-hardcases/train_retention_savefix.py": "689b49d53b6dbc024249bb25ef98219df629a18835c9d19bae4252533dcf3c80",
+    "ml/research-20261025-hardcases/evaluate_retention_savefix.py": "6dddb1b425fc2fa5d994a579ad42d046531cffeb1a3173169252d1f90a52d491",
+    "output/research-20261025-hardcases/retention-savefix-v2/protocol.json": "8d9671a1fd47acff4d67dbbf52cb22b052f42adf23a0230806d0316bb1b495a3",
+    "output/research-20261025-hardcases/retention-savefix-v2/data-binding.json": "de90cfb4b1d1bd998573810616496bbed573cf7c13462a5e3b7c0c056235d20a",
+    "output/research-20261025-hardcases/retention-savefix-v2/records.json": "77096e662e22dd7ba292a4aed47c756e08999c797ca9f35c9571923990a712aa",
+    "output/research-20261025-hardcases/retention-savefix-v2/save-lifecycle-smoke.json": "0e14cc9063767a1dec0172c4f1b5fa1212222a019b935015c6f71f405f13cd4b"
+  },
+  "teacherAndLoss": {
+    "status": "PASS_STATIC_AND_EXISTING_SMOKE",
+    "teacherSubset": "AnchorCriterion selects only bucket old_anchor from train_by_path, which contains split=train only. New manifest rows cannot declare old_anchor.",
+    "sameAugmentedTensor": "Teacher receives index_select of already preprocessed batch.img used by student. No unaugmented/GT exemplar discrepancy.",
+    "teacherEvalNoGrad": true,
+    "teacherNotOptimizerMember": true,
+    "teacherNotStudentStateOrEMACheckpoint": true,
+    "KDScaling": "Class Bernoulli KL and DFL KL are computed on aligned raw anchors; teacher detached;class5/box1 weighted scalar multiplied by completebatch size, matching base criterion batch scaling.",
+    "actualTeacherTrace": "Every epoch requires teacher_consumed equal full actual old_anchor-train consumed-ID subsequence."
+  },
+  "frozenStateAndBlend": {
+    "status": "PASS_STATIC_AND_EXISTING_SMOKE",
+    "backboneLayers0Through10": "Ultralytics freeze list matches model.N prefixes before optimizer construction.",
+    "allBN": "RetentionTrainer._model_train forces allBN eval and affine requires_grad=False; repeated each epoch.",
+    "DFL": "Installed trainer always freezes .dfl projection.",
+    "EMA": "Constructed before custom criterion; updater copies explicit ordinary attributes only. Frozen keys reset to anchor immediately before checkpoint serialization.",
+    "blend": "Keys/shapes/dtypes/finiteness checked; only unfrozen floating parameters interpolated; frozen parameters and all buffers must equal anchor, then copied exactly. Reloaded candidate state must equal saved blend.",
+    "epochs": [
+      3,
+      5,
+      8
+    ],
+    "alphas": [
+      0.05,
+      0.15,
+      0.35,
+      1.0
+    ],
+    "alphaZeroEligible": false,
+    "evidenceLimits": "Existing smokes use synthetic inputs and nooptimizer step; real checkpoint invariants remain to be audited after training."
+  },
+  "sampling": {
+    "status": "PASS_STATIC_AND_EXISTING_SMOKE",
+    "hierarchy": "bucket mass\u2192source\u2192species\u2192conservative physical/capturegroup\u2192image",
+    "bucketProbability": {
+      "old_anchor": 0.65,
+      "hard_positive": 0.25,
+      "empty_negative": 0.1
+    },
+    "clinicalProbabilityCap": 0.05,
+    "capIsExpectationNotExactRealizedQuota": true,
+    "actualSamplerPassedToInfiniteDataLoader": true,
+    "consumedIDsRecordedAfterPrefetch": true,
+    "actualPostAugmentationGTBoxesRecorded": true,
+    "oldVsNewGroupMeaning": "Mendeley whole-source group is conservative unknown identity, not proof of a single physical plate; old original filename groups also do not certify biological plate identities.",
+    "existing100kSmokeObserved": {
+      "old_anchor": 64703,
+      "hard_positive": 25173,
+      "empty_negative": 10124,
+      "clinical": 5060
+    },
+    "unequalViewCountsSmoke": true
+  },
+  "selectionAndGates": {
+    "status": "PASS_STATIC_AND_EXISTING_SMOKE",
+    "operatingPipeline": "fixed automatic4tile/conf0.3/NMS0.7/1024/max1000",
+    "exact12Candidates": true,
+    "old56": "Overall MAE/speciesmacroMAE/FP/FN, every species MAE/FP/FN, every size-bin FN cannot increase; EPS1e-9 only. Real baseline passes itself; +1FP or subgroupFN rejected by smoke.",
+    "clinicalVal36": "Separate old-anchor comparison on validationonly; countMAE/FP/FN cannotincrease.",
+    "newHardPositive": "Mean counterror perimage within group, then groups within species, species within source, sources equal;>=5% improvement, aggregateFP/FN cannotincrease.",
+    "realAndSyntheticNegatives": "Every real empty validation image and white/gray/black control count must be zero; no uniform-image specialcase.",
+    "aspirationalReference": "Stronger whole/tile references remain nonbindingdiagnostics, clearly distinguished from actualfrozenpipelinebaseline.",
+    "noOld63OrNew36Reader": true,
+    "fixedOld63CheckByRootOnly": "One selectedcandidate only afterward; failure rejects whole round, no choosing another candidate usingregression outcomes.",
+    "modelInferenceNotRunByReviewer": true
+  },
+  "smokeSourceApplicability": {
+    "operatorPreGlobalGroupSHA256": "4cd44811afa77b9a54b7e6b25c96333f2b38eb7cdcd35bd04650090eb4dc894d",
+    "currentOperatorSHA256": "13e9a7112fa0131e9a09df00082158ab8433b39f4dcb40bd3390c57c39232a3e",
+    "independentASTComparison": "Only old_records and prepare differ; RetentionTrainer/AnchorCriterion/retention_terms/sampling_weights/blend_model are identical to fulltrainer smoke snapshot.",
+    "latestLossSamplerSmokeMatchesCurrentOperatorHash": true,
+    "latestGateSmokeMatchesCurrentEvaluatorHash": true,
+    "fullTrainerSmokeOptimizerStateEntries": 0,
+    "finalRuntimeASTStillMatchesFullTrainerSmoke": [
+      "RetentionTrainer",
+      "AnchorCriterion",
+      "retention_terms",
+      "sampling_weights",
+      "blend_model"
+    ]
+  },
+  "frozenDataContract": {
+    "status": "PASS_51_NEW_IMAGES_GLOBAL_GROUPS",
+    "manifestSHA256": "2d45c24b8a20e445cb75d024bf5161c2c979a51359059a860d06fa98ff7bda37",
+    "newPositiveImages": 11,
+    "positiveBoxes": 59,
+    "newNegativeImages": 40,
+    "train": {
+      "hard_positive": 7,
+      "empty_negative": 34
+    },
+    "val": {
+      "hard_positive": 4,
+      "empty_negative": 6
+    },
+    "globalConservativeGroups": 15,
+    "globalGroupTrainValIntersections": 0,
+    "all51ImageHashesIndependentlyReverified": true,
+    "sourceAliasCannotBypassGroupExclusion": "prepare keys groups globally by str(groupId), independent of source; internal old/clinical groups namespaced.",
+    "rootAnnotationQAStatus": "PASS_FROZEN_ANNOTATIONS_AND_GROUP_BOUNDARY_QA",
+    "plannedPreparedTotals": {
+      "train": 401,
+      "val": 102
+    },
+    "preparedBindingVerified": true,
+    "rootReceiptNotCreatedByReviewer": true
+  },
+  "receiptReview": {
+    "operatorHash": "Enforced",
+    "manifestProtocolBindingQASHARecordsYAMLAndPreparedImageLabelHashes": "Enforced",
+    "evaluatorHash": "Enforced before training and baseline/select",
+    "localDependencySHA256": "Three helpers enforced: train_isolate_mixture.py,evaluate.py,mps_compat.py",
+    "actualRootReceiptStatus": "Still pending root signature at this review; reviewer did not create training authorization or starttraining."
+  },
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "medium_provenance",
+      "status": "RESOLVED",
+      "finding": "EvaluatorSHA256 exists in root receipt template but is not validated before training or scoring; code drift can decouple later scoring from reviewed protocol implementation.",
+      "requestedFix": "Check evaluator hash in rootreceipt and enforce frozen evaluator/inference implementation binding before baseline/select. Nooptimizer or model rerun required for this guard-onlyfix.",
+      "resolution": "Training preflight now enforces evaluator and3localhelper hashes; before anyoptimization it writes immutable authorization references. Both evaluator baseline/select verify operator/evaluator/helpers/protocol/data-binding/rootreceipt hashes; synthetic tampering smoke passes."
+    }
+  ],
+  "nextRequiredAudits": [
+    "Root creates exacthashreceipt after this pretrainingPASS",
+    "Aftertraining actualsampling and teacher-subsequence audits, frozenstate/EMA andcheckpoint hashes",
+    "Independently recompute12candidate scores/gates/ranking and selectedconfig",
+    "Only one selectedcandidate may undergo old63fixedregression; reserved36 remainsclosed"
+  ],
+  "preparedDataAudit": {
+    "status": "PASS_503_PREPARED_IMAGES_NO_INFERENCE",
+    "bindingSHA256": "eba6651c1c7722213b835dc1c5308f9dc87cf908559dbdf89336b8abd68b81e4",
+    "train": 401,
+    "val": 102,
+    "roleCounts": {
+      "old_train": 247,
+      "old_validation": 56,
+      "hardcase_train": 41,
+      "hardcase_val": 10,
+      "clinical_train": 113,
+      "clinical_validation": 36
+    },
+    "globalGroupsSplitExclusive": true,
+    "exactSHAIntersectionsAcrossSplitsZero": true,
+    "all503OriginalAndPreparedImageHashesVerified": true,
+    "all503PreparedLabelHashesDimensionsEXIFAndLabelRoundTripVerified": true,
+    "oldTrainAndValMembershipMatchOriginalSplits": true,
+    "clinicalRowsMatchTrainValOnlyManifest": true,
+    "newHardcaseIDsExactlyMatchFrozen51": true,
+    "legacyRoundedBoundaryBoxes": 16,
+    "legacyMaxOriginalOvershootPx": 1.2354998943919782e-06,
+    "coordinatesClippedOrModified": false,
+    "newAnnotationBoundaryEpsilon": 0,
+    "samplingBucketProbabilityIndependentlyVerified": {
+      "old_anchor": 0.6500000000000007,
+      "hard_positive": 0.24999999999999978,
+      "empty_negative": 0.09999999999999987
+    },
+    "clinicalTrainingProbability": 0.05000000000000004,
+    "equalGroupMassWithinSourceSpeciesVerified": true,
+    "realTrainingRunExistsAtReview": false
+  },
+  "finalCandidateAudit": {
+    "status": "PASS_AUDIT_OF_FAIL_NO_CANDIDATE_PASSES",
+    "runDirectory": "output/research-20261025-hardcases/retention-savefix-v2",
+    "selectionSHA256": "98a6b8edbcd424c91d3eea28c656296649bb25b4baa5ed95a94cdfd925e5ce6b",
+    "candidateCount": 12,
+    "passingCandidateCount": 0,
+    "selectedConfig": null,
+    "protocolSHA256": "8d9671a1fd47acff4d67dbbf52cb22b052f42adf23a0230806d0316bb1b495a3",
+    "recordsSHA256": "77096e662e22dd7ba292a4aed47c756e08999c797ca9f35c9571923990a712aa",
+    "operatorSHA256": "689b49d53b6dbc024249bb25ef98219df629a18835c9d19bae4252533dcf3c80",
+    "evaluatorSHA256": "6dddb1b425fc2fa5d994a579ad42d046531cffeb1a3173169252d1f90a52d491",
+    "candidateIndexSHA256": "f616c2b7e90cc460262125ed7be9ea8163b82a28b3d8895e43881edba83112eb",
+    "baselineSHA256": "7fa4931221deb9206eb892a540adf6175918361724c3c316128b2dff490d0a11",
+    "all13CachesMetricsMatchingCountsSizeRecallAndAPRecomputed": true,
+    "all12GateDetailsAndRankingRecomputed": true,
+    "individualScoreFilesMatchSelection": true,
+    "cacheAudit": [
+      {
+        "tag": "baseline",
+        "cacheSHA256": "642390532e114748e429f19b1e9aa0da7c0c6d873e613a1c6e165dd9785ee636",
+        "modelSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch003-alpha0.05",
+        "cacheSHA256": "0245cc9526fde1005fea77eb43c92599b2adbd685dd4c44b16e2f29d31bddcf7",
+        "modelSHA256": "2af332a4695ebfbb8c56b7fedefddaeecda1d968a78f704cbaafdb72c5f18a5c",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch003-alpha0.15",
+        "cacheSHA256": "687c2874f59d57e4010da3eed36ea7efafe895c4d7b25f6b65949dc56d45a041",
+        "modelSHA256": "a04f8be2bed4512472e8f324546407e766f79e3ec6b0f3ec54f9bf36c82ff9e3",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch003-alpha0.35",
+        "cacheSHA256": "d8494e2e836a354d82b793a9889c855c6548b3fcf57d4227221d369212e71c76",
+        "modelSHA256": "aa99a65c99cc56fbbbd52358d5851e5f8fdcbaf920296c2ba524e7de4cbbee6f",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch003-alpha1",
+        "cacheSHA256": "d460ad59242003eb539ba75d19f9fbca69294c17da4791b1ad21823488fa1379",
+        "modelSHA256": "1c8394be95be0796df967261414aa0b292f11cfdccc333f9e4ca1c89aa18110d",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch005-alpha0.05",
+        "cacheSHA256": "db31124b70b8e85d706f119dbb0b6df637228b18da50ff4c4b47a489b67bd4c3",
+        "modelSHA256": "f87b6587b475d4b0d5a6690df980858e78bb01a3fc509ee5c574e577715d863b",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch005-alpha0.15",
+        "cacheSHA256": "a37157979c86110c6ad826f0f9676ee63b396d8826a9f811c680a0f729182d92",
+        "modelSHA256": "8e3b21db56e18532cd4d357f10aefba56437195577da02ce3b3eb942d4875cbf",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch005-alpha0.35",
+        "cacheSHA256": "e83f151c0e5ef1630deae83458f0d8999018b09b9df8e9ef3ee2ebaf9d6760bf",
+        "modelSHA256": "b175347d113d39851335389e5d52ee4f0d7310ff713cfb4354c469970b90b1f1",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch005-alpha1",
+        "cacheSHA256": "c18e90645be02c580764d49523749fbccc7c0de9a442295faaa5b52e6801089a",
+        "modelSHA256": "882f8f88aa52948be14ea943761ead70bee1bc5826f394735488bbdb468f5f53",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch008-alpha0.05",
+        "cacheSHA256": "dbe025386cbb82365ddc834eb77da40f4a0ba98939c02a37c9b6b73394cf0dcc",
+        "modelSHA256": "810fd68130008795a521f75a2d20ff2b0e9376607d5c97574c08133eab4d5359",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch008-alpha0.15",
+        "cacheSHA256": "de815e05831ef8493707a289df9b6795d1fdfbea2e4b978b54f3bd29e75eee7c",
+        "modelSHA256": "f9ec42f0785a11faf7f80e12ad8ec547693c5e4b04f9152002278eec5e59478c",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch008-alpha0.35",
+        "cacheSHA256": "ab733586c977dfed0028b30bff29fb2ff62982c9a86ec696bae854e9fa7d0d55",
+        "modelSHA256": "af36cae8050d68d652803028043eb8ff41ba23c1e26d44a20e2cdbae63216ef8",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      },
+      {
+        "tag": "epoch008-alpha1",
+        "cacheSHA256": "63c061f67ef2296337508a25fd08bfb80e663a2a8e1a5277d2c793fe7cc4ef77",
+        "modelSHA256": "5fea887a835df992e25f743df16305b1bece74509806854e7ac729060f0d4b4b",
+        "all102PredictionMembershipAndFiniteArraysVerified": true,
+        "allOperatingMetricsAndAPIndependentlyRecomputed": true
+      }
+    ],
+    "candidates": [
+      {
+        "epoch": 3,
+        "alpha": 0.05,
+        "hardPositiveMacroMAE": 9.0,
+        "old56MAE": 14.928571428571429,
+        "failedGateCount": 10,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/figshare22022540v3/sp04/FP",
+          "old56/figshare22022540v3/sp09/countMAE",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/sp14/countMAE",
+          "old56/figshare22022540v3/sp14/FP",
+          "old56/figshare22022540v3/under16px/FN",
+          "clinical36/countMAE",
+          "clinical36/FP",
+          "hardPositive/primaryMacroMAE_5percentGain",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 3,
+        "alpha": 0.15,
+        "hardPositiveMacroMAE": 8.5,
+        "old56MAE": 14.803571428571429,
+        "failedGateCount": 14,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/FP",
+          "old56/figshare22022540v3/sp02/FP",
+          "old56/figshare22022540v3/sp04/FP",
+          "old56/figshare22022540v3/sp09/countMAE",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/sp11/FP",
+          "old56/figshare22022540v3/sp11/FN",
+          "old56/figshare22022540v3/sp14/countMAE",
+          "old56/figshare22022540v3/sp14/FP",
+          "old56/figshare22022540v3/under16px/FN",
+          "clinical36/FP",
+          "clinical36/FN",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 3,
+        "alpha": 0.35,
+        "hardPositiveMacroMAE": 6.25,
+        "old56MAE": 14.214285714285714,
+        "failedGateCount": 12,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/FP",
+          "old56/figshare22022540v3/sp04/FP",
+          "old56/figshare22022540v3/sp09/countMAE",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/sp14/countMAE",
+          "old56/figshare22022540v3/sp14/FP",
+          "old56/figshare22022540v3/sp14/FN",
+          "old56/figshare22022540v3/under16px/FN",
+          "clinical36/FP",
+          "clinical36/FN",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 3,
+        "alpha": 1.0,
+        "hardPositiveMacroMAE": 3.0,
+        "old56MAE": 14.321428571428571,
+        "failedGateCount": 10,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/FN",
+          "old56/figshare22022540v3/sp09/countMAE",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/sp13/FN",
+          "old56/figshare22022540v3/sp14/FN",
+          "old56/figshare22022540v3/under16px/FN",
+          "clinical36/FP",
+          "clinical36/FN",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 5,
+        "alpha": 0.05,
+        "hardPositiveMacroMAE": 9.0,
+        "old56MAE": 14.982142857142858,
+        "failedGateCount": 10,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/FP",
+          "old56/figshare22022540v3/sp02/FP",
+          "old56/figshare22022540v3/sp04/FP",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/under16px/FN",
+          "clinical36/FP",
+          "clinical36/FN",
+          "hardPositive/primaryMacroMAE_5percentGain",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 5,
+        "alpha": 0.15,
+        "hardPositiveMacroMAE": 8.5,
+        "old56MAE": 14.821428571428571,
+        "failedGateCount": 11,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/FP",
+          "old56/figshare22022540v3/sp04/FP",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/sp14/countMAE",
+          "old56/figshare22022540v3/sp14/FP",
+          "old56/figshare22022540v3/sp14/FN",
+          "old56/figshare22022540v3/under16px/FN",
+          "clinical36/FP",
+          "clinical36/FN",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 5,
+        "alpha": 0.35,
+        "hardPositiveMacroMAE": 7.0,
+        "old56MAE": 15.125,
+        "failedGateCount": 13,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/FP",
+          "old56/figshare22022540v3/sp04/FP",
+          "old56/figshare22022540v3/sp09/countMAE",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/sp11/countMAE",
+          "old56/figshare22022540v3/sp13/FP",
+          "old56/figshare22022540v3/sp14/countMAE",
+          "old56/figshare22022540v3/sp14/FP",
+          "old56/figshare22022540v3/under16px/FN",
+          "clinical36/FP",
+          "clinical36/FN",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 5,
+        "alpha": 1.0,
+        "hardPositiveMacroMAE": 2.75,
+        "old56MAE": 15.375,
+        "failedGateCount": 13,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/countMAE",
+          "old56/primaryMacroMAE",
+          "old56/FP",
+          "old56/figshare22022540v3/sp04/countMAE",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/sp11/countMAE",
+          "old56/figshare22022540v3/sp14/countMAE",
+          "old56/figshare22022540v3/sp14/FP",
+          "old56/figshare22022540v3/under16px/FN",
+          "clinical36/FP",
+          "clinical36/FN",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 8,
+        "alpha": 0.05,
+        "hardPositiveMacroMAE": 9.0,
+        "old56MAE": 15.017857142857142,
+        "failedGateCount": 11,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/FP",
+          "old56/figshare22022540v3/sp02/FP",
+          "old56/figshare22022540v3/sp04/FP",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/sp11/countMAE",
+          "old56/figshare22022540v3/sp14/countMAE",
+          "old56/figshare22022540v3/sp14/FP",
+          "old56/figshare22022540v3/under16px/FN",
+          "hardPositive/primaryMacroMAE_5percentGain",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 8,
+        "alpha": 0.15,
+        "hardPositiveMacroMAE": 8.5,
+        "old56MAE": 15.196428571428571,
+        "failedGateCount": 12,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/FP",
+          "old56/figshare22022540v3/sp02/FP",
+          "old56/figshare22022540v3/sp04/FP",
+          "old56/figshare22022540v3/sp09/countMAE",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/sp13/countMAE",
+          "old56/figshare22022540v3/sp13/FP",
+          "old56/figshare22022540v3/sp14/countMAE",
+          "old56/figshare22022540v3/sp14/FP",
+          "old56/figshare22022540v3/under16px/FN",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 8,
+        "alpha": 0.35,
+        "hardPositiveMacroMAE": 7.5,
+        "old56MAE": 15.160714285714286,
+        "failedGateCount": 11,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 1,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/FP",
+          "old56/figshare22022540v3/sp02/FP",
+          "old56/figshare22022540v3/sp04/FP",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp11/countMAE",
+          "old56/figshare22022540v3/sp11/FP",
+          "old56/figshare22022540v3/sp13/countMAE",
+          "old56/figshare22022540v3/sp13/FP",
+          "old56/figshare22022540v3/sp14/countMAE",
+          "old56/figshare22022540v3/sp14/FP",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      },
+      {
+        "epoch": 8,
+        "alpha": 1.0,
+        "hardPositiveMacroMAE": 5.0,
+        "old56MAE": 16.053571428571427,
+        "failedGateCount": 16,
+        "gateStatus": "FAIL",
+        "realEmptyCounts": {
+          "negative_bruker_BESBL_base": 0,
+          "negative_bruker_BESBL_bottom": 0,
+          "negative_bruker_BESBL_default": 0,
+          "negative_zenodo_20230710_141742632": 0,
+          "negative_zenodo_20230710_141700357": 2,
+          "negative_zenodo_20230710_141746566": 0
+        },
+        "pureControlCounts": {
+          "white": 0,
+          "gray": 0,
+          "black": 0
+        },
+        "failedGates": [
+          "old56/countMAE",
+          "old56/primaryMacroMAE",
+          "old56/FP",
+          "old56/figshare22022540v3/sp02/FP",
+          "old56/figshare22022540v3/sp09/FP",
+          "old56/figshare22022540v3/sp09/FN",
+          "old56/figshare22022540v3/sp11/countMAE",
+          "old56/figshare22022540v3/sp11/FP",
+          "old56/figshare22022540v3/sp13/countMAE",
+          "old56/figshare22022540v3/sp13/FP",
+          "old56/figshare22022540v3/sp13/FN",
+          "old56/figshare22022540v3/sp14/countMAE",
+          "old56/figshare22022540v3/sp14/FP",
+          "old56/figshare22022540v3/sp14/FN",
+          "old56/figshare22022540v3/under16px/FN",
+          "realEmpty/negative_zenodo_20230710_141700357"
+        ]
+      }
+    ],
+    "bestHardPositiveDiagnosticCandidate": {
+      "epoch": 5,
+      "alpha": 1.0,
+      "hardPositiveMacroMAE": 2.75,
+      "old56MAE": 15.375,
+      "failedGateCount": 13,
+      "gateStatus": "FAIL",
+      "realEmptyCounts": {
+        "negative_bruker_BESBL_base": 0,
+        "negative_bruker_BESBL_bottom": 0,
+        "negative_bruker_BESBL_default": 0,
+        "negative_zenodo_20230710_141742632": 0,
+        "negative_zenodo_20230710_141700357": 1,
+        "negative_zenodo_20230710_141746566": 0
+      },
+      "pureControlCounts": {
+        "white": 0,
+        "gray": 0,
+        "black": 0
+      },
+      "failedGates": [
+        "old56/countMAE",
+        "old56/primaryMacroMAE",
+        "old56/FP",
+        "old56/figshare22022540v3/sp04/countMAE",
+        "old56/figshare22022540v3/sp09/FP",
+        "old56/figshare22022540v3/sp09/FN",
+        "old56/figshare22022540v3/sp11/countMAE",
+        "old56/figshare22022540v3/sp14/countMAE",
+        "old56/figshare22022540v3/sp14/FP",
+        "old56/figshare22022540v3/under16px/FN",
+        "clinical36/FP",
+        "clinical36/FN",
+        "realEmpty/negative_zenodo_20230710_141700357"
+      ]
+    },
+    "CPUScoringLogNoWarningOrTraceback": true,
+    "noOld63OrNew36InferencePerformed": true,
+    "modelInferencePerformedByReviewer": false,
+    "interpretation": "The experiment audit passed; everycandidatefailed. No model is approved and finalold63modelinference should be skipped."
+  },
+  "guardOnlyRevisionsNoGateChange": true,
+  "pretrainingFinalCodeHashes": {
+    "operatorSHA256": "689b49d53b6dbc024249bb25ef98219df629a18835c9d19bae4252533dcf3c80",
+    "evaluatorSHA256": "6dddb1b425fc2fa5d994a579ad42d046531cffeb1a3173169252d1f90a52d491",
+    "protocolSHA256": "8d9671a1fd47acff4d67dbbf52cb22b052f42adf23a0230806d0316bb1b495a3",
+    "dataBindingSHA256": "de90cfb4b1d1bd998573810616496bbed573cf7c13462a5e3b7c0c056235d20a"
+  },
+  "firstAttemptAudit": {
+    "status": "FAILED_MISSING_REGISTERED_CHECKPOINTS",
+    "optimizationEpochsCompleted": 8,
+    "actualImageIDsIndependentlyReplayed": 2880,
+    "actualBucketCounts": {
+      "hard_positive": 711,
+      "old_anchor": 1886,
+      "empty_negative": 283
+    },
+    "teacherOldTrainExpectedSubsequenceImages": 1886,
+    "teacherAuditEvidence": "Running frozen code asserts cumulative teacher_consumed exactly equals old_anchor/train actual-ID subsequence; all8savedassertionflags true. Separate rawteacher eventstream was not persisted.",
+    "allEpochLossItemsFinite": true,
+    "registeredCheckpointDirectoryExists": false,
+    "registeredEpoch3And5NotRecoverableFromFinalWeights": true,
+    "availableFinalDebugWeights": [
+      {
+        "name": "last.pt",
+        "epochZeroBased": 7,
+        "sha256": "d175f8d9b5b01097e4897ba74dad9bc44943a754b79f0e898a7cf3fbeae52054",
+        "optimizerSteps": 201
+      },
+      {
+        "name": "best.pt",
+        "epochZeroBased": 6,
+        "sha256": "0d009d85d71a78c2c04c0f0b67bce8832f66a58a68989d90b50f23f64774ee38",
+        "optimizerSteps": 178
+      }
+    ],
+    "bothAvailableWeightsFiniteAnd446FrozenKeysExact": true,
+    "criterionAndTeacherAbsentFromAvailableWeightModels": true,
+    "rootCause": "RetentionTrainer.save_model called parent but discarded its True return. Installed BaseTrainer only fires on_model_save callbacks if self.save_model() returns truthy. Epochcopy callback therefore never executed.",
+    "trainingCompleteJSONIsNotCompleteCandidateExperimentEvidence": true,
+    "candidateGridCompleted": false,
+    "candidatePredictionsAvailable": false,
+    "finalCandidateNotApproved": true,
+    "originalOperatorSHA256": "13e9a7112fa0131e9a09df00082158ab8433b39f4dcb40bd3390c57c39232a3e",
+    "originalEvaluatorSHA256": "c0873d2fdfa1429192044eb994ccdb4e3ed3da78a737060a6de0c519a9c7d63f",
+    "originalRootReceiptSHA256": "3a4bfa34863d0e307db0755c1dda19f815b97eec584c17f1d2ca5ad196da3b79",
+    "originalPretrainingReviewSnapshotSHA256": "706385a188e8c14de42c349db02cba8ba376ec1342ef2d1d3fc5a515fef46afd",
+    "reportingCorrection": "Operator initially stated3checkpoints were complete; independent filesystem review disproved this, and operator corrected the statement before candidate inference."
+  },
+  "numericWarningReview": {
+    "status": "BOUNDED_EVIDENCE_SUPPORTS_SPURIOUS_FLAGS_NOT_FULL_RUN_ARRAY_CAPTURE",
+    "environment": "AppleM5Pro/macOS26.4.1,NumPy2.0.2,Accelerate",
+    "independentPureMatrixProbe": "output/research-20261025-hardcases/retention/independent-numpy-probe.json",
+    "pureProbeSameWarningsButOracleErrorMax": 1.8189894035458565e-12,
+    "producerReplayReport": "output/research-20261025-hardcases/retention/diagnostics/augmentation-replay-report.json",
+    "replayedActualEpoch": 1,
+    "replayedConsumedIDs": 360,
+    "postAugmentationGroupBoxCountsMatchActual": true,
+    "replayTransformEventsIncludingPrefetch": 368,
+    "replayWarningEvents": 1,
+    "warningCase": {
+      "pid": 2479,
+      "sequence": 127,
+      "image": "old_train_sp05_img18",
+      "inputBoxes": 747,
+      "inputsMatrixOutputFinite": true,
+      "scalarOracleMaxErrorPx": 6.103515625e-05
+    },
+    "replayAllEventMaxErrorPx": 0.0001220703125,
+    "arrayCaptureLimitation": "Original diagnostic savednpz only when transformsequence<=100; firstwarning127 wasnot saved. JSONL scalaroracle evidence exists; separate bounded capture requested.",
+    "all8ActualTrainingMatricesCaptured": false,
+    "dependenciesOrTrainingWarningsSuppressed": false,
+    "primarySources": [
+      "https://github.com/numpy/numpy/issues/28687",
+      "https://github.com/numpy/numpy/issues/29820",
+      "https://github.com/numpy/numpy/issues/31776"
+    ],
+    "interpretation": "Known backend flags can be false, but finitevalues alone do not prove correctness; scalaroracle comparison is required. Noenvironment upgrade made.",
+    "subsequentSavedWarningCase": {
+      "status": "PASS_INDEPENDENT_MATH_FSUM_ORACLE",
+      "path": "output/research-20261025-hardcases/retention/diagnostics/capture-v2/warning-case-3861-127.npz",
+      "sha256": "1813d0ff29c7fab698ff5b953e64a634600b6957221df31a77ff8948fc7ef6f6",
+      "boxes": 747,
+      "maxOracleErrorPx": 6.103515625e-05,
+      "evidence": "output/research-20261025-hardcases/retention/diagnostics/independent-saved-case-verification.json",
+      "limitedToOfflineEpoch1Case": true
+    }
+  },
+  "technicalRetryReview": {
+    "status": "PASS_MINIMAL_DELTA_AND_ALL503_PREPARED_ROWS",
+    "newOutput": "output/research-20261025-hardcases/retention-savefix-v2",
+    "parentAttemptPreserved": true,
+    "protocolOnlyDifference": "technicalReplay explanatory metadata; every original training/data/seed/KD/sampler/gate/grid field identical",
+    "newCodeDelta": [
+      "Separateoutput/evaluatorimport/hash paths",
+      "Propagate parentsave_model return",
+      "Per3/5/8 epoch and completion copy/hash/internalepoch completenessasserts",
+      "Stop-only assertions for nonfinite live/EMA,FP16overflow,frozenlive drift before serialization"
+    ],
+    "optimizerRecipeChanged": false,
+    "gatesOrCandidateGridChanged": false,
+    "realSaveReturnCallbackCopyReloadLifecycleSmokePassed": true,
+    "smokeOptimizerSteps": 0,
+    "syntheticSnapshotCopiesAreNotActualTrainingArtifacts": true,
+    "datasetAndPreparedRowParityStillPending": false,
+    "operatorPath": "ml/research-20261025-hardcases/train_retention_savefix.py",
+    "evaluatorPath": "ml/research-20261025-hardcases/evaluate_retention_savefix.py",
+    "operatorSHA256": "689b49d53b6dbc024249bb25ef98219df629a18835c9d19bae4252533dcf3c80",
+    "evaluatorSHA256": "6dddb1b425fc2fa5d994a579ad42d046531cffeb1a3173169252d1f90a52d491",
+    "protocolSHA256": "8d9671a1fd47acff4d67dbbf52cb22b052f42adf23a0230806d0316bb1b495a3",
+    "dataBindingSHA256": "de90cfb4b1d1bd998573810616496bbed573cf7c13462a5e3b7c0c056235d20a",
+    "recordsSHA256": "77096e662e22dd7ba292a4aed47c756e08999c797ca9f35c9571923990a712aa",
+    "all503RowsIdenticalExceptPreparedOutputPaths": true,
+    "all503SourcePreparedImagesAndLabelHashesIndependentlyVerified": true,
+    "allGTXYXYCountsGroupsIDsRolesSplitsAndAnnotationsUnchanged": true,
+    "sameManifestSHA256": "2d45c24b8a20e445cb75d024bf5161c2c979a51359059a860d06fa98ff7bda37",
+    "sameTrainingConfigAndEveryPriorProtocolField": true,
+    "sameSamplerKDCriterionFreezeForwardPreprocessBlendAndSelectionFunctionAST": true,
+    "RetentionTrainerOnlyChangedMethod": "save_model; returnpropagation+assertions, unchangedEMA reset",
+    "evaluatorOnlyChangedASTImport": "train_retention\u2192train_retention_savefix; every function ASTidentical",
+    "registeredCheckpointSaveCallbackAndAtEpochAndEndCompletenessEnforced": true,
+    "noCandidateTuningFeedbackFromFailedAttempt": true,
+    "saveLifecycleSmokeSHA256": "0e14cc9063767a1dec0172c4f1b5fa1212222a019b935015c6f71f405f13cd4b",
+    "newActualTrainingRunExistsAtReview": false,
+    "newActualRootReceiptStillPendingAtReview": true,
+    "notAnAdditionalTuningExperiment": "Root-authorized technical replay from identicalanchor/seed; no8epochcontinuation or substitute intermediateweights."
+  },
+  "savefixLiveAudit": {
+    "status": "PASS_COMPLETED_EPOCHS_AND_REGISTERED_CHECKPOINTS_SO_FAR",
+    "runDirectory": "output/research-20261025-hardcases/retention-savefix-v2",
+    "trainingAuthorizationAndRootReceiptHashesMatch": true,
+    "sampling": [
+      {
+        "epoch": 1,
+        "IDs": 360,
+        "independentReplayMatches": true,
+        "sameActualIDsAndPostAugmentationBoxCountsAsFirstAttempt": true,
+        "teacherExpectedOldTrainImages": 237,
+        "allLossItemsFinite": true,
+        "reportSHA256": "4196363187da741f25b9367163ab8acc6da8105209b5e3dd42a2a66e6d6961bc"
+      },
+      {
+        "epoch": 2,
+        "IDs": 360,
+        "independentReplayMatches": true,
+        "sameActualIDsAndPostAugmentationBoxCountsAsFirstAttempt": true,
+        "teacherExpectedOldTrainImages": 235,
+        "allLossItemsFinite": true,
+        "reportSHA256": "5e04bc1218829d1ca53cfee1097fa247fe68eb967ddb4f6ad6f0208757b8bacf"
+      },
+      {
+        "epoch": 3,
+        "IDs": 360,
+        "independentReplayMatches": true,
+        "sameActualIDsAndPostAugmentationBoxCountsAsFirstAttempt": true,
+        "teacherExpectedOldTrainImages": 233,
+        "allLossItemsFinite": true,
+        "reportSHA256": "ddde5bae3ac23da127139110c362e60f4989cf3f57a77e53b0e92e480f9c21af"
+      },
+      {
+        "epoch": 4,
+        "IDs": 360,
+        "independentReplayMatches": true,
+        "sameActualIDsAndPostAugmentationBoxCountsAsFirstAttempt": true,
+        "teacherExpectedOldTrainImages": 247,
+        "allLossItemsFinite": true,
+        "reportSHA256": "ba54d13ab5434fd0b0bcf3fbf3fb53571f77f28d0236c02a441965b856cb2bd4"
+      },
+      {
+        "epoch": 5,
+        "IDs": 360,
+        "independentReplayMatches": true,
+        "sameActualIDsAndPostAugmentationBoxCountsAsFirstAttempt": true,
+        "teacherExpectedOldTrainImages": 232,
+        "allLossItemsFinite": true,
+        "reportSHA256": "a552f4f9fa390a5e37bf56d8942a9496f73ad3f336211dcb96ed62c78f23f40e"
+      },
+      {
+        "epoch": 6,
+        "IDs": 360,
+        "independentReplayMatches": true,
+        "sameActualIDsAndPostAugmentationBoxCountsAsFirstAttempt": true,
+        "teacherExpectedOldTrainImages": 238,
+        "allLossItemsFinite": true,
+        "reportSHA256": "889fc09a35285b85686760da11f9c3a8e23fafd403ffd79626eed2ab3b5b32bd"
+      },
+      {
+        "epoch": 7,
+        "IDs": 360,
+        "independentReplayMatches": true,
+        "sameActualIDsAndPostAugmentationBoxCountsAsFirstAttempt": true,
+        "teacherExpectedOldTrainImages": 236,
+        "allLossItemsFinite": true,
+        "reportSHA256": "e703ac6c65379303a83165f09ddd4b5a088aa7951fa490cd40f788a0f7abeb97"
+      }
+    ],
+    "checkpoints": [
+      {
+        "epoch": 3,
+        "internalEpoch": 2,
+        "sha256": "9335e2d71a7b15e67928c0515bb923a30779d3ec024c65d6b2d3d5d1523cd893",
+        "all446FrozenStateEntriesExactlyAnchor": true,
+        "allWeightsFinite": true,
+        "teacherOrCustomCriterionSaved": false,
+        "optimizerSteps": [
+          88.0
+        ]
+      },
+      {
+        "epoch": 5,
+        "internalEpoch": 4,
+        "sha256": "ff72d0b44d24d86f7dc8934e067e5603f7aa1398c93f58ee86e78bcbe1445633",
+        "all446FrozenStateEntriesExactlyAnchor": true,
+        "allWeightsFinite": true,
+        "teacherOrCustomCriterionSaved": false,
+        "optimizerSteps": [
+          133.0
+        ]
+      }
+    ],
+    "scope": "Only actualcompletedepoch files present at this snapshot; final12configuration evaluation still pending."
+  },
+  "savefixTrainingAudit": {
+    "status": "PASS_COMPLETE8_WITH_REGISTERED3_5_8",
+    "runDirectory": "output/research-20261025-hardcases/retention-savefix-v2",
+    "trainingCompletionSHA256": "0c72d5dd25ed4fbd817831a50dabb86dc098ef570b63971261b17f5e0f4fc4da",
+    "actualSamplingIDsIndependentlyReplayed": 2880,
+    "sampling": [
+      {
+        "epoch": 1,
+        "actualIDCount": 360,
+        "expectedTeacherOldTrainCount": 237,
+        "runtimeTeacherSubsequenceAssertion": true,
+        "independentSamplerReplay": true,
+        "sameAugmentedBoxCountsAsAttempt1": true,
+        "samplingSHA256": "4196363187da741f25b9367163ab8acc6da8105209b5e3dd42a2a66e6d6961bc"
+      },
+      {
+        "epoch": 2,
+        "actualIDCount": 360,
+        "expectedTeacherOldTrainCount": 235,
+        "runtimeTeacherSubsequenceAssertion": true,
+        "independentSamplerReplay": true,
+        "sameAugmentedBoxCountsAsAttempt1": true,
+        "samplingSHA256": "5e04bc1218829d1ca53cfee1097fa247fe68eb967ddb4f6ad6f0208757b8bacf"
+      },
+      {
+        "epoch": 3,
+        "actualIDCount": 360,
+        "expectedTeacherOldTrainCount": 233,
+        "runtimeTeacherSubsequenceAssertion": true,
+        "independentSamplerReplay": true,
+        "sameAugmentedBoxCountsAsAttempt1": true,
+        "samplingSHA256": "ddde5bae3ac23da127139110c362e60f4989cf3f57a77e53b0e92e480f9c21af"
+      },
+      {
+        "epoch": 4,
+        "actualIDCount": 360,
+        "expectedTeacherOldTrainCount": 247,
+        "runtimeTeacherSubsequenceAssertion": true,
+        "independentSamplerReplay": true,
+        "sameAugmentedBoxCountsAsAttempt1": true,
+        "samplingSHA256": "ba54d13ab5434fd0b0bcf3fbf3fb53571f77f28d0236c02a441965b856cb2bd4"
+      },
+      {
+        "epoch": 5,
+        "actualIDCount": 360,
+        "expectedTeacherOldTrainCount": 232,
+        "runtimeTeacherSubsequenceAssertion": true,
+        "independentSamplerReplay": true,
+        "sameAugmentedBoxCountsAsAttempt1": true,
+        "samplingSHA256": "a552f4f9fa390a5e37bf56d8942a9496f73ad3f336211dcb96ed62c78f23f40e"
+      },
+      {
+        "epoch": 6,
+        "actualIDCount": 360,
+        "expectedTeacherOldTrainCount": 238,
+        "runtimeTeacherSubsequenceAssertion": true,
+        "independentSamplerReplay": true,
+        "sameAugmentedBoxCountsAsAttempt1": true,
+        "samplingSHA256": "889fc09a35285b85686760da11f9c3a8e23fafd403ffd79626eed2ab3b5b32bd"
+      },
+      {
+        "epoch": 7,
+        "actualIDCount": 360,
+        "expectedTeacherOldTrainCount": 236,
+        "runtimeTeacherSubsequenceAssertion": true,
+        "independentSamplerReplay": true,
+        "sameAugmentedBoxCountsAsAttempt1": true,
+        "samplingSHA256": "e703ac6c65379303a83165f09ddd4b5a088aa7951fa490cd40f788a0f7abeb97"
+      },
+      {
+        "epoch": 8,
+        "actualIDCount": 360,
+        "expectedTeacherOldTrainCount": 228,
+        "runtimeTeacherSubsequenceAssertion": true,
+        "independentSamplerReplay": true,
+        "sameAugmentedBoxCountsAsAttempt1": true,
+        "samplingSHA256": "1478caa0b9e2f97d7b8b879afe04d3f9dfb4db0715b7d943f9d6d7e6a15ee314"
+      }
+    ],
+    "realizedBucketCounts": {
+      "hard_positive": 711,
+      "old_anchor": 1886,
+      "empty_negative": 283
+    },
+    "expectedTeacherOldTrainImages": 1886,
+    "teacherEvidence": "Runtime asserts exactteacher_consumed vsactualoldtrain subsequence everyepoch; no separate rawteacher eventstream persisted.",
+    "allLossItemsFiniteFromSamplingJSON": true,
+    "CSV": {
+      "epochs1Through8Present": true,
+      "numericValuesWrittenFinite": true,
+      "rowLengthsIncludingHeader": [
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        14,
+        10
+      ],
+      "lastRowColumnsDoNotMatchHeader": true,
+      "cause": "Final validate()={} drops fourplaceholder metrics keys; final3LRvalues shift into metric columns underordinaryDictReader.",
+      "acceptanceUse": "No frameworkCSV validation metrics used. Authoritative loss is samplingJSON;optimizerstate suppliessteps/LR. OriginalCSVretained, not rewritten."
+    },
+    "checkpoints": [
+      {
+        "epoch": 3,
+        "SHA256": "9335e2d71a7b15e67928c0515bb923a30779d3ec024c65d6b2d3d5d1523cd893",
+        "internalEpoch": 2,
+        "optimizerSteps": 88,
+        "frozenEntriesExactlyAnchor": 446,
+        "allFloatingEntriesFinite": true,
+        "teacherOrCriterionSerialized": false
+      },
+      {
+        "epoch": 5,
+        "SHA256": "ff72d0b44d24d86f7dc8934e067e5603f7aa1398c93f58ee86e78bcbe1445633",
+        "internalEpoch": 4,
+        "optimizerSteps": 133,
+        "frozenEntriesExactlyAnchor": 446,
+        "allFloatingEntriesFinite": true,
+        "teacherOrCriterionSerialized": false
+      },
+      {
+        "epoch": 8,
+        "SHA256": "fc76b131dfe1b9f145b64a8c2b1ccca059a74358c63d28374e7aa22d49833849",
+        "internalEpoch": 7,
+        "optimizerSteps": 201,
+        "frozenEntriesExactlyAnchor": 446,
+        "allFloatingEntriesFinite": true,
+        "teacherOrCriterionSerialized": false
+      }
+    ],
+    "epoch8ModelStateBitwiseSameAsFirstAttempt": true,
+    "maxFloatStateDifferenceVsFirstAttempt": 0.0,
+    "noExtraOptimizationByReviewer": true
+  },
+  "blendArtifactAudit": {
+    "status": "PASS_ALL12_EXACT_STATE_INTERPOLATIONS",
+    "candidateIndexSHA256": "f616c2b7e90cc460262125ed7be9ea8163b82a28b3d8895e43881edba83112eb",
+    "candidateCount": 12,
+    "alphaZeroEligible": false,
+    "checks": [
+      {
+        "epoch": 3,
+        "alpha": 0.05,
+        "SHA256": "2af332a4695ebfbb8c56b7fedefddaeecda1d968a78f704cbaafdb72c5f18a5c",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 3,
+        "alpha": 0.15,
+        "SHA256": "a04f8be2bed4512472e8f324546407e766f79e3ec6b0f3ec54f9bf36c82ff9e3",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 3,
+        "alpha": 0.35,
+        "SHA256": "aa99a65c99cc56fbbbd52358d5851e5f8fdcbaf920296c2ba524e7de4cbbee6f",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 3,
+        "alpha": 1.0,
+        "SHA256": "1c8394be95be0796df967261414aa0b292f11cfdccc333f9e4ca1c89aa18110d",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 5,
+        "alpha": 0.05,
+        "SHA256": "f87b6587b475d4b0d5a6690df980858e78bb01a3fc509ee5c574e577715d863b",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 5,
+        "alpha": 0.15,
+        "SHA256": "8e3b21db56e18532cd4d357f10aefba56437195577da02ce3b3eb942d4875cbf",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 5,
+        "alpha": 0.35,
+        "SHA256": "b175347d113d39851335389e5d52ee4f0d7310ff713cfb4354c469970b90b1f1",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 5,
+        "alpha": 1.0,
+        "SHA256": "882f8f88aa52948be14ea943761ead70bee1bc5826f394735488bbdb468f5f53",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 8,
+        "alpha": 0.05,
+        "SHA256": "810fd68130008795a521f75a2d20ff2b0e9376607d5c97574c08133eab4d5359",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 8,
+        "alpha": 0.15,
+        "SHA256": "f9ec42f0785a11faf7f80e12ad8ec547693c5e4b04f9152002278eec5e59478c",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 8,
+        "alpha": 0.35,
+        "SHA256": "af36cae8050d68d652803028043eb8ff41ba23c1e26d44a20e2cdbae63216ef8",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      },
+      {
+        "epoch": 8,
+        "alpha": 1.0,
+        "SHA256": "5fea887a835df992e25f743df16305b1bece74509806854e7ac729060f0d4b4b",
+        "all499StateTensorsExactlyIndependentBlend": true,
+        "all446FrozenEntriesExactlyAnchor": true
+      }
+    ],
+    "modelInferencePerformed": false
+  },
+  "finalAuditVerifierSHA256": "527bd93c475f6136b2153ebb7171ac8de0712497eb68fc1503bfa985549e6db4"
+}

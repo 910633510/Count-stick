@@ -1,0 +1,30 @@
+{
+  "status": "PASS_INDEPENDENT_SEALED_SPLIT_IDENTITY_EXCLUSIVITY_NO_GT",
+  "checkedUTC": "2026-10-26T10:48:41.607740+00:00",
+  "witnessPath": "ml/pipes-20261026/data/frozen-identity-witness.json",
+  "witnessSHA256": "b4fbb47a4a0be6a150acb2d335d59b0d380d28829cea38d6a4d410a06fd2d5d0",
+  "fullManifestSHA256": "960005aa6c7956db8ebf5962693071e0ea01888f0d0380431437894b4fddec41",
+  "trainValManifestSHA256": "505d0a3de3424b75d53632e5349453d9e9f82faf2d831778f07f6be5a4072476",
+  "identities": {
+    "val": 40,
+    "train": 164,
+    "test": 37
+  },
+  "groups": {
+    "val": 35,
+    "train": 150,
+    "test": 34
+  },
+  "groupSplitExclusive": true,
+  "imageAndParentSourceSHASplitExclusive": true,
+  "all204TrainValIdentityRowsMatchFrozenTVExactly": true,
+  "fullManifestOpened": false,
+  "testGroundTruthRead": false,
+  "testPixelsOpened": false,
+  "modelInferencePerformed": false,
+  "limits": [
+    "This verifies identity-only witness internally and againstfrozenTV/root supplied fullSHA. It does not parse sealedfullmanifestGT.",
+    "Groups retain manual/source-family uncertainty; distinctwitnessgroup IDs are not proof ofphysicalscene independence."
+  ],
+  "supplementsReviewSHA256": "ca46c70ca287e83a8900e989763be71ca37009c0a600d22d1dc342b318a8f199"
+}

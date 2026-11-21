@@ -1,0 +1,51 @@
+{
+  "status": "PASS_20_TRAIN_ONLY_NEGATIVES_19_CONSERVATIVE_GROUPS",
+  "proposalPath": "output/pipes-data-expansion-20261029/data/negatives/negative-proposal.json",
+  "proposalSHA256": "15f776830034a367adcfac31049719065336d8fb14a459348cbb4128ec795d03",
+  "summary": {
+    "images": 20,
+    "groups": 19,
+    "train": 20,
+    "val": 0,
+    "test": 0,
+    "pipeEndTargets": 0,
+    "dataNature": {
+      "real": 20
+    },
+    "confuserSubtypes": {
+      "solid_rod_end": 13,
+      "solid_billet_end": 7
+    }
+  },
+  "downloadedCandidates": 24,
+  "downloadedPayloadBytes": 7980797,
+  "payloadBudgetBytes": 400000000,
+  "rootReviewSHA256": "87580808df306a9fe10eee1e929ca6f88220f7a2f0ffcb14654a514b3f0e5f11",
+  "ownReviewSHA256": "d93970fa352f01e9dc5f015f6dd1bc99813258e871424d37134915739596a123",
+  "identityAuditSHA256": "2b4c43780d0aaa2815b914690b5b29c86614061af9dcf79671472b70b86cba75",
+  "identityAudit": {
+    "referenceViews": 315,
+    "knownUsedFamilyAliases": 60,
+    "candidatePairs": 9276,
+    "exactMatches": 0,
+    "flaggedMatches": 0,
+    "sealed20Purpose": "classical duplicate exclusion only"
+  },
+  "fullFrameRGBPixelEquality": true,
+  "allEmptyLabelsVerified": true,
+  "testRowsOrFrozenFilesModified": false,
+  "detectorInferencePerformed": false,
+  "newTrainingPerformed": false,
+  "reviewerType": "Codex agents",
+  "collectionsForBothMaterials": [
+    {
+      "url": "https://www.zelpo.eu/continuously-cast-steel-billets/",
+      "note": "Primary producer with billet and steel-tube product sections; collections may support separate positive and negative acquisitions.",
+      "verification": "Primary billet page explicitly links to the manufacturer seamless-tube product site; both categories verified2026-10-29."
+    }
+  ],
+  "additionalSolidStockCollection": {
+    "url": "https://metalcarecenter.com/products.html",
+    "note": "Round, square and flat bars confirmed; pipe/tube collection not established fromthispage."
+  }
+}

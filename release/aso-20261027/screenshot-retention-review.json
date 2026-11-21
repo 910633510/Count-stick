@@ -1,0 +1,167 @@
+{
+  "verifiedAtUTC": "2026-10-27T04:17:07.020369+00:00",
+  "status": "PASS_12_RETAINED_ASSETS_MATCH_LIVE_PIXELS",
+  "placements": {
+    "en-US": 6,
+    "zh-Hans": 6
+  },
+  "rows": [
+    {
+      "imageId": "56c00019-6e5a-8cec-8016-2862df9dae93",
+      "locale": "en-US",
+      "family": "iphone",
+      "order": 1,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "7e098cd7a65eafa7627a88c00a02714d80ed34d61f84b03fbaaeb19b6c658476"
+    },
+    {
+      "imageId": "3b400019-6e5a-8cec-800f-bef1b0b69c9b",
+      "locale": "en-US",
+      "family": "iphone",
+      "order": 2,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "25aac6e87915489ad95de91058433e20493c8e603f585ccecd4745e77a5c0eca"
+    },
+    {
+      "imageId": "e6000019-6e5a-8cec-8025-478ce55ea025",
+      "locale": "en-US",
+      "family": "iphone",
+      "order": 3,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "c2d0d8e147e214c0abeb5143ae9ab2b9868e4787e7855ec7eb352a021a053dac"
+    },
+    {
+      "imageId": "0f000019-6e5a-8cec-8007-4975f27a7fab",
+      "locale": "zh-Hans",
+      "family": "iphone",
+      "order": 1,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "9ace03543a03449236a4f8ff63329432fcda580fa50d8621a484f5fbe5fc0751"
+    },
+    {
+      "imageId": "b8800019-6e5a-8cec-8003-545f6baa76e6",
+      "locale": "zh-Hans",
+      "family": "iphone",
+      "order": 2,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "369de874afe232b2a5141f7e6dd481adef6611c24144b6eca4b07de1ec07e5b2"
+    },
+    {
+      "imageId": "94c00019-6e5a-8cec-8019-cb9c7d2fb4d8",
+      "locale": "zh-Hans",
+      "family": "iphone",
+      "order": 3,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        1206,
+        2622
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "89d7dff8e9f3f17f127663defa97606b5321e9f37c35a0affbeea4bb69a4381a"
+    },
+    {
+      "imageId": "80400019-6e5a-8cec-8020-c67ebb52a15e",
+      "locale": "en-US",
+      "family": "ipad",
+      "order": 1,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "7ef749c4f76d37ddd84c4da62c1c0154f4884b50ddd85e22755800e34e2f556c"
+    },
+    {
+      "imageId": "0a800019-6e5a-8cec-802b-eb17d2893e13",
+      "locale": "en-US",
+      "family": "ipad",
+      "order": 2,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "73b451788719b35a24a947af1fc9d723f869db573623fd5c579771f9047a6743"
+    },
+    {
+      "imageId": "38c00019-6e5a-8cec-800a-9bd39b88c1aa",
+      "locale": "en-US",
+      "family": "ipad",
+      "order": 3,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "27a3538fced2a9457d9d82c8296e02d465d979ba2d4e4e26f0a4760ceeac4f5e"
+    },
+    {
+      "imageId": "9fc00019-6e5a-8cec-800b-6f71bfd5c97e",
+      "locale": "zh-Hans",
+      "family": "ipad",
+      "order": 1,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "bf34ae393df441e4877cab8cd7790c419c3c2ec7d5e8708296e87dea0a24f6fd"
+    },
+    {
+      "imageId": "6e400019-6e5a-8cec-8038-668dc9aafc7f",
+      "locale": "zh-Hans",
+      "family": "ipad",
+      "order": 2,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "51f15434d3625d2e623672dc9205ce6d083046d41070b52f1b93f9bbb53313e9"
+    },
+    {
+      "imageId": "fa400019-6e5a-8cec-802c-cd0879199111",
+      "locale": "zh-Hans",
+      "family": "ipad",
+      "order": 3,
+      "imageState": "WAITING_FOR_REVIEW",
+      "dimensions": [
+        2064,
+        2752
+      ],
+      "matchesLocalPixels": true,
+      "sha256": "190650f9cc102bac3900f6b04f058786fc9b5937fd83b57082221da25b3f63a6"
+    }
+  ],
+  "metadataUpdateApplied": false
+}

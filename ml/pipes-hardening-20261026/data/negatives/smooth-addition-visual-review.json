@@ -1,0 +1,82 @@
+{
+  "status": "4_SMOOTH_SOLID_ROD_FULL_PHOTOS_VISUALLY_PASSED_PENDING_GROUP_SCREEN",
+  "reason": "Root-authorized development-set coverage addition before any hardening training; existing train had ribbed rebar crops and fresh-val only rebar. No test performance used for selection of these new photos.",
+  "images": [
+    {
+      "id": "smooth-add-roundsbar",
+      "sourcePage": "https://www.rounds-bar.com/sale-36726327-1141-1080-1084-1095-1018-cold-rolled-steel-round-bar-12mm-x-6m-14mm-15mm-16mm-19mm.html",
+      "sourceImageURL": "https://www.rounds-bar.com/photo/ps145142629-1141_1080_1084_1095_1018_cold_rolled_steel_round_bar_12mm_x_6m_14mm_15mm_16mm_19mm.jpg",
+      "imagePath": "output/pipes-hardening-20261026/data/negatives/raw/smooth-addition/smooth-add-roundsbar.bin",
+      "sha256": "7263ac470b747fbfa80177ec911bf4df7124deb93e479fa27d894bf36980c1ef",
+      "width": 750,
+      "height": 750,
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "fullSourceFramePreserved": true,
+      "visualEvidence": "Full close warehouse photo; all exposed faces show continuous solid cut surfaces with oxidation/saw marks. Plastic-wrapped stock and straps are background, not pipe openings."
+    },
+    {
+      "id": "smooth-add-xincheng",
+      "sourcePage": "https://xinchengsteel78.en.made-in-china.com/",
+      "sourceImageURL": "https://image.made-in-china.com/203f0j00oiNYIyHFADqR/Q-T-Steel-Round-Bar-SA193-Grb7-Self-Finish-Surface.jpg",
+      "imagePath": "output/pipes-hardening-20261026/data/negatives/raw/smooth-addition/smooth-add-xincheng.bin",
+      "sha256": "260018ebe08a7d66f4dd8a04c1445ea473dfe5689d132414c13e9b22d4b22991",
+      "width": 1000,
+      "height": 1000,
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "fullSourceFramePreserved": true,
+      "visualEvidence": "Dark gray solid round-bar bundles with Chinese product tags. The gray faces have irregular oxidation patches but no inner lumen; surrounding stock is side-on or solid-ended."
+    },
+    {
+      "id": "smooth-add-atg",
+      "sourcePage": "https://www.atgdemircelik.com/tr/urunler/urun-detay?UID=27",
+      "sourceImageURL": "https://www.atgdemircelik.com/content/images/product/paslanmaz-yuvarlak-cubuk.jpg",
+      "imagePath": "output/pipes-hardening-20261026/data/negatives/raw/smooth-addition/smooth-add-atg.bin",
+      "sha256": "6bf296c23d18315086efaa94381dc367de1c6f33b0ff2ab07627c4f961b31d74",
+      "width": 800,
+      "height": 600,
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "fullSourceFramePreserved": true,
+      "visualEvidence": "Natural rack scene with two layers of silver round bars. Cut faces are closed metal disks; no pipe front discernible in defocused background."
+    },
+    {
+      "id": "smooth-add-stalko",
+      "sourcePage": "https://stalko.com.pl/o-firmie",
+      "sourceImageURL": "https://stalko.com.pl/images/metal.jpg",
+      "imagePath": "output/pipes-hardening-20261026/data/negatives/raw/smooth-addition/smooth-add-stalko.bin",
+      "sha256": "fe557847d294db34669903e5035766b60ab9d13975d987f3d31d15fc9b74e66c",
+      "width": 1072,
+      "height": 712,
+      "count": 0,
+      "xyxy": [],
+      "annotationQA": "PASS",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "fullSourceFramePreserved": true,
+      "visualEvidence": "Bright round-bar bundle secured by a strap. Reflective end surfaces show continuous metal with distinct grinding/cut marks; the dark rim is not an open bore."
+    }
+  ],
+  "nonSelected": {
+    "smooth-add-ovako": "Wide predominantly side-view storage; not chosen for close-end coverage.",
+    "smooth-add-zzsteel": "White product backdrop rather than requested natural full scene.",
+    "smooth-add-netsteel": "TLS download failure; did not bypass.",
+    "smooth-add-zhonggongte": "Valid-looking reserve candidate; not needed for bounded4-photo scope."
+  },
+  "modelInferencePerformed": false,
+  "oldFreshTestAssignmentsChanged": false
+}

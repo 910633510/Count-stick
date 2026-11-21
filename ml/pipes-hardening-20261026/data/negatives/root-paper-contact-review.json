@@ -1,0 +1,66 @@
+{
+  "status": "CONTACT_SHEET_SCREEN_NOT_FINAL_IMAGE_ADMISSION",
+  "createdUTC": "2026-10-26T13:10:08.123821+00:00",
+  "reviewer": "root",
+  "pagesActuallyViewed": [
+    "output/pipes-hardening-20261026/data/negatives/review/paper2023-page00.jpg",
+    "output/pipes-hardening-20261026/data/negatives/review/paper2023-page01.jpg",
+    "output/pipes-hardening-20261026/data/negatives/review/paper2023-page02.jpg",
+    "output/pipes-hardening-20261026/data/negatives/review/paper2023-page03.jpg"
+  ],
+  "screenedIndexRange": [
+    0,
+    47
+  ],
+  "fullResolutionStillRequired": true,
+  "possibleUnmaskedCandidates": [
+    1,
+    8,
+    9,
+    10,
+    13,
+    14,
+    15,
+    16,
+    17,
+    21,
+    23
+  ],
+  "allOtherIndices": "Quarantine whole images for visible or uncertain manual black masks. In particular every index24..47 visibly has black mask patches. Index0/11 need no automatic rescue.",
+  "candidateCautions": {
+    "1": "Top background has a small dark opening/unclear object; verify there is no round steel pipe end before zero labeling.",
+    "23": "Verify upper-right/far background for small masking patches."
+  },
+  "conservativePossibleFamilies": [
+    [
+      8,
+      9,
+      10,
+      11,
+      14,
+      16
+    ],
+    [
+      12,
+      13
+    ],
+    [
+      15,
+      17
+    ],
+    [
+      18,
+      19,
+      20,
+      21
+    ],
+    [
+      22,
+      23,
+      24
+    ]
+  ],
+  "familyLimitations": "Contact-sheet similarity, not final certified physical identity; merge/expand with original frames and cross-source comparisons, including every old241 image and same-capture family.",
+  "trainingCropPolicy": "Only demonstrably unmasked rectangular original-pixel regions can become clearly labeled real_crop training-only derivatives; inherit full parent group/source and exclude old test families. No crop may enter fresh natural-photo validation/test.",
+  "modelInferencePerformed": false
+}

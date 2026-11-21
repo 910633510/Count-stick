@@ -1,0 +1,73 @@
+{
+  "status": "PASS_ROOT_GENERAL_POSITIVE_INDEPENDENT_REVIEW",
+  "reviewedDerivedLabelsSHA256": "3d27653843892406acf919f61d63e5ed3d3401ea4bbccc2d8778552789bbf58d",
+  "images": [
+    {
+      "id": "rfv2_6ad309d168db",
+      "count": 10,
+      "status": "PASS_FULL_SOURCE_AND_DERIVED_OVERLAY_REVIEW",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/download_jpg.rf.5e4c3fd265a1e229cd1ddb4a3925e6c1.jpg",
+      "imageSHA256": "a17c8b7d8ce814dfff53e394a9a9ba701ffbd7858295e94cc86bd36164b4d01f",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/rfv2_6ad309d168db.png",
+      "overlaySHA256": "ccbb97ea23862dde1da4dd165c3c37513e908496cca5e2fda316c038964d99d9"
+    },
+    {
+      "id": "rfv2_1966920654d3",
+      "count": 3,
+      "status": "PASS_FULL_SOURCE_AND_DERIVED_OVERLAY_REVIEW",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/images-19-_jpg.rf.4b67e64278b68496114c4f6990881097.jpg",
+      "imageSHA256": "d7b89cc619111a1cdb6c2c552e0c69df4a7296fb759cda6c41c802606006542b",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/rfv2_1966920654d3.png",
+      "overlaySHA256": "83693e4eeaa924bd7d6d06f6b99e4131930f28705432088a52a392cf74ee47df"
+    },
+    {
+      "id": "cmnew_004",
+      "count": 17,
+      "status": "PASS_FULL_SOURCE_AND_DERIVED_OVERLAY_REVIEW",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_004.jpg",
+      "imageSHA256": "25ec9a4bfa1958c9bff0ecf63133139ac7c77f08a188e4889c32266a4b5aec96",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_004.png",
+      "overlaySHA256": "e020d2d47723f1a22c3f2ffc6f4191a69e654d25856cf416eb288324cfa70a06"
+    },
+    {
+      "id": "cmnew_057",
+      "count": 2,
+      "status": "PASS_FULL_SOURCE_AND_DERIVED_OVERLAY_REVIEW",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_057.jpg",
+      "imageSHA256": "86c339b1c3dfea1e4604eacfc71d215d834a98c5aadc223d04870cabbe7022a4",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_057.png",
+      "overlaySHA256": "c74ff10defa03056923c73f50d0770d24c51ef06dd75fe55e0814059b0b7bb74"
+    },
+    {
+      "id": "cmnew_071",
+      "count": 1,
+      "status": "PASS_FULL_SOURCE_AND_DERIVED_OVERLAY_REVIEW",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_071.jpg",
+      "imageSHA256": "59047635d271496f072522f0d1cf52fac0f3ad71ac33ad29383c641a46cab9d9",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_071.png",
+      "overlaySHA256": "594867e5f64b91395a1c1c935d8d48887d18675afb6c5ae234d9f4e3660e2659"
+    },
+    {
+      "id": "cmnew_073",
+      "count": 29,
+      "status": "PASS_FULL_SOURCE_AND_DERIVED_OVERLAY_REVIEW",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_073.jpg",
+      "imageSHA256": "326ac7cbb8813b3c55445eaccf1a935bbac0db99204170caf4717fc7e5091fb6",
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_073.png",
+      "overlaySHA256": "343c7bf802ff24b739b957cfb07cb99716f964ab8becad2d5c3e67822b2a4ee3"
+    }
+  ],
+  "imageCount": 6,
+  "GT": 62,
+  "notes": [
+    "RF092 corrected to10 after rightedge nativecrop proved separate curved rim and black interior; addedbox630,471,640,568. Prior9label/overlay preserved.",
+    "RF112 has3 angled exposed metallic ends.",
+    "CM004 top5+middle7+bottom5 including clippedrightbottomend.",
+    "CM057 two flangedpipe mouths; boltholes and largepressurevesselflange holes not targets.",
+    "CM071 one giantnearpipeopeningpartlyoccludedbytruck; farendnotcountedagain.",
+    "CM07329 discerniblefrontends includingclippedbottom/right. Upperrightside-on pipebodies/occludedends cannotbe resolvedasadditionalopenfrontends andarenotguessed."
+  ],
+  "sourceNatureLimit": "Published photographic views; RF images previouslystretched640; Commons displayedthumbnailfiles. Not newnative-lowresolutioncamera captures andnotforensicproof ofproductionhistory.",
+  "newModelInferencePerformed": false,
+  "reviewerWordingRebind": "Only reviewer identity wording changed to Codex visual review; count/image/overlay bindings rechecked unchanged."
+}

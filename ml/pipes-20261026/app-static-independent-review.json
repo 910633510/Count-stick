@@ -1,0 +1,83 @@
+{
+  "status": "PASS_STATIC_SECOND_REVIEW_RUNTIME_MODEL_QUALIFICATION_PENDING",
+  "createdUTC": "2026-10-26T10:48:21.370910+00:00",
+  "sourceSHA256": {
+    "Count stick/CountCategory.swift": "d46c68403884e3e01ae31f9b1abf908a56d3aac84f8d392b85851b186f26294e",
+    "Count stick/PipeDetector.swift": "e3b3f90ded0a8fa9b3e184236d1281a1af185d774f8af0ca09b5e2668df74d83",
+    "Count stick/CountWorkspace.swift": "b14f1d1b53dcc9c18b1d763aecf3322c664de59d1cc5b664415784a7fcdc8a8d",
+    "Count stick/CountHistory.swift": "614d640a030bbbbbbeded331897feb7955e4231a269daa4a96f5105305743b6c",
+    "Count stick/ContentView.swift": "d06d822b9c39255a91dc9fea2692eff3409e2949f5ae3a002a945c28e117131e",
+    "Count stick/StickDetector.swift": "6fb00ca644805e176dcca028ed1bef3932e80b451e77f2ea8759983d2c678b82",
+    "Count stick/CountingAccess.swift": "6958354ca014772eae3c52806b425e745bab2540ad7f4433ff8f051e86b01ff1",
+    "Count stickTests/CountCategoryTests.swift": "d7dbb3a0339e519bc4ce7e6c324bc10b9e3cdc90b6c3e768bddcabe984ced806",
+    "Count stickTests/PipePreprocessingExportTests.swift": "bbb0ed28a91a3358ead2f0e12bcc0b1260a7a6ea3fb2bfea5e28b7889a915812",
+    "Count stick/en.lproj/Localizable.strings": "3fa140936328b68e2d998d333f2392c6bbfe0a56a5a617ebed38e22c7061cc2a",
+    "Count stick/zh-Hans.lproj/Localizable.strings": "b1f59d7f0b38d98e5e0cc2cfb82fc889dfe4ed9ccbf4cce92c5c383620a9fe52",
+    "ml/pipes-20261026/model/export_pipe_coreml.py": "30a9a1e8b2b473bb49fba582c71f99f5398e246fa4dcad0bed62eba6156a515e"
+  },
+  "blockers": [],
+  "checks": [
+    {
+      "area": "category routing",
+      "evidence": "CountCategory.swift:26-36; CountWorkspace.swift:181-194",
+      "result": "Separate skewer/steel-pipe detectors; missing or invalid pipe model is an error, without fallback to skewer model."
+    },
+    {
+      "area": "model identity and operating point",
+      "evidence": "PipeDetector.swift:28-46,121-150; export_pipe_coreml.py:25-35,40-54",
+      "result": "Configuration status, export UUID, checkpoint SHA, input size, class and thresholds are bound to model metadata; model finalization remains gated on test/parity receipts."
+    },
+    {
+      "area": "automatic reference area",
+      "evidence": "PipeDetector.swift:94-104",
+      "result": "All valid detected pipe ends retained, including separate bundles; reference outline is a display union and does not use skewer isolation/OCR filtering."
+    },
+    {
+      "area": "preprocessing and coordinates",
+      "evidence": "PipeDetector.swift:62-90,155-180",
+      "result": "Explicit 1024 centered letterbox with gray114; requires upright source, remaps Vision bottom-left boxes to original normalized image coordinates and removes padding-only boxes. No arbitrary marker cap in App loop."
+    },
+    {
+      "area": "free counts and stale callbacks",
+      "evidence": "CountWorkspace.swift:38-61,75-120,123-132,155-194; CountingAccess.swift:233-260",
+      "result": "Reservations released on failure/cancel/category reset. Generation/category guards discard stale reservations/results before publishing or charging. Successful zero result charges once, as an actual completed count."
+    },
+    {
+      "area": "history and export",
+      "evidence": "CountHistory.swift:16-30; CountWorkspace.swift:141-152; CountCategory.swift:41-50",
+      "result": "Legacy missing category decodes as skewers; pipe category persists/restores; export includes explicit category count and user note."
+    },
+    {
+      "area": "existing skewer implementation",
+      "evidence": "git diff -- Count stick/StickDetector.swift",
+      "result": "No working-tree changes to the existing detector file."
+    },
+    {
+      "area": "localization",
+      "evidence": "en/zh-Hans Localizable.strings",
+      "result": "21 pipe/category/count keys present in both locales."
+    }
+  ],
+  "testSourceReview": [
+    "Injected-detector routing and missing-model fail-closed",
+    "Inference/reservation race after category switch",
+    "Failure/retry/zero-result charging",
+    "Legacy history and category round-trip",
+    "Letterbox odd-padding inverse and gray114 pixels",
+    "Model metadata mismatch rejection",
+    "Explicit train-val manifest/hash gate before fixture image reads"
+  ],
+  "executionScope": {
+    "reviewedSwiftAndPythonSourceOnly": true,
+    "executedBuildOrXCTest": false,
+    "openedPipeTestPhotosOrLabels": false,
+    "modelInferencePerformed": false,
+    "modifiedAppOrFrozenData": false
+  },
+  "remainingAcceptance": [
+    "Run real selected-model Torch/CoreML parity using exactly the Swift-exported 1024 RGB pixels for both gallery and camera paths.",
+    "Empirically verify Vision labels/y-axis and count parity, especially empty outputs, dense scenes above1000 ends, and padded aspect ratios.",
+    "Complete fixed frozen-scene holdout without using it to choose new thresholds or epochs.",
+    "Physical iPhone runtime/performance and store release are not established by this static review."
+  ]
+}

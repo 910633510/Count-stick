@@ -1,0 +1,46 @@
+{
+  "status": "PASS_ROOT_FROZEN_PIPE_DATA_QA",
+  "fullManifestSHA256": "960005aa6c7956db8ebf5962693071e0ea01888f0d0380431437894b4fddec41",
+  "trainValManifestSHA256": "505d0a3de3424b75d53632e5349453d9e9f82faf2d831778f07f6be5a4072476",
+  "images": 241,
+  "positiveImages": 223,
+  "objects": 35218,
+  "maxGT": 1153,
+  "counts": {
+    "train": {
+      "positive": 156,
+      "negative": 8,
+      "groups": 150,
+      "positiveGroups": 148,
+      "targets": 25713
+    },
+    "val": {
+      "positive": 33,
+      "negative": 7,
+      "groups": 35,
+      "positiveGroups": 33,
+      "targets": 4443
+    },
+    "test": {
+      "positive": 34,
+      "negative": 3,
+      "groups": 34,
+      "positiveGroups": 33,
+      "targets": 5062
+    }
+  },
+  "byteAndPixelHashesRecomputed": true,
+  "sourceXMLAndDerivedYOLOHashesVerified": true,
+  "coordinatesAndYOLOTransformVerified": true,
+  "globalGroupsAndSourceDerivedSHAExclusive": true,
+  "allThreeVisualReviewInputsPreserved": true,
+  "splitChangedFromProposed": false,
+  "testLabelsUsedForModelSelectionOrTraining": false,
+  "modelInferenceBeforeFreeze": false,
+  "limitations": [
+    "Reuse of technically checked authorHBB with scene/coarse-coverage review; not a new exhaustive manual recount.",
+    "Conservative visually/feature-linked scene families are not proven physical-stack IDs.",
+    "Real means visually accepted source photograph, not forensic certification.",
+    "Single public source; ordinary phone field performance remains to be tested."
+  ]
+}

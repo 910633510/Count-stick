@@ -1,0 +1,577 @@
+{
+  "status": "PASS_INDEPENDENT_FROZEN_SPLIT_INTEGRITY_REVIEW",
+  "reviewedAtUTC": "2026-10-26T01:08:06.318792+00:00",
+  "manifestPath": "output/datasets/colony-hardcases-retention-v1/manifest.json",
+  "manifestSHA256": "2d45c24b8a20e445cb75d024bf5161c2c979a51359059a860d06fa98ff7bda37",
+  "seed": "CountScope-hardcases-retention-20261025-v1",
+  "positiveHashRule": "SHA256(seed|species|groupId), lowest group per repeated species ->val; singleton species ->train",
+  "positiveValGroups": [
+    "zenodo20178469:Efae_1",
+    "zenodo20178469:Kpne_1",
+    "zenodo20178469:Saur_9",
+    "zenodo20178469:Sepi_1"
+  ],
+  "negativeFixedAssignments": {
+    "mendeley_xrbtd74pfj_v3_negative_source_group": "train",
+    "brukeragar_AEBM_plate0000001": "train",
+    "brukeragar_BESBL_plate0000001": "val",
+    "zenodo18703636_session_20230710": "val"
+  },
+  "counts": {
+    "train": {
+      "hard_positive": 7,
+      "empty_negative": 34
+    },
+    "val": {
+      "hard_positive": 4,
+      "empty_negative": 6
+    }
+  },
+  "images": 51,
+  "positiveBoxes": 59,
+  "groupCounts": {
+    "train": 9,
+    "val": 6
+  },
+  "globalTrainValGroupOverlap": 0,
+  "globalTrainValDerivedByteSHAOverlap": 0,
+  "sourceAliasesConflictingGroups": 0,
+  "allCandidateRowsUnchangedExceptSplit": true,
+  "allInputCandidateHashesAndPolicyHashVerified": true,
+  "all51SourceAndDerivedByteSHAsVerified": true,
+  "positiveCropPixelsExactlyEqualOriginalROIs": true,
+  "positiveCoordinatesRecomputedWithIntersectionClipping": true,
+  "legitimatelyClippedInstances": [
+    {
+      "id": "mipro-Saur_20-countable-crop",
+      "boxIndex": 0,
+      "originalXYXY": [
+        539,
+        0,
+        784,
+        211
+      ],
+      "cropXYXY": [
+        400,
+        30,
+        1250,
+        510
+      ],
+      "visibleXYXY": [
+        139,
+        0,
+        384,
+        181
+      ],
+      "legitimateClipping": true
+    },
+    {
+      "id": "mipro-Efae_4-countable-crop",
+      "boxIndex": 1,
+      "originalXYXY": [
+        346,
+        152,
+        430,
+        234
+      ],
+      "cropXYXY": [
+        350,
+        105,
+        810,
+        500
+      ],
+      "visibleXYXY": [
+        0,
+        47,
+        80,
+        129
+      ],
+      "legitimateClipping": true
+    },
+    {
+      "id": "mipro-Efae_4-countable-crop",
+      "boxIndex": 2,
+      "originalXYXY": [
+        344,
+        250,
+        438,
+        341
+      ],
+      "cropXYXY": [
+        350,
+        105,
+        810,
+        500
+      ],
+      "visibleXYXY": [
+        0,
+        145,
+        88,
+        236
+      ],
+      "legitimateClipping": true
+    }
+  ],
+  "boundaryTouchingAnnotations": [
+    {
+      "id": "mipro-Saur_9-countable-crop",
+      "boxIndex": 0
+    },
+    {
+      "id": "mipro-Saur_20-countable-crop",
+      "boxIndex": 0
+    },
+    {
+      "id": "mipro-Efae_4-countable-crop",
+      "boxIndex": 1
+    },
+    {
+      "id": "mipro-Efae_4-countable-crop",
+      "boxIndex": 2
+    },
+    {
+      "id": "mipro-Kpne_4-countable-crop",
+      "boxIndex": 4
+    },
+    {
+      "id": "mipro-Efae_1-full",
+      "boxIndex": 10
+    }
+  ],
+  "mendeley28EXIFNormalizationJPEGBytesIndependentlyReproduced": true,
+  "normalizationCount": 28,
+  "noNormalizationOtherNegativesByteIdentical": true,
+  "emptyNegativeLabelFilesExactlyEmpty": true,
+  "overlapCheck": {
+    "oldFigshareRecords": 369,
+    "clinicalTrainValRecords": 149,
+    "newSourceImageHashesChecked": 51,
+    "newDerivedImageHashesChecked": 51,
+    "newSourceOrDerivedSHAOverlapWithOld369AndClinicalTrainVal149": 0,
+    "sealedClinical36PixelsGTOrManifestOpened": false,
+    "sealed185FingerprintCheck": "Root receipt reports metadata-only exclusion. This reviewer does not repeat or independently claim that sealed-36 check.",
+    "old369PerceptualScreen": "Not run; exact SHA exclusion plus source/group provenance only. Near-duplicate absence is not established."
+  },
+  "frozenManifestAndInputCandidatesUnchanged": true,
+  "modelInferencePerformed": false,
+  "filesChangedByReview": [
+    "ml/research-20261025-hardcases/split-independent-review.json"
+  ],
+  "issues": [],
+  "limitations": [
+    "Independent integrity review does not create a microbiologist consensus annotation.",
+    "Fifteen conservative groups are not51independentphysicalplates.",
+    "Positive samples are hyperspectral-derived RGB;9crops and2fullframes,not11phonephotos.",
+    "Exact hashes do not rule out re-encoding or near duplicates."
+  ],
+  "details": [
+    {
+      "id": "mipro-Saur_5-countable-crop",
+      "split": "train",
+      "groupId": "zenodo20178469:Saur_5",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "mipro-Saur_9-countable-crop",
+      "split": "val",
+      "groupId": "zenodo20178469:Saur_9",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "mipro-Saur_20-countable-crop",
+      "split": "train",
+      "groupId": "zenodo20178469:Saur_20",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "mipro-Sepi_1-countable-crop",
+      "split": "val",
+      "groupId": "zenodo20178469:Sepi_1",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "mipro-Sepi_2-countable-crop",
+      "split": "train",
+      "groupId": "zenodo20178469:Sepi_2",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "mipro-Efae_4-countable-crop",
+      "split": "train",
+      "groupId": "zenodo20178469:Efae_4",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "mipro-Saur_1-countable-crop",
+      "split": "train",
+      "groupId": "zenodo20178469:Saur_1",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "mipro-Kpne_1-full",
+      "split": "val",
+      "groupId": "zenodo20178469:Kpne_1",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "mipro-Kpne_4-countable-crop",
+      "split": "train",
+      "groupId": "zenodo20178469:Kpne_4",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "mipro-Spyo_4-countable-crop",
+      "split": "train",
+      "groupId": "zenodo20178469:Spyo_4",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "mipro-Efae_1-full",
+      "split": "val",
+      "groupId": "zenodo20178469:Efae_1",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_bruker_AEBM_base",
+      "split": "train",
+      "groupId": "brukeragar_AEBM_plate0000001",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_bruker_AEBM_bothBright",
+      "split": "train",
+      "groupId": "brukeragar_AEBM_plate0000001",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_bruker_AEBM_bottom",
+      "split": "train",
+      "groupId": "brukeragar_AEBM_plate0000001",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_bruker_AEBM_bottomBright",
+      "split": "train",
+      "groupId": "brukeragar_AEBM_plate0000001",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_bruker_AEBM_default",
+      "split": "train",
+      "groupId": "brukeragar_AEBM_plate0000001",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_bruker_AEBM_topBright",
+      "split": "train",
+      "groupId": "brukeragar_AEBM_plate0000001",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_bruker_BESBL_base",
+      "split": "val",
+      "groupId": "brukeragar_BESBL_plate0000001",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_bruker_BESBL_bottom",
+      "split": "val",
+      "groupId": "brukeragar_BESBL_plate0000001",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_bruker_BESBL_default",
+      "split": "val",
+      "groupId": "brukeragar_BESBL_plate0000001",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N10",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N359",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N136",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N194",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N95",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N160",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N44",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N404",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N265",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N117",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N343",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N69",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N11",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N249",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N313",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N471",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N405",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N372",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N295",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N339",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N34",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N449",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N268",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N292",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N494",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N300",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N237",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_mendeley_N362",
+      "split": "train",
+      "groupId": "mendeley_xrbtd74pfj_v3_negative_source_group",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_zenodo_20230710_141742632",
+      "split": "val",
+      "groupId": "zenodo18703636_session_20230710",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_zenodo_20230710_141700357",
+      "split": "val",
+      "groupId": "zenodo18703636_session_20230710",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    },
+    {
+      "id": "negative_zenodo_20230710_141746566",
+      "split": "val",
+      "groupId": "zenodo18703636_session_20230710",
+      "byteSHA": true,
+      "pixelOrNormalizationTransform": true,
+      "boxesValid": true
+    }
+  ]
+}

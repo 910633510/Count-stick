@@ -1,0 +1,111 @@
+{
+  "status": "APP_IMPLEMENTATION_AND_LOCAL_VALIDATION_COMPLETE_MODEL_INTEGRATION_PENDING",
+  "generatedAt": "2026-10-26T06:49:23.133018+00:00",
+  "scope": "Local iOS steel-pipe-end counting mode; no App Store upload/submission/pricing changes.",
+  "codeSHA256": {
+    "Count stick/CountCategory.swift": "d46c68403884e3e01ae31f9b1abf908a56d3aac84f8d392b85851b186f26294e",
+    "Count stick/PipeDetector.swift": "855b322e926a283cff10a74a6192f81323c73c66671aa72bb0016e186e273110",
+    "Count stick/CountWorkspace.swift": "b14f1d1b53dcc9c18b1d763aecf3322c664de59d1cc5b664415784a7fcdc8a8d",
+    "Count stick/CountHistory.swift": "614d640a030bbbbbbeded331897feb7955e4231a269daa4a96f5105305743b6c",
+    "Count stick/ContentView.swift": "d06d822b9c39255a91dc9fea2692eff3409e2949f5ae3a002a945c28e117131e",
+    "Count stick/en.lproj/Localizable.strings": "587c4df5a9d8813d393ed7d408006717bf2c9b93561c7c0de574e40ee6ab8853",
+    "Count stick/zh-Hans.lproj/Localizable.strings": "9fc20b5bbe26a325f8120b7bfa1f2bbb4e63c739f98d287de78e2c5641dacb5f",
+    "Count stickTests/CountCategoryTests.swift": "b40487912cb8cd256e40dc2d73f78011bafc275e497aba35684106ecc8d9f963",
+    "Count stickUITests/CountCategoryUITests.swift": "755bcd918b4efe652697fa9486736a633de84aa72c7134113198917c84801f7f"
+  },
+  "features": [
+    "Default skewer category delegates to the unchanged StickDetector; steel_pipes routes exclusively to PipeDetector.",
+    "History records persist category; legacy records missing category decode as skewers; unknown category values fail decoding rather than relabel old history.",
+    "Category switching invalidates generation, cancels active reservations, rejects late reservation responses, and prevents late inference results from debiting or replacing the new mode.",
+    "Existing unsaved-result confirmation covers category changes; restoring history selects its saved category; reset keeps the current category.",
+    "Bilingual category selector, pipe-end photography/review guidance, automatic reference region, manual editing, history labels and category-aware export caption.",
+    "The pipe detector never invokes the skewer model, OCR isolation heuristic, Hough circles, or an external photo API.",
+    "Pipe automatic reference area is the union of all valid detections; separate bundles and isolated pipes are retained.",
+    "Missing/incompatible model/settings/unsupported output fail without consuming a count. A successful zero result retains the existing one-use debit rule.",
+    "CountingAccess.swift and original detector/region/model files are byte-identical to HEAD."
+  ],
+  "modelContract": {
+    "resource": "PipeEnds.mlpackage compiled as PipeEnds.mlmodelc",
+    "settingsResource": "PipeEnds.json",
+    "statusRequired": "VALIDATED_COREML_EXPORT",
+    "inputSize": 1024,
+    "classLabel": "pipe_end",
+    "confidenceThreshold": "Pending frozen validation selection; no guessed config shipped",
+    "iouThreshold": "Pending validated export NMS value",
+    "preprocessing": "PhotoProcessing upright <=2048 image, explicit 1024 square gray114 centered letterbox, nearest-even resized geometry and round(halfPadding-0.1), then Vision scaleFill on the already square image. Inverse removes padding and gain.",
+    "coreML": "Vision VNRecognizedObjectObservation; model NMS; optional Double confidenceThreshold/iouThreshold; no assumption that padded confidence channel dimension equals 1.",
+    "runtimeAvailable": false,
+    "limits": [
+      "No actual pipe CoreML artifact has been delivered yet, so this build fails closed for automatic pipe counts.",
+      "CoreGraphics high-quality resize is not asserted pixel-identical to OpenCV; actual App preprocessing/ML prediction parity remains an integration requirement.",
+      "No steel-pipe accuracy, real-device latency, or physical-camera validation claimed."
+    ]
+  },
+  "validation": {
+    "simulator": "CountScope Pipe QA / iPhone 17 Pro / iOS 26.5 / 79EFF9AE-0967-4CDD-9656-8E903731614F",
+    "unitTests": {
+      "status": "PASS",
+      "passed": 45,
+      "newCategoryTests": 11,
+      "existingQuotaKeychainTests": 8,
+      "existingRegionHistoryModelTests": 26,
+      "resultBundle": "output/pipe-app-functional-tests.xcresult",
+      "note": "This bundle has 45 passing unit tests and a separate failing UI-harness Cancel-button assumption. The final unchanged App UI passed in the separate UI bundle below."
+    },
+    "bilingualUI": {
+      "status": "PASS",
+      "passed": 1,
+      "languages": [
+        "en",
+        "zh-Hans"
+      ],
+      "resultBundle": "output/pipe-app-ui-verified.xcresult",
+      "checks": [
+        "Actual original skewer-model photo result",
+        "Unsaved category-switch confirmation",
+        "Native Cancel/outside-popover dismissal retains original category and count",
+        "Explicit continue switches to steel-pipe mode and clears old result"
+      ],
+      "screenshots": [
+        "output/pipe-app-ui-verified-attachments/0BD9D9F7-2F01-4EAB-96F3-4DFEA314B95F.png",
+        "output/pipe-app-ui-verified-attachments/3C61A028-3EFE-4C4C-9BF1-1BD8D20C747E.png"
+      ],
+      "visualReview": "Both screenshots inspected; category, heading, pipe illustration and end-facing/glare guidance render in both languages; photo actions are reached by scrolling on this phone."
+    },
+    "releaseBuild": {
+      "status": "PASS",
+      "destination": "generic/platform=iOS",
+      "signing": false,
+      "log": "output/pipe-app-release-build.log",
+      "artifact": "output/pipe-app-derived/Build/Products/Release-iphoneos/Count stick.app",
+      "limits": "Compiled unsigned device-target Release build, not installed/validated on a physical device."
+    },
+    "localization": "138 unique keys per language; plutil lint and git diff --check pass",
+    "protectedFiles": "ml/pipes-20261026/app/protected-baseline.json",
+    "storeKitTransactions": {
+      "status": "ENVIRONMENT_BLOCKED_NOT_REVALIDATED",
+      "excludedTests": 5,
+      "error": "iOS 26.5 SKTestSession SKInternalErrorDomain Code=3; same issue documented in release/STATUS.md and release/subscription-build4/implementation-validation.json. Only iOS26.5 is installed now.",
+      "preservedEvidence": [
+        "output/pipe-app-tests.log",
+        "output/pipe-app-signed-tests.log"
+      ],
+      "note": "Unsigned first run also failed Keychain; signed rerun passed Keychain. Test transaction code and billing production source remain unchanged; prior historical iOS18.5 passing evidence is not presented as a current run."
+    },
+    "retainedFailedAttempts": [
+      "output/pipe-app-build.log (initial MLFeatureProvider class-only conformance compile error, fixed)",
+      "output/pipe-app-tests.log (unsigned Keychain/StoreKit environment)",
+      "output/pipe-app-signed-tests.log (StoreKit26.5 service)",
+      "output/pipe-app-fresh-tests.log (stopped upon finding documented runtime issue)",
+      "output/pipe-app-functional-tests.log (UI expected Cancel row)",
+      "output/pipe-app-ui-diagnostic.log (confirmed native popover dismissal)",
+      "output/pipe-app-ui-tests.log (UI used value instead of selected accessibility trait)",
+      "output/pipe-app-ui-final-tests.log (simulator launch Busy; rerun after explicit simulator boot passed)"
+    ],
+    "existingWarnings": [
+      "App icon set has 2 unassigned children",
+      "AppIntents metadata extraction skipped because framework not used"
+    ]
+  },
+  "nextStep": "Integrate only the independently exported and validated pipe model/config, then verify actual model output and App preprocessing on real pipe fixtures before presenting steel-pipe automatic counting as available."
+}

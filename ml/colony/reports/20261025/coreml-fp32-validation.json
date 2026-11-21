@@ -1,0 +1,158 @@
+{
+  "status": "EXPORTED_WITH_RUNTIME_CHECK",
+  "createdAtUTC": "2026-10-25T18:10:37Z",
+  "sourceModelSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+  "package": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/models/CountScope-Colony-v1-fp32/CountScopeColony1024.mlpackage",
+  "quantize": 32,
+  "inputSize": 1024,
+  "preprocessing": "RGB YOLO fixed-square letterbox to1024, background114, scale1/255; port and verify this preprocessing before any app integration.",
+  "confidence": 0.3,
+  "nmsIoU": 0.7,
+  "specificationVersion": 6,
+  "inputs": [
+    "image",
+    "iouThreshold",
+    "confidenceThreshold"
+  ],
+  "outputs": [
+    "confidence",
+    "coordinates"
+  ],
+  "validationPhotoParity": [
+    {
+      "image": "sp09_img01.jpg",
+      "torchCount": 5,
+      "coreMLCount": 5,
+      "countDifference": 0
+    },
+    {
+      "image": "sp04_img06.jpg",
+      "torchCount": 56,
+      "coreMLCount": 56,
+      "countDifference": 0
+    },
+    {
+      "image": "sp13_img06.jpg",
+      "torchCount": 518,
+      "coreMLCount": 524,
+      "countDifference": 6
+    }
+  ],
+  "inferencePipeline": "automatic4tile",
+  "tiledValidationPhotoParity": [
+    {
+      "image": "sp09_img01.jpg",
+      "torchCount": 14,
+      "coreMLCount": 14,
+      "countDifference": 0
+    },
+    {
+      "image": "sp04_img06.jpg",
+      "torchCount": 56,
+      "coreMLCount": 56,
+      "countDifference": 0
+    },
+    {
+      "image": "sp13_img06.jpg",
+      "torchCount": 638,
+      "coreMLCount": 638,
+      "countDifference": 0
+    }
+  ],
+  "testMetricsBackend": "PyTorch CPU with the selected inference pipeline; CoreML only smoke-compared on three validation photos.",
+  "exactCountParity": false,
+  "testMetrics": {
+    "images": 63,
+    "groundTruthObjects": 11752,
+    "confidence": 0.3,
+    "nmsIoU": 0.7,
+    "matchIoU": 0.5,
+    "TP": 10796,
+    "FP": 837,
+    "FN": 956,
+    "precision": 0.928049514312731,
+    "recall": 0.9186521443158612,
+    "countMAE": 13.031746031746032,
+    "countRMSE": 20.02973979337915,
+    "countBias": -1.8888888888888888,
+    "exactCountImages": 5,
+    "exactCountRate": 0.07936507936507936,
+    "within10PercentImages": 42,
+    "trainingMedianCountBaselineMAE": 142.93650793650792,
+    "sizeRecall": {
+      "under16px": {
+        "groundTruth": 2325,
+        "truePositives": 2071,
+        "recall": 0.890752688172043
+      },
+      "16to32px": {
+        "groundTruth": 8521,
+        "truePositives": 8255,
+        "recall": 0.9687830066893557
+      },
+      "over32px": {
+        "groundTruth": 906,
+        "truePositives": 470,
+        "recall": 0.5187637969094923
+      }
+    },
+    "AP50": 0.9428682797583675,
+    "AP50_95": 0.6030594758844651,
+    "AP75": 0.7330143074909268,
+    "method": "Ultralytics BaseValidator matching + ap_per_class on saved predictions at IoU0.50:0.95; max1000 detections/image",
+    "status": "COMPLETED_UNSEEN_SPECIES_TEST",
+    "evaluationDevice": "cpu",
+    "pipeline": "automatic4tile",
+    "modelSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+    "manifestSHA256": "f28b0409993893f4874845c77a06207a5f98f5c620b1a5b478b733de64e1d8fa",
+    "testSpecies": [
+      8,
+      17,
+      21
+    ],
+    "F1": 0.9233269189651486,
+    "scope": "Frozen same-study unseen-species research test; no physical-device, phone-photo or production acceptance.",
+    "perSpecies": {
+      "sp08": {
+        "images": 12,
+        "countMAE": 25.833333333333332,
+        "truth": 368,
+        "TP": 33,
+        "FP": 25,
+        "FN": 335
+      },
+      "sp17": {
+        "images": 3,
+        "countMAE": 31.333333333333332,
+        "truth": 224,
+        "TP": 106,
+        "FP": 24,
+        "FN": 118
+      },
+      "sp21": {
+        "images": 48,
+        "countMAE": 8.6875,
+        "truth": 11160,
+        "TP": 10657,
+        "FP": 788,
+        "FN": 503
+      }
+    },
+    "within10PercentOrOneObjectImages": 43,
+    "meanAbsolutePercentageError": 0.21538788063913386,
+    "speciesMacroRecall": 0.5059388380566502,
+    "speciesObjectShare": {
+      "sp08": 0.031313818924438394,
+      "sp17": 0.01906058543226685,
+      "sp21": 0.9496255956432947
+    },
+    "generalizationAssessment": "NOT_READY_FOR_GENERAL_COLONY_DEPLOYMENT: strong aggregate detection is dominated by sp21, while sp08/sp17 have substantial missed colonies. Tiling improves overall detection but does not improve test count MAE over the frozen whole-image reference."
+  },
+  "shippingAppModified": false,
+  "limitations": "Mac CoreML smoke comparison only; not iPhone runtime/accuracy acceptance.",
+  "packageFilesSHA256": {
+    "Manifest.json": "c0a1d953740a71c38477b1ab124b1b7178dbaaae7c11b1f6e7341a3d53a22186",
+    "Data/com.apple.CoreML/model.mlmodel": "b329cbea6de8b5113579259235eeec2144d0a0030323e5d7213776b4c02776bf",
+    "Data/com.apple.CoreML/weights/weight.bin": "68274a64b922fe5e8d427f0939092811692147423774e7fbb172b326a3ccef0a"
+  }
+}

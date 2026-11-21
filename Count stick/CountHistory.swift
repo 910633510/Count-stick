@@ -9,7 +9,25 @@ struct CountRecord: Identifiable, Codable, Equatable {
     var automaticCount: Int?
     var note: String
     var automaticRegion: AutoCountRegionResult? = nil
+    var category: CountCategory = .skewers
     var count: Int { markers.count }
+}
+
+extension CountRecord {
+    private enum CodingKeys: String, CodingKey {
+        case id, date, markers, automaticCount, note, automaticRegion, category
+    }
+
+    init(from decoder: Decoder) throws {
+        let values = try decoder.container(keyedBy: CodingKeys.self)
+        id = try values.decode(UUID.self, forKey: .id)
+        date = try values.decode(Date.self, forKey: .date)
+        markers = try values.decode([CountMarker].self, forKey: .markers)
+        automaticCount = try values.decodeIfPresent(Int.self, forKey: .automaticCount)
+        note = try values.decode(String.self, forKey: .note)
+        automaticRegion = try values.decodeIfPresent(AutoCountRegionResult.self, forKey: .automaticRegion)
+        category = try values.decodeIfPresent(CountCategory.self, forKey: .category) ?? .skewers
+    }
 }
 
 @MainActor

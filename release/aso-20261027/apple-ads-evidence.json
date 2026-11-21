@@ -1,0 +1,531 @@
+{
+  "createdAtUTC": "2026-10-27T04:16:35.630654+00:00",
+  "appId": "6826601708",
+  "bundleId": "x.Count-stick",
+  "source": "Live Apple Ads Platform API v1 via existing client",
+  "identityVerified": true,
+  "accountDisplayName": "XM LLC (US)",
+  "observedMetrics": [
+    {
+      "week": "2026-10-18",
+      "countryOrRegion": "US",
+      "genre": "PRODUCTIVITY_UTILITIES",
+      "searchTerm": "counter",
+      "rankInGenre": 362,
+      "searchPopularityInGenre": 64,
+      "searchPopularity1to100": 58,
+      "searchPopularity1to5": 3
+    },
+    {
+      "week": "2026-10-18",
+      "countryOrRegion": "US",
+      "genre": "PRODUCTIVITY_UTILITIES",
+      "searchTerm": "countdown",
+      "rankInGenre": 101,
+      "searchPopularityInGenre": 73,
+      "searchPopularity1to100": 66,
+      "searchPopularity1to5": 4
+    },
+    {
+      "week": "2026-10-18",
+      "countryOrRegion": "US",
+      "genre": "PRODUCTIVITY_UTILITIES",
+      "searchTerm": "countdown widget",
+      "rankInGenre": 386,
+      "searchPopularityInGenre": 64,
+      "searchPopularity1to100": 57,
+      "searchPopularity1to5": 3
+    }
+  ],
+  "unreturnedSeedsMeaning": "No row returned for this request and period; not zero demand.",
+  "keywordSuggestionsStatus": "FAILED_TARGET_APP_NOT_FOUND_OR_ACCESS_DENIED",
+  "keywordSuggestionCauseLimitation": "Apple returned INVALID_INPUT adamId App not found or access denied. Waiting for Review is known ASC state, not a proven sole cause.",
+  "phrasesStatus": "SUCCESS_EMPTY_UNSPECIFIED_MARKET",
+  "selectedBrand": "CountScope",
+  "chosenNameBasis": "Clear existing extensible brand plus photo-counter intent; counter has observed broad US demand; this does not establish that CountScope/Photo Counter is high-volume or best-converting.",
+  "excludedObservedTerms": [
+    "countdown",
+    "countdown widget"
+  ],
+  "exclusionReason": "Countdown functionality not present despite higher popularity.",
+  "advertisingMutations": false,
+  "receipts": [
+    {
+      "file": "output/aso-20261027/apple-ads/keyword-error-diagnostic.json",
+      "sha256": "cc5c0eddf0e9da5a38223bd4173b49b5efebadf1eab0e868af4c6abaa779c457",
+      "status": 400,
+      "retrievedAtUTC": "2026-10-27T04:13:47.271129+00:00",
+      "path": "/v1/suggestions/keywords/query",
+      "request": null,
+      "error": null,
+      "diagnostic": {
+        "error": {
+          "code": "VALIDATION_ERROR",
+          "message": "INVALID_INPUT adamId App not found or access denied for adamId: 6826601708"
+        }
+      }
+    },
+    {
+      "file": "output/aso-20261027/apple-ads/keywords-discovery-CN.json",
+      "sha256": "df4952c35d064acd1261a36b2eca36b1cc4987321d72bb121b079a6740d58947",
+      "status": "FAILED",
+      "retrievedAtUTC": "2026-10-27T04:12:26.636399+00:00",
+      "path": "/v1/suggestions/keywords/query",
+      "request": {
+        "filters": [
+          {
+            "field": "promotedObjectId",
+            "operator": "EQUALS",
+            "value": [
+              "6826601708"
+            ]
+          },
+          {
+            "field": "promotedObjectType",
+            "operator": "EQUALS",
+            "value": [
+              "APPSTORE_APP"
+            ]
+          },
+          {
+            "field": "countriesOrRegions",
+            "operator": "IN",
+            "value": [
+              "CN"
+            ]
+          }
+        ]
+      },
+      "error": "Apple returned HTTP 400. Check query schema or OAuth configuration.",
+      "diagnostic": null
+    },
+    {
+      "file": "output/aso-20261027/apple-ads/keywords-discovery-US.json",
+      "sha256": "9fcd10a7088522b8f5b618d7f484ecc3a9498090b2aa8dd5f49f9ce60d8593ed",
+      "status": "FAILED",
+      "retrievedAtUTC": "2026-10-27T04:12:23.232944+00:00",
+      "path": "/v1/suggestions/keywords/query",
+      "request": {
+        "filters": [
+          {
+            "field": "promotedObjectId",
+            "operator": "EQUALS",
+            "value": [
+              "6826601708"
+            ]
+          },
+          {
+            "field": "promotedObjectType",
+            "operator": "EQUALS",
+            "value": [
+              "APPSTORE_APP"
+            ]
+          },
+          {
+            "field": "countriesOrRegions",
+            "operator": "IN",
+            "value": [
+              "US"
+            ]
+          }
+        ]
+      },
+      "error": "Apple returned HTTP 400. Check query schema or OAuth configuration.",
+      "diagnostic": null
+    },
+    {
+      "file": "output/aso-20261027/apple-ads/keywords-seeds-CN.json",
+      "sha256": "996d5df19c98762e49ce65f2237ed7357bc4947a0bbb910245cb8889ae59fe1b",
+      "status": "FAILED",
+      "retrievedAtUTC": "2026-10-27T04:12:27.827017+00:00",
+      "path": "/v1/suggestions/keywords/query",
+      "request": {
+        "filters": [
+          {
+            "field": "promotedObjectId",
+            "operator": "EQUALS",
+            "value": [
+              "6826601708"
+            ]
+          },
+          {
+            "field": "promotedObjectType",
+            "operator": "EQUALS",
+            "value": [
+              "APPSTORE_APP"
+            ]
+          },
+          {
+            "field": "countriesOrRegions",
+            "operator": "IN",
+            "value": [
+              "CN"
+            ]
+          },
+          {
+            "field": "terms",
+            "operator": "IN",
+            "value": [
+              "拍照计数",
+              "拍照数数",
+              "数数",
+              "计数器",
+              "照片计数",
+              "智能计数",
+              "自动计数",
+              "数签子",
+              "数签",
+              "竹签",
+              "串串",
+              "库存盘点",
+              "清点",
+              "点数",
+              "拍照点数",
+              "计数相机",
+              "数一数"
+            ]
+          }
+        ]
+      },
+      "error": "Apple returned HTTP 400. Check query schema or OAuth configuration.",
+      "diagnostic": null
+    },
+    {
+      "file": "output/aso-20261027/apple-ads/keywords-seeds-US.json",
+      "sha256": "57e5a1a90bca57f3e433aa547e93f96549eed3df82b69dfcc374efaa4ce5e88c",
+      "status": "FAILED",
+      "retrievedAtUTC": "2026-10-27T04:12:24.358351+00:00",
+      "path": "/v1/suggestions/keywords/query",
+      "request": {
+        "filters": [
+          {
+            "field": "promotedObjectId",
+            "operator": "EQUALS",
+            "value": [
+              "6826601708"
+            ]
+          },
+          {
+            "field": "promotedObjectType",
+            "operator": "EQUALS",
+            "value": [
+              "APPSTORE_APP"
+            ]
+          },
+          {
+            "field": "countriesOrRegions",
+            "operator": "IN",
+            "value": [
+              "US"
+            ]
+          },
+          {
+            "field": "terms",
+            "operator": "IN",
+            "value": [
+              "photo counter",
+              "object counter",
+              "count objects",
+              "counting app",
+              "counter",
+              "tally counter",
+              "photo count",
+              "count from photo",
+              "skewer counter",
+              "skewer",
+              "count sticks",
+              "inventory counter",
+              "CountScope",
+              "CountLens",
+              "TallyLens",
+              "CountSnap",
+              "SnapCount"
+            ]
+          }
+        ]
+      },
+      "error": "Apple returned HTTP 400. Check query schema or OAuth configuration.",
+      "diagnostic": null
+    },
+    {
+      "file": "output/aso-20261027/apple-ads/phrases-search.json",
+      "sha256": "51bb938475559dce3e37ea8efcda2e71ec01b56008d2aab45781540ce42a882a",
+      "status": "SUCCESS",
+      "retrievedAtUTC": "2026-10-27T04:12:28.951503+00:00",
+      "path": "/v1/suggestions/phrases/query",
+      "request": {
+        "filters": [
+          {
+            "field": "queryType",
+            "operator": "EQUALS",
+            "value": [
+              "SEARCH"
+            ]
+          },
+          {
+            "field": "phrase",
+            "operator": "IN",
+            "value": [
+              "photo counter",
+              "object counter",
+              "count objects",
+              "counting app",
+              "counter",
+              "tally counter",
+              "photo count",
+              "count from photo",
+              "skewer counter",
+              "skewer",
+              "count sticks",
+              "inventory counter",
+              "CountScope",
+              "CountLens",
+              "TallyLens",
+              "CountSnap",
+              "SnapCount",
+              "拍照计数",
+              "拍照数数",
+              "数数",
+              "计数器",
+              "照片计数",
+              "智能计数",
+              "自动计数",
+              "数签子",
+              "数签",
+              "竹签",
+              "串串",
+              "库存盘点",
+              "清点",
+              "点数",
+              "拍照点数",
+              "计数相机",
+              "数一数"
+            ]
+          }
+        ]
+      },
+      "error": null,
+      "diagnostic": null
+    },
+    {
+      "file": "output/aso-20261027/apple-ads/popularity-CN.json",
+      "sha256": "74af73f46a626dc9863c197962c96286d5da465aa5e9474fce70afaba4a2415d",
+      "status": "SUCCESS",
+      "retrievedAtUTC": "2026-10-27T04:12:25.645428+00:00",
+      "path": "/v1/insights/apps/search-term-popularity/query",
+      "request": {
+        "fields": [
+          "rankInGenre",
+          "searchPopularityInGenre",
+          "searchPopularity1to100",
+          "searchPopularity1to5"
+        ],
+        "filters": [
+          {
+            "field": "countryOrRegion",
+            "operator": "EQUALS",
+            "value": "CN"
+          },
+          {
+            "field": "genre",
+            "operator": "IN",
+            "value": [
+              "PRODUCTIVITY_UTILITIES",
+              "PHOTO_VIDEO"
+            ]
+          },
+          {
+            "field": "searchTerm",
+            "operator": "IN",
+            "value": [
+              "拍照计数",
+              "拍照数数",
+              "数数",
+              "计数器",
+              "照片计数",
+              "智能计数",
+              "自动计数",
+              "数签子",
+              "数签",
+              "竹签",
+              "串串",
+              "库存盘点",
+              "清点",
+              "点数",
+              "拍照点数",
+              "计数相机",
+              "数一数"
+            ]
+          }
+        ],
+        "timeRange": {
+          "start": "2026-10-18",
+          "end": "2026-10-24",
+          "granularity": "WEEKLY_SUN_SAT"
+        },
+        "pagination": {
+          "offset": 0,
+          "pageSize": 1000
+        }
+      },
+      "error": null,
+      "diagnostic": null
+    },
+    {
+      "file": "output/aso-20261027/apple-ads/popularity-US.json",
+      "sha256": "25036e12cc4d1994589bb8d6eb3823c0d1168080a3ddeb87fb63403b61863eae",
+      "status": "SUCCESS",
+      "retrievedAtUTC": "2026-10-27T04:12:21.811667+00:00",
+      "path": "/v1/insights/apps/search-term-popularity/query",
+      "request": {
+        "fields": [
+          "rankInGenre",
+          "searchPopularityInGenre",
+          "searchPopularity1to100",
+          "searchPopularity1to5"
+        ],
+        "filters": [
+          {
+            "field": "countryOrRegion",
+            "operator": "EQUALS",
+            "value": "US"
+          },
+          {
+            "field": "genre",
+            "operator": "IN",
+            "value": [
+              "PRODUCTIVITY_UTILITIES",
+              "PHOTO_VIDEO"
+            ]
+          },
+          {
+            "field": "searchTerm",
+            "operator": "IN",
+            "value": [
+              "photo counter",
+              "object counter",
+              "count objects",
+              "counting app",
+              "counter",
+              "tally counter",
+              "photo count",
+              "count from photo",
+              "skewer counter",
+              "skewer",
+              "count sticks",
+              "inventory counter",
+              "CountScope",
+              "CountLens",
+              "TallyLens",
+              "CountSnap",
+              "SnapCount"
+            ]
+          }
+        ],
+        "timeRange": {
+          "start": "2026-10-18",
+          "end": "2026-10-24",
+          "granularity": "WEEKLY_SUN_SAT"
+        },
+        "pagination": {
+          "offset": 0,
+          "pageSize": 1000
+        }
+      },
+      "error": null,
+      "diagnostic": null
+    },
+    {
+      "file": "output/aso-20261027/apple-ads/popularity-related-CN.json",
+      "sha256": "08b60a3f4f2f717fce7bc042136df4053e10979174cdf72a8dd6a4a9370cfa32",
+      "status": "SUCCESS",
+      "retrievedAtUTC": "2026-10-27T04:13:46.030065+00:00",
+      "path": "/v1/insights/apps/search-term-popularity/query",
+      "request": {
+        "fields": [
+          "rankInGenre",
+          "searchPopularityInGenre",
+          "searchPopularity1to100",
+          "searchPopularity1to5"
+        ],
+        "filters": [
+          {
+            "field": "countryOrRegion",
+            "operator": "EQUALS",
+            "value": "CN"
+          },
+          {
+            "field": "genre",
+            "operator": "IN",
+            "value": [
+              "PRODUCTIVITY_UTILITIES",
+              "PHOTO_VIDEO"
+            ]
+          },
+          {
+            "field": "searchTerm",
+            "operator": "CONTAINS",
+            "value": "计数"
+          }
+        ],
+        "timeRange": {
+          "start": "2026-10-18",
+          "end": "2026-10-24",
+          "granularity": "WEEKLY_SUN_SAT"
+        },
+        "pagination": {
+          "offset": 0,
+          "pageSize": 1000
+        }
+      },
+      "error": null,
+      "diagnostic": null
+    },
+    {
+      "file": "output/aso-20261027/apple-ads/popularity-related-US.json",
+      "sha256": "15a6cbd5366ec0e93c16c4d970b1478e6ea65b76b7f90beeb15f4ff5b2819807",
+      "status": "SUCCESS",
+      "retrievedAtUTC": "2026-10-27T04:13:44.170197+00:00",
+      "path": "/v1/insights/apps/search-term-popularity/query",
+      "request": {
+        "fields": [
+          "rankInGenre",
+          "searchPopularityInGenre",
+          "searchPopularity1to100",
+          "searchPopularity1to5"
+        ],
+        "filters": [
+          {
+            "field": "countryOrRegion",
+            "operator": "EQUALS",
+            "value": "US"
+          },
+          {
+            "field": "genre",
+            "operator": "IN",
+            "value": [
+              "PRODUCTIVITY_UTILITIES",
+              "PHOTO_VIDEO"
+            ]
+          },
+          {
+            "field": "searchTerm",
+            "operator": "CONTAINS",
+            "value": "count"
+          }
+        ],
+        "timeRange": {
+          "start": "2026-10-18",
+          "end": "2026-10-24",
+          "granularity": "WEEKLY_SUN_SAT"
+        },
+        "pagination": {
+          "offset": 0,
+          "pageSize": 1000
+        }
+      },
+      "error": null,
+      "diagnostic": null
+    }
+  ]
+}

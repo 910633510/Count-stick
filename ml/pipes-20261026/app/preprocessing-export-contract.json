@@ -1,0 +1,54 @@
+{
+  "status": "AVAILABLE_TEST_ONLY_HELPER",
+  "entryPoint": "Count stickTests/PipePreprocessingExportTests.swift",
+  "syntheticCommand": [
+    "xcodebuild",
+    "-project",
+    "Count stick.xcodeproj",
+    "-scheme",
+    "Count stick",
+    "-destination",
+    "platform=iOS Simulator,id=79EFF9AE-0967-4CDD-9656-8E903731614F",
+    "-derivedDataPath",
+    "output/pipe-app-derived",
+    "test",
+    "-only-testing:Count stickTests/PipePreprocessingExportTests/testExportSyntheticPreprocessingFixtures",
+    "-parallel-testing-enabled",
+    "NO"
+  ],
+  "trainValCommand": "Use the same xcodebuild command with testExportRequestedTrainValPreprocessingFixtures after a valid frozen request exists.",
+  "requestPath": "output/pipes-20261026/preprocessing-request.json",
+  "requestSchemaExample": {
+    "status": "FROZEN_TRAIN_VAL_PREPROCESSING_REQUEST",
+    "testContentIncluded": false,
+    "sourceManifestPath": "output/pipes-20261026/<frozen-dataset>/train-val-manifest.json",
+    "sourceManifestSHA256": "<actual64hex>",
+    "images": [
+      {
+        "id": "<safe_ASCII_image_id>",
+        "split": "train or val",
+        "imagePath": "output/pipes-20261026/data/<actual-source-image>.jpg",
+        "sha256": "<actual64hex>"
+      }
+    ]
+  },
+  "sourceManifestRequirements": [
+    "Repository-relative output/pipes-20261026 path containing train-val; symlink escape rejected.",
+    "Top-level testContentIncluded=false; images array, every row split train or val.",
+    "Every requested id+split+imagePath+sha256 must match exactly one source-manifest row.",
+    "No image is opened until all requested identities/splits match; source bytes SHA checked before preprocessing.",
+    "1 to100 unique requested IDs; no model inference or GT rendering in this helper."
+  ],
+  "outputs": [
+    "Unique output/pipes-20261026/preprocessing/<kind>-<UUID>/ directory per run.",
+    "*-upright.png is actual PhotoProcessing result; *-network.png is actual PipeLetterbox result.",
+    "manifest.json records source/orientation, each prepared size, gain, resized dimensions, four paddings, PNG SHA and App source-code hashes.",
+    "latest-synthetic_geometry_only.json or latest-frozen_train_val_photo.json is a pointer+SHA, not the immutable run receipt."
+  ],
+  "knownPathDifference": "For4097x1873 synthetic JPEG, ImageIO produced2048x936 while camera normalization produced2048x937. Feed the exact PNG and use its own geometry for each path.",
+  "notClaims": [
+    "No assertion of CoreGraphics/OpenCV pixel equality.",
+    "No pipe detection accuracy, CoreML parity or real-device latency result.",
+    "Synthetic colored grids are not training samples or real negative controls."
+  ]
+}

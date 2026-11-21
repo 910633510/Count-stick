@@ -1,0 +1,482 @@
+{
+  "status": "SOURCE_VERIFIED_SEGMENTATION_RESEARCH_WITH_BOUNDED_SYNTHETIC_CHECKS",
+  "researchedOn": "2026-10-26",
+  "metadataFetchedAtUTC": "2026-10-26T04:44:11.813346+00:00",
+  "metadataSource": "ml/github-research-20261026/github-metadata.json",
+  "scope": "只读官方源码研究及小张量/AST分支检查；不安装升级、不载入模型权重、不训练、不读取项目图像或sealed36，不改旧reports/harness/App。",
+  "mainConclusion": "当前瓶颈首先是代表性实例掩膜与尺度覆盖。现有59框不能直接作为Cellpose/StarDist/micro-SAM/SAM2的真实mask监督；SAM3确有box-only检测训练，但不等于已有分割标注或Mac可直接训练。",
+  "projectContextFromParent": {
+    "newAnnotations": "59 boxes, no independently annotated instance masks",
+    "observedFailure": "大菌落改善但旧小目标FN388→435；真实空皿glare仍误报。",
+    "trainingScaleAudit": "新正例训练7图32GT全部>32px@1024，最短边中位191px；旧train中位18.88px，新hard-val中位58.09px。",
+    "implication": "只用当前大目标crop做分割微调仍保留尺度覆盖不足的风险；需要训练组内的原始整图、小/密集目标与真实空皿。此处仅引用主代理审计，未重读数据。"
+  },
+  "repositories": [
+    {
+      "repo": "MouseLand/cellpose",
+      "stars": 2414,
+      "archived": false,
+      "defaultBranch": "main",
+      "pinnedCommit": "a54cb48849b7e225a81e8e43dcb042d42427f543",
+      "defaultBranchLastCommitUTC": "2026-06-14T13:19:49Z",
+      "pushedAtUTC": "2026-06-14T13:21:03Z",
+      "position": "近期首选自动分割基线；先做计数/空皿筛选，得到合格instance masks后再考虑训练。",
+      "implemented": "CellposeModel.eval自动生成flows与instance masks，不需手画ROI；现main为Cellpose4/cpsam_v2等Transformer模型。README称新版减少低对比区域杂散mask，这是作者更新说明，不是本项目实测。",
+      "labelRequirement": "0为背景、1..N为实例ID。框填充成矩形会把培养基/反光错误教成目标。",
+      "emptyAndSmallObjects": "默认min_train_masks=5会排除真实空皿及当前不少2–4实例crop。设0仅关闭过滤；已验证空flow与独立loss有限，整网增广/优化训练尚未验证。min_size、diameter缩放和max_size_fraction也须纳入旧小目标保护。",
+      "mac": "源码明确MPS；本机Torch2.8 CPU/MPS空标签loss及梯度有限。训练源码转float32，MPS的部分mask生成回CPU，24GB全模型峰值/速度未知。CPSAM patch=256，batch1只是一项可测起点。",
+      "iphone": "未验证官方完整CoreML链；神经网络导出还需重现flow迭代、CPU mask后处理与计数，Mac MPS成功不代表iPhone成功。",
+      "evidence": [
+        "cp.updates",
+        "cp.train",
+        "cp.filter",
+        "cp.loss",
+        "cp.emptyflow",
+        "cp.post",
+        "cp.auto"
+      ]
+    },
+    {
+      "repo": "computational-cell-analytics/micro-sam",
+      "stars": 742,
+      "archived": false,
+      "defaultBranch": "main",
+      "pinnedCommit": "323bef4609d9644fcae45b4bd4b6b18288b9d8d1",
+      "defaultBranchLastCommitUTC": "2026-10-21T10:54:46Z",
+      "pushedAtUTC": "2026-10-25T20:14:26Z",
+      "position": "标注助手优先；自动实例decoder-only是后续候选。742星属相关领域专项库，不包装成通用高星。",
+      "implemented": "同仓有交互标注、AMG、带decoder的AIS/APG。可在离线标注时用已有TRAIN框生成mask草稿并人工修正；产品推理应走自动模式，不能要求用户补框。",
+      "labelRequirement": "交互提示由GT实例mask采样，不能误解为只给59框就能训练mask。AIS还需decoder_state与实例/距离监督。",
+      "emptyAndSmallObjects": "默认交互训练MinInstanceSampler排除空样本；decoder-only数据路径不设该过滤。源码默认min_size=25会滤小实例，应先审实际删除量。本轮仅验证采样分支，空decoder-loss/完整训练未测。",
+      "mac": "明确接受MPS，当前Python>=3.11、torch>=2.5、torch-em。GUI源码还留有MPS训练可能较CPU慢的TODO；不能把可选设备当成速度保证。可冻结encoder降低训练范围，但需独立环境兼容检查。",
+      "iphone": "提供BioImage.IO/部分ONNX路径，不是现成的完整自动计数CoreML模型；AIS后处理/分块拼接仍需端侧验证。",
+      "evidence": [
+        "ms.device",
+        "ms.empty",
+        "ms.train",
+        "ms.auto",
+        "ms.export",
+        "ms.requirements"
+      ]
+    },
+    {
+      "repo": "stardist/stardist",
+      "stars": 1285,
+      "archived": false,
+      "defaultBranch": "main",
+      "pinnedCommit": "e80c6de700693bc228ed3c9ba1dc19c3785667ee",
+      "defaultBranchLastCommitUTC": "2026-02-14T16:00:10Z",
+      "pushedAtUTC": "2026-02-14T16:16:18Z",
+      "position": "在补齐mask后作为圆形/近星凸相接菌落的较透明对照；不是所有融合形态的通用答案。",
+      "implemented": "预测目标概率及沿射线的边界距离，再做polygon NMS；predict_instances自动运行，无手框。",
+      "labelRequirement": "需要真实实例mask。训练支持负像素标签作为ignore，可保留未标注区域的明确忽略语义；不要把语义连通块直接视为一个菌落。",
+      "shapeAndNegatives": "星凸允许部分凹陷，但从一个中心沿射线只能一个边界距离，严重多中心融合不能凭模型恢复真实实例数。默认90%前景patch采样在无前景时回退，空图并非直接丢弃；TF损失本轮未运行。",
+      "mac": "官方Apple Silicon说明走TensorFlow-Metal而非PyTorch MPS；现有检查环境未安装TensorFlow，本轮没有安装。C++ polygon/NMS、可选OpenCL与网络GPU支持是不同层。",
+      "iphone": "Fiji/QuPath/TensorFlow导出支持不等于CoreML；需转换网络并移植星形polygon/NMS，未做iPhone测试。",
+      "evidence": [
+        "sd.labels",
+        "sd.empty",
+        "sd.infer",
+        "sd.apple"
+      ]
+    },
+    {
+      "repo": "facebookresearch/sam2",
+      "stars": 20058,
+      "archived": false,
+      "defaultBranch": "main",
+      "pinnedCommit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+      "defaultBranchLastCommitUTC": "2024-12-16T00:47:17Z",
+      "pushedAtUTC": "2026-05-30T02:29:40Z",
+      "position": "高星通用模型优先用于离线mask草稿/交互纠正；作为自动菌落计数器需另做语义及负例验证。",
+      "implemented": "官方AutomaticMaskGenerator用点网格，能全图自动出mask；image predictor可用框辅助离线标注。AMG质量/稳定性阈值衡量mask，不证明是菌落，皿缘、字迹和glare也可能形成稳定mask。",
+      "labelRequirement": "官方训练针对mask对象/视频轨迹；prompt从mask采样。标准VOS sampler要求可见对象，独立空皿不能直接假定被纳入；未提供本项目box-only分割训练证明。",
+      "mac": "build_sam2有通用.to(device)路径，潜在MPS推理仍需逐算子/CPU对照检查；官方trainer实测源分支拒绝mps，只接受CPU/CUDA。可选CUDA后处理能跳过，不代表其它所有Mac算子已验证。",
+      "iphone": "无本轮验证的CoreML整链；建议先Tiny作标注辅助，网络、AMG循环/裁剪/NMS与mask存储需分别测端侧成本。A100速度不能引用为M5/iPhone速度。",
+      "maintenanceNote": "非archived；主分支最后提交2024-12-16，pushed_at在2026，不能仅凭后者声称主线近期持续更新。",
+      "evidence": [
+        "s2.amg",
+        "s2.train",
+        "s2.empty"
+      ]
+    },
+    {
+      "repo": "facebookresearch/sam3",
+      "stars": 12102,
+      "archived": false,
+      "defaultBranch": "main",
+      "pinnedCommit": "f1647e8d0c1d280991f4d1b7d974c2704537fe66",
+      "defaultBranchLastCommitUTC": "2026-10-23T19:49:10Z",
+      "pushedAtUTC": "2026-10-23T19:51:06Z",
+      "position": "正式官方仓库已存在且较活跃；有CUDA条件时再考虑文本语义teacher或box/presence对照，当前Mac训练不是第一步。",
+      "implemented": "set_text_prompt可不提供用户几何框；输出实例分数乘presence分数。负框可用label=False；源码未见独立negative-text参数。SAM3.1发布重点是多对象跟踪，不能据此推断静态菌落计数更好。",
+      "labelRequirement": "官方Roboflow示例有enable_segmentation=False的box/class/presence训练路径，理论可接框标签做检测；启用mask损失仍需真实mask。只有7张新train、全为大目标，不足以支持盲目完整微调。",
+      "emptyTraining": "COCO loader默认include_negatives；presence loss对无可见目标学习0，是可借鉴的目标存在性监督。不能承诺预训练presence已解决真实空皿反光。",
+      "mac": "官方Python>=3.12/CUDA配置；trainer拒绝mps。image builder的_setup_device_and_mode仅为literal cuda调用.cuda，传mps不会搬模型，已用无模型stub验证。完整MPS移植/内存未测，不能靠一行device='mps'解决。",
+      "accessAndIPhone": "官方checkpoint获取需HF访问批准与登录，未下载。没有本轮验证的iPhone/CoreML部署；不把官方GPU安装流程套到现有环境。",
+      "evidence": [
+        "s3.prompt",
+        "s3.presence",
+        "s3.device",
+        "s3.trainer",
+        "s3.boxtrain",
+        "s3.negative",
+        "s3.setup"
+      ]
+    }
+  ],
+  "priorityAndReproducibleNextSteps": [
+    {
+      "rank": 1,
+      "action": "补实例mask而非先换大模型",
+      "prerequisites": [
+        "仅用已授权TRAIN物理组的原始整图与可数ROI；隔离无法判断实例数的融合区域。",
+        "用micro-SAM或SAM2-Tiny以已有TRAIN框辅助出mask草稿，每个实例复核，保留自动/修正/拒绝来源；不把矩形填充当GT。",
+        "建议小规模标注预算同时覆盖大/相接、小/密集、真实空皿；新数据不能只来自当前中位191px的大crop。数量是预算，不是性能保证。"
+      ]
+    },
+    {
+      "rank": 2,
+      "action": "Cellpose自动baseline，再决定是否微调",
+      "prerequisites": [
+        "固定本报告commit、权重hash及模型名，单独环境；先batch1/2D/float32兼容与峰值内存检查。",
+        "无测试真值提示、无手画ROI；从TRAIN尺寸先验固定有限尺度设置，保留整图及细节。",
+        "真空皿用全0mask、min_train_masks=0；在实际数据管线跑一个无optimizer的前向/空loss检查，确认负例未被过滤。",
+        "只有补齐instance masks后才谈训练；本轮验证到的有限empty-loss不是全网训练验收。"
+      ]
+    },
+    {
+      "rank": 3,
+      "action": "micro-SAM AIS decoder-only与StarDist做有限对照",
+      "prerequisites": [
+        "micro-SAM显式train_instance_segmentation_only路径且checkpoint带decoder；先验证空mask Dice/distance loss与MPS，别复用交互sampler。",
+        "StarDist先在近星凸对象评估；patch尺寸与最小图像尺寸兼容，保留真实空mask与必要ignore区域，另建TF-Metal环境。",
+        "两者都保留old-small mask曝光；不能只以大目标MAE下降作为通过。"
+      ]
+    },
+    {
+      "rank": 4,
+      "action": "SAM3仅列CUDA条件下的后续语义teacher实验",
+      "prerequisites": [
+        "已有合法可访问checkpoint和独立受支持运行环境后，固定纯文本concept与presence阈值。",
+        "明确比较无目标query、反光/印字/凝露、菌落；负文本语义不能冒充官方不存在的API。",
+        "用现有框只能验证/微调检测与presence，不能声称已经训练mask；teacher输出不能直接升级为GT。"
+      ]
+    }
+  ],
+  "acceptanceContract": {
+    "automaticROI": "部署推理只接受整图/固定自动分块或固定类别文本，不允许TEST GT框、手工ROI或按图调阈值。",
+    "retention": "以实际旧v2 automatic4tile/conf0.3为基线；旧验证总体与每物种MAE/FP/FN、每尺寸FN不回退，尤其跟踪388→435的小目标FN失败点。新大目标改善不能抵消旧小目标退步。",
+    "negativeControls": "真实空皿逐图零计数，另列纯色控制；记录采样过滤前后空图数量和参与loss的负例，避免默认过滤制造假成功。",
+    "evaluationBoundary": "不打开sealed36做探索；新方案固定后由root决定最终独立评估。Mask评测与当前box/count评测分开，IoU掩膜指标不能凭现有框推导。",
+    "mobileGate": "Mac CPU/MPS、网络导出、完整CoreML计数链、真机持续运行分别验收；本轮没有任何新App能力或部署通过。"
+  },
+  "boundedChecks": {
+    "report": "output/github-research-20261026/segmentation/source-branch-checks.json",
+    "status": "PASS_BOUNDED_SOURCE_BRANCH_CHECKS",
+    "torchVersion": "2.8.0",
+    "cellposeEmptyLoss": [
+      {
+        "device": "cpu",
+        "loss": 0.6931473016738892,
+        "finiteLossAndGradient": true,
+        "backgroundLogitGradientNonzero": true,
+        "warnings": [
+          "In CPU autocast, but the target dtype is not supported. Disabling autocast.\nCPU Autocast only supports dtype of torch.bfloat16, torch.float16 currently."
+        ]
+      },
+      {
+        "device": "mps",
+        "loss": 0.6931471824645996,
+        "finiteLossAndGradient": true,
+        "backgroundLogitGradientNonzero": true,
+        "warnings": [
+          "In MPS autocast, but the target dtype is not supported. Disabling autocast.\nMPS Autocast only supports dtype of torch.bfloat16 and torch.float16 currently."
+        ]
+      }
+    ],
+    "verified": "实际源码空flow/过滤分支/单独损失CPU+MPS数值与梯度；StarDist空前景fallback；micro-SAM采样分支；SAM2/3 trainer与SAM3 image-device分支。",
+    "untested": "无整网前向、无权重、无optimizer、无epoch、无micro-SAM/StarDist空标签训练loss、无CoreML/iPhone、无project image/model推理。"
+  },
+  "evidence": {
+    "cp.updates": {
+      "repo": "MouseLand/cellpose",
+      "file": "README.md",
+      "lines": [31, 38],
+      "claim": "作者称v4.2/cpsam_v2减少低对比区域杂散mask；本项目没有做该模型的实图验证。",
+      "primarySource": "https://github.com/MouseLand/cellpose/blob/a54cb48849b7e225a81e8e43dcb042d42427f543/README.md#L31-L38"
+    },
+    "cp.train": {
+      "repo": "MouseLand/cellpose",
+      "file": "cellpose/train.py",
+      "lines": [
+        309,
+        387
+      ],
+      "claim": "实例掩膜输入；min_train_masks默认5；bfloat16网转float32训练；CPSAM patch必须256。",
+      "primarySource": "https://github.com/MouseLand/cellpose/blob/a54cb48849b7e225a81e8e43dcb042d42427f543/cellpose/train.py#L309-L387"
+    },
+    "cp.filter": {
+      "repo": "MouseLand/cellpose",
+      "file": "cellpose/train.py",
+      "lines": [
+        240,
+        283
+      ],
+      "claim": "按nmasks过滤训练图；min_train_masks=0关闭这道过滤，默认会删空皿与2–4实例图。",
+      "primarySource": "https://github.com/MouseLand/cellpose/blob/a54cb48849b7e225a81e8e43dcb042d42427f543/cellpose/train.py#L240-L283"
+    },
+    "cp.loss": {
+      "repo": "MouseLand/cellpose",
+      "file": "cellpose/train.py",
+      "lines": [
+        35,
+        52
+      ],
+      "claim": "flow MSE + cell-probability BCE；本轮对空标签实际做CPU/MPS有限损失与梯度检查。",
+      "primarySource": "https://github.com/MouseLand/cellpose/blob/a54cb48849b7e225a81e8e43dcb042d42427f543/cellpose/train.py#L35-L52"
+    },
+    "cp.emptyflow": {
+      "repo": "MouseLand/cellpose",
+      "file": "cellpose/dynamics.py",
+      "lines": [
+        101,
+        169
+      ],
+      "claim": "空mask明确返回全零flow；不是将空图默认为不存在的数据。",
+      "primarySource": "https://github.com/MouseLand/cellpose/blob/a54cb48849b7e225a81e8e43dcb042d42427f543/cellpose/dynamics.py#L101-L169"
+    },
+    "cp.post": {
+      "repo": "MouseLand/cellpose",
+      "file": "cellpose/dynamics.py",
+      "lines": [
+        696,
+        735
+      ],
+      "claim": "MPS flow位置移到CPU再生成mask；最终仍有min_size去小mask，不是全流程仅GPU。",
+      "primarySource": "https://github.com/MouseLand/cellpose/blob/a54cb48849b7e225a81e8e43dcb042d42427f543/cellpose/dynamics.py#L696-L735"
+    },
+    "cp.auto": {
+      "repo": "MouseLand/cellpose",
+      "file": "cellpose/models.py",
+      "lines": [
+        168,
+        205
+      ],
+      "claim": "eval不要求手画框；diameter重采样、min_size=15、max_size_fraction=0.4均会影响大小目标。",
+      "primarySource": "https://github.com/MouseLand/cellpose/blob/a54cb48849b7e225a81e8e43dcb042d42427f543/cellpose/models.py#L168-L205"
+    },
+    "sd.labels": {
+      "repo": "stardist/stardist",
+      "file": "stardist/models/model2d.py",
+      "lines": [
+        353,
+        371
+      ],
+      "claim": "需要实例ID掩膜；负标签可标忽略区域，不能用框自动获得真实实例边界。",
+      "primarySource": "https://github.com/stardist/stardist/blob/e80c6de700693bc228ed3c9ba1dc19c3785667ee/stardist/models/model2d.py#L353-L371"
+    },
+    "sd.empty": {
+      "repo": "stardist/stardist",
+      "file": "stardist/models/base.py",
+      "lines": [
+        201,
+        217
+      ],
+      "claim": "前景采样找不到有效像素时回退到全像素候选，不直接删掉空图。",
+      "primarySource": "https://github.com/stardist/stardist/blob/e80c6de700693bc228ed3c9ba1dc19c3785667ee/stardist/models/base.py#L201-L217"
+    },
+    "sd.infer": {
+      "repo": "stardist/stardist",
+      "file": "stardist/models/model2d.py",
+      "lines": [
+        513,
+        552
+      ],
+      "claim": "概率与射线距离经polygon NMS形成实例；自动推理，不需手框。",
+      "primarySource": "https://github.com/stardist/stardist/blob/e80c6de700693bc228ed3c9ba1dc19c3785667ee/stardist/models/model2d.py#L513-L552"
+    },
+    "sd.apple": {
+      "repo": "stardist/stardist",
+      "file": "README.md",
+      "lines": [
+        270,
+        281
+      ],
+      "claim": "官方给Apple Silicon/TensorFlow-Metal说明；这不是PyTorch MPS，也不是CoreML导出。",
+      "primarySource": "https://github.com/stardist/stardist/blob/e80c6de700693bc228ed3c9ba1dc19c3785667ee/README.md#L270-L281"
+    },
+    "ms.device": {
+      "repo": "computational-cell-analytics/micro-sam",
+      "file": "micro_sam/util.py",
+      "lines": [
+        184,
+        229
+      ],
+      "claim": "设备路由明确接受cpu/cuda/mps；这只能证明接口路径，不能证明当前整网训练速度或内存。",
+      "primarySource": "https://github.com/computational-cell-analytics/micro-sam/blob/323bef4609d9644fcae45b4bd4b6b18288b9d8d1/micro_sam/util.py#L184-L229"
+    },
+    "ms.empty": {
+      "repo": "computational-cell-analytics/micro-sam",
+      "file": "micro_sam/training/training.py",
+      "lines": [
+        678,
+        716
+      ],
+      "claim": "默认交互训练用MinInstanceSampler；decoder-only模式不设该默认过滤，min_size默认还会滤小实例。",
+      "primarySource": "https://github.com/computational-cell-analytics/micro-sam/blob/323bef4609d9644fcae45b4bd4b6b18288b9d8d1/micro_sam/training/training.py#L678-L716"
+    },
+    "ms.train": {
+      "repo": "computational-cell-analytics/micro-sam",
+      "file": "micro_sam/training/training.py",
+      "lines": [
+        196,
+        224
+      ],
+      "claim": "train_sam默认附加自动实例decoder；训练输入仍需实例/距离标签，框提示不是框监督替代mask。",
+      "primarySource": "https://github.com/computational-cell-analytics/micro-sam/blob/323bef4609d9644fcae45b4bd4b6b18288b9d8d1/micro_sam/training/training.py#L196-L224"
+    },
+    "ms.auto": {
+      "repo": "computational-cell-analytics/micro-sam",
+      "file": "micro_sam/automatic_segmentation.py",
+      "lines": [
+        24,
+        80
+      ],
+      "claim": "AMG可无需decoder；AIS/APG需checkpoint含decoder_state，默认有decoder时AIS。",
+      "primarySource": "https://github.com/computational-cell-analytics/micro-sam/blob/323bef4609d9644fcae45b4bd4b6b18288b9d8d1/micro_sam/automatic_segmentation.py#L24-L80"
+    },
+    "ms.export": {
+      "repo": "computational-cell-analytics/micro-sam",
+      "file": "micro_sam/bioimageio/bioengine_export.py",
+      "lines": [
+        106,
+        140
+      ],
+      "claim": "ONNX路径针对交互prompt encoder/mask decoder；不能当作完整自动计数CoreML路径。",
+      "primarySource": "https://github.com/computational-cell-analytics/micro-sam/blob/323bef4609d9644fcae45b4bd4b6b18288b9d8d1/micro_sam/bioimageio/bioengine_export.py#L106-L140"
+    },
+    "ms.requirements": {
+      "repo": "computational-cell-analytics/micro-sam",
+      "file": "setup.cfg",
+      "lines": [
+        33,
+        65
+      ],
+      "claim": "当前源码要求Python>=3.11、torch>=2.5及torch-em；本轮没有安装或升级。",
+      "primarySource": "https://github.com/computational-cell-analytics/micro-sam/blob/323bef4609d9644fcae45b4bd4b6b18288b9d8d1/setup.cfg#L33-L65"
+    },
+    "s2.amg": {
+      "repo": "facebookresearch/sam2",
+      "file": "sam2/automatic_mask_generator.py",
+      "lines": [
+        36,
+        102
+      ],
+      "claim": "网格提示自动生成mask，并按预测质量、稳定性、NMS过滤；这些分数不是菌落语义概率。",
+      "primarySource": "https://github.com/facebookresearch/sam2/blob/2b90b9f5ceec907a1c18123530e92e794ad901a4/sam2/automatic_mask_generator.py#L36-L102"
+    },
+    "s2.train": {
+      "repo": "facebookresearch/sam2",
+      "file": "training/trainer.py",
+      "lines": [
+        281,
+        289
+      ],
+      "claim": "官方训练设备入口只接受CUDA或CPU；mps会抛Unsupported accelerator。",
+      "primarySource": "https://github.com/facebookresearch/sam2/blob/2b90b9f5ceec907a1c18123530e92e794ad901a4/training/trainer.py#L281-L289"
+    },
+    "s2.empty": {
+      "repo": "facebookresearch/sam2",
+      "file": "training/dataset/vos_sampler.py",
+      "lines": [
+        41,
+        76
+      ],
+      "claim": "标准VOS采样要求可见对象，空对象样本会抛异常；不能直接假定整皿空图进入训练。",
+      "primarySource": "https://github.com/facebookresearch/sam2/blob/2b90b9f5ceec907a1c18123530e92e794ad901a4/training/dataset/vos_sampler.py#L41-L76"
+    },
+    "s3.prompt": {
+      "repo": "facebookresearch/sam3",
+      "file": "sam3/model/sam3_image_processor.py",
+      "lines": [
+        113,
+        152
+      ],
+      "claim": "纯文本可使用dummy geometric prompt；正/负框另有label布尔参数，未见独立negative-text参数。",
+      "primarySource": "https://github.com/facebookresearch/sam3/blob/f1647e8d0c1d280991f4d1b7d974c2704537fe66/sam3/model/sam3_image_processor.py#L113-L152"
+    },
+    "s3.presence": {
+      "repo": "facebookresearch/sam3",
+      "file": "sam3/model/sam3_image_processor.py",
+      "lines": [
+        183,
+        220
+      ],
+      "claim": "实例概率乘presence概率后过滤，返回box/mask；presence并不保证空皿零误检。",
+      "primarySource": "https://github.com/facebookresearch/sam3/blob/f1647e8d0c1d280991f4d1b7d974c2704537fe66/sam3/model/sam3_image_processor.py#L183-L220"
+    },
+    "s3.device": {
+      "repo": "facebookresearch/sam3",
+      "file": "sam3/model_builder.py",
+      "lines": [
+        564,
+        595
+      ],
+      "claim": "image builder helper只对literal cuda搬模型；传mps并不会自动model.to(mps)。",
+      "primarySource": "https://github.com/facebookresearch/sam3/blob/f1647e8d0c1d280991f4d1b7d974c2704537fe66/sam3/model_builder.py#L564-L595"
+    },
+    "s3.trainer": {
+      "repo": "facebookresearch/sam3",
+      "file": "sam3/train/trainer.py",
+      "lines": [
+        299,
+        308
+      ],
+      "claim": "官方trainer只接受CPU/CUDA，未提供MPS训练分支。",
+      "primarySource": "https://github.com/facebookresearch/sam3/blob/f1647e8d0c1d280991f4d1b7d974c2704537fe66/sam3/train/trainer.py#L299-L308"
+    },
+    "s3.boxtrain": {
+      "repo": "facebookresearch/sam3",
+      "file": "sam3/train/configs/roboflow_v100/roboflow_v100_full_ft_100_images.yaml",
+      "lines": [
+        75,
+        160
+      ],
+      "claim": "默认示例提供box/class/presence损失且enable_segmentation=false；框可用于检测微调，不会因此学到像素mask。",
+      "primarySource": "https://github.com/facebookresearch/sam3/blob/f1647e8d0c1d280991f4d1b7d974c2704537fe66/sam3/train/configs/roboflow_v100/roboflow_v100_full_ft_100_images.yaml#L75-L160"
+    },
+    "s3.negative": {
+      "repo": "facebookresearch/sam3",
+      "file": "sam3/train/loss/loss_fns.py",
+      "lines": [
+        408,
+        447
+      ],
+      "claim": "无可见目标时训练presence为0；不是把空图从目标存在性学习中丢弃。",
+      "primarySource": "https://github.com/facebookresearch/sam3/blob/f1647e8d0c1d280991f4d1b7d974c2704537fe66/sam3/train/loss/loss_fns.py#L408-L447"
+    },
+    "s3.setup": {
+      "repo": "facebookresearch/sam3",
+      "file": "README.md",
+      "lines": [
+        68,
+        117
+      ],
+      "claim": "官方安装要求Python>=3.12、CUDA环境；checkpoint需官方HF访问与登录，未在本轮获取。",
+      "primarySource": "https://github.com/facebookresearch/sam3/blob/f1647e8d0c1d280991f4d1b7d974c2704537fe66/README.md#L68-L117"
+    }
+  },
+  "artifacts": {
+    "sourceSnapshots": "output/github-research-20261026/segmentation/",
+    "receipts": "output/github-research-20261026/segmentation/source-receipts.json",
+    "snapshotFiles": 62,
+    "snapshotBytes": 1293332
+  },
+  "changesNotPerformed": [
+    "没有训练或模型权重下载",
+    "没有安装/升级环境",
+    "没有读取sealed36或项目图像",
+    "没有改旧reports/harness/App/ASC"
+  ]
+}

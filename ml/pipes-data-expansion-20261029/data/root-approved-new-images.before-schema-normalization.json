@@ -1,0 +1,2931 @@
+{
+  "status": "ROOT_AND_INDEPENDENT_QA_PASSED_TRAIN_ONLY",
+  "images": [
+    {
+      "id": "rfv2_6ad309d168db",
+      "split": "train",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "groupId": "expansion20261029_rfv2_source_cff2e8655c3f28a6",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/download_jpg.rf.5e4c3fd265a1e229cd1ddb4a3925e6c1.jpg",
+      "width": 640,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "a17c8b7d8ce814dfff53e394a9a9ba701ffbd7858295e94cc86bd36164b4d01f",
+      "RGBPixelSHA256": "c76edbe3880da11f2290fda5571f631d4c94fd7998798d20784cf6a1de4525fd",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/download_jpg.rf.5e4c3fd265a1e229cd1ddb4a3925e6c1.jpg",
+      "sourceImageSHA256": "a17c8b7d8ce814dfff53e394a9a9ba701ffbd7858295e94cc86bd36164b4d01f",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "count": 10,
+      "xyxy": [
+        [
+          0.24999999999999467,
+          259.0,
+          101.75,
+          453.0
+        ],
+        [
+          399.74999999999994,
+          323.5,
+          526.25,
+          511.5
+        ],
+        [
+          202.75000000000003,
+          345.74999999999994,
+          329.25000000000006,
+          530.25
+        ],
+        [
+          502.5,
+          426.75,
+          625.5,
+          605.25
+        ],
+        [
+          104.75000000000001,
+          472.24999999999994,
+          232.25,
+          638.75
+        ],
+        [
+          328.75,
+          480.25000000000006,
+          455.25000000000006,
+          638.75
+        ],
+        [
+          300.74999999999994,
+          206.75,
+          425.25,
+          399.25
+        ],
+        [
+          102.5,
+          226.25,
+          233.5,
+          418.75
+        ],
+        [
+          0.2499999999999991,
+          457.0,
+          61.75000000000001,
+          640.0
+        ],
+        [
+          630,
+          471,
+          640,
+          568
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/rfv2_6ad309d168db.txt",
+      "labelSHA256": "81947737ca1733ca0ec66690d5c5803febc7e61e4e4090712732f559fecb2298",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "general_counting_papers",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/positives/general-derived-labels.json",
+      "derivedAnnotationSHA256": "3d27653843892406acf919f61d63e5ed3d3401ea4bbccc2d8778552789bbf58d",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/root-general-positive-review.json",
+      "independentReviewSHA256": "5580aebfcd099c47c402ccab7329b3be49216163f247a8082ba879589b76f33e",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/rfv2_6ad309d168db.png",
+      "sourcePreprocessing": "Publisher auto-orient and 640x640 stretch. README says no export augmentation; other source variants visibly contain prior color/noise changes and were excluded.",
+      "nativeResolutionKnown": false,
+      "nativeWidth": null,
+      "nativeHeight": null,
+      "photographicProductImage": false,
+      "backgroundType": "photographic scene",
+      "groupingBasis": "Original source-filename family, augmented/other RF versions excluded; no link found to frozen315 or MACO pool.",
+      "overlaySHA256": "ccbb97ea23862dde1da4dd165c3c37513e908496cca5e2fda316c038964d99d9",
+      "sourceMember": "valid/images/download_jpg.rf.5e4c3fd265a1e229cd1ddb4a3925e6c1.jpg",
+      "sourceStem": "download_jpg",
+      "authorSplit": "valid",
+      "authorCount": 9,
+      "sourceLabelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/labels/download_jpg.rf.5e4c3fd265a1e229cd1ddb4a3925e6c1.txt",
+      "sourceLabelSHA256": "c1d1fa5731fd8968de198c5192e3db332ca3d97723c74682f601491ee45fd9cf",
+      "sourceArchivePath": "output/pipes-data-expansion-20261029/data/positives/archives/pipes.v2i.yolov5pytorch.zip",
+      "sourceArchiveSHA256": "cfc3a421134c602cfeed3975dfaa15737f76dc254755f9b087637a7d635798b5"
+    },
+    {
+      "id": "rfv2_1966920654d3",
+      "split": "train",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "groupId": "expansion20261029_rfv2_source_d4f99bd4436860f6",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/images-19-_jpg.rf.4b67e64278b68496114c4f6990881097.jpg",
+      "width": 640,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "d7b89cc619111a1cdb6c2c552e0c69df4a7296fb759cda6c41c802606006542b",
+      "RGBPixelSHA256": "86218603ee69a097a3899311855586753186949fb2c4dc7a2e749065b492b892",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/images-19-_jpg.rf.4b67e64278b68496114c4f6990881097.jpg",
+      "sourceImageSHA256": "d7b89cc619111a1cdb6c2c552e0c69df4a7296fb759cda6c41c802606006542b",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "count": 3,
+      "xyxy": [
+        [
+          145.034342,
+          324.040512,
+          199.439304,
+          481.24351
+        ],
+        [
+          123.558705,
+          170.617992,
+          176.054712,
+          316.335843
+        ],
+        [
+          461.82072300000004,
+          132.59186,
+          520.760837,
+          224.831976
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/rfv2_1966920654d3.txt",
+      "labelSHA256": "541b671bd570c386434ee1a7a0a7d52d3cf993a211cf55b3574230105fbccef7",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "general_counting_papers",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/positives/general-derived-labels.json",
+      "derivedAnnotationSHA256": "3d27653843892406acf919f61d63e5ed3d3401ea4bbccc2d8778552789bbf58d",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/root-general-positive-review.json",
+      "independentReviewSHA256": "5580aebfcd099c47c402ccab7329b3be49216163f247a8082ba879589b76f33e",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/rfv2_1966920654d3.png",
+      "sourcePreprocessing": "Publisher auto-orient and 640x640 stretch. README says no export augmentation; other source variants visibly contain prior color/noise changes and were excluded.",
+      "nativeResolutionKnown": false,
+      "nativeWidth": null,
+      "nativeHeight": null,
+      "photographicProductImage": false,
+      "backgroundType": "photographic scene",
+      "groupingBasis": "Original source-filename family, augmented/other RF versions excluded; no link found to frozen315 or MACO pool.",
+      "overlaySHA256": "83693e4eeaa924bd7d6d06f6b99e4131930f28705432088a52a392cf74ee47df",
+      "sourceMember": "train/images/images-19-_jpg.rf.4b67e64278b68496114c4f6990881097.jpg",
+      "sourceStem": "images-19-_jpg",
+      "authorSplit": "train",
+      "authorCount": 3,
+      "sourceLabelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/labels/images-19-_jpg.rf.4b67e64278b68496114c4f6990881097.txt",
+      "sourceLabelSHA256": "8cf3176d7758b3d0e70d315692a12d5d27accf45a5766b88a0f5cecb27242ae9",
+      "sourceArchivePath": "output/pipes-data-expansion-20261029/data/positives/archives/pipes.v2i.yolov5pytorch.zip",
+      "sourceArchiveSHA256": "cfc3a421134c602cfeed3975dfaa15737f76dc254755f9b087637a7d635798b5"
+    },
+    {
+      "id": "cmnew_004",
+      "split": "train",
+      "source": "wikimedia_commons",
+      "groupId": "expansion20261029_commons_capture_20160920_bf63f1b122c4",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_004.jpg",
+      "width": 960,
+      "height": 618,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "25ec9a4bfa1958c9bff0ecf63133139ac7c77f08a188e4889c32266a4b5aec96",
+      "RGBPixelSHA256": "65af6cbcd49a8db83112f5b1392141087322675651d82ba8a8d5f29e82262626",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_004.jpg",
+      "sourceImageSHA256": "25ec9a4bfa1958c9bff0ecf63133139ac7c77f08a188e4889c32266a4b5aec96",
+      "sourceDatasetURL": "https://commons.wikimedia.org/wiki/File:Gas_Well_Pipes.jpg",
+      "count": 17,
+      "xyxy": [
+        [
+          0,
+          25,
+          138,
+          225
+        ],
+        [
+          185,
+          23,
+          368,
+          226
+        ],
+        [
+          479,
+          29,
+          610,
+          220
+        ],
+        [
+          576,
+          0,
+          768,
+          208
+        ],
+        [
+          732,
+          0,
+          955,
+          212
+        ],
+        [
+          0,
+          211,
+          73,
+          363
+        ],
+        [
+          52,
+          214,
+          215,
+          368
+        ],
+        [
+          271,
+          216,
+          425,
+          361
+        ],
+        [
+          416,
+          195,
+          582,
+          376
+        ],
+        [
+          558,
+          189,
+          742,
+          369
+        ],
+        [
+          740,
+          196,
+          899,
+          376
+        ],
+        [
+          853,
+          180,
+          960,
+          398
+        ],
+        [
+          80,
+          354,
+          281,
+          577
+        ],
+        [
+          503,
+          353,
+          674,
+          544
+        ],
+        [
+          587,
+          354,
+          790,
+          568
+        ],
+        [
+          707,
+          365,
+          956,
+          602
+        ],
+        [
+          919,
+          407,
+          960,
+          591
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/cmnew_004.txt",
+      "labelSHA256": "cfbdbb7103a9912baf9387cbc4e8cdf5093bfa2117c96ab22f974765492be131",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "general_counting_papers",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/positives/general-derived-labels.json",
+      "derivedAnnotationSHA256": "3d27653843892406acf919f61d63e5ed3d3401ea4bbccc2d8778552789bbf58d",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/root-general-positive-review.json",
+      "independentReviewSHA256": "5580aebfcd099c47c402ccab7329b3be49216163f247a8082ba879589b76f33e",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_004.png",
+      "sourcePreprocessing": "Publisher proportional full-frame thumbnail; original source dimensions retained, not counted as native low-resolution.",
+      "nativeResolutionKnown": true,
+      "nativeWidth": 3504,
+      "nativeHeight": 2255,
+      "photographicProductImage": false,
+      "backgroundType": "photographic scene",
+      "groupingBasis": "Conservative author+capture-day group; metadata and classical duplicate exclusions against prior data.",
+      "overlaySHA256": "e020d2d47723f1a22c3f2ffc6f4191a69e654d25856cf416eb288324cfa70a06",
+      "sourcePageId": 131751629,
+      "sourcePageTitle": "File:Gas Well Pipes.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Gas_Well_Pipes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2f/Gas_Well_Pipes.jpg/960px-Gas_Well_Pipes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2023-05-10 23:57:40",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Gas Well Pipes",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Gas pipelines|Global warming|Natural gas|Self-published work|Natural gas wells",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Stack of pipes waiting to be installed at a gas well.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2016-09-20 14:57:28",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:Riding_with_Carl\" title=\"User:Riding with Carl\">Carl Young</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      },
+      "archivedOriginalPath": "output/pipes-data-expansion-20261029/data/positives/commons-originals/cmnew_004.jpg",
+      "archivedOriginalSHA256": "063e287e187a866b9e4ac4619e73e12fb4c4ec35c0c1e0b5295c55f60b5a2072"
+    },
+    {
+      "id": "cmnew_057",
+      "split": "train",
+      "source": "wikimedia_commons",
+      "groupId": "expansion20261029_commons_capture_20180425_2995150aa9b9",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_057.jpg",
+      "width": 960,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "86c339b1c3dfea1e4604eacfc71d215d834a98c5aadc223d04870cabbe7022a4",
+      "RGBPixelSHA256": "5109f86dfaceed31364255f89a872632d012fae8208445a90287400e25a92eb5",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_057.jpg",
+      "sourceImageSHA256": "86c339b1c3dfea1e4604eacfc71d215d834a98c5aadc223d04870cabbe7022a4",
+      "sourceDatasetURL": "https://commons.wikimedia.org/wiki/File:Pipe_couplings_on_a_pressure_tank_under_construction_2.jpg",
+      "count": 2,
+      "xyxy": [
+        [
+          277,
+          295,
+          382,
+          417
+        ],
+        [
+          473,
+          148,
+          593,
+          291
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/cmnew_057.txt",
+      "labelSHA256": "d5a7d6d670f6f9c73e626a5dadaac5a7d38dad5441200d2dd6ef9a500acab4d7",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "general_counting_papers",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/positives/general-derived-labels.json",
+      "derivedAnnotationSHA256": "3d27653843892406acf919f61d63e5ed3d3401ea4bbccc2d8778552789bbf58d",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/root-general-positive-review.json",
+      "independentReviewSHA256": "5580aebfcd099c47c402ccab7329b3be49216163f247a8082ba879589b76f33e",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_057.png",
+      "sourcePreprocessing": "Publisher proportional full-frame thumbnail; original source dimensions retained, not counted as native low-resolution.",
+      "nativeResolutionKnown": true,
+      "nativeWidth": 4925,
+      "nativeHeight": 3283,
+      "photographicProductImage": false,
+      "backgroundType": "photographic scene",
+      "groupingBasis": "Conservative author+capture-day group; metadata and classical duplicate exclusions against prior data.",
+      "overlaySHA256": "c74ff10defa03056923c73f50d0770d24c51ef06dd75fe55e0814059b0b7bb74",
+      "sourcePageId": 69780968,
+      "sourcePageTitle": "File:Pipe couplings on a pressure tank under construction 2.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/2/20/Pipe_couplings_on_a_pressure_tank_under_construction_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Pipe_couplings_on_a_pressure_tank_under_construction_2.jpg/960px-Pipe_couplings_on_a_pressure_tank_under_construction_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2018-06-07 22:15:29",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Pipe couplings on a pressure tank under construction 2",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Pressure vessels|Couplings|Taken with Panasonic Lumix DMC-FZ1000|CC-Zero|Self-published work|Images by W.carter|Files with coordinates missing SDC location of creation|Rusty objects in Sweden|West Pipe Welding AB",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "GPSLatitude": {
+          "value": "58.358900",
+          "source": "commons-desc-page"
+        },
+        "GPSLongitude": {
+          "value": "11.517968",
+          "source": "commons-desc-page"
+        },
+        "GPSMapDatum": {
+          "value": "WGS-84",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Pipe couplings on a pressure tank under construction at West Pipe Welding in G\u00e5seberg industrial area, Lysekil Municipality, Sweden.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2018-04-25 17:43:03",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/wiki/User:W.carter\" title=\"User:W.carter\">W.carter</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Zero, Public Domain Dedication",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "false",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "cmnew_071",
+      "split": "train",
+      "source": "wikimedia_commons",
+      "groupId": "expansion20261029_commons_capture_20171014_2daf9c298035",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_071.jpg",
+      "width": 960,
+      "height": 641,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "59047635d271496f072522f0d1cf52fac0f3ad71ac33ad29383c641a46cab9d9",
+      "RGBPixelSHA256": "37034cdac9c11cdaf38d2dda8eb98f3fe107058fcba3b7b7a98d27c71f80c930",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_071.jpg",
+      "sourceImageSHA256": "59047635d271496f072522f0d1cf52fac0f3ad71ac33ad29383c641a46cab9d9",
+      "sourceDatasetURL": "https://commons.wikimedia.org/wiki/File:HK_Tram_tour_view_%E5%BE%B7%E8%BC%94%E9%81%93%E8%A5%BF_Des_Voeux_Road_West_Sheung_Wan_contruction_metal_tube_with_Truck_on_the_way_October_2017_IX1.jpg",
+      "count": 1,
+      "xyxy": [
+        [
+          280,
+          81,
+          539,
+          398
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/cmnew_071.txt",
+      "labelSHA256": "28804b8668339c2e9164c755a128f83af93c06d6b64f97cd9fb8cc68a5d991af",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "general_counting_papers",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/positives/general-derived-labels.json",
+      "derivedAnnotationSHA256": "3d27653843892406acf919f61d63e5ed3d3401ea4bbccc2d8778552789bbf58d",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/root-general-positive-review.json",
+      "independentReviewSHA256": "5580aebfcd099c47c402ccab7329b3be49216163f247a8082ba879589b76f33e",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_071.png",
+      "sourcePreprocessing": "Publisher proportional full-frame thumbnail; original source dimensions retained, not counted as native low-resolution.",
+      "nativeResolutionKnown": true,
+      "nativeWidth": 2048,
+      "nativeHeight": 1368,
+      "photographicProductImage": false,
+      "backgroundType": "photographic scene",
+      "groupingBasis": "Conservative author+capture-day group; metadata and classical duplicate exclusions against prior data.",
+      "overlaySHA256": "594867e5f64b91395a1c1c935d8d48887d18675afb6c5ae234d9f4e3660e2659",
+      "sourcePageId": 63381032,
+      "sourcePageTitle": "File:HK Tram tour view \u5fb7\u8f14\u9053\u897f Des Voeux Road West Sheung Wan contruction metal tube with Truck on the way October 2017 IX1.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/7/71/HK_Tram_tour_view_%E5%BE%B7%E8%BC%94%E9%81%93%E8%A5%BF_Des_Voeux_Road_West_Sheung_Wan_contruction_metal_tube_with_Truck_on_the_way_October_2017_IX1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/HK_Tram_tour_view_%E5%BE%B7%E8%BC%94%E9%81%93%E8%A5%BF_Des_Voeux_Road_West_Sheung_Wan_contruction_metal_tube_with_Truck_on_the_way_October_2017_IX1.jpg/960px-HK_Tram_tour_view_%E5%BE%B7%E8%BC%94%E9%81%93%E8%A5%BF_Des_Voeux_Road_West_Sheung_Wan_contruction_metal_tube_with_Truck_on_the_way_October_2017_IX1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2017-10-15 06:48:27",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "HK Tram tour view \u5fb7\u8f14\u9053\u897f Des Voeux Road West Sheung Wan contruction metal tube with Truck on the way October 2017 IX1",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Volvo FH (2001)|Self-published work|Trucks in Hong Kong|Tubes|Hong Kong photographs taken on 2017-10-14|Photographs by Anonymous Hong Kong Photographer 1|Metal pipes|Volvo cab-over-engine trucks|2017 in Des Voeux Road West, Sheung Wan|October 2017 in Des Voeux Road West",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "HK Tram tour view Central and Western District, Hong Kong",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2017-10-14 13:01:17",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Yukamgugoam&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Yukamgugoam (page does not exist)\">Yukamgugoam</a>",
+          "source": "commons-desc-page"
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 4.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 4.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/4.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-4.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "cmnew_073",
+      "split": "train",
+      "source": "wikimedia_commons",
+      "groupId": "expansion20261029_commons_capture_20060726_beba02cb4a7d",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_073.jpg",
+      "width": 960,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "326ac7cbb8813b3c55445eaccf1a935bbac0db99204170caf4717fc7e5091fb6",
+      "RGBPixelSHA256": "ab102bfda8195ef4d2e47b90d7437b5373fa79b64ffc5727af340278187e1c6d",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/commons-thumbnails/cmnew_073.jpg",
+      "sourceImageSHA256": "326ac7cbb8813b3c55445eaccf1a935bbac0db99204170caf4717fc7e5091fb6",
+      "sourceDatasetURL": "https://commons.wikimedia.org/wiki/File:Metal_tubes_stored_in_a_yard.jpg",
+      "count": 29,
+      "xyxy": [
+        [
+          205,
+          322,
+          241,
+          364
+        ],
+        [
+          145,
+          380,
+          187,
+          423
+        ],
+        [
+          226,
+          355,
+          262,
+          395
+        ],
+        [
+          253,
+          354,
+          289,
+          394
+        ],
+        [
+          278,
+          335,
+          318,
+          377
+        ],
+        [
+          334,
+          323,
+          374,
+          369
+        ],
+        [
+          419,
+          317,
+          445,
+          354
+        ],
+        [
+          419,
+          375,
+          461,
+          423
+        ],
+        [
+          481,
+          332,
+          514,
+          368
+        ],
+        [
+          138,
+          445,
+          201,
+          513
+        ],
+        [
+          169,
+          469,
+          239,
+          544
+        ],
+        [
+          272,
+          428,
+          338,
+          502
+        ],
+        [
+          37,
+          553,
+          115,
+          638
+        ],
+        [
+          127,
+          533,
+          200,
+          609
+        ],
+        [
+          194,
+          536,
+          269,
+          612
+        ],
+        [
+          261,
+          529,
+          338,
+          610
+        ],
+        [
+          329,
+          526,
+          407,
+          609
+        ],
+        [
+          389,
+          560,
+          475,
+          640
+        ],
+        [
+          575,
+          302,
+          613,
+          340
+        ],
+        [
+          697,
+          289,
+          743,
+          334
+        ],
+        [
+          789,
+          428,
+          839,
+          480
+        ],
+        [
+          872,
+          530,
+          933,
+          590
+        ],
+        [
+          595,
+          471,
+          681,
+          553
+        ],
+        [
+          561,
+          532,
+          645,
+          611
+        ],
+        [
+          794,
+          489,
+          884,
+          571
+        ],
+        [
+          758,
+          571,
+          850,
+          640
+        ],
+        [
+          834,
+          573,
+          924,
+          640
+        ],
+        [
+          686,
+          614,
+          772,
+          640
+        ],
+        [
+          941,
+          523,
+          960,
+          594
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/cmnew_073.txt",
+      "labelSHA256": "48459a88d5af43807897d4b44f4e9d7e493c920a3b675fb4dc545bd0cadf3bf7",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "general_counting_papers",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/positives/general-derived-labels.json",
+      "derivedAnnotationSHA256": "3d27653843892406acf919f61d63e5ed3d3401ea4bbccc2d8778552789bbf58d",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/root-general-positive-review.json",
+      "independentReviewSHA256": "5580aebfcd099c47c402ccab7329b3be49216163f247a8082ba879589b76f33e",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/review/general-annotations/cmnew_073.png",
+      "sourcePreprocessing": "Publisher proportional full-frame thumbnail; original source dimensions retained, not counted as native low-resolution.",
+      "nativeResolutionKnown": true,
+      "nativeWidth": 2886,
+      "nativeHeight": 1924,
+      "photographicProductImage": false,
+      "backgroundType": "photographic scene",
+      "groupingBasis": "Conservative author+capture-day group; metadata and classical duplicate exclusions against prior data.",
+      "overlaySHA256": "343c7bf802ff24b739b957cfb07cb99716f964ab8becad2d5c3e67822b2a4ee3",
+      "sourcePageId": 1041399,
+      "sourcePageTitle": "File:Metal tubes stored in a yard.jpg",
+      "sourceOriginalURL": "https://upload.wikimedia.org/wikipedia/commons/8/89/Metal_tubes_stored_in_a_yard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "sourceDownloadURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Metal_tubes_stored_in_a_yard.jpg/960px-Metal_tubes_stored_in_a_yard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "sourceMetadata": {
+        "DateTime": {
+          "value": "2006-08-11 05:00:11",
+          "source": "mediawiki-metadata",
+          "hidden": ""
+        },
+        "ObjectName": {
+          "value": "Metal tubes stored in a yard",
+          "source": "mediawiki-metadata"
+        },
+        "CommonsMetadataExtension": {
+          "value": 1.2,
+          "source": "extension",
+          "hidden": ""
+        },
+        "Categories": {
+          "value": "Taken with Nikon D50|Flickr images reviewed by FlickreviewR|Metal pipes",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "Assessments": {
+          "value": "",
+          "source": "commons-categories",
+          "hidden": ""
+        },
+        "ImageDescription": {
+          "value": "Metal tubes stored in a yard.",
+          "source": "commons-desc-page"
+        },
+        "DateTimeOriginal": {
+          "value": "2006-07-26",
+          "source": "commons-desc-page"
+        },
+        "Credit": {
+          "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/pgoyette/199492120/\">https://www.flickr.com/photos/pgoyette/199492120/</a>",
+          "source": "commons-desc-page"
+        },
+        "Artist": {
+          "value": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/pgoyette/\">Paul Goyette</a>",
+          "source": "commons-desc-page"
+        },
+        "Permission": {
+          "value": "Free content licence.",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseShortName": {
+          "value": "CC BY-SA 2.0",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "UsageTerms": {
+          "value": "Creative Commons Attribution-Share Alike 2.0",
+          "source": "commons-desc-page"
+        },
+        "AttributionRequired": {
+          "value": "true",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "LicenseUrl": {
+          "value": "https://creativecommons.org/licenses/by-sa/2.0",
+          "source": "commons-desc-page"
+        },
+        "Copyrighted": {
+          "value": "True",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "Restrictions": {
+          "value": "",
+          "source": "commons-desc-page",
+          "hidden": ""
+        },
+        "License": {
+          "value": "cc-by-sa-2.0",
+          "source": "commons-templates",
+          "hidden": ""
+        }
+      }
+    },
+    {
+      "id": "rfv2_92e41e389e96",
+      "split": "train",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "groupId": "expansion20261029_rfv2_source_3dc9537265dd64ea",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/istockphoto-172756737-612x612_jpg.rf.02fb48a9474b3b391a5f3d4e99e04865.jpg",
+      "width": 640,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "0041eb0fac927d746e553d604b0ac30081b0532b28ad60cf9e07bfd597200aeb",
+      "RGBPixelSHA256": "950fe5a812c5ceaabbaf43081b42fc91edddb58a9d35290eb5d4f0c62c911622",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/istockphoto-172756737-612x612_jpg.rf.02fb48a9474b3b391a5f3d4e99e04865.jpg",
+      "sourceImageSHA256": "0041eb0fac927d746e553d604b0ac30081b0532b28ad60cf9e07bfd597200aeb",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "count": 20,
+      "xyxy": [
+        [
+          0.0,
+          61.25,
+          129.0,
+          293.75
+        ],
+        [
+          277.75,
+          78.25,
+          422.25,
+          296.75
+        ],
+        [
+          137.25,
+          82.0,
+          278.75,
+          298.0
+        ],
+        [
+          423.24999999999994,
+          87.99999999999999,
+          567.75,
+          296.0
+        ],
+        [
+          566.0,
+          83.99999999999999,
+          640.0,
+          300.0
+        ],
+        [
+          497.24999999999994,
+          267.0,
+          638.75,
+          480.99999999999994
+        ],
+        [
+          54.25000000000001,
+          264.75,
+          203.75,
+          485.25
+        ],
+        [
+          352.24999999999994,
+          268.0,
+          498.75,
+          482.0
+        ],
+        [
+          207.75000000000003,
+          266.24999999999994,
+          354.25000000000006,
+          484.74999999999994
+        ],
+        [
+          0.0,
+          454.75,
+          126.0,
+          639.25
+        ],
+        [
+          279.99999999999994,
+          454.75,
+          430.99999999999994,
+          639.25
+        ],
+        [
+          124.50000000000001,
+          455.50000000000006,
+          281.5,
+          638.5
+        ],
+        [
+          429.5,
+          455.50000000000006,
+          572.5,
+          638.5
+        ],
+        [
+          63.75,
+          0.7500000000000018,
+          208.25,
+          110.24999999999999
+        ],
+        [
+          207.75,
+          0.0,
+          352.25,
+          111.0
+        ],
+        [
+          352.5,
+          0.0,
+          495.5,
+          112.0
+        ],
+        [
+          493.75,
+          0.25000000000000355,
+          638.25,
+          113.75
+        ],
+        [
+          0.0,
+          266.0,
+          57.0,
+          480.0
+        ],
+        [
+          0,
+          0,
+          65,
+          95
+        ],
+        [
+          570,
+          453,
+          640,
+          640
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/rfv2_92e41e389e96.txt",
+      "labelSHA256": "35de900668c8ff2f5300120179003f848016c8120f46c8cdecffdbaf3280f782",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "root",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json",
+      "derivedAnnotationSHA256": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/positives/root-annotations-independent-review.json",
+      "independentReviewSHA256": "d7610eb20cbd169af791cacb2f4ca105beccb91c81cc3a8ca055179de7b05cc2",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-204.png",
+      "sourcePreprocessing": "Publisher auto-orient and 640x640 stretch. README says no export augmentation; other source variants visibly contain prior color/noise changes and were excluded.",
+      "nativeResolutionKnown": false,
+      "nativeWidth": null,
+      "nativeHeight": null,
+      "photographicProductImage": false,
+      "backgroundType": "photographic scene",
+      "groupingBasis": "Original source-filename family, augmented/other RF versions excluded; no link found to frozen315 or MACO pool.",
+      "overlaySHA256": "fe11a0065522d394d4d908fc609bc3d9b8fd5ad7e34589d27d7f791067f35066",
+      "sourceMember": "train/images/istockphoto-172756737-612x612_jpg.rf.02fb48a9474b3b391a5f3d4e99e04865.jpg",
+      "sourceStem": "istockphoto-172756737-612x612_jpg",
+      "authorSplit": "train",
+      "authorCount": 18,
+      "sourceLabelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/labels/istockphoto-172756737-612x612_jpg.rf.02fb48a9474b3b391a5f3d4e99e04865.txt",
+      "sourceLabelSHA256": "d3d29d732a5a630be17f9b190a0706e6bbd29f51037e3e702c0814eb03d080d7",
+      "sourceArchivePath": "output/pipes-data-expansion-20261029/data/positives/archives/pipes.v2i.yolov5pytorch.zip",
+      "sourceArchiveSHA256": "cfc3a421134c602cfeed3975dfaa15737f76dc254755f9b087637a7d635798b5"
+    },
+    {
+      "id": "rfv2_37c98b79839c",
+      "split": "train",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "groupId": "expansion20261029_rfv2_source_e3cbbc468911c4fe",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/istockphoto-179341506-612x612_jpg.rf.c541f225d85a87e154c25618fc2e9554.jpg",
+      "width": 640,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "14366b08d1680a666306214d4f6504644582deafa0092e807576e7909701d225",
+      "RGBPixelSHA256": "1e95198229d07308301c5504e8f5881174e0a2fa8af5ae8fa1e89b24cb614495",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/istockphoto-179341506-612x612_jpg.rf.c541f225d85a87e154c25618fc2e9554.jpg",
+      "sourceImageSHA256": "14366b08d1680a666306214d4f6504644582deafa0092e807576e7909701d225",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "count": 20,
+      "xyxy": [
+        [
+          28.500000000000007,
+          113.75,
+          157.5,
+          306.25
+        ],
+        [
+          403.00000000000006,
+          139.25,
+          509.0,
+          300.75
+        ],
+        [
+          169.5,
+          184.75,
+          278.5,
+          346.25
+        ],
+        [
+          577.75,
+          178.75,
+          639.25,
+          366.25
+        ],
+        [
+          346.25,
+          251.74999999999997,
+          473.75,
+          439.25
+        ],
+        [
+          109.5,
+          307.75,
+          238.49999999999997,
+          495.25
+        ],
+        [
+          511.75,
+          353.00000000000006,
+          633.25,
+          536.0
+        ],
+        [
+          270.25,
+          400.25,
+          394.75,
+          584.75
+        ],
+        [
+          418.75,
+          456.0,
+          523.25,
+          613.0
+        ],
+        [
+          26.25,
+          449.25,
+          153.75,
+          636.75
+        ],
+        [
+          191.25,
+          510.25,
+          303.75,
+          637.75
+        ],
+        [
+          333.75,
+          534.75,
+          458.25,
+          639.25
+        ],
+        [
+          361.75,
+          7.2499999999999964,
+          463.25,
+          174.75
+        ],
+        [
+          507.0,
+          25.999999999999996,
+          630.0,
+          209.0
+        ],
+        [
+          125.24999999999999,
+          59.25000000000001,
+          232.75,
+          226.75
+        ],
+        [
+          267.75,
+          62.999999999999986,
+          395.25,
+          249.0
+        ],
+        [
+          381.75,
+          372.0,
+          463.25,
+          483.0
+        ],
+        [
+          572.25,
+          475.25,
+          639.75,
+          639.75
+        ],
+        [
+          0.0,
+          245.99999999999997,
+          55.0,
+          415.0
+        ],
+        [
+          119,
+          588,
+          219,
+          640
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/rfv2_37c98b79839c.txt",
+      "labelSHA256": "6e81f5a4960ad29b5b6d35b09dcd51f3e646c120a9278d65c74de193ce70ad59",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "root",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json",
+      "derivedAnnotationSHA256": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/positives/root-annotations-independent-review.json",
+      "independentReviewSHA256": "d7610eb20cbd169af791cacb2f4ca105beccb91c81cc3a8ca055179de7b05cc2",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-211.png",
+      "sourcePreprocessing": "Publisher auto-orient and 640x640 stretch. README says no export augmentation; other source variants visibly contain prior color/noise changes and were excluded.",
+      "nativeResolutionKnown": false,
+      "nativeWidth": null,
+      "nativeHeight": null,
+      "photographicProductImage": false,
+      "backgroundType": "photographic scene",
+      "groupingBasis": "Original source-filename family, augmented/other RF versions excluded; no link found to frozen315 or MACO pool.",
+      "overlaySHA256": "c71c4b1dbb23c9ce9596e4216d8fee665b2c8641bdee7901971376534df89cc1",
+      "sourceMember": "train/images/istockphoto-179341506-612x612_jpg.rf.c541f225d85a87e154c25618fc2e9554.jpg",
+      "sourceStem": "istockphoto-179341506-612x612_jpg",
+      "authorSplit": "train",
+      "authorCount": 19,
+      "sourceLabelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/labels/istockphoto-179341506-612x612_jpg.rf.c541f225d85a87e154c25618fc2e9554.txt",
+      "sourceLabelSHA256": "145d5026646e0299ecd841070755ff2872c1bb2481f225c933b40c74a0c548b3",
+      "sourceArchivePath": "output/pipes-data-expansion-20261029/data/positives/archives/pipes.v2i.yolov5pytorch.zip",
+      "sourceArchiveSHA256": "cfc3a421134c602cfeed3975dfaa15737f76dc254755f9b087637a7d635798b5"
+    },
+    {
+      "id": "rfv2_3eb645339840",
+      "split": "train",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "groupId": "expansion20261029_rfv2_source_ed12f7b26277b471",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/pipe_r_10_2_jpeg_jpg.rf.1beab8fd0ecca79a3be9310b31707e1a.jpg",
+      "width": 640,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "000c6862a26fbeb998e6cfa5675c03eea4983f0840c416062dedf715bb80c95b",
+      "RGBPixelSHA256": "fbbf3b63033b380e599cdc5d1b0d2f4f476d82f4c314437806d410465c72b51b",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/pipe_r_10_2_jpeg_jpg.rf.1beab8fd0ecca79a3be9310b31707e1a.jpg",
+      "sourceImageSHA256": "000c6862a26fbeb998e6cfa5675c03eea4983f0840c416062dedf715bb80c95b",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "count": 10,
+      "xyxy": [
+        [
+          553.5,
+          284.75,
+          624.5,
+          364.25000000000006
+        ],
+        [
+          485.0,
+          290.0,
+          556.0,
+          367.0
+        ],
+        [
+          418.0,
+          295.75,
+          492.0,
+          378.25
+        ],
+        [
+          344.25,
+          301.75,
+          423.75,
+          384.25
+        ],
+        [
+          274.5,
+          310.25,
+          351.5,
+          392.75
+        ],
+        [
+          555.75,
+          384.25,
+          624.25,
+          463.75
+        ],
+        [
+          489.25000000000006,
+          392.5,
+          557.75,
+          469.5
+        ],
+        [
+          421.0,
+          401.0,
+          491.99999999999994,
+          478.00000000000006
+        ],
+        [
+          350.0,
+          405.25,
+          427.0,
+          490.74999999999994
+        ],
+        [
+          277.0,
+          415.25,
+          354.0,
+          497.75
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/rfv2_3eb645339840.txt",
+      "labelSHA256": "184e5d3972eb5e3df621c27cfb9a94c15f771bb6cf79180f171239bb2dbeb7fd",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "root",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json",
+      "derivedAnnotationSHA256": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/positives/root-annotations-independent-review.json",
+      "independentReviewSHA256": "d7610eb20cbd169af791cacb2f4ca105beccb91c81cc3a8ca055179de7b05cc2",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-257.png",
+      "sourcePreprocessing": "Publisher auto-orient and 640x640 stretch. README says no export augmentation; other source variants visibly contain prior color/noise changes and were excluded.",
+      "nativeResolutionKnown": false,
+      "nativeWidth": null,
+      "nativeHeight": null,
+      "photographicProductImage": true,
+      "backgroundType": "white studio or cutout",
+      "groupingBasis": "Original source-filename family, augmented/other RF versions excluded; no link found to frozen315 or MACO pool.",
+      "overlaySHA256": "345cef44b066840f4fbd662255f1e16c903af4b2b64de687af07c20b23b254e6",
+      "sourceMember": "train/images/pipe_r_10_2_jpeg_jpg.rf.1beab8fd0ecca79a3be9310b31707e1a.jpg",
+      "sourceStem": "pipe_r_10_2_jpeg_jpg",
+      "authorSplit": "train",
+      "authorCount": 10,
+      "sourceLabelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/labels/pipe_r_10_2_jpeg_jpg.rf.1beab8fd0ecca79a3be9310b31707e1a.txt",
+      "sourceLabelSHA256": "f84410b343c0618e1e1f1924d6376eeeda5f37a7ef6b411147dd0cb19f9cbeae",
+      "sourceArchivePath": "output/pipes-data-expansion-20261029/data/positives/archives/pipes.v2i.yolov5pytorch.zip",
+      "sourceArchiveSHA256": "cfc3a421134c602cfeed3975dfaa15737f76dc254755f9b087637a7d635798b5"
+    },
+    {
+      "id": "rfv2_ce82e64f9b1b",
+      "split": "train",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "groupId": "expansion20261029_rfv2_source_de3b9d384351b593",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/pipe_r_16_png_jpg.rf.3cfa96d044fa836125070ea9185e270d.jpg",
+      "width": 640,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "1ee693560741f03927f55ac18d3bc7494234c76428bd3a2cfefc14a3bfeac475",
+      "RGBPixelSHA256": "cf773c61f5c04a5c4baf30a2a4f8f560f02f9c1a4fdd139db1987c34b703499c",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/pipe_r_16_png_jpg.rf.3cfa96d044fa836125070ea9185e270d.jpg",
+      "sourceImageSHA256": "1ee693560741f03927f55ac18d3bc7494234c76428bd3a2cfefc14a3bfeac475",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "count": 18,
+      "xyxy": [
+        [
+          369.75,
+          100.0,
+          468.24999999999994,
+          209.0
+        ],
+        [
+          285.25,
+          130.99999999999997,
+          372.75,
+          232.0
+        ],
+        [
+          145.75,
+          182.75,
+          212.24999999999997,
+          271.25
+        ],
+        [
+          414.25000000000006,
+          182.0,
+          527.75,
+          303.0
+        ],
+        [
+          95.0,
+          201.75,
+          151.0,
+          285.25
+        ],
+        [
+          323.24999999999994,
+          205.75,
+          417.75,
+          313.25
+        ],
+        [
+          0.2499999999999991,
+          226.75,
+          45.74999999999999,
+          302.25
+        ],
+        [
+          243.0,
+          226.25,
+          323.0,
+          327.75
+        ],
+        [
+          171.25,
+          252.00000000000003,
+          242.75,
+          345.0
+        ],
+        [
+          111.75,
+          263.0,
+          173.25,
+          352.0
+        ],
+        [
+          63.00000000000001,
+          275.25,
+          115.0,
+          359.75
+        ],
+        [
+          10.499999999999998,
+          285.74999999999994,
+          59.5,
+          365.25
+        ],
+        [
+          360.99999999999994,
+          289.0,
+          470.0,
+          415.0
+        ],
+        [
+          275.25,
+          304.75,
+          366.75000000000006,
+          416.25
+        ],
+        [
+          129.0,
+          332.25,
+          197.0,
+          427.75
+        ],
+        [
+          78.0,
+          340.75,
+          135.0,
+          428.25
+        ],
+        [
+          0.0,
+          353.75,
+          27.0,
+          433.25
+        ],
+        [
+          0,
+          294,
+          11,
+          358
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/rfv2_ce82e64f9b1b.txt",
+      "labelSHA256": "7c36b7060e6c61890048c99055096f46b21322d7a6ed73da7ac811c27e2b2409",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "root",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json",
+      "derivedAnnotationSHA256": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/positives/root-annotations-independent-review.json",
+      "independentReviewSHA256": "d7610eb20cbd169af791cacb2f4ca105beccb91c81cc3a8ca055179de7b05cc2",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-261.png",
+      "sourcePreprocessing": "Publisher auto-orient and 640x640 stretch. README says no export augmentation; other source variants visibly contain prior color/noise changes and were excluded.",
+      "nativeResolutionKnown": false,
+      "nativeWidth": null,
+      "nativeHeight": null,
+      "photographicProductImage": false,
+      "backgroundType": "photographic scene",
+      "groupingBasis": "Original source-filename family, augmented/other RF versions excluded; no link found to frozen315 or MACO pool.",
+      "overlaySHA256": "2ac43bef25381a8ce25af1471d16cad2b314873fa1d221967019cf4be9e52f9e",
+      "sourceMember": "valid/images/pipe_r_16_png_jpg.rf.3cfa96d044fa836125070ea9185e270d.jpg",
+      "sourceStem": "pipe_r_16_png_jpg",
+      "authorSplit": "valid",
+      "authorCount": 17,
+      "sourceLabelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/labels/pipe_r_16_png_jpg.rf.3cfa96d044fa836125070ea9185e270d.txt",
+      "sourceLabelSHA256": "4a516d3e9e5a3353a8ef64752562a56a96c9c28a040059c89354192aa22d4518",
+      "sourceArchivePath": "output/pipes-data-expansion-20261029/data/positives/archives/pipes.v2i.yolov5pytorch.zip",
+      "sourceArchiveSHA256": "cfc3a421134c602cfeed3975dfaa15737f76dc254755f9b087637a7d635798b5"
+    },
+    {
+      "id": "rfv2_433a33158ae6",
+      "split": "train",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "groupId": "expansion20261029_rfv2_source_853a42048aebfa36",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/pipe_r_4_jpeg_jpg.rf.b8737f7af9d57a83757a6750745022de.jpg",
+      "width": 640,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "10586118895553a33f32bc0bc73780731a029ff12188a072c33ba98f5d049810",
+      "RGBPixelSHA256": "5d7aec83b096649077e8f31380caec59729c2294a5960cdef8c2e259b6062086",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/pipe_r_4_jpeg_jpg.rf.b8737f7af9d57a83757a6750745022de.jpg",
+      "sourceImageSHA256": "10586118895553a33f32bc0bc73780731a029ff12188a072c33ba98f5d049810",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "count": 4,
+      "xyxy": [
+        [
+          94.0,
+          277.0,
+          171.0,
+          386.0
+        ],
+        [
+          129.5,
+          172.5,
+          218.49999999999997,
+          292.5
+        ],
+        [
+          1.0000000000000009,
+          163.0,
+          74.0,
+          277.0
+        ],
+        [
+          289.5,
+          155.5,
+          378.5,
+          275.5
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/rfv2_433a33158ae6.txt",
+      "labelSHA256": "93ae81b26eb33762a15f6cece99774606ebdbeed393447157fed8f55cfd8c544",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "root",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json",
+      "derivedAnnotationSHA256": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/positives/root-annotations-independent-review.json",
+      "independentReviewSHA256": "d7610eb20cbd169af791cacb2f4ca105beccb91c81cc3a8ca055179de7b05cc2",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-264.png",
+      "sourcePreprocessing": "Publisher auto-orient and 640x640 stretch. README says no export augmentation; other source variants visibly contain prior color/noise changes and were excluded.",
+      "nativeResolutionKnown": false,
+      "nativeWidth": null,
+      "nativeHeight": null,
+      "photographicProductImage": true,
+      "backgroundType": "white studio or cutout",
+      "groupingBasis": "Original source-filename family, augmented/other RF versions excluded; no link found to frozen315 or MACO pool.",
+      "overlaySHA256": "ea767dc0c94c8573c26df3e1789de51bb79f98d46f97ce6b0a6499f86ddd5c30",
+      "sourceMember": "train/images/pipe_r_4_jpeg_jpg.rf.b8737f7af9d57a83757a6750745022de.jpg",
+      "sourceStem": "pipe_r_4_jpeg_jpg",
+      "authorSplit": "train",
+      "authorCount": 4,
+      "sourceLabelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/labels/pipe_r_4_jpeg_jpg.rf.b8737f7af9d57a83757a6750745022de.txt",
+      "sourceLabelSHA256": "dd877e35e890e42c65bc3dd451b577cf8602677669a3d727db0771332a47c339",
+      "sourceArchivePath": "output/pipes-data-expansion-20261029/data/positives/archives/pipes.v2i.yolov5pytorch.zip",
+      "sourceArchiveSHA256": "cfc3a421134c602cfeed3975dfaa15737f76dc254755f9b087637a7d635798b5"
+    },
+    {
+      "id": "rfv2_78c18919ddc0",
+      "split": "train",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "groupId": "expansion20261029_rfv2_source_9436711effa6d5c1",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/pipe_r_7_jpeg_jpg.rf.ed3bc755ed335115cf904093934dfac2.jpg",
+      "width": 640,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "8cac901b10e75671aa82316fd26af9eb41b3d1783bedb9815b63e1c53b552b7c",
+      "RGBPixelSHA256": "905b85cec87a29969d7a400eea27b5b35c6d304254dddca4a70b9064cb2049ce",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/pipe_r_7_jpeg_jpg.rf.ed3bc755ed335115cf904093934dfac2.jpg",
+      "sourceImageSHA256": "8cac901b10e75671aa82316fd26af9eb41b3d1783bedb9815b63e1c53b552b7c",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "count": 7,
+      "xyxy": [
+        [
+          147.24999999999997,
+          270.0,
+          275.75,
+          433.0
+        ],
+        [
+          437.0,
+          216.0,
+          640.0,
+          513.0
+        ],
+        [
+          250.0,
+          325.75,
+          433.0,
+          571.25
+        ],
+        [
+          105.75,
+          431.25,
+          254.25,
+          619.75
+        ],
+        [
+          324.25,
+          68.74999999999999,
+          435.75,
+          220.25
+        ],
+        [
+          371.25,
+          188.75,
+          482.75000000000006,
+          340.25
+        ],
+        [
+          270.25,
+          210.0,
+          375.74999999999994,
+          347.0
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/rfv2_78c18919ddc0.txt",
+      "labelSHA256": "c8a2212a01fabd4acb678bd8aee37c827059697f962e99b9a802b13c9746f38a",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "root",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json",
+      "derivedAnnotationSHA256": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/positives/root-annotations-independent-review.json",
+      "independentReviewSHA256": "d7610eb20cbd169af791cacb2f4ca105beccb91c81cc3a8ca055179de7b05cc2",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-266.png",
+      "sourcePreprocessing": "Publisher auto-orient and 640x640 stretch. README says no export augmentation; other source variants visibly contain prior color/noise changes and were excluded.",
+      "nativeResolutionKnown": false,
+      "nativeWidth": null,
+      "nativeHeight": null,
+      "photographicProductImage": true,
+      "backgroundType": "white studio or cutout",
+      "groupingBasis": "Original source-filename family, augmented/other RF versions excluded; no link found to frozen315 or MACO pool.",
+      "overlaySHA256": "3d86d454c58fd10ccd63a0aac5454193b7a9541c200d53772526f730def2d75f",
+      "sourceMember": "valid/images/pipe_r_7_jpeg_jpg.rf.ed3bc755ed335115cf904093934dfac2.jpg",
+      "sourceStem": "pipe_r_7_jpeg_jpg",
+      "authorSplit": "valid",
+      "authorCount": 7,
+      "sourceLabelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/labels/pipe_r_7_jpeg_jpg.rf.ed3bc755ed335115cf904093934dfac2.txt",
+      "sourceLabelSHA256": "61dda1aa5131b86ec2ef35e3ad6110b668259c3ca0f13a76967e1d6062255382",
+      "sourceArchivePath": "output/pipes-data-expansion-20261029/data/positives/archives/pipes.v2i.yolov5pytorch.zip",
+      "sourceArchiveSHA256": "cfc3a421134c602cfeed3975dfaa15737f76dc254755f9b087637a7d635798b5"
+    },
+    {
+      "id": "rfv2_7b4a4900cabc",
+      "split": "train",
+      "source": "roboflow_pipes_dgsio_v2_public_archive",
+      "groupId": "expansion20261029_rfv2_source_049535ae1937edbe",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/product-jpeg-500x500_jpg.rf.ca24ac183a88eda6d1deebd16f4a6286.jpg",
+      "width": 640,
+      "height": 640,
+      "imageMode": "RGB",
+      "EXIFOrientation": null,
+      "sha256": "38f173a26949b62b5136e6a4e364dfa21225d973c56b7cbb4bd69a57a66ce6f3",
+      "RGBPixelSHA256": "546b363484808fa95d79ef774df8616901d75fc8678e541d1972587367283e8c",
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/product-jpeg-500x500_jpg.rf.ca24ac183a88eda6d1deebd16f4a6286.jpg",
+      "sourceImageSHA256": "38f173a26949b62b5136e6a4e364dfa21225d973c56b7cbb4bd69a57a66ce6f3",
+      "sourceDatasetURL": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "count": 14,
+      "xyxy": [
+        [
+          471.25,
+          98.75,
+          597.75,
+          242.25
+        ],
+        [
+          331.75,
+          124.5,
+          476.25,
+          278.5
+        ],
+        [
+          533.0,
+          177.0,
+          640.0,
+          306.0
+        ],
+        [
+          414.5,
+          248.25000000000003,
+          545.5,
+          383.75
+        ],
+        [
+          0.0,
+          258.25,
+          89.0,
+          414.75
+        ],
+        [
+          264.75,
+          273.75,
+          406.25,
+          409.25
+        ],
+        [
+          113.25,
+          269.0,
+          274.75,
+          423.00000000000006
+        ],
+        [
+          470.0,
+          370.0,
+          590.0,
+          490.0
+        ],
+        [
+          321.5,
+          388.5,
+          449.49999999999994,
+          508.5
+        ],
+        [
+          192.25,
+          457.5,
+          336.75,
+          562.5
+        ],
+        [
+          598.25,
+          46.00000000000001,
+          639.75,
+          177.0
+        ],
+        [
+          546.0,
+          514.5,
+          640.0,
+          563.5
+        ],
+        [
+          57.74999999999999,
+          517.75,
+          199.25,
+          562.25
+        ],
+        [
+          0,
+          510,
+          55,
+          564
+        ]
+      ],
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/labels/rfv2_7b4a4900cabc.txt",
+      "labelSHA256": "c2657aa5a23b6767683ed384f9551df9d865cdbcde8d42d4388a29e427c9111e",
+      "label": "pipe_end",
+      "bucket": "positive",
+      "subtype": "round",
+      "annotationBoundary": "outer_rim",
+      "annotationQA": "PASS",
+      "annotationMethod": "Two independent visual reviews by Codex agents of full-frame counts and outer-rim HBBs; independently confirmed derived corrections; no detector-generated labels.",
+      "annotationOwner": "root",
+      "annotationReviewers": [
+        "root",
+        "general_counting_papers"
+      ],
+      "derivedAnnotationPath": "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json",
+      "derivedAnnotationSHA256": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+      "independentReviewPath": "ml/pipes-data-expansion-20261029/data/positives/root-annotations-independent-review.json",
+      "independentReviewSHA256": "d7610eb20cbd169af791cacb2f4ca105beccb91c81cc3a8ca055179de7b05cc2",
+      "modelInferencePerformed": false,
+      "dataNature": "real_photograph_visually_reviewed",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "newAugmentationApplied": false,
+      "finalTrainingAdmission": false,
+      "trainOnly": true,
+      "overlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-290.png",
+      "sourcePreprocessing": "Publisher auto-orient and 640x640 stretch. README says no export augmentation; other source variants visibly contain prior color/noise changes and were excluded.",
+      "nativeResolutionKnown": false,
+      "nativeWidth": null,
+      "nativeHeight": null,
+      "photographicProductImage": false,
+      "backgroundType": "photographic scene",
+      "groupingBasis": "Original source-filename family, augmented/other RF versions excluded; no link found to frozen315 or MACO pool.",
+      "overlaySHA256": "40a3c4b636dda742a1b800df1a57647cf25238a0b556196a25c3d3fb5545ac52",
+      "sourceMember": "valid/images/product-jpeg-500x500_jpg.rf.ca24ac183a88eda6d1deebd16f4a6286.jpg",
+      "sourceStem": "product-jpeg-500x500_jpg",
+      "authorSplit": "valid",
+      "authorCount": 13,
+      "sourceLabelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/labels/product-jpeg-500x500_jpg.rf.ca24ac183a88eda6d1deebd16f4a6286.txt",
+      "sourceLabelSHA256": "9adefddad828b8091ae888bf4effe435c091d41e692e3c6dd8ff94edd21a2ee4",
+      "sourceArchivePath": "output/pipes-data-expansion-20261029/data/positives/archives/pipes.v2i.yolov5pytorch.zip",
+      "sourceArchiveSHA256": "cfc3a421134c602cfeed3975dfaa15737f76dc254755f9b087637a7d635798b5"
+    },
+    {
+      "id": "expneg-apex",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://apex-steel.com/steel-products/round-square-bars",
+      "groupId": "expneg29_scene_apex",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-apex.png",
+      "width": 1024,
+      "height": 768,
+      "sha256": "50abc8bc47d3a413922296bd02b41da925d676869e826b83abc8f63a5e7f8275",
+      "RGBPixelSHA256": "40ddbecf23a9e3b2bf54b04e74ebccd8e3152df642ce16a96848669927a75201",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-apex.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-apex.bin",
+      "sourceImageSHA256": "071cd70427a756b9bbc8e944488d28f01bb5e6a2fdd449a6b5370e0687dcdbb7",
+      "sourceImageURL": "https://images.ctfassets.net/71o30wuv1rls/64srrhcbmEhP9JzocaCJ1z/1c8d3734d7490061a009e0059c8c0344/mild-steel-round-bars.jpg",
+      "sourcePage": "https://apex-steel.com/steel-products/round-square-bars",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-apollo",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://apollosteel.in/product.html",
+      "groupId": "expneg29_scene_apollo",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-apollo.png",
+      "width": 750,
+      "height": 430,
+      "sha256": "67f84ecfc2c02d1dea24164b875ee94f79bef5fdabca2603d9cb49944be7eae6",
+      "RGBPixelSHA256": "f1a52bc537cce1af848e929b088c466303cbc9aeddb593f52bd9e7fb2ed123d8",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-apollo.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Physical stamping, chalk, paint stripes or attached stock labels are not hollow mouths.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-apollo.bin",
+      "sourceImageSHA256": "44d338819b6ada087b13e59c8b3dcd3c56d88e0c6fcd954578c7a5ee99935227",
+      "sourceImageURL": "https://apollosteel.in/images/BrightBars.jpg",
+      "sourcePage": "https://apollosteel.in/product.html",
+      "sourceEXIFOrientation": 1,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-bozhong",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://shanghaibozhong.en.made-in-china.com/product/NCgQEzOrCjhY/China-2-4856-Haynes-625-Bright-Round-Rod-Bar-for-Industrial-Coil-Plate-Bar-Pipe-Fitting-Flange-Square-Tube-Round-Bar-Hollow-Section-Rod-Bar-Wire-Sheet.html",
+      "groupId": "expneg29_scene_bozhong",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-bozhong.png",
+      "width": 550,
+      "height": 413,
+      "sha256": "f7ec966a47202a16ffb6abfe964fd665a4fa866cc1a78c8c25aa05e682b718d6",
+      "RGBPixelSHA256": "29a94b321be52752d6820f84ffff4a160d1899e8516f84115bc8a8c008ba339b",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-bozhong.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_billet_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-bozhong.bin",
+      "sourceImageSHA256": "71224833f661f112cadbaab7684223222feb884fc7bf043096e7185a858a908f",
+      "sourceImageURL": "https://image.made-in-china.com/202f0j00ohqRekZcMsbC/2-4856-Haynes-625-Bright-Round-Rod-Bar-for-Industrial-Coil-Plate-Bar-Pipe-Fitting-Flange-Square-Tube-Round-Bar-Hollow-Section-Rod-Bar-Wire-Sheet.webp",
+      "sourcePage": "https://shanghaibozhong.en.made-in-china.com/product/NCgQEzOrCjhY/China-2-4856-Haynes-625-Bright-Round-Rod-Bar-for-Industrial-Coil-Plate-Bar-Pipe-Fitting-Flange-Square-Tube-Round-Bar-Hollow-Section-Rod-Bar-Wire-Sheet.html",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-fsgangsu",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://www.fsgangsu.com/products_45/166.html",
+      "groupId": "expneg29_scene_fsgangsu",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-fsgangsu.png",
+      "width": 800,
+      "height": 600,
+      "sha256": "fe24c35cc4394442796fae58cbb65833fb9ee4c0c70e1f8cdeb560c8a6a356dd",
+      "RGBPixelSHA256": "b5e22c68b8b947986b669c235305aedff9ee3eb83c08faaa65da991b44294076",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-fsgangsu.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-fsgangsu.bin",
+      "sourceImageSHA256": "5acf558b7076e9f9d5bc6dfb7168d3cfb2f9a481903a1c275ef6d4a8006cc060",
+      "sourceImageURL": "https://www.fsgangsu.com/static/upload/image/20230309/370b57d9dd0227f3985f8a328cc6ff8.jpg",
+      "sourcePage": "https://www.fsgangsu.com/products_45/166.html",
+      "sourceEXIFOrientation": 1,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-greenflag",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://www.greenflagmetals.com/9310",
+      "groupId": "expneg29_scene_greenflag",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-greenflag.png",
+      "width": 2500,
+      "height": 1667,
+      "sha256": "9a1fa3caf05b41a09add78a51584230944f147e560355aac86f3707a4fa7759f",
+      "RGBPixelSHA256": "e7f358c8c4c0b785df34fcf331974593a22b7a6b9b7ade1ba6aa47437a34c15f",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-greenflag.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-greenflag.bin",
+      "sourceImageSHA256": "f1b258f21c09720ec3c1cbe84dcafdb4e4eeb03a35fe859ea3de0e16b121da81",
+      "sourceImageURL": "https://images.squarespace-cdn.com/content/v1/6509ffd52324d80ee429dc13/968234b7-3ab2-4628-bccc-39b096362258/iStock-1254799832.jpg",
+      "sourcePage": "https://www.greenflagmetals.com/9310",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-hhiron",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://hhironandsteel.com/ms-round-bar.php",
+      "groupId": "expneg29_scene_hhiron",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-hhiron.png",
+      "width": 700,
+      "height": 420,
+      "sha256": "c635e213c5f2aee3068b1a4ea4882a3396462b267658a0e5ef0671d60f5c5b4d",
+      "RGBPixelSHA256": "7fbc1ace03bef2a45a4700a57c70e11737effd1b50604df03930a4aec999e0c8",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-hhiron.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-hhiron.bin",
+      "sourceImageSHA256": "23c49adec7e2b4e3f8fe5b3bc3747b3d4a64845c21400fea83a5c6d6cbd3236c",
+      "sourceImageURL": "https://hhironandsteel.com/images/mild-steel-round-bars.webp",
+      "sourcePage": "https://hhironandsteel.com/ms-round-bar.php",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-ikizler",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-heavy-billet-possible-same-family",
+      "groupId": "expneg29_heavy_billet_possible_same_family",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-ikizler.png",
+      "width": 809,
+      "height": 550,
+      "sha256": "c04ec1fc20a5e48969b95631a96af2bb2697e6353d7159a05afc3a225d2ada24",
+      "RGBPixelSHA256": "e0a4f9710c8dc794bc197a368fc2be881c6056d0b4c59636e25474d1cd7e6432",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-ikizler.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_billet_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-ikizler.bin",
+      "sourceImageSHA256": "d2b2c126fac99c237884c4e8244c4c930c8b1869f6e6e412a4e3e2ee1a4ba820",
+      "sourceImageURL": "https://ikizlercelik.com.tr/Upload/karboncelik%20-%20Copy%201.jpg",
+      "sourcePage": "https://ikizlercelik.com.tr/tr/kurumsal/kurumsal-195",
+      "sourceEXIFOrientation": 1,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Conservative potentially shared heavy-billet facility/capture family; same canonical sampling source avoids cross-publisher group inflation.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-jnshagang",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://www.jnsgsteels.com/products/Billet_Steel/Round_Billet/SS400_round_billet.html",
+      "groupId": "expneg29_scene_jnshagang",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-jnshagang.png",
+      "width": 800,
+      "height": 800,
+      "sha256": "557e965055ddd8bcbbcd582597a82c1d28a19f600b91ff3812c47ad8b5425517",
+      "RGBPixelSHA256": "4e45a601a07c715c7023662a0570ee746b0677cebb1b20700121b3d1782e8622",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-jnshagang.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_billet_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Physical stamping, chalk, paint stripes or attached stock labels are not hollow mouths.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-jnshagang.bin",
+      "sourceImageSHA256": "bf5534b03b30eac61d159806896ce1cbb77d9a82dffab4a656b280a63b7563b5",
+      "sourceImageURL": "https://usimg.bjyyb.net/sites/84000/84244/1734484546727814700727128064.jpg",
+      "sourcePage": "https://www.jnsgsteels.com/products/Billet_Steel/Round_Billet/SS400_round_billet.html",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-junxiong",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://junxiongmetal.en.made-in-china.com/product/OvBnURzKhxtX/China-JIS-G4318-Grade-SUS430f-Ferrite-Stainless-Free-Cutting-Steel.html",
+      "groupId": "expneg29_scene_junxiong",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-junxiong.png",
+      "width": 750,
+      "height": 750,
+      "sha256": "40953566de0996d05ebadfe8b694941b3340b775871c81de52048e7db7b3c256",
+      "RGBPixelSHA256": "63b6e87afd347f3ffed83566d269a6fa43f136b25e8f68c4e0a0e6bb7a2f6fc5",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-junxiong.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-junxiong.bin",
+      "sourceImageSHA256": "35227ac6068737cd7a68001c9e75e614f0f7af4feb68af7d847c829f21fbd471",
+      "sourceImageURL": "https://image.made-in-china.com/2f0j00TsEaftKjIhYv/JIS-G4318-Grade-SUS430f-Ferrite-Stainless-Free-Cutting-Steel.webp",
+      "sourcePage": "https://junxiongmetal.en.made-in-china.com/product/OvBnURzKhxtX/China-JIS-G4318-Grade-SUS430f-Ferrite-Stainless-Free-Cutting-Steel.html",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-kzmc",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://kzmc.kz/articles/stali-kipyashchie-poluspokojnye-i-spokojnye-otlichiya-i-skhodstva/",
+      "groupId": "expneg29_scene_kzmc",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-kzmc.png",
+      "width": 1200,
+      "height": 851,
+      "sha256": "f2dcc89607d1c1afb81e876e227a5e0366505285292057587efc106b434a40f3",
+      "RGBPixelSHA256": "adb732e5219f651e2195d9f46c83fddab13e7539f1ab9d677651d350276db403",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-kzmc.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_billet_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-kzmc.bin",
+      "sourceImageSHA256": "98811dfafb3a8e073b6bc55870278229108aab33ec7c7cff4b999b6d84804834",
+      "sourceImageURL": "https://kzmc.kz/media/uploads/images/stalnoj_krug.jpg",
+      "sourcePage": "https://kzmc.kz/articles/stali-kipyashchie-poluspokojnye-i-spokojnye-otlichiya-i-skhodstva/",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-liange",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://es.made-in-china.com/co_qdliangesteel/product_1018-A2-D2-H13-O1-W1-Cold-Drawn-Tool-Steel-Square-Round-Bar_ysossyyorg.html",
+      "groupId": "expneg29_scene_liange",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-liange.png",
+      "width": 646,
+      "height": 644,
+      "sha256": "fc99be9f7ccc473cf546bf5182f394e9fbcdd1e7faf3ca08885f6860b026bdd5",
+      "RGBPixelSHA256": "06a10296e8724ba8f14444cbebfdef88066ccbef41a04fb5c195eaa697c82c4a",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-liange.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Partial source logo at upper left does not cover a pipe-end annotation or add an artificial scene background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": true,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-liange.bin",
+      "sourceImageSHA256": "3fa55e3f78bea2101525e8ca343ba924c21685af86f963c8a931d89b110d56be",
+      "sourceImageURL": "https://image.made-in-china.com/2f0j00VCvofkBIZzci/1018-A2-D2-H13-O1-W1-Cold-Drawn-Tool-Steel-Square-Round-Bar.webp",
+      "sourcePage": "https://es.made-in-china.com/co_qdliangesteel/product_1018-A2-D2-H13-O1-W1-Cold-Drawn-Tool-Steel-Square-Round-Bar_ysossyyorg.html",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-metalcare",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://metalcarecenter.com/products.html",
+      "groupId": "expneg29_scene_metalcare",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-metalcare.png",
+      "width": 1000,
+      "height": 667,
+      "sha256": "1b2c40a448ca6c668460265005ec6d68dad22cb7a38182cc1a54bced454b4d3a",
+      "RGBPixelSHA256": "93c00365875eeff08c1b991fb96294fa2409c7f8720a61b7768b2a4e96c6ddd2",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-metalcare.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-metalcare.bin",
+      "sourceImageSHA256": "2d4bd89311f90206634c6f51288e28a9e2ba95d1436bdf0bb8d1045fd4eeae93",
+      "sourceImageURL": "https://metalcarecenter.com/img/products/10.jpg",
+      "sourcePage": "https://metalcarecenter.com/products.html",
+      "sourceEXIFOrientation": 1,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-punit",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://www.tradeindia.com/products/ms-bright-bars-c5811104.html",
+      "groupId": "expneg29_scene_punit",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-punit.png",
+      "width": 1000,
+      "height": 753,
+      "sha256": "ae8c5327543fca849e77a6f8f2624eb5083dedc1f0a4d26883e0959c3663efc0",
+      "RGBPixelSHA256": "f8fcde10b71465c5f6c1e33467be5aa9abb7b195f5eccddafa6ae8ac3c0f3d00",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-punit.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Bottom-left camera timestamp is a source publisher overlay, not a counting label.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": true,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-punit.bin",
+      "sourceImageSHA256": "e55aeb4dcdad350204c95a188873882305aad57f23aae6f45822b6239ae908d5",
+      "sourceImageURL": "https://cpimg.tistatic.com/5811104/b/5/ms-bright-bars.jpg",
+      "sourcePage": "https://www.tradeindia.com/products/ms-bright-bars-c5811104.html",
+      "sourceEXIFOrientation": 1,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-shiraishi",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://shiraishi-shoji.co.jp/",
+      "groupId": "expneg29_scene_shiraishi",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-shiraishi.png",
+      "width": 3339,
+      "height": 2671,
+      "sha256": "3bd022253f34d9d7ecc8fd1166025fb9dd471ed7e98ed4f80fad102f8d47ad76",
+      "RGBPixelSHA256": "2794d91e91e6c6286ba1a54408b76aee78c4fc6a6c256070ba4605814a2c7a73",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-shiraishi.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-shiraishi.bin",
+      "sourceImageSHA256": "037f1d9bead7180b255610f61676bd5d139148e5f468f72ce02e0f5c46d9d429",
+      "sourceImageURL": "https://cdn.peraichi.com/userData/71179f20-5807-4a4e-b47e-9ce821de4a5d/img/fd3a7420-2ce9-013e-04f4-0a58a9feac02/3P7A9944-1.jpg",
+      "sourcePage": "https://shiraishi-shoji.co.jp/",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-steeldynamics",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-heavy-billet-possible-same-family",
+      "groupId": "expneg29_heavy_billet_possible_same_family",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-steeldynamics.png",
+      "width": 806,
+      "height": 570,
+      "sha256": "b9375caa754c9e91bd5625b29bc9011480980237998175fa0c968a83eb4dc46b",
+      "RGBPixelSHA256": "2f2d9a0813653babaaebbb8d6a91641a6b02798247590a70a63a018e555c4ac9",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-steeldynamics.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_billet_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-steeldynamics.bin",
+      "sourceImageSHA256": "5a0a81b545bb62c3ca728151ae264e45011a6e54191d634098e85eda24661587",
+      "sourceImageURL": "https://lpg.steeldynamics.com/images/finished-bars.jpg",
+      "sourcePage": "https://lpg.steeldynamics.com/contact/locations.html",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Conservative potentially shared heavy-billet facility/capture family; same canonical sampling source avoids cross-publisher group inflation.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-triumph",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://triumphmetallic.com/about-us.html",
+      "groupId": "expneg29_scene_triumph",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-triumph.png",
+      "width": 510,
+      "height": 592,
+      "sha256": "d56663fd0cbfebffb1b5017cf63becb9ef29ded070c066e307192eb72f905a97",
+      "RGBPixelSHA256": "2b8afabc2e13ca4d474c73df6c4d63106f086e33bc5db10ab7e7faae016cf62d",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-triumph.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Physical stamping, chalk, paint stripes or attached stock labels are not hollow mouths.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-triumph.bin",
+      "sourceImageSHA256": "c03fcac6c9d8432e327b0308e2d64981ac456ad11514fb8cfd39520759e1b028",
+      "sourceImageURL": "https://triumphmetallic.com/assets/img/about-us/v2/round-bar-about-us.jpg",
+      "sourcePage": "https://triumphmetallic.com/about-us.html",
+      "sourceEXIFOrientation": 1,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-yongzhang",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://hi.yongzhangsteel.com/product-bright-steel-bar.html",
+      "groupId": "expneg29_scene_yongzhang",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-yongzhang.png",
+      "width": 750,
+      "height": 750,
+      "sha256": "95f7a5dca1a45f5708e4afe03b7ed1ef8f35fa8644f56a340d7574f2a9efdf29",
+      "RGBPixelSHA256": "39283ab0d4a1f9da16d96330936769fb205b50af7027ee14f8c4c8e2057d5617",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-yongzhang.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-yongzhang.bin",
+      "sourceImageSHA256": "ab080c953750e03373d8114ca2361ae2fcde63a66e9ebbffb24070040eb5fa13",
+      "sourceImageURL": "https://img.waimaoniu.net/4257/4257-202410300854481994.jpg?x-oss-process=image",
+      "sourcePage": "https://hi.yongzhangsteel.com/product-bright-steel-bar.html",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-zelpo",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://www.zelpo.eu/continuously-cast-steel-billets/",
+      "groupId": "expneg29_scene_zelpo",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-zelpo.png",
+      "width": 1024,
+      "height": 682,
+      "sha256": "282cf7e2f357e4f8f71c57bea8c532d044611f5be4fdb73cf0f1480bac34bde9",
+      "RGBPixelSHA256": "e3ccb6f184107e22af95d82c10bc6f360295406fef507246bb4acbee09c6ed70",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-zelpo.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_billet_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Physical stamping, chalk, paint stripes or attached stock labels are not hollow mouths.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-zelpo.bin",
+      "sourceImageSHA256": "03b03f7272d441afaee23701406bad6542c804a4f1d024186954767d3a14f36c",
+      "sourceImageURL": "https://www.zelpo.sk/content/uploads/2025/07/221A1807-1024x682.webp",
+      "sourcePage": "https://www.zelpo.eu/continuously-cast-steel-billets/",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-zhongji1",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://www.zhongjimetal-steel.com/products/Steel-Billet/Carbon-Steel-Round-Billet.html",
+      "groupId": "expneg29_scene_zhongji1",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-zhongji1.png",
+      "width": 1000,
+      "height": 750,
+      "sha256": "5e43db53f0a44f3d052d6a4026a7a9d8e1ebfe81eda93e026ebd652533e1da7b",
+      "RGBPixelSHA256": "43361520a4c64afc083765889de7921cfdb2119008cf6b402e4e38423932d19d",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-zhongji1.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_billet_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background. Physical stamping, chalk, paint stripes or attached stock labels are not hollow mouths.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-zhongji1.bin",
+      "sourceImageSHA256": "4e2f4b7870c27c9573fdfed236b516b23faa63f313270a011aac019e5fffe51a",
+      "sourceImageURL": "https://usimg.bjyyb.net/sites/96000/96298/1759114410831119836587819008.jpg",
+      "sourcePage": "https://www.zhongjimetal-steel.com/products/Steel-Billet/Carbon-Steel-Round-Billet.html",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    },
+    {
+      "id": "expneg-zhongji2",
+      "split": "train",
+      "trainOnly": true,
+      "source": "public-industrial-photo:https://www.zhongjimetal-steel.com/products/Steel-Billet/Carbon-Steel-Round-Billet.html",
+      "groupId": "expneg29_scene_zhongji2",
+      "imagePath": "output/pipes-data-expansion-20261029/data/negatives/images/expneg-zhongji2.png",
+      "width": 1000,
+      "height": 750,
+      "sha256": "a324b75c2c159b75a071982d7be662492f8fc3a2a10eb8cea7d433ca2be594b1",
+      "RGBPixelSHA256": "e2e2e085687911a3a1a64c9d24f51b7e942882a7ec7ad3c96c5527409b807713",
+      "labelPath": "output/pipes-data-expansion-20261029/data/negatives/labels/expneg-zhongji2.txt",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "count": 0,
+      "xyxy": [],
+      "label": "pipe_end",
+      "bucket": "negative",
+      "negativeKind": "non_pipe",
+      "confuserSubtype": "solid_rod_end",
+      "annotationQA": "PASS",
+      "annotationMethod": "Full-source-image visual zero-pipe-end annotation and independent review by two Codex agents; no detector proposals.",
+      "visualReviewers": [
+        "colony_papers",
+        "root"
+      ],
+      "visualNotes": "Full source frame: continuous solid cut/ground faces, no discernible pipe opening in foreground or background.",
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false,
+      "hasPublisherOverlay": false,
+      "sourceHadBlackMask": false,
+      "fullSourceFramePreserved": true,
+      "sourceImagePath": "output/pipes-data-expansion-20261029/data/negatives/raw/expneg-zhongji2.bin",
+      "sourceImageSHA256": "a42908c5996b449ee2939fb89496149559737a3efe5bca139833f45af3d5d8ef",
+      "sourceImageURL": "https://usimg.bjyyb.net/sites/96000/96298/1759114407831119822016806912.jpg",
+      "sourcePage": "https://www.zhongjimetal-steel.com/products/Steel-Billet/Carbon-Steel-Round-Billet.html",
+      "sourceEXIFOrientation": null,
+      "normalization": "Whole-frame EXIF-upright RGB PNG; no crop, resize or synthetic augmentation.",
+      "groupBasis": "Distinct visual scene/source photograph with no detected frozen or new correspondence; capture-session IDs unavailable.",
+      "detectorInferencePerformed": false,
+      "modelInferencePerformed": false,
+      "finalTrainingAdmission": false
+    }
+  ],
+  "reviewBindings": {
+    "ml/pipes-data-expansion-20261029/data/positives/general-derived-labels.json": "3d27653843892406acf919f61d63e5ed3d3401ea4bbccc2d8778552789bbf58d",
+    "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+    "ml/pipes-data-expansion-20261029/data/root-general-positive-review.json": "5580aebfcd099c47c402ccab7329b3be49216163f247a8082ba879589b76f33e",
+    "ml/pipes-data-expansion-20261029/data/positives/root-annotations-independent-review.json": "d7610eb20cbd169af791cacb2f4ca105beccb91c81cc3a8ca055179de7b05cc2",
+    "ml/pipes-data-expansion-20261029/data/positives/rfv2-duplicate-screen.json": "c70a92db6ce0e3e97a39ed8b5cfc9eeab18096bd15563e4cd72cf6902364ed4f",
+    "ml/pipes-data-expansion-20261029/data/positives/commons-duplicate-screen.json": "0787ae1a8e6e498a7ab3c01a31c0203d2c9cca5a2af660f9b58ddd4597f1e0a0",
+    "output/pipes-data-expansion-20261029/data/positives/positive-proposal.json": "fbb5c9657a3a25506f1732cc72cd150bfa0550d37d2135f8c1fa411a8d465597",
+    "ml/pipes-data-expansion-20261029/data/positives/dataset-qa.json": "436e2be20d1ce367ed650d8bbb0a0e6145ef48200cb78f0b5ffcbf80e4fe9459",
+    "ml/pipes-data-expansion-20261029/data/root-negative-visual-review.json": "87580808df306a9fe10eee1e929ca6f88220f7a2f0ffcb14654a514b3f0e5f11",
+    "ml/pipes-data-expansion-20261029/data/negatives/own-visual-review.json": "d93970fa352f01e9dc5f015f6dd1bc99813258e871424d37134915739596a123",
+    "output/pipes-data-expansion-20261029/data/negatives/identity-audit.json": "2b4c43780d0aaa2815b914690b5b29c86614061af9dcf79671472b70b86cba75",
+    "output/pipes-data-expansion-20261029/data/negatives/sources/download-receipts.json": "57131bf0e9bf6f30974da623fe542f0ddb757b4ec47183d3655f0019f6fdda52",
+    "output/pipes-data-expansion-20261029/data/negatives/negative-proposal.json": "15f776830034a367adcfac31049719065336d8fb14a459348cbb4128ec795d03",
+    "ml/pipes-data-expansion-20261029/data/negatives/dataset-qa.json": "b558b7cc4acbf59227f31c78a7c038f847051f7d40cf12802f7018d2d8536185"
+  },
+  "summary": {
+    "views": 33,
+    "positiveViews": 13,
+    "negativeViews": 20,
+    "pipeEndAnnotations": 155,
+    "conservativeSourceGroups": 32,
+    "knownNativeLowResolutionPositiveAdditions": 0
+  },
+  "modelInferencePerformed": false,
+  "note": "Only accepted photographicviews, publisherpreprocessing/productbackgrounds retained; reviews byCodex agents nothumanlabelers. No newlearned labels/testfeedback."
+}

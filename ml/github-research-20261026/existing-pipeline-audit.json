@@ -1,0 +1,136 @@
+{
+  "status": "READ_ONLY_TRAIN_VAL_AUDIT",
+  "recordsSHA256": "77096e662e22dd7ba292a4aed47c756e08999c797ca9f35c9571923990a712aa",
+  "roles": {
+    "clinical_train": {
+      "images": 113,
+      "positiveImages": 113,
+      "emptyImages": 0,
+      "targets": 6679,
+      "boxesPerImageMean": 59.10619469026549,
+      "sizeAtWholeImage1024": {
+        "16to32": 3566,
+        "under16": 2493,
+        "over32": 620
+      },
+      "medianMinSidePixels": 18.93491124260355,
+      "hypotheticalExactVisibleBoxGeometry": {
+        "noAcceptedVisibleBox": 0,
+        "multipleAcceptedVisibleBoxes": 0,
+        "bestAcceptedVisibleBoxAreaBelowHalfGT": 0,
+        "bestAcceptedVisibleBoxIsClipped": 0
+      }
+    },
+    "clinical_validation": {
+      "images": 36,
+      "positiveImages": 36,
+      "emptyImages": 0,
+      "targets": 1987,
+      "boxesPerImageMean": 55.19444444444444,
+      "sizeAtWholeImage1024": {
+        "under16": 1078,
+        "16to32": 836,
+        "over32": 73
+      },
+      "medianMinSidePixels": 15.400394477317555,
+      "hypotheticalExactVisibleBoxGeometry": {
+        "noAcceptedVisibleBox": 0,
+        "multipleAcceptedVisibleBoxes": 0,
+        "bestAcceptedVisibleBoxAreaBelowHalfGT": 0,
+        "bestAcceptedVisibleBoxIsClipped": 0
+      }
+    },
+    "hardcase_train": {
+      "images": 41,
+      "positiveImages": 7,
+      "emptyImages": 34,
+      "targets": 32,
+      "boxesPerImageMean": 0.7804878048780488,
+      "sizeAtWholeImage1024": {
+        "over32": 32
+      },
+      "medianMinSidePixels": 191.02470942746447,
+      "hypotheticalExactVisibleBoxGeometry": {
+        "noAcceptedVisibleBox": 0,
+        "multipleAcceptedVisibleBoxes": 5,
+        "bestAcceptedVisibleBoxAreaBelowHalfGT": 0,
+        "bestAcceptedVisibleBoxIsClipped": 5
+      }
+    },
+    "hardcase_val": {
+      "images": 10,
+      "positiveImages": 4,
+      "emptyImages": 6,
+      "targets": 27,
+      "boxesPerImageMean": 2.7,
+      "sizeAtWholeImage1024": {
+        "over32": 27
+      },
+      "medianMinSidePixels": 58.09230769230769,
+      "hypotheticalExactVisibleBoxGeometry": {
+        "noAcceptedVisibleBox": 0,
+        "multipleAcceptedVisibleBoxes": 0,
+        "bestAcceptedVisibleBoxAreaBelowHalfGT": 0,
+        "bestAcceptedVisibleBoxIsClipped": 0
+      }
+    },
+    "old_train": {
+      "images": 247,
+      "positiveImages": 247,
+      "emptyImages": 0,
+      "targets": 37611,
+      "boxesPerImageMean": 152.27125506072875,
+      "sizeAtWholeImage1024": {
+        "over32": 5606,
+        "16to32": 18556,
+        "under16": 13449
+      },
+      "medianMinSidePixels": 18.87557632000003,
+      "hypotheticalExactVisibleBoxGeometry": {
+        "noAcceptedVisibleBox": 0,
+        "multipleAcceptedVisibleBoxes": 0,
+        "bestAcceptedVisibleBoxAreaBelowHalfGT": 0,
+        "bestAcceptedVisibleBoxIsClipped": 0
+      }
+    },
+    "old_validation": {
+      "images": 56,
+      "positiveImages": 56,
+      "emptyImages": 0,
+      "targets": 6831,
+      "boxesPerImageMean": 121.98214285714286,
+      "sizeAtWholeImage1024": {
+        "over32": 1992,
+        "16to32": 2840,
+        "under16": 1999
+      },
+      "medianMinSidePixels": 23.88873941207001,
+      "hypotheticalExactVisibleBoxGeometry": {
+        "noAcceptedVisibleBox": 0,
+        "multipleAcceptedVisibleBoxes": 1,
+        "bestAcceptedVisibleBoxAreaBelowHalfGT": 0,
+        "bestAcceptedVisibleBoxIsClipped": 1
+      }
+    }
+  },
+  "actualEightEpochPostAugmentationBoxExposures": {
+    "new_hard_positive": 2777,
+    "old": 253310,
+    "clinical": 11034,
+    "empty": 0
+  },
+  "actualEightEpochImageExposures": {
+    "new_hard_positive": 548,
+    "old": 1886,
+    "clinical": 163,
+    "empty": 283
+  },
+  "tileMagnificationIgnoringClipping": 1.6666666666666667,
+  "interpretationLimits": [
+    "Counts of boxes presented to loss are not measured gradient contribution. Zero boxes on empty images does not mean zero background-classification loss.",
+    "Geometry projects exact visible GT rectangles into the current tile-ownership rule; it is not model inference and does not prove causes of actual errors.",
+    "Multiple accepted projections can be duplicates before NMS; NMS and real predictions are not simulated here."
+  ],
+  "modelInferencePerformed": false,
+  "old63OrSealed36Read": false
+}

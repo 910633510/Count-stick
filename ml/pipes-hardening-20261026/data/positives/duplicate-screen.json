@@ -1,0 +1,270 @@
+{
+  "status": "CLASSICAL_SCREEN_COMPLETE_REQUIRES_MANUAL_MATCH_REVIEW",
+  "newCandidates": [
+    {
+      "id": "kaggle_009",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/extracted/mdsalmanshams_pipe-detection-and-counting/7ed9b2811d11.jpg"
+    },
+    {
+      "id": "kaggle_011",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/extracted/mdsalmanshams_pipe-detection-and-counting/0f070ce32485.jpg"
+    },
+    {
+      "id": "kaggle_012",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/extracted/mdsalmanshams_pipe-detection-and-counting/83e16f11331c.jpg"
+    },
+    {
+      "id": "kaggle_019",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/extracted/mdsalmanshams_pipe-detection-and-counting/c55952bdcd1d.jpg"
+    },
+    {
+      "id": "kaggle_023",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/extracted/mdsalmanshams_pipe-detection-and-counting/dbfbda197ee8.jpg"
+    },
+    {
+      "id": "commons_012",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_012.jpg"
+    },
+    {
+      "id": "commons_041",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_041.jpg"
+    },
+    {
+      "id": "commons_059",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_059.jpg"
+    },
+    {
+      "id": "commons_069",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_069.jpg"
+    },
+    {
+      "id": "commons_018",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_018.jpg"
+    },
+    {
+      "id": "commons_019",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_019.jpg"
+    },
+    {
+      "id": "commons_082",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_082.jpg"
+    },
+    {
+      "id": "commons_091",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_091.jpg"
+    },
+    {
+      "id": "commons_116",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_116.jpg"
+    },
+    {
+      "id": "commons_121",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_121.jpg"
+    },
+    {
+      "id": "commons_124",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_124.jpg"
+    },
+    {
+      "id": "commons_125",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_125.jpg"
+    },
+    {
+      "id": "commons_129",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_129.jpg"
+    },
+    {
+      "id": "commons_133",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_133.jpg"
+    },
+    {
+      "id": "commons_145",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/commons-thumbnails/commons_145.jpg"
+    },
+    {
+      "id": "github_005",
+      "imagePath": "output/pipes-hardening-20261026/data/positives/github-originals/github_005.jpg"
+    },
+    {
+      "id": "new_maco_0021",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000021.jpg"
+    },
+    {
+      "id": "new_maco_0343",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000343.jpg"
+    },
+    {
+      "id": "new_maco_0528",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000528.jpg"
+    },
+    {
+      "id": "new_maco_0780",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000780.jpg"
+    },
+    {
+      "id": "new_maco_0795",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000795.jpg"
+    }
+  ],
+  "oldRoundCount": 1025,
+  "oldUsed241Count": 241,
+  "oldComparisonRows": 1043,
+  "allOldPairsCompared": 27118,
+  "flaggedOldPairs": [
+    {
+      "a": "new_maco_0021",
+      "b": "maco_round_PipeHBB00000021",
+      "hashDistance": 0,
+      "oldUsed241": false,
+      "oldGroupId": null,
+      "matches": 403,
+      "inliers": 403,
+      "ratio": 1.0,
+      "coverageA": 0.90896739863928,
+      "coverageB": 0.90896739863928,
+      "flip": false,
+      "strongMatch": true,
+      "suspicious": true
+    },
+    {
+      "a": "new_maco_0343",
+      "b": "maco_round_PipeHBB00000343",
+      "hashDistance": 0,
+      "oldUsed241": false,
+      "oldGroupId": null,
+      "matches": 500,
+      "inliers": 500,
+      "ratio": 1.0,
+      "coverageA": 0.6436005476887672,
+      "coverageB": 0.6436005476887672,
+      "flip": false,
+      "strongMatch": true,
+      "suspicious": true
+    },
+    {
+      "a": "new_maco_0528",
+      "b": "maco_round_PipeHBB00000528",
+      "hashDistance": 0,
+      "oldUsed241": false,
+      "oldGroupId": null,
+      "matches": 500,
+      "inliers": 500,
+      "ratio": 1.0,
+      "coverageA": 0.9087703458743196,
+      "coverageB": 0.9087703458743196,
+      "flip": false,
+      "strongMatch": true,
+      "suspicious": true
+    },
+    {
+      "a": "new_maco_0780",
+      "b": "maco_round_PipeHBB00000780",
+      "hashDistance": 0,
+      "oldUsed241": false,
+      "oldGroupId": null,
+      "matches": 501,
+      "inliers": 501,
+      "ratio": 1.0,
+      "coverageA": 0.9025202699185367,
+      "coverageB": 0.9025202699185367,
+      "flip": false,
+      "strongMatch": true,
+      "suspicious": true
+    },
+    {
+      "a": "new_maco_0795",
+      "b": "maco_round_PipeHBB00000795",
+      "hashDistance": 0,
+      "oldUsed241": false,
+      "oldGroupId": null,
+      "matches": 500,
+      "inliers": 500,
+      "ratio": 1.0,
+      "coverageA": 0.8621025177292031,
+      "coverageB": 0.8621025177292031,
+      "flip": false,
+      "strongMatch": true,
+      "suspicious": true
+    }
+  ],
+  "flaggedNewPairs": [],
+  "method": "SIFT500/RANSAC allnew xallMACO1025 plusoldnon-round/derivednegative241 extras; canonical/originalpHash; mirroredSIFTforhash<=12. No learned detector.",
+  "oldHoldoutUse": "Spent old37 images only read for classical duplicate exclusion; no training, no model metrics, no newGT taken.",
+  "limits": "Not a proof of physicalscene independence; manual geography/source-family grouping required. Candidate selfmatches to unused MACO are expected.",
+  "exactByteAndRGBMatches": [
+    {
+      "new": "new_maco_0021",
+      "old": "maco_round_PipeHBB00000021",
+      "byteEqual": true,
+      "rgbEqual": true,
+      "used241": false
+    },
+    {
+      "new": "new_maco_0343",
+      "old": "maco_round_PipeHBB00000343",
+      "byteEqual": true,
+      "rgbEqual": true,
+      "used241": false
+    },
+    {
+      "new": "new_maco_0528",
+      "old": "maco_round_PipeHBB00000528",
+      "byteEqual": true,
+      "rgbEqual": true,
+      "used241": false
+    },
+    {
+      "new": "new_maco_0780",
+      "old": "maco_round_PipeHBB00000780",
+      "byteEqual": true,
+      "rgbEqual": true,
+      "used241": false
+    },
+    {
+      "new": "new_maco_0795",
+      "old": "maco_round_PipeHBB00000795",
+      "byteEqual": true,
+      "rgbEqual": true,
+      "used241": false
+    }
+  ],
+  "exactByteAndRGBChecked": true,
+  "reviewedConclusion": "No known old241 identity/byte/RGB/classicalregistration link found for proposed external/photos orunusedMACO21. FivecandidateMACO selfmatches to unusedoriginal are expected. Threeobviousnewpairedscene families are manuallyunioned despite noSIFTstrongedge; no physicalindependenceproofclaimed.",
+  "manualNewFamilies": [
+    [
+      "commons_018",
+      "commons_019"
+    ],
+    [
+      "commons_082",
+      "commons_091"
+    ],
+    [
+      "commons_124",
+      "commons_125"
+    ]
+  ],
+  "finalProposedIDs": [
+    "kaggle_009",
+    "kaggle_011",
+    "kaggle_012",
+    "kaggle_019",
+    "kaggle_023",
+    "commons_012",
+    "commons_041",
+    "commons_059",
+    "commons_069",
+    "commons_018",
+    "commons_019",
+    "commons_082",
+    "commons_091",
+    "commons_121",
+    "commons_124",
+    "commons_125",
+    "commons_129",
+    "commons_133",
+    "commons_145",
+    "github_005",
+    "new_maco_0021"
+  ]
+}

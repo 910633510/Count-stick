@@ -1,0 +1,50 @@
+{
+  "status": "PASS_FINITE_FORWARD_AND_CPU_MPS_COMPARISON",
+  "samples": [
+    {
+      "image": "7.jpg",
+      "truth": 13,
+      "prediction": 24.492002487182617,
+      "seconds": 0.9600577354431152,
+      "featureShape": [
+        1,
+        3,
+        6,
+        48,
+        48
+      ]
+    },
+    {
+      "image": "9.jpg",
+      "truth": 8,
+      "prediction": 6.491621017456055,
+      "seconds": 0.3256387710571289,
+      "featureShape": [
+        1,
+        3,
+        6,
+        48,
+        64
+      ]
+    },
+    {
+      "image": "19.jpg",
+      "truth": 9,
+      "prediction": 11.741987228393555,
+      "seconds": 0.13976764678955078,
+      "featureShape": [
+        1,
+        3,
+        6,
+        48,
+        64
+      ]
+    }
+  ],
+  "backendCheck": {
+    "image": "190.jpg",
+    "cpu": 60.34544372558594,
+    "mps": 60.34548568725586,
+    "absoluteDifference": 4.1961669921875e-05
+  }
+}

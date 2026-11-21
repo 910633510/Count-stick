@@ -1,0 +1,289 @@
+{
+  "status": "COMPLETED_ANONYMOUS_DOWNLOAD_AND_COLONY_RESEARCH_TRAINING",
+  "completedAtUTC": "2026-10-25T18:15:46Z",
+  "datasets": {
+    "colony": {
+      "source": "https://figshare.com/articles/dataset/Annotated_dataset_for_deep-learning-based_bacterial_colony_detection/22022540/3",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/datasets/colony-figshare-22022540-v3",
+      "downloadStatus": "COMPLETE_ALL_FILES_MD5_VERIFIED",
+      "files": 377,
+      "bytes": 641992356,
+      "originalImages": 369,
+      "originalAnnotations": 56865,
+      "usableImages": 366,
+      "allSourceMD5Verified": true,
+      "authenticationUsed": false,
+      "preparedSplits": {
+        "test": {
+          "images": 63,
+          "boxes": 11752
+        },
+        "val": {
+          "images": 56,
+          "boxes": 6831
+        },
+        "train": {
+          "images": 247,
+          "boxes": 37611
+        }
+      },
+      "quarantinedImages": [
+        "sp22_img09.jpg",
+        "sp23_img15.jpg",
+        "sp09_img07.jpg"
+      ],
+      "exifNormalizedImages": 57,
+      "clippedBoxes": 29
+    },
+    "fsc147": {
+      "source": "https://github.com/cvlab-stonybrook/LearningToCountEverything",
+      "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/datasets/fsc147",
+      "downloadStatus": "DOWNLOADED_ANONYMOUSLY",
+      "archiveBytes": 1533803725,
+      "archiveSHA256": "4f9eff24c39f956d614abdb8888f9f7ae84cce92f81842e4159de45cd54d965f",
+      "archiveCRCVerified": true,
+      "officialSplitImages": 6135,
+      "totalArchiveImages": 6146,
+      "pointAnnotations": 343693,
+      "officialSplitCounts": {
+        "train": 3659,
+        "val": 1286,
+        "test": 1190
+      },
+      "densityMapDiscrepancies": [
+        {
+          "name": "3471.jpg",
+          "points": 78,
+          "densitySum": 77.00001525878906,
+          "difference": -0.9999847412109375
+        },
+        {
+          "name": "3477.jpg",
+          "points": 344,
+          "densitySum": 12.99999713897705,
+          "difference": -331.00000286102295
+        }
+      ],
+      "authenticationUsed": false,
+      "reason": "Separate few-shot point/density-counting task; not mixed into colony bounding-box training.",
+      "trainedByColonyPipeline": false,
+      "separateFineTuningCompleted": true,
+      "separateReport": "ml/fsc147/reports/20261025/summary.json"
+    }
+  },
+  "training": {
+    "candidate": "colony-yolo11n-v2-cpuassign",
+    "class": "colony (all24 source species collapsed)",
+    "epochsCompleted": 20,
+    "seconds": 1563.2548689842224,
+    "imageSize": 1024,
+    "modelDevice": "Apple MPS",
+    "targetAssignmentDevice": "CPU; unmodified original algorithm with transfer equivalence check",
+    "weights": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/training-20261025/runs/colony-yolo11n-v2-cpuassign/weights/best.pt",
+    "weightsSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+    "testInferenceDevice": "CPU",
+    "pipeline": "automatic4tile",
+    "confidence": 0.3,
+    "nmsIoU": 0.7,
+    "modelAndThresholdFrozenBeforeTest": true,
+    "testUsedForRetraining": false
+  },
+  "test": {
+    "images": 63,
+    "groundTruthObjects": 11752,
+    "confidence": 0.3,
+    "nmsIoU": 0.7,
+    "matchIoU": 0.5,
+    "TP": 10796,
+    "FP": 837,
+    "FN": 956,
+    "precision": 0.928049514312731,
+    "recall": 0.9186521443158612,
+    "countMAE": 13.031746031746032,
+    "countRMSE": 20.02973979337915,
+    "countBias": -1.8888888888888888,
+    "exactCountImages": 5,
+    "exactCountRate": 0.07936507936507936,
+    "within10PercentImages": 42,
+    "trainingMedianCountBaselineMAE": 142.93650793650792,
+    "sizeRecall": {
+      "under16px": {
+        "groundTruth": 2325,
+        "truePositives": 2071,
+        "recall": 0.890752688172043
+      },
+      "16to32px": {
+        "groundTruth": 8521,
+        "truePositives": 8255,
+        "recall": 0.9687830066893557
+      },
+      "over32px": {
+        "groundTruth": 906,
+        "truePositives": 470,
+        "recall": 0.5187637969094923
+      }
+    },
+    "AP50": 0.9428682797583675,
+    "AP50_95": 0.6030594758844651,
+    "AP75": 0.7330143074909268,
+    "method": "Ultralytics BaseValidator matching + ap_per_class on saved predictions at IoU0.50:0.95; max1000 detections/image",
+    "status": "COMPLETED_UNSEEN_SPECIES_TEST",
+    "evaluationDevice": "cpu",
+    "pipeline": "automatic4tile",
+    "modelSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+    "manifestSHA256": "f28b0409993893f4874845c77a06207a5f98f5c620b1a5b478b733de64e1d8fa",
+    "testSpecies": [
+      8,
+      17,
+      21
+    ],
+    "F1": 0.9233269189651486,
+    "scope": "Frozen same-study unseen-species research test; no physical-device, phone-photo or production acceptance.",
+    "perSpecies": {
+      "sp08": {
+        "images": 12,
+        "countMAE": 25.833333333333332,
+        "truth": 368,
+        "TP": 33,
+        "FP": 25,
+        "FN": 335
+      },
+      "sp17": {
+        "images": 3,
+        "countMAE": 31.333333333333332,
+        "truth": 224,
+        "TP": 106,
+        "FP": 24,
+        "FN": 118
+      },
+      "sp21": {
+        "images": 48,
+        "countMAE": 8.6875,
+        "truth": 11160,
+        "TP": 10657,
+        "FP": 788,
+        "FN": 503
+      }
+    },
+    "within10PercentOrOneObjectImages": 43,
+    "meanAbsolutePercentageError": 0.21538788063913386,
+    "speciesMacroRecall": 0.5059388380566502,
+    "speciesObjectShare": {
+      "sp08": 0.031313818924438394,
+      "sp17": 0.01906058543226685,
+      "sp21": 0.9496255956432947
+    },
+    "generalizationAssessment": "NOT_READY_FOR_GENERAL_COLONY_DEPLOYMENT: strong aggregate detection is dominated by sp21, while sp08/sp17 have substantial missed colonies. Tiling improves overall detection but does not improve test count MAE over the frozen whole-image reference."
+  },
+  "wholeImageReference": {
+    "images": 63,
+    "groundTruthObjects": 11752,
+    "confidence": 0.3,
+    "nmsIoU": 0.7,
+    "matchIoU": 0.5,
+    "TP": 10760,
+    "FP": 1085,
+    "FN": 992,
+    "precision": 0.908400168847615,
+    "recall": 0.9155888359428183,
+    "countMAE": 11.634920634920634,
+    "countRMSE": 15.658559199060308,
+    "countBias": 1.4761904761904763,
+    "exactCountImages": 4,
+    "exactCountRate": 0.06349206349206349,
+    "within10PercentImages": 48,
+    "trainingMedianCountBaselineMAE": 142.93650793650792,
+    "sizeRecall": {
+      "under16px": {
+        "groundTruth": 2325,
+        "truePositives": 1801,
+        "recall": 0.7746236559139785
+      },
+      "16to32px": {
+        "groundTruth": 8521,
+        "truePositives": 8315,
+        "recall": 0.9758244337519071
+      },
+      "over32px": {
+        "groundTruth": 906,
+        "truePositives": 644,
+        "recall": 0.7108167770419426
+      }
+    },
+    "AP50": 0.9355466230895053,
+    "AP50_95": 0.5715136552513362,
+    "AP75": 0.6688721513164972,
+    "method": "Ultralytics BaseValidator matching + ap_per_class on saved predictions at IoU0.50:0.95; max1000 detections/image",
+    "within10PercentOrOneObjectImages": 49,
+    "meanAbsolutePercentageError": 0.15341850351829112
+  },
+  "coreML": {
+    "preferredResearchPackage": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/models/CountScope-Colony-v1-fp32/CountScopeColony1024.mlpackage",
+    "preferredPrecision": "FP32",
+    "selectedTiledPipelineCountSmokeParity": [
+      {
+        "image": "sp09_img01.jpg",
+        "torchCount": 14,
+        "coreMLCount": 14,
+        "countDifference": 0
+      },
+      {
+        "image": "sp04_img06.jpg",
+        "torchCount": 56,
+        "coreMLCount": 56,
+        "countDifference": 0
+      },
+      {
+        "image": "sp13_img06.jpg",
+        "torchCount": 638,
+        "coreMLCount": 638,
+        "countDifference": 0
+      }
+    ],
+    "wholeImageCountSmokeParity": [
+      {
+        "image": "sp09_img01.jpg",
+        "torchCount": 5,
+        "coreMLCount": 5,
+        "countDifference": 0
+      },
+      {
+        "image": "sp04_img06.jpg",
+        "torchCount": 56,
+        "coreMLCount": 56,
+        "countDifference": 0
+      },
+      {
+        "image": "sp13_img06.jpg",
+        "torchCount": 518,
+        "coreMLCount": 524,
+        "countDifference": 6
+      }
+    ],
+    "fullRuntimeParityEstablished": false,
+    "iphoneTested": false,
+    "fp16PackageRetained": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/models/CountScope-Colony-v1-fp16/CountScopeColony1024.mlpackage"
+  },
+  "assessment": {
+    "generalColonyDeploymentReady": false,
+    "findings": [
+      "Test sp21 contributes about94.96percent of ground-truth objects, so aggregate AP and recall hide weak performance on sp08 and sp17.",
+      "Selected tiling reduced validation countMAE from25.68 to15.27; on heldout test its countMAE13.03 is worse than the frozen whole-image reference11.63 despite better detection metrics. Primary pipeline was not switched using test results.",
+      "Large fuzzy/low-contrast colonies have substantial missed detections. Original and failed experiments remain preserved.",
+      "CoreML export runs on Mac; three selected tiled validation counts match in FP32, but whole-image inference still differs by up to6 counts. No iPhone or field-photo acceptance."
+    ],
+    "nextDataNeeds": [
+      "Large diffuse/low-contrast colony morphologies",
+      "Empty plates, bubbles, writing and reflections as negatives",
+      "Independent capture batches/cameras for a new untouched test set"
+    ]
+  },
+  "shippingAppSourceMatchesBuild4Freeze": true,
+  "shippingModelReplaced": false,
+  "storeStateChanged": false,
+  "checks": {
+    "savedPredictionCountArithmetic": true,
+    "modelAndDatasetSHA256": true,
+    "coreMLPackageSHA256": true
+  }
+}

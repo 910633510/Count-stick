@@ -1,0 +1,53 @@
+{
+  "status": "PASS_ROOT_FRESH_DATA_FREEZE_QA",
+  "createdUTC": "2026-10-26T14:53:08.187417+00:00",
+  "summary": {
+    "train": {
+      "images": 42,
+      "positiveImages": 8,
+      "negativeImages": 34,
+      "groups": 14,
+      "objects": 20
+    },
+    "val": {
+      "images": 7,
+      "positiveImages": 3,
+      "negativeImages": 4,
+      "groups": 7,
+      "objects": 27
+    },
+    "test": {
+      "images": 20,
+      "positiveImages": 10,
+      "negativeImages": 10,
+      "groups": 20,
+      "objects": 53
+    }
+  },
+  "fullManifestPath": "output/datasets/pipe-ends-hardening-v1/manifest.json",
+  "fullManifestSHA256": "a4d64c40cf66779541d9edcdd0284c79712dcf4b465449129dfd2a40804eda50",
+  "trainValManifestPath": "output/datasets/pipe-ends-hardening-v1/train-val-manifest.json",
+  "trainValManifestSHA256": "680de25252f1d9cf91f335b0bdea6b42e18a9fbfe6d4db74ef0cbb41f65d29e8",
+  "identityOnlyPath": "output/datasets/pipe-ends-hardening-v1/identity-only.json",
+  "identityOnlySHA256": "95869b2ec8cd56bf4af186327c5978d66c3a8a47e616269e15d58df82f9e52d1",
+  "helperManifestCopyPath": "output/pipes-20261026/hardening-fresh-val-source/hardening-train-val-manifest.json",
+  "reviewBindings": {
+    "ml/pipes-hardening-20261026/data/positives/positive-qa.json": "5e822694d1940b2c774f82edc48dc794b2338bdf844954dbcfd14c1a2c625ac2",
+    "ml/pipes-hardening-20261026/data/positives/root-annotations-independent-review.json": "d59e84f7db5f9c2d154fb62f2ff5c612580f3a99339a4490615e2d6920e494e0",
+    "ml/pipes-hardening-20261026/data/positives/general-annotations-independent-review.json": "22e553093a569de20381e38f80890c81b861580ea877abed57b1e073c2f813b1",
+    "ml/pipes-hardening-20261026/data/negatives/negative-data-qa-v2.json": "a8bb04460ce6dbdf3ed75de6351c8ac9fe2076e8d6b71a8b7a46b0bb79109614",
+    "ml/pipes-hardening-20261026/data/positives/positive-proposal.json": "029cd02e27858b661c53cb218b7ccb83b1765dc777286ac75c75605bce79b6ba",
+    "output/pipes-hardening-20261026/data/negatives/negative-candidates-v2.json": "4ba65082e727bc86c0c6e22937b9d69d62cbc153e2157a728bd904331e1dba8c"
+  },
+  "checks": [
+    "69 identities unique; coordinates/counts/hash/RGB/EXIF valid",
+    "all20 human new positive annotations independently reviewed; MACO21 count17 separately reviewed",
+    "32 crop pixels exactly equal unmasked parent rectangles, train only",
+    "no old241 byte/RGB/group or crop-parent overlap",
+    "cross-split group/file/RGB/parent identities exclusive",
+    "fresh-val bridge copies byte-identical",
+    "no recognition model run on fresh data before freeze"
+  ],
+  "old37Policy": "Preserved historical failure; no images or GT in new training/selection.",
+  "newTrainingPerformed": false
+}

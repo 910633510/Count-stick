@@ -1,0 +1,683 @@
+{
+  "status": "COMPLETED_PRIMARY_CODE_RESEARCH_NO_NEW_TRAINING",
+  "createdUTC": "2026-10-26T05:18:27Z",
+  "scope": {
+    "newTraining": false,
+    "environmentUpgrades": false,
+    "newModelInference": false,
+    "modelWeightsDownloaded": false,
+    "sealed36Read": false,
+    "oldExperimentsModified": false,
+    "AppOrASCModified": false,
+    "onlyNewResearchArtifactsWritten": true
+  },
+  "starMetadataSource": "ml/github-research-20261026/github-metadata.json",
+  "starMetadataSHA256": "cc84490a4c7fc877fa3eb97b9d5fdee6abe454c508846f007331ec92b82752dd",
+  "starInterpretation": "Popularity snapshot is not counting accuracy, maintenance quality, safety, or mobile performance. Niche counting implementations below1000stars are explicitly not calledhigh-star.",
+  "repoAssessments": [
+    {
+      "repository": "IDEA-Research/GroundingDINO",
+      "url": "https://github.com/IDEA-Research/GroundingDINO",
+      "stars": 10703,
+      "starsAsOfUTC": "2026-10-26T04:44:11.813346+00:00",
+      "starCategory": "高星通用基础库（本报告以≥10000为分组阈值）",
+      "commit": "856dde20aee659246248e20734ef9ba5214f5e44",
+      "lastCommitDate": "2024-08-12T08:52:02Z",
+      "snapshotDirectory": "output/github-research-20261026/general/IDEA-Research__GroundingDINO/source",
+      "recommendedRole": "优先作为离线文本引导检测/标注建议器，和小型端侧学生模型分开评估。",
+      "newRuntimeTestPerformed": false,
+      "inferenceContract": {
+        "inputs": "image + target text; no example boxes required",
+        "semanticTargetSelection": true,
+        "automaticObjectRegions": true,
+        "output": "Up to900query boxes with per-token similarity; count follows selection/filtering, not an explicit calibrated counting head.",
+        "negativePromptSemantics": "Official predict applies positive token thresholds. A sentence containing not/reflection is not an implemented negative-concept competition API."
+      },
+      "trainingAndLabels": {
+        "trainingCodeInPinnedRepo": "README training-code TODO remains unchecked. Do not promise turnkey finetuning from this repository.",
+        "annotationUse": "Produces bbox+phrase proposals. Reviewed full boxes/classes can train the existing small detector; no pixel masks are produced by GroundingDINO itself.",
+        "zeroAnnotationClaim": "Pretrained open-set inference needs no user boxes, but target-domain accuracy/absence rejection still need labeled validation."
+      },
+      "negativeAndMixedSceneLimits": [
+        "Language specifies the intended class in mixed scenes; it does not establish reliable counting of novel parts such as skewer tips or pipe openings.",
+        "A fixed box/text similarity threshold is not a verified absence detector for glare, condensation or empty dishes.",
+        "900queries and800/1333resize can limit dense tiny-object counting; generic object boxes may cover an entire bundle rather than each endpoint."
+      ],
+      "runtime": {
+        "CPU": "Official non-CUDA path calls pure-PyTorch multi_scale_deformable_attn_pytorch; setup returns no extension when CUDA unavailable.",
+        "MPS": "Static non-CUDA branch can select PyTorch grid_sample path, but end-to-end MPS/numerical/operation support was not tested.",
+        "CUDA": "Uses compiled groundingdino._C when CUDA tensor path selected. Missing _C can still fail on CUDA despite import warning.",
+        "officialWeightAssetsBytes": {
+          "SwinT": 693997677,
+          "SwinB": 938057991
+        },
+        "assetEvidence": "output/github-research-20261026/general/IDEA-Research__GroundingDINO/official-weight-metadata.json",
+        "mobile": "Hundreds-of-MB checkpoints plus text encoder and deformable attention; no CoreML/iPhone acceptance. Prefer an offline teacher."
+      },
+      "evidence": [
+        {
+          "file": "README.md",
+          "line": 100,
+          "localPath": "output/github-research-20261026/general/IDEA-Research__GroundingDINO/source/README.md",
+          "sha256": "d69cf3fd022661e6be19c56a421020f3ee9e027375020ef6a3def0149ddf9595",
+          "url": "https://github.com/IDEA-Research/GroundingDINO/blob/856dde20aee659246248e20734ef9ba5214f5e44/README.md#L100-L112"
+        },
+        {
+          "file": "README.md",
+          "line": 115,
+          "localPath": "output/github-research-20261026/general/IDEA-Research__GroundingDINO/source/README.md",
+          "sha256": "d69cf3fd022661e6be19c56a421020f3ee9e027375020ef6a3def0149ddf9595",
+          "url": "https://github.com/IDEA-Research/GroundingDINO/blob/856dde20aee659246248e20734ef9ba5214f5e44/README.md#L115-L127"
+        },
+        {
+          "file": "groundingdino/util/inference.py",
+          "line": 53,
+          "localPath": "output/github-research-20261026/general/IDEA-Research__GroundingDINO/source/groundingdino/util/inference.py",
+          "sha256": "0c06c5dd2fa46ae89a9fa376c0eaa383d12e7fc21aa65d662bcf3e758d26b598",
+          "url": "https://github.com/IDEA-Research/GroundingDINO/blob/856dde20aee659246248e20734ef9ba5214f5e44/groundingdino/util/inference.py#L53-L93"
+        },
+        {
+          "file": "groundingdino/models/GroundingDINO/ms_deform_attn.py",
+          "line": 330,
+          "localPath": "output/github-research-20261026/general/IDEA-Research__GroundingDINO/source/groundingdino/models/GroundingDINO/ms_deform_attn.py",
+          "sha256": "42aa71c7c47e6f930f48100924393adac95eb94aae0eef779bd7cad2d5bcc95d",
+          "url": "https://github.com/IDEA-Research/GroundingDINO/blob/856dde20aee659246248e20734ef9ba5214f5e44/groundingdino/models/GroundingDINO/ms_deform_attn.py#L330-L360"
+        },
+        {
+          "file": "setup.py",
+          "line": 97,
+          "localPath": "output/github-research-20261026/general/IDEA-Research__GroundingDINO/source/setup.py",
+          "sha256": "6b5f6f43981f1dc0d3578e75dd0490caf74a1d27e6b1c906694ea85fcd6ad864",
+          "url": "https://github.com/IDEA-Research/GroundingDINO/blob/856dde20aee659246248e20734ef9ba5214f5e44/setup.py#L97-L104"
+        }
+      ]
+    },
+    {
+      "repository": "facebookresearch/dinov2",
+      "url": "https://github.com/facebookresearch/dinov2",
+      "stars": 13471,
+      "starsAsOfUTC": "2026-10-26T04:44:11.813346+00:00",
+      "starCategory": "高星通用基础库（本报告以≥10000为分组阈值）",
+      "commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "lastCommitDate": "2026-06-03T15:28:49Z",
+      "snapshotDirectory": "output/github-research-20261026/general/facebookresearch__dinov2/source",
+      "recommendedRole": "优先做冻结特征、训练集困难样本检索、正负实例验证/教师特征；不是直接计数器。",
+      "newRuntimeTestPerformed": false,
+      "inferenceContract": {
+        "baseModelInput": "image only",
+        "baseModelOutput": "Class token + patch tokens; optional4register tokens; patch14.",
+        "baseSemanticTargetSelection": false,
+        "counterOrInstanceHeadProvided": false,
+        "optionalTextExtension": "dino.txt is a separate ViT-L/14-register+vision/text-head route for image/pixel language alignment; it still does not supply an instance counter."
+      },
+      "trainingAndLabels": {
+        "pretraining": "Self-supervised image crops require no human annotations; original large-scale training is a distributed GPU/xFormers/FSDP workflow, not a small current-dataset recipe.",
+        "downstream": "Crop positive/negative labels for a feature verifier; point/density or complete bbox labels for a counting/detection head; reviewed masks only if training segmentation.",
+        "proposedUse": "Keep features frozen first. Use reviewed training-only colony/glare/print/bubble crops to inspect separability and mine disagreements, not unreviewed pseudo-labels."
+      },
+      "runtime": {
+        "sizesPublishedParameters": {
+          "ViT_S14": 21000000,
+          "ViT_B14": 86000000,
+          "ViT_L14": 300000000,
+          "ViT_g14": 1100000000
+        },
+        "publicBackboneWeights": "Anonymous official dl.fbaipublicfiles URLs exist for standard DINOv2. No weights fetched this round.",
+        "CPU": "MemEffAttention falls back to torch scaled_dot_product_attention if xFormers disabled/unavailable and no attention bias.",
+        "MPS": "Potential for plain single-tensor feature extraction after device placement; unverified here. Nested-list training path requires xFormers.",
+        "environment": "Pinned attention.py includes float|None type annotations without postponed evaluation; current project Python3.9 environment is not a safe drop-in target. Use a separate supported environment in a future authorized probe.",
+        "mobile": "ViT-S21M≈42MB fp16 parameter-only estimate, excluding heads/activations. Even smallest backbone is much larger than current tiny detector; CoreML conversion/latency unknown."
+      },
+      "risks": [
+        "Patch14 resolution can erase very small endpoints/colonies; dense features need crop/scale evaluation.",
+        "Feature similarity is not a probability of biological growth or proof of zero objects.",
+        "Cell-DINO is fluorescence-microscopy embedding code; do not substitute it for macroscopic Petri-dish colony counting merely because its name contains Cell."
+      ],
+      "evidence": [
+        {
+          "file": "MODEL_CARD.md",
+          "line": 13,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov2/source/MODEL_CARD.md",
+          "sha256": "70ca59606bee0a5fbb1baec80e7e29a93cd7cfbe26ca1910c52a852c4aab09d0",
+          "url": "https://github.com/facebookresearch/dinov2/blob/7764ea0f912e53c92e82eb78a2a1631e92725fc8/MODEL_CARD.md#L13-L31"
+        },
+        {
+          "file": "README.md",
+          "line": 54,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov2/source/README.md",
+          "sha256": "d1bc2e9686522bbd66ed6123dc81eb36b3a98e8ea9a2ca97778f54a1c641c9e1",
+          "url": "https://github.com/facebookresearch/dinov2/blob/7764ea0f912e53c92e82eb78a2a1631e92725fc8/README.md#L54-L66"
+        },
+        {
+          "file": "dinov2/layers/attention.py",
+          "line": 21,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov2/source/dinov2/layers/attention.py",
+          "sha256": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+          "url": "https://github.com/facebookresearch/dinov2/blob/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/attention.py#L21-L36"
+        },
+        {
+          "file": "dinov2/layers/attention.py",
+          "line": 84,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov2/source/dinov2/layers/attention.py",
+          "sha256": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+          "url": "https://github.com/facebookresearch/dinov2/blob/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/layers/attention.py#L84-L99"
+        },
+        {
+          "file": "dinov2/train/ssl_meta_arch.py",
+          "line": 118,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov2/source/dinov2/train/ssl_meta_arch.py",
+          "sha256": "a97cdcc721e9312f5e088f78257dbbeb98cb3af40e3e3b975aefbd6bfd1996c4",
+          "url": "https://github.com/facebookresearch/dinov2/blob/7764ea0f912e53c92e82eb78a2a1631e92725fc8/dinov2/train/ssl_meta_arch.py#L118-L124"
+        },
+        {
+          "file": "README.md",
+          "line": 395,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov2/source/README.md",
+          "sha256": "d1bc2e9686522bbd66ed6123dc81eb36b3a98e8ea9a2ca97778f54a1c641c9e1",
+          "url": "https://github.com/facebookresearch/dinov2/blob/7764ea0f912e53c92e82eb78a2a1631e92725fc8/README.md#L395-L430"
+        }
+      ]
+    },
+    {
+      "repository": "facebookresearch/dinov3",
+      "url": "https://github.com/facebookresearch/dinov3",
+      "stars": 11629,
+      "starsAsOfUTC": "2026-10-26T04:44:11.813346+00:00",
+      "starCategory": "高星通用基础库（本报告以≥10000为分组阈值）",
+      "commit": "6876159a11b4df116f30f667f8c9888617df0751",
+      "lastCommitDate": "2026-07-15T13:56:56Z",
+      "snapshotDirectory": "output/github-research-20261026/general/facebookresearch__dinov3/source/dinov3-6876159a11b4df116f30f667f8c9888617df0751",
+      "recommendedRole": "后续冻结特征教师候选；本轮优先已有公开权重的DINOv2，避免为新模型扩大环境和访问流程。",
+      "newRuntimeTestPerformed": false,
+      "inferenceContract": {
+        "inputs": "image",
+        "output": "Dense/class/register features; ViT patch16 or ConvNeXt multi-scale features. No direct count or arbitrary target-text selection in base backbone.",
+        "counterProvided": false
+      },
+      "trainingAndLabels": {
+        "pretraining": "Large-scale self-supervised/distillation workflow; not training from59boxes.",
+        "downstream": "Same need for reviewed crop classes/points/boxes/masks according to the chosen downstream task."
+      },
+      "runtime": {
+        "officialSmallModelParameters": {
+          "ViT_S16": 21000000,
+          "ViT_Splus16": 29000000,
+          "ConvNeXt_Tiny": 29000000
+        },
+        "weightsAccess": "Official README requests model access and then emailed URLs; not requested/downloaded here.",
+        "attention": "Plain torch.scaled_dot_product_attention+RoPE exists; no demonstrated end-to-end MPS/CoreML conversion.",
+        "environment": "Pyproject tooling targetsPython3.11; source also uses PEP604 annotations. Do not upgrade existing training venv as a side effect.",
+        "mobile": "ConvNeXt Tiny may be structurally easier to export than deformable text detectors, but29M parameters is not a proven mobile counter; requires a head and measured device tests."
+      },
+      "evidence": [
+        {
+          "file": "README.md",
+          "line": 44,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov3/source/dinov3-6876159a11b4df116f30f667f8c9888617df0751/README.md",
+          "sha256": "da4e6e2fa1f2580be9a782338dc108ae68f98b6c9d10636583f97d8a340e664d",
+          "url": "https://github.com/facebookresearch/dinov3/blob/6876159a11b4df116f30f667f8c9888617df0751/README.md#L44-L53"
+        },
+        {
+          "file": "MODEL_CARD.md",
+          "line": 18,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov3/source/dinov3-6876159a11b4df116f30f667f8c9888617df0751/MODEL_CARD.md",
+          "sha256": "5df24b62906d899688882146c5ff4ca066391205c5350a9b85dbcb485b2d07c8",
+          "url": "https://github.com/facebookresearch/dinov3/blob/6876159a11b4df116f30f667f8c9888617df0751/MODEL_CARD.md#L18-L23"
+        },
+        {
+          "file": "MODEL_CARD.md",
+          "line": 390,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov3/source/dinov3-6876159a11b4df116f30f667f8c9888617df0751/MODEL_CARD.md",
+          "sha256": "5df24b62906d899688882146c5ff4ca066391205c5350a9b85dbcb485b2d07c8",
+          "url": "https://github.com/facebookresearch/dinov3/blob/6876159a11b4df116f30f667f8c9888617df0751/MODEL_CARD.md#L390-L404"
+        },
+        {
+          "file": "dinov3/layers/attention.py",
+          "line": 116,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov3/source/dinov3-6876159a11b4df116f30f667f8c9888617df0751/dinov3/layers/attention.py",
+          "sha256": "dfc21def6ba17d00cba18ea23a8726e7f1dd5a0dc8e43510852c999a173d37a8",
+          "url": "https://github.com/facebookresearch/dinov3/blob/6876159a11b4df116f30f667f8c9888617df0751/dinov3/layers/attention.py#L116-L120"
+        },
+        {
+          "file": "pyproject.toml",
+          "line": 2,
+          "localPath": "output/github-research-20261026/general/facebookresearch__dinov3/source/dinov3-6876159a11b4df116f30f667f8c9888617df0751/pyproject.toml",
+          "sha256": "cf824ad91feca6d30f941f4cda3d0bc29d1c81fe6563e10a6f72167012f53dff",
+          "url": "https://github.com/facebookresearch/dinov3/blob/6876159a11b4df116f30f667f8c9888617df0751/pyproject.toml#L2-L4"
+        }
+      ]
+    },
+    {
+      "repository": "niki-amini-naieni/CountGD",
+      "url": "https://github.com/niki-amini-naieni/CountGD",
+      "stars": 338,
+      "starsAsOfUTC": "2026-10-26T04:44:11.813346+00:00",
+      "starCategory": "专项论文实现，非高星通用库",
+      "commit": "b6f362b3f5cd20db4a171faa410dfed8f2f466d8",
+      "lastCommitDate": "2025-06-25T15:34:41Z",
+      "snapshotDirectory": "output/github-research-20261026/general/niki-amini-naieni__CountGD/source",
+      "recommendedRole": "离线文本计数基线；可提供中心候选，不能直接把其框边界当精确标注。",
+      "newRuntimeTestPerformed": false,
+      "publication": "NeurIPS2024",
+      "inferenceContract": {
+        "textOnlyNoHumanExamples": true,
+        "mode": "Text-only is available; multimodal mode also accepts visual exemplars.",
+        "exampleCLI": "single_image_inference.py accepts --text and default empty exemplar input.",
+        "output": "Count/object center candidates via900queries; shape/boundary quality differs from count quality."
+      },
+      "trainingAndLabels": {
+        "supervision": "FSC-style object centers plus text and a few exemplar boxes. Actual loss_boxes uses only cx/cy L1; default giou_loss_coef=0.",
+        "masksRequired": false,
+        "fullBBoxInterpretation": "Do not convert these predicted boxes directly to segmentation gold masks; the original model is primarily center-supervised.",
+        "trainingRelease": "Official training.md links an external training archive; source says high-count RMSE varies between runs and adaptive cropping is used."
+      },
+      "negativeAndMixedSceneLimits": [
+        "Target text supports semantic class choice, but there is no CountGD++-style explicit competing-negative interface in this version.",
+        "Few-shot/exemplar benchmarks are not interchangeable with text-only/no-human-box product requirements.",
+        "Default900query capacity and dense crops must be measured by density bucket; generic averageMAE does not prove empty-plate rejection."
+      ],
+      "runtime": {
+        "authorCheckpointApproxBytes": 1200000000,
+        "sizeIsREADMEApproximation": true,
+        "architecture": "Swin-B + BERT, optional SAM ViT-H normalization",
+        "CUDA": "single_image_inference.py hardcodes .cuda; custom attention calls MSDeformAttnFunction; setup raises without CUDA.",
+        "CPU_MPS": "Not turnkey despite device arguments; no run performed.",
+        "mobile": "Offline teacher/proposal model; no demonstrated iPhone/CoreML route."
+      },
+      "evidence": [
+        {
+          "file": "single_image_inference.py",
+          "line": 151,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGD/source/single_image_inference.py",
+          "sha256": "a3f60608916a3429b82ce6e239053aa61978e8b83b1c8806bf82b9481b924223",
+          "url": "https://github.com/niki-amini-naieni/CountGD/blob/b6f362b3f5cd20db4a171faa410dfed8f2f466d8/single_image_inference.py#L151-L161"
+        },
+        {
+          "file": "models/GroundingDINO/groundingdino.py",
+          "line": 555,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGD/source/models/GroundingDINO/groundingdino.py",
+          "sha256": "df8dfd569c1b91d70702e967b63618ff87a1fbf8d058f39bb09b11e6b1349a7c",
+          "url": "https://github.com/niki-amini-naieni/CountGD/blob/b6f362b3f5cd20db4a171faa410dfed8f2f466d8/models/GroundingDINO/groundingdino.py#L555-L566"
+        },
+        {
+          "file": "config/cfg_fsc147_vit_b.py",
+          "line": 97,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGD/source/config/cfg_fsc147_vit_b.py",
+          "sha256": "6dbe551953979dc4c658dc4073cd200e33b888d7c6f93eec4f78f2dde1b1c859",
+          "url": "https://github.com/niki-amini-naieni/CountGD/blob/b6f362b3f5cd20db4a171faa410dfed8f2f466d8/config/cfg_fsc147_vit_b.py#L97-L101"
+        },
+        {
+          "file": "training.md",
+          "line": 3,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGD/source/training.md",
+          "sha256": "26d2792d17752701a74aa6354fc83b01f3009cd8d10bdc758cbe14884b209597",
+          "url": "https://github.com/niki-amini-naieni/CountGD/blob/b6f362b3f5cd20db4a171faa410dfed8f2f466d8/training.md#L3-L3"
+        },
+        {
+          "file": "models/GroundingDINO/ops/setup.py",
+          "line": 49,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGD/source/models/GroundingDINO/ops/setup.py",
+          "sha256": "9675fc02e522204d6f3af59dca6dcad00b59a8b2b192e30e54f3e04279e279f2",
+          "url": "https://github.com/niki-amini-naieni/CountGD/blob/b6f362b3f5cd20db4a171faa410dfed8f2f466d8/models/GroundingDINO/ops/setup.py#L49-L52"
+        }
+      ]
+    },
+    {
+      "repository": "niki-amini-naieni/CountGDPlusPlus",
+      "url": "https://github.com/niki-amini-naieni/CountGDPlusPlus",
+      "stars": 72,
+      "starsAsOfUTC": "2026-10-26T04:44:11.813346+00:00",
+      "starCategory": "专项论文实现，非高星通用库",
+      "commit": "8489f836d75eb407ae778c56cff1f72cc6f8baae",
+      "lastCommitDate": "2026-08-22T13:42:24Z",
+      "snapshotDirectory": "output/github-research-20261026/general/niki-amini-naieni__CountGDPlusPlus/source",
+      "recommendedRole": "优先研究的专项离线教师：正负概念、一次性外部样例及自动伪样例，比单纯继续微调当前计数头更贴近目标语义问题。",
+      "newRuntimeTestPerformed": false,
+      "publication": "CVPR2026; official author README citation and CVF supplemental publication corroborate venue.",
+      "inferenceContract": {
+        "humanExampleBoxesRequired": false,
+        "targetTextStillRequiredForTextOnly": true,
+        "negativeTextSupported": true,
+        "negativeVisualExamplesSupported": true,
+        "externalExamples": "Reviewed exemplar banks from other TRAIN images can be reused across photos, avoiding per-photo user boxes.",
+        "filter": "Keep a query only if positive similarity exceeds confidence threshold AND exceeds every negative similarity. Use structured positive/negative concepts, not merely natural-language not.",
+        "pseudoExamples": "Predicted high-score boxes can be fed back automatically; potential error amplification must be tested on glare and minority target morphology.",
+        "demoVsPaper": "README explicitly says Gradio demo omits pseudo-exemplars and adaptive cropping. Published text-only FSCD command uses synthetic+pseudo exemplars and crop; do not assign full paper scores to demo."
+      },
+      "trainingAndLabels": {
+        "labels": "All target-instance centers and class/text labels; few exemplar boxes add weak width/height/GIoU supervision. Multiple class mosaics allow competing concept supervision; masks not required.",
+        "actualTrainingSourceRead": true,
+        "packageSource": "OfficialREADME external trainingZIP; selectiveHTTPRange extraction only, no model weights downloaded.",
+        "trainingRecipeInArchive": "train.sh→config/countgd_box_a.py:30epochs,batch4,900queries,frozenSwin/BERT,classification2,center/size5,GIoU2. This is not a recommendation to repeat it on our small set.",
+        "zeroTargetHandling": "Training engine explicitly handles zero exemplar sets; criterion clamps num_boxes at1. All-empty GT batches and new distractor schemas still need future finite-loss/gradient tests before adaptation.",
+        "hardNegativeAdaptation": "To teach explicit glare/bubble/print concepts, curate reviewed distractor regions/classes as well as full-image target-absent plates. Do not assume generic FSC mosaics already cover colony glare."
+      },
+      "runtime": {
+        "authorCheckpointApproxBytes": 1250000000,
+        "architecture": "Swin-B+bert-base-uncased,800/1333resize,900queries; external images and pseudo-exemplar iterations add passes.",
+        "CUDA": "Customattention always callsMSDeformAttnFunction; extension setup raises when CUDA absent. A CPU-selection helper in process_folder does not make whole model CPU/MPS-ready.",
+        "paperExtraCost": "README reproduction uses precomputed synthetic exemplars and super-resolution crops; it states the cited super-resolution service is not free. No paid service or image generation was used here.",
+        "mobile": "Offline only at present. No locally measured runtime, memory, or CoreML success."
+      },
+      "paperSpecificEvidence": {
+        "url": "https://arxiv.org/html/2512.23351v2",
+        "brief": "Author method combines center labels, exemplar box geometry and contrastive class prompts. Training adds1000multi-class mosaics; image/text encoders stay frozen. Pseudo-exemplars remove per-image manual boxes, but text still specifies target."
+      },
+      "trainingArchiveEvidence": {
+        "receipt": "output/github-research-20261026/general/countgdplusplus_training_package/receipt.json",
+        "archiveDeclaredBytes": 1322303514,
+        "sourceFilesExtracted": 110,
+        "downloadedBytes": 394732,
+        "fullArchiveHashVerified": false,
+        "weightsSkipped": "938MBGroundingDINO and435MB BERT payloads were not fetched.",
+        "trainScriptPath": "output/github-research-20261026/general/countgdplusplus_training_package/source/countgd_plusplus_training/train.sh",
+        "trainScriptSHA256": "057631dc4d965fb6cfc1052239efce127b43c66ebc80d2169b3f0e52589b8e29",
+        "criterionPath": "output/github-research-20261026/general/countgdplusplus_training_package/source/countgd_plusplus_training/models/GroundingDINO/groundingdino.py",
+        "criterionSHA256": "bbf8f3106d3e981d9679c8b85c7bf98d5ed63a0483a208d2a9763f7861d0a2f3"
+      },
+      "evidence": [
+        {
+          "file": "README.md",
+          "line": 25,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGDPlusPlus/source/README.md",
+          "sha256": "38707723b695150fb64c5de1c8c4e59e753c5598c468a5b32a67cac257bb6c6c",
+          "url": "https://github.com/niki-amini-naieni/CountGDPlusPlus/blob/8489f836d75eb407ae778c56cff1f72cc6f8baae/README.md#L25-L27"
+        },
+        {
+          "file": "README.md",
+          "line": 79,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGDPlusPlus/source/README.md",
+          "sha256": "38707723b695150fb64c5de1c8c4e59e753c5598c468a5b32a67cac257bb6c6c",
+          "url": "https://github.com/niki-amini-naieni/CountGDPlusPlus/blob/8489f836d75eb407ae778c56cff1f72cc6f8baae/README.md#L79-L84"
+        },
+        {
+          "file": "README.md",
+          "line": 143,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGDPlusPlus/source/README.md",
+          "sha256": "38707723b695150fb64c5de1c8c4e59e753c5598c468a5b32a67cac257bb6c6c",
+          "url": "https://github.com/niki-amini-naieni/CountGDPlusPlus/blob/8489f836d75eb407ae778c56cff1f72cc6f8baae/README.md#L143-L151"
+        },
+        {
+          "file": "process_folder.py",
+          "line": 224,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGDPlusPlus/source/process_folder.py",
+          "sha256": "c6adbad84897f266d25ad6d1672ddea5ef52d1fcdd8f6ec54d94be04c8fa32e9",
+          "url": "https://github.com/niki-amini-naieni/CountGDPlusPlus/blob/8489f836d75eb407ae778c56cff1f72cc6f8baae/process_folder.py#L224-L241"
+        },
+        {
+          "file": "models/GroundingDINO/groundingdino_app.py",
+          "line": 475,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGDPlusPlus/source/models/GroundingDINO/groundingdino_app.py",
+          "sha256": "83da2f46d2c0a7489ce20425a07ebbd622ffd37da59abfde06dad5d912ad6f45",
+          "url": "https://github.com/niki-amini-naieni/CountGDPlusPlus/blob/8489f836d75eb407ae778c56cff1f72cc6f8baae/models/GroundingDINO/groundingdino_app.py#L475-L494"
+        },
+        {
+          "file": "models/GroundingDINO/ops/setup.py",
+          "line": 49,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGDPlusPlus/source/models/GroundingDINO/ops/setup.py",
+          "sha256": "9675fc02e522204d6f3af59dca6dcad00b59a8b2b192e30e54f3e04279e279f2",
+          "url": "https://github.com/niki-amini-naieni/CountGDPlusPlus/blob/8489f836d75eb407ae778c56cff1f72cc6f8baae/models/GroundingDINO/ops/setup.py#L49-L52"
+        },
+        {
+          "file": "models/GroundingDINO/groundingdino.py",
+          "line": 580,
+          "localPath": "output/github-research-20261026/general/niki-amini-naieni__CountGDPlusPlus/source/models/GroundingDINO/groundingdino.py",
+          "sha256": "1a983544d8c6d224f9dadaf8295765147ac02a26b4227bef88fb4ad08b354b4d",
+          "url": "https://github.com/niki-amini-naieni/CountGDPlusPlus/blob/8489f836d75eb407ae778c56cff1f72cc6f8baae/models/GroundingDINO/groundingdino.py#L580-L623"
+        }
+      ]
+    },
+    {
+      "repository": "jerpelhan/DAVE",
+      "url": "https://github.com/jerpelhan/DAVE",
+      "stars": 83,
+      "starsAsOfUTC": "2026-10-26T04:44:11.813346+00:00",
+      "starCategory": "专项论文实现，非高星通用库",
+      "commit": "8aeeb9ca41ca38f0d6da14f965c6be30247a67ae",
+      "lastCommitDate": "2025-02-28T09:42:46Z",
+      "snapshotDirectory": "output/github-research-20261026/general/jerpelhan__DAVE/source",
+      "recommendedRole": "低优先级离线验证思路参考；未经负例/密度测试不要把多数簇过滤移入App。",
+      "newRuntimeTestPerformed": false,
+      "publication": "CVPR2024",
+      "inferenceContract": {
+        "zeroShotNoUserExamples": true,
+        "implementation": "demo_zero passes three all-zero placeholder boxes; zero_shot branch uses learned objectness, skips exemplar appearance; ROIAlign still operates on model-predicted verification boxes.",
+        "imageOnlyTargetSemantics": "Absent: default selects frequent appearance clusters, not a user-specified category.",
+        "textRoute": "prompt_shot adds CLIP ViT-L/14 and chooses clusters with relative text scores."
+      },
+      "trainingAndLabels": {
+        "data": "Official loaders use point-derived density maps and exemplar boxes; separate detection and verification training scripts. Not a label-free counter-training pipeline.",
+        "masksRequired": false
+      },
+      "criticalSourceFindings": [
+        "For zero-shot without text, clusters with frequency >50% of largest cluster are retained; rare genuine colony morphologies can be discarded.",
+        "When verification feature count exceeds500, forward returns generated detections/density without clustering verification. Dense-case false-positive removal therefore is not uniform.",
+        "Text cluster acceptance is relative to maxCLIPscore×0.85; this is not a validated absolute target-absence detector.",
+        "Density-map resizing divides by map sum; zero-density negative-image adaptation needs explicit safe handling."
+      ],
+      "runtime": {
+        "backbone": "ResNet50 withdensity/detectionheads plus verification weights; optional largeCLIP encoder.",
+        "demo": "HardcodedCUDA device/DataParallel and separateDAVE_0_shot/verification checkpoints.",
+        "graph": "ROIAlign, NumPy/scikit-learn spectral clustering, CPU transfer and sometimes two-pass resize. No self-contained CoreML/iPhone evidence.",
+        "checkpointBytes": "Not measured; no weights fetched."
+      },
+      "evidence": [
+        {
+          "file": "demo_zero.py",
+          "line": 35,
+          "localPath": "output/github-research-20261026/general/jerpelhan__DAVE/source/demo_zero.py",
+          "sha256": "ac766d444306a195b3e1a11ee9972fe872e56fd47cbb641cf77652c932f06d83",
+          "url": "https://github.com/jerpelhan/DAVE/blob/8aeeb9ca41ca38f0d6da14f965c6be30247a67ae/demo_zero.py#L35-L57"
+        },
+        {
+          "file": "demo_zero.py",
+          "line": 52,
+          "localPath": "output/github-research-20261026/general/jerpelhan__DAVE/source/demo_zero.py",
+          "sha256": "ac766d444306a195b3e1a11ee9972fe872e56fd47cbb641cf77652c932f06d83",
+          "url": "https://github.com/jerpelhan/DAVE/blob/8aeeb9ca41ca38f0d6da14f965c6be30247a67ae/demo_zero.py#L52-L65"
+        },
+        {
+          "file": "models/dave.py",
+          "line": 429,
+          "localPath": "output/github-research-20261026/general/jerpelhan__DAVE/source/models/dave.py",
+          "sha256": "bea380a5584f05d400ff6e53bbd07b36e1cd12c39533f7074141979de0057811",
+          "url": "https://github.com/jerpelhan/DAVE/blob/8aeeb9ca41ca38f0d6da14f965c6be30247a67ae/models/dave.py#L429-L434"
+        },
+        {
+          "file": "models/dave.py",
+          "line": 486,
+          "localPath": "output/github-research-20261026/general/jerpelhan__DAVE/source/models/dave.py",
+          "sha256": "bea380a5584f05d400ff6e53bbd07b36e1cd12c39533f7074141979de0057811",
+          "url": "https://github.com/jerpelhan/DAVE/blob/8aeeb9ca41ca38f0d6da14f965c6be30247a67ae/models/dave.py#L486-L498"
+        },
+        {
+          "file": "models/dave.py",
+          "line": 462,
+          "localPath": "output/github-research-20261026/general/jerpelhan__DAVE/source/models/dave.py",
+          "sha256": "bea380a5584f05d400ff6e53bbd07b36e1cd12c39533f7074141979de0057811",
+          "url": "https://github.com/jerpelhan/DAVE/blob/8aeeb9ca41ca38f0d6da14f965c6be30247a67ae/models/dave.py#L462-L470"
+        },
+        {
+          "file": "utils/data.py",
+          "line": 91,
+          "localPath": "output/github-research-20261026/general/jerpelhan__DAVE/source/utils/data.py",
+          "sha256": "dd11d653f439f90f2f714b76bdb5b7a2f4cb326a057ce0f1c7cc92bc43f9657a",
+          "url": "https://github.com/jerpelhan/DAVE/blob/8aeeb9ca41ca38f0d6da14f965c6be30247a67ae/utils/data.py#L91-L95"
+        }
+      ]
+    },
+    {
+      "repository": "djukicn/loca",
+      "url": "https://github.com/djukicn/loca",
+      "stars": 67,
+      "starsAsOfUTC": "2026-10-26T04:44:11.813346+00:00",
+      "starCategory": "专项论文实现，非高星通用库",
+      "commit": "45433064e36e48e491b430f6126f439d77a9aa3c",
+      "lastCommitDate": "2023-11-20T12:02:57Z",
+      "snapshotDirectory": "output/github-research-20261026/general/djukicn__loca/source",
+      "recommendedRole": "保留既有零样本研究对照，当前不晋级App；任何空皿再训练前先修zero-safe输入/损失。",
+      "newRuntimeTestPerformed": false,
+      "publication": "ICCV2023",
+      "inferenceContract": {
+        "imageOnlyNoExemplars": true,
+        "implementation": "zero_shot learnedobjectnessprototypes bypassshape andROIAlign exemplarfeatures; existing local adapter calls model(image,None).",
+        "semanticClassSelection": false,
+        "output": "Density map and sumcount, no explicit class-target semantics."
+      },
+      "trainingAndLabels": {
+        "required": "Point annotations→density maps; few-shot path also requires exemplar boxes. Zero-shot model removes examples at inference, not counting supervision at training.",
+        "hardZeroNegativeBlockers": [
+          "utils/data.py normalizes resizeddensity by density_map.sum withoutzero guard.",
+          "ObjectNormalizedL2Loss divides bynum_objects; train.py sets it from density_map.sum. All-zero batches can divide byzero.",
+          "Dataset loader still reads exemplar annotation arrays; a target-absent data adapter must handle empty arrays explicitly."
+        ],
+        "maskRequired": false
+      },
+      "existingProjectEvidence": {
+        "source": "ml/zero_shot_loca/reports/20261025/screen-result.json",
+        "SHA256": "3b91327b470ef30119d38d892d18ba418b6eeffefcc806087d5a214c52aee8d3",
+        "commitStillIdentical": true,
+        "sample": "58already-usedcleanval images,29classes×2,frozenbeforeinference; notfreshblindtest.",
+        "MAE": 22.499908249953698,
+        "referenceFamNetMAE": 35.03864523049059,
+        "differentInputConditions": "FamNet receivedexamples;LOCA didnot.",
+        "syntheticWhitePrediction": 90.41126251220703,
+        "syntheticGrayPrediction": 70.43795013427734,
+        "realEmptyPlateAcceptanceEstablished": false,
+        "parameterElements": 35482027,
+        "checkpointBytes": 142474397,
+        "MPSMeanForwardTransferAndCountSeconds": 0.08747817029310336,
+        "processPeakRSSBytes": 2149597184,
+        "timingScope": "Mac screen only; excludesdecode/resize/load;RSSincludesload+CPUpilot. No iPhone/CoreML evidence.",
+        "newExperimentThisRound": false
+      },
+      "evidence": [
+        {
+          "file": "models/ope.py",
+          "line": 46,
+          "localPath": "output/github-research-20261026/general/djukicn__loca/source/models/ope.py",
+          "sha256": "b4fcfda6af4eb9c202c51464af0610bd2c424087ec7d891fd1772b78a4ec8750",
+          "url": "https://github.com/djukicn/loca/blob/45433064e36e48e491b430f6126f439d77a9aa3c/models/ope.py#L46-L101"
+        },
+        {
+          "file": "utils/data.py",
+          "line": 48,
+          "localPath": "output/github-research-20261026/general/djukicn__loca/source/utils/data.py",
+          "sha256": "706816bf89fbe9de195a896a2815bf603e0bb1541ede503202d2d268842fb6ee",
+          "url": "https://github.com/djukicn/loca/blob/45433064e36e48e491b430f6126f439d77a9aa3c/utils/data.py#L48-L53"
+        },
+        {
+          "file": "utils/losses.py",
+          "line": 9,
+          "localPath": "output/github-research-20261026/general/djukicn__loca/source/utils/losses.py",
+          "sha256": "b72e8b2d86892a66ba8ea11dc1f53243a47e5a917f82dc811fe1efc7d522ff45",
+          "url": "https://github.com/djukicn/loca/blob/45433064e36e48e491b430f6126f439d77a9aa3c/utils/losses.py#L9-L10"
+        },
+        {
+          "file": "train.py",
+          "line": 135,
+          "localPath": "output/github-research-20261026/general/djukicn__loca/source/train.py",
+          "sha256": "130b142578ca903fd2c1bf949eda1d5c740e44fc369caf637fae71fa18f83991",
+          "url": "https://github.com/djukicn/loca/blob/45433064e36e48e491b430f6126f439d77a9aa3c/train.py#L135-L143"
+        }
+      ]
+    }
+  ],
+  "priorityRecommendationChinese": [
+    "高星基础库中，GroundingDINO负责文本选目标/检测建议，DINOv2负责冻结特征与困难样本检索。两者都不是已验证的CountScope直接替换。",
+    "最贴近排除反光语义的是专项CountGD++正负提示；72stars不代表差，也不能包装成高星。先做离线受控比较。",
+    "DAVE多数簇过滤与>500跳过验证、LOCA空密度零分母和既有空白失败，都是必须正面保留的限制。",
+    "端侧优先蒸馏/训练小模型并做分组保真验收；本轮只给方案，未执行新的模型实验。"
+  ],
+  "proposedPlan": {
+    "status": "PROPOSED_RESEARCH_PLAN_NOT_EXECUTED",
+    "priorities": [
+      {
+        "priority": 1,
+        "action": "独立语义/负例teacher小样比较，先用GroundingDINO CPU路径或隔离CUDA环境的CountGD++，与同事审查的SAM3presence路线并列；不先重训大模型。",
+        "reason": "当前失败包括真实空皿反光假阳性，单看计数MAE改善和高star都无法解决。",
+        "contract": "固定目标名/负概念、无当前图GT例框；text-only与训练集固定外部exemplar两模式分开报。"
+      },
+      {
+        "priority": 2,
+        "action": "用冻结DINOv2特征做训练集候选/困难负例检索，人工审查是否为反光、凝露、印字或可见菌落；仅保留明确标注。",
+        "reason": "先检验新特征能否区分真正困扰本项目的外观，不把backbone当计数器。"
+      },
+      {
+        "priority": 3,
+        "action": "将通过审查的teacher建议转成独立小型端侧检测/验证模型的训练标签。保留原始图和标注变更记录，按physical/session/source组划分。",
+        "reason": "大模型可在离线提供语义；App保留小模型成本和设备端图像处理。教师预测不是GT，框不自动等于分割mask。"
+      },
+      {
+        "priority": 4,
+        "action": "只有在独立负例和旧场景门槛通过后，再评估CoreML导出、数值一致、真机峰值内存/耗时/连续运行。",
+        "reason": "CPU/MPS能运行和所谓Tiny都不等于手机可用；本轮不做App或ASC变更。"
+      }
+    ],
+    "targetDefinitionExamples": [
+      {
+        "domain": "串串/签子",
+        "unit": "可见签子端头",
+        "promptHypothesis": "wooden skewer tips",
+        "failureToTest": "整束被当作1物体、长杆边缘/木纤维误检；FSC中的meat skewer不等于端头计数。"
+      },
+      {
+        "domain": "钢管",
+        "unit": "可见管口/端面",
+        "promptHypothesis": "steel pipe openings",
+        "failureToTest": "把整根管身或整堆管子当目标；管内高光与重叠遮挡。"
+      },
+      {
+        "domain": "菌落",
+        "unit": "肉眼照片中可分辨的宏观菌落实例",
+        "promptHypothesis": "bacterial colonies",
+        "negativeConceptHypotheses": [
+          "reflections",
+          "printed text",
+          "condensation bubbles"
+        ],
+        "failureToTest": "不要把微观血细胞/细胞荧光分割成绩当培养皿菌落成绩。"
+      }
+    ],
+    "automaticRegionVsAutomaticIntent": "目标类别由用户模式/文本或可见图像分类建议表达；区域和实例框可以自动生成。纯image-only零样本模型无法保证猜对混景中的用户目标。不得用文件名/图片尺寸/数据集来源当App路由条件。",
+    "evaluationBeforeStudentTraining": {
+      "inputs": "Training-group-only externalexemplar banks; fixedsemantic prompts. No test/validationGT boxes supplied as input.",
+      "split": "Keep previousfailedsets as exposedregression evidence; acquire newindependentcapturegroups for acceptance. Never open reserved36 as routine development data.",
+      "cases": [
+        "目标不存在但有近似圆点/印字/灯光",
+        "真空皿与非空皿混合",
+        "同时存在2种目标但只数指定类",
+        "少数形态真目标被多数类淹没",
+        "稀疏/中等/密集/超过900目标",
+        "targetnoun part-vs-whole ambiguity"
+      ],
+      "metrics": [
+        "imagecountMAE/RMSE/bias",
+        "TP/FP/FN andAP50:95 whereboxesareGT",
+        "small/large andperclass/pergroup recall",
+        "real-negative FP perimage andexactzero rate",
+        "promptchange sensitivity",
+        "countcap/cropping andend-to-end runtime/memory"
+      ],
+      "guardrails": [
+        "Do not tune threshold on sealedtest or falselycallalready-seenvalidationblind.",
+        "Do not add special-cases that returnzero for flatimages to concealfalsepositives.",
+        "Do not remove minoritycluster detections just because lessfrequent.",
+        "Keep old-scene nonregression against actualfrozenpipeline; report stronger-of-methods reference separately."
+      ]
+    },
+    "firstImplementationWorkIfLaterAuthorized": [
+      "Pin one supported isolatedenv and one checkpoint; read/verifyweights size/hash.",
+      "Add clear model-input wrapper with explicittarget andempty-exemplar contract, and inspectno-target/emptyGT shapes before anyoptimization.",
+      "For LOCA/densitytraining, definezero-safe densitynormalization andloss normalization before introducingall-zero samples.",
+      "For CountGD++ use real reviewedtrainingexternalexemplars first; do not add paid/syntheticexemplar orsuperresolutiondependencies just to reproduceheadline scores."
+    ]
+  },
+  "remainingUnknowns": [
+    "No GroundingDINO/CountGD/CountGD++/DINO/DAVE local prediction/latency or CoreML measurement was performed in this research turn.",
+    "None of the generic repo benchmark scores establish real phone-colony/skewer/pipe accuracy.",
+    "CountGD++ external trainingZIP is not commit-versioned: sourcefiles haveCRC+SHA snapshots and retrievalreceipt, full1.32GBarchivehash not verified because pretrainedweights were deliberately skipped.",
+    "DINOv3 and biology-specific DINO weights access not requested.",
+    "SAM3 details belong to parallel colony-repository review; this plan treats it as a futurecandidate, not validated superiority."
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "status": "PASS_INDEPENDENT_ROOT7_DERIVED_ANNOTATIONS",
+  "sourcePath": "ml/pipes-data-expansion-20261029/data/root-rfv2-derived-labels.json",
+  "sourceSHA256": "5d2bedfc20d51a6656b027cd577cde30750588e29f8770315128fa878c20072c",
+  "reviewer": "general_counting_papers",
+  "images": [
+    {
+      "id": "rfv2_92e41e389e96",
+      "number": 204,
+      "independentCount": 20,
+      "annotationCountConfirmed": true,
+      "sha256": "0041eb0fac927d746e553d604b0ac30081b0532b28ad60cf9e07bfd597200aeb",
+      "derivedXYXYSHA256": "8650ab863ec04935006fcfc0cafb1690b77865a87e6def8b76b999b0f4f9bd88",
+      "viewedOriginalPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/istockphoto-172756737-612x612_jpg.rf.02fb48a9474b3b391a5f3d4e99e04865.jpg",
+      "viewedCorrectedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-204.png",
+      "status": "PASS_FULL_FRAME_COUNT_AND_BOX_REVIEW",
+      "notes": "Visible metallic mouths including the corrected clipped ends match the final count. Interior far holes/shaft gaps are not counted twice."
+    },
+    {
+      "id": "rfv2_37c98b79839c",
+      "number": 211,
+      "independentCount": 20,
+      "annotationCountConfirmed": true,
+      "sha256": "14366b08d1680a666306214d4f6504644582deafa0092e807576e7909701d225",
+      "derivedXYXYSHA256": "ef10291a747d3e6c416d6556235d6a08dfe8c89cd6c1e06bc3faa45888548626",
+      "viewedOriginalPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/istockphoto-179341506-612x612_jpg.rf.c541f225d85a87e154c25618fc2e9554.jpg",
+      "viewedCorrectedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-211.png",
+      "status": "PASS_FULL_FRAME_COUNT_AND_BOX_REVIEW",
+      "notes": "Visible metallic mouths including the corrected clipped ends match the final count. Interior far holes/shaft gaps are not counted twice."
+    },
+    {
+      "id": "rfv2_3eb645339840",
+      "number": 257,
+      "independentCount": 10,
+      "annotationCountConfirmed": true,
+      "sha256": "000c6862a26fbeb998e6cfa5675c03eea4983f0840c416062dedf715bb80c95b",
+      "derivedXYXYSHA256": "1a60aa2424f98067b2d846b9b908cc58c249569f017af0e788271fee7a7c5348",
+      "viewedOriginalPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/pipe_r_10_2_jpeg_jpg.rf.1beab8fd0ecca79a3be9310b31707e1a.jpg",
+      "viewedCorrectedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-257.png",
+      "status": "PASS_FULL_FRAME_COUNT_AND_BOX_REVIEW",
+      "notes": "Commercial white-background product photograph; photographic texture is plausible, but native resolution/camera authenticity is not independently established."
+    },
+    {
+      "id": "rfv2_ce82e64f9b1b",
+      "number": 261,
+      "independentCount": 18,
+      "annotationCountConfirmed": true,
+      "sha256": "1ee693560741f03927f55ac18d3bc7494234c76428bd3a2cfefc14a3bfeac475",
+      "derivedXYXYSHA256": "4177798463e502d0cfebd784715f5b62294e5170fd9cc40bcc8ae23f70a5e8dd",
+      "viewedOriginalPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/pipe_r_16_png_jpg.rf.3cfa96d044fa836125070ea9185e270d.jpg",
+      "viewedCorrectedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-261.png",
+      "status": "PASS_FULL_FRAME_COUNT_AND_BOX_REVIEW",
+      "notes": "Visible metallic mouths including the corrected clipped ends match the final count. Interior far holes/shaft gaps are not counted twice."
+    },
+    {
+      "id": "rfv2_433a33158ae6",
+      "number": 264,
+      "independentCount": 4,
+      "annotationCountConfirmed": true,
+      "sha256": "10586118895553a33f32bc0bc73780731a029ff12188a072c33ba98f5d049810",
+      "derivedXYXYSHA256": "d66eab8ec320368a7b5036cccbc3add5745d5275a88371a2be0a9a4e0c244271",
+      "viewedOriginalPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/pipe_r_4_jpeg_jpg.rf.b8737f7af9d57a83757a6750745022de.jpg",
+      "viewedCorrectedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-264.png",
+      "status": "PASS_FULL_FRAME_COUNT_AND_BOX_REVIEW",
+      "notes": "Commercial white-background product photograph; photographic texture is plausible, but native resolution/camera authenticity is not independently established."
+    },
+    {
+      "id": "rfv2_78c18919ddc0",
+      "number": 266,
+      "independentCount": 7,
+      "annotationCountConfirmed": true,
+      "sha256": "8cac901b10e75671aa82316fd26af9eb41b3d1783bedb9815b63e1c53b552b7c",
+      "derivedXYXYSHA256": "94880fee5cbf76c0c21e4b74e55230b827c652fb65a040a0cca23dbe21db9c6d",
+      "viewedOriginalPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/pipe_r_7_jpeg_jpg.rf.ed3bc755ed335115cf904093934dfac2.jpg",
+      "viewedCorrectedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-266.png",
+      "status": "PASS_FULL_FRAME_COUNT_AND_BOX_REVIEW",
+      "notes": "Commercial white-background product photograph; photographic texture is plausible, but native resolution/camera authenticity is not independently established."
+    },
+    {
+      "id": "rfv2_7b4a4900cabc",
+      "number": 290,
+      "independentCount": 14,
+      "annotationCountConfirmed": true,
+      "sha256": "38f173a26949b62b5136e6a4e364dfa21225d973c56b7cbb4bd69a57a66ce6f3",
+      "derivedXYXYSHA256": "902b55280d1f0c9df7c52063f4037e48360f7f34bc7c7c5bef30cecbdf9e5b7c",
+      "viewedOriginalPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/product-jpeg-500x500_jpg.rf.ca24ac183a88eda6d1deebd16f4a6286.jpg",
+      "viewedCorrectedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-290.png",
+      "status": "PASS_FULL_FRAME_COUNT_AND_BOX_REVIEW",
+      "notes": "Visible metallic mouths including the corrected clipped ends match the final count. Interior far holes/shaft gaps are not counted twice."
+    }
+  ],
+  "reviewMethod": "Full original plus corrected numbered overlay at native exported640px. Additional nearest-neighbor right-edge inspection for290; no extra distinguishable opening there.",
+  "count": 7,
+  "pipeEnds": 93,
+  "limits": [
+    "Source publisher already resized to640x640; not counted as known native low-resolution photographs.",
+    "White-background product images are distinguished from natural environmental-background photos.",
+    "This is visual annotation QA, not model performance or provenance forensic proof."
+  ],
+  "modelInferencePerformed": false,
+  "originalAnnotationsModified": false
+}

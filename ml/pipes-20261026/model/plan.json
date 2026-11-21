@@ -1,0 +1,139 @@
+{
+  "status": "IMPLEMENTED_DRAFT_PREFLIGHT_PASSED_DATA_QA_PENDING",
+  "task": "Single-class round hollow-steel-pipe visible front-end counting",
+  "classNames": {
+    "0": "pipe_end"
+  },
+  "annotationBoundary": "outer_rim, one whole visible pipe end including wall/opening; no separate inner-hole instance",
+  "supportedSubtype": "round initially; square independent pending QA",
+  "initialization": {
+    "path": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/pipes-20261026/model/official-source/yolo11n.pt",
+    "sha256": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+    "audit": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/pipes-20261026/model/official-source-audit.json",
+    "source": "official ultralytics/assets v8.3.0; never colony weights"
+  },
+  "trainingProposal": {
+    "epochs": 20,
+    "checkpointEpochs": [
+      8,
+      14,
+      20
+    ],
+    "imgsz": 1024,
+    "batch": 4,
+    "device": "mps",
+    "denseCPUAssignerCompatibility": true,
+    "optimizer": "AdamW",
+    "lr0": 0.0005,
+    "warmup_bias_lr": 0.0005,
+    "warmup_epochs": 1,
+    "nbs": 16,
+    "lrf": 0.1,
+    "mosaic": 0,
+    "amp": false,
+    "noNewTuningRoundWithoutRootFreeze": true,
+    "noExtra12EpochStageAlreadyAuthorized": true,
+    "trainability": "Backbone and detection layers trainable; fixed DFL integral projection remains fixed byUltralytics."
+  },
+  "validationProposal": {
+    "confidenceGrid": [
+      0.2,
+      0.3,
+      0.4
+    ],
+    "nmsIoUGrid": [
+      0.5,
+      0.7
+    ],
+    "candidateCount": 18,
+    "rawPreNMSCache": true,
+    "rawConfidenceFloor": 0.001,
+    "maxDetections": 21504,
+    "maxNMSMustAtLeast": 21504,
+    "reason": "No artificial1000cap; the single-class1024P3/P4/P5 model has21504raw locations. Record any capacity saturation.",
+    "splitUnit": "physical scene/acquisition group, not randomimage",
+    "rootOwnsSealedTest": true,
+    "eligibilityPendingRootApproval": {
+      "precisionMin": 0.95,
+      "recallMin": 0.95,
+      "positiveCountWAPEMax": 0.05,
+      "sceneMacroAPEMax": 0.1,
+      "smallCounts": "GT<=20 eachpositiveimage absoluteerror<=1",
+      "emptyAndNonpipe": "every held-out negative image predicts0",
+      "subgroups": "report source/density/size/scene FP/FN/MAE and any systematic failures",
+      "sceneMacroMetric": "Mean acrossscene groups ofsumabsoluteerror/sumGT insideeach group"
+    }
+  },
+  "preprocessing": {
+    "actualAppPhotoStage": "ImageIO EXIF transform thumbnail maxedge2048, or camera UIImage normalized maxedge2048",
+    "networkStage": "centerletterbox1024, gray114, nearest-even resizeddimensions, left/top=round((1024-newdim)/2-.1)",
+    "evaluationMustIncludeBothPhotoPaths": true,
+    "noDirectOriginalImageScaleFill": true,
+    "pixelParity": "Use the same Swift-rendered1024PNG input forTorch andCoreML network comparison; separately assessSwift vsOpenCV resizing, not assume pixelidentity.",
+    "networkInputsManifestContract": {
+      "status": "VALIDATED_APP_PREPROCESSING_INPUTS",
+      "recordsSHA256": "...",
+      "testContentIncluded": false,
+      "variants": [
+        "gallery",
+        "camera"
+      ],
+      "images": [
+        {
+          "id": "...",
+          "variant": "gallery|camera",
+          "sourceImageSHA256": "originalrecordsha256",
+          "networkImagePath": "absolute1024PNGfromactualAppPipeLetterbox",
+          "networkImageSHA256": "...",
+          "photoWidth": 2048,
+          "photoHeight": 1536,
+          "geometry": {
+            "gain": 0.5,
+            "resizedWidth": 1024,
+            "resizedHeight": 768,
+            "left": 0,
+            "top": 128,
+            "sourceWidth": 2048,
+            "sourceHeight": 1536,
+            "size": 1024
+          }
+        }
+      ]
+    }
+  },
+  "export": {
+    "resourceBaseName": "PipeEnds",
+    "format": "mlpackage",
+    "nms": true,
+    "quantize": 32,
+    "classLabel": "pipe_end",
+    "optionalDoubleInputs": [
+      "confidenceThreshold",
+      "iouThreshold"
+    ],
+    "expectedOutputs": [
+      "confidence",
+      "coordinates"
+    ],
+    "outputCoordinates": "normalizedcenterxywh inletterboxednetworkimage; Visionbottom-left\u2192top-left thenunpad/dividegain/clamp",
+    "singleClassNMSPadding": "OfficialMLProgram exporter pads confidence to80 withzero extra channels; onlypipe_end issemanticvalid. Verify spec andVision output.",
+    "releaseConfigOnlyAfterValidationAndParity": "PipeEnds.json statusVALIDATED_COREML_EXPORT; no placeholder/fakeusableconfig"
+  },
+  "noTrainingStarted": true,
+  "noAppFilesModifiedByModelOperator": true,
+  "oldColonyEvidenceUntouched": true,
+  "dataQualityRequirement": {
+    "realOnly": true,
+    "requiredFields": {
+      "dataNature": "real",
+      "isSynthetic": false,
+      "hasAnnotationOverlay": false
+    },
+    "rawSourceCaveat": "RawMACO1025files/170790boxes are not finalrealtrainingquantity. Same-capture/background-edited andunknownvariants plusmarkup arequarantined;17/716 doesnot prove artificialobject generation."
+  },
+  "preflightArtifacts": [
+    "official-source-audit.json",
+    "save-lifecycle-smoke.json",
+    "sampler-metrics-geometry-smoke.json"
+  ]
+}

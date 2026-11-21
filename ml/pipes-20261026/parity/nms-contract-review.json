@@ -1,0 +1,18 @@
+{
+  "status": "PASS_SHARED_SWIFT_NMS_SYNTHETIC_CONTRACT",
+  "createdUTC": "2026-10-26T12:21:24.655263+00:00",
+  "sourceAndExecutableSHA256": {
+    "Count stick/PipeRawPostprocessor.swift": "4542c36ee0f171571d9651c5ccbeec7744bb71e8b4cf7fd429137afd302a3fbe",
+    "ml/pipes-20261026/parity/verify_nms_contract.swift": "4e9f15fdcaf95694f111e456f534d1ebf0f39a362c50f8d723ca134deccf4876",
+    "output/pipes-20261026/parity/verify_nms_contract": "5350e0f6065da75b68c8ef334181d67a0ae43a65ccf702833c1971764f294247"
+  },
+  "checks": [
+    "1205 spatially separated detections retained without a 1000 limit",
+    "equal scores sorted deterministically by anchor",
+    "lower-scored duplicate removed independent of input order",
+    "raw tensor truncated to 1000 rejected"
+  ],
+  "modelInference": false,
+  "testHoldoutAccessed": false,
+  "limitation": "Engineering contract only, not accuracy or iPhone performance."
+}

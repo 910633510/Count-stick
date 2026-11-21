@@ -1,0 +1,103 @@
+{
+  "reviewedAtUTC": "2026-10-27T04:17:30.737945+00:00",
+  "reviewer": "/root/apple_ads_research",
+  "status": "PASS",
+  "scope": "Read-only independent static/scenario review of Apple Ads ASO skill additions; no skill edits or external mutations.",
+  "files": [
+    {
+      "path": "/Users/xue/.codex/skills/app-store-connect-release/SKILL.md",
+      "sha256": "ff5def0334229477ee8662bb5311d557a3bfc0a99363bd008cb3fc25aea53f1b"
+    },
+    {
+      "path": "/Users/xue/.codex/skills/app-store-connect-release/references/apple-ads-aso.md",
+      "sha256": "90b05996c5a78cff3e67bb2649d928b5cd100332080e2c036fd619794a8dfa31"
+    }
+  ],
+  "scenario": {
+    "userRequest": "Do ASO using Apple Ads API and choose a name",
+    "appId": "6826601708",
+    "reviewState": "WAITING_FOR_REVIEW",
+    "build": "4",
+    "serverRole": "campaign manager",
+    "clientCapability": "local read-only allowlist",
+    "usPopularity": {
+      "term": "counter",
+      "searchPopularity1to100": 58,
+      "weekStart": "2026-10-18",
+      "weekEnd": "2026-10-24"
+    },
+    "cnSeedResult": "absent",
+    "keywordResponse": {
+      "status": 400,
+      "code": "VALIDATION_ERROR",
+      "message": "INVALID_INPUT adamId App not found or access denied for adamId: 6826601708"
+    }
+  },
+  "expectedBehavior": [
+    "Report counter score only for returned country/genre/week and original metric. Do not make it monthly volume or evidence that another candidate has zero demand.",
+    "Keep CN/no-return terms unknown and separate from observed scores.",
+    "Preserve exact 400 ambiguity; do not assert rejection is due solely to unpublished status or bad credentials. Stop unchanged retry.",
+    "Recommend a brand using capability fit/collision evidence and editorial judgment; preserve truthful current-build scope.",
+    "Attempt only authorized metadata changes if editability allows; otherwise save concrete proposed fields and blocker. Do not cancel the pending review or create ads to make progress."
+  ],
+  "checks": [
+    {
+      "check": "API separation",
+      "status": "PASS",
+      "finding": "Current v1 host/account header and distinct ASC/legacy credentials and schemas are explicit."
+    },
+    {
+      "check": "Public discovery schemas",
+      "status": "PASS",
+      "finding": "Suggestions array filters, phrase SEARCH exception/no country, and insights scalar EQUALS match Apple docs."
+    },
+    {
+      "check": "Metric meaning",
+      "status": "PASS",
+      "finding": "Relative scores, rankInGenre term rank, missing vs zero, ad-report distinction, locale/date scope, and editorial judgment are distinguished."
+    },
+    {
+      "check": "Period and pagination",
+      "status": "PASS",
+      "finding": "Published complete UTC periods and 20 default/1000 suggestion max/10000 insights max verified; max1000 is present in official DocC JSON properties though omitted in its Markdown rendering."
+    },
+    {
+      "check": "Least action scope",
+      "status": "PASS",
+      "finding": "Local read-only client not confused with server role; no research-driven campaigns/spend/account/permission/key changes."
+    },
+    {
+      "check": "Review state",
+      "status": "PASS",
+      "finding": "Requires preserved submission, exact draft diff for locked fields, no cancellation or item removal as ASO workaround without authorization."
+    },
+    {
+      "check": "Naming and feature truth",
+      "status": "PASS",
+      "finding": "Name recommendation separated from all-surface rename/release; future disabled features excluded; collision search not trademark clearance; 30 characters and 100 UTF8 bytes verified."
+    },
+    {
+      "check": "Outcome accuracy",
+      "status": "PASS",
+      "finding": "Research, recommended name, persisted metadata, blocked draft, and submitted review are separate states; write readback required."
+    }
+  ],
+  "issues": [],
+  "nonblockingNotes": [
+    "Existing main-skill audio-service examples remain unrelated to this counting app; their verified-flow/only-when-true qualifiers must be honored. The new ASO reference correctly requires actual target-build capabilities."
+  ],
+  "sources": [
+    "https://developer.apple.com/documentation/apple-ads-platform-api/access-overview",
+    "https://developer.apple.com/documentation/apple-ads-platform-api/query-keyword-suggestions",
+    "https://developer.apple.com/documentation/apple-ads-platform-api/query-phrase-suggestions",
+    "https://developer.apple.com/documentation/apple-ads-platform-api/query-app-search-term-popularity-data",
+    "https://developer.apple.com/documentation/apple-ads-platform-api/searchtermpopularitytimerange",
+    "https://developer.apple.com/tutorials/data/documentation/apple-ads-platform-api/recommendationqueryrequestpagination.json",
+    "https://developer.apple.com/help/app-store-connect/reference/app-information/app-information",
+    "https://developer.apple.com/help/app-store-connect/reference/app-information/platform-version-information"
+  ],
+  "scenarioEvidence": [
+    "output/aso-20261027/apple-ads/popularity-US.json",
+    "output/aso-20261027/apple-ads/keyword-error-diagnostic.json"
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "status": "EXACT_DUPLICATE_BOX_CORRECTIONS_VISUALLY_CONFIRMED",
+  "reviewer": "/root/colony_papers",
+  "createdUTC": "2026-10-26T08:47:32.466278+00:00",
+  "images": [
+    {
+      "id": "maco_round_PipeHBB00000678",
+      "authorLabelSHA256": "5535c97eb63dbc2dd0089e688b8ff5b84e586b43f5533c751ddaec5d0e9eb53d",
+      "beforeCount": 414,
+      "afterCount": 413,
+      "removedObjects": [
+        {
+          "authorObjectIndex": 379,
+          "xyxy": [
+            489.0,
+            347.0,
+            509.0,
+            366.0
+          ]
+        }
+      ],
+      "visualReview": "Every repeated coordinate region was viewed as a native-pixel magnified crop; each covers one visible pipe front. Retain one identical box only. No near-overlap deduplication.",
+      "evidenceImage": "output/pipes-20261026/data/review/duplicate-boxes/PipeHBB00000678.jpg",
+      "sourceXMLModified": false,
+      "photographicEligibility": "SEPARATE_REVIEW_REQUIRED; correcting duplicate boxes does not make a synthetic/marked image eligible."
+    },
+    {
+      "id": "maco_round_PipeHBB00000716",
+      "authorLabelSHA256": "df1a425c0fc2b987dd27533a18d189657625fd563074fb312058ba8b7ba16043",
+      "beforeCount": 837,
+      "afterCount": 829,
+      "removedObjects": [
+        {
+          "authorObjectIndex": 344,
+          "xyxy": [
+            1387.0,
+            521.0,
+            1418.0,
+            557.0
+          ]
+        },
+        {
+          "authorObjectIndex": 347,
+          "xyxy": [
+            1387.0,
+            521.0,
+            1418.0,
+            557.0
+          ]
+        },
+        {
+          "authorObjectIndex": 397,
+          "xyxy": [
+            1458.0,
+            617.0,
+            1487.0,
+            650.0
+          ]
+        },
+        {
+          "authorObjectIndex": 457,
+          "xyxy": [
+            1810.0,
+            748.0,
+            1838.0,
+            780.0
+          ]
+        },
+        {
+          "authorObjectIndex": 502,
+          "xyxy": [
+            2002.0,
+            572.0,
+            2028.0,
+            602.0
+          ]
+        },
+        {
+          "authorObjectIndex": 523,
+          "xyxy": [
+            1930.0,
+            788.0,
+            1956.0,
+            817.0
+          ]
+        },
+        {
+          "authorObjectIndex": 601,
+          "xyxy": [
+            2171.0,
+            718.0,
+            2199.0,
+            750.0
+          ]
+        },
+        {
+          "authorObjectIndex": 639,
+          "xyxy": [
+            2243.0,
+            831.0,
+            2269.0,
+            861.0
+          ]
+        }
+      ],
+      "visualReview": "Every repeated coordinate region was viewed as a native-pixel magnified crop; each covers one visible pipe front. Retain one identical box only. No near-overlap deduplication.",
+      "evidenceImage": "output/pipes-20261026/data/review/duplicate-boxes/PipeHBB00000716.jpg",
+      "sourceXMLModified": false,
+      "photographicEligibility": "SEPARATE_REVIEW_REQUIRED; correcting duplicate boxes does not make a synthetic/marked image eligible."
+    },
+    {
+      "id": "maco_round_PipeHBB00000720",
+      "authorLabelSHA256": "fc09fd99bbb3b16b364817110d6f5a2fd1482b6def93f10d3823b4acc80139a5",
+      "beforeCount": 829,
+      "afterCount": 828,
+      "removedObjects": [
+        {
+          "authorObjectIndex": 83,
+          "xyxy": [
+            1276.0,
+            917.0,
+            1364.0,
+            1006.0
+          ]
+        }
+      ],
+      "visualReview": "Every repeated coordinate region was viewed as a native-pixel magnified crop; each covers one visible pipe front. Retain one identical box only. No near-overlap deduplication.",
+      "evidenceImage": "output/pipes-20261026/data/review/duplicate-boxes/PipeHBB00000720.jpg",
+      "sourceXMLModified": false,
+      "photographicEligibility": "SEPARATE_REVIEW_REQUIRED; correcting duplicate boxes does not make a synthetic/marked image eligible."
+    },
+    {
+      "id": "maco_round_PipeHBB00000725",
+      "authorLabelSHA256": "60b06679dffbeb78252a8f3e94aa5b9e1b11ec7433620b272d714d266f015d71",
+      "beforeCount": 618,
+      "afterCount": 614,
+      "removedObjects": [
+        {
+          "authorObjectIndex": 39,
+          "xyxy": [
+            69.0,
+            743.0,
+            97.0,
+            770.0
+          ]
+        },
+        {
+          "authorObjectIndex": 70,
+          "xyxy": [
+            180.0,
+            670.0,
+            208.0,
+            694.0
+          ]
+        },
+        {
+          "authorObjectIndex": 339,
+          "xyxy": [
+            695.0,
+            472.0,
+            719.0,
+            494.0
+          ]
+        },
+        {
+          "authorObjectIndex": 490,
+          "xyxy": [
+            928.0,
+            562.0,
+            953.0,
+            589.0
+          ]
+        }
+      ],
+      "visualReview": "Every repeated coordinate region was viewed as a native-pixel magnified crop; each covers one visible pipe front. Retain one identical box only. No near-overlap deduplication.",
+      "evidenceImage": "output/pipes-20261026/data/review/duplicate-boxes/PipeHBB00000725.jpg",
+      "sourceXMLModified": false,
+      "photographicEligibility": "SEPARATE_REVIEW_REQUIRED; correcting duplicate boxes does not make a synthetic/marked image eligible."
+    },
+    {
+      "id": "maco_round_PipeHBB00000728",
+      "authorLabelSHA256": "4b8f926d150fb66ab7d6098bc7c39991ca44cf5d29adfd0a99ab8cd713faf14f",
+      "beforeCount": 519,
+      "afterCount": 518,
+      "removedObjects": [
+        {
+          "authorObjectIndex": 60,
+          "xyxy": [
+            312.0,
+            81.0,
+            344.0,
+            115.0
+          ]
+        }
+      ],
+      "visualReview": "Every repeated coordinate region was viewed as a native-pixel magnified crop; each covers one visible pipe front. Retain one identical box only. No near-overlap deduplication.",
+      "evidenceImage": "output/pipes-20261026/data/review/duplicate-boxes/PipeHBB00000728.jpg",
+      "sourceXMLModified": false,
+      "photographicEligibility": "SEPARATE_REVIEW_REQUIRED; correcting duplicate boxes does not make a synthetic/marked image eligible."
+    },
+    {
+      "id": "maco_round_PipeHBB00000741",
+      "authorLabelSHA256": "d7dc9fc25ba061c8cd794a425dd5846d38de9d3de951b058ee169d75d99d0683",
+      "beforeCount": 779,
+      "afterCount": 777,
+      "removedObjects": [
+        {
+          "authorObjectIndex": 564,
+          "xyxy": [
+            1168.0,
+            393.0,
+            1187.0,
+            408.0
+          ]
+        },
+        {
+          "authorObjectIndex": 565,
+          "xyxy": [
+            1168.0,
+            393.0,
+            1187.0,
+            408.0
+          ]
+        }
+      ],
+      "visualReview": "Every repeated coordinate region was viewed as a native-pixel magnified crop; each covers one visible pipe front. Retain one identical box only. No near-overlap deduplication.",
+      "evidenceImage": "output/pipes-20261026/data/review/duplicate-boxes/PipeHBB00000741.jpg",
+      "sourceXMLModified": false,
+      "photographicEligibility": "SEPARATE_REVIEW_REQUIRED; correcting duplicate boxes does not make a synthetic/marked image eligible."
+    },
+    {
+      "id": "maco_round_PipeHBB00000742",
+      "authorLabelSHA256": "6887050895263b502705954d1304bb167bbf8115036898606f256e2ccfaebe55",
+      "beforeCount": 500,
+      "afterCount": 496,
+      "removedObjects": [
+        {
+          "authorObjectIndex": 5,
+          "xyxy": [
+            268.0,
+            140.0,
+            284.0,
+            157.0
+          ]
+        },
+        {
+          "authorObjectIndex": 23,
+          "xyxy": [
+            222.0,
+            163.0,
+            239.0,
+            179.0
+          ]
+        },
+        {
+          "authorObjectIndex": 267,
+          "xyxy": [
+            491.0,
+            217.0,
+            506.0,
+            232.0
+          ]
+        },
+        {
+          "authorObjectIndex": 429,
+          "xyxy": [
+            445.0,
+            294.0,
+            459.0,
+            307.0
+          ]
+        }
+      ],
+      "visualReview": "Every repeated coordinate region was viewed as a native-pixel magnified crop; each covers one visible pipe front. Retain one identical box only. No near-overlap deduplication.",
+      "evidenceImage": "output/pipes-20261026/data/review/duplicate-boxes/PipeHBB00000742.jpg",
+      "sourceXMLModified": false,
+      "photographicEligibility": "SEPARATE_REVIEW_REQUIRED; correcting duplicate boxes does not make a synthetic/marked image eligible."
+    }
+  ],
+  "removedTotal": 21,
+  "sourceRawObjectsRound": 170790,
+  "afterExactDuplicateRemovalRound": 170769,
+  "modelInferencePerformed": false
+}

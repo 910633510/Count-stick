@@ -1,0 +1,10 @@
+{
+  "status": "NO_CANDIDATE_PASSED_SEVEN_FROZEN_SCREENS",
+  "selectedConfig": null,
+  "deploymentApproved": false,
+  "noGatesRelaxed": true,
+  "candidateCount": 7,
+  "bestAggregateCandidateIsNotApproved": "side16-nms0.5",
+  "bestAggregateMAE": 11.535714285714286,
+  "explanation": "Averages improved, but subgroup protection failures prevent promotion."
+}

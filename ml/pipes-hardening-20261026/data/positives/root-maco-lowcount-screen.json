@@ -1,0 +1,174 @@
+{
+  "status": "ROOT_LOW_COUNT_SCREEN_ONLY_NOT_DATASET_ADMISSION",
+  "createdUTC": "2026-10-26T13:04:53.511621+00:00",
+  "screenedImages": 22,
+  "contactSheets": [
+    "output/pipes-hardening-20261026/data/root-lowcount-review/sheet-00.jpg",
+    "output/pipes-hardening-20261026/data/root-lowcount-review/sheet-01.jpg",
+    "output/pipes-hardening-20261026/data/root-lowcount-review/sheet-02.jpg",
+    "output/pipes-hardening-20261026/data/root-lowcount-review/sheet-03.jpg"
+  ],
+  "candidateCount": 5,
+  "quarantinedCount": 17,
+  "rows": [
+    {
+      "number": 16,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000016.jpg",
+      "sha256": "d8c348b4efdbdb92ae3cf7ab3fe083696aa10898ffb0ec13ad7acec52a01cf0a",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Visible black manual overpaint on background pipes."
+    },
+    {
+      "number": 21,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000021.jpg",
+      "sha256": "79a88b46b1b9910150d239c3b379e6e4b1d0dc6c7d87ec636464b83c724f2b9f",
+      "status": "CANDIDATE_PENDING_FULL_VISUAL_ANNOTATION_AND_GROUP_AUDIT",
+      "reason": "Small low-resolution photograph of rusted straight tube ends; must verify every end/source material/full boxes."
+    },
+    {
+      "number": 343,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000343.jpg",
+      "sha256": "f8907c9b143767137634355f2c9faf765b4186ccf550cdb113eb9774c03da3a8",
+      "status": "CANDIDATE_PENDING_FULL_VISUAL_ANNOTATION_AND_GROUP_AUDIT",
+      "reason": "Factory conveyor with reflective thin-wall round tubes; verify metal provenance and the far-right extra end."
+    },
+    {
+      "number": 399,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000399.jpg",
+      "sha256": "e7788e74aad6cf8632f70a2d9e310395ab9fe636233629dc016a6c2a2c00d5f0",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Pale smooth tubes appear nonmetallic; material unverified."
+    },
+    {
+      "number": 406,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000406.jpg",
+      "sha256": "50b677ba40df2ea41000c4a8acf0c65d69bc6179738176c459ec10e0445000e3",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Previously quarantined orange conduit; plausible plastic, preserve rejection."
+    },
+    {
+      "number": 410,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000410.jpg",
+      "sha256": "29e9a303441542f7b470dfa1148ed7b4ea9e9e21ce994b56344cd97268e72b4e",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Previously quarantined smooth thick-wall gray tubing; metallic material unverified."
+    },
+    {
+      "number": 521,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000521.jpg",
+      "sha256": "5c7aa654ef79c5ad14f2d32fb5befbf6ebd463ff852e324be847abc15a53d817",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Prior full overlay review found hose/joint/shaft labels; preserve ambiguous target-scope rejection."
+    },
+    {
+      "number": 522,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000522.jpg",
+      "sha256": "77646c34a25725a1dd5ad313cbf36201c8e1c6576f7d9dae81ecdc3672ceb520",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Side-on scaffold openings/ends and original four instances not clearly resolvable at screen stage."
+    },
+    {
+      "number": 527,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000527.jpg",
+      "sha256": "6b9cf312371cfec8c052f6a854516b77a92e5af274af3016b1af2c6f5648f862",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Previously confirmed smooth cream/white polymer-looking tubes; steel unverified."
+    },
+    {
+      "number": 528,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000528.jpg",
+      "sha256": "89acb7dac9591231ad5d8a3c0a375c56e3715b42f5b46789616b1165eb1f2ad9",
+      "status": "CANDIDATE_PENDING_FULL_VISUAL_ANNOTATION_AND_GROUP_AUDIT",
+      "reason": "Rusted scaffold tubes; verify all partial/visible ends and original20 HBB annotations."
+    },
+    {
+      "number": 529,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000529.jpg",
+      "sha256": "02e69f9265330b573b36dcf80345db27473d62124564ebba4e543adf45a32f2c",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Prior quarantine for threaded coupling sleeves, not unambiguous pipe-end scope; grouped with655."
+    },
+    {
+      "number": 534,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000534.jpg",
+      "sha256": "05b0508fed5bb2b80b5597534dfac980ca72b48f644e73f165b1a5c57e75ce69",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Visible black patch covering a sleeve opening; prior rejection retained."
+    },
+    {
+      "number": 555,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000555.jpg",
+      "sha256": "9bfd683efee95ae14ef99710cff8f0dd3326859e72da1684f9128f0465ebeca9",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Same pale smooth tube family as399; material unverified."
+    },
+    {
+      "number": 569,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000569.jpg",
+      "sha256": "b5c1d495b126e98c3f4f464a9af2b52a1fb5cc46be84b96709931cd94f7b1bb3",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Mixed solid-looking timber/rods with open pipes; target completeness unresolved, not accepted."
+    },
+    {
+      "number": 655,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000655.jpg",
+      "sha256": "4506d05e26319bce5f02d884d3f68d84067517a70d872ee12373e5c78d9d2f26",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Same threaded sleeve/floor family as529; preserve prior scope quarantine."
+    },
+    {
+      "number": 666,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000666.jpg",
+      "sha256": "5971f5f98d74f3b24eb648a61fa57c0eb16cea786c83df09a8200591ffe203a9",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Prior explicit PVC-U packaging evidence."
+    },
+    {
+      "number": 696,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000696.jpg",
+      "sha256": "f1d9789bd1a11b95cf756a1f37489b4e7143a0b81e5404c7e170db9195454e12",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Blue-coated thin wall tubes; metal versus polymer not established from screen image."
+    },
+    {
+      "number": 712,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000712.jpg",
+      "sha256": "638e28792a371c7e8793a38a9e9792318ffc4930618fe8747474745b7482a6d2",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Body joints/texture appear bamboo-like; steel unverified."
+    },
+    {
+      "number": 780,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000780.jpg",
+      "sha256": "fdfb85982c32cdebc40e21e8cbf22ed6bc1528f9d0b1b24a92903465ae7b6ca6",
+      "status": "CANDIDATE_PENDING_FULL_VISUAL_ANNOTATION_AND_GROUP_AUDIT",
+      "reason": "Painted/rusted scaffold tube ends; verify10 HBB and same-scene exclusion."
+    },
+    {
+      "number": 795,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000795.jpg",
+      "sha256": "e9f5ab66da28f5733bd3f3247af436d074d6ec40dd7e05a75b55e5fbb2e21afd",
+      "status": "CANDIDATE_PENDING_FULL_VISUAL_ANNOTATION_AND_GROUP_AUDIT",
+      "reason": "Mixed timber/scaffold pile with visible tube ends; verify every11 target and scope, otherwise reject."
+    },
+    {
+      "number": 1001,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001001.jpg",
+      "sha256": "e9a13841b599dc99ac052323ce59c5d66b2c416c503fc68e464d901e472d843b",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Visible black overpaint at image top."
+    },
+    {
+      "number": 1008,
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001008.jpg",
+      "sha256": "2c998b1c2a57bdf510b452531bddfd055f4fbffe32d137eb678996b2c18db0d5",
+      "status": "QUARANTINE_NOT_TRAINING",
+      "reason": "Prior material ambiguity for gray bell/socket tubes; visually concrete/cast/plastic cannot be ruled out."
+    }
+  ],
+  "previousQuarantinesPreserved": true,
+  "candidatesAreNotYetApproved": true,
+  "newModelInferencePerformed": false,
+  "originalXMLsModified": false,
+  "priorClassicalGrouping": "All five candidate IDs were singleton provisional SIFT groups, which does not prove physical independence; full cross-source/manual grouping still required."
+}

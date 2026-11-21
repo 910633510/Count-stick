@@ -1,0 +1,662 @@
+{
+  "frozenBeforeTestUTC": "2026-10-25T18:00:41Z",
+  "modelSHA256": "91d70c3067f2fdb77d2ba2541e6105bf3caf730da7bbc32e5f4d2c9310b0b337",
+  "manifestSHA256": "f28b0409993893f4874845c77a06207a5f98f5c620b1a5b478b733de64e1d8fa",
+  "selectedConfidence": 0.3,
+  "selectedPipeline": "automatic4tile",
+  "nmsIoU": 0.7,
+  "letterbox": "Fixed1024square, rect=False",
+  "wholeValidationCandidates": [
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.05,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5722,
+      "FP": 5006,
+      "FN": 1109,
+      "precision": 0.5333706189410887,
+      "recall": 0.837651881130142,
+      "countMAE": 73.33928571428571,
+      "countRMSE": 100.53917147062631,
+      "countBias": 69.58928571428571,
+      "exactCountImages": 1,
+      "exactCountRate": 0.017857142857142856,
+      "within10PercentImages": 2,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1117,
+          "recall": 0.5587793896948474
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2742,
+          "recall": 0.9654929577464789
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1863,
+          "recall": 0.9352409638554217
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.1,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5616,
+      "FP": 3147,
+      "FN": 1215,
+      "precision": 0.6408764121876069,
+      "recall": 0.8221343873517787,
+      "countMAE": 47.07142857142857,
+      "countRMSE": 68.68509923660922,
+      "countBias": 34.5,
+      "exactCountImages": 0,
+      "exactCountRate": 0.0,
+      "within10PercentImages": 2,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1053,
+          "recall": 0.5267633816908455
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2725,
+          "recall": 0.9595070422535211
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1838,
+          "recall": 0.9226907630522089
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.15,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5509,
+      "FP": 2244,
+      "FN": 1322,
+      "precision": 0.7105636527795692,
+      "recall": 0.806470502122676,
+      "countMAE": 35.857142857142854,
+      "countRMSE": 61.77320269686987,
+      "countBias": 16.464285714285715,
+      "exactCountImages": 1,
+      "exactCountRate": 0.017857142857142856,
+      "within10PercentImages": 11,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 971,
+          "recall": 0.48574287143571787
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2715,
+          "recall": 0.9559859154929577
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1823,
+          "recall": 0.9151606425702812
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.2,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5414,
+      "FP": 1693,
+      "FN": 1417,
+      "precision": 0.7617841564654566,
+      "recall": 0.7925633143024448,
+      "countMAE": 30.821428571428573,
+      "countRMSE": 63.1333622466872,
+      "countBias": 4.928571428571429,
+      "exactCountImages": 1,
+      "exactCountRate": 0.017857142857142856,
+      "within10PercentImages": 11,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 897,
+          "recall": 0.4487243621810905
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2702,
+          "recall": 0.9514084507042253
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1815,
+          "recall": 0.911144578313253
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.25,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5300,
+      "FP": 1327,
+      "FN": 1531,
+      "precision": 0.7997585634525426,
+      "recall": 0.7758746889181671,
+      "countMAE": 27.607142857142858,
+      "countRMSE": 67.95744466733785,
+      "countBias": -3.642857142857143,
+      "exactCountImages": 2,
+      "exactCountRate": 0.03571428571428571,
+      "within10PercentImages": 17,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 805,
+          "recall": 0.4027013506753377
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2685,
+          "recall": 0.9454225352112676
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1810,
+          "recall": 0.9086345381526104
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.3,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5197,
+      "FP": 1060,
+      "FN": 1634,
+      "precision": 0.8305897394917692,
+      "recall": 0.7607963694920217,
+      "countMAE": 25.678571428571427,
+      "countRMSE": 72.207785492385,
+      "countBias": -10.25,
+      "exactCountImages": 3,
+      "exactCountRate": 0.05357142857142857,
+      "within10PercentImages": 28,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 728,
+          "recall": 0.36418209104552274
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2668,
+          "recall": 0.9394366197183098
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1801,
+          "recall": 0.9041164658634538
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.4,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 4941,
+      "FP": 715,
+      "FN": 1890,
+      "precision": 0.8735855728429985,
+      "recall": 0.7233201581027668,
+      "countMAE": 26.232142857142858,
+      "countRMSE": 80.35090451975545,
+      "countBias": -20.982142857142858,
+      "exactCountImages": 6,
+      "exactCountRate": 0.10714285714285714,
+      "within10PercentImages": 36,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 562,
+          "recall": 0.28114057028514255
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2602,
+          "recall": 0.9161971830985915
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1777,
+          "recall": 0.8920682730923695
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.5,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 4532,
+      "FP": 482,
+      "FN": 2299,
+      "precision": 0.9038691663342641,
+      "recall": 0.6634460547504025,
+      "countMAE": 34.875,
+      "countRMSE": 89.20151744385134,
+      "countBias": -32.44642857142857,
+      "exactCountImages": 4,
+      "exactCountRate": 0.07142857142857142,
+      "within10PercentImages": 22,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 359,
+          "recall": 0.17958979489744872
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2439,
+          "recall": 0.8588028169014085
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1734,
+          "recall": 0.8704819277108434
+        }
+      }
+    }
+  ],
+  "tiledValidationCandidates": [
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.05,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 6188,
+      "FP": 6119,
+      "FN": 643,
+      "precision": 0.502803282684651,
+      "recall": 0.905870297174645,
+      "countMAE": 98.71428571428571,
+      "countRMSE": 146.96027159940684,
+      "countBias": 97.78571428571429,
+      "exactCountImages": 0,
+      "exactCountRate": 0.0,
+      "within10PercentImages": 4,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1787,
+          "recall": 0.8939469734867433
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2693,
+          "recall": 0.9482394366197183
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1708,
+          "recall": 0.857429718875502
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.1,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 6099,
+      "FP": 3801,
+      "FN": 732,
+      "precision": 0.6160606060606061,
+      "recall": 0.8928414580588494,
+      "countMAE": 56.660714285714285,
+      "countRMSE": 88.03844533578985,
+      "countBias": 54.80357142857143,
+      "exactCountImages": 1,
+      "exactCountRate": 0.017857142857142856,
+      "within10PercentImages": 9,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1761,
+          "recall": 0.8809404702351176
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2666,
+          "recall": 0.9387323943661972
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1672,
+          "recall": 0.8393574297188755
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.15,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 6034,
+      "FP": 2688,
+      "FN": 797,
+      "precision": 0.6918138041733547,
+      "recall": 0.8833260137607963,
+      "countMAE": 36.55357142857143,
+      "countRMSE": 58.93776984486021,
+      "countBias": 33.767857142857146,
+      "exactCountImages": 3,
+      "exactCountRate": 0.05357142857142857,
+      "within10PercentImages": 11,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1734,
+          "recall": 0.8674337168584292
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2646,
+          "recall": 0.9316901408450704
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1654,
+          "recall": 0.8303212851405622
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.2,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5987,
+      "FP": 2008,
+      "FN": 844,
+      "precision": 0.7488430268918074,
+      "recall": 0.8764456155760504,
+      "countMAE": 24.392857142857142,
+      "countRMSE": 43.68188575207282,
+      "countBias": 20.785714285714285,
+      "exactCountImages": 3,
+      "exactCountRate": 0.05357142857142857,
+      "within10PercentImages": 19,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1717,
+          "recall": 0.8589294647323662
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2634,
+          "recall": 0.9274647887323944
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1636,
+          "recall": 0.821285140562249
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.25,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5892,
+      "FP": 1580,
+      "FN": 939,
+      "precision": 0.788543897216274,
+      "recall": 0.862538427755819,
+      "countMAE": 18.303571428571427,
+      "countRMSE": 34.815585590364556,
+      "countBias": 11.446428571428571,
+      "exactCountImages": 1,
+      "exactCountRate": 0.017857142857142856,
+      "within10PercentImages": 23,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1661,
+          "recall": 0.8309154577288644
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2614,
+          "recall": 0.9204225352112676
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1617,
+          "recall": 0.8117469879518072
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.3,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5806,
+      "FP": 1242,
+      "FN": 1025,
+      "precision": 0.8237797956867197,
+      "recall": 0.8499487629922412,
+      "countMAE": 15.267857142857142,
+      "countRMSE": 29.85410955200066,
+      "countBias": 3.875,
+      "exactCountImages": 4,
+      "exactCountRate": 0.07142857142857142,
+      "within10PercentImages": 29,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1611,
+          "recall": 0.8059029514757379
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2591,
+          "recall": 0.9123239436619718
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1604,
+          "recall": 0.8052208835341366
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.4,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5558,
+      "FP": 867,
+      "FN": 1273,
+      "precision": 0.8650583657587548,
+      "recall": 0.8136436832089006,
+      "countMAE": 16.75,
+      "countRMSE": 32.38937215463475,
+      "countBias": -7.25,
+      "exactCountImages": 7,
+      "exactCountRate": 0.125,
+      "within10PercentImages": 32,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1427,
+          "recall": 0.7138569284642321
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2546,
+          "recall": 0.8964788732394366
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1585,
+          "recall": 0.7956827309236948
+        }
+      }
+    },
+    {
+      "images": 56,
+      "groundTruthObjects": 6831,
+      "confidence": 0.5,
+      "nmsIoU": 0.7,
+      "matchIoU": 0.5,
+      "TP": 5039,
+      "FP": 589,
+      "FN": 1792,
+      "precision": 0.8953447050461976,
+      "recall": 0.737666520275216,
+      "countMAE": 23.910714285714285,
+      "countRMSE": 53.23750691812251,
+      "countBias": -21.482142857142858,
+      "exactCountImages": 5,
+      "exactCountRate": 0.08928571428571429,
+      "within10PercentImages": 27,
+      "trainingMedianCountBaselineMAE": 101.48214285714286,
+      "sizeRecall": {
+        "under16px": {
+          "groundTruth": 1999,
+          "truePositives": 1014,
+          "recall": 0.5072536268134067
+        },
+        "16to32px": {
+          "groundTruth": 2840,
+          "truePositives": 2465,
+          "recall": 0.8679577464788732
+        },
+        "over32px": {
+          "groundTruth": 1992,
+          "truePositives": 1560,
+          "recall": 0.7831325301204819
+        }
+      }
+    }
+  ],
+  "selectedValidation": {
+    "images": 56,
+    "groundTruthObjects": 6831,
+    "confidence": 0.3,
+    "nmsIoU": 0.7,
+    "matchIoU": 0.5,
+    "TP": 5806,
+    "FP": 1242,
+    "FN": 1025,
+    "precision": 0.8237797956867197,
+    "recall": 0.8499487629922412,
+    "countMAE": 15.267857142857142,
+    "countRMSE": 29.85410955200066,
+    "countBias": 3.875,
+    "exactCountImages": 4,
+    "exactCountRate": 0.07142857142857142,
+    "within10PercentImages": 29,
+    "trainingMedianCountBaselineMAE": 101.48214285714286,
+    "sizeRecall": {
+      "under16px": {
+        "groundTruth": 1999,
+        "truePositives": 1611,
+        "recall": 0.8059029514757379
+      },
+      "16to32px": {
+        "groundTruth": 2840,
+        "truePositives": 2591,
+        "recall": 0.9123239436619718
+      },
+      "over32px": {
+        "groundTruth": 1992,
+        "truePositives": 1604,
+        "recall": 0.8052208835341366
+      }
+    }
+  },
+  "wholeReferenceValidation": {
+    "images": 56,
+    "groundTruthObjects": 6831,
+    "confidence": 0.3,
+    "nmsIoU": 0.7,
+    "matchIoU": 0.5,
+    "TP": 5197,
+    "FP": 1060,
+    "FN": 1634,
+    "precision": 0.8305897394917692,
+    "recall": 0.7607963694920217,
+    "countMAE": 25.678571428571427,
+    "countRMSE": 72.207785492385,
+    "countBias": -10.25,
+    "exactCountImages": 3,
+    "exactCountRate": 0.05357142857142857,
+    "within10PercentImages": 28,
+    "trainingMedianCountBaselineMAE": 101.48214285714286,
+    "sizeRecall": {
+      "under16px": {
+        "groundTruth": 1999,
+        "truePositives": 728,
+        "recall": 0.36418209104552274
+      },
+      "16to32px": {
+        "groundTruth": 2840,
+        "truePositives": 2668,
+        "recall": 0.9394366197183098
+      },
+      "over32px": {
+        "groundTruth": 1992,
+        "truePositives": 1801,
+        "recall": 0.9041164658634538
+      }
+    }
+  },
+  "trainingMedianCountBaseline": 113.0
+}

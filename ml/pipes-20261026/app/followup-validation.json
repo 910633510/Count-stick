@@ -1,0 +1,32 @@
+{
+  "status": "ROUND_SCOPE_COPY_AND_PREPROCESS_EXPORT_VALIDATED",
+  "generatedAt": "2026-10-26T08:59:57.952850+00:00",
+  "changes": [
+    "English/Chinese guidance now explicitly says round steel-pipe ends.",
+    "English/Chinese localized camera purpose and default project camera purpose now include skewers and round steel-pipe ends, processing on-device without photo upload.",
+    "Test-only helper exports actual two App preprocessing paths; no production detector/model/billing algorithm change in this follow-up."
+  ],
+  "sourceSHA256": {
+    "Count stick/en.lproj/InfoPlist.strings": "dd04a2737902ff02927b4f887c2195244146d8cf239b5499dd86785612c8e8aa",
+    "Count stick/zh-Hans.lproj/InfoPlist.strings": "48411bd629d9dc199686c5aeb0f0c9acd6755b55406fec8d25522a8ead30c2c7",
+    "Count stick/en.lproj/Localizable.strings": "3fa140936328b68e2d998d333f2392c6bbfe0a56a5a617ebed38e22c7061cc2a",
+    "Count stick/zh-Hans.lproj/Localizable.strings": "b1f59d7f0b38d98e5e0cc2cfb82fc889dfe4ed9ccbf4cce92c5c383620a9fe52",
+    "Count stick.xcodeproj/project.pbxproj": "40122d260b4e99c4c95fae1810ec2888aef9ab063b41c48fca22f56b6881f5da",
+    "Count stickTests/PipePreprocessingExportTests.swift": "c234e52151ec6c5adb25d379030d3f003f5cc7ef14eba9bcd4c7fd6cfd5e29a7"
+  },
+  "checks": {
+    "localizationPlutilLint": "PASS",
+    "swiftCompilation": "PASS via simulator helper test build",
+    "syntheticExportTest": "PASS:5 source geometries/orientations x2 App paths =10 network and10 upright PNGs",
+    "trainValExportTest": "SKIPPED: no frozen request yet",
+    "PNGHashes": "20 files independently recomputed and matched manifest",
+    "resultBundle": "output/pipe-preprocessing-export-tests.xcresult",
+    "manifestPointer": "output/pipes-20261026/preprocessing/latest-synthetic_geometry_only.json"
+  },
+  "limitations": [
+    "No repeated StoreKit regression run.",
+    "The earlier45 unit and bilingual UI evidence remains the initial feature implementation snapshot; this follow-up separately binds the later copy/helper changes.",
+    "Round model still unavailable; actual model/metadata/config integration and real input parity remain pending."
+  ],
+  "earlierReport": "ml/pipes-20261026/app/implementation-validation.json"
+}

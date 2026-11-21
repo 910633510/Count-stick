@@ -40,7 +40,7 @@
 "mode.add.detail" = "Tap an unmarked stick in the photo to add one. Use Undo to reverse a change.";
 "mode.remove.detail" = "Tap the marker closest to an extra detection to remove it. Enlarge for precise edits.";
 "note.placeholder" = "Add a note (optional)";
-"count.format" = "%d sticks";
+"count.format" = "%d items";
 "photo.accessibility" = "Photo with count markers";
 "marker.accessibility" = "Marker %d";
 "marker.remove.hint" = "Removes this marker from the count";
@@ -92,7 +92,7 @@
 "access.retry.error" = "This count could not be completed. Please try again.";
 "subscription.title" = "CountScope Pro";
 "subscription.benefit" = "Unlimited automatic counts, on your device.";
-"subscription.review" = "Currently counts exposed bamboo skewer ends. Check and correct every result.";
+"subscription.review" = "Automatic counting depends on the models included in this build. Check and correct every result.";
 "subscription.active" = "Pro is active";
 "subscription.active.detail" = "Unlimited automatic counts while subscribed.";
 "subscription.monthly" = "Monthly subscription";
@@ -115,3 +115,27 @@
 "subscription.nothing.restore" = "No active CountScope subscription was found for this Apple Account.";
 "subscription.restore.error" = "Purchases couldn’t be restored. Check your connection and Apple Account, then try again.";
 "subscription.terms" = "Terms of Use (EULA)";
+
+/* Counting categories and steel-pipe end faces. */
+"category.title" = "What are you counting?";
+"category.skewers" = "Skewers";
+"category.steel_pipes" = "Steel pipes";
+"skewer.count.format" = "%d sticks";
+"pipe.home.title" = "Count the pipe ends.";
+"pipe.home.description" = "Face the camera toward the open ends of a round steel-pipe bundle. Keep every rim visible, avoid glare, and check one marker per pipe. The counting area is found automatically.";
+"pipe.processing.title" = "Finding pipe ends…";
+"pipe.result.markers" = "One marker = one pipe end";
+"pipe.result.zero" = "No pipe ends found. Try a clearer end-on photo, or choose Add and mark each visible pipe end.";
+"pipe.region.identified" = "Automatic reference area includes detected pipe ends. Check the whole photo for missed ends.";
+"pipe.region.fallback" = "No pipe-end area found. Check the photo and markers.";
+"pipe.mode.inspect.detail" = "Check for missed ends or extra markers on reflections. Enlarge the photo for a closer look.";
+"pipe.mode.add.detail" = "Tap the center of an unmarked pipe end. Count the outer rim and inner hole together as one pipe.";
+"pipe.mode.remove.detail" = "Tap near an extra marker to remove it. Each pipe should have only one marker.";
+"pipe.count.format" = "%d pipes";
+"pipe.error.model" = "The steel-pipe model is not available in this build. No free count was used. You can mark the pipe ends manually.";
+"pipe.error.configuration" = "The steel-pipe model could not be loaded with its verified settings. No free count was used. You can count manually.";
+"pipe.error.output" = "The steel-pipe model returned an unsupported result. No free count was used. You can count manually.";
+"pipe.guide.photo.detail" = "Photograph round steel pipes head-on. Fill the frame with the bundle while keeping its edges visible; very small pipe ends are easier to miss. Keep the openings and outer rims in focus, use even light, and avoid strong reflections, angled side views, and hidden pipes. You do not need to draw a counting area.";
+"pipe.guide.photo.title" = "Face the pipe ends toward the camera";
+"pipe.guide.review.detail" = "Each visible round steel-pipe end is one pipe; its inner hole is not a second item. The automatic outline retains separate bundles and single pipes. Check the whole photo for missed ends and reflection markers, then add or remove markers as needed.";
+"pipe.error.detect" = "Steel-pipe counting could not finish. No free count was used. Try again or count manually.";

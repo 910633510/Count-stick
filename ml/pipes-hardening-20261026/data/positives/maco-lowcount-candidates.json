@@ -1,0 +1,2548 @@
+{
+  "status": "UNREVIEWED_CANDIDATES_NO_SPLIT",
+  "forbiddenOldFamilyNumbers": [
+    1,
+    4,
+    5,
+    7,
+    8,
+    12,
+    14,
+    18,
+    20,
+    24,
+    25,
+    29,
+    31,
+    37,
+    43,
+    47,
+    51,
+    54,
+    56,
+    61,
+    64,
+    65,
+    67,
+    72,
+    73,
+    78,
+    79,
+    83,
+    84,
+    85,
+    88,
+    91,
+    92,
+    94,
+    95,
+    102,
+    103,
+    106,
+    108,
+    110,
+    113,
+    116,
+    120,
+    123,
+    136,
+    139,
+    144,
+    148,
+    150,
+    155,
+    162,
+    163,
+    165,
+    167,
+    169,
+    170,
+    171,
+    174,
+    180,
+    183,
+    186,
+    190,
+    192,
+    199,
+    203,
+    204,
+    205,
+    208,
+    209,
+    212,
+    214,
+    218,
+    219,
+    222,
+    224,
+    227,
+    228,
+    229,
+    230,
+    232,
+    235,
+    243,
+    247,
+    253,
+    254,
+    257,
+    258,
+    261,
+    267,
+    270,
+    273,
+    276,
+    281,
+    283,
+    285,
+    286,
+    288,
+    294,
+    296,
+    297,
+    299,
+    304,
+    306,
+    308,
+    310,
+    311,
+    313,
+    315,
+    317,
+    318,
+    319,
+    320,
+    321,
+    323,
+    324,
+    325,
+    326,
+    328,
+    329,
+    333,
+    336,
+    338,
+    352,
+    353,
+    355,
+    356,
+    358,
+    362,
+    373,
+    374,
+    375,
+    382,
+    383,
+    387,
+    391,
+    398,
+    401,
+    404,
+    409,
+    416,
+    419,
+    421,
+    423,
+    436,
+    437,
+    446,
+    457,
+    458,
+    462,
+    464,
+    466,
+    467,
+    474,
+    484,
+    488,
+    493,
+    503,
+    507,
+    513,
+    518,
+    525,
+    531,
+    535,
+    537,
+    550,
+    552,
+    557,
+    564,
+    566,
+    567,
+    568,
+    574,
+    576,
+    579,
+    589,
+    590,
+    603,
+    608,
+    611,
+    616,
+    618,
+    622,
+    625,
+    628,
+    638,
+    639,
+    652,
+    654,
+    656,
+    660,
+    664,
+    671,
+    674,
+    676,
+    677,
+    682,
+    686,
+    687,
+    701,
+    702,
+    704,
+    707,
+    708,
+    711,
+    714,
+    718,
+    720,
+    724,
+    733,
+    751,
+    752,
+    753,
+    755,
+    756,
+    758,
+    760,
+    761,
+    762,
+    763,
+    769,
+    771,
+    772,
+    773,
+    788,
+    791,
+    801,
+    803,
+    805,
+    807,
+    810,
+    811,
+    812,
+    822,
+    824,
+    832,
+    843,
+    854,
+    855,
+    856,
+    858,
+    861,
+    863,
+    866,
+    868,
+    869,
+    874,
+    877,
+    878,
+    881,
+    888,
+    889,
+    891,
+    893,
+    894,
+    901,
+    903,
+    904,
+    906,
+    907,
+    910,
+    911,
+    915,
+    916,
+    922,
+    934,
+    941,
+    942,
+    950,
+    951,
+    952,
+    954,
+    958,
+    959,
+    960,
+    962,
+    967,
+    982,
+    992,
+    1002,
+    1004,
+    1005,
+    1011,
+    1025
+  ],
+  "candidates": [
+    {
+      "id": "maco_round_PipeHBB00000016",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000016",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000016.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000016.xml",
+      "width": 500,
+      "height": 500,
+      "imageMode": "RGB",
+      "sha256": "d8c348b4efdbdb92ae3cf7ab3fe083696aa10898ffb0ec13ad7acec52a01cf0a",
+      "RGBPixelSHA256": "98f71c457d1245242729373e784a9d69bf502aeb6290e2cc58502ade135118cc",
+      "labelSHA256": "062d28934392c2133de58111f999aee9e1289dff2cfe659900cd1adf0f5116db",
+      "pHash64": "9edaddb520b4e0e0",
+      "EXIF": {},
+      "xyxy": [
+        [
+          1.0,
+          131.0,
+          49.0,
+          259.0
+        ],
+        [
+          57.0,
+          135.0,
+          154.0,
+          284.0
+        ],
+        [
+          125.0,
+          237.0,
+          209.0,
+          357.0
+        ],
+        [
+          205.0,
+          252.0,
+          279.0,
+          363.0
+        ],
+        [
+          240.0,
+          152.0,
+          318.0,
+          269.0
+        ],
+        [
+          353.0,
+          174.0,
+          424.0,
+          287.0
+        ],
+        [
+          361.0,
+          59.0,
+          433.0,
+          174.0
+        ],
+        [
+          435.0,
+          1.0,
+          496.0,
+          102.0
+        ],
+        [
+          444.0,
+          95.0,
+          500.0,
+          184.0
+        ],
+        [
+          424.0,
+          186.0,
+          493.0,
+          290.0
+        ],
+        [
+          419.0,
+          274.0,
+          476.0,
+          355.0
+        ],
+        [
+          423.0,
+          367.0,
+          479.0,
+          451.0
+        ],
+        [
+          383.0,
+          398.0,
+          456.0,
+          500.0
+        ],
+        [
+          360.0,
+          262.0,
+          422.0,
+          357.0
+        ],
+        [
+          281.0,
+          253.0,
+          353.0,
+          364.0
+        ],
+        [
+          279.0,
+          383.0,
+          350.0,
+          482.0
+        ],
+        [
+          206.0,
+          403.0,
+          292.0,
+          500.0
+        ],
+        [
+          106.0,
+          393.0,
+          195.0,
+          497.0
+        ],
+        [
+          34.0,
+          304.0,
+          134.0,
+          432.0
+        ],
+        [
+          1.0,
+          404.0,
+          66.0,
+          500.0
+        ]
+      ],
+      "count": 20,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000021",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000021",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000021.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000021.xml",
+      "width": 200,
+      "height": 200,
+      "imageMode": "RGB",
+      "sha256": "79a88b46b1b9910150d239c3b379e6e4b1d0dc6c7d87ec636464b83c724f2b9f",
+      "RGBPixelSHA256": "68fc17c86645d6cde0d85dd31d172d536a3f3bccae42a97e696fe40f52f271e3",
+      "labelSHA256": "a97b54ffbfd63f0d9941c88e66785a4c72573df7caa01dc5ed0cad8aec5899b6",
+      "pHash64": "a800d5d40e5ed6df",
+      "EXIF": {},
+      "xyxy": [
+        [
+          6.0,
+          80.0,
+          15.0,
+          93.0
+        ],
+        [
+          16.0,
+          80.0,
+          27.0,
+          94.0
+        ],
+        [
+          26.0,
+          79.0,
+          37.0,
+          94.0
+        ],
+        [
+          39.0,
+          81.0,
+          49.0,
+          93.0
+        ],
+        [
+          50.0,
+          82.0,
+          60.0,
+          94.0
+        ],
+        [
+          61.0,
+          82.0,
+          71.0,
+          93.0
+        ],
+        [
+          72.0,
+          81.0,
+          81.0,
+          90.0
+        ],
+        [
+          82.0,
+          82.0,
+          91.0,
+          94.0
+        ],
+        [
+          92.0,
+          82.0,
+          102.0,
+          94.0
+        ],
+        [
+          104.0,
+          84.0,
+          112.0,
+          94.0
+        ],
+        [
+          114.0,
+          85.0,
+          123.0,
+          94.0
+        ],
+        [
+          124.0,
+          83.0,
+          133.0,
+          94.0
+        ],
+        [
+          134.0,
+          84.0,
+          144.0,
+          94.0
+        ],
+        [
+          145.0,
+          86.0,
+          155.0,
+          96.0
+        ],
+        [
+          158.0,
+          85.0,
+          167.0,
+          95.0
+        ],
+        [
+          168.0,
+          86.0,
+          179.0,
+          97.0
+        ],
+        [
+          180.0,
+          86.0,
+          190.0,
+          97.0
+        ]
+      ],
+      "count": 17,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000343",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000343",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000343.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000343.xml",
+      "width": 1280,
+      "height": 960,
+      "imageMode": "RGB",
+      "sha256": "f8907c9b143767137634355f2c9faf765b4186ccf550cdb113eb9774c03da3a8",
+      "RGBPixelSHA256": "2f51a060925d5f8a8b74b135869e907ad19fe1d28e2f51dd10e6bc49d7db5ae6",
+      "labelSHA256": "7d45ed18d347f5f0ebc7342174c7892d935dcb75efa83b1aebb8f4dd5aba908a",
+      "pHash64": "c5cdf0a624195b7a",
+      "EXIF": {},
+      "xyxy": [
+        [
+          285.0,
+          408.0,
+          348.0,
+          468.0
+        ],
+        [
+          335.0,
+          377.0,
+          396.0,
+          435.0
+        ],
+        [
+          403.0,
+          398.0,
+          463.0,
+          460.0
+        ],
+        [
+          499.0,
+          396.0,
+          558.0,
+          454.0
+        ],
+        [
+          567.0,
+          383.0,
+          623.0,
+          440.0
+        ],
+        [
+          625.0,
+          393.0,
+          682.0,
+          450.0
+        ],
+        [
+          684.0,
+          385.0,
+          741.0,
+          439.0
+        ],
+        [
+          747.0,
+          396.0,
+          805.0,
+          455.0
+        ],
+        [
+          807.0,
+          389.0,
+          864.0,
+          449.0
+        ],
+        [
+          860.0,
+          376.0,
+          913.0,
+          431.0
+        ],
+        [
+          1131.0,
+          300.0,
+          1157.0,
+          327.0
+        ],
+        [
+          1135.0,
+          293.0,
+          1158.0,
+          310.0
+        ]
+      ],
+      "count": 12,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000399",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000399",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000399.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000399.xml",
+      "width": 1280,
+      "height": 960,
+      "imageMode": "RGB",
+      "sha256": "e7788e74aad6cf8632f70a2d9e310395ab9fe636233629dc016a6c2a2c00d5f0",
+      "RGBPixelSHA256": "ac96b0bd4758cd2ab1963ae5944c4c68e10afcb283b54669a23cfd353a95abd5",
+      "labelSHA256": "70d2b37264cebe47780cb6ad63d1492501b810bc814fa4e8c7813c89b14abf5b",
+      "pHash64": "b0fac6a7ba90898d",
+      "EXIF": {},
+      "xyxy": [
+        [
+          3.0,
+          396.0,
+          125.0,
+          517.0
+        ],
+        [
+          1.0,
+          539.0,
+          56.0,
+          648.0
+        ],
+        [
+          264.0,
+          361.0,
+          331.0,
+          432.0
+        ],
+        [
+          314.0,
+          385.0,
+          391.0,
+          456.0
+        ],
+        [
+          286.0,
+          330.0,
+          378.0,
+          425.0
+        ],
+        [
+          377.0,
+          289.0,
+          489.0,
+          400.0
+        ],
+        [
+          495.0,
+          331.0,
+          614.0,
+          453.0
+        ],
+        [
+          457.0,
+          369.0,
+          540.0,
+          454.0
+        ],
+        [
+          522.0,
+          222.0,
+          628.0,
+          327.0
+        ],
+        [
+          610.0,
+          376.0,
+          713.0,
+          480.0
+        ],
+        [
+          703.0,
+          373.0,
+          811.0,
+          480.0
+        ],
+        [
+          774.0,
+          366.0,
+          832.0,
+          431.0
+        ],
+        [
+          834.0,
+          398.0,
+          894.0,
+          454.0
+        ],
+        [
+          908.0,
+          390.0,
+          971.0,
+          450.0
+        ],
+        [
+          851.0,
+          337.0,
+          876.0,
+          364.0
+        ],
+        [
+          1029.0,
+          314.0,
+          1122.0,
+          401.0
+        ],
+        [
+          1141.0,
+          365.0,
+          1190.0,
+          418.0
+        ],
+        [
+          1254.0,
+          354.0,
+          1280.0,
+          418.0
+        ]
+      ],
+      "count": 18,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000406",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000406",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000406.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000406.xml",
+      "width": 1080,
+      "height": 1920,
+      "imageMode": "RGB",
+      "sha256": "50b677ba40df2ea41000c4a8acf0c65d69bc6179738176c459ec10e0445000e3",
+      "RGBPixelSHA256": "5f39dcca48dd1635357aeef8910345199b739c40718819f2e507a898040c7921",
+      "labelSHA256": "058829fcd385bcdc3db8da118842801daca8c735986e084baf3aa6327f018b83",
+      "pHash64": "d2d2ac6cb1933a6c",
+      "EXIF": {},
+      "xyxy": [
+        [
+          536.0,
+          894.0,
+          636.0,
+          980.0
+        ],
+        [
+          637.0,
+          925.0,
+          761.0,
+          1035.0
+        ],
+        [
+          775.0,
+          945.0,
+          871.0,
+          1022.0
+        ],
+        [
+          776.0,
+          1000.0,
+          890.0,
+          1088.0
+        ],
+        [
+          863.0,
+          913.0,
+          985.0,
+          1022.0
+        ],
+        [
+          222.0,
+          918.0,
+          351.0,
+          1029.0
+        ],
+        [
+          342.0,
+          946.0,
+          469.0,
+          1060.0
+        ],
+        [
+          393.0,
+          1050.0,
+          513.0,
+          1138.0
+        ],
+        [
+          75.0,
+          952.0,
+          206.0,
+          1062.0
+        ],
+        [
+          5.0,
+          1027.0,
+          114.0,
+          1143.0
+        ],
+        [
+          97.0,
+          1097.0,
+          223.0,
+          1209.0
+        ],
+        [
+          206.0,
+          1042.0,
+          326.0,
+          1139.0
+        ],
+        [
+          269.0,
+          1131.0,
+          394.0,
+          1221.0
+        ],
+        [
+          180.0,
+          1214.0,
+          308.0,
+          1301.0
+        ],
+        [
+          48.0,
+          1201.0,
+          149.0,
+          1272.0
+        ],
+        [
+          514.0,
+          648.0,
+          584.0,
+          721.0
+        ]
+      ],
+      "count": 16,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000410",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000410",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000410.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000410.xml",
+      "width": 1280,
+      "height": 960,
+      "imageMode": "RGB",
+      "sha256": "29e9a303441542f7b470dfa1148ed7b4ea9e9e21ce994b56344cd97268e72b4e",
+      "RGBPixelSHA256": "23f2ba09a0f8d006f01f3f93b2cf02038849f77abb0315600767cae821e6f744",
+      "labelSHA256": "48a4f01e23caf9ead91dd47651f4489370657a78a45cb0086b8a604e3c46cbf3",
+      "pHash64": "afc0cf43bd528a1c",
+      "EXIF": {},
+      "xyxy": [
+        [
+          228.0,
+          278.0,
+          505.0,
+          459.0
+        ],
+        [
+          491.0,
+          342.0,
+          749.0,
+          566.0
+        ],
+        [
+          742.0,
+          357.0,
+          1028.0,
+          592.0
+        ],
+        [
+          5.0,
+          473.0,
+          276.0,
+          734.0
+        ],
+        [
+          229.0,
+          413.0,
+          562.0,
+          682.0
+        ],
+        [
+          546.0,
+          559.0,
+          862.0,
+          837.0
+        ],
+        [
+          855.0,
+          562.0,
+          1210.0,
+          869.0
+        ]
+      ],
+      "count": 7,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000521",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000521",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000521.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000521.xml",
+      "width": 960,
+      "height": 1280,
+      "imageMode": "RGB",
+      "sha256": "5c7aa654ef79c5ad14f2d32fb5befbf6ebd463ff852e324be847abc15a53d817",
+      "RGBPixelSHA256": "89889c0cb0b6721184d18ad8eb8bca503a11e86835f67e7eb266085e24f0d4e5",
+      "labelSHA256": "bb5e0d8bceedd488d05e51aa4c346138442261fcfbbec6943c4f416bbf8f1f45",
+      "pHash64": "83919e8ea3b3c3d4",
+      "EXIF": {},
+      "xyxy": [
+        [
+          748.0,
+          493.0,
+          853.0,
+          588.0
+        ],
+        [
+          712.0,
+          729.0,
+          763.0,
+          776.0
+        ],
+        [
+          500.0,
+          585.0,
+          604.0,
+          694.0
+        ],
+        [
+          429.0,
+          430.0,
+          520.0,
+          522.0
+        ],
+        [
+          408.0,
+          525.0,
+          507.0,
+          625.0
+        ],
+        [
+          277.0,
+          578.0,
+          385.0,
+          676.0
+        ],
+        [
+          212.0,
+          509.0,
+          297.0,
+          598.0
+        ],
+        [
+          239.0,
+          297.0,
+          352.0,
+          409.0
+        ],
+        [
+          342.0,
+          376.0,
+          433.0,
+          477.0
+        ],
+        [
+          322.0,
+          397.0,
+          363.0,
+          470.0
+        ],
+        [
+          348.0,
+          464.0,
+          429.0,
+          542.0
+        ],
+        [
+          562.0,
+          465.0,
+          624.0,
+          530.0
+        ]
+      ],
+      "count": 12,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000522",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000522",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000522.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000522.xml",
+      "width": 1280,
+      "height": 961,
+      "imageMode": "RGB",
+      "sha256": "77646c34a25725a1dd5ad313cbf36201c8e1c6576f7d9dae81ecdc3672ceb520",
+      "RGBPixelSHA256": "20672a37962a6ed9f25530f42519a6a223db7301f192f55126d69921c7b2f545",
+      "labelSHA256": "f195230803d144899ed2420ddaed4c5047b674641fc949b22ad778741031b58f",
+      "pHash64": "d478fefabf080601",
+      "EXIF": {},
+      "xyxy": [
+        [
+          353.0,
+          253.0,
+          437.0,
+          337.0
+        ],
+        [
+          914.0,
+          778.0,
+          972.0,
+          851.0
+        ],
+        [
+          152.0,
+          283.0,
+          170.0,
+          299.0
+        ],
+        [
+          102.0,
+          370.0,
+          116.0,
+          385.0
+        ]
+      ],
+      "count": 4,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000527",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000527",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000527.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000527.xml",
+      "width": 960,
+      "height": 1280,
+      "imageMode": "RGB",
+      "sha256": "6b9cf312371cfec8c052f6a854516b77a92e5af274af3016b1af2c6f5648f862",
+      "RGBPixelSHA256": "f0074df4080bd41645a780034f25abe1d016d03c558992e6ec7611a7d9e5d295",
+      "labelSHA256": "0ecb24cb8ead724ed30c1ab7c6bd5c5089f57bbf1e3962d0bc9e3e59ecbb8f4e",
+      "pHash64": "c3d1dac168b4719e",
+      "EXIF": {},
+      "xyxy": [
+        [
+          211.0,
+          386.0,
+          331.0,
+          520.0
+        ],
+        [
+          325.0,
+          350.0,
+          443.0,
+          473.0
+        ],
+        [
+          528.0,
+          366.0,
+          660.0,
+          501.0
+        ],
+        [
+          415.0,
+          430.0,
+          548.0,
+          558.0
+        ],
+        [
+          289.0,
+          469.0,
+          419.0,
+          601.0
+        ],
+        [
+          165.0,
+          501.0,
+          297.0,
+          634.0
+        ],
+        [
+          609.0,
+          461.0,
+          751.0,
+          596.0
+        ],
+        [
+          499.0,
+          522.0,
+          636.0,
+          657.0
+        ],
+        [
+          383.0,
+          548.0,
+          511.0,
+          676.0
+        ],
+        [
+          611.0,
+          588.0,
+          753.0,
+          722.0
+        ],
+        [
+          688.0,
+          692.0,
+          835.0,
+          834.0
+        ],
+        [
+          505.0,
+          696.0,
+          627.0,
+          822.0
+        ],
+        [
+          365.0,
+          681.0,
+          492.0,
+          816.0
+        ],
+        [
+          529.0,
+          833.0,
+          657.0,
+          965.0
+        ],
+        [
+          649.0,
+          817.0,
+          789.0,
+          952.0
+        ],
+        [
+          67.0,
+          974.0,
+          128.0,
+          1042.0
+        ]
+      ],
+      "count": 16,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000528",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000528",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000528.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000528.xml",
+      "width": 1080,
+      "height": 1920,
+      "imageMode": "RGB",
+      "sha256": "89acb7dac9591231ad5d8a3c0a375c56e3715b42f5b46789616b1165eb1f2ad9",
+      "RGBPixelSHA256": "c61f7b7a140e2f864d95a5d3c1e92c52bb05d5bab4f49db03969e2c7f61205e9",
+      "labelSHA256": "2d54fb5cd25c06f7a4850041696aec23d3a23acb42b2adb27899ee2df3f6e5c3",
+      "pHash64": "f054b63f2d659452",
+      "EXIF": {},
+      "xyxy": [
+        [
+          63.0,
+          476.0,
+          135.0,
+          560.0
+        ],
+        [
+          319.0,
+          536.0,
+          395.0,
+          618.0
+        ],
+        [
+          445.0,
+          576.0,
+          525.0,
+          662.0
+        ],
+        [
+          103.0,
+          704.0,
+          187.0,
+          794.0
+        ],
+        [
+          1.0,
+          713.0,
+          39.0,
+          822.0
+        ],
+        [
+          1.0,
+          895.0,
+          97.0,
+          1008.0
+        ],
+        [
+          127.0,
+          941.0,
+          267.0,
+          1061.0
+        ],
+        [
+          297.0,
+          1000.0,
+          419.0,
+          1112.0
+        ],
+        [
+          407.0,
+          874.0,
+          533.0,
+          994.0
+        ],
+        [
+          527.0,
+          1018.0,
+          659.0,
+          1130.0
+        ],
+        [
+          621.0,
+          640.0,
+          709.0,
+          725.0
+        ],
+        [
+          690.0,
+          718.0,
+          820.0,
+          841.0
+        ],
+        [
+          784.0,
+          764.0,
+          864.0,
+          848.0
+        ],
+        [
+          855.0,
+          761.0,
+          950.0,
+          849.0
+        ],
+        [
+          862.0,
+          490.0,
+          925.0,
+          555.0
+        ],
+        [
+          987.0,
+          494.0,
+          1065.0,
+          568.0
+        ],
+        [
+          1026.0,
+          743.0,
+          1080.0,
+          829.0
+        ],
+        [
+          790.0,
+          430.0,
+          836.0,
+          490.0
+        ],
+        [
+          907.0,
+          421.0,
+          962.0,
+          479.0
+        ],
+        [
+          975.0,
+          286.0,
+          1025.0,
+          339.0
+        ]
+      ],
+      "count": 20,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000529",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000529",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000529.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000529.xml",
+      "width": 1280,
+      "height": 960,
+      "imageMode": "RGB",
+      "sha256": "02e69f9265330b573b36dcf80345db27473d62124564ebba4e543adf45a32f2c",
+      "RGBPixelSHA256": "d0e48c8787f41b8b1401bcd254704fb7e91e71542e1dd2d40b60b6844150e0cc",
+      "labelSHA256": "ee5cce6118cbc5b5f27120cf8572c73d314e6b23bff3af9c6cf292a189fa31ec",
+      "pHash64": "f802870f8dbaf079",
+      "EXIF": {},
+      "xyxy": [
+        [
+          429.0,
+          156.0,
+          576.0,
+          300.0
+        ],
+        [
+          580.0,
+          172.0,
+          728.0,
+          319.0
+        ],
+        [
+          320.0,
+          264.0,
+          470.0,
+          407.0
+        ],
+        [
+          464.0,
+          293.0,
+          610.0,
+          437.0
+        ],
+        [
+          614.0,
+          312.0,
+          763.0,
+          464.0
+        ],
+        [
+          745.0,
+          418.0,
+          897.0,
+          571.0
+        ],
+        [
+          295.0,
+          406.0,
+          448.0,
+          559.0
+        ],
+        [
+          444.0,
+          432.0,
+          594.0,
+          585.0
+        ],
+        [
+          591.0,
+          455.0,
+          745.0,
+          612.0
+        ],
+        [
+          286.0,
+          562.0,
+          441.0,
+          711.0
+        ],
+        [
+          438.0,
+          582.0,
+          591.0,
+          745.0
+        ],
+        [
+          587.0,
+          607.0,
+          739.0,
+          768.0
+        ]
+      ],
+      "count": 12,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000534",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000534",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000534.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000534.xml",
+      "width": 1280,
+      "height": 960,
+      "imageMode": "RGB",
+      "sha256": "05b0508fed5bb2b80b5597534dfac980ca72b48f644e73f165b1a5c57e75ce69",
+      "RGBPixelSHA256": "093e1c824812fb247fae68007b22b36301b3cf5e0f3c136c30c666845699878a",
+      "labelSHA256": "0ebb087525625e0247c516b289066d347dcc31c55fec9532bb125a567231d4aa",
+      "pHash64": "c51d3ac3253d8ae9",
+      "EXIF": {},
+      "xyxy": [
+        [
+          871.0,
+          391.0,
+          1005.0,
+          521.0
+        ],
+        [
+          1002.0,
+          379.0,
+          1144.0,
+          514.0
+        ],
+        [
+          808.0,
+          506.0,
+          939.0,
+          634.0
+        ],
+        [
+          954.0,
+          502.0,
+          1099.0,
+          633.0
+        ],
+        [
+          882.0,
+          610.0,
+          1022.0,
+          742.0
+        ],
+        [
+          1059.0,
+          731.0,
+          1151.0,
+          835.0
+        ]
+      ],
+      "count": 6,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000555",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000555",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000555.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000555.xml",
+      "width": 960,
+      "height": 1280,
+      "imageMode": "RGB",
+      "sha256": "9bfd683efee95ae14ef99710cff8f0dd3326859e72da1684f9128f0465ebeca9",
+      "RGBPixelSHA256": "88e77a854f2226e13939c83ec2acf1fc06c954218f5c911636ca611d9ab3af89",
+      "labelSHA256": "92bb335100b956a34215747bae8305418ef9c6c2a2ff8ea0afbe56cf84136baf",
+      "pHash64": "f07bc42778b4e283",
+      "EXIF": {},
+      "xyxy": [
+        [
+          3.0,
+          514.0,
+          87.0,
+          608.0
+        ],
+        [
+          195.0,
+          435.0,
+          245.0,
+          496.0
+        ],
+        [
+          213.0,
+          450.0,
+          296.0,
+          533.0
+        ],
+        [
+          306.0,
+          414.0,
+          394.0,
+          511.0
+        ],
+        [
+          399.0,
+          484.0,
+          499.0,
+          581.0
+        ],
+        [
+          434.0,
+          353.0,
+          527.0,
+          448.0
+        ],
+        [
+          500.0,
+          511.0,
+          592.0,
+          599.0
+        ],
+        [
+          592.0,
+          507.0,
+          684.0,
+          594.0
+        ],
+        [
+          665.0,
+          461.0,
+          725.0,
+          521.0
+        ],
+        [
+          729.0,
+          484.0,
+          781.0,
+          537.0
+        ],
+        [
+          795.0,
+          481.0,
+          859.0,
+          540.0
+        ],
+        [
+          917.0,
+          437.0,
+          960.0,
+          518.0
+        ],
+        [
+          538.0,
+          331.0,
+          583.0,
+          381.0
+        ],
+        [
+          759.0,
+          389.0,
+          785.0,
+          414.0
+        ]
+      ],
+      "count": 14,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000569",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000569",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000569.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000569.xml",
+      "width": 1280,
+      "height": 960,
+      "imageMode": "RGB",
+      "sha256": "b5c1d495b126e98c3f4f464a9af2b52a1fb5cc46be84b96709931cd94f7b1bb3",
+      "RGBPixelSHA256": "1fdafc5cefffbd44a954de618309df17ba1d49fb08c6788e14132a2f7c9f062d",
+      "labelSHA256": "fd5015299b851fbebd59ec66c28355902a03fa8130f61e84f2627195e2b8463b",
+      "pHash64": "e090cdc6b8d6eae4",
+      "EXIF": {},
+      "xyxy": [
+        [
+          1078.0,
+          202.0,
+          1123.0,
+          249.0
+        ],
+        [
+          935.0,
+          269.0,
+          975.0,
+          315.0
+        ],
+        [
+          890.0,
+          330.0,
+          915.0,
+          362.0
+        ],
+        [
+          937.0,
+          318.0,
+          968.0,
+          356.0
+        ],
+        [
+          1008.0,
+          292.0,
+          1049.0,
+          339.0
+        ],
+        [
+          1051.0,
+          294.0,
+          1096.0,
+          343.0
+        ],
+        [
+          1123.0,
+          344.0,
+          1173.0,
+          396.0
+        ],
+        [
+          1226.0,
+          338.0,
+          1280.0,
+          401.0
+        ]
+      ],
+      "count": 8,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000655",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000655",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000655.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000655.xml",
+      "width": 960,
+      "height": 1280,
+      "imageMode": "RGB",
+      "sha256": "4506d05e26319bce5f02d884d3f68d84067517a70d872ee12373e5c78d9d2f26",
+      "RGBPixelSHA256": "472107e90da6a977f7937bc020f07d58e73262e1d2b7e18c5b26176deeb33b49",
+      "labelSHA256": "d2c8120b981ad14595a5f29593d5d4b111064211dc8d36c36ee0356e30b7174a",
+      "pHash64": "aa289eac6398df0b",
+      "EXIF": {},
+      "xyxy": [
+        [
+          431.0,
+          443.0,
+          524.0,
+          511.0
+        ],
+        [
+          522.0,
+          463.0,
+          617.0,
+          538.0
+        ],
+        [
+          613.0,
+          544.0,
+          710.0,
+          625.0
+        ],
+        [
+          514.0,
+          538.0,
+          610.0,
+          617.0
+        ],
+        [
+          416.0,
+          524.0,
+          511.0,
+          596.0
+        ],
+        [
+          314.0,
+          532.0,
+          411.0,
+          610.0
+        ],
+        [
+          382.0,
+          600.0,
+          483.0,
+          684.0
+        ],
+        [
+          486.0,
+          616.0,
+          586.0,
+          701.0
+        ]
+      ],
+      "count": 8,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000666",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000666",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000666.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000666.xml",
+      "width": 1280,
+      "height": 960,
+      "imageMode": "RGB",
+      "sha256": "5971f5f98d74f3b24eb648a61fa57c0eb16cea786c83df09a8200591ffe203a9",
+      "RGBPixelSHA256": "cb63bbe484d53eea841fad36eddc8473fd9a2bb5da7cf00d59156467bf4bc6e6",
+      "labelSHA256": "64bc8c25f222508437a7e1b24bfd3bb98b41caf2a8d63a160d8358d9edc43234",
+      "pHash64": "a8d14ffadb300627",
+      "EXIF": {},
+      "xyxy": [
+        [
+          957.0,
+          356.0,
+          1049.0,
+          446.0
+        ],
+        [
+          865.0,
+          353.0,
+          957.0,
+          443.0
+        ],
+        [
+          775.0,
+          347.0,
+          867.0,
+          437.0
+        ],
+        [
+          666.0,
+          349.0,
+          758.0,
+          439.0
+        ],
+        [
+          555.0,
+          350.0,
+          647.0,
+          440.0
+        ],
+        [
+          126.0,
+          335.0,
+          277.0,
+          479.0
+        ],
+        [
+          154.0,
+          343.0,
+          256.0,
+          439.0
+        ],
+        [
+          226.0,
+          883.0,
+          266.0,
+          923.0
+        ],
+        [
+          239.0,
+          884.0,
+          265.0,
+          909.0
+        ],
+        [
+          932.0,
+          926.0,
+          956.0,
+          950.0
+        ],
+        [
+          253.0,
+          633.0,
+          270.0,
+          651.0
+        ]
+      ],
+      "count": 11,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000696",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000696",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000696.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000696.xml",
+      "width": 1280,
+      "height": 960,
+      "imageMode": "RGB",
+      "sha256": "f1d9789bd1a11b95cf756a1f37489b4e7143a0b81e5404c7e170db9195454e12",
+      "RGBPixelSHA256": "b667cf7205549b4b788423dd6f5ab5f4e01401494fb1b2734ed5593c8f94d683",
+      "labelSHA256": "8df7491d79afd5518e4d00f8bbe643a3f4f034bca49c7c510dfecacd9d0b82e6",
+      "pHash64": "bdbfd49e80a58982",
+      "EXIF": {},
+      "xyxy": [
+        [
+          173.0,
+          23.0,
+          412.0,
+          279.0
+        ],
+        [
+          411.0,
+          32.0,
+          669.0,
+          279.0
+        ],
+        [
+          671.0,
+          23.0,
+          943.0,
+          297.0
+        ],
+        [
+          83.0,
+          242.0,
+          309.0,
+          467.0
+        ],
+        [
+          307.0,
+          233.0,
+          544.0,
+          479.0
+        ],
+        [
+          543.0,
+          232.0,
+          785.0,
+          481.0
+        ],
+        [
+          776.0,
+          237.0,
+          1023.0,
+          483.0
+        ],
+        [
+          11.0,
+          437.0,
+          239.0,
+          658.0
+        ],
+        [
+          228.0,
+          428.0,
+          448.0,
+          653.0
+        ],
+        [
+          444.0,
+          440.0,
+          664.0,
+          646.0
+        ],
+        [
+          662.0,
+          440.0,
+          892.0,
+          642.0
+        ],
+        [
+          888.0,
+          435.0,
+          1135.0,
+          669.0
+        ],
+        [
+          143.0,
+          618.0,
+          365.0,
+          793.0
+        ],
+        [
+          346.0,
+          614.0,
+          564.0,
+          788.0
+        ],
+        [
+          560.0,
+          611.0,
+          774.0,
+          795.0
+        ],
+        [
+          779.0,
+          632.0,
+          1018.0,
+          837.0
+        ],
+        [
+          274.0,
+          770.0,
+          472.0,
+          935.0
+        ],
+        [
+          462.0,
+          756.0,
+          665.0,
+          932.0
+        ],
+        [
+          660.0,
+          764.0,
+          860.0,
+          942.0
+        ]
+      ],
+      "count": 19,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000712",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000712",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000712.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000712.xml",
+      "width": 1280,
+      "height": 952,
+      "imageMode": "RGB",
+      "sha256": "638e28792a371c7e8793a38a9e9792318ffc4930618fe8747474745b7482a6d2",
+      "RGBPixelSHA256": "264b06b22535302cc40d4f985cbf4f9974b18632d71ededa79816fe61709c942",
+      "labelSHA256": "3d464e5c92c7db6a87a48edb35e5cb5cf42f17b19380052fce3527421d70f5b9",
+      "pHash64": "b19f73a3cb34c068",
+      "EXIF": {},
+      "xyxy": [
+        [
+          83.0,
+          647.0,
+          201.0,
+          776.0
+        ],
+        [
+          66.0,
+          781.0,
+          154.0,
+          887.0
+        ],
+        [
+          198.0,
+          665.0,
+          318.0,
+          787.0
+        ],
+        [
+          309.0,
+          695.0,
+          439.0,
+          816.0
+        ],
+        [
+          326.0,
+          852.0,
+          440.0,
+          949.0
+        ],
+        [
+          440.0,
+          653.0,
+          580.0,
+          775.0
+        ],
+        [
+          579.0,
+          654.0,
+          706.0,
+          777.0
+        ],
+        [
+          702.0,
+          685.0,
+          842.0,
+          817.0
+        ],
+        [
+          829.0,
+          708.0,
+          965.0,
+          830.0
+        ],
+        [
+          971.0,
+          741.0,
+          1128.0,
+          878.0
+        ],
+        [
+          1127.0,
+          738.0,
+          1278.0,
+          881.0
+        ]
+      ],
+      "count": 11,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000780",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000780",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000780.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000780.xml",
+      "width": 960,
+      "height": 1280,
+      "imageMode": "RGB",
+      "sha256": "fdfb85982c32cdebc40e21e8cbf22ed6bc1528f9d0b1b24a92903465ae7b6ca6",
+      "RGBPixelSHA256": "8eb9b68041d40a0d3ae8a0480dd85dac4cf12ef29b79afdb1f7f428f406b3775",
+      "labelSHA256": "276dd1dd118024db14ad1f636e7ffc38441a3257adfc49cb19d722c57f9053fb",
+      "pHash64": "dcdaf8a9a6858529",
+      "EXIF": {},
+      "xyxy": [
+        [
+          118.0,
+          528.0,
+          181.0,
+          588.0
+        ],
+        [
+          188.0,
+          544.0,
+          251.0,
+          606.0
+        ],
+        [
+          259.0,
+          562.0,
+          324.0,
+          623.0
+        ],
+        [
+          320.0,
+          538.0,
+          381.0,
+          598.0
+        ],
+        [
+          382.0,
+          551.0,
+          447.0,
+          610.0
+        ],
+        [
+          448.0,
+          539.0,
+          512.0,
+          601.0
+        ],
+        [
+          511.0,
+          538.0,
+          571.0,
+          598.0
+        ],
+        [
+          575.0,
+          535.0,
+          641.0,
+          597.0
+        ],
+        [
+          672.0,
+          586.0,
+          754.0,
+          648.0
+        ],
+        [
+          814.0,
+          590.0,
+          903.0,
+          677.0
+        ]
+      ],
+      "count": 10,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00000795",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00000795",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000795.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00000795.xml",
+      "width": 3456,
+      "height": 4608,
+      "imageMode": "RGB",
+      "sha256": "e9f5ab66da28f5733bd3f3247af436d074d6ec40dd7e05a75b55e5fbb2e21afd",
+      "RGBPixelSHA256": "511d15a92f6a71ba9161b9fe1bfbeb20ced307e1d89c993bdbb70cb63a10d20a",
+      "labelSHA256": "afa05635bbbcc8469942524904867e944a5c6d63a55dd0490fca0472c296b4ff",
+      "pHash64": "a296b105ff4d3ab0",
+      "EXIF": {},
+      "xyxy": [
+        [
+          910.0,
+          2257.0,
+          1064.0,
+          2432.0
+        ],
+        [
+          984.0,
+          2442.0,
+          1110.0,
+          2595.0
+        ],
+        [
+          1076.0,
+          2593.0,
+          1178.0,
+          2707.0
+        ],
+        [
+          1046.0,
+          1617.0,
+          1221.0,
+          1809.0
+        ],
+        [
+          1869.0,
+          2184.0,
+          1995.0,
+          2315.0
+        ],
+        [
+          1827.0,
+          2380.0,
+          1964.0,
+          2525.0
+        ],
+        [
+          1602.0,
+          2536.0,
+          1746.0,
+          2706.0
+        ],
+        [
+          1931.0,
+          2726.0,
+          2029.0,
+          2857.0
+        ],
+        [
+          2197.0,
+          2500.0,
+          2310.0,
+          2608.0
+        ],
+        [
+          2044.0,
+          2355.0,
+          2173.0,
+          2490.0
+        ],
+        [
+          2138.0,
+          2236.0,
+          2269.0,
+          2367.0
+        ]
+      ],
+      "count": 11,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00001001",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00001001",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001001.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001001.xml",
+      "width": 887,
+      "height": 1920,
+      "imageMode": "RGB",
+      "sha256": "e9a13841b599dc99ac052323ce59c5d66b2c416c503fc68e464d901e472d843b",
+      "RGBPixelSHA256": "2e766a39e30a0ab226d1aff468a2ebd198c4f4abf98367ceea3aa8de4d9fbf10",
+      "labelSHA256": "af1156410226ea2b3fcd6b4feee3c7fc82a069812708641e2d7e504f079b9524",
+      "pHash64": "888b2d3b850a3f5f",
+      "EXIF": {},
+      "xyxy": [
+        [
+          1.0,
+          699.0,
+          118.0,
+          900.0
+        ],
+        [
+          195.0,
+          1194.0,
+          416.0,
+          1368.0
+        ],
+        [
+          420.0,
+          1212.0,
+          650.0,
+          1402.0
+        ],
+        [
+          620.0,
+          1125.0,
+          846.0,
+          1302.0
+        ],
+        [
+          816.0,
+          1625.0,
+          887.0,
+          1794.0
+        ],
+        [
+          544.0,
+          1496.0,
+          785.0,
+          1663.0
+        ],
+        [
+          307.0,
+          1370.0,
+          524.0,
+          1533.0
+        ],
+        [
+          71.0,
+          1392.0,
+          293.0,
+          1563.0
+        ],
+        [
+          1.0,
+          1282.0,
+          150.0,
+          1476.0
+        ]
+      ],
+      "count": 9,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    },
+    {
+      "id": "maco_round_PipeHBB00001008",
+      "source": "zenodo17165968-MACO",
+      "sourceArchive": "round",
+      "subtype": "round_steel_pipe",
+      "authorImageId": "PipeHBB00001008",
+      "imagePath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001008.jpg",
+      "labelPath": "output/pipes-20261026/data/raw/round/Steel pipe/HBB/PipeHBB00001008.xml",
+      "width": 913,
+      "height": 421,
+      "imageMode": "RGB",
+      "sha256": "2c998b1c2a57bdf510b452531bddfd055f4fbffe32d137eb678996b2c18db0d5",
+      "RGBPixelSHA256": "ec540b1e98b2a8d2d0860274b52f012da689d6298dc00e9a4cba4e524e2cb40d",
+      "labelSHA256": "8ff4024ae6b3136ecbc27f70b67ce99b2ec8dc1c580908ed5ad7cc9e15978497",
+      "pHash64": "ba9d81882c5ecde3",
+      "EXIF": {},
+      "xyxy": [
+        [
+          111.0,
+          123.0,
+          240.0,
+          243.0
+        ],
+        [
+          239.0,
+          131.0,
+          378.0,
+          277.0
+        ],
+        [
+          457.0,
+          138.0,
+          593.0,
+          287.0
+        ],
+        [
+          670.0,
+          123.0,
+          827.0,
+          275.0
+        ],
+        [
+          724.0,
+          274.0,
+          849.0,
+          393.0
+        ],
+        [
+          555.0,
+          292.0,
+          669.0,
+          397.0
+        ],
+        [
+          349.0,
+          299.0,
+          486.0,
+          421.0
+        ],
+        [
+          5.0,
+          272.0,
+          124.0,
+          395.0
+        ],
+        [
+          188.0,
+          282.0,
+          309.0,
+          402.0
+        ]
+      ],
+      "count": 9,
+      "authorClasses": [
+        "pipe"
+      ],
+      "annotationBoundary": "PENDING_VISUAL_AUDIT_OUTER_RIM_VS_OPENING",
+      "annotationQA": "PENDING_VISUAL_SCENE_AND_LABEL_QA",
+      "technicalIssues": [],
+      "split": null,
+      "groupId": null,
+      "modelInferencePerformed": false
+    }
+  ]
+}

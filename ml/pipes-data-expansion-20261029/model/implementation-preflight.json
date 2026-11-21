@@ -1,0 +1,90 @@
+{
+  "status": "PASS_SOURCE_REUSE_DATA_ADAPTER_PENDING_BINDINGS",
+  "createdUTC": "2026-10-29T14:14:04.845815+00:00",
+  "codeSHA256": {
+    "ml/pipes-data-expansion-20261029/model/pipe_data_expansion.py": "2014cc2b95d2d38af2dadb0fdd0fe8cea95d225616ea5c1f6f7b244c556a429c",
+    "ml/pipes-data-expansion-20261029/model/prepare_data.py": "8126cbbeda3caaa4dd3e69cfc08f5ce429d2bb72f4aa986515345916415e8780",
+    "ml/pipes-data-expansion-20261029/model/train_data_expansion.py": "dc3260e91a59777a8f1b9410407cf0d6631c020340a5c8fe62a94ab6c39ae971",
+    "ml/pipes-data-expansion-20261029/model/evaluate_data_expansion.py": "7a8291f3c086a896ffc0cfc4a5bc9d8323a7b8683ef91590695765204251ca46",
+    "ml/pipes-data-expansion-20261029/model/bind_expansion_inputs.py": "e151cdd60fbad92bc9806ccb6905993b9351a51b9e8df66894e44c715002eb97",
+    "ml/pipes-data-expansion-20261029/model/head_kd.py": "b063e499bffdcc869c9b7872bb1e28796540211ecab49739ed9f415d682b1ea4",
+    "ml/pipes-head-retention-20261026/model/pipe_head_retention.py": "834d09a00699a926676d0854d8c7be58db3c50ab06e1f268e0036a6480df1d30",
+    "ml/pipes-head-retention-20261026/model/train_head_retention.py": "44db095065b816d700e80415a5420efc05a52915f21e6e10079ac2171978f21a",
+    "ml/pipes-head-retention-20261026/model/evaluate_head_retention.py": "117f9e78f9a6a0384a6bc8e468465d171e5efabe93dd115356271ad678310542",
+    "ml/pipes-head-retention-20261026/model/bind_head_inputs.py": "00e0b9e20e25c0e533910f1550eacbc3891b3485cd238b916dd080769eafb44d",
+    "ml/pipes-head-retention-20261026/model/head_kd.py": "b063e499bffdcc869c9b7872bb1e28796540211ecab49739ed9f415d682b1ea4",
+    "ml/pipes-hardening-20261026/model/pipe_hardening.py": "cd159aabda576596859ef94224e1e048da25540f8562f59d18107826c4a78ce2",
+    "ml/pipes-hardening-20261026/model/train_hardening.py": "620df2c43814bbcf335811831296b474f946e03c72308a49c6f5579398a92135",
+    "ml/pipes-hardening-20261026/model/evaluate_hardening.py": "a88f33e0b16c0e4112d49a76150c4f96e8755275d9417c2e258ff6e21886eda3",
+    "ml/pipes-hardening-20261026/model/bind_hardening_inputs.py": "e59e9523647a4021965904553270eefe7acd740f15fe5f286704888a188fe348",
+    "ml/pipes-20261026/model/pipe_ml.py": "04ee9fa982724e2d4855332b4b2a4eb362b04b7192d6d3f61aab321104bb2acb",
+    "ml/pipes-20261026/model/train_pipe_ends.py": "bb5ed2297a0797092c4c7fa2aaba2f2cb97af3ab500d2afdb382749f84bec3db",
+    "ml/pipes-20261026/model/evaluate_pipe_ends.py": "7c45d3c632c0a2beefbe55bb4177727c1b6f2807dcfeb6279b13fe1f3ec68282",
+    "ml/pipes-20261026/model/export_pipe_coreml.py": "30a9a1e8b2b473bb49fba582c71f99f5398e246fa4dcad0bed62eba6156a515e",
+    "ml/pipes-20261026/model/prepare_photos.swift": "35887d2cfa48f03ed2350d308206dea4444fbae55b507d822653a7c2546d158d",
+    "ml/pipes-20261026/model/audit_official_init.py": "9cd3362a6f333215eef1cfc09b326f733101920bdac8d07f1088d02176eb9af9",
+    "ml/pipes-20261026/model/bind_app_inputs.py": "63c0fffa5cd1da8064d60e192368e88576bab25546b6cc4783f36008267d839d",
+    "ml/colony/mps_compat.py": "e159d5b8da2a5f3ced4a910f75fe998741a6a993307a5a7cbec6319b0fea437c"
+  },
+  "unchangedTrainingASTNodes": [
+    "sampling_weights",
+    "__iter__",
+    "_setup_train",
+    "_model_train",
+    "_check_frozen",
+    "get_dataloader",
+    "preprocess_batch",
+    "save_model",
+    "build_optimizer",
+    "on_save",
+    "audit_epoch",
+    "checkpoint_check"
+  ],
+  "headKDByteIdenticalToPrevious": true,
+  "recipeAndGatesExactlyPrevious": true,
+  "oldScopeAudit": {
+    "originalPositive": {
+      "views": 156,
+      "groups": 148,
+      "GT": 25713
+    },
+    "addedPositiveSoFar": {
+      "views": 9,
+      "groups": 6,
+      "GT": 32,
+      "nativeEdgeUnder512": 1
+    },
+    "addedNegativeSoFar": {
+      "views": 38,
+      "groups": 13,
+      "naturalWholePhotos": 6,
+      "cropViews": 32
+    }
+  },
+  "reusedRuntimeSmokePath": "output/pipes-head-retention-20261026/model/smoke/report.json",
+  "reusedRuntimeSmokeSHA256": "93da8d593879688aaef3ee50ea3b3f3745efac79920c284c9505fa42e4b32f87",
+  "reusedMathProbePath": "output/pipes-retention-kd-prototype-20261026/probe-report.json",
+  "reusedMathProbeSHA256": "e936e316aab7687877854c1706e707303c7460007c104c3e957fbfe6ae41a8de",
+  "newSmokeClaim": "No new ML forward/backward run. Source equivalence checked for reused data loader, mask/KD setup, BN/body guards, optimizer and save callback logic.",
+  "adapterRequires": [
+    "root-approved freeze receipt with exact newmanifest/QA hashes",
+    "new manifest differs from all previous supplied manifests",
+    "prior54 rows unchanged; addedrows nonempty/train-only/natural whole photos",
+    "source SHA+decodedRGB uniqueness, grouped train/val exclusion; rootQA handles near-duplicate and sealed20 exclusion",
+    "copy prior258prepared bytes; keep47validation/94App rows and156teacher-old IDs"
+  ],
+  "pending": [
+    "New root-frozen data/QA bindings",
+    "Root data preparation receipt",
+    "After prepare: planned per-source/group/bucket exposure review and root training receipt"
+  ],
+  "executionThisPreflight": {
+    "newDataRead": false,
+    "prepareExecuted": false,
+    "newTrainingStarted": false,
+    "modelInference": false,
+    "fresh20Read": false,
+    "old37Read": false,
+    "oldFilesEdited": false
+  }
+}

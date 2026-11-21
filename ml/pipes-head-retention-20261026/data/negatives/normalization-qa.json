@@ -1,0 +1,48 @@
+{
+  "status": "PASS_LOSSLESS_FULL_FRAME_NORMALIZATION",
+  "images": [
+    {
+      "id": "headneg-dayang-1",
+      "status": "PASS",
+      "sourceAndNormalizedRGBExactlyEqual": true,
+      "width": 1400,
+      "height": 1050,
+      "emptyLabelBytes": 0,
+      "normalizedSHA256": "da13925af075b1c60459a3927920309538346a2a87971ffd9473028fbbe0d292",
+      "sourceSHA256": "67b0a3b3c300a5b97b05f82482f946b297208c1dec4c3ebcf29e3f081d69b622"
+    },
+    {
+      "id": "headneg-hindustan-c45",
+      "status": "PASS",
+      "sourceAndNormalizedRGBExactlyEqual": true,
+      "width": 1000,
+      "height": 665,
+      "emptyLabelBytes": 0,
+      "normalizedSHA256": "1f0eb575050258770deda0a7ef6a157fa385f548870fa08377287d90620b4cee",
+      "sourceSHA256": "ff4d38e5192aaa35d4d5bad779ed1a2932448c522a6da05655593cdd45ab4399"
+    },
+    {
+      "id": "headneg-cjm-bar11",
+      "status": "PASS",
+      "sourceAndNormalizedRGBExactlyEqual": true,
+      "width": 500,
+      "height": 500,
+      "emptyLabelBytes": 0,
+      "normalizedSHA256": "4c37fc3aaee51a61518ccf7339456d67e0069d7ede49baebad195c88cb07e8b9",
+      "sourceSHA256": "a3449f95a85d52f8b613ce13164c9928ce766260d2772cd8181a139a4c5cfcaf"
+    },
+    {
+      "id": "headneg-zhonggongte-reserve",
+      "status": "PASS",
+      "sourceAndNormalizedRGBExactlyEqual": true,
+      "width": 750,
+      "height": 750,
+      "emptyLabelBytes": 0,
+      "normalizedSHA256": "360c2f7c962a8309f5823beb9740bece8eff0a91e5e4accb522b8780849ef824",
+      "sourceSHA256": "ca1b7c86c7ed4d7dc5e763a9d06a485d2d86982d882d1e9443a7a1f602743bd7"
+    }
+  ],
+  "candidateManifestSHA256": "1e3bd46a0f9d2f87f5190bcb43d34dc95a343d721ea1434fae35178d53f2e858",
+  "modelInferencePerformed": false,
+  "oldDatasetMutated": false
+}

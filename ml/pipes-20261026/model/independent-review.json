@@ -1,0 +1,182 @@
+{
+  "status": "PASS_PRETRAINING_REVIEW",
+  "reviewedUTC": "2026-10-26T10:43:58.316314+00:00",
+  "scope": "Read-only source/smoke review. No training, model inference, holdout pixels/GT, source modifications or test evaluation.",
+  "sourceSHA256AtInitialReview": {
+    "ml/pipes-20261026/model/pipe_ml.py": "cd21baf1c61072e4b7f8f5068a940cf96e5e8ec66198bc4853ff49fbc7092396",
+    "ml/pipes-20261026/model/train_pipe_ends.py": "bb5ed2297a0797092c4c7fa2aaba2f2cb97af3ab500d2afdb382749f84bec3db",
+    "ml/pipes-20261026/model/evaluate_pipe_ends.py": "285188acd9a863c0fc4c5d2d4ea506e8f118a2414ecfb3754913345985672815",
+    "ml/pipes-20261026/model/export_pipe_coreml.py": "30a9a1e8b2b473bb49fba582c71f99f5398e246fa4dcad0bed62eba6156a515e",
+    "ml/pipes-20261026/model/prepare_photos.swift": "35887d2cfa48f03ed2350d308206dea4444fbae55b507d822653a7c2546d158d",
+    "ml/pipes-20261026/model/smoke_pipe_lifecycle.py": "ba8b8a5295ba07f823d6d553003ae1998da0e1b7575fdb1a5097855d5bc39a88",
+    "ml/pipes-20261026/model/plan.json": "0ca922b9de9373555775a2fe1874d65e8d4f11fddfcc306a702b5be9de360ccd"
+  },
+  "findings": [
+    {
+      "id": "R1",
+      "severity": "BLOCK_BEFORE_EVALUATION",
+      "status": "CLOSED_BY_READ_ONLY_SOURCE_REVIEW",
+      "file": "evaluate_pipe_ends.py:verify_authorization",
+      "finding": "Current authorization compares hash of the binding document but does not verify current records.json against binding.recordsSHA256. A fresh App manifest could otherwise bind changed post-training GT. Also recheck source manifest/data YAML/prepared-image/label chain.",
+      "required": "Revalidate frozen data binding before any candidate scoring/export."
+    },
+    {
+      "id": "R2",
+      "severity": "BLOCK_BEFORE_CACHE_REUSE",
+      "status": "CLOSED_BY_READ_ONLY_SOURCE_REVIEW",
+      "file": "evaluate_pipe_ends.py:raw_predictions",
+      "finding": "Existing raw-cache reuse validates only NPZ hash, not sidecar image identity/variant/model/input hashes and numerical shape/finiteness.",
+      "required": "Validate exact per-image cache provenance and finite (N,4)/(N,) arrays before reuse."
+    },
+    {
+      "id": "R3",
+      "severity": "BLOCK_BEFORE_SELECTION",
+      "status": "CLOSED_BY_READ_ONLY_SOURCE_REVIEW",
+      "file": "evaluate_pipe_ends.py:select",
+      "finding": "Selection only checks training-complete file existence.",
+      "required": "Require real COMPLETE status, 20 audited epochs, registered8/14/20 checkpoint SHA/internalepoch/class and authorization bindings; never accept partial/failed completion."
+    },
+    {
+      "id": "R4",
+      "severity": "BLOCK_BEFORE_EVALUATION",
+      "status": "CLOSED_BY_READ_ONLY_SOURCE_REVIEW",
+      "file": "evaluate_pipe_ends.py:app_inputs",
+      "finding": "Unknown extra variant rows are not explicitly rejected, despite per-required-variant coverage checks.",
+      "required": "Exact declared variant set and row count=valImages*variants; reject extras."
+    },
+    {
+      "id": "R5",
+      "severity": "BLOCK_BEFORE_FINAL_MODEL_ENABLEMENT",
+      "status": "CLOSED_BY_READ_ONLY_SOURCE_REVIEW",
+      "file": "export_pipe_coreml.py:finalize",
+      "finding": "PASS test/parity reports currently checked against checkpoint SHA only; same weights at different operating thresholds/export package could be accidentally associated.",
+      "required": "Test binds exact selected operating point/protocol/selection/twoApp paths; parity binds exact exportID/packageTreeSHA/selection/inputs. Keep explicit final root acceptance."
+    },
+    {
+      "id": "R6",
+      "severity": "BLOCK_BEFORE_REAL_INPUT_BINDING",
+      "status": "CLOSED_BY_READ_ONLY_SOURCE_REVIEW",
+      "finding": "Actual App input binding must compare approved production preprocessing and export-helper source hashes, not just record them.",
+      "resolution": "protocol.appSourceCodeSHA256 binds PhotoProcessing/PipeLetterbox/ExportHelper; root_training_approval, bind_app_inputs.bind and evaluator.app_inputs require exact approved/current equality. Synthetic old-source exports are audit-only."
+    }
+  ],
+  "staticPasses": [
+    "Independent official COCO YOLO11n initialization SHA pinned; no colony/student/stick weights substituted.",
+    "Single class pipe_end, outer-rim object boundary; fixed20epochs and registered8/14/20 snapshots checked by code.",
+    "save_model returns parent bool, registered callback copies/reloads actual files; synthetic lifecycle evidence tests actual installed save-return/callback path with0optimizer and no real data.",
+    "EMA finite and FP16-representable guards precede serializer; no prior artifact-success shortcut used.",
+    "InfiniteDataLoader explicitly consumes scene-balanced positive/negative WeightedRandomSampler, and preprocess_batch tracks actual image IDs plus post-augmentation GT counts. Epoch audits compare actual consumed sequence to sampler prefix.",
+    "Negative sampling mass is independent of box count; within bucket, each scene has equal mass and images share scene mass.",
+    "Preparation rejects cross-split group or exact-SHA overlap, synthetic/annotation overlay flags, non-round positives, missing outer-rim scope; requires real positive/negative train/val rows.",
+    "No arbitrary1000detection cap: raw1024locations21504 recorded, pre-NMS caches retain all>=.001, operating and AP NMS run separately for each selected IoU.",
+    "Operating match maximizes valid IoU>=.5 assignment cardinality first; TP/FP/FN and per-image count errors retained; AP50 andAP50:95 computed separately from raw-floor postprocessing.",
+    "Per-scene WAPE is mean of scene totals normalized by sceneGT, with per-source/count-density/size/negative-kind breakdowns; both App photo paths must independently satisfy precision/recall/count/negative gates.",
+    "No built-in test loader path in evaluator; final test controlled by root. Export staging is independent of App and does not issue validated config on conversion alone.",
+    "CoreML export explicitly usesquantize32, NMS thresholds,1024 input, padded class metadata, exportID/checkpointSHA metadata fields."
+  ],
+  "pendingDataAudit": [],
+  "pendingRuntimeAudit": [
+    "Actual20epoch consumption, finite losses, optimizer/EMA steps and8/14/20 checkpoint content.",
+    "Full18candidate raw-cache metrics/gates/ranking/selection recomputation.",
+    "ActualCoreML/ Vision same-App-PNG parity, metadata binding, frozen scene holdout qualification and physical-device limits."
+  ],
+  "nonBlockingNotes": [
+    "plan now correctly describes fixedDFL integral weights.",
+    "Preserve older smoke code hashes; current save-lifecycle smoke matches unchanged train_pipe_ends.py.",
+    "ActualApp PNG comparison demonstrated measurableCoreGraphics/OpenCV differences; do not assertpixel identity."
+  ],
+  "appPreprocessingEvidence": "output/pipes-20261026/preprocessing/latest-synthetic_geometry_only.json",
+  "actualDataRead": "Only previously assigned unlabeled-source scene QA and code/metadata; no sealed test data.",
+  "finalCandidateAudit": {
+    "status": "NOT_STARTED_NO_REAL_TRAINING_OR_SELECTION"
+  },
+  "revision": 3,
+  "implementationAudit": {
+    "status": "PASS_STATIC_WITH_INDEPENDENT_SYNTHETIC_NUMERICS",
+    "numericsReport": "ml/pipes-20261026/model/independent-numerics-smoke.json",
+    "numericsScope": "7 meaningful synthetic checks; no model/optimizer/images/realGT. Later source additions were authorization/input binding guards; metric mathematics reviewed unchanged.",
+    "resolutions": {
+      "R1": "Evaluator calls official_init_check and complete root_training_approval chain including records/source manifest/YAML/prepared pixels/labels.",
+      "R2": "Existing NPZ sidecar exactid/variant/model/inputhash and dtype/shape/finite/floor/rawcap asserted before reuse.",
+      "R3": "Selection requires exact20epoch COMPLETE status/rootreceipt plus registered8/14/20 checkpoint metadata reloaded/verified with epoch/class/data/protocol. Actual20sampling audits still require post-training independent review.",
+      "R4": "Exactvariant count/set,totalrowcount and unique(variant,id) pairs enforced.",
+      "R5": "Final enablement requires exactPASS statuses,selection/protocol/weights/operatingpoint/twoApp variants; parity also exportID/packageTreeSHA and inputManifest SHA.",
+      "R6": "Appsource approval chain now enforced for real inputs."
+    }
+  },
+  "reviewedCurrentCodeSHA256": {
+    "ml/pipes-20261026/model/pipe_ml.py": "04ee9fa982724e2d4855332b4b2a4eb362b04b7192d6d3f61aab321104bb2acb",
+    "ml/pipes-20261026/model/train_pipe_ends.py": "bb5ed2297a0797092c4c7fa2aaba2f2cb97af3ab500d2afdb382749f84bec3db",
+    "ml/pipes-20261026/model/evaluate_pipe_ends.py": "7c45d3c632c0a2beefbe55bb4177727c1b6f2807dcfeb6279b13fe1f3ec68282",
+    "ml/pipes-20261026/model/export_pipe_coreml.py": "30a9a1e8b2b473bb49fba582c71f99f5398e246fa4dcad0bed62eba6156a515e",
+    "ml/pipes-20261026/model/bind_app_inputs.py": "63c0fffa5cd1da8064d60e192368e88576bab25546b6cc4783f36008267d839d",
+    "ml/pipes-20261026/model/prepare_photos.swift": "35887d2cfa48f03ed2350d308206dea4444fbae55b507d822653a7c2546d158d",
+    "ml/pipes-20261026/model/smoke_pipe_lifecycle.py": "ba8b8a5295ba07f823d6d553003ae1998da0e1b7575fdb1a5097855d5bc39a88",
+    "ml/pipes-20261026/model/plan.json": "0ca922b9de9373555775a2fe1874d65e8d4f11fddfcc306a702b5be9de360ccd"
+  },
+  "pretrainingAudit": {
+    "status": "PASS_IMPLEMENTATION_AND_FROZEN_TRAIN_VAL_DATA",
+    "authorizationRequired": "Fresh root receipt required; reviewer performed0optimizer/modelinference.",
+    "dataQAReport": "ml/pipes-20261026/model/independent-pretraining-data-qa.json",
+    "dataQAReportSHA256": "e858ef53ba065aa63f1fa59d18b1a1aa1417e4bd0f254d9ec522915609e7bc17",
+    "protocolSHA256": "f8f3226d2696f11a2b3196804f9435b6088b9aae50b5cc5a5b992078f3c6cc35",
+    "dataBindingSHA256": "1b628740e47c0ff37b053b5f626cbb36cb5dcbec44ffdd65b79c7fa1672a260f",
+    "recordsSHA256": "c01c9771fa7dd810c988df784d42fe6fd8d539b8253a7ca5518dcd0a78b13774",
+    "trainValManifestSHA256": "505d0a3de3424b75d53632e5349453d9e9f82faf2d831778f07f6be5a4072476",
+    "codeSHA256": {
+      "ml/pipes-20261026/model/pipe_ml.py": "04ee9fa982724e2d4855332b4b2a4eb362b04b7192d6d3f61aab321104bb2acb",
+      "ml/pipes-20261026/model/train_pipe_ends.py": "bb5ed2297a0797092c4c7fa2aaba2f2cb97af3ab500d2afdb382749f84bec3db",
+      "ml/pipes-20261026/model/evaluate_pipe_ends.py": "7c45d3c632c0a2beefbe55bb4177727c1b6f2807dcfeb6279b13fe1f3ec68282",
+      "ml/pipes-20261026/model/export_pipe_coreml.py": "30a9a1e8b2b473bb49fba582c71f99f5398e246fa4dcad0bed62eba6156a515e",
+      "ml/pipes-20261026/model/prepare_photos.swift": "35887d2cfa48f03ed2350d308206dea4444fbae55b507d822653a7c2546d158d",
+      "ml/pipes-20261026/model/audit_official_init.py": "9cd3362a6f333215eef1cfc09b326f733101920bdac8d07f1088d02176eb9af9",
+      "ml/pipes-20261026/model/bind_app_inputs.py": "63c0fffa5cd1da8064d60e192368e88576bab25546b6cc4783f36008267d839d",
+      "ml/colony/mps_compat.py": "e159d5b8da2a5f3ced4a910f75fe998741a6a993307a5a7cbec6319b0fea437c"
+    },
+    "appSourceCodeSHA256": {
+      "PhotoProcessing": "6fb00ca644805e176dcca028ed1bef3932e80b451e77f2ea8759983d2c678b82",
+      "PipeLetterbox": "e3b3f90ded0a8fa9b3e184236d1281a1af185d774f8af0ca09b5e2668df74d83",
+      "ExportHelper": "bbb0ed28a91a3358ead2f0e12bcc0b1260a7a6ea3fb2bfea5e28b7889a915812"
+    },
+    "rootReceiptTemplatePath": "output/pipes-20261026/model/root-training-receipt.template.json",
+    "rootReceiptTemplateSHA256": "900330efc25093a9b98748452aecf396db5bb3b34e13c7a0ba0f6649200c62ff",
+    "rootDataQAPath": "ml/pipes-20261026/data/dataset-qa.json",
+    "rootDataQASHA256": "9272080f4ceaa2dae47dc7a4b75178867870bd6d3b5261d4af2076413ee90712",
+    "preparedCounts": {
+      "train": 164,
+      "val": 40,
+      "negativeTrain": 8,
+      "negativeVal": 7,
+      "trainGroups": 150,
+      "valGroups": 35,
+      "trainTargets": 25713,
+      "valTargets": 4443,
+      "maxGT": 1153
+    },
+    "actualAppValidationInputs": {
+      "status": "80PNGS_EXPORTED_AND_HASH_VERIFIED_NO_PREDICTIONS",
+      "manifestPath": "output/pipes-20261026/preprocessing/train-val-0646864F-94E5-4DC1-AE30-E68B9EA688C1/manifest.json",
+      "manifestSHA256": "bc393a2cd664c98f9e543c9fa80c1a5a481cc59b82f5c7f48cd0151f04104387",
+      "photos": 40,
+      "variants": [
+        "imageio-import",
+        "camera-normalized"
+      ],
+      "networkPNGs": 80,
+      "uprightPNGs": 80,
+      "testPhotoRead": false
+    },
+    "sealedTestBoundary": "Fullsealedmanifest not opened bythis reviewer. Root full-datasetQA bindsSHA960005… anddeclares globalexclusion. TVindependently verifiesgroup/byte/RGB/derived-parentSHA exclusion. Identity-only witness may supplement."
+  },
+  "dataSceneReviewEvidence": [
+    "ml/pipes-20261026/data/scene-review-general.json",
+    "ml/pipes-20261026/data/overlay-review-general.json"
+  ],
+  "dataSceneReviewCaveat": "General review screened65candidates then approved61atcoarseboxcoveragelevel. This is not independent recount ofeveryHBB or proofthat allunmatchedphotoIDs are independent physicalscenes.",
+  "pretrainingLimits": [
+    "Author annotations reused with technical+coarsevisualQA, not exhaustive independent recount.",
+    "Manual/SIFT scene families are conservative, not proof ofphysicalcapture independence.",
+    "Validation/test performance and actual20epoch consumption/checkpoints remain unobserved; no pipe App modelactivation approval.",
+    "Any post-receipt source/data/GT/split/gate changes require explicit revised audit/authorization, not silent continuation."
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "status": "SOURCE_VERIFIED_RESEARCH_PLUS_COMPLETED_LOCA_ZERO_SHOT_SCREEN",
+  "researchedOn": "2026-10-25",
+  "scope": "General/category-agnostic counting for CountScope; evidence distinguishes journal from conference/preprint.",
+  "papers": [
+    {
+      "id": "sqlnet",
+      "title": "SQLNet: Scale-Modulated Query and Localization Network for Few-Shot Class-Agnostic Counting",
+      "venue": "IEEE Transactions on Image Processing",
+      "year": 2025,
+      "publicationType": "peer-reviewed journal",
+      "doi": "10.1109/TIP.2025.3588255",
+      "evidence": "Author arXiv v2 explicitly says accepted by TIP; author publication page lists TIP2025; publisher DOI resolves only inconsistently in this environment.",
+      "paper": "https://arxiv.org/html/2311.10011v2",
+      "code": "https://github.com/HCPLab-SYSU/SQLNet",
+      "checkpoint": "https://drive.google.com/file/d/19t8etURqM5Qch97q-Rn5ySXd9jDAoj5g/view?usp=sharing",
+      "requiresExemplars": true,
+      "output": "locations and approximate boxes",
+      "idea": "Hierarchical exemplar features, exemplar-size prompts, scale-aware localization and size supervision.",
+      "application": "Useful mechanism for handling scale diversity and requiring localization as well as count, but the released few-shot model does not remove manual exemplars.",
+      "implementationEvidence": "Official Readme.md supplies test code/checkpoint; training code is unchecked/not released. ResNet50 backbone; paper uses1280-d exemplar features and1024-d correlation tokens.",
+      "macAssessment": "No CPU/MPS/CoreML run performed. Architecture may be portable, but sparse/deformable parts must be inspected. Not a turnkey automatic product candidate.",
+      "sourceURLs": [
+        "https://arxiv.org/abs/2311.10011",
+        "https://lingboliu.com/Publication.html",
+        "https://github.com/HCPLab-SYSU/SQLNet/blob/master/Readme.md"
+      ]
+    },
+    {
+      "id": "focus-for-free",
+      "title": "Focus for Free in Density-Based Counting",
+      "venue": "International Journal of Computer Vision",
+      "year": 2024,
+      "publicationType": "peer-reviewed journal",
+      "doi": "10.1007/s11263-024-01990-3",
+      "paper": "https://link.springer.com/article/10.1007/s11263-024-01990-3",
+      "authorCopy": "https://pure.uva.nl/ws/files/225757479/Focus_for_Free_in_Density-Based_Counting.pdf",
+      "code": "https://github.com/shizenglin/Counting-with-Focus-for-Free",
+      "requiresExemplars": false,
+      "output": "density-based count; not a universal category selector",
+      "idea": "Use existing point labels for count-consistent occlusion augmentation and foreground-mask distillation, suppressing background interference.",
+      "application": "Transfer as a controlled training ablation for our center/box labels, not as an off-the-shelf colony model. Keep the mask/auxiliary supervision training-only and preserve real test pixels.",
+      "implementationEvidence": "Publisher links a repository whose README is still the ICCV2019 implementation: Python2.7/TensorFlow1.04/CUDA8 and>=10GB GPU. This is not evidence of a maintained exact2024 reproduction. Paper evaluates crowd datasets; applicability to colonies is a hypothesis.",
+      "macAssessment": "Do not install that legacy environment into the active venv. Reimplement the limited supervision idea in the present pipeline if justified, and compare per-scale/per-species recall.",
+      "sourceURLs": [
+        "https://dare.uva.nl/id/164bae16-2040-4e7a-bcb8-641e926cca3a",
+        "https://github.com/shizenglin/Counting-with-Focus-for-Free/blob/master/README.md"
+      ]
+    },
+    {
+      "id": "loca",
+      "title": "A Low-Shot Object Counting Network With Iterative Prototype Adaptation",
+      "venue": "ICCV",
+      "year": 2023,
+      "publicationType": "top conference, not a journal",
+      "paper": "https://openaccess.thecvf.com/content/ICCV2023/html/Dukic_A_Low-Shot_Object_Counting_Network_With_Iterative_Prototype_Adaptation_ICCV_2023_paper.html",
+      "authorPaper": "https://arxiv.org/abs/2211.08217",
+      "code": "https://github.com/djukicn/loca",
+      "zeroShotCheckpoint": "https://drive.google.com/file/d/11-gkybBmBhQF2KZyo-c2-4IGUmor_JMu/view?usp=sharing",
+      "fewShotCheckpoint": "https://drive.google.com/file/d/1rTG7AjGmasfOYFm-ZzSbVQH9daYgOoIS/view?usp=sharing",
+      "requiresExemplars": "Optional; distinct published zero-shot checkpoint and mode require none.",
+      "output": "density map and integrated count",
+      "idea": "Iteratively adapt object prototypes with image features; few-shot prototypes encode size and appearance, while zero-shot uses learned objectness prototypes.",
+      "implementationEvidence": "README documents PyTorch1.11/torchvision0.12; evaluate.py hardcodes CUDA/DDP. In zero-shot, models/ope.py bypasses exemplar dimensions and ROIAlign, and models/loca.py can receive bboxes=None. All state must load strictly before bypassing redundant pretrained initialization.",
+      "checkpointBytesVerified": 142474397,
+      "macAssessment": "ActualCPU/MPS no-exemplar screen completed with strict author checkpoint loading and unchanged architecture; MPS pilot count differences below0.0001.58-image validation screenMAE22.50 vs cached reference-conditionedFamNet35.04. Negative controls failed strongly. NoCoreML/iPhone acceptance.",
+      "sourceURLs": [
+        "https://github.com/djukicn/loca/blob/main/models/loca.py",
+        "https://github.com/djukicn/loca/blob/main/models/ope.py",
+        "https://github.com/djukicn/loca/blob/main/evaluate.py"
+      ],
+      "localReproductionReport": "ml/zero_shot_loca/reports/20261025/screen-result.json",
+      "measuredParameterCount": 35482027
+    },
+    {
+      "id": "dave",
+      "title": "DAVE - A Detect-and-Verify Paradigm for Low-Shot Counting",
+      "venue": "CVPR",
+      "year": 2024,
+      "publicationType": "top conference, not a journal",
+      "paper": "https://openaccess.thecvf.com/content/CVPR2024/html/Pelhan_DAVE_-_A_Detect-and-Verify_Paradigm_for_Low-Shot_Counting_CVPR_2024_paper.html",
+      "pdf": "https://openaccess.thecvf.com/content/CVPR2024/papers/Pelhan_DAVE_-_A_Detect-and-Verify_Paradigm_for_Low-Shot_Counting_CVPR_2024_paper.pdf",
+      "code": "https://github.com/jerpelhan/DAVE",
+      "checkpoints": "https://drive.google.com/drive/folders/10O4SB3Y380hcKPIK8Dt8biniVbdQ4dH4?usp=sharing",
+      "requiresExemplars": "Zero-shot and text-prompt variants are provided.",
+      "output": "detection boxes plus density-derived count",
+      "idea": "Generate high-recall candidates, then verify/cluster appearance features to reject false positives. Zero-shot majority selection can choose the wrong category in mixed scenes; text helps disambiguate.",
+      "application": "Use the detect-then-verify idea for foreground negatives rather than threshold tuning alone. Check count-vs-box discrepancy and dense-region failures.",
+      "implementationEvidence": "Official zero-shot demo requires DAVE_0_shot and verification weights, CUDA/DDP; dependencies include sklearn/skimage and optional transformers; Detectron2 is requested for AP evaluation. ROIAlign and non-neural clustering complicate end-to-end CoreML.",
+      "macAssessment": "A later research candidate, not the first Mac port. No runtime or checkpoint-size verification performed.",
+      "sourceURLs": [
+        "https://github.com/jerpelhan/DAVE/blob/master/demo_zero.py",
+        "https://github.com/jerpelhan/DAVE/blob/master/README.md"
+      ]
+    },
+    {
+      "id": "countgd",
+      "title": "CountGD: Multi-Modal Open-World Counting",
+      "venue": "NeurIPS",
+      "year": 2024,
+      "publicationType": "top conference, not a journal; not ECCV2024",
+      "paper": "https://proceedings.neurips.cc/paper_files/paper/2024/file/57c56985d9afe89bf78a8264c91071aa-Paper-Conference.pdf",
+      "project": "https://www.robots.ox.ac.uk/~vgg/research/countgd/",
+      "code": "https://github.com/niki-amini-naieni/CountGD",
+      "checkpoint": "https://drive.google.com/file/d/1RbRcNLsOfeEbx6u39pBehqsgQiexHHrI/view?usp=sharing",
+      "requiresExemplars": "Text-only, exemplars-only or both; text-only avoids drawing boxes.",
+      "output": "object-center confidence/location; reliable box extents are not the supervised output",
+      "idea": "Repurpose GroundingDINO for counting, using localization/focal losses and text/visual prompt fusion. A category choice can supply a fixed text prompt while region localization remains automatic.",
+      "limitations": "The paper notes unusual visual appearances and fine-grained category distinctions can defeat text alone. No guarantee that biological colonies are recognized from a generic word.",
+      "implementationEvidence": "README checkpoint1.2GB; Swin-B+BERT plus optional SAM ViT-H test-time normalization. Official setup compiles MSDeformAttn with GCC/CUDA; single_image_inference.py has.cuda() calls despite a device arg. Paper reports48GB A6000 training; README full validation6min withoutSAM vs26min withSAM onRTX3090.",
+      "macAssessment": "Use as a text-only research teacher only after a CPU/fallback-operator port. Do not claim directMPS/CoreML viability or copy Linux/CUDA requirements into the current venv.",
+      "sourceURLs": [
+        "https://github.com/niki-amini-naieni/CountGD/blob/main/README.md",
+        "https://github.com/niki-amini-naieni/CountGD/blob/main/single_image_inference.py",
+        "https://github.com/niki-amini-naieni/CountGD/blob/main/models/GroundingDINO/ops/modules/ms_deform_attn.py"
+      ]
+    },
+    {
+      "id": "geco2",
+      "title": "Generalized-Scale Object Counting with Gradual Query Aggregation",
+      "venue": "AAAI",
+      "year": 2026,
+      "publicationType": "peer-reviewed major conference, not a journal; not ICCV2025",
+      "doi": "10.1609/aaai.v40i10.37780",
+      "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/37780",
+      "pdf": "https://ojs.aaai.org/index.php/AAAI/article/download/37780/41742",
+      "code": "https://github.com/jerpelhan/GECO2",
+      "checkpoint": "https://huggingface.co/datasets/jerpelhan/geco2-assets/resolve/main/weights/CNTQG_multitrain_ca44.pth?download=true",
+      "checkpointBytesHEAD": 350785678,
+      "requiresExemplars": true,
+      "output": "boxes, with SAM2 mask refinement",
+      "idea": "Gradually fuse exemplar-conditioned queries across feature scales, retaining both large objects and dense small ones instead of relying on fixed tiling.",
+      "application": "Useful design evidence for scale-aware whole/crop fusion or multiscale features; cannot be substituted as a no-box model.",
+      "implementationEvidence": "Paper uses frozen SAM2 Hiera, fixed1024 input, deformable attention and3exemplars; full training200epochs on2A100. Author installer uses Python3.10, CUDA12.6 Torch2.7.1 and compiled Deformable-DETR ops; checked350.8MBdemo checkpoint, not a CoreML asset.",
+      "macAssessment": "Too much porting for the first small screen. ReducedGPU-memory claims are from A100 measurements and do not establish M5/iPhone memory/latency.",
+      "sourceURLs": [
+        "https://github.com/jerpelhan/GECO2/blob/main/install.sh",
+        "https://github.com/jerpelhan/GECO2/blob/main/README.md"
+      ]
+    }
+  ],
+  "bibliographicCorrections": [
+    "CountGD is NeurIPS2024, not ECCV2024.",
+    "GeCo is NeurIPS2024; GeCo2 is AAAI2026, not ICCV2025.",
+    "SQLNet counting is HCPLab-SYSU/SQLNet; xiaojunxu/SQLNet is an unrelated text-to-SQL project.",
+    "IJCV2024 Focus for Free points to an older ICCV2019 codebase; do not claim exact2024 reproduction from its README."
+  ],
+  "knownDatasetIssuesFromCountGDPaper": [
+    {
+      "file": "7171.jpg",
+      "issue": "Wrong visual exemplars; CountGD paper uses text-only for this image.",
+      "source": "CountGD official NeurIPS2024 paper section4.1"
+    },
+    {
+      "file": "7611.jpg",
+      "issue": "Text lego is incorrect for the annotated target; paper changes it to yellow lego stud.",
+      "source": "CountGD official NeurIPS2024 paper section4.1"
+    }
+  ],
+  "priority": [
+    {
+      "order": 1,
+      "action": "Run a frozen58-image class-balanced clean-validation screen for LOCA zero-shot with no GT boxes or text inputs, comparing cached FamNet baseline only as a different-input reference.",
+      "why": "Most direct low-effort test of the no-manual-exemplar requirement; smaller published checkpoint and no customCUDA op in the zero-shot inference graph."
+    },
+    {
+      "order": 2,
+      "action": "Use DAVE/SQLNet/GeCo2 ideas to test scale-aware context and false-positive verification on validation only, preserving per-size/per-species metrics.",
+      "why": "Fixed tiling alone can trade large-object recall for small-object recall; MAE can hide FP/FN cancellation."
+    },
+    {
+      "order": 3,
+      "action": "Consider a limited CountGD text-only pilot without SAM after compatibility diagnosis; use target-category prompts and explicit negative/mixed-object cases.",
+      "why": "Removes drawing exemplars while making target semantics explicit, but is not currently a lightweight on-device drop-in."
+    }
+  ],
+  "evaluationLimits": [
+    "Previously opened test sets must be treated as regression/development evidence for new decisions.",
+    "A paper score on originalFSC147 cannot be compared directly to our cleaned/class-balanced subset as a claimed improvement.",
+    "Zero-shot here means no test-time visual exemplars, not no training data and not automatic understanding of the user-intended category.",
+    "No new App capability, CoreML/iPhone readiness or successful model improvement is claimed by this literature review."
+  ],
+  "actionsNotPerformed": [
+    "No login or purchase",
+    "No author contact",
+    "No app/store mutation",
+    "No model training in this research lane"
+  ]
+}

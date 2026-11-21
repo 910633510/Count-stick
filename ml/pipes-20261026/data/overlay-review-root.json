@@ -1,0 +1,189 @@
+{
+  "status": "PASS_SCENE_AND_SOURCE_HBB_OVERLAY_SCREEN_WITH_EXCLUSIONS",
+  "reviewedUTC": "2026-10-26T09:46:34.158403+00:00",
+  "reviewer": "root",
+  "inputSceneReview": "ml/pipes-20261026/data/scene-review-root.json",
+  "candidateCount": 105,
+  "acceptedCount": 93,
+  "acceptedNumbers": [
+    1,
+    4,
+    7,
+    8,
+    12,
+    14,
+    18,
+    24,
+    25,
+    31,
+    37,
+    43,
+    47,
+    51,
+    56,
+    61,
+    64,
+    65,
+    67,
+    73,
+    78,
+    79,
+    84,
+    88,
+    92,
+    95,
+    102,
+    103,
+    108,
+    110,
+    113,
+    120,
+    123,
+    136,
+    139,
+    144,
+    148,
+    150,
+    155,
+    163,
+    165,
+    167,
+    169,
+    170,
+    171,
+    174,
+    180,
+    183,
+    186,
+    190,
+    203,
+    205,
+    208,
+    212,
+    214,
+    218,
+    222,
+    224,
+    227,
+    228,
+    229,
+    232,
+    235,
+    243,
+    253,
+    254,
+    257,
+    258,
+    261,
+    267,
+    273,
+    276,
+    283,
+    285,
+    286,
+    288,
+    297,
+    299,
+    304,
+    308,
+    317,
+    318,
+    319,
+    321,
+    323,
+    324,
+    325,
+    326,
+    328,
+    329,
+    333,
+    336,
+    338
+  ],
+  "rejected": [
+    {
+      "number": 66,
+      "reason": "Black hand strokes on/adjacent to right-side pipe bodies and rims; target-scope editing."
+    },
+    {
+      "number": 97,
+      "reason": "Insulated/composite tube product; inner material and intended outer-rim target not verified for plain round-steel baseline."
+    },
+    {
+      "number": 116,
+      "reason": "Visible hand-painted black background region at bundle edge; unknown edited source for this unmarked baseline."
+    },
+    {
+      "number": 151,
+      "reason": "Native image confirms orange freehand paint touching left pipe/rim boundary."
+    },
+    {
+      "number": 175,
+      "reason": "Native image confirms multiple black edits covering background pipe regions/ends."
+    },
+    {
+      "number": 185,
+      "reason": "Native image confirms black edit over rear/background tube area; exclude edited variant."
+    },
+    {
+      "number": 248,
+      "reason": "Native image confirms several black edits over background pipe regions; target scope may have been selected manually."
+    },
+    {
+      "number": 275,
+      "reason": "Visible black painted region immediately behind/right of pipe bundle; unknown edited variant."
+    },
+    {
+      "number": 279,
+      "reason": "Visible black strokes/ticks and covered background near pipe ends."
+    },
+    {
+      "number": 301,
+      "reason": "Black painted/cutout region at upper-right near stored material; edited variant."
+    },
+    {
+      "number": 309,
+      "reason": "Large black strokes on both sides of target bundle; manually altered scene."
+    },
+    {
+      "number": 314,
+      "reason": "Black strokes at left of tube stack/body; unknown edited variant."
+    }
+  ],
+  "overlaysActuallyViewed": [
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/root-00.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/root-01.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/root-02.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/root-03.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/root-04.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/root-05.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/root-06.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/root-07.jpg",
+    "output/pipes-20261026/data/review/candidate-overlay-sheets/root-08.jpg"
+  ],
+  "additionalNativeOriginalsActuallyViewed": [
+    1,
+    50,
+    120,
+    220,
+    66,
+    97,
+    151,
+    175,
+    185,
+    248
+  ],
+  "annotationAssessment": "Source HBBs reused after technical validation and scene/coarse coverage/target-definition checks; not an independent recount of every author box. No model predictions used.",
+  "scopeNotes": [
+    "A pipe end can be dust/cement-filled if its steel tube rim/body remains identifiable; this is not a hole-only detector.",
+    "Short straight metal pipe sections such as51 are countable one-end-per-piece; no bent/multi-opening fittings promised.",
+    "Nested separate pipes may be separate instances; inner/outer rim of one pipe is one target.",
+    "Partly clipped targets follow source HBB scope; no inferred count for completely hidden material.",
+    "Severe material ambiguity/visible editing is excluded from this first baseline rather than relabeled negative.",
+    "Visual source review is not forensic certification of capture authenticity."
+  ],
+  "sameSceneSetsMustBePreserved": true,
+  "labelsChangedByRoot": false,
+  "modelInferencePerformed": false,
+  "splitAssigned": false
+}

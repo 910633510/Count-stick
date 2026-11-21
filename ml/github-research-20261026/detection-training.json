@@ -1,0 +1,831 @@
+{
+  "status": "COMPLETE_READ_ONLY_SOURCE_RESEARCH_NO_TRAINING",
+  "asOfUTC": "2026-10-26T05:07:26.340549+00:00",
+  "scope": {
+    "packageUpgrades": false,
+    "optimizerSteps": 0,
+    "backwardCalls": 1,
+    "realDatasetImagesPredicted": 0,
+    "newWeightsDownloaded": false,
+    "oldEvidenceOrAppModified": false,
+    "old63OrNew36HoldoutAccess": false,
+    "githubStarsFromRootSnapshot": true,
+    "starMetadataPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/ml/github-research-20261026/github-metadata.json",
+    "starMetadataSHA256": "cc84490a4c7fc877fa3eb97b9d5fdee6abe454c508846f007331ec92b82752dd",
+    "remoteSourceFiles": 51,
+    "remoteSourceBytes": 1524058,
+    "syntheticProbeRuns": 2,
+    "noOptimizerOrRealDatasetTraining": true,
+    "starMetadataFrozenCopy": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/github-research-20261026/detection/github-metadata-used.json"
+  },
+  "executiveRecommendation": [
+    "先做冻结权重的raw full/all-tile输出审计与有限postprocess对照，再做切片训练/教师重放匹配部署尺度；不要先重装框架。",
+    "Ultralytics官方feature-KD接口本机8.4.123已存在且synthetic no-grad loss通过。它与本项目old-train-only输出KL/DFL不同，直接替换不能保证保留旧小目标。",
+    "下一训练变量优先是old-source的尺度匹配与P3/小GT保护，而非更高star或更大模型。P2、RF-DETR属于后续独立架构实验。"
+  ],
+  "countscopeEvidence": {
+    "retentionResult": "output/research-20261025-hardcases/retention-savefix-v2/experiment-result.json",
+    "bestRejectedHardDiagnostic": {
+      "checkpointEpoch": 5,
+      "alpha": 1,
+      "hardValImages": 4,
+      "hardValMAEBaseline": 9,
+      "hardValMAECandidate": 2.75,
+      "oldUnder16pxFNBaseline": 388,
+      "oldUnder16pxFNCandidate": 435,
+      "persistentRealEmptyFalsePositive": 1,
+      "all12CandidatesFailed": true,
+      "selectedConfig": null
+    },
+    "rootExistingPipelineAuditPath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/ml/github-research-20261026/existing-pipeline-audit.json",
+    "rootExistingPipelineAuditSHA256": "4be8ef8e9cac11755b3dca5a11dc7790ee0604866b25981b6cd54f3df2ff0bcc",
+    "observedTrainingScaleSkew": {
+      "newPositiveTrainImages": 7,
+      "newPositiveTrainGT": 32,
+      "allNewPositiveTrainGTOver32pxAtWhole1024": true,
+      "newTrainMedianMinSidePx": 191.0,
+      "oldTrainMedianMinSidePx": 18.88,
+      "hardValImages": 4,
+      "hardValGT": 27,
+      "hardValMedianMinSidePx": 58.09,
+      "tileMagnificationVsWhole": 1.6666666667
+    },
+    "observedPostAugmentationGTExposures": {
+      "old": 253310,
+      "newHardPositive": 2777,
+      "clinical": 11034,
+      "interpretation": "Image/source balancing is not equal GT exposure. These counts do not establish actual loss or gradient contribution; measure per-source/per-size losses and gradient norms before asserting a cause."
+    },
+    "geometryDiagnostic": {
+      "newTrainGTWithTwoAcceptedIdealClippedTileProjections": 5,
+      "newTrainGTTotal": 32,
+      "limitation": "IdealGT projection/center-ownership simulation is not proof the real model produced duplicate errors. Existing caches discarded ownership-rejected predictions; they cannot reconstruct an all-tile fusion comparison."
+    }
+  },
+  "localOfficialDistillation": {
+    "availability": "Present in installed8.4.123; no upgrade needed merely to access distill_model.",
+    "installedPython": "3.9.6",
+    "smokePath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/github-research-20261026/detection/local-kd-smoke.json",
+    "smoke": {
+      "status": "PASS_LOCAL_API_ZERO_STEP_SYNTHETIC_LOSS",
+      "version": "8.4.123",
+      "device": "cpu",
+      "tensorShape": [
+        2,
+        3,
+        128,
+        128
+      ],
+      "datasetImagesUsed": 0,
+      "optimizerCreated": false,
+      "optimizerSteps": 0,
+      "backwardCalls": 0,
+      "trainedWeightsPersisted": false,
+      "getCfgAcceptsDistillModel": true,
+      "distillLayers": [
+        16,
+        19,
+        22,
+        23
+      ],
+      "featureShapes": {
+        "16": [
+          2,
+          64,
+          16,
+          16
+        ],
+        "19": [
+          2,
+          128,
+          8,
+          8
+        ],
+        "22": [
+          2,
+          256,
+          4,
+          4
+        ]
+      },
+      "teacherFrozen": true,
+      "teacherEval": true,
+      "finiteLoss": true,
+      "lossItems": {
+        "box_loss": 0.0,
+        "cls_loss": 0.7750287055969238,
+        "dfl_loss": 0.0,
+        "dis_loss": 7.496882438659668
+      },
+      "important": "This exercises installed wrapper constructor and loss on synthetic inputs, not full trainer/MPS/serialization/export or accuracy. Random projectors can make featureKD nonzero even for identical initialteacher/student.",
+      "sourceSHA256": "fe77f5d519c948614a0060e525a9c5537ae7f826a7fe5baee7274a15e9eaa75c"
+    },
+    "localVsCurrentUpstream": {
+      "version": "8.4.123",
+      "files": [
+        {
+          "path": "nn/distill_model.py",
+          "installedSHA256": "fe77f5d519c948614a0060e525a9c5537ae7f826a7fe5baee7274a15e9eaa75c",
+          "upstreamHeadSHA256": "190311d996f9964a9f4302a41f43bd25f3b482516270e148df16f491b9d4fc9b",
+          "identicalToPinnedHead": false
+        },
+        {
+          "path": "engine/trainer.py",
+          "installedSHA256": "21591c434e65a0bb6a10504f9184c3af012dde58b4b15d714f0f7b93ed0d128c",
+          "upstreamHeadSHA256": "ae5259a6f19f4c2b94cb3ba2f230b13b5762f895c16f0ed81dedcf252f927a6a",
+          "identicalToPinnedHead": false
+        },
+        {
+          "path": "cfg/default.yaml",
+          "installedSHA256": "9ad9a3150cedb839f7c1a352d37b578aaccd2db107ad63cea2e0bafce2966b71",
+          "upstreamHeadSHA256": "13b58f3804fef762813cb78baa2a95dd5b3c5741723ebfdea6c7a99a54d314b1",
+          "identicalToPinnedHead": false
+        },
+        {
+          "path": "cfg/models/11/yolo11.yaml",
+          "installedSHA256": "43d8a7c86acc77282ddf4966d6526e091e5b064c140ed4a6e4c0b68ecbc3784c",
+          "upstreamHeadSHA256": "43d8a7c86acc77282ddf4966d6526e091e5b064c140ed4a6e4c0b68ecbc3784c",
+          "identicalToPinnedHead": true
+        },
+        {
+          "path": "utils/loss.py",
+          "installedSHA256": "dbda30466bcef7f2513699c7a187c4210eb1961d33e3072e3b83ed7206b1d349",
+          "upstreamHeadSHA256": "4641dfdcd6851564659c2adda7f75c04c1625f39c7292ec288fdce4fa5e31063",
+          "identicalToPinnedHead": false
+        }
+      ],
+      "packagePresence": {
+        "sahi": false,
+        "rfdetr": false,
+        "mmdet": false,
+        "mmrazor": false,
+        "mmcv": false,
+        "avalanche": false
+      }
+    },
+    "api": {
+      "entryPoint": "YOLO(student).train(..., distill_model=teacher_path, dis=6.0)",
+      "researchDidNotCallTrainingEntryPoint": true,
+      "cfgFields": [
+        "distill_model",
+        "dis"
+      ],
+      "notKDFields": [
+        "dlog",
+        "dgrad",
+        "dlam"
+      ],
+      "notKDFieldMeaning": "These three are depth/SILog/depth-gradient settings, not distillation knobs."
+    },
+    "mechanism": {
+      "teacher": "Frozen eval/no_grad; teacher sees entire batch in stock implementation.",
+      "features": "Detect input neck levels plus head hook; YOLO11 uses16/19/22/23 with P3/P4/P5 strides8/16/32.",
+      "projectors": "Two1x1conv layers with ReLU, randomly initialized, map student channels to teacher channels.",
+      "loss": "Per-level L2 feature difference weighted by max teacher sigmoid class confidence; divide by teacher score sum times channels, then multiply dis and batch size.",
+      "noExplicitGTForegroundBackgroundSeparation": true,
+      "noOldSourceOnlyGate": true,
+      "noGTSizeBalancing": true
+    },
+    "differencesFromOurOutputKD": [
+      "Our retention terms explicitly separate teacher-positive>=0.1 and teacher-background<0.05 top256 anchors; their means are equally weighted. BoxDFL KL uses teacher confidence>=0.25. All KD is restricted to old_anchor train rows.",
+      "Stock official KD uses neck features, not class/DFL output KL. The project currently has no intermediate P3 feature preservation.",
+      "Our masks are teacher-confidence masks, not GT foreground masks: a true small GT with weak teacher confidence can receive no positive/box KD. This is a plausible vulnerability, not an established explanation of all47 extra small FN.",
+      "Stock teacher-score normalization is per feature level; low absolute confidence does not turn off an entire low-confidence/empty level because weights are normalized by their sum.",
+      "Stock whole-batch KD could constrain new hardcase and true-empty images toward the old teacher, including its glare false positive. Keep source gating when adapting featureKD.",
+      "Identical teacher/student weights still had synthetic dis_loss7.4969 due to random projectors. For same-architecture retention, test identity/direct normalized feature loss rather than assume the stock compression objective starts at zero."
+    ],
+    "versionCaveat": {
+      "installed": "Uses student feature indices to hook both networks.",
+      "pinnedHead": "Adds independently discovered teacher indices and an equal-feature-level-count check.",
+      "P2Consequence": "P3teacher/4levelP2student is not drop-in: installed indexing can mismatch; currentHEAD explicitly requires same number of levels. Same-family documentation is not a promise arbitrary topology pairs align.",
+      "MPSFullTrainingSaveExportVerified": false
+    },
+    "references": [
+      {
+        "repo": "ultralytics/ultralytics",
+        "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "path": "ultralytics/nn/distill_model.py",
+        "symbol": "DistillationModel.__init__",
+        "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/nn/distill_model.py#L64",
+        "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/nn/distill_model.py",
+        "sha256": "190311d996f9964a9f4302a41f43bd25f3b482516270e148df16f491b9d4fc9b"
+      },
+      {
+        "repo": "ultralytics/ultralytics",
+        "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "path": "ultralytics/nn/distill_model.py",
+        "symbol": "get_distill_layers",
+        "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/nn/distill_model.py#L175",
+        "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/nn/distill_model.py",
+        "sha256": "190311d996f9964a9f4302a41f43bd25f3b482516270e148df16f491b9d4fc9b"
+      },
+      {
+        "repo": "ultralytics/ultralytics",
+        "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "path": "ultralytics/nn/distill_model.py",
+        "symbol": "loss",
+        "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/nn/distill_model.py#L238",
+        "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/nn/distill_model.py",
+        "sha256": "190311d996f9964a9f4302a41f43bd25f3b482516270e148df16f491b9d4fc9b"
+      },
+      {
+        "repo": "ultralytics/ultralytics",
+        "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "path": "ultralytics/nn/distill_model.py",
+        "symbol": "loss_sl2",
+        "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/nn/distill_model.py#L287",
+        "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/nn/distill_model.py",
+        "sha256": "190311d996f9964a9f4302a41f43bd25f3b482516270e148df16f491b9d4fc9b"
+      },
+      {
+        "repo": "ultralytics/ultralytics",
+        "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "path": "ultralytics/engine/trainer.py",
+        "symbol": "BaseTrainer._setup_train",
+        "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/engine/trainer.py",
+        "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/engine/trainer.py",
+        "sha256": "ae5259a6f19f4c2b94cb3ba2f230b13b5762f895c16f0ed81dedcf252f927a6a"
+      },
+      {
+        "repo": "ultralytics/ultralytics",
+        "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "path": "ultralytics/cfg/default.yaml",
+        "symbol": null,
+        "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/cfg/default.yaml",
+        "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/cfg/default.yaml",
+        "sha256": "13b58f3804fef762813cb78baa2a95dd5b3c5741723ebfdea6c7a99a54d314b1"
+      },
+      {
+        "repo": "ultralytics/ultralytics",
+        "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "path": "docs/en/guides/knowledge-distillation.md",
+        "symbol": null,
+        "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/docs/en/guides/knowledge-distillation.md",
+        "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/docs/en/guides/knowledge-distillation.md",
+        "sha256": "70645c1ec58e4198741a8f28a8df85e538f314d3e7a183b9477ee64ca7c97d1e"
+      }
+    ],
+    "mpsSyntheticProbe": {
+      "status": "PASS_MPS_ZERO_OPTIMIZER_SYNTHETIC_FORWARD_BACKWARD",
+      "version": "8.4.123",
+      "shape": [
+        2,
+        3,
+        128,
+        128
+      ],
+      "syntheticGTBoxes": 2,
+      "realDatasetImagesUsed": 0,
+      "optimizerCreated": false,
+      "optimizerSteps": 0,
+      "trainedWeightsWritten": false,
+      "anchorFileUnchanged": true,
+      "seconds": 4.4389472007751465,
+      "attempts": [
+        {
+          "status": "PASS",
+          "existingCPUAssignerPatchUsed": false,
+          "lossItems": {
+            "box_loss": 6.201093673706055,
+            "cls_loss": 5.224489212036133,
+            "dfl_loss": 4.154825210571289,
+            "dis_loss": 7.3675994873046875
+          },
+          "teacherTrainingAfterWrapperTrain": false,
+          "teacherTrainingAfterStudentTrain": false,
+          "teacherFrozen": true,
+          "teacherGradientsAbsent": true,
+          "teacherParametersAndBuffersUnchanged": true,
+          "studentGradTensorCount": 255,
+          "projectorGradTensorCount": 12,
+          "allStudentProjectorGradientsFinite": true,
+          "nonzeroStudentAndProjectorGradients": true
+        }
+      ],
+      "scopeLimit": "Device/kernel and finite-gradient smoke only, not full trainer, dense-target assignment, checkpoint lifecycle, CoreML, accuracy or1024batch4 memory validation."
+    },
+    "mpsSyntheticProbePath": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/github-research-20261026/detection/local-kd-mps-smoke.json",
+    "mpsResultInterpretation": "Native MPS128 syntheticforward/backward passed in4.44s withoutCPUassignerpatch; wrapper.train and student.train keptteacher eval/frozen, nograd andunchangedweights/buffers. This is not dense-target1024batch4/fulltrainer/checkpoint/export validation and does not supersede the prior dense-MPS assigner compatibility evidence."
+  },
+  "repositories": [
+    {
+      "metadata": {
+        "full_name": "ultralytics/ultralytics",
+        "url": "https://github.com/ultralytics/ultralytics",
+        "stars": 62837,
+        "default_branch": "main",
+        "latest_sha": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "latest_commit_date": "2026-10-25T13:52:03Z",
+        "archived": false
+      },
+      "role": "Lowest-migration-cost baseline and featureKD implementation source.",
+      "priority": 1,
+      "cautions": [
+        "The project package is not byte-identical to currentHEAD. Pin local8.4.123 and source hashes; do not silently adopt latest code.",
+        "Supervised v8DetectionLoss normalizes batch BCE/box losses by assigned target score sum, not an equal per-image or per-source objective. Sampler balance alone does not establish loss balance."
+      ],
+      "sources": [
+        {
+          "repo": "ultralytics/ultralytics",
+          "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+          "path": "ultralytics/utils/loss.py",
+          "symbol": "v8DetectionLoss",
+          "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/utils/loss.py#L354",
+          "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/utils/loss.py",
+          "sha256": "4641dfdcd6851564659c2adda7f75c04c1625f39c7292ec288fdce4fa5e31063"
+        },
+        {
+          "repo": "ultralytics/ultralytics",
+          "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+          "path": "ultralytics/nn/distill_model.py",
+          "symbol": "DistillationModel.loss",
+          "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/nn/distill_model.py#L238",
+          "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/nn/distill_model.py",
+          "sha256": "190311d996f9964a9f4302a41f43bd25f3b482516270e148df16f491b9d4fc9b"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "full_name": "obss/sahi",
+        "url": "https://github.com/obss/sahi",
+        "stars": 5565,
+        "default_branch": "main",
+        "latest_sha": "b5a153ee7bcb1fd84a7b868575ff14131e7423ce",
+        "latest_commit_date": "2026-10-16T17:39:33Z",
+        "archived": false
+      },
+      "role": "Separate sliced-training preparation from sliced inference/postprocessing.",
+      "priority": 1,
+      "sourceFacts": [
+        "slice_coco exports a COCO sliced dataset; slice_image/process_coco_annotations clip annotations and retain by min_area_ratio(default0.1). It does not itself train a detector.",
+        "ignore_negative_samples defaultsFalse. Retaining actual negative crops is relevant to the empty-glare failure; examples that drop negatives would be inappropriate here.",
+        "get_sliced_prediction defaults full-image prediction enabled,20%tile overlap, GREEDYNMM, IOS0.5, class-aware. It shifts/collects all tile outputs then merges; there is no original-quadrant-center rejection rule.",
+        "At low model confidence, current implementation automatically switches merging to NMS/IOU unless force_postprocess_type=True. Our AP caches use confidence0.001, so defaults must not be described as actual NMM behavior without checking this branch."
+      ],
+      "differenceFromCurrent": [
+        "Current4tile uses60%image extents at0/40%positions, equivalent33.3%tile overlap rather than SAHI default20%; same1024crop inference magnifies objects1.667×.",
+        "Current training is whole-frame plus ordinary scale/translation augmentation, and current deployed inference applies quadrant ownership before finalNMS0.7 with no full-frame pass. This is an engineering pipeline, not complete SAHI sliced fine-tuning or standard SAHI inference.",
+        "Truncated large objects can be duplicated or mislabeled across slices. Freeze partial-object policy, keep source/session groups intact, do not count4crops as4independent plates or inflate their sampling mass.",
+        "NMM/IoS can merge two genuinely touching colonies. More slicing/merging is not guaranteed better counting."
+      ],
+      "sources": [
+        {
+          "repo": "obss/sahi",
+          "commit": "b5a153ee7bcb1fd84a7b868575ff14131e7423ce",
+          "path": "sahi/slicing.py",
+          "symbol": "process_coco_annotations",
+          "url": "https://github.com/obss/sahi/blob/b5a153ee7bcb1fd84a7b868575ff14131e7423ce/sahi/slicing.py#L125",
+          "snapshot": "output/github-research-20261026/detection/obss__sahi/sources/sahi/slicing.py",
+          "sha256": "18a75a080d2ef930a760ad2a7d6fc429d114c7c6dc573be0872fbc058ff868c7"
+        },
+        {
+          "repo": "obss/sahi",
+          "commit": "b5a153ee7bcb1fd84a7b868575ff14131e7423ce",
+          "path": "sahi/slicing.py",
+          "symbol": "slice_coco",
+          "url": "https://github.com/obss/sahi/blob/b5a153ee7bcb1fd84a7b868575ff14131e7423ce/sahi/slicing.py#L453",
+          "snapshot": "output/github-research-20261026/detection/obss__sahi/sources/sahi/slicing.py",
+          "sha256": "18a75a080d2ef930a760ad2a7d6fc429d114c7c6dc573be0872fbc058ff868c7"
+        },
+        {
+          "repo": "obss/sahi",
+          "commit": "b5a153ee7bcb1fd84a7b868575ff14131e7423ce",
+          "path": "sahi/predict.py",
+          "symbol": "get_sliced_prediction",
+          "url": "https://github.com/obss/sahi/blob/b5a153ee7bcb1fd84a7b868575ff14131e7423ce/sahi/predict.py#L176",
+          "snapshot": "output/github-research-20261026/detection/obss__sahi/sources/sahi/predict.py",
+          "sha256": "1e431b102c70af84545b3701531df1b56deba72b08989718d92631fe99f711aa"
+        },
+        {
+          "repo": "obss/sahi",
+          "commit": "b5a153ee7bcb1fd84a7b868575ff14131e7423ce",
+          "path": "sahi/predict.py",
+          "symbol": "low-confidence postprocessor switch",
+          "url": "https://github.com/obss/sahi/blob/b5a153ee7bcb1fd84a7b868575ff14131e7423ce/sahi/predict.py#L320",
+          "snapshot": "output/github-research-20261026/detection/obss__sahi/sources/sahi/predict.py",
+          "sha256": "1e431b102c70af84545b3701531df1b56deba72b08989718d92631fe99f711aa"
+        },
+        {
+          "repo": "obss/sahi",
+          "commit": "b5a153ee7bcb1fd84a7b868575ff14131e7423ce",
+          "path": "sahi/predict.py",
+          "symbol": "full-image pass",
+          "url": "https://github.com/obss/sahi/blob/b5a153ee7bcb1fd84a7b868575ff14131e7423ce/sahi/predict.py#L398",
+          "snapshot": "output/github-research-20261026/detection/obss__sahi/sources/sahi/predict.py",
+          "sha256": "1e431b102c70af84545b3701531df1b56deba72b08989718d92631fe99f711aa"
+        },
+        {
+          "repo": "obss/sahi",
+          "commit": "b5a153ee7bcb1fd84a7b868575ff14131e7423ce",
+          "path": "sahi/postprocess/combine.py",
+          "symbol": "NMMPostprocess/GreedyNMMPostprocess",
+          "url": "https://github.com/obss/sahi/blob/b5a153ee7bcb1fd84a7b868575ff14131e7423ce/sahi/postprocess/combine.py#L389",
+          "snapshot": "output/github-research-20261026/detection/obss__sahi/sources/sahi/postprocess/combine.py",
+          "sha256": "f9017441e788d62370e2ac3c647aa5572a5c106f8b61bfa93bb5cafd806a4f2c"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "full_name": "open-mmlab/mmdetection",
+        "url": "https://github.com/open-mmlab/mmdetection",
+        "stars": 33010,
+        "default_branch": "main",
+        "latest_sha": "cfd5d3a985b0249de009b67d04f37263e11cdf3d",
+        "latest_commit_date": "2024-02-05T13:23:18Z",
+        "archived": false
+      },
+      "role": "Auditable FPN/P2 and hard-example sampling reference; heavier environment migration.",
+      "priority": 3,
+      "sourceFacts": [
+        "FasterRCNN ResNet-FPN config retainsC2, RPN strides4/8/16/32/64 and RoI features4/8/16/32; P2 is concrete, not a generic FPN promise.",
+        "Stock RetinaNet FPN starts at level1, so its configuration differs from P2 FasterRCNN.",
+        "OHEMSampler.hard_mining ranks proposal classification loss. That strategy needs adaptation for YOLO dense anchors; it is not a ready image-source-balanced sampler.",
+        "KnowledgeDistillationSingleStageDetector freezes teacher forward with no_grad and supplies teacher features/head outputs to a compatible bbox_head.loss; not a generic plug-in for our Ultralytics head.",
+        "Default final detection count caps must be raised/audited for dense colonies. Stock FasterRCNN test max_per_img100 differs from our1000."
+      ],
+      "maintenanceAndCompatibility": "Root snapshot default branch last commit2024-02. This describes the inspected default branch, not proof every development branch is abandoned. It requiresMMCV>=2.0rc4,<2.2 andMMEngine; absent locally. Compiled ROI/NMS/MPS compatibility with currentTorch2.8 is unverified.",
+      "sources": [
+        {
+          "repo": "open-mmlab/mmdetection",
+          "commit": "cfd5d3a985b0249de009b67d04f37263e11cdf3d",
+          "path": "configs/_base_/models/faster-rcnn_r50_fpn.py",
+          "symbol": null,
+          "url": "https://github.com/open-mmlab/mmdetection/blob/cfd5d3a985b0249de009b67d04f37263e11cdf3d/configs/_base_/models/faster-rcnn_r50_fpn.py",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmdetection/sources/configs/_base_/models/faster-rcnn_r50_fpn.py",
+          "sha256": "025daaa58d8ff8ccec7c10a8779a6307a1eb1fb67316f4312027350959a99d16"
+        },
+        {
+          "repo": "open-mmlab/mmdetection",
+          "commit": "cfd5d3a985b0249de009b67d04f37263e11cdf3d",
+          "path": "configs/_base_/models/retinanet_r50_fpn.py",
+          "symbol": null,
+          "url": "https://github.com/open-mmlab/mmdetection/blob/cfd5d3a985b0249de009b67d04f37263e11cdf3d/configs/_base_/models/retinanet_r50_fpn.py",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmdetection/sources/configs/_base_/models/retinanet_r50_fpn.py",
+          "sha256": "7fa599ca882f19f48ec805d53cca3d863c5d407b86329375e3f1443df40e00d2"
+        },
+        {
+          "repo": "open-mmlab/mmdetection",
+          "commit": "cfd5d3a985b0249de009b67d04f37263e11cdf3d",
+          "path": "mmdet/models/necks/fpn.py",
+          "symbol": "FPN.forward",
+          "url": "https://github.com/open-mmlab/mmdetection/blob/cfd5d3a985b0249de009b67d04f37263e11cdf3d/mmdet/models/necks/fpn.py#L161",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmdetection/sources/mmdet/models/necks/fpn.py",
+          "sha256": "0f765ab7cdf26a9c4fb4d47606a9afb40d3374f95297827349cb67f08147bf65"
+        },
+        {
+          "repo": "open-mmlab/mmdetection",
+          "commit": "cfd5d3a985b0249de009b67d04f37263e11cdf3d",
+          "path": "mmdet/models/task_modules/samplers/ohem_sampler.py",
+          "symbol": "OHEMSampler.hard_mining",
+          "url": "https://github.com/open-mmlab/mmdetection/blob/cfd5d3a985b0249de009b67d04f37263e11cdf3d/mmdet/models/task_modules/samplers/ohem_sampler.py#L34",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmdetection/sources/mmdet/models/task_modules/samplers/ohem_sampler.py",
+          "sha256": "71b49558cb4db8cd7e622bc744c23ce9949a4305a4ac2e1e3e6f94117b5a25d5"
+        },
+        {
+          "repo": "open-mmlab/mmdetection",
+          "commit": "cfd5d3a985b0249de009b67d04f37263e11cdf3d",
+          "path": "mmdet/models/detectors/kd_one_stage.py",
+          "symbol": "KnowledgeDistillationSingleStageDetector.loss",
+          "url": "https://github.com/open-mmlab/mmdetection/blob/cfd5d3a985b0249de009b67d04f37263e11cdf3d/mmdet/models/detectors/kd_one_stage.py#L69",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmdetection/sources/mmdet/models/detectors/kd_one_stage.py",
+          "sha256": "a98638a207fcf68646396dc64dd0521bb2276e46a6f312573f0dc0e5a284503d"
+        },
+        {
+          "repo": "open-mmlab/mmdetection",
+          "commit": "cfd5d3a985b0249de009b67d04f37263e11cdf3d",
+          "path": "requirements/mminstall.txt",
+          "symbol": null,
+          "url": "https://github.com/open-mmlab/mmdetection/blob/cfd5d3a985b0249de009b67d04f37263e11cdf3d/requirements/mminstall.txt",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmdetection/sources/requirements/mminstall.txt",
+          "sha256": "78532ea49e2ab46a89451b13ced5bc4355c9983055d8e2c04faa45c710abb4b4"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "full_name": "open-mmlab/mmrazor",
+        "url": "https://github.com/open-mmlab/mmrazor",
+        "stars": 1689,
+        "default_branch": "main",
+        "latest_sha": "90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7",
+        "latest_commit_date": "2023-06-25T02:40:07Z",
+        "archived": false
+      },
+      "role": "Borrow explicit detection-distillation loss definitions and layer mapping, not replace the entire environment first.",
+      "priority": 2,
+      "sourceFacts": {
+        "CWD": "ChannelWiseDivergence normalizes spatial positions per channel with temperature softmax and averagesKL over N*C; suitable source for per-level preservation.",
+        "PKD": "PKDLoss normalizes each channel over batch/spatial values to zero mean/unitstd, thenMSE/2; designed to reduce scale/magnitude mismatch.",
+        "MGD": "MGDConnector masks spatial features and reconstructs through a generator; MGDLoss sumsMSE/N. Random spatial masking is not GT-small-object balancing.",
+        "FBKD": "FBKD uses spatial/channel attention and feature/relation terms; code averages teacher/student spatial masks. This is not a GT foreground/background size mask; no claim FGD is provided in the inspected official tree.",
+        "framework": "ConfigurableDistiller recorders/connectors/data_idx explicitly map student/teacher features; SingleTeacherDistill controls teacher trainability/BN eval."
+      },
+      "maintenanceAndCompatibility": "Default branch lastcommit2023-06 atroot snapshot; package absent. Read/use formulas or a narrow reviewed implementation in existing environment first. No currentMac/MPS training verification.",
+      "sources": [
+        {
+          "repo": "open-mmlab/mmrazor",
+          "commit": "90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7",
+          "path": "mmrazor/models/losses/cwd.py",
+          "symbol": "ChannelWiseDivergence.forward",
+          "url": "https://github.com/open-mmlab/mmrazor/blob/90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7/mmrazor/models/losses/cwd.py#L25",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmrazor/sources/mmrazor/models/losses/cwd.py",
+          "sha256": "5c2056fa55b3f3b81f954165d43b2dc9045f408c97b6a5089de050886c79150f"
+        },
+        {
+          "repo": "open-mmlab/mmrazor",
+          "commit": "90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7",
+          "path": "mmrazor/models/losses/pkd_loss.py",
+          "symbol": "PKDLoss.norm/forward",
+          "url": "https://github.com/open-mmlab/mmrazor/blob/90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7/mmrazor/models/losses/pkd_loss.py#L31",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmrazor/sources/mmrazor/models/losses/pkd_loss.py",
+          "sha256": "52da84d8d1600b3215973e9e9c9d06a61cba8d32ae93089a108bafa95e30e180"
+        },
+        {
+          "repo": "open-mmlab/mmrazor",
+          "commit": "90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7",
+          "path": "mmrazor/models/losses/fbkd_loss.py",
+          "symbol": "FBKDLoss.forward",
+          "url": "https://github.com/open-mmlab/mmrazor/blob/90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7/mmrazor/models/losses/fbkd_loss.py#L74",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmrazor/sources/mmrazor/models/losses/fbkd_loss.py",
+          "sha256": "9a11bb3d75e4912ddf4a0089657ea2d5dc7fb985104c3db72ff1014aa7a722b3"
+        },
+        {
+          "repo": "open-mmlab/mmrazor",
+          "commit": "90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7",
+          "path": "mmrazor/models/architectures/connectors/mgd_connector.py",
+          "symbol": "MGDConnector.forward_train",
+          "url": "https://github.com/open-mmlab/mmrazor/blob/90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7/mmrazor/models/architectures/connectors/mgd_connector.py#L53",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmrazor/sources/mmrazor/models/architectures/connectors/mgd_connector.py",
+          "sha256": "4adc1da03cbf5dba0d0ad5f48d8e20cb65785f37d5cd19f06114f50b4307e928"
+        },
+        {
+          "repo": "open-mmlab/mmrazor",
+          "commit": "90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7",
+          "path": "mmrazor/models/distillers/configurable_distiller.py",
+          "symbol": "ConfigurableDistiller",
+          "url": "https://github.com/open-mmlab/mmrazor/blob/90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7/mmrazor/models/distillers/configurable_distiller.py#L16",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmrazor/sources/mmrazor/models/distillers/configurable_distiller.py",
+          "sha256": "1fed113b8618143edf61c436a67b9aa7323be967e6640e4ade1dfc8962d31c67"
+        },
+        {
+          "repo": "open-mmlab/mmrazor",
+          "commit": "90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7",
+          "path": "configs/distill/mmdet/cwd/cwd_fpn_frcnn_r101_frcnn_r50_1x_coco.py",
+          "symbol": null,
+          "url": "https://github.com/open-mmlab/mmrazor/blob/90c7af1fdf35a606a2fceaaeb4b6be2f0dac4eb7/configs/distill/mmdet/cwd/cwd_fpn_frcnn_r101_frcnn_r50_1x_coco.py",
+          "snapshot": "output/github-research-20261026/detection/open-mmlab__mmrazor/sources/configs/distill/mmdet/cwd/cwd_fpn_frcnn_r101_frcnn_r50_1x_coco.py",
+          "sha256": "e7a8928df70fd2f7ef9880993c8b7cdd14c9dbc06452b9e43e99aba56d94466f"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "full_name": "roboflow/rf-detr",
+        "url": "https://github.com/roboflow/rf-detr",
+        "stars": 9893,
+        "default_branch": "develop",
+        "latest_sha": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb",
+        "latest_commit_date": "2026-10-16T05:38:07Z",
+        "archived": false
+      },
+      "role": "Later architectural comparator for context/one-to-one matching, not an immediate tiny/dense-count replacement.",
+      "priority": 4,
+      "sourceFacts": [
+        "RFDETRSmall config inheritsP4-only projector and300queries/300selected detections; small resolution512, nano384. These defaults are not a fair substitute for our1024 dense-count setup.",
+        "GroupDETR13groups is for training; inference explicitly slices to num_queries. It does not give3900inference objects.",
+        "LWDETR query slots bound distinct detections. Dense plates can exceed300; calibrate queries andnum_select or a declared slicing scheme before comparing countMAE.",
+        "ModelConfig advertisesP3/P4/P5 projector levels, not a nativeP2 option.",
+        "Matcher uses Hungarian assignments; criterion supports focal/varifocal/IoU-aware classification paths. Avoid attributing every current classifier-loss option to the original paper or asserting counting accuracy from COCOAP.",
+        "Config auto-detectsMPS, and nativeCoreML exporter exists, but CoreMLExporter is markedexperimental with fixed-batch constraints. Neither has been tested on our current model/device workflow."
+      ],
+      "environmentBarrier": "CurrentRF-DETR requiresPython>=3.10; this projectvenv is3.9.6 andrfdetr is not installed. Any experiment needs an isolated environment; no in-place upgrade was made.",
+      "sources": [
+        {
+          "repo": "roboflow/rf-detr",
+          "commit": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb",
+          "path": "pyproject.toml",
+          "symbol": "requires-python",
+          "url": "https://github.com/roboflow/rf-detr/blob/5b22dfc0940697ce1abdfa681a5f7392b3eddbfb/pyproject.toml#L14",
+          "snapshot": "output/github-research-20261026/detection/roboflow__rf-detr/sources/pyproject.toml",
+          "sha256": "fa59dfc2e032eb4d3d80bff05a7cd1770e53025a43bfce5c662e962fe9d6ada2"
+        },
+        {
+          "repo": "roboflow/rf-detr",
+          "commit": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb",
+          "path": "src/rfdetr/config.py",
+          "symbol": "ModelConfig",
+          "url": "https://github.com/roboflow/rf-detr/blob/5b22dfc0940697ce1abdfa681a5f7392b3eddbfb/src/rfdetr/config.py#L702",
+          "snapshot": "output/github-research-20261026/detection/roboflow__rf-detr/sources/src/rfdetr/config.py",
+          "sha256": "5968e352e67bed9dabaaccfe0ee23caaa07569455e1eab47023d5622be9e5675"
+        },
+        {
+          "repo": "roboflow/rf-detr",
+          "commit": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb",
+          "path": "src/rfdetr/config.py",
+          "symbol": "RFDETRBase/Nano/Small configs",
+          "url": "https://github.com/roboflow/rf-detr/blob/5b22dfc0940697ce1abdfa681a5f7392b3eddbfb/src/rfdetr/config.py#L996",
+          "snapshot": "output/github-research-20261026/detection/roboflow__rf-detr/sources/src/rfdetr/config.py",
+          "sha256": "5968e352e67bed9dabaaccfe0ee23caaa07569455e1eab47023d5622be9e5675"
+        },
+        {
+          "repo": "roboflow/rf-detr",
+          "commit": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb",
+          "path": "src/rfdetr/models/lwdetr.py",
+          "symbol": "num_queries detection slots",
+          "url": "https://github.com/roboflow/rf-detr/blob/5b22dfc0940697ce1abdfa681a5f7392b3eddbfb/src/rfdetr/models/lwdetr.py#L143",
+          "snapshot": "output/github-research-20261026/detection/roboflow__rf-detr/sources/src/rfdetr/models/lwdetr.py",
+          "sha256": "248faf15d673bc18f51f60bb55245f64eee40eb9c8adacea398aebdadad2243b"
+        },
+        {
+          "repo": "roboflow/rf-detr",
+          "commit": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb",
+          "path": "src/rfdetr/models/lwdetr.py",
+          "symbol": "inference query slicing",
+          "url": "https://github.com/roboflow/rf-detr/blob/5b22dfc0940697ce1abdfa681a5f7392b3eddbfb/src/rfdetr/models/lwdetr.py#L514",
+          "snapshot": "output/github-research-20261026/detection/roboflow__rf-detr/sources/src/rfdetr/models/lwdetr.py",
+          "sha256": "248faf15d673bc18f51f60bb55245f64eee40eb9c8adacea398aebdadad2243b"
+        },
+        {
+          "repo": "roboflow/rf-detr",
+          "commit": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb",
+          "path": "src/rfdetr/models/criterion.py",
+          "symbol": "SetCriterion.loss_labels",
+          "url": "https://github.com/roboflow/rf-detr/blob/5b22dfc0940697ce1abdfa681a5f7392b3eddbfb/src/rfdetr/models/criterion.py#L617",
+          "snapshot": "output/github-research-20261026/detection/roboflow__rf-detr/sources/src/rfdetr/models/criterion.py",
+          "sha256": "ea446538cb54e58feb3144cead3cd6ee9d8f3f377d21aa6164721917a5d34668"
+        },
+        {
+          "repo": "roboflow/rf-detr",
+          "commit": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb",
+          "path": "src/rfdetr/models/matcher.py",
+          "symbol": "HungarianMatcher.forward",
+          "url": "https://github.com/roboflow/rf-detr/blob/5b22dfc0940697ce1abdfa681a5f7392b3eddbfb/src/rfdetr/models/matcher.py#L911",
+          "snapshot": "output/github-research-20261026/detection/roboflow__rf-detr/sources/src/rfdetr/models/matcher.py",
+          "sha256": "2521d58fd5c3270f8f352c14ae299364347bd27792e18696de8bb20c637765f6"
+        },
+        {
+          "repo": "roboflow/rf-detr",
+          "commit": "5b22dfc0940697ce1abdfa681a5f7392b3eddbfb",
+          "path": "src/rfdetr/export/_coreml/exporter.py",
+          "symbol": "CoreMLExporter",
+          "url": "https://github.com/roboflow/rf-detr/blob/5b22dfc0940697ce1abdfa681a5f7392b3eddbfb/src/rfdetr/export/_coreml/exporter.py#L108",
+          "snapshot": "output/github-research-20261026/detection/roboflow__rf-detr/sources/src/rfdetr/export/_coreml/exporter.py",
+          "sha256": "c8ddf9d1706946aa13ed0f2f672680358949065bb33ed1a8463c18343d7cfdfd"
+        }
+      ]
+    },
+    {
+      "metadata": {
+        "full_name": "facebookresearch/detectron2",
+        "url": "https://github.com/facebookresearch/detectron2",
+        "stars": 34949,
+        "default_branch": "main",
+        "latest_sha": "b0fe2f0a5bb6496f65246ef35687a386a9f19202",
+        "latest_commit_date": "2026-10-20T11:03:57Z",
+        "archived": false
+      },
+      "role": "Brief active-framework comparison to older default MMDetection branch; not a migration recommendation yet.",
+      "priority": 4,
+      "sourceFacts": [
+        "Base-RCNN-FPN usesp2–p6 forRPN andp2–p5 forRoI heads.",
+        "DefaultTEST.DETECTIONS_PER_IMAGE is100 and must be audited for dense counting.",
+        "Installation/source-build compatibility and custom operators require a separate check; repository activity and macOS install docs do not prove MPS training/CoreML deployment."
+      ],
+      "sources": [
+        {
+          "repo": "facebookresearch/detectron2",
+          "commit": "b0fe2f0a5bb6496f65246ef35687a386a9f19202",
+          "path": "configs/Base-RCNN-FPN.yaml",
+          "symbol": null,
+          "url": "https://github.com/facebookresearch/detectron2/blob/b0fe2f0a5bb6496f65246ef35687a386a9f19202/configs/Base-RCNN-FPN.yaml#L13",
+          "snapshot": "output/github-research-20261026/detection/facebookresearch__detectron2/sources/configs/Base-RCNN-FPN.yaml",
+          "sha256": "95306a7335903880e35b8c919a7daad1d8ce4b2c926a69506be1c7116a0799d7"
+        },
+        {
+          "repo": "facebookresearch/detectron2",
+          "commit": "b0fe2f0a5bb6496f65246ef35687a386a9f19202",
+          "path": "detectron2/config/defaults.py",
+          "symbol": null,
+          "url": "https://github.com/facebookresearch/detectron2/blob/b0fe2f0a5bb6496f65246ef35687a386a9f19202/detectron2/config/defaults.py#L614",
+          "snapshot": "output/github-research-20261026/detection/facebookresearch__detectron2/sources/detectron2/config/defaults.py",
+          "sha256": "3f0dc374811b83ab81c4d5bf0b8d7d6afb86c683a8a67aa9d46ea5a39cacd7f5"
+        },
+        {
+          "repo": "facebookresearch/detectron2",
+          "commit": "b0fe2f0a5bb6496f65246ef35687a386a9f19202",
+          "path": "INSTALL.md",
+          "symbol": null,
+          "url": "https://github.com/facebookresearch/detectron2/blob/b0fe2f0a5bb6496f65246ef35687a386a9f19202/INSTALL.md",
+          "snapshot": "output/github-research-20261026/detection/facebookresearch__detectron2/sources/INSTALL.md",
+          "sha256": "4a12a4b28a332c9856a7e32bcd1c9e15df5d55e3ab8db16410f9adee9be6eb0a"
+        }
+      ]
+    }
+  ],
+  "P2ImplementationReality": {
+    "currentYOLO11": "Detect consumes layers16/19/22 at strides8/16/32; a P2backbone tensor exists but is not a detection output.",
+    "officialConfigsFound": [
+      "ultralytics/cfg/models/v8/yolov8-p2.yaml",
+      "ultralytics/cfg/models/26/yolo26-p2.yaml"
+    ],
+    "officialYOLO11P2ConfigFound": false,
+    "checkedBothInstalledAndPinnedHeadTrees": true,
+    "gridAnalysisAt1024": {
+      "currentP3P4P5Locations": 21504,
+      "P2P3P4P5Locations": 87040,
+      "ratio": 4.0476190476190474,
+      "scope": "Grid-location count only, not a measured4×totalmemory/runtime claim."
+    },
+    "migrationCost": [
+      "New head/topology breaks same-key/same-shape weight interpolation witholdv2. Audit transfer by semantic layer role, not names alone.",
+      "Need separate P2supervision and deliberateP3/P4/P5teacher mapping. Stockdistill_model does not directly align3vs4levels.",
+      "New architecture needs separateCoreML export/numerical/device validation; no present accuracy or deployment claim."
+    ],
+    "sources": [
+      {
+        "repo": "ultralytics/ultralytics",
+        "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "path": "ultralytics/cfg/models/11/yolo11.yaml",
+        "symbol": null,
+        "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/cfg/models/11/yolo11.yaml#L50",
+        "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/cfg/models/11/yolo11.yaml",
+        "sha256": "43d8a7c86acc77282ddf4966d6526e091e5b064c140ed4a6e4c0b68ecbc3784c"
+      },
+      {
+        "repo": "ultralytics/ultralytics",
+        "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "path": "ultralytics/cfg/models/v8/yolov8-p2.yaml",
+        "symbol": null,
+        "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/cfg/models/v8/yolov8-p2.yaml#L57",
+        "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/cfg/models/v8/yolov8-p2.yaml",
+        "sha256": "ba54363e9f283e8f60b0fa0843eb37115093338d6f9273ccd4f74f60639754f4"
+      },
+      {
+        "repo": "ultralytics/ultralytics",
+        "commit": "aa1f778a75a610f7dd2aa4762df1c25f6a3063d7",
+        "path": "ultralytics/cfg/models/26/yolo26-p2.yaml",
+        "symbol": null,
+        "url": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/ultralytics/cfg/models/26/yolo26-p2.yaml#L60",
+        "snapshot": "output/github-research-20261026/detection/ultralytics__ultralytics/sources/ultralytics/cfg/models/26/yolo26-p2.yaml",
+        "sha256": "0dbc2fa3dfede5edcda2566ab8c7ea150ad066ea29d79e68d6c4da2bab476279"
+      }
+    ]
+  },
+  "prioritizedExperimentsProposed_NOT_RUN": [
+    {
+      "priority": 0,
+      "name": "Frozen-weight raw geometry/postprocess audit",
+      "change": "Re-infer allowedTRAIN/VAL only once with oldv2; save full-image and everytile rawbox/confidence/tileorigin beforeownership. Pre-register a very small comparison: currentbaseline, alltile NMS, full+alltileNMS, explicitSAHI merge variant. Keep model/threshold/cap fixed.",
+      "why": "Currentcache lacks rejectedtileboxes; purecachedfusion cannot fullytestSAHI-like alternatives. RootGTprojection2owners/5of32 is a testable risk, not proof.",
+      "controls": "No old63/new36; preserveall rawoutputs; inspect touching-object merges and emptyglare independently. Freezepostprocessor policy beforelooking at comparison scores."
+    },
+    {
+      "priority": 1,
+      "name": "Deployment-scale-matched old-train replay / sliced fine-tuning",
+      "change": "Keep existingmodel/loss/protectedgates; chooseoriginalphysicalgroup beforeview. Pre-register whole+oneof4slice view mix foroldTRAIN and matchingteacherinput; retainnegativepatches and auditpartial-objectlabels. Keep inference unchanged first to isolate trainingview effect.",
+      "why": "Wholetraining versus1.667×tileinference, newtrainmedian191px vsold18.88px, andsmallFN+47 jointly motivate an ablation, not a causal conclusion.",
+      "controls": "Noimage/viewgroup crosssplit; no4×plateweight inflation; logGT-size exposures. A teacher-only extra crop pass can isolateKDscale without silently treating dropped partialGT as background, but addscompute."
+    },
+    {
+      "priority": 2,
+      "name": "P3/GT-small-aware feature retention with source/loss diagnostics",
+      "change": "Use reviewed localhooks to addold-source-only per-levelfeatureKD (identity/direct normalizedL2 orCWD/PKD-style first). PreserveexistingoutputKD and teacher/source mask. Separatelylogloss/gradientnorms bysource andGTsize; do not blindly setofficialdistill_model onentiremixedbatch.",
+      "why": "Existingconfidence-only positive/DFL masks can missweakteacher-smallGT; stockfeatureKD protectsneckmaps butstockprojectors have nonzeroinitialloss. Exposurecounts are not gradientproof.",
+      "controls": "Onechangedmechanism atatime; explicitsmallGT foreground/background weighting is an engineeringvariant needingzero-loss/gradient/alignment checks, not a claim of literalMMRazor reproduction. Never useval/test inloss."
+    },
+    {
+      "priority": 3,
+      "name": "P2 architecture ablation",
+      "change": "Only afterscale/loss issues areisolated; useexplicitstride4config orreviewedYOLO11adaptation withverifiedweightmapping.",
+      "why": "Addresses true spatialstride limitation atcost ofnewarchitecture andretentionbaseline; cannotreusecurrent12alpha blend unchanged."
+    },
+    {
+      "priority": 4,
+      "name": "Isolated RF-DETR / active Detectron2 comparator",
+      "change": "Separateenvironment; firstauditquery/detectioncaps, resolution, source/scale splits, memory andexport.",
+      "why": "Potentialcontext/one-to-one matching benefits are hypotheses. COCOscores/stars are not validation oncolony counts."
+    }
+  ],
+  "acceptanceContractForAnyFutureAuthorizedExperiment": [
+    "Use the operational oldv2 pipeline as baseline-passable reference; retain old56 overall/species/size FP/FN/count protection andclinical aggregate protection.",
+    "Require hard-positive improvement with separateTP/FP/FN, andeachrealempty+purecontrol count0. No FP/FN cancellation.",
+    "Freeze a unique candidate ondevelopmentvalidation before any permittedold63regression; reject onfailure without switchingcandidate usingit. Currentnew36 remainsclosed.",
+    "Rawalltile diagnostics orresearch findings do not authorize automatic app/model promotion or renewed training in this task."
+  ],
+  "deliverables": {
+    "sourceIndex": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/github-research-20261026/detection/source-index.json",
+    "pinnedHeads": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/github-research-20261026/detection/heads.json",
+    "installedSourceComparison": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/github-research-20261026/detection/local-source-comparison.json",
+    "localKDZeroStepSmoke": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/github-research-20261026/detection/local-kd-smoke.json",
+    "localKDMpsZeroOptimizerSmoke": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/github-research-20261026/detection/local-kd-mps-smoke.json"
+  },
+  "limitations": [
+    "No newdetectortraining, MPSbenchmark, realimage model inference, model download, package upgrade orCoreML export occurred.",
+    "Only default-branch commit dates were compared for maintenance; alternativebranches may differ.",
+    "Cause ofobservedregression isunproven; scale/FGconfidence/lossnormalization are source-grounded hypotheses toablate.",
+    "Star counts come fromrootofficialAPI snapshot andmeasurecommunity attention, not accuracy.",
+    "One MPS synthetic forward/backward was explicitly authorized and executed:2artificialboxes,2zero128images,255student+12projector finitegradient tensors,0optimizersteps. No accuracy, densematching or deployment claim follows."
+  ]
+}

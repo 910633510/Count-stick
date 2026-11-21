@@ -1,0 +1,513 @@
+{
+  "status": "PASS_INDEPENDENT_DATA_EXPANSION_FREEZE_REVIEW",
+  "createdUTC": "2026-10-29T16:08:28.412427+00:00",
+  "reviewer": "general_counting_papers (Codex agent)",
+  "scope": "Read-only structural/label/file-SHA audit of frozen development manifest versus both proposals. No image decoding/display or learned inference. No old or new test GT parsed. No frozen files modified.",
+  "trainValManifestPath": "output/datasets/pipe-ends-data-expansion-v1/train-val-manifest.json",
+  "trainValManifestSHA256": "f96542f18371b2fa4ebf2cfb3126a0a6d000c0ea8861145d15f35084cb5ade61",
+  "rootFreezeQASHA256": "a976b1e120e8ab6f89b138bc22085917782a73642b9e779c2c21425d218a23c7",
+  "positiveProposalSHA256": "fbb5c9657a3a25506f1732cc72cd150bfa0550d37d2135f8c1fa411a8d465597",
+  "negativeProposalSHA256": "15f776830034a367adcfac31049719065336d8fb14a459348cbb4128ec795d03",
+  "checks": [
+    {
+      "check": "Old54 exact ordered row prefix",
+      "status": "PASS",
+      "rows": 54
+    },
+    {
+      "check": "All33 additions present exactly once, train-only",
+      "status": "PASS",
+      "positiveViews": 13,
+      "negativeViews": 20,
+      "objects": 155,
+      "groups": 32
+    },
+    {
+      "check": "13 positive image/coordinate/count/derived-label/source-review hash identity",
+      "status": "PASS",
+      "maxYOLOLabelRoundTripErrorPixels": 4.800006081495667e-08
+    },
+    {
+      "check": "Positive dataNature taxonomy normalization only",
+      "status": "PASS",
+      "change": "real_photograph_visually_reviewed -> real, original value retained as sourceDataNature; GT/images unchanged"
+    },
+    {
+      "check": "Published-resolution and white-product-background caveats retained",
+      "status": "PASS",
+      "RFNativeUnknownImages": 9,
+      "knownNativeUnder512NewPositives": 0,
+      "whiteBackgroundProductImages": 3
+    },
+    {
+      "check": "20 negatives exact proposal and QA bindings; zero boxes/empty labels",
+      "status": "PASS",
+      "groups": 19,
+      "confuserSubtypes": {
+        "solid_rod_end": 13,
+        "solid_billet_end": 7
+      }
+    },
+    {
+      "check": "Old seven fresh validation rows unchanged; no train/val group overlap",
+      "status": "PASS"
+    },
+    {
+      "check": "All15 root source-review bindings recomputed",
+      "status": "PASS",
+      "count": 15
+    },
+    {
+      "check": "Input manifests/proposals/reviews unchanged during audit",
+      "status": "PASS"
+    }
+  ],
+  "developmentSummary": {
+    "train": {
+      "images": 80,
+      "objects": 187,
+      "groups": 51
+    },
+    "val": {
+      "images": 7,
+      "objects": 27,
+      "groups": 7
+    }
+  },
+  "rows": [
+    {
+      "id": "rfv2_6ad309d168db",
+      "status": "PASS",
+      "count": 10,
+      "groupId": "expansion20261029_rfv2_source_cff2e8655c3f28a6",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "a17c8b7d8ce814dfff53e394a9a9ba701ffbd7858295e94cc86bd36164b4d01f",
+      "labelSHA256": "81947737ca1733ca0ec66690d5c5803febc7e61e4e4090712732f559fecb2298"
+    },
+    {
+      "id": "rfv2_1966920654d3",
+      "status": "PASS",
+      "count": 3,
+      "groupId": "expansion20261029_rfv2_source_d4f99bd4436860f6",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "d7b89cc619111a1cdb6c2c552e0c69df4a7296fb759cda6c41c802606006542b",
+      "labelSHA256": "541b671bd570c386434ee1a7a0a7d52d3cf993a211cf55b3574230105fbccef7"
+    },
+    {
+      "id": "cmnew_004",
+      "status": "PASS",
+      "count": 17,
+      "groupId": "expansion20261029_commons_capture_20160920_bf63f1b122c4",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "25ec9a4bfa1958c9bff0ecf63133139ac7c77f08a188e4889c32266a4b5aec96",
+      "labelSHA256": "cfbdbb7103a9912baf9387cbc4e8cdf5093bfa2117c96ab22f974765492be131"
+    },
+    {
+      "id": "cmnew_057",
+      "status": "PASS",
+      "count": 2,
+      "groupId": "expansion20261029_commons_capture_20180425_2995150aa9b9",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "86c339b1c3dfea1e4604eacfc71d215d834a98c5aadc223d04870cabbe7022a4",
+      "labelSHA256": "d5a7d6d670f6f9c73e626a5dadaac5a7d38dad5441200d2dd6ef9a500acab4d7"
+    },
+    {
+      "id": "cmnew_071",
+      "status": "PASS",
+      "count": 1,
+      "groupId": "expansion20261029_commons_capture_20171014_2daf9c298035",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "59047635d271496f072522f0d1cf52fac0f3ad71ac33ad29383c641a46cab9d9",
+      "labelSHA256": "28804b8668339c2e9164c755a128f83af93c06d6b64f97cd9fb8cc68a5d991af"
+    },
+    {
+      "id": "cmnew_073",
+      "status": "PASS",
+      "count": 29,
+      "groupId": "expansion20261029_commons_capture_20060726_beba02cb4a7d",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "326ac7cbb8813b3c55445eaccf1a935bbac0db99204170caf4717fc7e5091fb6",
+      "labelSHA256": "48459a88d5af43807897d4b44f4e9d7e493c920a3b675fb4dc545bd0cadf3bf7"
+    },
+    {
+      "id": "rfv2_92e41e389e96",
+      "status": "PASS",
+      "count": 20,
+      "groupId": "expansion20261029_rfv2_source_3dc9537265dd64ea",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "0041eb0fac927d746e553d604b0ac30081b0532b28ad60cf9e07bfd597200aeb",
+      "labelSHA256": "35de900668c8ff2f5300120179003f848016c8120f46c8cdecffdbaf3280f782"
+    },
+    {
+      "id": "rfv2_37c98b79839c",
+      "status": "PASS",
+      "count": 20,
+      "groupId": "expansion20261029_rfv2_source_e3cbbc468911c4fe",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "14366b08d1680a666306214d4f6504644582deafa0092e807576e7909701d225",
+      "labelSHA256": "6e81f5a4960ad29b5b6d35b09dcd51f3e646c120a9278d65c74de193ce70ad59"
+    },
+    {
+      "id": "rfv2_3eb645339840",
+      "status": "PASS",
+      "count": 10,
+      "groupId": "expansion20261029_rfv2_source_ed12f7b26277b471",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "000c6862a26fbeb998e6cfa5675c03eea4983f0840c416062dedf715bb80c95b",
+      "labelSHA256": "184e5d3972eb5e3df621c27cfb9a94c15f771bb6cf79180f171239bb2dbeb7fd"
+    },
+    {
+      "id": "rfv2_ce82e64f9b1b",
+      "status": "PASS",
+      "count": 18,
+      "groupId": "expansion20261029_rfv2_source_de3b9d384351b593",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "1ee693560741f03927f55ac18d3bc7494234c76428bd3a2cfefc14a3bfeac475",
+      "labelSHA256": "7c36b7060e6c61890048c99055096f46b21322d7a6ed73da7ac811c27e2b2409"
+    },
+    {
+      "id": "rfv2_433a33158ae6",
+      "status": "PASS",
+      "count": 4,
+      "groupId": "expansion20261029_rfv2_source_853a42048aebfa36",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "10586118895553a33f32bc0bc73780731a029ff12188a072c33ba98f5d049810",
+      "labelSHA256": "93ae81b26eb33762a15f6cece99774606ebdbeed393447157fed8f55cfd8c544"
+    },
+    {
+      "id": "rfv2_78c18919ddc0",
+      "status": "PASS",
+      "count": 7,
+      "groupId": "expansion20261029_rfv2_source_9436711effa6d5c1",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "8cac901b10e75671aa82316fd26af9eb41b3d1783bedb9815b63e1c53b552b7c",
+      "labelSHA256": "c8a2212a01fabd4acb678bd8aee37c827059697f962e99b9a802b13c9746f38a"
+    },
+    {
+      "id": "rfv2_7b4a4900cabc",
+      "status": "PASS",
+      "count": 14,
+      "groupId": "expansion20261029_rfv2_source_049535ae1937edbe",
+      "allowedMetadataDifferences": [
+        "dataNature",
+        "finalTrainingAdmission",
+        "labelPath",
+        "sourceDataNature"
+      ],
+      "imageSHA256": "38f173a26949b62b5136e6a4e364dfa21225d973c56b7cbb4bd69a57a66ce6f3",
+      "labelSHA256": "c2657aa5a23b6767683ed384f9551df9d865cdbcde8d42d4388a29e427c9111e"
+    },
+    {
+      "id": "expneg-apex",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_apex",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "50abc8bc47d3a413922296bd02b41da925d676869e826b83abc8f63a5e7f8275",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-apollo",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_apollo",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "67f84ecfc2c02d1dea24164b875ee94f79bef5fdabca2603d9cb49944be7eae6",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-bozhong",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_bozhong",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "f7ec966a47202a16ffb6abfe964fd665a4fa866cc1a78c8c25aa05e682b718d6",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-fsgangsu",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_fsgangsu",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "fe24c35cc4394442796fae58cbb65833fb9ee4c0c70e1f8cdeb560c8a6a356dd",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-greenflag",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_greenflag",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "9a1fa3caf05b41a09add78a51584230944f147e560355aac86f3707a4fa7759f",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-hhiron",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_hhiron",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "c635e213c5f2aee3068b1a4ea4882a3396462b267658a0e5ef0671d60f5c5b4d",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-ikizler",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_heavy_billet_possible_same_family",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "c04ec1fc20a5e48969b95631a96af2bb2697e6353d7159a05afc3a225d2ada24",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-jnshagang",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_jnshagang",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "557e965055ddd8bcbbcd582597a82c1d28a19f600b91ff3812c47ad8b5425517",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-junxiong",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_junxiong",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "40953566de0996d05ebadfe8b694941b3340b775871c81de52048e7db7b3c256",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-kzmc",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_kzmc",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "f2dcc89607d1c1afb81e876e227a5e0366505285292057587efc106b434a40f3",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-liange",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_liange",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "fc99be9f7ccc473cf546bf5182f394e9fbcdd1e7faf3ca08885f6860b026bdd5",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-metalcare",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_metalcare",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "1b2c40a448ca6c668460265005ec6d68dad22cb7a38182cc1a54bced454b4d3a",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-punit",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_punit",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "ae8c5327543fca849e77a6f8f2624eb5083dedc1f0a4d26883e0959c3663efc0",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-shiraishi",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_shiraishi",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "3bd022253f34d9d7ecc8fd1166025fb9dd471ed7e98ed4f80fad102f8d47ad76",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-steeldynamics",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_heavy_billet_possible_same_family",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "b9375caa754c9e91bd5625b29bc9011480980237998175fa0c968a83eb4dc46b",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-triumph",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_triumph",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "d56663fd0cbfebffb1b5017cf63becb9ef29ded070c066e307192eb72f905a97",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-yongzhang",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_yongzhang",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "95f7a5dca1a45f5708e4afe03b7ed1ef8f35fa8644f56a340d7574f2a9efdf29",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-zelpo",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_zelpo",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "282cf7e2f357e4f8f71c57bea8c532d044611f5be4fdb73cf0f1480bac34bde9",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-zhongji1",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_zhongji1",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "5e43db53f0a44f3d052d6a4026a7a9d8e1ebfe81eda93e026ebd652533e1da7b",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "expneg-zhongji2",
+      "status": "PASS",
+      "count": 0,
+      "groupId": "expneg29_scene_zhongji2",
+      "allowedMetadataDifferences": [
+        "finalTrainingAdmission",
+        "labelPath"
+      ],
+      "imageSHA256": "a324b75c2c159b75a071982d7be662492f8fc3a2a10eb8cea7d433ca2be594b1",
+      "labelSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "sealedFullManifestOpaqueSHA256": "010f991c6df0a632acfe80771a2b177a35a5f4341fe37fbc08eeab8390c47959",
+  "sealedFullManifestContentsRead": false,
+  "priorFullManifestContentsRead": false,
+  "modelInferencePerformed": false,
+  "trainingPerformed": false,
+  "issues": [],
+  "limits": [
+    "This freeze audit checks transfer and bindings, not a new visual review of the20 negative photos. Their existing two-agent visual reports were hash-verified.",
+    "Classical duplicate exclusion is not proof of physical scene independence.",
+    "Native-low-resolution coverage remains unfilled and is not inferred from640 exports or960 thumbnails.",
+    "Model/operator implementation and trained accuracy are outside this freeze-only review."
+  ]
+}

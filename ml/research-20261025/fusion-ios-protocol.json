@@ -1,0 +1,66 @@
+{
+  "frozenBeforeExtraCandidateScoringUTC": "2026-10-25T20:33:39Z",
+  "scope": "EXPOSED_VALIDATION_ONLY",
+  "previousProtocolSHA256": "8b3d77bf7f10c6383c763ee215f096d50112f972a769bae8e80100f80d458579",
+  "previousGridStatus": "NO_CANDIDATE_PASSED_FROZEN_GATES",
+  "reason": "GlobalNMS0.5 also suppresses boxes within one source, although that source already usedNMS0.7. This candidate preserves same-source predictions and only deduplicates cross-source boxes.",
+  "config": {
+    "minSideThreshold": 16,
+    "nmsIoU": 0.5,
+    "confidence": 0.3,
+    "fusion_mode": "cross_source_ios",
+    "containment_ratio": 0.9
+  },
+  "rule": "Confidence-ordered greedy suppression only across sources: IoU>=0.5; additionally a higher/equal-confidence full-image box may suppress a smaller-area tile box when it contains the tile center and intersection/min-area>=0.9. No same-source re-NMS.",
+  "gatesUnchanged": true,
+  "thresholds": {
+    "countMAEMax": 14.504464285714285,
+    "macroSpeciesMAEMax": 17.15709595959596,
+    "TPMin": 5806,
+    "FPMax": 1060,
+    "FNMax": 1025,
+    "macroSpeciesRecallMin": 0.7840116136204052,
+    "AP50Min": 0.8340189387118646,
+    "AP50_95Min": 0.4045237744864434,
+    "species": {
+      "sp02": {
+        "recallMin": 0.9028758169934641,
+        "precisionMin": 0.8780933596318211,
+        "countMAEMax": 6.5
+      },
+      "sp04": {
+        "recallMin": 0.7069736842105263,
+        "precisionMin": 0.7266216216216216,
+        "countMAEMax": 6.666666666666667
+      },
+      "sp11": {
+        "recallMin": 0.9197089397089397,
+        "precisionMin": 0.8143313373253492,
+        "countMAEMax": 5.8
+      },
+      "sp13": {
+        "recallMin": 0.9194107837687604,
+        "precisionMin": 0.8366912539515279,
+        "countMAEMax": 17.833333333333332
+      },
+      "sp14": {
+        "recallMin": 0.8947005444646098,
+        "precisionMin": 0.7922481869460113,
+        "countMAEMax": 8.722222222222221
+      },
+      "sp09": {
+        "recallMin": 0.7781424148606811,
+        "precisionMin": 0.8297033618984838,
+        "countMAEMax": 17.727272727272727
+      }
+    },
+    "sizeRecallMin": {
+      "under16px": 0.7859029514757379,
+      "16to32px": 0.9194366197183098,
+      "over32px": 0.8841164658634538
+    }
+  },
+  "sourceSHA256": "2242728addacd1e6d97a98cc5fbfaf76e9eaf4dd2a227415d08c2f924ad1d2eb",
+  "newModelInference": false,
+  "oldTestOrExternalHoldoutUsed": false
+}

@@ -1,0 +1,550 @@
+{
+  "status": "VISUAL_REVIEW_COMPLETE_PENDING_ROOT_GLOBAL_SPLIT",
+  "method": "Assistant visual review of each real full frame; Mendeley1536px previews from full3024px EXIF-normalized source, additional original-resolution details where ambiguous. Author no-growth labels used as corroboration, not replacing visual QA. No model inference.",
+  "records": [
+    {
+      "source": "BRUKERAGAR",
+      "filename": "AEBM/Dish_AutomaticScan_1_AEBM-0000001.jpeg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Author empty-plate image; smooth uniform agar without discrete colony-like objects. Real rim reflections, dark holder, screws and/or rear printing shadows are retained as non-colony confounders.",
+      "sourceGroup": "brukeragar:AEBM:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "AEBM/Dish_AutomaticScan_1_AEBM-0000001_bothBright.jpeg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Author empty-plate image; smooth uniform agar without discrete colony-like objects. Real rim reflections, dark holder, screws and/or rear printing shadows are retained as non-colony confounders.",
+      "sourceGroup": "brukeragar:AEBM:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "AEBM/Dish_AutomaticScan_1_AEBM-0000001_bottom.jpeg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Author empty-plate image; smooth uniform agar without discrete colony-like objects. Real rim reflections, dark holder, screws and/or rear printing shadows are retained as non-colony confounders.",
+      "sourceGroup": "brukeragar:AEBM:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "AEBM/Dish_AutomaticScan_1_AEBM-0000001_bottomBright.jpeg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Author empty-plate image; smooth uniform agar without discrete colony-like objects. Real rim reflections, dark holder, screws and/or rear printing shadows are retained as non-colony confounders.",
+      "sourceGroup": "brukeragar:AEBM:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "AEBM/Dish_AutomaticScan_1_AEBM-0000001_default.jpeg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Author empty-plate image; smooth uniform agar without discrete colony-like objects. Real rim reflections, dark holder, screws and/or rear printing shadows are retained as non-colony confounders.",
+      "sourceGroup": "brukeragar:AEBM:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "AEBM/Dish_AutomaticScan_1_AEBM-0000001_topBright.jpeg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Author empty-plate image; smooth uniform agar without discrete colony-like objects. Real rim reflections, dark holder, screws and/or rear printing shadows are retained as non-colony confounders.",
+      "sourceGroup": "brukeragar:AEBM:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "BESBL/Dish_AutomaticScan_1_BESBL-0000001.jpeg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Author empty-plate image; smooth uniform agar without discrete colony-like objects. Real rim reflections, dark holder, screws and/or rear printing shadows are retained as non-colony confounders.",
+      "sourceGroup": "brukeragar:BESBL:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "BESBL/Dish_AutomaticScan_1_BESBL-0000001_bothBright.jpeg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Severe bright illumination/saturation prevents independent visual inspection of much of the agar; do not assignzero from this view.",
+      "sourceGroup": "brukeragar:BESBL:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "BESBL/Dish_AutomaticScan_1_BESBL-0000001_bottom.jpeg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Author empty-plate image; smooth uniform agar without discrete colony-like objects. Real rim reflections, dark holder, screws and/or rear printing shadows are retained as non-colony confounders.",
+      "sourceGroup": "brukeragar:BESBL:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "BESBL/Dish_AutomaticScan_1_BESBL-0000001_bottomBright.jpeg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Severe bright illumination/saturation prevents independent visual inspection of much of the agar; do not assignzero from this view.",
+      "sourceGroup": "brukeragar:BESBL:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "BESBL/Dish_AutomaticScan_1_BESBL-0000001_default.jpeg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Author empty-plate image; smooth uniform agar without discrete colony-like objects. Real rim reflections, dark holder, screws and/or rear printing shadows are retained as non-colony confounders.",
+      "sourceGroup": "brukeragar:BESBL:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "BRUKERAGAR",
+      "filename": "BESBL/Dish_AutomaticScan_1_BESBL-0000001_topBright.jpeg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Severe bright illumination/saturation prevents independent visual inspection of much of the agar; do not assignzero from this view.",
+      "sourceGroup": "brukeragar:BESBL:0000001",
+      "reviewedAt": "original1900x1800 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N10.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth agar; black manufacturer printing and rim molding marks; no discernible colony structures.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N359.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth agar; diagonal manufacturer printing and sparse rim manufacturing marks; no discernible colony structures.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N88.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Localized irregular dark cluster near print on lower-left interior; unclear debris/ink versus biological feature. Do not assignzero.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N407.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Several irregular dark smudge clusters along lower inner rim; insufficient visual certainty to assignzero.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N136.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth no-growth surface; sparse fine scratches and printed manufacturer text.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N194.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth homogeneous agar with black printing and rim molding marks.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N95.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth surface; printing, rim scuffs and fine background fibers, no discrete colonies.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N160.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Fine linear scratches in lower interior, distinct from rounded colony structures; otherwise smooth.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N44.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth agar with near-vertical printing; no discernible colonies.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N404.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Fine linear fibers/scratches on right interior; no discrete colonies.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N265.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Uniform agar and diagonal black print; no discernible colony structures.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N117.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth clear surface and rim reflections; no discrete colonies.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N343.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth surface with horizontal print and clean central regions.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N69.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Clean central agar; left rim light glint; no colony structures.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N11.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Recognizable printing/adhesive-shaped residue below text, smooth surrounding agar; no colony structures.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N428.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Small irregular clustered mark in upper-left interior; unclear debris/ink versus growth, quarantine.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N249.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Recognizable fragmented print-shaped residue above label; no rounded colony structures in surrounding smooth agar.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N466.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Diffuse greenish clustered marks in lower-left interior; cannot independently confirmzero.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N313.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth surface with isolated fine scratch and print, no colonies.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N471.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth clear agar with central text and sparse rim molding marks.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N483.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Irregular clustered smudges along lower interior rim; not confidently distinguishable from growth.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N405.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth agar; fine linear scratch and black manufacturer print, no discrete colonies.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N55.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Small curved/clustered marks left of printed line; uncertain residue versus biological spots.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N372.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Recognizable fragmented printed glyph residue above label; surrounding agar smooth with no colonies.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N222.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Greenish clustered marks at upper-left rim; cannot independently confirmzero.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N295.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Clear uniform agar with vertical printed text and molding marks.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N339.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Large blue letter-shaped printing residue, clearly glyph geometry; surrounding agar smooth with no colony structures.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N406.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Several discrete cyan/green round dots across agar, including lower-right. Source Negative classification does not justify assigningzero; quarantine without biological diagnosis.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N34.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Clear agar with a fine hair-like line on right; no colony structures.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N2.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Small localized clustered marks left of central text; unclear residue versus growth.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N248.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Several pale oval patches within broad central translucent streak; cannot verifyzero.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N355.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Large translucent irregular streak and central clustered marks; insufficiently clear forzero.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N151.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Two adjacent pale rounded marks near upper-right inner rim; uncertain bubbles versus colonies.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N361.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Isolated pale rounded object lower-left and central irregular marks; cannot independently callzero.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N15.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Clustered dark/greenish marks near lower-left inner rim; quarantine.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N440.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Small central cluster of discrete dark marks above printing; quarantine.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N449.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth homogeneous agar, black print and rim molded features only.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N268.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth agar and diagonal black product printing; no colony structures.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N186.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Two clustered irregular marks on right interior; uncertain print residue versus growth.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N128.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Multiple isolated round dark points on left interior in addition to printing; uncertain.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N292.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth homogeneous agar with vertical manufacturer printing and rim features.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N494.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Clear no-growth surface with central print and faint rim scuffs.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N119.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Several fragmented dark clusters left of printed line; insufficient certainty forzero.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N155.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Small clustered marks near center-left interior; uncertain debris versus growth.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N300.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Clear uniform agar; central print and regular rim structures only.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N237.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth agar with broad faint lighting shadow and black print; no discrete colony structures.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N362.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Clear surface with faint smooth background shadow; no discernible colonies.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "MendeleyNegative",
+      "filename": "N63.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Several diffuse clustered marks along lower inner rim; conservatively quarantine.",
+      "reviewedAt": "1536x1536 fullframe"
+    },
+    {
+      "source": "Zenodo18703636",
+      "filename": "20230710_141742632_iOS_jpg.rf.6883815f7d9306bf58d3bd6eda344c33.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth red agar without discernible colonies; strong rim/camera/light reflections retained as real confounders.",
+      "sourceGroup": "zenodo18703636_empty_capture_20230710",
+      "reviewedAt": "original resolution fullframe"
+    },
+    {
+      "source": "Zenodo18703636",
+      "filename": "20230710_141728831_iOS_jpg.rf.3211409b77bdf65b56cf4e4e532aba3d.jpg",
+      "decision": "QUARANTINE",
+      "count": null,
+      "notes": "Many fine pale points across upper agar; may be condensation/transmitted backing texture, but cannot independently rule out colonies. Quarantine despite zeroCOCO boxes.",
+      "sourceGroup": "zenodo18703636_empty_capture_20230710",
+      "reviewedAt": "original resolution fullframe"
+    },
+    {
+      "source": "Zenodo18703636",
+      "filename": "20230710_141700357_iOS_jpg.rf.49b24000d37d6f9fb886e28fb42b5d9a.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth red agar without discernible colonies; strong rim/camera/light reflections retained as real confounders.",
+      "sourceGroup": "zenodo18703636_empty_capture_20230710",
+      "reviewedAt": "original resolution fullframe"
+    },
+    {
+      "source": "Zenodo18703636",
+      "filename": "20230710_141746566_iOS_jpg.rf.3c7200f5ef88b3bdef58505788e088a7.jpg",
+      "decision": "PASS_ZERO",
+      "count": 0,
+      "notes": "Smooth red agar without discernible colonies; strong rim/camera/light reflections retained as real confounders.",
+      "sourceGroup": "zenodo18703636_empty_capture_20230710",
+      "reviewedAt": "original resolution fullframe"
+    }
+  ],
+  "updatedUTC": "2026-10-26T00:42:15Z",
+  "sourceGroupingDecision": "All Mendeley negatives remain one conservative group because physical plate identity is unavailable; root explicitly approved whole-source grouping. No random per-file split.",
+  "summary": {
+    "BRUKERAGAR": {
+      "PASS_ZERO": 9,
+      "QUARANTINE": 3
+    },
+    "MendeleyNegative": {
+      "PASS_ZERO": 28,
+      "QUARANTINE": 20
+    },
+    "Zenodo18703636": {
+      "PASS_ZERO": 3,
+      "QUARANTINE": 1
+    }
+  }
+}

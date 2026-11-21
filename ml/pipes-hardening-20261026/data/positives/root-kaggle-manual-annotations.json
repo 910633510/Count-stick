@@ -1,0 +1,388 @@
+{
+  "status": "ROOT_MANUAL_AND_OVERLAY_QA_COMPLETE_PENDING_INDEPENDENT_AND_GROUP_QA",
+  "createdUTC": "2026-10-26T13:18:49.289396+00:00",
+  "images": [
+    {
+      "number": 9,
+      "archive": "mdsalmanshams_pipe-detection-and-counting.zip",
+      "member": "dataset/train/images/GettyImages-947588294-3596aaefc6874a2cb81e8a75b77f4ec7.jpg",
+      "path": "output/pipes-hardening-20261026/data/positives/extracted/mdsalmanshams_pipe-detection-and-counting/7ed9b2811d11.jpg",
+      "width": 2121,
+      "height": 1414,
+      "sha256": "7ed9b2811d11b27c3196931139f2069ff013e147f5801a5c8f24c22fe59f7ba3",
+      "xyxy": [
+        [
+          0,
+          750,
+          79,
+          1067
+        ],
+        [
+          61,
+          848,
+          332,
+          1106
+        ],
+        [
+          353,
+          916,
+          626,
+          1181
+        ],
+        [
+          616,
+          933,
+          895,
+          1211
+        ],
+        [
+          886,
+          949,
+          1153,
+          1226
+        ],
+        [
+          1145,
+          987,
+          1406,
+          1250
+        ],
+        [
+          1386,
+          993,
+          1640,
+          1242
+        ],
+        [
+          1670,
+          1093,
+          1939,
+          1336
+        ],
+        [
+          1886,
+          1070,
+          2101,
+          1310
+        ]
+      ],
+      "count": 9,
+      "annotationMethod": "Manual outer-visible-rim boxes by root from full original photographs, no learned model inference",
+      "annotationStatus": "ROOT_FULL_ORIGINAL_AND_NUMBERED_OVERLAY_VISUALLY_REVIEWED",
+      "clippedEndsIncluded": true,
+      "modelInferencePerformed": false,
+      "split": null,
+      "sameSceneAuditComplete": false,
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/root-annotations/kaggle-09.jpg",
+      "overlaySHA256": "6caa14f738d7575290023556f9925dfaf0ee24047f9bc1eaf41b859117b7dfee",
+      "manualCountConfirmed": true,
+      "finalTrainingAdmission": false
+    },
+    {
+      "number": 11,
+      "archive": "mdsalmanshams_pipe-detection-and-counting.zip",
+      "member": "dataset/train/images/Stainless-Steel-304-304L-Pipes-Manufacturers-Factory-Wholesalers-India.jpg",
+      "path": "output/pipes-hardening-20261026/data/positives/extracted/mdsalmanshams_pipe-detection-and-counting/0f070ce32485.jpg",
+      "width": 576,
+      "height": 384,
+      "sha256": "0f070ce3248505122568391138be418b8476b5d03a0666adacc5b28d541169a1",
+      "xyxy": [
+        [
+          68,
+          26,
+          243,
+          210
+        ],
+        [
+          241,
+          41,
+          397,
+          215
+        ],
+        [
+          396,
+          53,
+          538,
+          214
+        ],
+        [
+          553,
+          124,
+          576,
+          227
+        ],
+        [
+          0,
+          176,
+          159,
+          361
+        ],
+        [
+          154,
+          186,
+          319,
+          356
+        ],
+        [
+          311,
+          189,
+          459,
+          351
+        ],
+        [
+          451,
+          192,
+          576,
+          348
+        ]
+      ],
+      "count": 8,
+      "annotationMethod": "Manual outer-visible-rim boxes by root from full original photographs, no learned model inference",
+      "annotationStatus": "ROOT_FULL_ORIGINAL_AND_NUMBERED_OVERLAY_VISUALLY_REVIEWED",
+      "clippedEndsIncluded": true,
+      "modelInferencePerformed": false,
+      "split": null,
+      "sameSceneAuditComplete": false,
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/root-annotations/kaggle-11.jpg",
+      "overlaySHA256": "1043d1c6049d70f771584a6308de50eb9597110c5039a0aec904adb735be9bbf",
+      "manualCountConfirmed": true,
+      "finalTrainingAdmission": false
+    },
+    {
+      "number": 12,
+      "archive": "mdsalmanshams_pipe-detection-and-counting.zip",
+      "member": "dataset/train/images/Stainless-Steel-304-304L-Pipes-Manufacturers-Suppliers-Dealers-Wholesalers-India.jpg",
+      "path": "output/pipes-hardening-20261026/data/positives/extracted/mdsalmanshams_pipe-detection-and-counting/83e16f11331c.jpg",
+      "width": 624,
+      "height": 419,
+      "sha256": "83e16f11331cacff1966cd4b1dbbd69d6f825bfaafe13fa7f21ee6ef19bf2a7f",
+      "xyxy": [
+        [
+          356,
+          0,
+          541,
+          152
+        ],
+        [
+          465,
+          39,
+          609,
+          197
+        ],
+        [
+          195,
+          111,
+          354,
+          275
+        ],
+        [
+          398,
+          173,
+          566,
+          342
+        ],
+        [
+          123,
+          260,
+          288,
+          414
+        ],
+        [
+          301,
+          312,
+          469,
+          419
+        ],
+        [
+          0,
+          292,
+          90,
+          419
+        ]
+      ],
+      "count": 7,
+      "annotationMethod": "Manual outer-visible-rim boxes by root from full original photographs, no learned model inference",
+      "annotationStatus": "ROOT_FULL_ORIGINAL_AND_NUMBERED_OVERLAY_VISUALLY_REVIEWED",
+      "clippedEndsIncluded": true,
+      "modelInferencePerformed": false,
+      "split": null,
+      "sameSceneAuditComplete": false,
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/root-annotations/kaggle-12.jpg",
+      "overlaySHA256": "cfe484e651e57190871a3f4935d185018c7b32cfae3ab45635e4c51b8ad868fc",
+      "manualCountConfirmed": true,
+      "finalTrainingAdmission": false
+    },
+    {
+      "number": 19,
+      "archive": "mdsalmanshams_pipe-detection-and-counting.zip",
+      "member": "dataset/train/images/images(28).jpg",
+      "path": "output/pipes-hardening-20261026/data/positives/extracted/mdsalmanshams_pipe-detection-and-counting/c55952bdcd1d.jpg",
+      "width": 269,
+      "height": 187,
+      "sha256": "c55952bdcd1d27a86520db6512827dd2151ddf01f80e1d4f9523665816ea677f",
+      "xyxy": [
+        [
+          0,
+          26,
+          20,
+          92
+        ],
+        [
+          16,
+          14,
+          75,
+          93
+        ],
+        [
+          69,
+          5,
+          131,
+          88
+        ],
+        [
+          125,
+          0,
+          198,
+          84
+        ],
+        [
+          0,
+          65,
+          58,
+          146
+        ],
+        [
+          42,
+          61,
+          120,
+          146
+        ],
+        [
+          110,
+          54,
+          199,
+          147
+        ],
+        [
+          0,
+          124,
+          38,
+          187
+        ],
+        [
+          25,
+          123,
+          91,
+          187
+        ],
+        [
+          78,
+          123,
+          145,
+          187
+        ],
+        [
+          135,
+          128,
+          219,
+          187
+        ]
+      ],
+      "count": 11,
+      "annotationMethod": "Manual outer-visible-rim boxes by root from full original photographs, no learned model inference",
+      "annotationStatus": "ROOT_FULL_ORIGINAL_AND_NUMBERED_OVERLAY_VISUALLY_REVIEWED",
+      "clippedEndsIncluded": true,
+      "modelInferencePerformed": false,
+      "split": null,
+      "sameSceneAuditComplete": false,
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/root-annotations/kaggle-19.jpg",
+      "overlaySHA256": "8685bd854fc128d9bc4c4cd21a537d7b3224f644c74cc5a6c1e3235e91e88557",
+      "manualCountConfirmed": true,
+      "finalTrainingAdmission": false
+    },
+    {
+      "number": 23,
+      "archive": "mdsalmanshams_pipe-detection-and-counting.zip",
+      "member": "dataset/train/images/images(36).jpg",
+      "path": "output/pipes-hardening-20261026/data/positives/extracted/mdsalmanshams_pipe-detection-and-counting/dbfbda197ee8.jpg",
+      "width": 276,
+      "height": 183,
+      "sha256": "dbfbda197ee853a41fa1c9505e8a50b8594706d055b9f164d818238a650e9d41",
+      "xyxy": [
+        [
+          0,
+          10,
+          72,
+          90
+        ],
+        [
+          64,
+          1,
+          147,
+          91
+        ],
+        [
+          136,
+          0,
+          238,
+          96
+        ],
+        [
+          234,
+          0,
+          276,
+          97
+        ],
+        [
+          0,
+          98,
+          63,
+          177
+        ],
+        [
+          46,
+          99,
+          137,
+          183
+        ],
+        [
+          124,
+          101,
+          238,
+          183
+        ],
+        [
+          230,
+          105,
+          276,
+          183
+        ]
+      ],
+      "count": 8,
+      "annotationMethod": "Manual outer-visible-rim boxes by root from full original photographs, no learned model inference",
+      "annotationStatus": "ROOT_FULL_ORIGINAL_AND_NUMBERED_OVERLAY_VISUALLY_REVIEWED",
+      "clippedEndsIncluded": true,
+      "modelInferencePerformed": false,
+      "split": null,
+      "sameSceneAuditComplete": false,
+      "overlayPath": "output/pipes-hardening-20261026/data/positives/review/root-annotations/kaggle-23.jpg",
+      "overlaySHA256": "ec6ff35d2e552fb740901506b101b45278ce333c957828fc17738138628566a7",
+      "manualCountConfirmed": true,
+      "finalTrainingAdmission": false
+    }
+  ],
+  "excludedPendingCandidates": {
+    "10": "Multiple heavily clipped/occluded bottom-row ends require reliable count consensus; not labeled yet.",
+    "27": "Same source scene/crop as26 and several tiny clipped border ends; held pending scope/count/material review.",
+    "28": "Tube material not confidently established from small uncited photo; quarantine."
+  },
+  "overlayReviewedUTC": "2026-10-26T13:21:45.034360+00:00",
+  "totalManualBoxes": 43,
+  "scopeNotes": {
+    "9": "8 complete red-rimmed steel ends plus1 clearly visible clipped left end =9.",
+    "11": "7 main visible ends plus clipped upper-right end =8.",
+    "12": "7 distinct visible ends including clipped top/left/bottom faces.",
+    "19": "11 visible metallic flanged ends; flange bolt holes are not separate pipes.",
+    "23": "8 distinct steel ends across2rows; visible clipped edge ends included once."
+  }
+}

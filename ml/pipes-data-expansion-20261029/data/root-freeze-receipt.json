@@ -1,0 +1,9 @@
+{
+  "status": "APPROVED_DATA_EXPANSION_PREPARATION",
+  "manifestPath": "output/datasets/pipe-ends-data-expansion-v1/train-val-manifest.json",
+  "manifestSHA256": "f96542f18371b2fa4ebf2cfb3126a0a6d000c0ea8861145d15f35084cb5ade61",
+  "parentTrainValManifestSHA256": "b7185c895ed9c1d695d486a5b0dc3fbd9725510afbbb95c4b74b3eaea1e11393",
+  "sealedFullManifestSHA256": "010f991c6df0a632acfe80771a2b177a35a5f4341fe37fbc08eeab8390c47959",
+  "qaReportPath": "ml/pipes-data-expansion-20261029/data/root-freeze-qa.json",
+  "qaReportSHA256": "a976b1e120e8ab6f89b138bc22085917782a73642b9e779c2c21425d218a23c7"
+}

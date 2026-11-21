@@ -1,0 +1,13 @@
+{
+  "status": "PREFREEZE_VALIDATION_FAILURES_RESOLVED",
+  "attempts": [
+    {
+      "reason": "Canonical source photography category string differed from training schema; normalized with source value retained.",
+      "frozenOutputCreated": false
+    },
+    {
+      "reason": "NegativeQA finalcollectionnotes changed during binding; rechecked data/proposal fields and rebound finalreceipt.",
+      "frozenOutputCreated": false
+    }
+  ]
+}

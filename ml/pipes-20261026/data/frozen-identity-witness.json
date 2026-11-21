@@ -1,0 +1,1705 @@
+{
+  "status": "FROZEN_IDENTITY_ONLY_WITNESS_NO_GT_OR_PIXELS",
+  "createdUTC": "2026-10-26T10:46:10.524618+00:00",
+  "fullManifestSHA256": "960005aa6c7956db8ebf5962693071e0ea01888f0d0380431437894b4fddec41",
+  "trainValManifestSHA256": "505d0a3de3424b75d53632e5349453d9e9f82faf2d831778f07f6be5a4072476",
+  "testGroundTruthIncluded": false,
+  "testPixelsOpened": false,
+  "fields": [
+    "id",
+    "split",
+    "groupId",
+    "sha256",
+    "sourceImageSHA256"
+  ],
+  "sourceHashPolicy": "Use recorded sourceImageSHA256 for derived views; otherwise the original image SHA256.",
+  "images": [
+    {
+      "id": "maco_round_PipeHBB00000001",
+      "split": "val",
+      "groupId": "maco_round_global_00000001",
+      "sha256": "8f38b0d4e44dbeab1ebc4b8164b0960362d3c83f85b3cc2713602763980a7d8e",
+      "sourceImageSHA256": "8f38b0d4e44dbeab1ebc4b8164b0960362d3c83f85b3cc2713602763980a7d8e"
+    },
+    {
+      "id": "maco_round_PipeHBB00000004",
+      "split": "train",
+      "groupId": "maco_round_global_00000004",
+      "sha256": "f07c2de2cdc6dcc28e836bc74c732d1432d76d58fa25ad421e881ab7ce7aa3d2",
+      "sourceImageSHA256": "f07c2de2cdc6dcc28e836bc74c732d1432d76d58fa25ad421e881ab7ce7aa3d2"
+    },
+    {
+      "id": "maco_round_PipeHBB00000007",
+      "split": "train",
+      "groupId": "maco_round_global_00000007",
+      "sha256": "520deddacffd20fa18b34a74c83eb181aa20aa36863986d5155c3d6e512be2c6",
+      "sourceImageSHA256": "520deddacffd20fa18b34a74c83eb181aa20aa36863986d5155c3d6e512be2c6"
+    },
+    {
+      "id": "maco_round_PipeHBB00000008",
+      "split": "train",
+      "groupId": "maco_round_global_00000008",
+      "sha256": "93f991bd0f518709908666ec0398f4cca5eed2ae5a17a3a201b45178c46de24b",
+      "sourceImageSHA256": "93f991bd0f518709908666ec0398f4cca5eed2ae5a17a3a201b45178c46de24b"
+    },
+    {
+      "id": "maco_round_PipeHBB00000012",
+      "split": "train",
+      "groupId": "maco_round_global_00000012",
+      "sha256": "21d27e6ba0cb41d1a38e4434ff1ac891c0b1c8f16e929f18782afe228b0c5f76",
+      "sourceImageSHA256": "21d27e6ba0cb41d1a38e4434ff1ac891c0b1c8f16e929f18782afe228b0c5f76"
+    },
+    {
+      "id": "maco_round_PipeHBB00000014",
+      "split": "train",
+      "groupId": "maco_round_global_00000014",
+      "sha256": "dfcf6039b314364bcfcdc121628161fc428841505c27b3b1f0eccfb883302f89",
+      "sourceImageSHA256": "dfcf6039b314364bcfcdc121628161fc428841505c27b3b1f0eccfb883302f89"
+    },
+    {
+      "id": "maco_round_PipeHBB00000018",
+      "split": "test",
+      "groupId": "maco_round_global_00000018",
+      "sha256": "c7af856a1a56a6d02f9e63c48a131fa650ef2fa930b63aff50d401a8fd9f3853",
+      "sourceImageSHA256": "c7af856a1a56a6d02f9e63c48a131fa650ef2fa930b63aff50d401a8fd9f3853"
+    },
+    {
+      "id": "maco_round_PipeHBB00000024",
+      "split": "train",
+      "groupId": "maco_round_global_00000024",
+      "sha256": "1b57feeff9d3cf9426b8a03cfcc3776a4d5a640c7aef440f0bfbad9ad8cdb1d2",
+      "sourceImageSHA256": "1b57feeff9d3cf9426b8a03cfcc3776a4d5a640c7aef440f0bfbad9ad8cdb1d2"
+    },
+    {
+      "id": "maco_round_PipeHBB00000025",
+      "split": "train",
+      "groupId": "maco_round_global_00000025",
+      "sha256": "98c4219a6d6e468d52561f8d4cd26838823b5b3ebdc38ee1d27ff4a98dd878ca",
+      "sourceImageSHA256": "98c4219a6d6e468d52561f8d4cd26838823b5b3ebdc38ee1d27ff4a98dd878ca"
+    },
+    {
+      "id": "maco_round_PipeHBB00000031",
+      "split": "val",
+      "groupId": "maco_round_global_00000031",
+      "sha256": "c926e16cf7f1c673f1be9958532d7ccc3bbb07f8899a1b6e1d5f46220d5a8cc9",
+      "sourceImageSHA256": "c926e16cf7f1c673f1be9958532d7ccc3bbb07f8899a1b6e1d5f46220d5a8cc9"
+    },
+    {
+      "id": "maco_round_PipeHBB00000037",
+      "split": "train",
+      "groupId": "maco_round_global_00000037",
+      "sha256": "98664072066583a2295db065dd1dc685c05ea5061e27a58e7217423d372d7a47",
+      "sourceImageSHA256": "98664072066583a2295db065dd1dc685c05ea5061e27a58e7217423d372d7a47"
+    },
+    {
+      "id": "maco_round_PipeHBB00000043",
+      "split": "train",
+      "groupId": "maco_round_global_00000043",
+      "sha256": "6c6e698465390ec25ccd8255419df1f90f27a05fbdb1a2079b657a195da73a21",
+      "sourceImageSHA256": "6c6e698465390ec25ccd8255419df1f90f27a05fbdb1a2079b657a195da73a21"
+    },
+    {
+      "id": "maco_round_PipeHBB00000047",
+      "split": "train",
+      "groupId": "maco_round_global_00000047",
+      "sha256": "eb89e2ff332e3ab15a4aa4adac0c98193af824b77c4aa00fbeb575f330458db7",
+      "sourceImageSHA256": "eb89e2ff332e3ab15a4aa4adac0c98193af824b77c4aa00fbeb575f330458db7"
+    },
+    {
+      "id": "maco_round_PipeHBB00000051",
+      "split": "test",
+      "groupId": "maco_round_global_00000051",
+      "sha256": "979afa385d9962424864deecf8336fd4f46f97150a146a68378729bd44e62c4f",
+      "sourceImageSHA256": "979afa385d9962424864deecf8336fd4f46f97150a146a68378729bd44e62c4f"
+    },
+    {
+      "id": "maco_round_PipeHBB00000056",
+      "split": "train",
+      "groupId": "maco_round_global_00000056",
+      "sha256": "538a0ca0d323a3acd3298ef7cd74aa0b4a47e97f2c86ec4302673905ee97a684",
+      "sourceImageSHA256": "538a0ca0d323a3acd3298ef7cd74aa0b4a47e97f2c86ec4302673905ee97a684"
+    },
+    {
+      "id": "maco_round_PipeHBB00000061",
+      "split": "train",
+      "groupId": "maco_round_global_00000061",
+      "sha256": "1fb3f917c9def0975d67068392c8685f50733da7c55391a6271d4d3d0d6f7abf",
+      "sourceImageSHA256": "1fb3f917c9def0975d67068392c8685f50733da7c55391a6271d4d3d0d6f7abf"
+    },
+    {
+      "id": "maco_round_PipeHBB00000064",
+      "split": "train",
+      "groupId": "maco_round_global_00000064",
+      "sha256": "14dcb22409568d94094ff14f56a82355b6e3dcf1bc9986bcc344903386ff52eb",
+      "sourceImageSHA256": "14dcb22409568d94094ff14f56a82355b6e3dcf1bc9986bcc344903386ff52eb"
+    },
+    {
+      "id": "maco_round_PipeHBB00000065",
+      "split": "val",
+      "groupId": "maco_round_global_00000065",
+      "sha256": "d55283c3135a283d9f90d8c73d613e9ac19a1ca15ebfd2975c57fe609d448523",
+      "sourceImageSHA256": "d55283c3135a283d9f90d8c73d613e9ac19a1ca15ebfd2975c57fe609d448523"
+    },
+    {
+      "id": "maco_round_PipeHBB00000067",
+      "split": "train",
+      "groupId": "maco_round_global_00000067",
+      "sha256": "f8d921cbe64e4e59c785ed24ad4db0a9152d977ab4ed13efb05670bc998b2735",
+      "sourceImageSHA256": "f8d921cbe64e4e59c785ed24ad4db0a9152d977ab4ed13efb05670bc998b2735"
+    },
+    {
+      "id": "maco_round_PipeHBB00000073",
+      "split": "train",
+      "groupId": "maco_round_global_00000073",
+      "sha256": "2e2199caf74d6727ee857da5310debc9269213d98698c8dda58e663b59417479",
+      "sourceImageSHA256": "2e2199caf74d6727ee857da5310debc9269213d98698c8dda58e663b59417479"
+    },
+    {
+      "id": "maco_round_PipeHBB00000078",
+      "split": "val",
+      "groupId": "maco_round_global_00000078",
+      "sha256": "5c11de155647a07a6bd6707efcb010d2f48358cc5ac892d5100f0ba625718045",
+      "sourceImageSHA256": "5c11de155647a07a6bd6707efcb010d2f48358cc5ac892d5100f0ba625718045"
+    },
+    {
+      "id": "maco_round_PipeHBB00000079",
+      "split": "train",
+      "groupId": "maco_round_global_00000079",
+      "sha256": "d6ab4e0676067a11bcac3d4d22e71f59cd1474a5bc29a80ec452eecdf3d62890",
+      "sourceImageSHA256": "d6ab4e0676067a11bcac3d4d22e71f59cd1474a5bc29a80ec452eecdf3d62890"
+    },
+    {
+      "id": "maco_round_PipeHBB00000084",
+      "split": "train",
+      "groupId": "maco_round_global_00000084",
+      "sha256": "fd959f78ee452da4c35a4699bfd572f08d7a83f839ad29fc6e8ec18a730ca954",
+      "sourceImageSHA256": "fd959f78ee452da4c35a4699bfd572f08d7a83f839ad29fc6e8ec18a730ca954"
+    },
+    {
+      "id": "maco_round_PipeHBB00000088",
+      "split": "train",
+      "groupId": "maco_round_global_00000088",
+      "sha256": "13ed76268555a101e375d756589b683cb3d629e1841c8096acc718a891b0e979",
+      "sourceImageSHA256": "13ed76268555a101e375d756589b683cb3d629e1841c8096acc718a891b0e979"
+    },
+    {
+      "id": "maco_round_PipeHBB00000092",
+      "split": "test",
+      "groupId": "maco_round_global_00000092",
+      "sha256": "00c416a785f0a30bdd48d195c048ac6ada1f545bb69405cebf57cf5f2c32f9a9",
+      "sourceImageSHA256": "00c416a785f0a30bdd48d195c048ac6ada1f545bb69405cebf57cf5f2c32f9a9"
+    },
+    {
+      "id": "maco_round_PipeHBB00000095",
+      "split": "train",
+      "groupId": "maco_round_global_00000095",
+      "sha256": "46edafe1379b3076ec7af8136de3e4ae12fb159de16bb162c2012fe513cef580",
+      "sourceImageSHA256": "46edafe1379b3076ec7af8136de3e4ae12fb159de16bb162c2012fe513cef580"
+    },
+    {
+      "id": "maco_round_PipeHBB00000102",
+      "split": "test",
+      "groupId": "maco_round_global_00000102",
+      "sha256": "075b3a73aef350eef702f41a1fb5e61c3e834f4bd3db39128ec1643f2e399e5b",
+      "sourceImageSHA256": "075b3a73aef350eef702f41a1fb5e61c3e834f4bd3db39128ec1643f2e399e5b"
+    },
+    {
+      "id": "maco_round_PipeHBB00000103",
+      "split": "train",
+      "groupId": "maco_round_global_00000084",
+      "sha256": "fbe4bbba354c42792b9eea55cb83d7d76f7b2d571944bd6bc7cb30007a990c20",
+      "sourceImageSHA256": "fbe4bbba354c42792b9eea55cb83d7d76f7b2d571944bd6bc7cb30007a990c20"
+    },
+    {
+      "id": "maco_round_PipeHBB00000108",
+      "split": "train",
+      "groupId": "maco_round_global_00000108",
+      "sha256": "7006a24b6be50f3230cce5c4701e1409ed446507fbc75752d02ff32ba90f8fe6",
+      "sourceImageSHA256": "7006a24b6be50f3230cce5c4701e1409ed446507fbc75752d02ff32ba90f8fe6"
+    },
+    {
+      "id": "maco_round_PipeHBB00000110",
+      "split": "val",
+      "groupId": "maco_round_global_00000110",
+      "sha256": "a45cd4888284713e3b097ad3568ec4d6ec39b1e00909b1130a00997123b2c8e3",
+      "sourceImageSHA256": "a45cd4888284713e3b097ad3568ec4d6ec39b1e00909b1130a00997123b2c8e3"
+    },
+    {
+      "id": "maco_round_PipeHBB00000113",
+      "split": "test",
+      "groupId": "maco_round_global_00000113",
+      "sha256": "3645055b9c443deca1710adae4efa78c37dfbb8a764e8f55c98e0511a5e174cd",
+      "sourceImageSHA256": "3645055b9c443deca1710adae4efa78c37dfbb8a764e8f55c98e0511a5e174cd"
+    },
+    {
+      "id": "maco_round_PipeHBB00000120",
+      "split": "train",
+      "groupId": "maco_round_global_00000120",
+      "sha256": "5069f1607746d8aebbf266ccad739194961bc7dfaead41654c0088e869733c52",
+      "sourceImageSHA256": "5069f1607746d8aebbf266ccad739194961bc7dfaead41654c0088e869733c52"
+    },
+    {
+      "id": "maco_round_PipeHBB00000123",
+      "split": "test",
+      "groupId": "maco_round_global_00000123",
+      "sha256": "0e6d0ea5cfb0f1ffe4361bc82732539258f4caa295f19d23e0a122a43ee33e04",
+      "sourceImageSHA256": "0e6d0ea5cfb0f1ffe4361bc82732539258f4caa295f19d23e0a122a43ee33e04"
+    },
+    {
+      "id": "maco_round_PipeHBB00000136",
+      "split": "train",
+      "groupId": "maco_round_global_00000136",
+      "sha256": "d49bd2cc1255a4f9c2f38891bf3aab9d96e6aa23e7749847cab2db39deea4a16",
+      "sourceImageSHA256": "d49bd2cc1255a4f9c2f38891bf3aab9d96e6aa23e7749847cab2db39deea4a16"
+    },
+    {
+      "id": "maco_round_PipeHBB00000139",
+      "split": "test",
+      "groupId": "maco_round_global_00000139",
+      "sha256": "dc3b4bc37992408495a3353129984c829abbb3800818e79d55a4024de6725afd",
+      "sourceImageSHA256": "dc3b4bc37992408495a3353129984c829abbb3800818e79d55a4024de6725afd"
+    },
+    {
+      "id": "maco_round_PipeHBB00000144",
+      "split": "train",
+      "groupId": "maco_round_global_00000144",
+      "sha256": "7cfc61790225d8b1773125296ecf73643cc4a7b5ae72e712883fb42cd4a6c2b1",
+      "sourceImageSHA256": "7cfc61790225d8b1773125296ecf73643cc4a7b5ae72e712883fb42cd4a6c2b1"
+    },
+    {
+      "id": "maco_round_PipeHBB00000148",
+      "split": "train",
+      "groupId": "maco_round_global_00000148",
+      "sha256": "033e848234e1b5099c8bdab9c004cf3195ca1fc925ea3d09e018d0edee5e98d9",
+      "sourceImageSHA256": "033e848234e1b5099c8bdab9c004cf3195ca1fc925ea3d09e018d0edee5e98d9"
+    },
+    {
+      "id": "maco_round_PipeHBB00000150",
+      "split": "train",
+      "groupId": "maco_round_global_00000150",
+      "sha256": "1e58d51f60a419d7eb1683ff7c66874a33450479c348a53d4dac3d97f63dfebf",
+      "sourceImageSHA256": "1e58d51f60a419d7eb1683ff7c66874a33450479c348a53d4dac3d97f63dfebf"
+    },
+    {
+      "id": "maco_round_PipeHBB00000155",
+      "split": "train",
+      "groupId": "maco_round_global_00000155",
+      "sha256": "4e65b68b121024b8ec34c54d2476209ef13fa7ea5b474856e0457f4725de3894",
+      "sourceImageSHA256": "4e65b68b121024b8ec34c54d2476209ef13fa7ea5b474856e0457f4725de3894"
+    },
+    {
+      "id": "maco_round_PipeHBB00000163",
+      "split": "test",
+      "groupId": "maco_round_global_00000163",
+      "sha256": "6767b987fa17393e7a618fc5dbc28cc825e49e15063fd345fb8ae19563c1c355",
+      "sourceImageSHA256": "6767b987fa17393e7a618fc5dbc28cc825e49e15063fd345fb8ae19563c1c355"
+    },
+    {
+      "id": "maco_round_PipeHBB00000165",
+      "split": "train",
+      "groupId": "maco_round_global_00000165",
+      "sha256": "be5e054cbc7a4547ed6752c829b17d4b0faebd861d8cbc65e46b2146ff6c17b8",
+      "sourceImageSHA256": "be5e054cbc7a4547ed6752c829b17d4b0faebd861d8cbc65e46b2146ff6c17b8"
+    },
+    {
+      "id": "maco_round_PipeHBB00000167",
+      "split": "train",
+      "groupId": "maco_round_global_00000167",
+      "sha256": "3636dd15f6bbff2d8407507bb0a2f0fcfb3e37110c8b27e0812a784d471d1606",
+      "sourceImageSHA256": "3636dd15f6bbff2d8407507bb0a2f0fcfb3e37110c8b27e0812a784d471d1606"
+    },
+    {
+      "id": "maco_round_PipeHBB00000169",
+      "split": "train",
+      "groupId": "maco_round_global_00000169",
+      "sha256": "da9f031c070d12d619e027e05ebe903e18979204869fc5db6a806caefb0efae0",
+      "sourceImageSHA256": "da9f031c070d12d619e027e05ebe903e18979204869fc5db6a806caefb0efae0"
+    },
+    {
+      "id": "maco_round_PipeHBB00000170",
+      "split": "train",
+      "groupId": "maco_round_global_00000170",
+      "sha256": "3d1cf2fa90d6c46698c016593bf474d54e1327dc283a5e00b8d5656f956b04cb",
+      "sourceImageSHA256": "3d1cf2fa90d6c46698c016593bf474d54e1327dc283a5e00b8d5656f956b04cb"
+    },
+    {
+      "id": "maco_round_PipeHBB00000171",
+      "split": "val",
+      "groupId": "maco_round_global_00000171",
+      "sha256": "fada51dc738de1a918f40154165d1ab137f66c5b9111142b0603cf528df73e2d",
+      "sourceImageSHA256": "fada51dc738de1a918f40154165d1ab137f66c5b9111142b0603cf528df73e2d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000174",
+      "split": "train",
+      "groupId": "maco_round_global_00000174",
+      "sha256": "fa006dfb30e42f61b283dcb916a1e599548c5cf1fcb4ce208a905d8700014269",
+      "sourceImageSHA256": "fa006dfb30e42f61b283dcb916a1e599548c5cf1fcb4ce208a905d8700014269"
+    },
+    {
+      "id": "maco_round_PipeHBB00000180",
+      "split": "train",
+      "groupId": "maco_round_global_00000180",
+      "sha256": "368066c5632998323fd6cb04e945be8a1a30d761a47e32c36eb83bdb88bfee62",
+      "sourceImageSHA256": "368066c5632998323fd6cb04e945be8a1a30d761a47e32c36eb83bdb88bfee62"
+    },
+    {
+      "id": "maco_round_PipeHBB00000183",
+      "split": "val",
+      "groupId": "maco_round_global_00000183",
+      "sha256": "76b429640c2e9448ad97540ed25a9637df7b36e8825b56333a52f0ceb7b7f514",
+      "sourceImageSHA256": "76b429640c2e9448ad97540ed25a9637df7b36e8825b56333a52f0ceb7b7f514"
+    },
+    {
+      "id": "maco_round_PipeHBB00000186",
+      "split": "train",
+      "groupId": "maco_round_global_00000186",
+      "sha256": "c47fec47dd517a26b2b27a0b42dbeb9d295a80ce112190a46533d7c67cc1bf76",
+      "sourceImageSHA256": "c47fec47dd517a26b2b27a0b42dbeb9d295a80ce112190a46533d7c67cc1bf76"
+    },
+    {
+      "id": "maco_round_PipeHBB00000190",
+      "split": "train",
+      "groupId": "maco_round_global_00000190",
+      "sha256": "46906fb9944716d0304ae9933d99935c4c736c265f5c0f0ca62645ec7906fb8d",
+      "sourceImageSHA256": "46906fb9944716d0304ae9933d99935c4c736c265f5c0f0ca62645ec7906fb8d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000203",
+      "split": "train",
+      "groupId": "maco_round_global_00000203",
+      "sha256": "329ef4d646e959bb071c52eddd2d9e2b0e6fb351d4e45353e5b8f38169d5d07f",
+      "sourceImageSHA256": "329ef4d646e959bb071c52eddd2d9e2b0e6fb351d4e45353e5b8f38169d5d07f"
+    },
+    {
+      "id": "maco_round_PipeHBB00000205",
+      "split": "val",
+      "groupId": "maco_round_global_00000205",
+      "sha256": "3e5a3f475e321635ad655fe774c3632de033409b9ff2628beaf37a387e9771f7",
+      "sourceImageSHA256": "3e5a3f475e321635ad655fe774c3632de033409b9ff2628beaf37a387e9771f7"
+    },
+    {
+      "id": "maco_round_PipeHBB00000208",
+      "split": "train",
+      "groupId": "maco_round_global_00000208",
+      "sha256": "c36e05e32530b768885168de9074806ca40a7e4276af7fd22ee1b37128e627d9",
+      "sourceImageSHA256": "c36e05e32530b768885168de9074806ca40a7e4276af7fd22ee1b37128e627d9"
+    },
+    {
+      "id": "maco_round_PipeHBB00000212",
+      "split": "train",
+      "groupId": "maco_round_global_00000212",
+      "sha256": "d571e38dbe99b44e2adc6da643814bd08707fabb186e37db7d71b1f3f117bba6",
+      "sourceImageSHA256": "d571e38dbe99b44e2adc6da643814bd08707fabb186e37db7d71b1f3f117bba6"
+    },
+    {
+      "id": "maco_round_PipeHBB00000214",
+      "split": "train",
+      "groupId": "maco_round_global_00000214",
+      "sha256": "4da3bd679d2f43a7aa06c8a952eb36eaad3b94866619abd5a75ca82a42c56907",
+      "sourceImageSHA256": "4da3bd679d2f43a7aa06c8a952eb36eaad3b94866619abd5a75ca82a42c56907"
+    },
+    {
+      "id": "maco_round_PipeHBB00000218",
+      "split": "train",
+      "groupId": "maco_round_global_00000218",
+      "sha256": "670e9c0927a695b30f1cc258e7a91a18768f8a13a7f868ff9c4d98c0e968917b",
+      "sourceImageSHA256": "670e9c0927a695b30f1cc258e7a91a18768f8a13a7f868ff9c4d98c0e968917b"
+    },
+    {
+      "id": "maco_round_PipeHBB00000222",
+      "split": "train",
+      "groupId": "maco_round_global_00000222",
+      "sha256": "8ddf1246852bd48ffb668ed64d60d08051cd66ff0e4c2b3c99194f2ca1062b46",
+      "sourceImageSHA256": "8ddf1246852bd48ffb668ed64d60d08051cd66ff0e4c2b3c99194f2ca1062b46"
+    },
+    {
+      "id": "maco_round_PipeHBB00000224",
+      "split": "train",
+      "groupId": "maco_round_global_00000224",
+      "sha256": "8d7f6585c5dda0c8ae40eddeeaab376a0a68d673cf0715fb83cd3a66b35683ef",
+      "sourceImageSHA256": "8d7f6585c5dda0c8ae40eddeeaab376a0a68d673cf0715fb83cd3a66b35683ef"
+    },
+    {
+      "id": "maco_round_PipeHBB00000227",
+      "split": "train",
+      "groupId": "maco_round_global_00000227",
+      "sha256": "be3767ad9c9edce037d2840daeafabc4fef981c77c8252dbc6721f69f4d71bae",
+      "sourceImageSHA256": "be3767ad9c9edce037d2840daeafabc4fef981c77c8252dbc6721f69f4d71bae"
+    },
+    {
+      "id": "maco_round_PipeHBB00000228",
+      "split": "train",
+      "groupId": "maco_round_global_00000228",
+      "sha256": "48ba12aab64fb5746bee85f6f0fd66fc5d058efef351b95fe5c8ee6a6fdd0e07",
+      "sourceImageSHA256": "48ba12aab64fb5746bee85f6f0fd66fc5d058efef351b95fe5c8ee6a6fdd0e07"
+    },
+    {
+      "id": "maco_round_PipeHBB00000229",
+      "split": "train",
+      "groupId": "maco_round_global_00000229",
+      "sha256": "b66a82047106c0492bb7539469b619a3d02937d52f125f21533ee6df055a047a",
+      "sourceImageSHA256": "b66a82047106c0492bb7539469b619a3d02937d52f125f21533ee6df055a047a"
+    },
+    {
+      "id": "maco_round_PipeHBB00000232",
+      "split": "train",
+      "groupId": "maco_round_global_00000232",
+      "sha256": "b01d9488e9303b14ad5a7a86c6face916070f00b32a9ddcb70619c5e3c9d9ac4",
+      "sourceImageSHA256": "b01d9488e9303b14ad5a7a86c6face916070f00b32a9ddcb70619c5e3c9d9ac4"
+    },
+    {
+      "id": "maco_round_PipeHBB00000235",
+      "split": "train",
+      "groupId": "maco_round_global_00000235",
+      "sha256": "c6a09f0d5574e700303de77d30abb78aa4b7eb4383198d551ed00d80b3171b47",
+      "sourceImageSHA256": "c6a09f0d5574e700303de77d30abb78aa4b7eb4383198d551ed00d80b3171b47"
+    },
+    {
+      "id": "maco_round_PipeHBB00000243",
+      "split": "train",
+      "groupId": "maco_round_global_00000243",
+      "sha256": "8d50184d62a73e68d5126b367bebe7164b91df8da5a2cbccf15a91f5f07422e7",
+      "sourceImageSHA256": "8d50184d62a73e68d5126b367bebe7164b91df8da5a2cbccf15a91f5f07422e7"
+    },
+    {
+      "id": "maco_round_PipeHBB00000253",
+      "split": "train",
+      "groupId": "maco_round_global_00000253",
+      "sha256": "18be4f453f1868a883510772f1084abd30fd7cbeb5177f2536ef4facbef0b79f",
+      "sourceImageSHA256": "18be4f453f1868a883510772f1084abd30fd7cbeb5177f2536ef4facbef0b79f"
+    },
+    {
+      "id": "maco_round_PipeHBB00000254",
+      "split": "train",
+      "groupId": "maco_round_global_00000254",
+      "sha256": "02f3f8a1e050fb853340f202988239eb8c6e0d5a9c6cc9cfa534abe12dceb99c",
+      "sourceImageSHA256": "02f3f8a1e050fb853340f202988239eb8c6e0d5a9c6cc9cfa534abe12dceb99c"
+    },
+    {
+      "id": "maco_round_PipeHBB00000257",
+      "split": "train",
+      "groupId": "maco_round_global_00000257",
+      "sha256": "745f98f3aed09ecb87684ef246990a51b69b2d227e5f20039542d23c6dae0d72",
+      "sourceImageSHA256": "745f98f3aed09ecb87684ef246990a51b69b2d227e5f20039542d23c6dae0d72"
+    },
+    {
+      "id": "maco_round_PipeHBB00000258",
+      "split": "val",
+      "groupId": "maco_round_global_00000258",
+      "sha256": "9ba40a712cf6544878e5ec4befbf318eac6e053331d9f7fe0a34cf7dcb8b8b9b",
+      "sourceImageSHA256": "9ba40a712cf6544878e5ec4befbf318eac6e053331d9f7fe0a34cf7dcb8b8b9b"
+    },
+    {
+      "id": "maco_round_PipeHBB00000261",
+      "split": "train",
+      "groupId": "maco_round_global_00000261",
+      "sha256": "43a96964f3210961fe6f3f40f8c975bcb018d1f08405567ca71fd4153ed13feb",
+      "sourceImageSHA256": "43a96964f3210961fe6f3f40f8c975bcb018d1f08405567ca71fd4153ed13feb"
+    },
+    {
+      "id": "maco_round_PipeHBB00000267",
+      "split": "train",
+      "groupId": "maco_round_global_00000084",
+      "sha256": "a020af820ff77bf8f70c7f8225b9b4c503f0c59a8621618a8777d75b1bf2d051",
+      "sourceImageSHA256": "a020af820ff77bf8f70c7f8225b9b4c503f0c59a8621618a8777d75b1bf2d051"
+    },
+    {
+      "id": "maco_round_PipeHBB00000273",
+      "split": "train",
+      "groupId": "maco_round_global_00000273",
+      "sha256": "f7a368b1f76d59fb2110d8f540070b3c1e54872f0b6e23d1fa2734cb431ecace",
+      "sourceImageSHA256": "f7a368b1f76d59fb2110d8f540070b3c1e54872f0b6e23d1fa2734cb431ecace"
+    },
+    {
+      "id": "maco_round_PipeHBB00000276",
+      "split": "train",
+      "groupId": "maco_round_global_00000276",
+      "sha256": "72779da35c1cf2ab2bb7d7d9071b0aa45e50a5c07d91b7beb3de9edf539aa14d",
+      "sourceImageSHA256": "72779da35c1cf2ab2bb7d7d9071b0aa45e50a5c07d91b7beb3de9edf539aa14d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000283",
+      "split": "test",
+      "groupId": "maco_round_global_00000283",
+      "sha256": "3dd90c2cc94e4367185f94d1f4a6fad46baf0df4dc2565ce3fe9557b662ea4a4",
+      "sourceImageSHA256": "3dd90c2cc94e4367185f94d1f4a6fad46baf0df4dc2565ce3fe9557b662ea4a4"
+    },
+    {
+      "id": "maco_round_PipeHBB00000285",
+      "split": "train",
+      "groupId": "maco_round_global_00000285",
+      "sha256": "67b0871efa3fbf371f14cec685fda198d3808f5c18520ca38d2b15c771aebcd0",
+      "sourceImageSHA256": "67b0871efa3fbf371f14cec685fda198d3808f5c18520ca38d2b15c771aebcd0"
+    },
+    {
+      "id": "maco_round_PipeHBB00000286",
+      "split": "train",
+      "groupId": "maco_round_global_00000067",
+      "sha256": "982759e8c08e3023e50d04245ab12253c80af026bb53a9df994d7b1454c097d2",
+      "sourceImageSHA256": "982759e8c08e3023e50d04245ab12253c80af026bb53a9df994d7b1454c097d2"
+    },
+    {
+      "id": "maco_round_PipeHBB00000288",
+      "split": "train",
+      "groupId": "maco_round_global_00000288",
+      "sha256": "8d598a22e78dfd1679c75ee4b9bdb1ba4d193cfc3362b93217f88f8ee7465426",
+      "sourceImageSHA256": "8d598a22e78dfd1679c75ee4b9bdb1ba4d193cfc3362b93217f88f8ee7465426"
+    },
+    {
+      "id": "maco_round_PipeHBB00000297",
+      "split": "train",
+      "groupId": "maco_round_global_00000297",
+      "sha256": "5d518ea9b558c4cb205e2b28ce3fd4d30042a3f9e21c508d928cf4ce7362f383",
+      "sourceImageSHA256": "5d518ea9b558c4cb205e2b28ce3fd4d30042a3f9e21c508d928cf4ce7362f383"
+    },
+    {
+      "id": "maco_round_PipeHBB00000299",
+      "split": "train",
+      "groupId": "maco_round_global_00000299",
+      "sha256": "94e83fe612bd845fc36cca4604d458ddc9c53e562786205d744283386625b492",
+      "sourceImageSHA256": "94e83fe612bd845fc36cca4604d458ddc9c53e562786205d744283386625b492"
+    },
+    {
+      "id": "maco_round_PipeHBB00000304",
+      "split": "train",
+      "groupId": "maco_round_global_00000304",
+      "sha256": "daeab046175a43b302df535f415faa620a2d1abfee047201df4dd7c47aee3d1a",
+      "sourceImageSHA256": "daeab046175a43b302df535f415faa620a2d1abfee047201df4dd7c47aee3d1a"
+    },
+    {
+      "id": "maco_round_PipeHBB00000308",
+      "split": "train",
+      "groupId": "maco_round_global_00000085",
+      "sha256": "a13ef741c1d290c518ffa645969a33ed3a101b8854665bf1214322338db96994",
+      "sourceImageSHA256": "a13ef741c1d290c518ffa645969a33ed3a101b8854665bf1214322338db96994"
+    },
+    {
+      "id": "maco_round_PipeHBB00000317",
+      "split": "train",
+      "groupId": "maco_round_global_00000012",
+      "sha256": "6552a56856e414d7b65b0b42491c96565a1c72b4db05b92c8cf6d3a3854b57cf",
+      "sourceImageSHA256": "6552a56856e414d7b65b0b42491c96565a1c72b4db05b92c8cf6d3a3854b57cf"
+    },
+    {
+      "id": "maco_round_PipeHBB00000318",
+      "split": "train",
+      "groupId": "maco_round_global_00000318",
+      "sha256": "a6779a66be028f7acdc2544fef6316434b58e5a427fe1d86e672207e2b697208",
+      "sourceImageSHA256": "a6779a66be028f7acdc2544fef6316434b58e5a427fe1d86e672207e2b697208"
+    },
+    {
+      "id": "maco_round_PipeHBB00000319",
+      "split": "train",
+      "groupId": "maco_round_global_00000319",
+      "sha256": "72de3ceaa16937c389740bb22efe443b4d090083382a03ddd98f777e5f6ab025",
+      "sourceImageSHA256": "72de3ceaa16937c389740bb22efe443b4d090083382a03ddd98f777e5f6ab025"
+    },
+    {
+      "id": "maco_round_PipeHBB00000321",
+      "split": "train",
+      "groupId": "maco_round_global_00000321",
+      "sha256": "5786bcbd0b1694d39732d8b107b73492ce821add17291995615b8b52429f2802",
+      "sourceImageSHA256": "5786bcbd0b1694d39732d8b107b73492ce821add17291995615b8b52429f2802"
+    },
+    {
+      "id": "maco_round_PipeHBB00000323",
+      "split": "train",
+      "groupId": "maco_round_global_00000323",
+      "sha256": "aeb44629310aec27b807e5a520057ad798b4e6ffb4065be76c0e6745cb335308",
+      "sourceImageSHA256": "aeb44629310aec27b807e5a520057ad798b4e6ffb4065be76c0e6745cb335308"
+    },
+    {
+      "id": "maco_round_PipeHBB00000324",
+      "split": "train",
+      "groupId": "maco_round_global_00000324",
+      "sha256": "cf418f44b4210f066d5f444769ad5d565c198ceab9c3f37a5105650a6ef73cbc",
+      "sourceImageSHA256": "cf418f44b4210f066d5f444769ad5d565c198ceab9c3f37a5105650a6ef73cbc"
+    },
+    {
+      "id": "maco_round_PipeHBB00000325",
+      "split": "train",
+      "groupId": "maco_round_global_00000325",
+      "sha256": "00eaef9051ca863bcea4f3feade708d50c8855328acd16ed3774ba7eb1c21d5b",
+      "sourceImageSHA256": "00eaef9051ca863bcea4f3feade708d50c8855328acd16ed3774ba7eb1c21d5b"
+    },
+    {
+      "id": "maco_round_PipeHBB00000326",
+      "split": "train",
+      "groupId": "maco_round_global_00000326",
+      "sha256": "26a6a03723a53b89ba0f04fb033a97696f9a67f5ddbfa765b6db358c41defb11",
+      "sourceImageSHA256": "26a6a03723a53b89ba0f04fb033a97696f9a67f5ddbfa765b6db358c41defb11"
+    },
+    {
+      "id": "maco_round_PipeHBB00000328",
+      "split": "train",
+      "groupId": "maco_round_global_00000328",
+      "sha256": "804180e6ca281d2798ea0060efa8618c1d1d2ac42cdb3660fea5334608521dfb",
+      "sourceImageSHA256": "804180e6ca281d2798ea0060efa8618c1d1d2ac42cdb3660fea5334608521dfb"
+    },
+    {
+      "id": "maco_round_PipeHBB00000329",
+      "split": "test",
+      "groupId": "maco_round_global_00000329",
+      "sha256": "e0e183596bf95ef53b351714d6ebccc0638bead53e8b5f812c29264b2fab1a5f",
+      "sourceImageSHA256": "e0e183596bf95ef53b351714d6ebccc0638bead53e8b5f812c29264b2fab1a5f"
+    },
+    {
+      "id": "maco_round_PipeHBB00000333",
+      "split": "val",
+      "groupId": "maco_round_global_00000333",
+      "sha256": "33df7b72ba6ecea5c8985e47baab8cfe3ef3bc0273808bc3f38637cd0d9ded4e",
+      "sourceImageSHA256": "33df7b72ba6ecea5c8985e47baab8cfe3ef3bc0273808bc3f38637cd0d9ded4e"
+    },
+    {
+      "id": "maco_round_PipeHBB00000336",
+      "split": "train",
+      "groupId": "maco_round_global_00000336",
+      "sha256": "52c5d01cfd0011562cc607e9c8d5135235d471ca3d53657c2cc825c6c084d77f",
+      "sourceImageSHA256": "52c5d01cfd0011562cc607e9c8d5135235d471ca3d53657c2cc825c6c084d77f"
+    },
+    {
+      "id": "maco_round_PipeHBB00000338",
+      "split": "val",
+      "groupId": "maco_round_global_00000083",
+      "sha256": "3155284cbf36bfa2a813e643b4362e876e93372ced9e992ef392d24ea5fd1b22",
+      "sourceImageSHA256": "3155284cbf36bfa2a813e643b4362e876e93372ced9e992ef392d24ea5fd1b22"
+    },
+    {
+      "id": "maco_round_PipeHBB00000352",
+      "split": "test",
+      "groupId": "maco_round_global_00000352",
+      "sha256": "c23d42d484c34c81e94493c9df2f7795d8dcb6067f11a6fdddc33cc1de2ddb7a",
+      "sourceImageSHA256": "c23d42d484c34c81e94493c9df2f7795d8dcb6067f11a6fdddc33cc1de2ddb7a"
+    },
+    {
+      "id": "maco_round_PipeHBB00000353",
+      "split": "train",
+      "groupId": "maco_round_global_00000353",
+      "sha256": "5f5fbf435945e647cbfef6951e370d5335e6d9ce6cb53ca135e1e1203c1effd5",
+      "sourceImageSHA256": "5f5fbf435945e647cbfef6951e370d5335e6d9ce6cb53ca135e1e1203c1effd5"
+    },
+    {
+      "id": "maco_round_PipeHBB00000355",
+      "split": "train",
+      "groupId": "maco_round_global_00000355",
+      "sha256": "c198a671cd5bcfa827cfcb7e68525787f98c32c525bd2e891dd88dca7aeb7221",
+      "sourceImageSHA256": "c198a671cd5bcfa827cfcb7e68525787f98c32c525bd2e891dd88dca7aeb7221"
+    },
+    {
+      "id": "maco_round_PipeHBB00000358",
+      "split": "train",
+      "groupId": "maco_round_global_00000358",
+      "sha256": "6b004c291df3b45066bfa2f72b96fcf1e3d90b4428e5acf9d39b778c692c2d04",
+      "sourceImageSHA256": "6b004c291df3b45066bfa2f72b96fcf1e3d90b4428e5acf9d39b778c692c2d04"
+    },
+    {
+      "id": "maco_round_PipeHBB00000362",
+      "split": "train",
+      "groupId": "maco_round_global_00000362",
+      "sha256": "7db941139438b164c0fe458fd3f3acbe842402691ea195389043ed45b46a5388",
+      "sourceImageSHA256": "7db941139438b164c0fe458fd3f3acbe842402691ea195389043ed45b46a5388"
+    },
+    {
+      "id": "maco_round_PipeHBB00000373",
+      "split": "train",
+      "groupId": "maco_round_global_00000373",
+      "sha256": "004303a2d5358b0493d99e23b365c1f93e6fa0b073967dee870eb95f79a87e62",
+      "sourceImageSHA256": "004303a2d5358b0493d99e23b365c1f93e6fa0b073967dee870eb95f79a87e62"
+    },
+    {
+      "id": "maco_round_PipeHBB00000375",
+      "split": "val",
+      "groupId": "maco_round_global_00000375",
+      "sha256": "f616812d11b7d019ed5f0178758efbfb01a2928b08f1c7f3599310c75db98beb",
+      "sourceImageSHA256": "f616812d11b7d019ed5f0178758efbfb01a2928b08f1c7f3599310c75db98beb"
+    },
+    {
+      "id": "maco_round_PipeHBB00000382",
+      "split": "train",
+      "groupId": "maco_round_global_00000382",
+      "sha256": "4739ab0979822e309c5f6be388cc6aabea12424d9c3fc1f87046da925671ba3a",
+      "sourceImageSHA256": "4739ab0979822e309c5f6be388cc6aabea12424d9c3fc1f87046da925671ba3a"
+    },
+    {
+      "id": "maco_round_PipeHBB00000383",
+      "split": "train",
+      "groupId": "maco_round_global_00000383",
+      "sha256": "a370ecf83c0635189b468c910ff85e377c851d6a66ed4664c8e10915efb01d1d",
+      "sourceImageSHA256": "a370ecf83c0635189b468c910ff85e377c851d6a66ed4664c8e10915efb01d1d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000387",
+      "split": "val",
+      "groupId": "maco_round_global_00000387",
+      "sha256": "48b48143bf23995742b326b4d9f75bfeb9fd5ee5d2a3f6dfa58f04a6bcb59dde",
+      "sourceImageSHA256": "48b48143bf23995742b326b4d9f75bfeb9fd5ee5d2a3f6dfa58f04a6bcb59dde"
+    },
+    {
+      "id": "maco_round_PipeHBB00000391",
+      "split": "test",
+      "groupId": "maco_round_global_00000391",
+      "sha256": "ea46d3f2e213f438c5f01f5a0a72f5aa325e1e22eeab763ebb1d1a37698120c9",
+      "sourceImageSHA256": "ea46d3f2e213f438c5f01f5a0a72f5aa325e1e22eeab763ebb1d1a37698120c9"
+    },
+    {
+      "id": "maco_round_PipeHBB00000401",
+      "split": "test",
+      "groupId": "maco_round_global_00000401",
+      "sha256": "41fb376c9101de00db69717aa20fc981be4d6a30708f6164af652c8838151052",
+      "sourceImageSHA256": "41fb376c9101de00db69717aa20fc981be4d6a30708f6164af652c8838151052"
+    },
+    {
+      "id": "maco_round_PipeHBB00000404",
+      "split": "train",
+      "groupId": "maco_round_global_00000404",
+      "sha256": "27c0f1ab1373d727bc7f363ff23caf7a5b738849695e778c5a99cea958ba035d",
+      "sourceImageSHA256": "27c0f1ab1373d727bc7f363ff23caf7a5b738849695e778c5a99cea958ba035d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000416",
+      "split": "train",
+      "groupId": "maco_round_global_00000416",
+      "sha256": "b0f0efeb667ed31d8d13c96f0e447f3003abab1e47b42b1c7df6fe015b71e6f6",
+      "sourceImageSHA256": "b0f0efeb667ed31d8d13c96f0e447f3003abab1e47b42b1c7df6fe015b71e6f6"
+    },
+    {
+      "id": "maco_round_PipeHBB00000419",
+      "split": "train",
+      "groupId": "maco_round_global_00000419",
+      "sha256": "441ae66368ed4693695ed6e508fceab70722983b629cef498dfbfbd113e8fe65",
+      "sourceImageSHA256": "441ae66368ed4693695ed6e508fceab70722983b629cef498dfbfbd113e8fe65"
+    },
+    {
+      "id": "maco_round_PipeHBB00000421",
+      "split": "train",
+      "groupId": "maco_round_global_00000421",
+      "sha256": "01bd992c7cc5e58fa242ffa29d33c8888c55641702ec703334f7f362ed557ed2",
+      "sourceImageSHA256": "01bd992c7cc5e58fa242ffa29d33c8888c55641702ec703334f7f362ed557ed2"
+    },
+    {
+      "id": "maco_round_PipeHBB00000423",
+      "split": "train",
+      "groupId": "maco_round_global_00000423",
+      "sha256": "8d25391ffd33d5cfa31a8792cc4cd2a6add0c5a1610c7176e2aaf2d902977639",
+      "sourceImageSHA256": "8d25391ffd33d5cfa31a8792cc4cd2a6add0c5a1610c7176e2aaf2d902977639"
+    },
+    {
+      "id": "maco_round_PipeHBB00000436",
+      "split": "train",
+      "groupId": "maco_round_global_00000436",
+      "sha256": "4fcaa071988267f39229919085d3b95a7fc743033baf84d820ece8b7239a70be",
+      "sourceImageSHA256": "4fcaa071988267f39229919085d3b95a7fc743033baf84d820ece8b7239a70be"
+    },
+    {
+      "id": "maco_round_PipeHBB00000437",
+      "split": "train",
+      "groupId": "maco_round_global_00000437",
+      "sha256": "7143a9916452255ad4c2e46afaa12cc654e78da4cee50d362095e44b0dd5c7f2",
+      "sourceImageSHA256": "7143a9916452255ad4c2e46afaa12cc654e78da4cee50d362095e44b0dd5c7f2"
+    },
+    {
+      "id": "maco_round_PipeHBB00000446",
+      "split": "train",
+      "groupId": "maco_round_global_00000446",
+      "sha256": "f6c6c0777368d3d7d4dafe43b5724e6ec6b1b8e2961b1318a7d5d640de172b9b",
+      "sourceImageSHA256": "f6c6c0777368d3d7d4dafe43b5724e6ec6b1b8e2961b1318a7d5d640de172b9b"
+    },
+    {
+      "id": "maco_round_PipeHBB00000457",
+      "split": "train",
+      "groupId": "maco_round_global_00000457",
+      "sha256": "d9417a2a7cf6282bc70ef4e749535f80bd15906eabdf734a348d616d79fcca74",
+      "sourceImageSHA256": "d9417a2a7cf6282bc70ef4e749535f80bd15906eabdf734a348d616d79fcca74"
+    },
+    {
+      "id": "maco_round_PipeHBB00000458",
+      "split": "train",
+      "groupId": "maco_round_global_00000362",
+      "sha256": "1a630b6559c15593ce3fcf1c3eb05e2652fdf2337747a79ea5756102635e9f57",
+      "sourceImageSHA256": "1a630b6559c15593ce3fcf1c3eb05e2652fdf2337747a79ea5756102635e9f57"
+    },
+    {
+      "id": "maco_round_PipeHBB00000462",
+      "split": "val",
+      "groupId": "maco_round_global_00000462",
+      "sha256": "73cb3cdd9097ad501f51b431318787fb940ccae06205610ebbf725f8a63d2a9b",
+      "sourceImageSHA256": "73cb3cdd9097ad501f51b431318787fb940ccae06205610ebbf725f8a63d2a9b"
+    },
+    {
+      "id": "maco_round_PipeHBB00000464",
+      "split": "val",
+      "groupId": "maco_round_global_00000464",
+      "sha256": "62c2a8f501b70144f73e018e012fce8ddd20be9b533153f5f8a925b9fdcff803",
+      "sourceImageSHA256": "62c2a8f501b70144f73e018e012fce8ddd20be9b533153f5f8a925b9fdcff803"
+    },
+    {
+      "id": "maco_round_PipeHBB00000466",
+      "split": "train",
+      "groupId": "maco_round_global_00000466",
+      "sha256": "dc43b14cb5f2b150c46efc9a8aff53c6279033cc6bb22b006bcfb474718bff0d",
+      "sourceImageSHA256": "dc43b14cb5f2b150c46efc9a8aff53c6279033cc6bb22b006bcfb474718bff0d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000484",
+      "split": "train",
+      "groupId": "maco_round_global_00000484",
+      "sha256": "6ec9f8e820b89650d5293b4a5b92404dd31eed9c59e28defdb72ec84aff0cda3",
+      "sourceImageSHA256": "6ec9f8e820b89650d5293b4a5b92404dd31eed9c59e28defdb72ec84aff0cda3"
+    },
+    {
+      "id": "maco_round_PipeHBB00000488",
+      "split": "val",
+      "groupId": "maco_round_global_00000488",
+      "sha256": "4a7ab3bc29b14e54dedc152810d65d52189b5b21dd4f275e0dcbf88c249c46c9",
+      "sourceImageSHA256": "4a7ab3bc29b14e54dedc152810d65d52189b5b21dd4f275e0dcbf88c249c46c9"
+    },
+    {
+      "id": "maco_round_PipeHBB00000503",
+      "split": "train",
+      "groupId": "maco_round_global_00000503",
+      "sha256": "d4ee73fa49ecdadb037391319e1fcc588c3324f2f7f74d07eeb0f0cfeaf6eb59",
+      "sourceImageSHA256": "d4ee73fa49ecdadb037391319e1fcc588c3324f2f7f74d07eeb0f0cfeaf6eb59"
+    },
+    {
+      "id": "maco_round_PipeHBB00000507",
+      "split": "train",
+      "groupId": "maco_round_global_00000507",
+      "sha256": "e7acb2f68efd84ef89fb308b40b11b4078cdf40276a88eca92ffe7955c9f4a58",
+      "sourceImageSHA256": "e7acb2f68efd84ef89fb308b40b11b4078cdf40276a88eca92ffe7955c9f4a58"
+    },
+    {
+      "id": "maco_round_PipeHBB00000513",
+      "split": "train",
+      "groupId": "maco_round_global_00000513",
+      "sha256": "b750cd3d97759da9239141854bc842382fa794d0e26ca09c21f12e7644e00734",
+      "sourceImageSHA256": "b750cd3d97759da9239141854bc842382fa794d0e26ca09c21f12e7644e00734"
+    },
+    {
+      "id": "maco_round_PipeHBB00000518",
+      "split": "test",
+      "groupId": "maco_round_global_00000518",
+      "sha256": "af49b0455cef0119f52d76ce27cf5e7e1e87a869d7a32b891735fabda5079077",
+      "sourceImageSHA256": "af49b0455cef0119f52d76ce27cf5e7e1e87a869d7a32b891735fabda5079077"
+    },
+    {
+      "id": "maco_round_PipeHBB00000525",
+      "split": "test",
+      "groupId": "maco_round_global_00000525",
+      "sha256": "76f83795f3e30ce3e88060344c82da5df0103b8b21e27017f5c58dc1e2f7e6df",
+      "sourceImageSHA256": "76f83795f3e30ce3e88060344c82da5df0103b8b21e27017f5c58dc1e2f7e6df"
+    },
+    {
+      "id": "maco_round_PipeHBB00000531",
+      "split": "train",
+      "groupId": "maco_round_global_00000531",
+      "sha256": "f0aa8eed55715c02858a85032d8a59f74618e82d9aa33273364d0f7c51a84554",
+      "sourceImageSHA256": "f0aa8eed55715c02858a85032d8a59f74618e82d9aa33273364d0f7c51a84554"
+    },
+    {
+      "id": "maco_round_PipeHBB00000535",
+      "split": "test",
+      "groupId": "maco_round_global_00000535",
+      "sha256": "cd65c9986ec053979ca0beb9bbfb60f2c3b27af94a4ed45a45a5508c038ddb0d",
+      "sourceImageSHA256": "cd65c9986ec053979ca0beb9bbfb60f2c3b27af94a4ed45a45a5508c038ddb0d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000537",
+      "split": "train",
+      "groupId": "maco_round_global_00000537",
+      "sha256": "68b2cef59776e6ece41e8725069e291cd53841759b32b6b4bc9ab546658d39be",
+      "sourceImageSHA256": "68b2cef59776e6ece41e8725069e291cd53841759b32b6b4bc9ab546658d39be"
+    },
+    {
+      "id": "maco_round_PipeHBB00000552",
+      "split": "test",
+      "groupId": "maco_round_global_00000552",
+      "sha256": "018901e7b07b15621d94937585d4e13c895269d8c52483a4daa44461b292afac",
+      "sourceImageSHA256": "018901e7b07b15621d94937585d4e13c895269d8c52483a4daa44461b292afac"
+    },
+    {
+      "id": "maco_round_PipeHBB00000557",
+      "split": "train",
+      "groupId": "maco_round_global_00000557",
+      "sha256": "1a6cd63a642f5d3d020425f572d86ecc0a7f1db6deaee7a8a28b0cd58e987158",
+      "sourceImageSHA256": "1a6cd63a642f5d3d020425f572d86ecc0a7f1db6deaee7a8a28b0cd58e987158"
+    },
+    {
+      "id": "maco_round_PipeHBB00000564",
+      "split": "test",
+      "groupId": "maco_round_global_00000564",
+      "sha256": "3d2551da0b19fe2f62e2afd62f79e2d2e6917b787eaa1151ab64c5e0d2f83042",
+      "sourceImageSHA256": "3d2551da0b19fe2f62e2afd62f79e2d2e6917b787eaa1151ab64c5e0d2f83042"
+    },
+    {
+      "id": "maco_round_PipeHBB00000567",
+      "split": "test",
+      "groupId": "maco_round_global_00000567",
+      "sha256": "ccaae3dedb8865067bc854bf95a0db1de13f0eaabad87f628a1b366fa989f588",
+      "sourceImageSHA256": "ccaae3dedb8865067bc854bf95a0db1de13f0eaabad87f628a1b366fa989f588"
+    },
+    {
+      "id": "maco_round_PipeHBB00000568",
+      "split": "train",
+      "groupId": "maco_round_global_00000568",
+      "sha256": "5a28a66eecf31e583e9606313c6022be0e8c7a56555619f008b2a8d20dfd0a41",
+      "sourceImageSHA256": "5a28a66eecf31e583e9606313c6022be0e8c7a56555619f008b2a8d20dfd0a41"
+    },
+    {
+      "id": "maco_round_PipeHBB00000574",
+      "split": "train",
+      "groupId": "maco_round_global_00000574",
+      "sha256": "5c20aea47322117b2b74b799807e8745eb08e0d32e498909aee73fb49244cadc",
+      "sourceImageSHA256": "5c20aea47322117b2b74b799807e8745eb08e0d32e498909aee73fb49244cadc"
+    },
+    {
+      "id": "maco_round_PipeHBB00000576",
+      "split": "train",
+      "groupId": "maco_round_global_00000409",
+      "sha256": "1dbbd612f6bffcb364829aa3c32bfc6f96f5f346ec4d2c79f7a26d98e91905bd",
+      "sourceImageSHA256": "1dbbd612f6bffcb364829aa3c32bfc6f96f5f346ec4d2c79f7a26d98e91905bd"
+    },
+    {
+      "id": "maco_round_PipeHBB00000579",
+      "split": "test",
+      "groupId": "maco_round_global_00000579",
+      "sha256": "fdb774b0d47f90a5e940dc766b344dd9ddc2fc41e1293fbb60631b3c7f56c028",
+      "sourceImageSHA256": "fdb774b0d47f90a5e940dc766b344dd9ddc2fc41e1293fbb60631b3c7f56c028"
+    },
+    {
+      "id": "maco_round_PipeHBB00000589",
+      "split": "train",
+      "groupId": "maco_round_global_00000589",
+      "sha256": "7e2c5b09b3577d5284c11ccbc0a8f82a5bb464a995daf3936cbaf126a07a5a7c",
+      "sourceImageSHA256": "7e2c5b09b3577d5284c11ccbc0a8f82a5bb464a995daf3936cbaf126a07a5a7c"
+    },
+    {
+      "id": "maco_round_PipeHBB00000603",
+      "split": "train",
+      "groupId": "maco_round_global_00000603",
+      "sha256": "cdee7b0ef933c23363aef00590a1e43d229e3da0204e3f1a336dba3640969a0d",
+      "sourceImageSHA256": "cdee7b0ef933c23363aef00590a1e43d229e3da0204e3f1a336dba3640969a0d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000608",
+      "split": "train",
+      "groupId": "maco_round_global_00000608",
+      "sha256": "e6a93e8b64f80fa8fbefcb68ac2057b58a09ec7b30ab1609db0ae2dc7441afc8",
+      "sourceImageSHA256": "e6a93e8b64f80fa8fbefcb68ac2057b58a09ec7b30ab1609db0ae2dc7441afc8"
+    },
+    {
+      "id": "maco_round_PipeHBB00000611",
+      "split": "train",
+      "groupId": "maco_round_global_00000611",
+      "sha256": "6a1d32e1df3327b0fd1e6880a536c595ce67d62551752cae6aec998bce5bfcbf",
+      "sourceImageSHA256": "6a1d32e1df3327b0fd1e6880a536c595ce67d62551752cae6aec998bce5bfcbf"
+    },
+    {
+      "id": "maco_round_PipeHBB00000616",
+      "split": "train",
+      "groupId": "maco_round_global_00000616",
+      "sha256": "0ed2ac1853029e34650feae578c32666daf6632b7bfb8295e3c7578d51a243e4",
+      "sourceImageSHA256": "0ed2ac1853029e34650feae578c32666daf6632b7bfb8295e3c7578d51a243e4"
+    },
+    {
+      "id": "maco_round_PipeHBB00000618",
+      "split": "train",
+      "groupId": "maco_round_global_00000618",
+      "sha256": "6a1d85efe843c332ddb502e30022e929d89fbf4ce97dbd2b0c31c0075eb678e0",
+      "sourceImageSHA256": "6a1d85efe843c332ddb502e30022e929d89fbf4ce97dbd2b0c31c0075eb678e0"
+    },
+    {
+      "id": "maco_round_PipeHBB00000622",
+      "split": "train",
+      "groupId": "maco_round_global_00000054",
+      "sha256": "34aaa9c20c72d358928f1e5ec16e150f739fc35876b67e0f6cb83b754942dc1a",
+      "sourceImageSHA256": "34aaa9c20c72d358928f1e5ec16e150f739fc35876b67e0f6cb83b754942dc1a"
+    },
+    {
+      "id": "maco_round_PipeHBB00000625",
+      "split": "val",
+      "groupId": "maco_round_global_00000625",
+      "sha256": "15078b7396cc1bb61bd9cbe2580efc0a579e15dce18284a7949e32467883209d",
+      "sourceImageSHA256": "15078b7396cc1bb61bd9cbe2580efc0a579e15dce18284a7949e32467883209d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000628",
+      "split": "train",
+      "groupId": "maco_round_global_00000628",
+      "sha256": "89b23586b209096736ce5157d5ce90cb303d58999d9a5d4f324ed3fd731ec043",
+      "sourceImageSHA256": "89b23586b209096736ce5157d5ce90cb303d58999d9a5d4f324ed3fd731ec043"
+    },
+    {
+      "id": "maco_round_PipeHBB00000638",
+      "split": "val",
+      "groupId": "maco_round_global_00000638",
+      "sha256": "e310e77eb172255c17b7a47d7045575062422fc2274c84e48285d06494b89d2a",
+      "sourceImageSHA256": "e310e77eb172255c17b7a47d7045575062422fc2274c84e48285d06494b89d2a"
+    },
+    {
+      "id": "maco_round_PipeHBB00000639",
+      "split": "train",
+      "groupId": "maco_round_global_00000639",
+      "sha256": "b964175d4899da37349e0e2f641a674c58b4ea131bfb682a894df393e8030c4d",
+      "sourceImageSHA256": "b964175d4899da37349e0e2f641a674c58b4ea131bfb682a894df393e8030c4d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000654",
+      "split": "train",
+      "groupId": "maco_round_global_00000446",
+      "sha256": "4bb1d2158979e18ef96f9c35beeaf1c16b8866be634799d91d812c51ce4fa229",
+      "sourceImageSHA256": "4bb1d2158979e18ef96f9c35beeaf1c16b8866be634799d91d812c51ce4fa229"
+    },
+    {
+      "id": "maco_round_PipeHBB00000656",
+      "split": "test",
+      "groupId": "maco_round_global_00000552",
+      "sha256": "28854354f2c2e1f75fe89e6790ca578474dfe5d1b9fc6405c0781a3461229104",
+      "sourceImageSHA256": "28854354f2c2e1f75fe89e6790ca578474dfe5d1b9fc6405c0781a3461229104"
+    },
+    {
+      "id": "maco_round_PipeHBB00000660",
+      "split": "train",
+      "groupId": "maco_round_global_00000660",
+      "sha256": "da943b1b46e4cbddc7c6e9b62cb959428bc7013ff775d6826cd638ee56f337d4",
+      "sourceImageSHA256": "da943b1b46e4cbddc7c6e9b62cb959428bc7013ff775d6826cd638ee56f337d4"
+    },
+    {
+      "id": "maco_round_PipeHBB00000674",
+      "split": "test",
+      "groupId": "maco_round_global_00000674",
+      "sha256": "31b1b6b9910725a6408314c14cf63cfecf4edfa3433e00384eb4a23c4244539f",
+      "sourceImageSHA256": "31b1b6b9910725a6408314c14cf63cfecf4edfa3433e00384eb4a23c4244539f"
+    },
+    {
+      "id": "maco_round_PipeHBB00000676",
+      "split": "train",
+      "groupId": "maco_round_global_00000676",
+      "sha256": "4e30a1a26b1d7d9fcc31fcdc0f5190a2121fa8c61be560030a799cfb796282ef",
+      "sourceImageSHA256": "4e30a1a26b1d7d9fcc31fcdc0f5190a2121fa8c61be560030a799cfb796282ef"
+    },
+    {
+      "id": "maco_round_PipeHBB00000682",
+      "split": "val",
+      "groupId": "maco_round_global_00000682",
+      "sha256": "dde6c99b057449bfa8fadd5798551977d0e0b0eac49a37d7cb74a9db3f3090e3",
+      "sourceImageSHA256": "dde6c99b057449bfa8fadd5798551977d0e0b0eac49a37d7cb74a9db3f3090e3"
+    },
+    {
+      "id": "maco_round_PipeHBB00000687",
+      "split": "val",
+      "groupId": "maco_round_global_00000687",
+      "sha256": "8dc66ad6614cf9fb80ee080838c10c68dedf58eecb69701395248bfbec161c57",
+      "sourceImageSHA256": "8dc66ad6614cf9fb80ee080838c10c68dedf58eecb69701395248bfbec161c57"
+    },
+    {
+      "id": "maco_round_PipeHBB00000701",
+      "split": "val",
+      "groupId": "maco_round_global_00000701",
+      "sha256": "766e481d54b2e4c3869e7ff56c8e4b00286861ce0ff1c91db6fc0ffd9929e2f2",
+      "sourceImageSHA256": "766e481d54b2e4c3869e7ff56c8e4b00286861ce0ff1c91db6fc0ffd9929e2f2"
+    },
+    {
+      "id": "maco_round_PipeHBB00000702",
+      "split": "train",
+      "groupId": "maco_round_global_00000702",
+      "sha256": "8ac3e298c67ba1ef9b49d20d64f09a945a4214f78a1b9bf6a7c0c9cba5078123",
+      "sourceImageSHA256": "8ac3e298c67ba1ef9b49d20d64f09a945a4214f78a1b9bf6a7c0c9cba5078123"
+    },
+    {
+      "id": "maco_round_PipeHBB00000704",
+      "split": "test",
+      "groupId": "maco_round_global_00000704",
+      "sha256": "cb244967b2f958219ac1e6926ff99117b24b854d628f9ca19719f09bb9ee5180",
+      "sourceImageSHA256": "cb244967b2f958219ac1e6926ff99117b24b854d628f9ca19719f09bb9ee5180"
+    },
+    {
+      "id": "maco_round_PipeHBB00000707",
+      "split": "test",
+      "groupId": "maco_round_global_00000707",
+      "sha256": "8145cb93404a43b1c3c04f6a850adcf232d4d2e0402b66acdc3b1c12d0ac2f46",
+      "sourceImageSHA256": "8145cb93404a43b1c3c04f6a850adcf232d4d2e0402b66acdc3b1c12d0ac2f46"
+    },
+    {
+      "id": "maco_round_PipeHBB00000708",
+      "split": "train",
+      "groupId": "maco_round_global_00000708",
+      "sha256": "be0106f3c765ebac31d4c9cba7401cd0dbd1a1b2f74867023c0246090cdcefc5",
+      "sourceImageSHA256": "be0106f3c765ebac31d4c9cba7401cd0dbd1a1b2f74867023c0246090cdcefc5"
+    },
+    {
+      "id": "maco_round_PipeHBB00000711",
+      "split": "val",
+      "groupId": "maco_round_global_00000711",
+      "sha256": "d50427c1bcec1bf28bb2db430e8cbebf48b07e16f0f6c2e1535a8b275f361435",
+      "sourceImageSHA256": "d50427c1bcec1bf28bb2db430e8cbebf48b07e16f0f6c2e1535a8b275f361435"
+    },
+    {
+      "id": "maco_round_PipeHBB00000714",
+      "split": "train",
+      "groupId": "maco_round_global_00000714",
+      "sha256": "7d21975add09b43488bde4bebf95eb5793d7bcbdcd09e83fac8a6418209443af",
+      "sourceImageSHA256": "7d21975add09b43488bde4bebf95eb5793d7bcbdcd09e83fac8a6418209443af"
+    },
+    {
+      "id": "maco_round_PipeHBB00000718",
+      "split": "val",
+      "groupId": "maco_round_global_00000718",
+      "sha256": "1ce791a7a1a76490ea799282478b27b65b1f83a96c657a7cbb82634d0ba64d57",
+      "sourceImageSHA256": "1ce791a7a1a76490ea799282478b27b65b1f83a96c657a7cbb82634d0ba64d57"
+    },
+    {
+      "id": "maco_round_PipeHBB00000720",
+      "split": "train",
+      "groupId": "maco_round_global_00000409",
+      "sha256": "8bae617c7e4b76d05b89e6d185d674f334530e41016be2bb564df1bd6b5c4df0",
+      "sourceImageSHA256": "8bae617c7e4b76d05b89e6d185d674f334530e41016be2bb564df1bd6b5c4df0"
+    },
+    {
+      "id": "maco_round_PipeHBB00000724",
+      "split": "train",
+      "groupId": "maco_round_global_00000724",
+      "sha256": "1b101b267c92e66940e716fdd90eac4952b7d0d018a463f878ed074e51ad94c5",
+      "sourceImageSHA256": "1b101b267c92e66940e716fdd90eac4952b7d0d018a463f878ed074e51ad94c5"
+    },
+    {
+      "id": "maco_round_PipeHBB00000733",
+      "split": "train",
+      "groupId": "maco_round_global_00000733",
+      "sha256": "1ea7d323dca577aba6d3e9727de4639c7ca38cb35a413180c03a847fda41d56d",
+      "sourceImageSHA256": "1ea7d323dca577aba6d3e9727de4639c7ca38cb35a413180c03a847fda41d56d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000752",
+      "split": "train",
+      "groupId": "maco_round_global_00000752",
+      "sha256": "2a93da3cfef34514fbc58b2ab406f8cb0f2d07e39709ac0abfbc0ce662664a72",
+      "sourceImageSHA256": "2a93da3cfef34514fbc58b2ab406f8cb0f2d07e39709ac0abfbc0ce662664a72"
+    },
+    {
+      "id": "maco_round_PipeHBB00000753",
+      "split": "val",
+      "groupId": "maco_round_global_00000753",
+      "sha256": "c8da6c872c70c14065b18471b166215566a3ef399cfc403279806d59f4184a18",
+      "sourceImageSHA256": "c8da6c872c70c14065b18471b166215566a3ef399cfc403279806d59f4184a18"
+    },
+    {
+      "id": "maco_round_PipeHBB00000755",
+      "split": "test",
+      "groupId": "maco_round_global_00000755",
+      "sha256": "48a598d016213f26b174d23a43fa7dd1de12463d90629117cbb11b16bdd19364",
+      "sourceImageSHA256": "48a598d016213f26b174d23a43fa7dd1de12463d90629117cbb11b16bdd19364"
+    },
+    {
+      "id": "maco_round_PipeHBB00000758",
+      "split": "test",
+      "groupId": "maco_round_global_00000758",
+      "sha256": "5bb03471143ff4f82fc6b550782d437983a49b625e7820925454d892ed135344",
+      "sourceImageSHA256": "5bb03471143ff4f82fc6b550782d437983a49b625e7820925454d892ed135344"
+    },
+    {
+      "id": "maco_round_PipeHBB00000760",
+      "split": "train",
+      "groupId": "maco_round_global_00000760",
+      "sha256": "27b7232e0121069f2cf56633b5a9314ba04329e0d8cdf046d5774a602a36dbeb",
+      "sourceImageSHA256": "27b7232e0121069f2cf56633b5a9314ba04329e0d8cdf046d5774a602a36dbeb"
+    },
+    {
+      "id": "maco_round_PipeHBB00000762",
+      "split": "test",
+      "groupId": "maco_round_global_00000762",
+      "sha256": "a5639e9d3d1b010d67c8d7df1d3a3383289c1c5b701e5839fbdc2b1a330f0a63",
+      "sourceImageSHA256": "a5639e9d3d1b010d67c8d7df1d3a3383289c1c5b701e5839fbdc2b1a330f0a63"
+    },
+    {
+      "id": "maco_round_PipeHBB00000763",
+      "split": "train",
+      "groupId": "maco_round_global_00000763",
+      "sha256": "ea0ba7ace8eefbc126d0845dd4c9d7c48aef4def224ec18783ffbcc732690c79",
+      "sourceImageSHA256": "ea0ba7ace8eefbc126d0845dd4c9d7c48aef4def224ec18783ffbcc732690c79"
+    },
+    {
+      "id": "maco_round_PipeHBB00000769",
+      "split": "train",
+      "groupId": "maco_round_global_00000769",
+      "sha256": "42cda0b38d5f1ddf68250538c40840bf4dd6a70c566c608f682db585019367d4",
+      "sourceImageSHA256": "42cda0b38d5f1ddf68250538c40840bf4dd6a70c566c608f682db585019367d4"
+    },
+    {
+      "id": "maco_round_PipeHBB00000772",
+      "split": "val",
+      "groupId": "maco_round_global_00000772",
+      "sha256": "bb1c7e605f915ae84ce5ccb484c4b05dc3ebf434561c8dd88b5297cead9768af",
+      "sourceImageSHA256": "bb1c7e605f915ae84ce5ccb484c4b05dc3ebf434561c8dd88b5297cead9768af"
+    },
+    {
+      "id": "maco_round_PipeHBB00000773",
+      "split": "train",
+      "groupId": "maco_round_global_00000773",
+      "sha256": "0aa0e777de4a4975db1715f9253220a2c0ce9c02c9bc3005b591678d5f960122",
+      "sourceImageSHA256": "0aa0e777de4a4975db1715f9253220a2c0ce9c02c9bc3005b591678d5f960122"
+    },
+    {
+      "id": "maco_round_PipeHBB00000788",
+      "split": "train",
+      "groupId": "maco_round_global_00000788",
+      "sha256": "8344b2ddda0c4279ac5b9e4e1786fdb33fc362dc6e2b9e317a775851e2d1c5b1",
+      "sourceImageSHA256": "8344b2ddda0c4279ac5b9e4e1786fdb33fc362dc6e2b9e317a775851e2d1c5b1"
+    },
+    {
+      "id": "maco_round_PipeHBB00000791",
+      "split": "train",
+      "groupId": "maco_round_global_00000791",
+      "sha256": "26a01af0cc4026eb6849058ea8c4578cf8d6891667f234b54c20b36126d020fc",
+      "sourceImageSHA256": "26a01af0cc4026eb6849058ea8c4578cf8d6891667f234b54c20b36126d020fc"
+    },
+    {
+      "id": "maco_round_PipeHBB00000801",
+      "split": "train",
+      "groupId": "maco_round_global_00000801",
+      "sha256": "3004535a1038a9a051e37d7d92f266c213baef51a3f2e0af6f514357387c40ed",
+      "sourceImageSHA256": "3004535a1038a9a051e37d7d92f266c213baef51a3f2e0af6f514357387c40ed"
+    },
+    {
+      "id": "maco_round_PipeHBB00000803",
+      "split": "val",
+      "groupId": "maco_round_global_00000803",
+      "sha256": "f4fbdb0564517f3c115ef4d7267137320fd8fe2ac73194e783ef8fb5954e895e",
+      "sourceImageSHA256": "f4fbdb0564517f3c115ef4d7267137320fd8fe2ac73194e783ef8fb5954e895e"
+    },
+    {
+      "id": "maco_round_PipeHBB00000805",
+      "split": "test",
+      "groupId": "maco_round_global_00000805",
+      "sha256": "143676c56e71c01d9e3912393ab4f5eb06094479c0ba7108afa109a46ef823b1",
+      "sourceImageSHA256": "143676c56e71c01d9e3912393ab4f5eb06094479c0ba7108afa109a46ef823b1"
+    },
+    {
+      "id": "maco_round_PipeHBB00000807",
+      "split": "train",
+      "groupId": "maco_round_global_00000807",
+      "sha256": "df769b4d8e8a1d601932435607160f7da6e1397231274bfb9031dad139c09303",
+      "sourceImageSHA256": "df769b4d8e8a1d601932435607160f7da6e1397231274bfb9031dad139c09303"
+    },
+    {
+      "id": "maco_round_PipeHBB00000810",
+      "split": "train",
+      "groupId": "maco_round_global_00000810",
+      "sha256": "921e1bbb7393de05d52de52a3053d3d668906f21fdbb492dffbddf190e1c48ad",
+      "sourceImageSHA256": "921e1bbb7393de05d52de52a3053d3d668906f21fdbb492dffbddf190e1c48ad"
+    },
+    {
+      "id": "maco_round_PipeHBB00000811",
+      "split": "train",
+      "groupId": "maco_round_global_00000811",
+      "sha256": "39c83098239c9ed1e06183529a982ce54c8e7c590a82bee655c4b95ed895fa16",
+      "sourceImageSHA256": "39c83098239c9ed1e06183529a982ce54c8e7c590a82bee655c4b95ed895fa16"
+    },
+    {
+      "id": "maco_round_PipeHBB00000812",
+      "split": "train",
+      "groupId": "maco_round_global_00000812",
+      "sha256": "e01784d5e2e1e7129ab090ea34815e4a69e6a8104df72d792d4ea6fc47df086d",
+      "sourceImageSHA256": "e01784d5e2e1e7129ab090ea34815e4a69e6a8104df72d792d4ea6fc47df086d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000822",
+      "split": "train",
+      "groupId": "maco_round_global_00000822",
+      "sha256": "b4b9ccb08dcc2fa9c8643522913f2ba4e5c3b355455ea497958dea9834dd449f",
+      "sourceImageSHA256": "b4b9ccb08dcc2fa9c8643522913f2ba4e5c3b355455ea497958dea9834dd449f"
+    },
+    {
+      "id": "maco_round_PipeHBB00000824",
+      "split": "test",
+      "groupId": "maco_round_global_00000824",
+      "sha256": "b6855a0401e4f7aeb99fef5c78654d396eb9985af67a22bfe131bdb524dc795c",
+      "sourceImageSHA256": "b6855a0401e4f7aeb99fef5c78654d396eb9985af67a22bfe131bdb524dc795c"
+    },
+    {
+      "id": "maco_round_PipeHBB00000832",
+      "split": "val",
+      "groupId": "maco_round_global_00000832",
+      "sha256": "81b691dbaf9dbf48d8ea9a5766a3065d3eae3a7e7f4017429cf45b81f7139792",
+      "sourceImageSHA256": "81b691dbaf9dbf48d8ea9a5766a3065d3eae3a7e7f4017429cf45b81f7139792"
+    },
+    {
+      "id": "maco_round_PipeHBB00000843",
+      "split": "train",
+      "groupId": "maco_round_global_00000843",
+      "sha256": "09b2173382725f9b47e8682b98960194d291ae74faf540fc71eab192e3aca630",
+      "sourceImageSHA256": "09b2173382725f9b47e8682b98960194d291ae74faf540fc71eab192e3aca630"
+    },
+    {
+      "id": "maco_round_PipeHBB00000854",
+      "split": "val",
+      "groupId": "maco_round_global_00000854",
+      "sha256": "3fd461a067df78ba74e02a6b7f1799130c1918b5631722be51e76a66207dbc57",
+      "sourceImageSHA256": "3fd461a067df78ba74e02a6b7f1799130c1918b5631722be51e76a66207dbc57"
+    },
+    {
+      "id": "maco_round_PipeHBB00000855",
+      "split": "test",
+      "groupId": "maco_round_global_00000855",
+      "sha256": "54208ddc5e32173d58a70885f45e4cadd907e8438e16212edd63d87670486783",
+      "sourceImageSHA256": "54208ddc5e32173d58a70885f45e4cadd907e8438e16212edd63d87670486783"
+    },
+    {
+      "id": "maco_round_PipeHBB00000856",
+      "split": "train",
+      "groupId": "maco_round_global_00000856",
+      "sha256": "2d01a5e5d26de3f2999b3b081f29971466e62c6ddb2f3a2a96f241d6f4c94cef",
+      "sourceImageSHA256": "2d01a5e5d26de3f2999b3b081f29971466e62c6ddb2f3a2a96f241d6f4c94cef"
+    },
+    {
+      "id": "maco_round_PipeHBB00000858",
+      "split": "train",
+      "groupId": "maco_round_global_00000858",
+      "sha256": "ffcd24720ab778c8383692bc22a38a8565d3c8e67a2b27e6c58ae60a0a1500b7",
+      "sourceImageSHA256": "ffcd24720ab778c8383692bc22a38a8565d3c8e67a2b27e6c58ae60a0a1500b7"
+    },
+    {
+      "id": "maco_round_PipeHBB00000861",
+      "split": "train",
+      "groupId": "maco_round_global_00000861",
+      "sha256": "c0c94ce439c62d6c8e95a7bb6d26e1f6757012c0bdaa65e9115e6d3de5797bfc",
+      "sourceImageSHA256": "c0c94ce439c62d6c8e95a7bb6d26e1f6757012c0bdaa65e9115e6d3de5797bfc"
+    },
+    {
+      "id": "maco_round_PipeHBB00000863",
+      "split": "test",
+      "groupId": "maco_round_global_00000863",
+      "sha256": "c92c9f493d0456453af75755a1296ca0587bd3f8115625d438ea9f69b9ffab14",
+      "sourceImageSHA256": "c92c9f493d0456453af75755a1296ca0587bd3f8115625d438ea9f69b9ffab14"
+    },
+    {
+      "id": "maco_round_PipeHBB00000868",
+      "split": "val",
+      "groupId": "maco_round_global_00000868",
+      "sha256": "03e84d8555bb316e3fe5c7c9da70a330d7ac659211a3b9ae74e070026d8d09ea",
+      "sourceImageSHA256": "03e84d8555bb316e3fe5c7c9da70a330d7ac659211a3b9ae74e070026d8d09ea"
+    },
+    {
+      "id": "maco_round_PipeHBB00000878",
+      "split": "train",
+      "groupId": "maco_round_global_00000878",
+      "sha256": "d2d35a2c6fd57f30c5e6d7b8fd26e67072fe708efece8f0f7f3b78b5ac6cfba6",
+      "sourceImageSHA256": "d2d35a2c6fd57f30c5e6d7b8fd26e67072fe708efece8f0f7f3b78b5ac6cfba6"
+    },
+    {
+      "id": "maco_round_PipeHBB00000889",
+      "split": "train",
+      "groupId": "maco_round_global_00000889",
+      "sha256": "36b23c65a0ee0b3810e066998591535d071daa211ccf6d413063ba4e75185f73",
+      "sourceImageSHA256": "36b23c65a0ee0b3810e066998591535d071daa211ccf6d413063ba4e75185f73"
+    },
+    {
+      "id": "maco_round_PipeHBB00000894",
+      "split": "train",
+      "groupId": "maco_round_global_00000894",
+      "sha256": "9fc600bf437813988e201dd13742c31c6dfdae0dfffca1274da87be9f91b153a",
+      "sourceImageSHA256": "9fc600bf437813988e201dd13742c31c6dfdae0dfffca1274da87be9f91b153a"
+    },
+    {
+      "id": "maco_round_PipeHBB00000901",
+      "split": "train",
+      "groupId": "maco_round_global_00000901",
+      "sha256": "0d012815f653a746ac1a950d1af018654a949474227f337c2bf664d12b249966",
+      "sourceImageSHA256": "0d012815f653a746ac1a950d1af018654a949474227f337c2bf664d12b249966"
+    },
+    {
+      "id": "maco_round_PipeHBB00000904",
+      "split": "val",
+      "groupId": "maco_round_global_00000904",
+      "sha256": "a06f50db1e2acc48d36400ea37dae8b197bcfdeaca181d1b4c19651290ffedc3",
+      "sourceImageSHA256": "a06f50db1e2acc48d36400ea37dae8b197bcfdeaca181d1b4c19651290ffedc3"
+    },
+    {
+      "id": "maco_round_PipeHBB00000906",
+      "split": "train",
+      "groupId": "maco_round_global_00000906",
+      "sha256": "f4821a0a7f068d28437310c1058d03095efe47c2b3a9160f85db1b444c359a3e",
+      "sourceImageSHA256": "f4821a0a7f068d28437310c1058d03095efe47c2b3a9160f85db1b444c359a3e"
+    },
+    {
+      "id": "maco_round_PipeHBB00000907",
+      "split": "val",
+      "groupId": "maco_round_global_00000903",
+      "sha256": "01f149f3161518373f1a8d6c4bfb15e60638990949e0e69554cca9e8aa6221da",
+      "sourceImageSHA256": "01f149f3161518373f1a8d6c4bfb15e60638990949e0e69554cca9e8aa6221da"
+    },
+    {
+      "id": "maco_round_PipeHBB00000910",
+      "split": "test",
+      "groupId": "maco_round_global_00000910",
+      "sha256": "8da7cb665fd1475370e3988d97c4b1aa8660f8fb50232b9459271d70558f51b1",
+      "sourceImageSHA256": "8da7cb665fd1475370e3988d97c4b1aa8660f8fb50232b9459271d70558f51b1"
+    },
+    {
+      "id": "maco_round_PipeHBB00000911",
+      "split": "val",
+      "groupId": "maco_round_global_00000911",
+      "sha256": "373b4fbf5aa63b701ff73500325e4476c7de83c0961ff57b52320ca8102eb122",
+      "sourceImageSHA256": "373b4fbf5aa63b701ff73500325e4476c7de83c0961ff57b52320ca8102eb122"
+    },
+    {
+      "id": "maco_round_PipeHBB00000915",
+      "split": "test",
+      "groupId": "maco_round_global_00000915",
+      "sha256": "576380540a366194ae091e715813ba4ce306230f6bda6917cfa2fa84c83e788d",
+      "sourceImageSHA256": "576380540a366194ae091e715813ba4ce306230f6bda6917cfa2fa84c83e788d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000916",
+      "split": "test",
+      "groupId": "maco_round_global_00000916",
+      "sha256": "2658ac1ec36bee497ea93f19481428bd1f524e7df60f4a3697cb6a87fb0fac42",
+      "sourceImageSHA256": "2658ac1ec36bee497ea93f19481428bd1f524e7df60f4a3697cb6a87fb0fac42"
+    },
+    {
+      "id": "maco_round_PipeHBB00000922",
+      "split": "train",
+      "groupId": "maco_round_global_00000922",
+      "sha256": "02bdeec9c4f60d1ffaa0e3d07c976522702036b737661ac423ba4e77a27b0144",
+      "sourceImageSHA256": "02bdeec9c4f60d1ffaa0e3d07c976522702036b737661ac423ba4e77a27b0144"
+    },
+    {
+      "id": "maco_round_PipeHBB00000934",
+      "split": "train",
+      "groupId": "maco_round_global_00000934",
+      "sha256": "33bba70aa8aa90de3aeb46d2a46daad60dda3b8612b0df435193a2aaaad72125",
+      "sourceImageSHA256": "33bba70aa8aa90de3aeb46d2a46daad60dda3b8612b0df435193a2aaaad72125"
+    },
+    {
+      "id": "maco_round_PipeHBB00000942",
+      "split": "train",
+      "groupId": "maco_round_global_00000942",
+      "sha256": "c25d406dd7211c5adddc669aa82c57b99e31f6c3f0081e28f1214c3b55287a1c",
+      "sourceImageSHA256": "c25d406dd7211c5adddc669aa82c57b99e31f6c3f0081e28f1214c3b55287a1c"
+    },
+    {
+      "id": "maco_round_PipeHBB00000950",
+      "split": "train",
+      "groupId": "maco_round_global_00000950",
+      "sha256": "a87b5944ce9229239b19bf5e01533a0f6578af7579a9f64645f2845265cde5f6",
+      "sourceImageSHA256": "a87b5944ce9229239b19bf5e01533a0f6578af7579a9f64645f2845265cde5f6"
+    },
+    {
+      "id": "maco_round_PipeHBB00000951",
+      "split": "val",
+      "groupId": "maco_round_global_00000951",
+      "sha256": "7184fe6a673d0dd505510286344cce4de5d88afe038e740d48450eafc99369f2",
+      "sourceImageSHA256": "7184fe6a673d0dd505510286344cce4de5d88afe038e740d48450eafc99369f2"
+    },
+    {
+      "id": "maco_round_PipeHBB00000952",
+      "split": "train",
+      "groupId": "maco_round_global_00000952",
+      "sha256": "e8924be98489829ef5c24de403a00f53b80e80184cb568553b1b3fd8fff32bdc",
+      "sourceImageSHA256": "e8924be98489829ef5c24de403a00f53b80e80184cb568553b1b3fd8fff32bdc"
+    },
+    {
+      "id": "maco_round_PipeHBB00000954",
+      "split": "train",
+      "groupId": "maco_round_global_00000954",
+      "sha256": "81c5142bcc85a6ef55e2c38e47b352421f9ac2909518bb7fd730010ff424f98b",
+      "sourceImageSHA256": "81c5142bcc85a6ef55e2c38e47b352421f9ac2909518bb7fd730010ff424f98b"
+    },
+    {
+      "id": "maco_round_PipeHBB00000958",
+      "split": "train",
+      "groupId": "maco_round_global_00000958",
+      "sha256": "f3f1c15d2e7658da258d78c7fc1fcb26440f6cc3bc8d75e157bd437415599aa9",
+      "sourceImageSHA256": "f3f1c15d2e7658da258d78c7fc1fcb26440f6cc3bc8d75e157bd437415599aa9"
+    },
+    {
+      "id": "maco_round_PipeHBB00000960",
+      "split": "train",
+      "groupId": "maco_round_global_00000960",
+      "sha256": "3c2616e14638de73bd71f4508e4c02b658da9a6ebbcb8cd2c9b2ba9fa6204bc6",
+      "sourceImageSHA256": "3c2616e14638de73bd71f4508e4c02b658da9a6ebbcb8cd2c9b2ba9fa6204bc6"
+    },
+    {
+      "id": "maco_round_PipeHBB00000962",
+      "split": "train",
+      "groupId": "maco_round_global_00000866",
+      "sha256": "dc63812488102f5e9b67a622d383270acb3ecdb54f6225adf36a12f55ece36d4",
+      "sourceImageSHA256": "dc63812488102f5e9b67a622d383270acb3ecdb54f6225adf36a12f55ece36d4"
+    },
+    {
+      "id": "maco_round_PipeHBB00000967",
+      "split": "train",
+      "groupId": "maco_round_global_00000967",
+      "sha256": "d02953a0825931e60ee7ed583a71c948559ba73e135439a6b726ffc778081ba1",
+      "sourceImageSHA256": "d02953a0825931e60ee7ed583a71c948559ba73e135439a6b726ffc778081ba1"
+    },
+    {
+      "id": "maco_round_PipeHBB00000982",
+      "split": "train",
+      "groupId": "maco_round_global_00000982",
+      "sha256": "f9315acb45dc3a32c2c7d0c2db2888dd0aad7c4d679a8f52e9463ef64009159d",
+      "sourceImageSHA256": "f9315acb45dc3a32c2c7d0c2db2888dd0aad7c4d679a8f52e9463ef64009159d"
+    },
+    {
+      "id": "maco_round_PipeHBB00000992",
+      "split": "train",
+      "groupId": "maco_round_global_00000992",
+      "sha256": "efd2561cf03cdb65b86566396790641629e0be9b2f53caba79d6eba05a09e3ec",
+      "sourceImageSHA256": "efd2561cf03cdb65b86566396790641629e0be9b2f53caba79d6eba05a09e3ec"
+    },
+    {
+      "id": "maco_round_PipeHBB00001002",
+      "split": "train",
+      "groupId": "maco_round_global_00001002",
+      "sha256": "f3063025575bd5a1368889a34f53289f34f11e2c15d4bd123ab23447f8ff59d0",
+      "sourceImageSHA256": "f3063025575bd5a1368889a34f53289f34f11e2c15d4bd123ab23447f8ff59d0"
+    },
+    {
+      "id": "maco_round_PipeHBB00001004",
+      "split": "train",
+      "groupId": "maco_round_global_00001004",
+      "sha256": "bda0440a289e10fba56a9f3e77f6a383d73f0c1aa229b71bc5c4bd1dc429d030",
+      "sourceImageSHA256": "bda0440a289e10fba56a9f3e77f6a383d73f0c1aa229b71bc5c4bd1dc429d030"
+    },
+    {
+      "id": "maco_round_PipeHBB00001005",
+      "split": "train",
+      "groupId": "maco_round_global_00000639",
+      "sha256": "89505c04360880e05742218a34a4f531209fe39a94bd2603fa6a23fd0baaa760",
+      "sourceImageSHA256": "89505c04360880e05742218a34a4f531209fe39a94bd2603fa6a23fd0baaa760"
+    },
+    {
+      "id": "maco_round_PipeHBB00001011",
+      "split": "train",
+      "groupId": "maco_round_global_00001011",
+      "sha256": "7ec0523ede83b8bf7abf9c274fceb4fa99d5d69b414d11f34c79169f202427a3",
+      "sourceImageSHA256": "7ec0523ede83b8bf7abf9c274fceb4fa99d5d69b414d11f34c79169f202427a3"
+    },
+    {
+      "id": "negative_IbeamHBB00000001",
+      "split": "train",
+      "groupId": "maco_negative_ibeam_rust_family",
+      "sha256": "856d5773c642f2eddcd483e4ae007c7530b4748ca0deb23bc6b4c4864a16e410",
+      "sourceImageSHA256": "856d5773c642f2eddcd483e4ae007c7530b4748ca0deb23bc6b4c4864a16e410"
+    },
+    {
+      "id": "negative_IbeamHBB00000100",
+      "split": "train",
+      "groupId": "maco_negative_ibeam_rust_family",
+      "sha256": "03937b05efb7ee6bba34311f24c9ddb911226c405f3696c1dae54a1e6beedb3e",
+      "sourceImageSHA256": "03937b05efb7ee6bba34311f24c9ddb911226c405f3696c1dae54a1e6beedb3e"
+    },
+    {
+      "id": "negative_IbeamHBB00000200",
+      "split": "val",
+      "groupId": "maco_negative_ibeam_gray_family",
+      "sha256": "b8c4eecf2fbf46903cde38e42ed5ed3d73ac2270118fd1ca38599357345cb833",
+      "sourceImageSHA256": "b8c4eecf2fbf46903cde38e42ed5ed3d73ac2270118fd1ca38599357345cb833"
+    },
+    {
+      "id": "negative_IbeamHBB00000300",
+      "split": "val",
+      "groupId": "maco_negative_ibeam_gray_family",
+      "sha256": "c2070f6c71a164b999bd9471c82ffb2ca60251f3f3e2ba6e8576b0a18585505e",
+      "sourceImageSHA256": "c2070f6c71a164b999bd9471c82ffb2ca60251f3f3e2ba6e8576b0a18585505e"
+    },
+    {
+      "id": "negative_IbeamHBB00000400",
+      "split": "val",
+      "groupId": "maco_negative_ibeam_gray_family",
+      "sha256": "28dadc50707793d017c333d38d5f775a437e0dacafb40fa69d3cb5826715d9c8",
+      "sourceImageSHA256": "28dadc50707793d017c333d38d5f775a437e0dacafb40fa69d3cb5826715d9c8"
+    },
+    {
+      "id": "negative_IbeamHBB00000499",
+      "split": "train",
+      "groupId": "maco_negative_ibeam_rust_family",
+      "sha256": "c25f9ff10c97172ab70cebb1275b7eb7b0bc293e97544fb3b8d6fb18afa0c3ea",
+      "sourceImageSHA256": "c25f9ff10c97172ab70cebb1275b7eb7b0bc293e97544fb3b8d6fb18afa0c3ea"
+    },
+    {
+      "id": "negative_RebarHBB00000200",
+      "split": "train",
+      "groupId": "maco_negative_rebar_rust_hand_family",
+      "sha256": "81b047b7402a1dba58d8d09f97424ef9f25022938c1c0fe760d908d1513d9caf",
+      "sourceImageSHA256": "81b047b7402a1dba58d8d09f97424ef9f25022938c1c0fe760d908d1513d9caf"
+    },
+    {
+      "id": "negative_RebarHBB00000399",
+      "split": "train",
+      "groupId": "maco_negative_rebar_rust_hand_family",
+      "sha256": "5de96f09e566cd7a5341d18498dcbb7964b983fc0f0618ee516cf03a133c9ff1",
+      "sourceImageSHA256": "5de96f09e566cd7a5341d18498dcbb7964b983fc0f0618ee516cf03a133c9ff1"
+    },
+    {
+      "id": "negative_RebarHBB00000598",
+      "split": "val",
+      "groupId": "maco_negative_rebar_snow_scene",
+      "sha256": "93a0eff33bb90cf40e0ffef08e3ef90d197b1c4e8686ec485dc1799625207441",
+      "sourceImageSHA256": "93a0eff33bb90cf40e0ffef08e3ef90d197b1c4e8686ec485dc1799625207441"
+    },
+    {
+      "id": "negative_RebarHBB00000797",
+      "split": "test",
+      "groupId": "maco_negative_rebar_gray_bundle_family",
+      "sha256": "e6a365f0fd5853e92f0de7cfbbd4ccf99fd21d5b8694d8e96780f364bc17026d",
+      "sourceImageSHA256": "e6a365f0fd5853e92f0de7cfbbd4ccf99fd21d5b8694d8e96780f364bc17026d"
+    },
+    {
+      "id": "negative_RebarHBB00000996",
+      "split": "test",
+      "groupId": "maco_negative_rebar_gray_bundle_family",
+      "sha256": "b96a3674b21ffe09ccf3aa5e9b09fa2122041205990c0548ad36b331318ee48e",
+      "sourceImageSHA256": "b96a3674b21ffe09ccf3aa5e9b09fa2122041205990c0548ad36b331318ee48e"
+    },
+    {
+      "id": "negative_round_background_00000704",
+      "split": "test",
+      "groupId": "maco_round_global_00000704",
+      "sha256": "095705ac037a07a290a13493d98fb58e015950c41f0d640da6ef69f852dfab7b",
+      "sourceImageSHA256": "cb244967b2f958219ac1e6926ff99117b24b854d628f9ca19719f09bb9ee5180"
+    },
+    {
+      "id": "negative_round_background_00000760",
+      "split": "train",
+      "groupId": "maco_round_global_00000760",
+      "sha256": "a17a91c1a77762203d882ae3069fcfc18b205042f7eb881e54dbf4aa367ee9b6",
+      "sourceImageSHA256": "27b7232e0121069f2cf56633b5a9314ba04329e0d8cdf046d5774a602a36dbeb"
+    },
+    {
+      "id": "negative_round_background_00000832",
+      "split": "val",
+      "groupId": "maco_round_global_00000832",
+      "sha256": "a2b4b8c4c673b260a66b7f3d3446efffe9d2232f885cd184b864f8515475bb93",
+      "sourceImageSHA256": "81b691dbaf9dbf48d8ea9a5766a3065d3eae3a7e7f4017429cf45b81f7139792"
+    },
+    {
+      "id": "negative_round_background_00000911",
+      "split": "val",
+      "groupId": "maco_round_global_00000911",
+      "sha256": "960a52f4d97f1db3dd6ce6d3a4e03cc23040d35c1b30ce0468a81a264015fc2e",
+      "sourceImageSHA256": "373b4fbf5aa63b701ff73500325e4476c7de83c0961ff57b52320ca8102eb122"
+    },
+    {
+      "id": "negative_round_background_00000934",
+      "split": "train",
+      "groupId": "maco_round_global_00000934",
+      "sha256": "657823c01e74bc0cb8f1064fe551ec59152b047ef208e703dc6847897e67a3ca",
+      "sourceImageSHA256": "33bba70aa8aa90de3aeb46d2a46daad60dda3b8612b0df435193a2aaaad72125"
+    },
+    {
+      "id": "negative_round_background_00000907",
+      "split": "val",
+      "groupId": "maco_round_global_00000903",
+      "sha256": "83dc3bb7b44e1d67c3e04eb8b69ffd7e5c0e2cf869b9e862d62b340a05691a68",
+      "sourceImageSHA256": "01f149f3161518373f1a8d6c4bfb15e60638990949e0e69554cca9e8aa6221da"
+    },
+    {
+      "id": "negative_round_background_00000992",
+      "split": "train",
+      "groupId": "maco_round_global_00000992",
+      "sha256": "24cb9583b7e14730892c4544de037b18d77d5de68db70a7c4ce233bc499055fe",
+      "sourceImageSHA256": "efd2561cf03cdb65b86566396790641629e0be9b2f53caba79d6eba05a09e3ec"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "status": "PASS_DATA_INTEGRITY_AND_PRETRAIN_SPLIT_FREEZE",
+  "manifest": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/datasets/colony-figshare-22022540-v3/yolo-species-v1/manifest.json",
+  "manifestSHA256": "f28b0409993893f4874845c77a06207a5f98f5c620b1a5b478b733de64e1d8fa",
+  "counts": {
+    "test": {
+      "images": 63,
+      "boxes": 11752
+    },
+    "val": {
+      "images": 56,
+      "boxes": 6831
+    },
+    "train": {
+      "images": 247,
+      "boxes": 37611
+    }
+  },
+  "quarantinedImages": [
+    "sp22_img09.jpg",
+    "sp23_img15.jpg",
+    "sp09_img07.jpg"
+  ],
+  "outOfBoundsBoxesClipped": 29,
+  "nearDuplicatePairs": 62,
+  "exifNormalizedImages": 57,
+  "dataYaml": "/Users/xue/Documents/ChatGPT/New project/Count-stick/output/datasets/colony-figshare-22022540-v3/yolo-species-v1/data.yaml"
+}

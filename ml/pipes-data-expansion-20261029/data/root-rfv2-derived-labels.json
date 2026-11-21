@@ -1,0 +1,877 @@
+{
+  "status": "ROOT_VISUAL_AND_DERIVED_LABEL_REVIEW_PENDING_INDEPENDENT_QA_AND_DEDUPLICATION",
+  "images": [
+    {
+      "id": "rfv2_92e41e389e96",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/istockphoto-172756737-612x612_jpg.rf.02fb48a9474b3b391a5f3d4e99e04865.jpg",
+      "sourceMember": "train/images/istockphoto-172756737-612x612_jpg.rf.02fb48a9474b3b391a5f3d4e99e04865.jpg",
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/labels/istockphoto-172756737-612x612_jpg.rf.02fb48a9474b3b391a5f3d4e99e04865.txt",
+      "sourceLabelSHA256": "d3d29d732a5a630be17f9b190a0706e6bbd29f51037e3e702c0814eb03d080d7",
+      "sha256": "0041eb0fac927d746e553d604b0ac30081b0532b28ad60cf9e07bfd597200aeb",
+      "width": 640,
+      "height": 640,
+      "authorSplit": "train",
+      "sourceStem": "istockphoto-172756737-612x612_jpg",
+      "count": 20,
+      "xyxy": [
+        [
+          0.0,
+          61.25,
+          129.0,
+          293.75
+        ],
+        [
+          277.75,
+          78.25,
+          422.25,
+          296.75
+        ],
+        [
+          137.25,
+          82.0,
+          278.75,
+          298.0
+        ],
+        [
+          423.24999999999994,
+          87.99999999999999,
+          567.75,
+          296.0
+        ],
+        [
+          566.0,
+          83.99999999999999,
+          640.0,
+          300.0
+        ],
+        [
+          497.24999999999994,
+          267.0,
+          638.75,
+          480.99999999999994
+        ],
+        [
+          54.25000000000001,
+          264.75,
+          203.75,
+          485.25
+        ],
+        [
+          352.24999999999994,
+          268.0,
+          498.75,
+          482.0
+        ],
+        [
+          207.75000000000003,
+          266.24999999999994,
+          354.25000000000006,
+          484.74999999999994
+        ],
+        [
+          0.0,
+          454.75,
+          126.0,
+          639.25
+        ],
+        [
+          279.99999999999994,
+          454.75,
+          430.99999999999994,
+          639.25
+        ],
+        [
+          124.50000000000001,
+          455.50000000000006,
+          281.5,
+          638.5
+        ],
+        [
+          429.5,
+          455.50000000000006,
+          572.5,
+          638.5
+        ],
+        [
+          63.75,
+          0.7500000000000018,
+          208.25,
+          110.24999999999999
+        ],
+        [
+          207.75,
+          0.0,
+          352.25,
+          111.0
+        ],
+        [
+          352.5,
+          0.0,
+          495.5,
+          112.0
+        ],
+        [
+          493.75,
+          0.25000000000000355,
+          638.25,
+          113.75
+        ],
+        [
+          0.0,
+          266.0,
+          57.0,
+          480.0
+        ],
+        [
+          0,
+          0,
+          65,
+          95
+        ],
+        [
+          570,
+          453,
+          640,
+          640
+        ]
+      ],
+      "annotationKinds": [
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox"
+      ],
+      "technicalIssues": [],
+      "number": 204,
+      "sourceStemVariants": 4,
+      "authorCount": 18,
+      "addedManualBoxes": [
+        [
+          0,
+          0,
+          65,
+          95
+        ],
+        [
+          570,
+          453,
+          640,
+          640
+        ]
+      ],
+      "manualReview": "All full-image targets inspected with native originals and author overlay; clipped extra ends verified by nearest-neighbor inspection crop. Original labels unchanged.",
+      "modelInferencePerformed": false,
+      "rootVisualStatus": "PASS_PENDING_INDEPENDENT",
+      "correctedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-204.png"
+    },
+    {
+      "id": "rfv2_37c98b79839c",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/istockphoto-179341506-612x612_jpg.rf.c541f225d85a87e154c25618fc2e9554.jpg",
+      "sourceMember": "train/images/istockphoto-179341506-612x612_jpg.rf.c541f225d85a87e154c25618fc2e9554.jpg",
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/labels/istockphoto-179341506-612x612_jpg.rf.c541f225d85a87e154c25618fc2e9554.txt",
+      "sourceLabelSHA256": "145d5026646e0299ecd841070755ff2872c1bb2481f225c933b40c74a0c548b3",
+      "sha256": "14366b08d1680a666306214d4f6504644582deafa0092e807576e7909701d225",
+      "width": 640,
+      "height": 640,
+      "authorSplit": "train",
+      "sourceStem": "istockphoto-179341506-612x612_jpg",
+      "count": 20,
+      "xyxy": [
+        [
+          28.500000000000007,
+          113.75,
+          157.5,
+          306.25
+        ],
+        [
+          403.00000000000006,
+          139.25,
+          509.0,
+          300.75
+        ],
+        [
+          169.5,
+          184.75,
+          278.5,
+          346.25
+        ],
+        [
+          577.75,
+          178.75,
+          639.25,
+          366.25
+        ],
+        [
+          346.25,
+          251.74999999999997,
+          473.75,
+          439.25
+        ],
+        [
+          109.5,
+          307.75,
+          238.49999999999997,
+          495.25
+        ],
+        [
+          511.75,
+          353.00000000000006,
+          633.25,
+          536.0
+        ],
+        [
+          270.25,
+          400.25,
+          394.75,
+          584.75
+        ],
+        [
+          418.75,
+          456.0,
+          523.25,
+          613.0
+        ],
+        [
+          26.25,
+          449.25,
+          153.75,
+          636.75
+        ],
+        [
+          191.25,
+          510.25,
+          303.75,
+          637.75
+        ],
+        [
+          333.75,
+          534.75,
+          458.25,
+          639.25
+        ],
+        [
+          361.75,
+          7.2499999999999964,
+          463.25,
+          174.75
+        ],
+        [
+          507.0,
+          25.999999999999996,
+          630.0,
+          209.0
+        ],
+        [
+          125.24999999999999,
+          59.25000000000001,
+          232.75,
+          226.75
+        ],
+        [
+          267.75,
+          62.999999999999986,
+          395.25,
+          249.0
+        ],
+        [
+          381.75,
+          372.0,
+          463.25,
+          483.0
+        ],
+        [
+          572.25,
+          475.25,
+          639.75,
+          639.75
+        ],
+        [
+          0.0,
+          245.99999999999997,
+          55.0,
+          415.0
+        ],
+        [
+          119,
+          588,
+          219,
+          640
+        ]
+      ],
+      "annotationKinds": [
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox"
+      ],
+      "technicalIssues": [],
+      "number": 211,
+      "sourceStemVariants": 4,
+      "authorCount": 19,
+      "addedManualBoxes": [
+        [
+          119,
+          588,
+          219,
+          640
+        ]
+      ],
+      "manualReview": "All full-image targets inspected with native originals and author overlay; clipped extra ends verified by nearest-neighbor inspection crop. Original labels unchanged.",
+      "modelInferencePerformed": false,
+      "rootVisualStatus": "PASS_PENDING_INDEPENDENT",
+      "correctedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-211.png"
+    },
+    {
+      "id": "rfv2_3eb645339840",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/pipe_r_10_2_jpeg_jpg.rf.1beab8fd0ecca79a3be9310b31707e1a.jpg",
+      "sourceMember": "train/images/pipe_r_10_2_jpeg_jpg.rf.1beab8fd0ecca79a3be9310b31707e1a.jpg",
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/labels/pipe_r_10_2_jpeg_jpg.rf.1beab8fd0ecca79a3be9310b31707e1a.txt",
+      "sourceLabelSHA256": "f84410b343c0618e1e1f1924d6376eeeda5f37a7ef6b411147dd0cb19f9cbeae",
+      "sha256": "000c6862a26fbeb998e6cfa5675c03eea4983f0840c416062dedf715bb80c95b",
+      "width": 640,
+      "height": 640,
+      "authorSplit": "train",
+      "sourceStem": "pipe_r_10_2_jpeg_jpg",
+      "count": 10,
+      "xyxy": [
+        [
+          553.5,
+          284.75,
+          624.5,
+          364.25000000000006
+        ],
+        [
+          485.0,
+          290.0,
+          556.0,
+          367.0
+        ],
+        [
+          418.0,
+          295.75,
+          492.0,
+          378.25
+        ],
+        [
+          344.25,
+          301.75,
+          423.75,
+          384.25
+        ],
+        [
+          274.5,
+          310.25,
+          351.5,
+          392.75
+        ],
+        [
+          555.75,
+          384.25,
+          624.25,
+          463.75
+        ],
+        [
+          489.25000000000006,
+          392.5,
+          557.75,
+          469.5
+        ],
+        [
+          421.0,
+          401.0,
+          491.99999999999994,
+          478.00000000000006
+        ],
+        [
+          350.0,
+          405.25,
+          427.0,
+          490.74999999999994
+        ],
+        [
+          277.0,
+          415.25,
+          354.0,
+          497.75
+        ]
+      ],
+      "annotationKinds": [
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox"
+      ],
+      "technicalIssues": [],
+      "number": 257,
+      "sourceStemVariants": 4,
+      "authorCount": 10,
+      "addedManualBoxes": [],
+      "manualReview": "All full-image targets inspected with native originals and author overlay; clipped extra ends verified by nearest-neighbor inspection crop. Original labels unchanged.",
+      "modelInferencePerformed": false,
+      "rootVisualStatus": "PASS_PENDING_INDEPENDENT",
+      "correctedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-257.png"
+    },
+    {
+      "id": "rfv2_ce82e64f9b1b",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/pipe_r_16_png_jpg.rf.3cfa96d044fa836125070ea9185e270d.jpg",
+      "sourceMember": "valid/images/pipe_r_16_png_jpg.rf.3cfa96d044fa836125070ea9185e270d.jpg",
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/labels/pipe_r_16_png_jpg.rf.3cfa96d044fa836125070ea9185e270d.txt",
+      "sourceLabelSHA256": "4a516d3e9e5a3353a8ef64752562a56a96c9c28a040059c89354192aa22d4518",
+      "sha256": "1ee693560741f03927f55ac18d3bc7494234c76428bd3a2cfefc14a3bfeac475",
+      "width": 640,
+      "height": 640,
+      "authorSplit": "valid",
+      "sourceStem": "pipe_r_16_png_jpg",
+      "count": 18,
+      "xyxy": [
+        [
+          369.75,
+          100.0,
+          468.24999999999994,
+          209.0
+        ],
+        [
+          285.25,
+          130.99999999999997,
+          372.75,
+          232.0
+        ],
+        [
+          145.75,
+          182.75,
+          212.24999999999997,
+          271.25
+        ],
+        [
+          414.25000000000006,
+          182.0,
+          527.75,
+          303.0
+        ],
+        [
+          95.0,
+          201.75,
+          151.0,
+          285.25
+        ],
+        [
+          323.24999999999994,
+          205.75,
+          417.75,
+          313.25
+        ],
+        [
+          0.2499999999999991,
+          226.75,
+          45.74999999999999,
+          302.25
+        ],
+        [
+          243.0,
+          226.25,
+          323.0,
+          327.75
+        ],
+        [
+          171.25,
+          252.00000000000003,
+          242.75,
+          345.0
+        ],
+        [
+          111.75,
+          263.0,
+          173.25,
+          352.0
+        ],
+        [
+          63.00000000000001,
+          275.25,
+          115.0,
+          359.75
+        ],
+        [
+          10.499999999999998,
+          285.74999999999994,
+          59.5,
+          365.25
+        ],
+        [
+          360.99999999999994,
+          289.0,
+          470.0,
+          415.0
+        ],
+        [
+          275.25,
+          304.75,
+          366.75000000000006,
+          416.25
+        ],
+        [
+          129.0,
+          332.25,
+          197.0,
+          427.75
+        ],
+        [
+          78.0,
+          340.75,
+          135.0,
+          428.25
+        ],
+        [
+          0.0,
+          353.75,
+          27.0,
+          433.25
+        ],
+        [
+          0,
+          294,
+          11,
+          358
+        ]
+      ],
+      "annotationKinds": [
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox"
+      ],
+      "technicalIssues": [],
+      "number": 261,
+      "sourceStemVariants": 6,
+      "authorCount": 17,
+      "addedManualBoxes": [
+        [
+          0,
+          294,
+          11,
+          358
+        ]
+      ],
+      "manualReview": "All full-image targets inspected with native originals and author overlay; clipped extra ends verified by nearest-neighbor inspection crop. Original labels unchanged.",
+      "modelInferencePerformed": false,
+      "rootVisualStatus": "PASS_PENDING_INDEPENDENT",
+      "correctedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-261.png"
+    },
+    {
+      "id": "rfv2_433a33158ae6",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/images/pipe_r_4_jpeg_jpg.rf.b8737f7af9d57a83757a6750745022de.jpg",
+      "sourceMember": "train/images/pipe_r_4_jpeg_jpg.rf.b8737f7af9d57a83757a6750745022de.jpg",
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/train/labels/pipe_r_4_jpeg_jpg.rf.b8737f7af9d57a83757a6750745022de.txt",
+      "sourceLabelSHA256": "dd877e35e890e42c65bc3dd451b577cf8602677669a3d727db0771332a47c339",
+      "sha256": "10586118895553a33f32bc0bc73780731a029ff12188a072c33ba98f5d049810",
+      "width": 640,
+      "height": 640,
+      "authorSplit": "train",
+      "sourceStem": "pipe_r_4_jpeg_jpg",
+      "count": 4,
+      "xyxy": [
+        [
+          94.0,
+          277.0,
+          171.0,
+          386.0
+        ],
+        [
+          129.5,
+          172.5,
+          218.49999999999997,
+          292.5
+        ],
+        [
+          1.0000000000000009,
+          163.0,
+          74.0,
+          277.0
+        ],
+        [
+          289.5,
+          155.5,
+          378.5,
+          275.5
+        ]
+      ],
+      "annotationKinds": [
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox"
+      ],
+      "technicalIssues": [],
+      "number": 264,
+      "sourceStemVariants": 6,
+      "authorCount": 4,
+      "addedManualBoxes": [],
+      "manualReview": "All full-image targets inspected with native originals and author overlay; clipped extra ends verified by nearest-neighbor inspection crop. Original labels unchanged.",
+      "modelInferencePerformed": false,
+      "rootVisualStatus": "PASS_PENDING_INDEPENDENT",
+      "correctedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-264.png"
+    },
+    {
+      "id": "rfv2_78c18919ddc0",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/pipe_r_7_jpeg_jpg.rf.ed3bc755ed335115cf904093934dfac2.jpg",
+      "sourceMember": "valid/images/pipe_r_7_jpeg_jpg.rf.ed3bc755ed335115cf904093934dfac2.jpg",
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/labels/pipe_r_7_jpeg_jpg.rf.ed3bc755ed335115cf904093934dfac2.txt",
+      "sourceLabelSHA256": "61dda1aa5131b86ec2ef35e3ad6110b668259c3ca0f13a76967e1d6062255382",
+      "sha256": "8cac901b10e75671aa82316fd26af9eb41b3d1783bedb9815b63e1c53b552b7c",
+      "width": 640,
+      "height": 640,
+      "authorSplit": "valid",
+      "sourceStem": "pipe_r_7_jpeg_jpg",
+      "count": 7,
+      "xyxy": [
+        [
+          147.24999999999997,
+          270.0,
+          275.75,
+          433.0
+        ],
+        [
+          437.0,
+          216.0,
+          640.0,
+          513.0
+        ],
+        [
+          250.0,
+          325.75,
+          433.0,
+          571.25
+        ],
+        [
+          105.75,
+          431.25,
+          254.25,
+          619.75
+        ],
+        [
+          324.25,
+          68.74999999999999,
+          435.75,
+          220.25
+        ],
+        [
+          371.25,
+          188.75,
+          482.75000000000006,
+          340.25
+        ],
+        [
+          270.25,
+          210.0,
+          375.74999999999994,
+          347.0
+        ]
+      ],
+      "annotationKinds": [
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox"
+      ],
+      "technicalIssues": [],
+      "number": 266,
+      "sourceStemVariants": 5,
+      "authorCount": 7,
+      "addedManualBoxes": [],
+      "manualReview": "All full-image targets inspected with native originals and author overlay; clipped extra ends verified by nearest-neighbor inspection crop. Original labels unchanged.",
+      "modelInferencePerformed": false,
+      "rootVisualStatus": "PASS_PENDING_INDEPENDENT",
+      "correctedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-266.png"
+    },
+    {
+      "id": "rfv2_7b4a4900cabc",
+      "imagePath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/images/product-jpeg-500x500_jpg.rf.ca24ac183a88eda6d1deebd16f4a6286.jpg",
+      "sourceMember": "valid/images/product-jpeg-500x500_jpg.rf.ca24ac183a88eda6d1deebd16f4a6286.jpg",
+      "labelPath": "output/pipes-data-expansion-20261029/data/positives/raw/pcloud-pipes-v2/valid/labels/product-jpeg-500x500_jpg.rf.ca24ac183a88eda6d1deebd16f4a6286.txt",
+      "sourceLabelSHA256": "9adefddad828b8091ae888bf4effe435c091d41e692e3c6dd8ff94edd21a2ee4",
+      "sha256": "38f173a26949b62b5136e6a4e364dfa21225d973c56b7cbb4bd69a57a66ce6f3",
+      "width": 640,
+      "height": 640,
+      "authorSplit": "valid",
+      "sourceStem": "product-jpeg-500x500_jpg",
+      "count": 14,
+      "xyxy": [
+        [
+          471.25,
+          98.75,
+          597.75,
+          242.25
+        ],
+        [
+          331.75,
+          124.5,
+          476.25,
+          278.5
+        ],
+        [
+          533.0,
+          177.0,
+          640.0,
+          306.0
+        ],
+        [
+          414.5,
+          248.25000000000003,
+          545.5,
+          383.75
+        ],
+        [
+          0.0,
+          258.25,
+          89.0,
+          414.75
+        ],
+        [
+          264.75,
+          273.75,
+          406.25,
+          409.25
+        ],
+        [
+          113.25,
+          269.0,
+          274.75,
+          423.00000000000006
+        ],
+        [
+          470.0,
+          370.0,
+          590.0,
+          490.0
+        ],
+        [
+          321.5,
+          388.5,
+          449.49999999999994,
+          508.5
+        ],
+        [
+          192.25,
+          457.5,
+          336.75,
+          562.5
+        ],
+        [
+          598.25,
+          46.00000000000001,
+          639.75,
+          177.0
+        ],
+        [
+          546.0,
+          514.5,
+          640.0,
+          563.5
+        ],
+        [
+          57.74999999999999,
+          517.75,
+          199.25,
+          562.25
+        ],
+        [
+          0,
+          510,
+          55,
+          564
+        ]
+      ],
+      "annotationKinds": [
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox",
+        "author_yolo_bbox"
+      ],
+      "technicalIssues": [],
+      "number": 290,
+      "sourceStemVariants": 6,
+      "authorCount": 13,
+      "addedManualBoxes": [
+        [
+          0,
+          510,
+          55,
+          564
+        ]
+      ],
+      "manualReview": "All full-image targets inspected with native originals and author overlay; clipped extra ends verified by nearest-neighbor inspection crop. Original labels unchanged.",
+      "modelInferencePerformed": false,
+      "rootVisualStatus": "PASS_PENDING_INDEPENDENT",
+      "correctedOverlayPath": "output/pipes-data-expansion-20261029/data/positives/root-review/corrected-290.png"
+    }
+  ],
+  "otherScreened": [
+    202,
+    219,
+    232,
+    237,
+    259,
+    277,
+    307,
+    310
+  ]
+}

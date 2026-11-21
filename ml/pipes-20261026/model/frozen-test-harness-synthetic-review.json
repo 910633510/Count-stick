@@ -1,0 +1,25 @@
+{
+  "status": "PASS_9_SYNTHETIC_CONTRACT_TESTS_NO_REAL_TEST_EXECUTION",
+  "createdUTC": "2026-10-26T11:09:35.047574+00:00",
+  "sourceSHA256": {
+    "ml/pipes-20261026/model/evaluate_frozen_test.py": "79214bb1c5d5b5708cebedd3945d0158a56befe55b76651449ec64c13745d148",
+    "ml/pipes-20261026/model/test_evaluate_frozen_test.py": "cc7d513e112a2fac13df7ced93f4ac31661dad5d876ef9cbce998523f0d400a5"
+  },
+  "tests": 9,
+  "command": "python3 ml/pipes-20261026/model/test_evaluate_frozen_test.py",
+  "output": "test_authorize_never_reads_missing_sealed_data_and_is_exclusive (__main__.TestGuardContracts) ... ok\ntest_failed_independent_audit_is_rejected_even_if_receipt_hash_matches (__main__.TestGuardContracts) ... ok\ntest_gate_rejects_each_root_binding_change (__main__.TestGuardContracts) ... ok\ntest_incomplete_training_is_rejected (__main__.TestGuardContracts) ... ok\ntest_independent_audit_cannot_bind_other_selected_candidate (__main__.TestGuardContracts) ... ok\ntest_input_arguments_required_before_opening (__main__.TestGuardContracts) ... ok\ntest_null_returns_before_receipt_protocol_test_or_ml_imports (__main__.TestGuardContracts) ... ok\ntest_source_and_weight_mutation_rejected_before_test (__main__.TestGuardContracts) ... ok\ntest_test_opened_marker_precedes_heavy_import_and_blocks_second_run (__main__.TestGuardContracts) ... ok\n\n----------------------------------------------------------------------\nRan 9 tests in 0.081s\n\nOK\n",
+  "scope": {
+    "realAuthorizeCalled": false,
+    "realEvaluateCalled": false,
+    "sealedTestImagesOpened": false,
+    "sealedTestLabelsOpened": false,
+    "modelWeightsLoaded": false,
+    "MLLibrariesImportedInTest": false,
+    "existingFrozen8FilesModified": false
+  },
+  "notes": [
+    "All test fixtures live in TemporaryDirectory and contain synthetic text-only non-loadable weight bytes.",
+    "An initial fixture-only path normalization issue (/var vs /private/var) was fixed by resolving TemporaryDirectory root; production path gates remained unchanged.",
+    "App test export schema coordinated with independent reviewer; test helper is separately hash-bound."
+  ]
+}

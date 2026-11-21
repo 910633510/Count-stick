@@ -1,0 +1,49 @@
+{
+  "status": "PASS_V2_PRETRAINING_SMOOTH_ROD_COVERAGE_ADDITION",
+  "createdUTC": "2026-10-26T14:20:42.471420+00:00",
+  "previous44RowsByteValueUnchanged": true,
+  "previous10FreshTestRowsUnchanged": true,
+  "newNaturalFullPhotoViews": 4,
+  "newTrain": 2,
+  "newVal": 2,
+  "newTest": 0,
+  "totalCounts": {
+    "train": {
+      "images": 34,
+      "groups": 9,
+      "targets": 0
+    },
+    "val": {
+      "images": 4,
+      "groups": 4,
+      "targets": 0
+    },
+    "test": {
+      "images": 10,
+      "groups": 10,
+      "targets": 0
+    }
+  },
+  "fullManifestPath": "output/pipes-hardening-20261026/data/negatives/negative-candidates-v2.json",
+  "fullManifestSHA256": "4ba65082e727bc86c0c6e22937b9d69d62cbc153e2157a728bd904331e1dba8c",
+  "trainValManifestPath": "output/pipes-hardening-20261026/data/negatives/negative-train-val-candidates-v2.json",
+  "trainValManifestSHA256": "4a51468ddb0a1412de3ca6cf5bc2181ffd6bd582c6b1e556903b30915b0b3e64",
+  "v1QASHA256": "d802483f5edc45b5289611649dcce4ab6834352b809d32d22b1ed8a623e18271",
+  "visualReviewSHA256": "f8ae75029387d3f8c7558be6e3720f02ee468159327e837fb04c86246037db41",
+  "dedupSHA256": "6f3c063633f46418ad94390c36a11cc7415492030d586707b2f42a7b006eeae8",
+  "comparisonIdentities": 1631,
+  "SIFTPairs": 3774,
+  "SHAOrRGBMatches": 0,
+  "flaggedSIFTPairs": 0,
+  "additionalPayloadBytes": 881193,
+  "maximumAdditionalPayloadBytes": 50000000,
+  "modelInferencePerformed": false,
+  "trainingStartedByThisAgent": false,
+  "originalV1ManifestsModified": false,
+  "newAssignments": {
+    "hardneg-smooth-add-roundsbar": "val",
+    "hardneg-smooth-add-xincheng": "val",
+    "hardneg-smooth-add-atg": "train",
+    "hardneg-smooth-add-stalko": "train"
+  }
+}

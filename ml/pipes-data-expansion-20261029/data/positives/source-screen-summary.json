@@ -1,0 +1,87 @@
+{
+  "status": "DISCOVERY_AND_CURATED_POSITIVE_HANDOFF_COMPLETE",
+  "proposalPath": "output/pipes-data-expansion-20261029/data/positives/positive-proposal.json",
+  "proposalSHA256": "fbb5c9657a3a25506f1732cc72cd150bfa0550d37d2135f8c1fa411a8d465597",
+  "acceptedImages": 13,
+  "acceptedProvisionalGroups": 13,
+  "acceptedGT": 155,
+  "countBandImageCounts": {
+    "6-20": 8,
+    "1-5": 4,
+    ">20": 1
+  },
+  "sources": [
+    {
+      "source": "Roboflow pipes-dgsio v2, public archived YOLO export",
+      "sourcePage": "https://universe.roboflow.com/kulkarni-rohan-qaewj/pipes-dgsio/dataset/2",
+      "acquisitionRepository": "https://github.com/saktheeswaranswan/pipe-counting-dataset-link-and-weights-phd-projects",
+      "downloadBytes": 142555259,
+      "archiveImages": 2189,
+      "authorCount1To20Views": 1082,
+      "distinctLowCountFilenameStemsScreened": 313,
+      "acceptedImages": 9,
+      "acceptedGT": 106,
+      "limitations": [
+        "Mixed bbox/polygon annotations, source PVC/square/uncertain materials present.",
+        "README no augmentation describes this export only; visually obvious upstream color/noise variants were found and excluded.",
+        "All published640x640 stretched; source-native dimensions unknown.",
+        "Original author labels were incomplete on some clipped edges; derived corrections reviewed independently by Codex agents."
+      ]
+    },
+    {
+      "source": "Wikimedia Commons photographer originals/full-frame published thumbnails",
+      "newDownloadedCandidateThumbnails": 79,
+      "acceptedImages": 4,
+      "acceptedGT": 49,
+      "acceptedIDs": [
+        "cmnew_004",
+        "cmnew_057",
+        "cmnew_071",
+        "cmnew_073"
+      ],
+      "limitations": [
+        "All source-original resolutions exceed512. Their downloaded thumbnails are not claimed as native low-resolution.",
+        "Some original requests returned429 and were not retried or bypassed. Existing complete-frame thumbnails were reviewed with exact dimensions."
+      ]
+    }
+  ],
+  "discoveredNotAdmitted": [
+    {
+      "source": "ngeonpetchdechma/counting-pipes on Kaggle",
+      "downloadedSamples": 4,
+      "reason": "Natural4000x2250 dense same-facility pipe bundles; no suitable low-count annotated subset established. Full1.79GB dataset not downloaded."
+    },
+    {
+      "source": "New public GitHub candidate repositories",
+      "downloadedUniqueCandidates": 23,
+      "reason": "Mostly existing web-photo families, dense unannotated images, screenshots and digital counting/OCR overlays; no additions admitted from this batch."
+    }
+  ],
+  "explicitExclusions": {
+    "oldOrSealedFamilyLinks": [
+      "RF47 -> existing kaggle009",
+      "RF71 -> existing kaggle011",
+      "RF72 -> existing kaggle012",
+      "RF120 -> existing kaggle019",
+      "RF126 suspicious existing kaggle023 link, conservatively excluded without showing prior test pixels"
+    ],
+    "otherReasons": [
+      "RF59/104 same source crop family; edge completeness remains uncertain, not admitted.",
+      "RF134 matches a previously available unadmitted image whose material remained uncertain, not promoted just to increase count.",
+      "RF29/30/259 have unlabelled background or clipped targets.",
+      "RF202/219/232/237/277/310 have uncertain material/render provenance.",
+      "RF125 strong artificial-looking flare and RF307 edge/missing-label problems not used.",
+      "CM029 cutaway/insert demonstration does not match ordinary exposed metallic round pipe ends.",
+      "CM012/013 foreground is clear but distant blurred pipe fronts prevent complete full-frame annotation. No training crop was added.",
+      "CM043 historical obscured boundary/count uncertainty excluded."
+    ]
+  },
+  "notDone": [
+    "No learned inference on any new photograph",
+    "No training or App edits",
+    "No prior315 label/split changes",
+    "No sealed20 training or model selection",
+    "No accounts, payment, external messages or access-control bypass"
+  ],
+  "planningTargetNote": "Accepted13 is below the hoped-for20+; root explicitly chose quality subset rather than force ambiguous photos. Native-under512 coverage remains unfilled."
+}

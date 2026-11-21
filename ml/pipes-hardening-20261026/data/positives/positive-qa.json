@@ -1,0 +1,119 @@
+{
+  "status": "PASS_LOWCOUNT_POSITIVE_ANNOTATION_AND_GROUP_QA",
+  "createdUTC": "2026-10-26T14:48:11.213052+00:00",
+  "proposalPath": "ml/pipes-hardening-20261026/data/positives/positive-proposal.json",
+  "proposalSHA256": "029cd02e27858b661c53cb218b7ccb83b1765dc777286ac75c75605bce79b6ba",
+  "images": 21,
+  "groups": 18,
+  "boxes": 100,
+  "summary": {
+    "train": {
+      "images": 8,
+      "groups": 5,
+      "objects": 20,
+      "counts": [
+        11,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2,
+        1
+      ]
+    },
+    "val": {
+      "images": 3,
+      "groups": 3,
+      "objects": 27,
+      "counts": [
+        8,
+        2,
+        17
+      ]
+    },
+    "test": {
+      "images": 10,
+      "groups": 10,
+      "objects": 53,
+      "counts": [
+        9,
+        7,
+        8,
+        3,
+        1,
+        6,
+        3,
+        1,
+        3,
+        12
+      ]
+    }
+  },
+  "manualSourceReports": [
+    {
+      "path": "ml/pipes-hardening-20261026/data/positives/root-kaggle-manual-annotations.json",
+      "sha256": "d5a344dd77adbb0b2bfc9863666d907b33bcb7277f1806d267268f40129c0607"
+    },
+    {
+      "path": "ml/pipes-hardening-20261026/data/positives/root-commons-manual-annotations.json",
+      "sha256": "b316816d1125c6b94a5a9a071407efac99c3a1262d8cd5f218ac920c0c01f59d"
+    },
+    {
+      "path": "ml/pipes-hardening-20261026/data/positives/general-manual-annotations.json",
+      "sha256": "1f304f756ff631fba1e4591b2f8e921876e03c66f4363025c4a3ff6aa6344bf4"
+    },
+    {
+      "path": "ml/pipes-hardening-20261026/data/positives/root-maco-lowcount-screen.json",
+      "sha256": "3ddf4acd39f6089abdc72828280ec661d27d7ef6a269e20d8a253761706d59e9"
+    }
+  ],
+  "independentReviews": [
+    {
+      "path": "ml/pipes-hardening-20261026/data/positives/root-annotations-independent-review.json",
+      "sha256": "d59e84f7db5f9c2d154fb62f2ff5c612580f3a99339a4490615e2d6920e494e0"
+    },
+    {
+      "path": "ml/pipes-hardening-20261026/data/positives/general-annotations-independent-review.json",
+      "sha256": "22e553093a569de20381e38f80890c81b861580ea877abed57b1e073c2f813b1"
+    }
+  ],
+  "boundaryCorrection": {
+    "path": "ml/pipes-hardening-20261026/data/positives/manual-rim-correction.json",
+    "sha256": "9d41f96d82c1238d59fd29f54a037215050ac10a381feb8b432aecc169ebacf8"
+  },
+  "duplicateAudit": {
+    "path": "ml/pipes-hardening-20261026/data/positives/duplicate-screen.json",
+    "sha256": "a04b179682eab20239167bed2a9a47f5874024a4432efd6ef8edb4f789b21a81",
+    "old241MatchCount": 0,
+    "allMACO1025Compared": true,
+    "onlyMACOCandidateSelfMatches": true,
+    "manualNewFamilyUnions": [
+      [
+        "commons_018",
+        "commons_019"
+      ],
+      [
+        "commons_082",
+        "commons_091"
+      ],
+      [
+        "commons_124",
+        "commons_125"
+      ]
+    ]
+  },
+  "knownOldTest37OrFamilyUsedForTraining": false,
+  "freshTestImages": 10,
+  "freshTestGroups": 10,
+  "modelPredictionsUsedForAnnotationOrSplit": false,
+  "bytesDownloaded": 76476605,
+  "downloadsUnder1GB": true,
+  "rootFreezeRequired": true,
+  "limits": [
+    "Only21positivephotos/18scenes; finitepublicdata not a broad fieldbenchmark.",
+    "Four unusedMACO lowcountcandidates remain excluded toavoidunresolvedscope; only21 isrecounted17 andadmittedval.",
+    "Commonslabelassetsareactual960pxservedthumbnails; no originalresolutionclaim.",
+    "No knownoldsource linksunderbyte/RGB+exhaustiveSIFT/pHashscreen, butphysicalscene independence cannot beprovedsolelyfromfeatures."
+  ]
+}

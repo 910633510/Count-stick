@@ -1,0 +1,89 @@
+{
+  "status": "PROPOSAL_ONLY_ROOT_REVIEW_REQUIRED_NOT_TRAINING_AUTHORIZATION",
+  "scope": "Next bounded pipe retention experiment; retain all prior baseline/hardening failures. This document does not open data or change a frozen namespace.",
+  "initializationAndTeacher": {
+    "path": "output/pipes-20261026/model/checkpoints/epoch020.pt",
+    "sha256": "48a77fd9198b23695f470b172397e918c9113238bfef2d421d8bbd431f69af12",
+    "neverInitializeFromFailedCandidate": true
+  },
+  "sameFrozenDataPlan": {
+    "train": "Existing old164 plus hardening fresh42; retain current labels/groups/splits.",
+    "development": "Old40 plus fresh7 only, existing same-App gallery/camera PNGs.",
+    "fresh20": "Remain unopened; only a qualified final candidate may use it once.",
+    "former37": "Known failed regression only after fresh-test PASS as already declared; no checkpoint or threshold selection.",
+    "newDataReadByPrototype": false
+  },
+  "singleRecipeProposal": {
+    "epochs": 12,
+    "checkpoints": [
+      4,
+      8,
+      12
+    ],
+    "confidence": 0.3,
+    "nmsIoU": 0.7,
+    "candidateCount": 3,
+    "inputSize": 1024,
+    "batch": 4,
+    "learningRate": 0.0001,
+    "samplesPerEpoch": 320,
+    "bucketMasses": {
+      "old_positive": 0.5,
+      "new_positive": 0.25,
+      "negative": 0.25
+    },
+    "freeze": "All backbone and neck modules model.0..22; only Detect model.23 parameters trainable except fixed DFL integral. All BN running statistics across model, including Detect, frozen. Detect BN affine parameters remain trainable.",
+    "trainableParameters": 430851,
+    "totalParameters": 2590035,
+    "newAugmentation": "None adopted. Keep prior recipe augmentation unless root separately freezes a new proposal after cached MACO21 diagnosis.",
+    "noHyperparameterGrid": true
+  },
+  "KDProposal": {
+    "supervision": "Original v8DetectionLoss on the entire batch; add direct same-anchor distribution KL only for original old_positive TRAIN images. No distillation on old negatives, new positives, new negatives or any validation/test image.",
+    "targets": "Frozen original teacher raw scores[B,1,A] before sigmoid and boxes[B,64,A] before DFL decoding; reg_max16; no feature projector or extra model.",
+    "classification": "Bernoulli KL teacher||student atT1, soft teacher foregroundp and background1-p each anchor-normalized per image then averaged equally. No hard pseudo-label confidence cutoff.",
+    "regression": "Categorical KL of each16-bin DFL edge distribution, edge-averaged then anchor-weighted by detached teacher foreground probability, per-image normalized.",
+    "batchScalingInPrototype": "Add B*lambda_cls*mean(old-image classificationKL) and B*lambda_dfl*mean(old-imageDFLKL), matching original detection loss B scaling. Mixed-batch old count is logged. Zero old images yields graph-connected exactzero KD.",
+    "proposedCoefficients": {
+      "lambda_cls": 1.0,
+      "lambda_dfl": 1.0
+    },
+    "coefficientLimit": "Unit coefficients establish a concrete proposal, not a measured optimal gradient balance. The synthetic probe does not calibrate real-data gradient magnitudes or prove retention; root must freeze coefficients before any next training.",
+    "noRandomProjection": true,
+    "roundoff": "Do not clamp small signed KL roundoff; record it. Initial mathematically identical tensors yield exact0. Same no-grad model paths are bitwiseequal; grad-enabled/no-grad comparisons use root-declaredmaxlogit1e-5 and absKL1e-8."
+  },
+  "requiredTrainerIntegration": [
+    "BaseTrainer freezes modules0..22 before optimizer creation; explicitly force EVERY BN to eval after each model.train call.",
+    "Create EMA before attaching the training-only custom criterion. Keep frozen teacher only on trainer; criterion is a plain callable with a weakref, never a registered student module.",
+    "Derive old_positive mask from frozen original TRAIN IDs in preprocess_batch, not user filenames or GT-dependent deployment routing; record actualteacher consumed IDs and assert subset equals the batch mask.",
+    "Teacher is eval and all teacher parameters require_gradFalse; optimizer IDs must be disjoint. Pass exactly the already augmented/normalized old-positive image tensors.",
+    "Before saves assert live/EMA finite, frozen backbone/neck/BN state unchanged, EMA lacks custom criterion; preserve provenTrue\u2192callback\u2192real4/8/12checkpoint checks.",
+    "Checkpoint must remain standardDetectionModel: no teacher submodule, no custom criterion/prototypepickle globals, samepipe_end/rawIO.",
+    "Keep all existing development qualification and oldscene aggregate/size gates unchanged; selected=null preservesfresh20. No unsupported success claim."
+  ],
+  "evidence": {
+    "prototypeCodeSHA256": {
+      "head_kd.py": "d04b28bf30497677a191f5db0c3ac81fdfd2dffda5b91201f8e83ab220fbcac3",
+      "probe.py": "1ba1d09f4e752bba1f3d88ffa1697159884c098bec87e8fd5fe11fb876fc38fd"
+    },
+    "probeReportPath": "output/pipes-retention-kd-prototype-20261026/probe-report.json",
+    "probeReportSHA256": "e936e316aab7687877854c1706e707303c7460007c104c3e957fbfe6ae41a8de",
+    "serializationAuditPath": "output/pipes-retention-kd-prototype-20261026/serialization-audit.json",
+    "serializationAuditSHA256": "7719e92b3c8ad6d6b68aa09306b0879e0cceb3c3f9ca0811b61f61dbe376ad18",
+    "installedUltralytics": "8.4.123",
+    "localInterfaces": {
+      "Detect.forward_head": "    def forward_head(\n        self, x: list[torch.Tensor], box_head: torch.nn.Module = None, cls_head: torch.nn.Module = None\n    ) -> dict[str, torch.Tensor]:\n        \"\"\"Concatenates and returns predicted bounding boxes and class probabilities.\"\"\"\n        if box_head is None or cls_head is None:  # for fused inference\n            return {}\n        bs = x[0].shape[0]  # batch size\n        boxes = torch.cat([box_head[i](x[i]).view(bs, 4 * self.reg_max, -1) for i in range(self.nl)], dim=-1)\n        scores = torch.cat([cls_head[i](x[i]).view(bs, self.nc, -1) for i in range(self.nl)], dim=-1)\n        return {\"boxes\": boxes, \"scores\": scores, \"feats\": x}\n",
+      "BaseTrainer._model_train": "    def _model_train(self):\n        \"\"\"Set model in training mode.\"\"\"\n        self.model.train()\n        # Freeze BN stat\n        for n, m in self.model.named_modules():\n            if any(filter(lambda f: f in n, self.freeze_layer_names)) and isinstance(m, nn.BatchNorm2d):\n                m.eval()\n",
+      "v8DetectionLoss.loss": "    def loss(\n        self, preds: dict[str, torch.Tensor], batch: dict[str, torch.Tensor]\n    ) -> tuple[torch.Tensor, dict[str, torch.Tensor]]:\n        \"\"\"Calculate detection loss using assigned targets.\"\"\"\n        batch_size = preds[\"boxes\"].shape[0]\n        loss, loss_detach = self.get_assigned_targets_and_loss(preds, batch)[1:]\n        return loss * batch_size, loss_detach\n"
+    },
+    "CPUAndMPSSynthetic128Only": true,
+    "optimizerSteps": 0,
+    "modelForwardBackwardIsNotTrainingAccuracyEvidence": true
+  },
+  "preservedPrototypeFailures": [
+    "probe.log/probe.v1-exact-zero.py: strictbitwise training-vs-frozen-path expectation failedCPUclass2.861e-6; root corrected synthetic numerical expectation, not accuracy gates.",
+    "probe-v2.log/probe.v2-before-complete-loss-args.py: inference wrapper args omitted supervisedloss gains; probe now reconstructs full savedtrainargs via installedget_cfg, as realtrainer does.",
+    "probe-v3.log/probe.v3-before-attribute-safe-report.py: standardcheckpoint had no criterion attribute, while reporting attempted directattribute access. save itself succeeded; finalreport uses absence-or-None and preserves the earlier saved artifact."
+  ],
+  "nextStep": "Root review of this proposal and general cached-scale diagnosis before implementing/freezing a full next operator. No training in this prototype."
+}

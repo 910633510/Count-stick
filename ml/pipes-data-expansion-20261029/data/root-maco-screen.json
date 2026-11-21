@@ -1,0 +1,32 @@
+{
+  "status": "ROOT_VISUAL_SCREEN_NO_ADMISSIONS",
+  "contactSheet": "output/pipes-data-expansion-20261029/data/root-maco/sheet-00.jpg",
+  "rows": [
+    {
+      "number": 332,
+      "decision": "EXCLUDE",
+      "reason": "Gray plastic-like pipe materials; same source scene as449; no confident metallic classification."
+    },
+    {
+      "number": 449,
+      "decision": "EXCLUDE",
+      "reason": "Same scene as332, uncertain metal versusplastic; no new source group."
+    },
+    {
+      "number": 617,
+      "decision": "EXCLUDE",
+      "reason": "Worksite long side-view stock rather than identifiable front rim targets; current author labels nottarget matched."
+    },
+    {
+      "number": 969,
+      "decision": "QUARANTINE",
+      "reason": "Very lowresolution regular front-view array, source material/edited origin notresolved fromnative photo."
+    },
+    {
+      "number": 970,
+      "decision": "QUARANTINE",
+      "reason": "Lowresolution brown weathered tubes resemble bamboo/uncertain material; do not assume steel fromsourcefolder."
+    }
+  ],
+  "modelInferencePerformed": false
+}

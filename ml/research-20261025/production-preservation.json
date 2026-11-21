@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checkedAtUTC": "2026-10-25T21:43:17.304318+00:00",
+  "files": {
+    "Count stick/CountModel.swift": true,
+    "Count stick/Count_stickApp.swift": true,
+    "Count stick/CountHistory.swift": true,
+    "Count stick/ImagePicker.swift": true,
+    "Count stick/CountWorkspace.swift": true,
+    "Count stick/SubscriptionView.swift": true,
+    "Count stick/CountingAccess.swift": true,
+    "Count stick/StickDetector.swift": true,
+    "Count stick/ContentView.swift": true,
+    "Count stick/AutoCountRegion.swift": true,
+    "Count stick/zh-Hans.lproj/Localizable.strings": true,
+    "Count stick/zh-Hans.lproj/InfoPlist.strings": true,
+    "Count stick/en.lproj/Localizable.strings": true,
+    "Count stick/en.lproj/InfoPlist.strings": true,
+    "Count stick.xcodeproj/project.pbxproj": true,
+    "Count stick/Assets.xcassets/AppIcon.appiconset/Contents.json": true,
+    "Count stick/Assets.xcassets/AppIcon.appiconset/AppIcon-CountScope-Camera.png": true
+  },
+  "productionSourcesModifiedByResearch": false,
+  "scope": "17 signed-release production-source bindings; this does not refresh App Store review status."
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS_WITH_NONBLOCKING_CLARIFICATIONS",
+  "reviewedUTC": "2026-10-26T05:26:39.085640+00:00",
+  "scope": "Detection/KD/SAHI/P2, existing data geometry and acceptance boundaries; segmentation/general-counting claims belong to their specialist reviews.",
+  "READMEsha256": "2f1f974c53d004f0998e026999de69841d07acba9a88f4245f3dd858b3d2d96b",
+  "evidenceHashes": {
+    "ml/github-research-20261026/detection-training.json": "3e1881b70025d89971ead6017e985307fb927344beca4d61ab825e8ef446f992",
+    "ml/github-research-20261026/existing-pipeline-audit.json": "4be8ef8e9cac11755b3dca5a11dc7790ee0604866b25981b6cd54f3df2ff0bcc",
+    "output/datasets/colony-hardcases-retention-v1/manifest.json": "2d45c24b8a20e445cb75d024bf5161c2c979a51359059a860d06fa98ff7bda37"
+  },
+  "blockingFindings": [],
+  "checks": {
+    "officialKDMechanismAndLocal8_4_123Availability": true,
+    "MPSProbeExplicitlyZeroOptimizerAndNotFullTrainingAcceptance": true,
+    "TeacherEvalFrozenAndNoGradClaimMatchesProbe": true,
+    "SAHIWholePassAllTileGatherVersusCurrentOwnershipCache": true,
+    "SAHILowConfidenceAutomaticNMSBranchAcknowledged": true,
+    "OfficialP2AvailabilityAnd3vs4LevelAlignmentCaveat": true,
+    "P2GridNumbersAreNotRuntimeMemoryBenchmark": true,
+    "ScaleAndExposureNumbersMatchRootAudit": true,
+    "GeometryProjectionIsNotClaimedAsModelErrorCause": true,
+    "SevenNewPositiveTrainingRecordsReallyContainCropXYXYInOriginal": true,
+    "FutureProposalsExplicitlyNOT_RUN": true,
+    "OldGateAndNoValidationBackfeedingSemanticsPreserved": true
+  },
+  "clarifications": [
+    {
+      "priority": "P2",
+      "blocking": false,
+      "lines": "56–57",
+      "topic": "Whole-image annotation coverage before any future execution",
+      "finding": "All7newpositiveTRAIN records have cropXYXYInOriginal. Restoring their originalfullphoto does not automatically restore labels for objects outside the annotatedcrop. Step1 should distinguish the currently labeled prepared-image extent from an uncropped original; step2 needs full annotation/explicit supportedignore/quarantine before unseenforeground can be treated as background. This is a plan clarification, not a claim currenttraining already used invalidlabels.",
+      "suggestedText": "先以当前完整标注的准备图像范围做整图/切片对照；若恢复原始全皿照片，须补齐ROI外标注或使用明确支持的忽略/隔离方案，不能把未标注菌落当背景。"
+    },
+    {
+      "priority": "P3",
+      "blocking": false,
+      "lines": "25–27",
+      "topic": "Exact SAHI switch flags",
+      "finding": "The statement is correct for our4slice case. For executableprecision, fullpass defaultsTrue and runs whennum_slices>1; lowconfidence is<0.1; settingpostprocess_type alone does not suppress automaticfallback, force_postprocess_type=True does.",
+      "suggestedText": "默认perform_standard_pred=True且切片数>1时增加整图分支；confidence_threshold<0.1时会自动切换NMS/IoU，除非设置force_postprocess_type=True。"
+    },
+    {
+      "priority": "P3",
+      "blocking": false,
+      "lines": "56,62",
+      "topic": "Keep exact heldout sequencing visible in the summary",
+      "finding": "No contradiction with the frozen gates was found; linked detectionJSON contains the exact contract. One summarysentence can prevent future implementation from opening old63/sealed36 during the proposedpostprocess comparison.",
+      "suggestedText": "推理对照仅用训练/开发验证集；开发门槛通过后冻结唯一候选再做允许的旧63回归，失败不切换候选，封存36不参与调参。"
+    }
+  ],
+  "READMEEdited": false,
+  "newResearchTrainingOrModelInferencePerformed": false
+}
